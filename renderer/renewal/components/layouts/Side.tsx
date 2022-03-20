@@ -14,6 +14,8 @@ import Tippy from "@tippyjs/react";
 // const { ipcRenderer, remote, shell } = globalThis.require("electron");
 // const appVersion = remote.app.getVersion();
 const {isNMP} = require("../../../utils/nmp");
+// Edit By BlacK201
+const {editionVersion} = require("../../../utils/edition_version");
 
 const Side = () => {
   const {t} = useTranslation();
@@ -465,6 +467,7 @@ const Side = () => {
         }}>
           <img src={"../../assets/images/offline.svg"}/>
         </span>
+        {/* Edit By BlacK201 */}
         <span className="side-version">
           {(isUpdateAvailable && !isNMP)
               ? <Tippy content={t("update-available")} maxWidth={"280px"}>
@@ -472,7 +475,7 @@ const Side = () => {
                 window.api.send("check-update");
               }}>
                   <img src={"../../assets/images/icon-info-red.svg"} style={{marginRight: "4px"}} width={"18"} height={"18"} />
-                  V.{version}
+                <p>V.{version}</p> <p>{editionVersion}</p>
               </div>
               </Tippy>
             : <>
@@ -491,7 +494,7 @@ const Side = () => {
                     backgroundColor: "#5f32e6"
                   }}
                 >PC방</div>{version}</>
-                : <>V.{version}</>
+                : <><p>V.{version}</p> <p>{editionVersion}</p></>
               }
               </>
           }
