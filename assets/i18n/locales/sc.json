@@ -4,6 +4,7 @@
   "pickban-warning": "该选项卡在开始登场/禁用后可用。.",
   "run-warning": "首先启动《英雄联盟》客户端，然后登录。",
   "admin-warning": "您正在管理员模式下运行《英雄联盟》客户端。请在管理员模式下运行 OP.GG 桌面应用程序，以确保该程序能够正常运行。",
+  "not-supported-region": "<p>OP.GG 文件已经替换成功</p><p>个人资料功能不支持Garena、PBE、腾讯和其它服务器，但您仍然可以使用其它功能。</p>",
   "search-summoner": "召唤师搜索",
   "op": "实时乐趣",
   "update-once": "Updates every hour.",
