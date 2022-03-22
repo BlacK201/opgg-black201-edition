@@ -231,6 +231,8 @@
     "rune-desc": "This option will set the most popular rune for the champion you choose.",
     "item": "Auto Item Settings",
     "item-desc": "This option will set the most popular item builds for the champion you choose.",
+    "autoaccept": "Auto Accept Match Settings",
+    "autoaccept-desc": "This option will automatically accept match when match found.",
     "apm": "APM Settings",
     "apm-desc": "This option will automatically start measuring APM when game starts and stop when game ends.",
     "spell": "Auto Spell / Flash Location Settings",
