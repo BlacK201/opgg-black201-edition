@@ -7,6 +7,7 @@ import {
   setClientLogin,
   setIsAutoRune,
   setIsAutoSpell,
+  setIsAutoAccept,
   setApril,
   setGPM, setRegion, setRiotAccounts
 } from "../../redux/slices/common";
@@ -124,6 +125,7 @@ const Settings = () => {
     isOnStart: isNMP ? localStorage.getItem("autostart") === "true" : getSettingInLocalStorage("autostart"),
     isAutoRune: getSettingInLocalStorage("autorune"),
     isAutoItem: getSettingInLocalStorage("autoitem"),
+    isAutoAccept: getSettingInLocalStorage("autoaccept"),
     isAPM: getSettingInLocalStorage("apm"),
     isSpell: isNMP ? localStorage.getItem("isSpell") === "true" : getSettingInLocalStorage("isSpell"),
     isOverlay: localStorage.getItem("isOverlay2") === "true",
@@ -155,6 +157,8 @@ const Settings = () => {
       dispatch(setIsAutoSpell(checked));
     } else if (ipcEventKey === "april") {
       dispatch(setApril(checked));
+    } else if (ipcEventKey === "autoaccept") {
+      dispatch(setIsAutoAccept(checked));
     } else if (ipcEventKey === "isOverlay") {
       let tmp = {};
       overlays.map((o) => {
@@ -224,6 +228,7 @@ const Settings = () => {
   const onChangeStart = onChangeGame("autostart", "autostart", "isOnStart");
   const onChangeAutoRune = onChangeGame("autorune", "autorune", "isAutoRune");
   const onChangeAutoItem = onChangeGame("autoitem", "autoitem", "isAutoItem");
+  const onChangeAutoAccept = onChangeGame("autoaccept", "autoaccept", "isAutoAccept");
   const onChangeAPM = onChangeGame("apmSetting", "apm", "isAPM");
   const onChangeIsSpell = onChangeGame("isSpell", "isSpell", "isSpell");
   const onChangeIsOverlay = onChangeGame("isOverlay", "isOverlay2", "isOverlay");
@@ -873,6 +878,17 @@ const Settings = () => {
                           </label>
                       </div>
                       <div className="popup-settings-main-row-desc">{t("settings.item-desc")}</div>
+                  </div>
+
+                  <div className={"popup-settings-main-row"}>
+                      <div style={{display: "flex", alignItems: "center"}}>
+                          <div className={"popup-settings-main-row-title"}>{t("settings.autoaccept")}</div>
+                          <label className="switch">
+                              <input type="checkbox" checked={gameSettings.isAutoAccept} onChange={onChangeAutoAccept} />
+                              <span className="slider round"></span>
+                          </label>
+                      </div>
+                      <div className="popup-settings-main-row-desc" >{t("settings.autoaccept-desc")}</div>
                   </div>
 
                 {/*{!isNMP &&*/}
