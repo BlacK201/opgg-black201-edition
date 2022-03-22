@@ -177,6 +177,8 @@
     "rune-desc": "自动为你选择的英雄设置符文。",
     "item": "自动物品设置",
     "item-desc": "自动为你选择的英雄设置推荐出装。",
+    "autoaccept": "自动接受对局",
+    "autoaccept-desc": "在游戏开始时自动接受对局。",
     "apm": "APM Settings",
     "apm-desc": "This option will automatically start measuring APM when game starts and stop when game ends.",
     "spell": "Auto Spell / Flash Location Settings",
