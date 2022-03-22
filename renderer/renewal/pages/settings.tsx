@@ -2,7 +2,7 @@ import React, {ChangeEvent, useEffect, useState} from "react";
 import {useTranslation} from "react-i18next";
 import Modal from "react-modal";
 import {getSettingInLocalStorage} from "../../lib";
-import {setIsSettingOpen, setClientLogin, setIsAutoRune, setIsAutoSpell, setApril} from "../../redux/slices/common";
+import {setIsSettingOpen, setClientLogin, setIsAutoRune, setIsAutoSpell, setIsAutoAccept, setApril} from "../../redux/slices/common";
 import {LANGUAGE_LIST} from "../../constants";
 import {useTypedSelector} from "../../redux/store";
 import {useDispatch} from "react-redux";
@@ -49,6 +49,7 @@ const Settings = () => {
     isOnStart: isNMP ? localStorage.getItem("autostart") === "true" : getSettingInLocalStorage("autostart"),
     isAutoRune: getSettingInLocalStorage("autorune"),
     isAutoItem: getSettingInLocalStorage("autoitem"),
+    isAutoAccept: getSettingInLocalStorage("autoaccept"),
     isAPM: getSettingInLocalStorage("apm"),
     isSpell: isNMP ? localStorage.getItem("isSpell") === "true" : getSettingInLocalStorage("isSpell"),
     isOverlay: localStorage.getItem("isOverlay2") === "true",
@@ -71,6 +72,8 @@ const Settings = () => {
       dispatch(setIsAutoSpell(checked));
     } else if (ipcEventKey === "april") {
       dispatch(setApril(checked));
+    } else if (ipcEventKey === "autoaccept") {
+        dispatch(setIsAutoAccept(checked));
     }
     window.api.send(ipcEventKey, checked);
     localStorage.setItem(storageKey, String(e.target.checked));
@@ -83,6 +86,7 @@ const Settings = () => {
   const onChangeStart = onChangeGame("autostart", "autostart", "isOnStart");
   const onChangeAutoRune = onChangeGame("autorune", "autorune", "isAutoRune");
   const onChangeAutoItem = onChangeGame("autoitem", "autoitem", "isAutoItem");
+  const onChangeAutoAccept = onChangeGame("autoaccept", "autoaccept", "isAutoAccept");
   const onChangeAPM = onChangeGame("apmSetting", "apm", "isAPM");
   const onChangeIsSpell = onChangeGame("isSpell", "isSpell", "isSpell");
   const onChangeIsOverlay = onChangeGame("isOverlay", "isOverlay2", "isOverlay");
@@ -276,6 +280,17 @@ const Settings = () => {
                           </label>
                       </div>
                       <div className="popup-settings-main-row-desc">{t("settings.item-desc")}</div>
+                  </div>
+
+                  <div className={"popup-settings-main-row"}>
+                      <div style={{display: "flex", alignItems: "center"}}>
+                          <div className={"popup-settings-main-row-title"}>{t("settings.autoaccept")}</div>
+                          <label className="switch">
+                              <input type="checkbox" checked={gameSettings.isAutoAccept} onChange={onChangeAutoAccept} />
+                              <span className="slider round"></span>
+                          </label>
+                      </div>
+                      <div className="popup-settings-main-row-desc" >{t("settings.autoaccept-desc")}</div>
                   </div>
 
                 {!isNMP &&
