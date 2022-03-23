@@ -644,6 +644,12 @@ class LoL {
             let selectedRegion = await this.app.window.getLocalStorage("selected-region") ?? "kr";
             let tierFilter = await this.app.window.getLocalStorage("tier-filter") ?? "platinum_plus";
             let versionFilter = await this.app.window.getLocalStorage("version-filter") ?? "";
+            // Edited By BlacK201
+            // 因为韩服数据不足
+            // 当模式为无限乱斗（900）时 使用北美服务器数据
+            if (this.game.queueId === 900) {
+                selectedRegion = "na";
+            }
             this.getChampionData("", this.game.championId, this.game.queueId, true, selectedRegion, tierFilter, -1, versionFilter);
         }
 
