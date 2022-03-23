@@ -994,38 +994,40 @@ class LoL {
 
             let promises = [];
             let summoners = [];
-            data.myTeam.forEach((summoner) => {
-                promises.push(
-                    this.callAPI("GET", "lol", `${lolConstants.LOL_GET_SUMMONER}/${summoner.summonerId}`).then((response) => {
-                        summoners.push(response.data.displayName);
-                    })
-                );
-            });
-            Promise.all(promises).then(() => {
-                this.callAPI("GET", "lol-api-summoner", `/api/${lolConstants.RIOT_REGION_MAP[this.config.region.region]}/summoners?name=${encodeURI(summoners.join(","))}`)
-                    .then(async (res) => {
-                        if (res.status === 200) {
-                            if (res.data) {
-                                let summonerIds = [];
-                                res.data.data.map((summoner) => {
-                                    summonerIds.push(summoner.summoner_id);
-                                });
+            if (this.config.region.region !== "TENCENT") {
+                data.myTeam.forEach((summoner) => {
+                    promises.push(
+                        this.callAPI("GET", "lol", `${lolConstants.LOL_GET_SUMMONER}/${summoner.summonerId}`).then((response) => {
+                            summoners.push(response.data.displayName);
+                        })
+                    );
+                });
+                Promise.all(promises).then(() => {
+                    this.callAPI("GET", "lol-api-summoner", `/api/${lolConstants.RIOT_REGION_MAP[this.config.region.region]}/summoners?name=${encodeURI(summoners.join(","))}`)
+                        .then(async (res) => {
+                            if (res.status === 200) {
+                                if (res.data) {
+                                    let summonerIds = [];
+                                    res.data.data.map((summoner) => {
+                                        summonerIds.push(summoner.summoner_id);
+                                    });
 
-                                let tmpSummoners = [];
-                                if (summonerIds.length > 0) {
-                                    for (let i = 0; i < summonerIds.length; i++) {
-                                        let tmp = await this.callAPI("GET", "lol-api-summoner", `/api/${lolConstants.RIOT_REGION_MAP[this.config.region.region]}/summoners/${summonerIds[i]}/summary`)
-                                            .catch(() => {return null;});
-                                        if (tmp) {
-                                            tmpSummoners.push(tmp.data.data);
+                                    let tmpSummoners = [];
+                                    if (summonerIds.length > 0) {
+                                        for (let i = 0; i < summonerIds.length; i++) {
+                                            let tmp = await this.callAPI("GET", "lol-api-summoner", `/api/${lolConstants.RIOT_REGION_MAP[this.config.region.region]}/summoners/${summonerIds[i]}/summary`)
+                                                .catch(() => {return null;});
+                                            if (tmp) {
+                                                tmpSummoners.push(tmp.data.data);
+                                            }
                                         }
+                                        this.broadcastIPC("multisearch", tmpSummoners);
                                     }
-                                    this.broadcastIPC("multisearch", tmpSummoners);
                                 }
                             }
-                        }
-                    });
-            })
+                        });
+                })
+            }
         }
 
         let localPlayerCellId = data.localPlayerCellId;
