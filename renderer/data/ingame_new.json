@@ -1,0 +1,1036 @@
+{
+  "data": {
+    "game_id": "eq3KyFixtgUzh_pTga3aJ6dc9rQ-DjZMVbjS8S_2X1M=",
+    "created_at": "2021-12-09T13:41:56+09:00",
+    "game_map": "SUMMONERS_RIFT",
+    "queue_info": {
+      "id": 420,
+      "queue_translate": "Ranked Solo/Duo",
+      "game_type": "SOLORANKED"
+    },
+    "record_status": "NONE",
+    "participants": [
+      {
+        "summoner": {
+          "id": 13643828,
+          "summoner_id": "ok2F9dWNogiDxroONVWsqMdYo0ExoySqfs5afkhsy6KmbfQ",
+          "acct_id": "WEtVPgKXm4aWD35DH279Vp-UiQfqM_hUI_mjP0UJdY_K1mA",
+          "puuid": "xTolZBBzlZJcCKmuQzfZD4OT-xsKD0seVsEuiGBAJmGXoyECOEwBYc-gcw0klL4hI5JFyALZ6lfQ-g",
+          "name": "LuLu Umi Nami",
+          "internal_name": "luluuminami",
+          "profile_image_url": "https://opgg-static.akamaized.net/images/profile_icons/profileIcon4921.jpg?image=q_auto",
+          "level": 199,
+          "updated_at": "2021-12-06T13:30:51+09:00",
+          "previous_seasons": [
+            {
+              "season_info": {
+                "id": 17,
+                "value": 11,
+                "display_value": 2021,
+                "is_preseason": false
+              },
+              "tier_info": {
+                "tier": "DIAMOND",
+                "division": 4,
+                "lp": 21,
+                "tier_image_url": "https://opgg-static.akamaized.net/images/medals/diamond_4.png?image=q_auto",
+                "border_image_url": "https://opgg-static.akamaized.net/images/borders2/diamond.png"
+              },
+              "created_at": "2021-11-16T02:35:06+09:00"
+            }
+          ],
+          "league_stats": [
+            {
+              "queue_info": {
+                "id": 4,
+                "queue_translate": "Ranked Solo/Duo",
+                "game_type": "SOLORANKED"
+              },
+              "tier_info": {
+                "tier": "DIAMOND",
+                "division": 3,
+                "lp": 19,
+                "tier_image_url": "https://opgg-static.akamaized.net/images/medals/diamond_3.png?image=q_auto",
+                "border_image_url": "https://opgg-static.akamaized.net/images/borders2/diamond.png"
+              },
+              "win": 159,
+              "lose": 143,
+              "is_hot_streak": false,
+              "is_fresh_blood": false,
+              "is_veteran": false,
+              "series": null,
+              "updated_at": "2021-12-09T13:23:30+09:00"
+            }
+          ]
+        },
+        "team_key": "RED",
+        "champion_id": 117,
+        "position": "SUPPORT",
+        "rune_build": {
+          "primary_page_id": 8400,
+          "primary_rune_ids": [
+            8465,
+            8463,
+            8473,
+            8453
+          ],
+          "secondary_page_id": 8300,
+          "secondary_rune_ids": [
+            8321,
+            8347
+          ],
+          "stat_mod_ids": [
+            5008,
+            5008,
+            5002
+          ]
+        },
+        "spells": [
+          14,
+          4
+        ],
+        "most_champion_stat": {
+          "id": 117,
+          "play": 3,
+          "win": 1,
+          "lose": 2,
+          "kill": 4,
+          "death": 12,
+          "assist": 21,
+          "gold_earned": 18869,
+          "minion_kill": 37,
+          "turret_kill": 0,
+          "neutral_minion_kill": 0,
+          "damage_dealt": 36079,
+          "damage_taken": 31665,
+          "physical_damage_dealt": 12113,
+          "magic_damage_dealt": 19487,
+          "most_kill": 3,
+          "max_kill": 3,
+          "max_death": 5,
+          "double_kill": 0,
+          "triple_kill": 0,
+          "quadra_kill": 0,
+          "penta_kill": 0,
+          "game_length_second": 4979
+        }
+      },
+      {
+        "summoner": {
+          "id": 16011483,
+          "summoner_id": "tUP5VI9_PW6HG6vBW2qYC6azJnl7J796Vb32LtiaV6WUMqM",
+          "acct_id": "2XZHVSRxLbpgWMMJfAsjelWvDCXM7CnoZhT160CdyjDc8vw",
+          "puuid": "f2yxrErK_9i16ul0E9Q7njGes9n_LH-4x34zX4yXOQOFT4gBoW52-ipcAnQ9FVvfZQgT5mmfEWLQ7g",
+          "name": "더 부끄",
+          "internal_name": "더부끄",
+          "profile_image_url": "https://opgg-static.akamaized.net/images/profile_icons/profileIcon8.jpg?image=q_auto",
+          "level": 116,
+          "updated_at": "2021-12-09T01:47:44+09:00",
+          "previous_seasons": [
+            {
+              "season_info": {
+                "id": 17,
+                "value": 11,
+                "display_value": 2021,
+                "is_preseason": false
+              },
+              "tier_info": {
+                "tier": "DIAMOND",
+                "division": 3,
+                "lp": 44,
+                "tier_image_url": "https://opgg-static.akamaized.net/images/medals/diamond_3.png?image=q_auto",
+                "border_image_url": "https://opgg-static.akamaized.net/images/borders2/diamond.png"
+              },
+              "created_at": "2021-11-16T02:35:16+09:00"
+            }
+          ],
+          "league_stats": [
+            {
+              "queue_info": {
+                "id": 4,
+                "queue_translate": "Ranked Solo/Duo",
+                "game_type": "SOLORANKED"
+              },
+              "tier_info": {
+                "tier": "DIAMOND",
+                "division": 4,
+                "lp": 45,
+                "tier_image_url": "https://opgg-static.akamaized.net/images/medals/diamond_4.png?image=q_auto",
+                "border_image_url": "https://opgg-static.akamaized.net/images/borders2/diamond.png"
+              },
+              "win": 540,
+              "lose": 508,
+              "is_hot_streak": false,
+              "is_fresh_blood": false,
+              "is_veteran": false,
+              "series": null,
+              "updated_at": "2021-12-09T02:24:42+09:00"
+            }
+          ]
+        },
+        "team_key": "RED",
+        "champion_id": 112,
+        "position": "MID",
+        "rune_build": {
+          "primary_page_id": 8300,
+          "primary_rune_ids": [
+            8369,
+            8313,
+            8345,
+            8352
+          ],
+          "secondary_page_id": 8200,
+          "secondary_rune_ids": [
+            8226,
+            8210
+          ],
+          "stat_mod_ids": [
+            5005,
+            5008,
+            5002
+          ]
+        },
+        "spells": [
+          12,
+          4
+        ],
+        "most_champion_stat": {
+          "id": 112,
+          "play": 10,
+          "win": 3,
+          "lose": 7,
+          "kill": 47,
+          "death": 63,
+          "assist": 73,
+          "gold_earned": 112924,
+          "minion_kill": 1674,
+          "turret_kill": 7,
+          "neutral_minion_kill": 105,
+          "damage_dealt": 1290812,
+          "damage_taken": 176156,
+          "physical_damage_dealt": 123668,
+          "magic_damage_dealt": 1114025,
+          "most_kill": 13,
+          "max_kill": 13,
+          "max_death": 12,
+          "double_kill": 2,
+          "triple_kill": 0,
+          "quadra_kill": 0,
+          "penta_kill": 0,
+          "game_length_second": 17061
+        }
+      },
+      {
+        "summoner": {
+          "id": 17953179,
+          "summoner_id": "i0nmnk022m_S5KSGa8FgP9C-d417FaAZMzVUoYxX8e63v6E",
+          "acct_id": "kUXoK6bbOfl5GpnFuWOomg5j6HaA46dhSBFwsK9Uiq0E6Nc",
+          "puuid": "M-8fmqzgowvhB1mieP6fuU7qFsH7JZYwpUlpAbFNWkCpm-TNiwWTMTWvgaBW4xSDnPvTzQDWyxJLQA",
+          "name": "아칼리 케인 ",
+          "internal_name": "아칼리케인",
+          "profile_image_url": "https://opgg-static.akamaized.net/images/profile_icons/profileIcon910.jpg?image=q_auto",
+          "level": 230,
+          "updated_at": "2021-12-08T13:37:22+09:00",
+          "previous_seasons": [],
+          "league_stats": [
+            {
+              "queue_info": {
+                "id": 4,
+                "queue_translate": "Ranked Solo/Duo",
+                "game_type": "SOLORANKED"
+              },
+              "tier_info": {
+                "tier": "DIAMOND",
+                "division": 3,
+                "lp": 2,
+                "tier_image_url": "https://opgg-static.akamaized.net/images/medals/diamond_3.png?image=q_auto",
+                "border_image_url": "https://opgg-static.akamaized.net/images/borders2/diamond.png"
+              },
+              "win": 77,
+              "lose": 68,
+              "is_hot_streak": false,
+              "is_fresh_blood": true,
+              "is_veteran": false,
+              "series": null,
+              "updated_at": "2021-12-09T14:01:02+09:00"
+            }
+          ]
+        },
+        "team_key": "RED",
+        "champion_id": 141,
+        "position": "JUNGLE",
+        "rune_build": {
+          "primary_page_id": 8100,
+          "primary_rune_ids": [
+            8128,
+            8143,
+            8138,
+            8106
+          ],
+          "secondary_page_id": 8300,
+          "secondary_rune_ids": [
+            8304,
+            8321
+          ],
+          "stat_mod_ids": [
+            5008,
+            5008,
+            5002
+          ]
+        },
+        "spells": [
+          4,
+          11
+        ],
+        "most_champion_stat": {
+          "id": 141,
+          "play": 82,
+          "win": 51,
+          "lose": 31,
+          "kill": 900,
+          "death": 404,
+          "assist": 563,
+          "gold_earned": 939016,
+          "minion_kill": 2752,
+          "turret_kill": 42,
+          "neutral_minion_kill": 9386,
+          "damage_dealt": 12149816,
+          "damage_taken": 2102061,
+          "physical_damage_dealt": 10649224,
+          "magic_damage_dealt": 565289,
+          "most_kill": 35,
+          "max_kill": 35,
+          "max_death": 12,
+          "double_kill": 82,
+          "triple_kill": 8,
+          "quadra_kill": 1,
+          "penta_kill": 0,
+          "game_length_second": 121422
+        }
+      },
+      {
+        "summoner": {
+          "id": 31854829,
+          "summoner_id": "emT3Rm5USfHXyK0N6dCuSiCvCPr6oTtwVy-MMJUv2d9g5bo",
+          "acct_id": "8jznw5_XzyRsPg4FCmy5uUSlQoA2GJc2s60A4studlzttKQ",
+          "puuid": "9K6Igz_5AHS2KFf1rQT6V8wSW1OMaSfwWw7ycnAd9kxQ6iq0b0VWuktGRHoClhNEWdO8P8d54ig25A",
+          "name": "돌아가는길을몰라",
+          "internal_name": "돌아가는길을몰라",
+          "profile_image_url": "https://opgg-static.akamaized.net/images/profile_icons/profileIcon29.jpg?image=q_auto",
+          "level": 498,
+          "updated_at": "2021-12-09T13:36:39+09:00",
+          "previous_seasons": [
+            {
+              "season_info": {
+                "id": 17,
+                "value": 11,
+                "display_value": 2021,
+                "is_preseason": false
+              },
+              "tier_info": {
+                "tier": "DIAMOND",
+                "division": 3,
+                "lp": 55,
+                "tier_image_url": "https://opgg-static.akamaized.net/images/medals/diamond_3.png?image=q_auto",
+                "border_image_url": "https://opgg-static.akamaized.net/images/borders2/diamond.png"
+              },
+              "created_at": "2021-11-16T02:37:14+09:00"
+            }
+          ],
+          "league_stats": [
+            {
+              "queue_info": {
+                "id": 4,
+                "queue_translate": "Ranked Solo/Duo",
+                "game_type": "SOLORANKED"
+              },
+              "tier_info": {
+                "tier": "DIAMOND",
+                "division": 3,
+                "lp": 18,
+                "tier_image_url": "https://opgg-static.akamaized.net/images/medals/diamond_3.png?image=q_auto",
+                "border_image_url": "https://opgg-static.akamaized.net/images/borders2/diamond.png"
+              },
+              "win": 1121,
+              "lose": 1113,
+              "is_hot_streak": false,
+              "is_fresh_blood": false,
+              "is_veteran": false,
+              "series": null,
+              "updated_at": "2021-12-09T13:36:40+09:00"
+            }
+          ]
+        },
+        "team_key": "RED",
+        "champion_id": 777,
+        "position": "TOP",
+        "rune_build": {
+          "primary_page_id": 8000,
+          "primary_rune_ids": [
+            8008,
+            9111,
+            9104,
+            8014
+          ],
+          "secondary_page_id": 8400,
+          "secondary_rune_ids": [
+            8444,
+            8453
+          ],
+          "stat_mod_ids": [
+            5005,
+            5008,
+            5002
+          ]
+        },
+        "spells": [
+          4,
+          12
+        ],
+        "most_champion_stat": {
+          "id": 777,
+          "play": 2,
+          "win": 1,
+          "lose": 1,
+          "kill": 20,
+          "death": 8,
+          "assist": 15,
+          "gold_earned": 28063,
+          "minion_kill": 381,
+          "turret_kill": 6,
+          "neutral_minion_kill": 62,
+          "damage_dealt": 351623,
+          "damage_taken": 35718,
+          "physical_damage_dealt": 285246,
+          "magic_damage_dealt": 49363,
+          "most_kill": 13,
+          "max_kill": 13,
+          "max_death": 6,
+          "double_kill": 3,
+          "triple_kill": 0,
+          "quadra_kill": 0,
+          "penta_kill": 0,
+          "game_length_second": 3096
+        }
+      },
+      {
+        "summoner": {
+          "id": 35740747,
+          "summoner_id": "n1g-FZpv5fzxOAVERZYRhSXe46cFJXTZ96valHX5niPlxa0",
+          "acct_id": "RjTPwR3fKmT-PzfSU3JHdo3Gl6u0IQ84322DCRgv7PQAIRw",
+          "puuid": "OhB7wx88aOzn0huney34L5tPoHELjka9bDitFMnAtg3NkLXqj8aJo8sAKF5vU7HlpsO5vv-trbGHPg",
+          "name": "앙 에코띠",
+          "internal_name": "앙에코띠",
+          "profile_image_url": "https://opgg-static.akamaized.net/images/profile_icons/profileIcon4903.jpg?image=q_auto",
+          "level": 590,
+          "updated_at": "2021-12-09T12:59:09+09:00",
+          "previous_seasons": [
+            {
+              "season_info": {
+                "id": 17,
+                "value": 11,
+                "display_value": 2021,
+                "is_preseason": false
+              },
+              "tier_info": {
+                "tier": "DIAMOND",
+                "division": 4,
+                "lp": 75,
+                "tier_image_url": "https://opgg-static.akamaized.net/images/medals/diamond_4.png?image=q_auto",
+                "border_image_url": "https://opgg-static.akamaized.net/images/borders2/diamond.png"
+              },
+              "created_at": "2021-11-16T02:37:36+09:00"
+            }
+          ],
+          "league_stats": [
+            {
+              "queue_info": {
+                "id": 4,
+                "queue_translate": "Ranked Solo/Duo",
+                "game_type": "SOLORANKED"
+              },
+              "tier_info": {
+                "tier": "DIAMOND",
+                "division": 3,
+                "lp": 82,
+                "tier_image_url": "https://opgg-static.akamaized.net/images/medals/diamond_3.png?image=q_auto",
+                "border_image_url": "https://opgg-static.akamaized.net/images/borders2/diamond.png"
+              },
+              "win": 1013,
+              "lose": 973,
+              "is_hot_streak": true,
+              "is_fresh_blood": false,
+              "is_veteran": false,
+              "series": null,
+              "updated_at": "2021-12-09T13:59:53+09:00"
+            }
+          ]
+        },
+        "team_key": "BLUE",
+        "champion_id": 203,
+        "position": "JUNGLE",
+        "rune_build": {
+          "primary_page_id": 8000,
+          "primary_rune_ids": [
+            8005,
+            9111,
+            9104,
+            8014
+          ],
+          "secondary_page_id": 8100,
+          "secondary_rune_ids": [
+            8138,
+            8135
+          ],
+          "stat_mod_ids": [
+            5005,
+            5008,
+            5002
+          ]
+        },
+        "spells": [
+          4,
+          11
+        ],
+        "most_champion_stat": {
+          "id": 203,
+          "play": 15,
+          "win": 11,
+          "lose": 4,
+          "kill": 115,
+          "death": 79,
+          "assist": 106,
+          "gold_earned": 163693,
+          "minion_kill": 499,
+          "turret_kill": 15,
+          "neutral_minion_kill": 1660,
+          "damage_dealt": 2068666,
+          "damage_taken": 306794,
+          "physical_damage_dealt": 1461731,
+          "magic_damage_dealt": 332891,
+          "most_kill": 14,
+          "max_kill": 14,
+          "max_death": 10,
+          "double_kill": 16,
+          "triple_kill": 1,
+          "quadra_kill": 0,
+          "penta_kill": 0,
+          "game_length_second": 22603
+        }
+      },
+      {
+        "summoner": {
+          "id": 43850914,
+          "summoner_id": "RDpI0_4dCV2suP3205cOUNKFiFrg9AVKWKM4iFNHvEzJGs0",
+          "acct_id": "FpZQcX_W8gNAj39d5XBl21vPgw7h4KAd0P-2C4oaM1A3fiU",
+          "puuid": "qIQ8F_ct4uCsEPyuSyduWgYh3VdgBJ-xa8_jtv8QchJI7x_Sfbf_JXBalO60lfEqvglsC5qtt3LVxA",
+          "name": "그만죽어나무서워",
+          "internal_name": "그만죽어나무서워",
+          "profile_image_url": "https://opgg-static.akamaized.net/images/profile_icons/profileIcon988.jpg?image=q_auto",
+          "level": 342,
+          "updated_at": "2021-12-09T13:40:25+09:00",
+          "previous_seasons": [
+            {
+              "season_info": {
+                "id": 17,
+                "value": 11,
+                "display_value": 2021,
+                "is_preseason": false
+              },
+              "tier_info": {
+                "tier": "DIAMOND",
+                "division": 2,
+                "lp": 55,
+                "tier_image_url": "https://opgg-static.akamaized.net/images/medals/diamond_2.png?image=q_auto",
+                "border_image_url": "https://opgg-static.akamaized.net/images/borders2/diamond.png"
+              },
+              "created_at": "2021-11-16T02:38:21+09:00"
+            }
+          ],
+          "league_stats": [
+            {
+              "queue_info": {
+                "id": 4,
+                "queue_translate": "Ranked Solo/Duo",
+                "game_type": "SOLORANKED"
+              },
+              "tier_info": {
+                "tier": "DIAMOND",
+                "division": 4,
+                "lp": 75,
+                "tier_image_url": "https://opgg-static.akamaized.net/images/medals/diamond_4.png?image=q_auto",
+                "border_image_url": "https://opgg-static.akamaized.net/images/borders2/diamond.png"
+              },
+              "win": 697,
+              "lose": 683,
+              "is_hot_streak": false,
+              "is_fresh_blood": false,
+              "is_veteran": false,
+              "series": null,
+              "updated_at": "2021-12-09T13:51:35+09:00"
+            }
+          ]
+        },
+        "team_key": "BLUE",
+        "champion_id": 42,
+        "position": "MID",
+        "rune_build": {
+          "primary_page_id": 8300,
+          "primary_rune_ids": [
+            8369,
+            8304,
+            8345,
+            8347
+          ],
+          "secondary_page_id": 8400,
+          "secondary_rune_ids": [
+            8446,
+            8429
+          ],
+          "stat_mod_ids": [
+            5005,
+            5008,
+            5002
+          ]
+        },
+        "spells": [
+          12,
+          4
+        ],
+        "most_champion_stat": null
+      },
+      {
+        "summoner": {
+          "id": 57471136,
+          "summoner_id": "WuSDEQuvcG3zbE3t7A_MM3S67SdJ2729-does1Fagibtfyc",
+          "acct_id": "9lUMmIfA89VlKmPePbI1pPLmC8s_JfowLL4itM2kSksTSG8",
+          "puuid": "TeDg6imWUaoI85tD1YwSJ_eR8i5raGUTeI8-Arqk8zi-8Tjjutka3dPFHT3Ry1m9MpbVyBBhjTeL_Q",
+          "name": "하기 싫음 던짐",
+          "internal_name": "하기싫음던짐",
+          "profile_image_url": "https://opgg-static.akamaized.net/images/profile_icons/profileIcon4764.jpg?image=q_auto",
+          "level": 334,
+          "updated_at": "2021-12-09T12:57:05+09:00",
+          "previous_seasons": [
+            {
+              "season_info": {
+                "id": 17,
+                "value": 11,
+                "display_value": 2021,
+                "is_preseason": false
+              },
+              "tier_info": {
+                "tier": "DIAMOND",
+                "division": 4,
+                "lp": null,
+                "tier_image_url": "https://opgg-static.akamaized.net/images/medals/diamond_4.png?image=q_auto",
+                "border_image_url": "https://opgg-static.akamaized.net/images/borders2/diamond.png"
+              },
+              "created_at": "2021-11-16T02:39:16+09:00"
+            }
+          ],
+          "league_stats": [
+            {
+              "queue_info": {
+                "id": 4,
+                "queue_translate": "Ranked Solo/Duo",
+                "game_type": "SOLORANKED"
+              },
+              "tier_info": {
+                "tier": "DIAMOND",
+                "division": 3,
+                "lp": 42,
+                "tier_image_url": "https://opgg-static.akamaized.net/images/medals/diamond_3.png?image=q_auto",
+                "border_image_url": "https://opgg-static.akamaized.net/images/borders2/diamond.png"
+              },
+              "win": 388,
+              "lose": 344,
+              "is_hot_streak": false,
+              "is_fresh_blood": true,
+              "is_veteran": false,
+              "series": null,
+              "updated_at": "2021-12-09T14:01:02+09:00"
+            }
+          ]
+        },
+        "team_key": "BLUE",
+        "champion_id": 43,
+        "position": "SUPPORT",
+        "rune_build": {
+          "primary_page_id": 8200,
+          "primary_rune_ids": [
+            8229,
+            8275,
+            8210,
+            8237
+          ],
+          "secondary_page_id": 8300,
+          "secondary_rune_ids": [
+            8345,
+            8352
+          ],
+          "stat_mod_ids": [
+            5008,
+            5008,
+            5002
+          ]
+        },
+        "spells": [
+          14,
+          4
+        ],
+        "most_champion_stat": {
+          "id": 43,
+          "play": 7,
+          "win": 7,
+          "lose": 0,
+          "kill": 11,
+          "death": 26,
+          "assist": 104,
+          "gold_earned": 52078,
+          "minion_kill": 104,
+          "turret_kill": 5,
+          "neutral_minion_kill": 4,
+          "damage_dealt": 216405,
+          "damage_taken": 92130,
+          "physical_damage_dealt": 33696,
+          "magic_damage_dealt": 180480,
+          "most_kill": 4,
+          "max_kill": 4,
+          "max_death": 7,
+          "double_kill": 2,
+          "triple_kill": 0,
+          "quadra_kill": 0,
+          "penta_kill": 0,
+          "game_length_second": 10156
+        }
+      },
+      {
+        "summoner": {
+          "id": 77450347,
+          "summoner_id": "-6QS14_SwT1PyKcHDqbpr1eICZuc3dKqXY1M4rXu38NkrXY",
+          "acct_id": "pcu_YVxseyb2L0OWyyOpGLorOUXHrZOBpyEvUiyqxlTu9N1dwAgGnLK_",
+          "puuid": "uA4j2lk7JhTA1bfV3cFvdfQkHWU8rnr1xfazbt7JomOeFBTuCfqsNmtHH89fvFjUPSk8k6LfY4_niw",
+          "name": "이훈태",
+          "internal_name": "이훈태",
+          "profile_image_url": "https://opgg-static.akamaized.net/images/profile_icons/profileIcon18.jpg?image=q_auto",
+          "level": 161,
+          "updated_at": "2021-12-01T15:05:39+09:00",
+          "previous_seasons": [
+            {
+              "season_info": {
+                "id": 17,
+                "value": 11,
+                "display_value": 2021,
+                "is_preseason": false
+              },
+              "tier_info": {
+                "tier": "DIAMOND",
+                "division": 4,
+                "lp": 1,
+                "tier_image_url": "https://opgg-static.akamaized.net/images/medals/diamond_4.png?image=q_auto",
+                "border_image_url": "https://opgg-static.akamaized.net/images/borders2/diamond.png"
+              },
+              "created_at": "2021-11-16T02:40:31+09:00"
+            }
+          ],
+          "league_stats": [
+            {
+              "queue_info": {
+                "id": 4,
+                "queue_translate": "Ranked Solo/Duo",
+                "game_type": "SOLORANKED"
+              },
+              "tier_info": {
+                "tier": "DIAMOND",
+                "division": 4,
+                "lp": 0,
+                "tier_image_url": "https://opgg-static.akamaized.net/images/medals/diamond_4.png?image=q_auto",
+                "border_image_url": "https://opgg-static.akamaized.net/images/borders2/diamond.png"
+              },
+              "win": 144,
+              "lose": 113,
+              "is_hot_streak": false,
+              "is_fresh_blood": false,
+              "is_veteran": false,
+              "series": null,
+              "updated_at": "2021-12-09T13:36:14+09:00"
+            }
+          ]
+        },
+        "team_key": "BLUE",
+        "champion_id": 23,
+        "position": "TOP",
+        "rune_build": {
+          "primary_page_id": 8000,
+          "primary_rune_ids": [
+            8008,
+            8009,
+            9105,
+            8299
+          ],
+          "secondary_page_id": 8400,
+          "secondary_rune_ids": [
+            8444,
+            8242
+          ],
+          "stat_mod_ids": [
+            5005,
+            5008,
+            5003
+          ]
+        },
+        "spells": [
+          6,
+          14
+        ],
+        "most_champion_stat": {
+          "id": 23,
+          "play": 1,
+          "win": 0,
+          "lose": 1,
+          "kill": 2,
+          "death": 6,
+          "assist": 3,
+          "gold_earned": 10101,
+          "minion_kill": 209,
+          "turret_kill": 1,
+          "neutral_minion_kill": 12,
+          "damage_dealt": 146440,
+          "damage_taken": 28438,
+          "physical_damage_dealt": 140859,
+          "magic_damage_dealt": 0,
+          "most_kill": 2,
+          "max_kill": 2,
+          "max_death": 6,
+          "double_kill": 0,
+          "triple_kill": 0,
+          "quadra_kill": 0,
+          "penta_kill": 0,
+          "game_length_second": 1601
+        }
+      },
+      {
+        "summoner": {
+          "id": 84349418,
+          "summoner_id": "HqjUMl4N8s9I5cfCFhroX_dzQIP0Rz7C_7XC4Gfznkzxjk4",
+          "acct_id": "bjGdAmOAQ1XkAjPiWIeeM8MnM8XaJaBeBXgmMZE9DRsgOMCTCMtVJPPT",
+          "puuid": "qK9Zf9lk2CgJUJuXP4jdh_HJYDmc-3ddnXM2XGifG_98IqS4uG7HQ5FGnzYVRcssQN-beB2SfcS9kQ",
+          "name": "왕을 죽이는 검",
+          "internal_name": "왕을죽이는검",
+          "profile_image_url": "https://opgg-static.akamaized.net/images/profile_icons/profileIcon5089.jpg?image=q_auto",
+          "level": 77,
+          "updated_at": "2021-12-05T00:08:59+09:00",
+          "previous_seasons": [
+            {
+              "season_info": {
+                "id": 17,
+                "value": 11,
+                "display_value": 2021,
+                "is_preseason": false
+              },
+              "tier_info": {
+                "tier": "DIAMOND",
+                "division": 4,
+                "lp": 50,
+                "tier_image_url": "https://opgg-static.akamaized.net/images/medals/diamond_4.png?image=q_auto",
+                "border_image_url": "https://opgg-static.akamaized.net/images/borders2/diamond.png"
+              },
+              "created_at": "2021-11-16T02:42:31+09:00"
+            }
+          ],
+          "league_stats": [
+            {
+              "queue_info": {
+                "id": 4,
+                "queue_translate": "Ranked Solo/Duo",
+                "game_type": "SOLORANKED"
+              },
+              "tier_info": {
+                "tier": "DIAMOND",
+                "division": 4,
+                "lp": 55,
+                "tier_image_url": "https://opgg-static.akamaized.net/images/medals/diamond_4.png?image=q_auto",
+                "border_image_url": "https://opgg-static.akamaized.net/images/borders2/diamond.png"
+              },
+              "win": 133,
+              "lose": 112,
+              "is_hot_streak": false,
+              "is_fresh_blood": false,
+              "is_veteran": false,
+              "series": null,
+              "updated_at": "2021-12-09T13:25:49+09:00"
+            }
+          ]
+        },
+        "team_key": "BLUE",
+        "champion_id": 18,
+        "position": "ADC",
+        "rune_build": {
+          "primary_page_id": 8100,
+          "primary_rune_ids": [
+            9923,
+            8139,
+            8138,
+            8135
+          ],
+          "secondary_page_id": 8000,
+          "secondary_rune_ids": [
+            9111,
+            9104
+          ],
+          "stat_mod_ids": [
+            5005,
+            5008,
+            5002
+          ]
+        },
+        "spells": [
+          7,
+          4
+        ],
+        "most_champion_stat": null
+      },
+      {
+        "summoner": {
+          "id": 86198671,
+          "summoner_id": "84TWbdsYcucRichM5dYI2aKQ0ruyjhNV2VGrNOTpw4VOwbgE",
+          "acct_id": "zAlZYBdypFMOdhjotNu0taaAhhjRtPNtbIoLM9jrpDcDc8liaHVS2JEe",
+          "puuid": "cNkT8dSc39FNJJBB5sZh3E_ObpvKBuVjfNRg3XkKvBLfl_gpXjSrTcmljD-LGFA_3-Ggh8rd-M1Gkg",
+          "name": "다크 모드로 보기",
+          "internal_name": "다크모드로보기",
+          "profile_image_url": "https://opgg-static.akamaized.net/images/profile_icons/profileIcon5067.jpg?image=q_auto",
+          "level": 47,
+          "updated_at": "2021-12-08T00:06:25+09:00",
+          "previous_seasons": [
+            {
+              "season_info": {
+                "id": 17,
+                "value": 11,
+                "display_value": 2021,
+                "is_preseason": false
+              },
+              "tier_info": {
+                "tier": "PLATINUM",
+                "division": 2,
+                "lp": 64,
+                "tier_image_url": "https://opgg-static.akamaized.net/images/medals/platinum_2.png?image=q_auto",
+                "border_image_url": "https://opgg-static.akamaized.net/images/borders2/platinum.png"
+              },
+              "created_at": "2021-11-16T02:44:10+09:00"
+            }
+          ],
+          "league_stats": [
+            {
+              "queue_info": {
+                "id": 4,
+                "queue_translate": "Ranked Solo/Duo",
+                "game_type": "SOLORANKED"
+              },
+              "tier_info": {
+                "tier": "DIAMOND",
+                "division": 3,
+                "lp": 0,
+                "tier_image_url": "https://opgg-static.akamaized.net/images/medals/diamond_3.png?image=q_auto",
+                "border_image_url": "https://opgg-static.akamaized.net/images/borders2/diamond.png"
+              },
+              "win": 114,
+              "lose": 88,
+              "is_hot_streak": false,
+              "is_fresh_blood": true,
+              "is_veteran": false,
+              "series": null,
+              "updated_at": "2021-12-09T14:01:02+09:00"
+            }
+          ]
+        },
+        "team_key": "RED",
+        "champion_id": 222,
+        "position": "ADC",
+        "rune_build": {
+          "primary_page_id": 8000,
+          "primary_rune_ids": [
+            8008,
+            8009,
+            9103,
+            8014
+          ],
+          "secondary_page_id": 8300,
+          "secondary_rune_ids": [
+            8345,
+            8347
+          ],
+          "stat_mod_ids": [
+            5005,
+            5008,
+            5002
+          ]
+        },
+        "spells": [
+          3,
+          4
+        ],
+        "most_champion_stat": {
+          "id": 222,
+          "play": 4,
+          "win": 2,
+          "lose": 2,
+          "kill": 21,
+          "death": 18,
+          "assist": 40,
+          "gold_earned": 54984,
+          "minion_kill": 967,
+          "turret_kill": 11,
+          "neutral_minion_kill": 76,
+          "damage_dealt": 718070,
+          "damage_taken": 59768,
+          "physical_damage_dealt": 682808,
+          "magic_damage_dealt": 2722,
+          "most_kill": 8,
+          "max_kill": 8,
+          "max_death": 7,
+          "double_kill": 2,
+          "triple_kill": 0,
+          "quadra_kill": 0,
+          "penta_kill": 0,
+          "game_length_second": 6862
+        }
+      }
+    ],
+    "teams": [
+      {
+        "key": "RED",
+        "average_tier_info": {
+          "tier": "DIAMOND",
+          "division": 3,
+          "lp": null,
+          "tier_image_url": "https://opgg-static.akamaized.net/images/medals/diamond_3.png?image=q_auto",
+          "border_image_url": "https://opgg-static.akamaized.net/images/borders2/diamond.png"
+        },
+        "banned_champions": [
+          67,
+          78,
+          89,
+          111,
+          711
+        ]
+      },
+      {
+        "key": "BLUE",
+        "average_tier_info": {
+          "tier": "DIAMOND",
+          "division": 4,
+          "lp": null,
+          "tier_image_url": "https://opgg-static.akamaized.net/images/medals/diamond_4.png?image=q_auto",
+          "border_image_url": "https://opgg-static.akamaized.net/images/borders2/diamond.png"
+        },
+        "banned_champions": [
+          null,
+          53,
+          121,
+          238,
+          350
+        ]
+      }
+    ]
+  }
+}

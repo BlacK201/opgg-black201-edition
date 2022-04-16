@@ -1,0 +1,27 @@
+html {
+    height: 100%;
+    width: 100%;
+    /*-webkit-user-select: none;*/
+    background-color: transparent;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    /*backdrop-filter: blur(8px);*/
+    /*background-image: radial-gradient(circle at 50% 0, rgba(34, 34, 42, 0.82), rgba(19, 19, 23, 0.71) 75%);*/
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background-color: #16161d;*/
+}

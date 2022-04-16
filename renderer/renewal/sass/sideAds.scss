@@ -1,0 +1,41 @@
+.side-ads {
+  position: absolute;
+  left: 1288px;
+  top: 0;
+  width: 316px;
+  height: 720px;
+
+  &-through {
+    height: 173px;
+    background-color: transparent;
+  }
+
+  &-content {
+    height: 547px;
+    background-color: #1c1c1f;
+    border-radius: 8px;
+    padding: 8px;
+  }
+
+  .ads-title {
+    color: #7b7a8e;
+    font-size: 12px;
+    margin-bottom: 7px;
+  }
+
+  .side-ad {
+    width: 300px;
+    height: 250px;
+    background-color: #37373b;
+    margin-bottom: 8px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .two-side-ads {
+    width: 300px;
+    background-color: #37373b;
+  }
+}

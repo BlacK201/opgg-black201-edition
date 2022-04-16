@@ -1,0 +1,42 @@
+{
+  "data": [
+    {
+      "id": 8000,
+      "name": "정밀",
+      "description": "공격 강화 및 지속적 피해",
+      "slogan": "전설의 시작",
+      "image_url": "https://opgg-static.akamaized.net/images/lol/perkStyle/8000.png"
+    },
+    {
+      "id": 8100,
+      "name": "지배",
+      "description": "강력한 피해와 빠른 접근",
+      "slogan": "사냥감 추격 및 처치",
+      "image_url": "https://opgg-static.akamaized.net/images/lol/perkStyle/8100.png"
+    },
+    {
+      "id": 8200,
+      "name": "마법",
+      "description": "스킬 및 광역 효과 강화",
+      "slogan": "강력한 파괴력",
+      "image_url": "https://opgg-static.akamaized.net/images/lol/perkStyle/8200.png"
+    },
+    {
+      "id": 8300,
+      "name": "영감",
+      "description": "다양한 방식의 전투 보조",
+      "slogan": "비범한 능력",
+      "image_url": "https://opgg-static.akamaized.net/images/lol/perkStyle/8300.png"
+    },
+    {
+      "id": 8400,
+      "name": "결의",
+      "description": "내구력 및 군중 제어",
+      "slogan": "끈질긴 생명력",
+      "image_url": "https://opgg-static.akamaized.net/images/lol/perkStyle/8400.png"
+    }
+  ],
+  "meta": {
+    "version": "12.06"
+  }
+}

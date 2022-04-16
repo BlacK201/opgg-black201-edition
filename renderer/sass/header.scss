@@ -1,0 +1,164 @@
+.app-header {
+  transition: all 0.2s ease;
+  z-index: 999;
+}
+
+#app-header-win {
+  top: 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-app-region: drag;
+  width: calc(100% - 32px);
+  height: 64px;
+  border-bottom: 1px solid #282830;
+  background-color: rgba(28, 28, 31, 0.27);
+  padding: 0 16px;
+  max-width: 1248px;
+}
+
+.game-select {
+  display: flex;
+  align-items: center;
+
+  .down-arrow {
+    margin: 0 4px;
+  }
+}
+
+.user-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 150px;
+}
+
+.tool-wrapper {
+  display: flex;
+  height: 36px;
+  width: 36px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.tool-wrapper:hover {
+  background-color: #282830;
+}
+
+.tool-wrapper img {
+  width: 16px;
+  height: 16px;
+}
+
+.summoner-search {
+  position: relative;
+  -webkit-app-region: no-drag;
+  margin-right: 24px;
+}
+
+.summoner-search > input {
+  width: 240px;
+  max-width: 240px;
+  height: 32px;
+  border-radius: 4px;
+  border: none;
+  background-color: #2b2b30;
+  color: #fff;
+  text-indent: 8px;
+  outline: none;
+  padding-right: 30px;
+  cursor: text;
+}
+
+.summoner-search > img {
+  position: absolute;
+  margin-top: 5px;
+  right: 5px;
+}
+
+.img-overlay-beta-main {
+  margin-left: 22px;
+}
+
+.account-info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+  max-width: 210px;
+  -webkit-app-region: no-drag;
+}
+
+.account-info-win {
+  margin-left: 18px;
+}
+
+.profile-image-wrapper {
+  width: 32px;
+  height: 32px;
+  background-color: #31313c;
+  border-radius: 16px;
+}
+
+.info-profile-image {
+  width: 32px;
+  border-radius: 16px;
+  border: 2px solid #1c1c1f;
+}
+
+.account {
+  /*min-width: 105px;*/
+  margin-left: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 102px;
+}
+
+.summoner-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  -webkit-app-region: no-drag;
+  cursor: pointer;
+}
+
+.text-account-wrapper {
+  display: flex;
+  margin-top: 2px;
+}
+
+.oval {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  border: solid 2px #42b8da;
+  margin-top: 1px;
+}
+
+.text-account {
+  font-size: 11px;
+  color: #42b8da;
+}
+
+.current-game-mode-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  padding: 0 12px;
+  border-radius: 16px;
+  background-color: rgba(255, 130, 0, 0.07);
+  color: #ff8e05;
+  font-size: 12px;
+  margin-left: 47px;
+}
+
+.dust {
+  position: absolute;
+}

@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Axiforma";
+  font-weight: 400;
+  font-display: fallback;
+  src: url(../../assets/fonts/Axiforma-Regular/font.woff2) format("woff2"),
+  url(../../assets/fonts/Axiforma-Regular/font.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Axiforma";
+  font-weight: 700;
+  font-display: fallback;
+  src: url(../../assets/fonts/Axiforma-Bold/font.woff2) format("woff2"),
+  url(../../assets/fonts/Axiforma-Bold/font.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Axiforma";
+  font-weight: 900;
+  font-display: fallback;
+  src: url(../../assets/fonts/Axiforma-Heavy/font.woff2) format("woff2"),
+  url(../../assets/fonts/Axiforma-Heavy/font.woff) format("woff");
+}
+
+//@import "../../assets/css/popup_apm.css";
+//@import "../../assets/css/patch_notes.css";
+@import "../../assets/css/main.css";
+@import "main";
+@import "liveOPChampions";
+//@import "feedbackModal.scss";
+@import "header";
+@import "ads";
+@import "../renewal/sass/side";
+@import "../renewal/sass/multisearch";
+@import "../renewal/sass/champions";
+@import "../renewal/sass/ingame";
+@import "../renewal/sass/mypage";
+@import "../renewal/sass/championStatistics";
+@import "../renewal/sass/settings";
+@import "../renewal/sass/championCombos";
+@import "../renewal/sass/dropdown";
+@import "./tft";
+@import "../renewal/sass/sideAds";
+
+.mini {
+  @import "./mini.scss";
+  @import "./miniMultisearch";
+  @import "./miniChampion";
+  @import "./miniIngame";
+}
+
+.login {
+  @import "../renewal/sass/login";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tippy-box {
+  background-color: transparent !important;
+  backdrop-filter: blur(8px) !important;
+  box-shadow: 0 12px 11px -8px rgba(0, 0, 0, 0.67) !important;
+  background-image: radial-gradient(circle at 50% 0, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7) 42%) !important;
+}

@@ -1,0 +1,109 @@
+.champion-overview-combos {
+  font-size: 12px;
+
+  &-champion-info {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 180px;
+    padding: 16px;
+    backdrop-filter: blur(3px);
+    background-image: radial-gradient(circle at 50% 0, rgba(50, 50, 60, 0.15), rgba(50, 50, 60, 0.25) 51%);
+
+    &-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      width: 88px;
+      height: 88px;
+      border-radius: 12px;
+      margin-right: 12px;
+    }
+  }
+
+  &-videos {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+    position: relative;
+
+    &-video {
+      width: 193px;
+      margin-top: 8px;
+      border-radius: 8px;
+      overflow: hidden;
+
+      & + & {
+        margin-left: 16px;
+      }
+
+      &:nth-child(5n + 1) {
+        margin-left: 0;
+      }
+
+      &-image-wrapper {
+        width: 100%;
+        height: 106px;
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+      }
+
+      &-image {
+        display: block;
+        width: 100%;
+        height: 100%;
+        transform: scaleX(1.1) scaleY(1.4);
+      }
+
+      &-icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 24px;
+        height: 24px;
+        transform: translate(-50%, -50%);
+      }
+
+      &-body {
+        padding: 8px 12px 12px;
+        background: #1e1e22;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      &-name {
+        font-size: 12px;
+      }
+
+      &-level {
+        margin-top: 10px;
+        padding: 2px 4px;
+        display: inline-block;
+        font-size: 11px;
+        border-radius: 4px;
+        color: rgb(126, 211, 33);
+        border: solid 1px rgb(126, 211, 33);
+        text-transform: uppercase;
+
+        &__medium {
+          color: rgb(8, 166, 255);
+          border-color: rgb(8, 166, 255);
+        }
+
+        &__hard {
+          color: rgb(255, 155, 0);
+          border-color: rgb(255, 155, 0);
+        }
+
+        &__impossible {
+          color: #cb3535;
+          border-color: #721e1e;
+        }
+      }
+    }
+  }
+}

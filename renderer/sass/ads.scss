@@ -1,0 +1,17 @@
+.ads-popup-playwire-layer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 710px;
+  height: 550px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+}
+
+.ads-popup-playwire-close {
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  top: 20px;
+  right: 0;
+}
