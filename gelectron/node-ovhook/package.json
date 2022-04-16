@@ -1,0 +1,13 @@
+{
+  "name": "node-ovhook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-rebuild": "^1.11.0",
+    "node-addon-api": "^1.4.0",
+    "node-gyp": "^8.4.1"
+  }
+}
