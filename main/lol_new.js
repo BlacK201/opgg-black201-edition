@@ -185,8 +185,13 @@ class LoL {
                 }
                 this.app.window.show();
 
-                let summonerRankResponse = await this.callAPI("GET", "lol", `${lolConstants.LOL_RANKED_STATS}/${this.game.summoner.puuid}`)
-                    .catch((_) => {return null});
+                let summonerRankResponse = await this.callHttp2API("GET", `${lolConstants.LOL_RANKED_STATS}/${this.game.summoner.puuid}`).catch((e) => {
+                    console.log(e)
+                    return null
+                });
+                // let summonerRankResponse = await this.callAPI("GET", "lol", `${lolConstants.LOL_RANKED_STATS}/${this.game.summoner.puuid}`)
+                //     .catch((_) => {return null});
+                console.log(`summonerRankResponse${summonerRankResponse}`)
                 if (!summonerRankResponse) return;
                 sendGA4Event("login_lol", {
                     login_lol: true,
@@ -1101,9 +1106,13 @@ class LoL {
                 });
                 if (summoner) {
                     summoner = summoner.data;
-                    let response = await this.callAPI("GET", "lol", `${lolConstants.LOL_RANKED_STATS}/${summoner.puuid}`).catch(() => {
+                    let response = await this.callHttp2API("GET", `${lolConstants.LOL_RANKED_STATS}/${summoner.puuid}`).catch((e) => {
+                        console.log(e)
                         return null
                     });
+                    // let response = await this.callAPI("GET", "lol", `${lolConstants.LOL_RANKED_STATS}/${summoner.puuid}`).catch(() => {
+                    //     return null
+                    // });
                     if (response) {
                         let ranked = response.data;
                         let response2 = await this.callAPI("GET", "lol", lolConstants.LOL_CAREER_STATS_SUMMONER_GAMES.format(summoner.puuid)).catch(() => {
