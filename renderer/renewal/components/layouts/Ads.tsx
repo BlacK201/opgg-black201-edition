@@ -44,6 +44,8 @@ const Ads = () => {
         }
     }, []);
 
+    return (<></>)
+
     return (
         <>
             <div className={"side-ads"}>

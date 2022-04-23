@@ -10,6 +10,8 @@ const GlobalAds = () => {
     });
   }, []);
 
+  return (<></>)
+
   return (
     <>
       <div className={"side-ads"}>
