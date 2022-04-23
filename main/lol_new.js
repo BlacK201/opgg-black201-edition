@@ -14,6 +14,8 @@ const path = require("path");
 const homedir = os.homedir();
 const {LocalStorage} = require("node-localstorage");
 const nodeStorage = new LocalStorage(`${app.getPath("userData")}/session`);
+const http2 = require("http2");
+
 // require("../assets/i18n/ddragon");
 // require("../assets/data/meta");
 let rustProcess = () => {};
@@ -207,7 +209,7 @@ class LoL {
                 setTimeout(() => {
                     this.initDesktopApp();
                 }, 1000);
-                console.log(this.config, this.game);
+                // console.log(this.config, this.game);
                 this.websocket();
                 clearInterval(this.detectGameProcessInterval);
                 this.detectGameProcessInterval = null;
@@ -413,6 +415,41 @@ class LoL {
         }
     };
 
+    async callHttp2API(method, url, data = null, options = {}) {
+        // TODO: 增加POST数据处理
+        let self = this;
+        return new Promise (function (resolve, reject) {
+            const client = http2.connect(`https://127.0.0.1:${self.config.port}`, {
+                rejectUnauthorized: false,
+            });
+            client.on('error', (err) => {
+                console.log(`ERROR: ${err}`)
+                reject(err)
+            });
+        
+            const req = client.request({
+                ':path': url,
+                ':method': method,
+                [http2.constants.HTTP2_HEADER_AUTHORIZATION]: `Basic ${Buffer.from(`riot:${self.config.token}`).toString('base64')}`
+            });
+        
+            let resData = [];
+            req.on('data', (chunk) => {
+                resData.push(chunk);
+            });
+        
+            let response = {}
+        
+            req.on('end', () => {
+                response['data'] = JSON.parse(resData.join(""))
+                client.close();
+                resolve(response)
+            });
+        
+            req.end();
+        })
+    }
+
     callAPI(method, game, url, data = null, options = {}) {
         let self = this;
         return new Promise(function (resolve, reject) {
@@ -440,6 +477,8 @@ class LoL {
             } else if (game === "lol-api-summoner") {
                 uri = "https://lol-api-summoner.op.gg"
             }
+
+            console.log(`${game}   ${url}`)
 
             let axiosOptions = {
                 method: method,
