@@ -254,11 +254,8 @@ class LoL {
                             break;
 
                         case "/lol-matchmaking/v1/ready-check":
-                            console.log(data)
-                            if (data.state === "InProgress") {
-                                if (this.config.isAutoAcceptOn){
-                                    this.acceptMatch();
-                                }
+                            if (this.config.isAutoAcceptOn){
+                                this.acceptMatch();
                             }
                             break;
 
@@ -352,7 +349,8 @@ class LoL {
     }
 
     async acceptMatch() {
-        await this.callAPI("POST", "lol", "/lol-lobby-team-builder/v1/ready-check/accept").catch((_) => {console.log(_)});
+        await this.callHttp2API("POST", "/lol-matchmaking/v1/ready-check/accept")
+        // await this.callAPI("POST", "lol", "/lol-lobby-team-builder/v1/ready-check/accept").catch((_) => {console.log(_)});
     }
 
     checkProcess() {
