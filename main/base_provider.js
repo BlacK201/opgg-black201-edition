@@ -117,6 +117,11 @@ module.exports = class BaseProvider {
         this.window.show();
     }
 
+    showInactive() {
+        if (this.window === null) return;
+        this.window.showInactive();
+    }
+
     hide() {
         if (this.window === null) return;
         this.window.hide();

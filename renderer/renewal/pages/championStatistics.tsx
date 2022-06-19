@@ -366,12 +366,13 @@ const ChampionStatistics = () => {
 
     return (
         <div className={"main-container champion-statistics"}>
-            <div className={"new-champion-analysis"}><div className={"new-icon"}></div>{t("new-champion-analysis")}</div>
             <Tabs />
             <div className={"champion-statistics-bottom"}>
                 <div className={"champion-statistics-search"}>
                     <div className={"champion-statistics-search-top"}>
-                        <input className={"champion-statistics-search-bar"} placeholder={t("live.feature.champion.search-champion")} onChange={onChangeSearchChampion} />
+                        <input className={"champion-statistics-search-bar"} placeholder={t("live.feature.champion.search-champion")} onChange={onChangeSearchChampion} onClick={() => {
+                            sendGA4Event("click_champion_statistics_search", {});
+                        }} />
                         <img src={"../../assets/images/icon-search.svg"} />
                     </div>
                     <div className={"champion-statistics-search-bottom"}>
@@ -379,7 +380,7 @@ const ChampionStatistics = () => {
                             let champ =  _.find(data, {
                                 id: champion.id
                             });
-                            if (!champ.is_rip && champ.positions.length > 0) {
+                            if (!champ?.is_rip && champ?.positions.length > 0) {
                                 return (
                                     <NavLink to={{
                                         pathname: `/champions/${champion.key}`,

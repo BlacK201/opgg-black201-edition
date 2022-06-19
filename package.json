@@ -1,6 +1,6 @@
 {
   "name": "opgg-electron-app",
-  "version": "1.0.25",
+  "version": "1.0.31",
   "description": "",
   "main": "main/index.js",
   "scripts": {

@@ -52,6 +52,7 @@ const ChampionCombos = () => {
         //     label: video,
         // });
         sendGA4Event("click_combo_video", {
+            click_from: "champion_combo_page",
             champion_id: id,
             video_id: video.videoId,
             video_name: video.videoName,

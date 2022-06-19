@@ -1,9 +1,10 @@
 const WindowProvider = require("./window_provider");
-const OverlayProvider = require("./overlay_provider");
+// const OverlayProvider = require("./overlay_provider");
+const OverlayProvider = require("./overlay_new_provider");
 const RemoteProvider = require("./remote_provider");
 const LoL = require("./lol_new");
 const {isNMP} = require("../renderer/utils/nmp");
-const {member, renewal} = require("./member");
+const {member, renewal, ott} = require("./member");
 const {sendGA4Event} = require("../assets/js/ga4");
 const {LocalStorage} = require("node-localstorage");
 const {app, ipcMain, shell} = require("electron");
@@ -25,6 +26,12 @@ class App {
             lol: new LoL(this)
         }
         this.i18n = i18nResources;
+        this.opggMember = {
+            hasError: false,
+            errorCode: 0,
+            policyTypeIds: [],
+            token: ""
+        }
     }
 
     init() {
@@ -105,7 +112,24 @@ class App {
                             nodeStorage.setItem("_ot", token);
                             this.window.setCookie("_ot", token);
                             this._ot = token;
+                            this.window.sendToRenderer("toastr", "login-success");
                         }
+                    } else if (response.data.code === 114) { // 갱신된 정책 동의 필요
+                        this.opggMember.hasError = true;
+                        this.opggMember.errorCode = 114;
+                        let policyTypeIds = [];
+                        response.data.result_data.renewal_policy_list.map((renewalPolicy) => {
+                            policyTypeIds.push(renewalPolicy.policy_type_id);
+                        });
+                        this.opggMember.policyTypeIds = policyTypeIds;
+                        this.opggMember.token = response.data.result_data.token;
+                        this.window.sendToRenderer("memberPolicyUpdated");
+                    } else if (response.data.code === 115) { // 새로운 정책 동의 필요
+                        this.opggMember.hasError = true;
+                        this.opggMember.errorCode = 115;
+                        this.opggMember.policyTypeIds = [];
+                        this.opggMember.token = response.data.result_data.token;
+                        this.window.sendToRenderer("memberPolicyUpdated");
                     }
                 } catch(_) { }
             });
@@ -198,7 +222,20 @@ class App {
             });
         });
 
+        ipcMain.handle("member-ott", async () => {
+            let ts = Date.now() / 1000 | 0;
+            let res = await ott(ts).catch((_) => {return null;});
+            if (res) {
+                return {
+                    token: res.data.result_data.token,
+                    ts: ts
+                };
+            }
+            return null;
+        });
+
         ipcMain.on("scale", (event, arg) => {
+            nodeStorage.setItem("scale", arg);
             self.window.scale = parseFloat(arg);
             self.window.setScale();
         });
@@ -212,7 +249,6 @@ class App {
         });
 
         ipcMain.on("factory-reset", () => {
-            console.log(path.join(__dirname, "../opgg.bat"));
             shell.openPath(path.join(__dirname, "../../app.asar.unpacked/opgg.bat")).then(() => {
                 app.relaunch();
                 app.exit();
@@ -226,6 +262,17 @@ class App {
 
         ipcMain.on("install-vcredist", () => {
            shell.openExternal("https://aka.ms/vs/17/release/VC_redist.x64.exe");
+        });
+
+        ipcMain.on("memberPolicy", () => {
+            // let memberUri = "https://member-stage-1fdsf134.op.gg";
+            let memberUri = "https://member.op.gg";
+
+            if (this.opggMember.errorCode === 114) {
+                shell.openExternal(`${memberUri}/sdk/login?code=114&token=${this.opggMember.token}&policy_list=${this.opggMember.policyTypeIds.join(",")}&redirect_url=${memberUri}/client-login`);
+            } else if (this.opggMember.errorCode === 115) {
+                shell.openExternal(`${memberUri}/sdk/login?code=115&token=${this.opggMember.token}&redirect_url=${memberUri}/client-login`);
+            }
         });
     }
 }

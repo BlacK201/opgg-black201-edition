@@ -222,8 +222,8 @@
   "spells": {
     "SummonerBarrier": {
       "name": "光盾",
-      "desc": "產生暫時護盾保護英雄，可以吸收 115 ~ 455﹝取決於英雄等級﹞傷害，持續 2 秒。",
-      "tooltip": "<div class='tooltip-title'>光盾</div>產生暫時護盾保護英雄，可以吸收 115 ~ 455﹝取決於英雄等級﹞傷害，持續 2 秒。"
+      "desc": "產生護盾保護你的英雄，可吸收 105-411 傷害（根據英雄等級而定），持續存在 2 秒。",
+      "tooltip": "<div class='tooltip-title'>光盾</div>產生護盾保護你的英雄，可吸收 105-411 傷害（根據英雄等級而定），持續存在 2 秒。"
     },
     "SummonerBoost": {
       "name": "淨化",
@@ -252,8 +252,8 @@
     },
     "SummonerHeal": {
       "name": "治癒",
-      "desc": "回復 90~345 生命（取決於英雄等級）並使自己與目標友軍獲得 30% 附加移動速度，持續 1 秒。對已接受過治療的單位僅會造成一半的效果。",
-      "tooltip": "<div class='tooltip-title'>治癒</div>回復 90~345 生命（取決於英雄等級）並使自己與目標友軍獲得 30% 附加移動速度，持續 1 秒。對已接受過治療的單位僅會造成一半的效果。"
+      "desc": "回復 80-318 生命（根據英雄等級而定）並給予自身和目標友方英雄 30% 移動速度，持續 1 秒。對近期已受過召喚師技能治癒影響的單位僅會造成一半效果。",
+      "tooltip": "<div class='tooltip-title'>治癒</div>回復 80-318 生命（根據英雄等級而定）並給予自身和目標友方英雄 30% 移動速度，持續 1 秒。對近期已受過召喚師技能治癒影響的單位僅會造成一半效果。"
     },
     "SummonerMana": {
       "name": "清晰",
@@ -272,8 +272,8 @@
     },
     "SummonerSmite": {
       "name": "重擊",
-      "desc": "對目標史詩級野怪、大型野怪、中型野怪或小兵造成 450 真實傷害。有 2 次充能（充能時間 90 秒）",
-      "tooltip": "<div class='tooltip-title'>重擊</div>對目標史詩級野怪、大型野怪、中型野怪或小兵造成 450 真實傷害。有 2 次充能（充能時間 90 秒）"
+      "desc": "對目標史詩級野怪、大型野怪、中型野怪或小兵造成 450 真實傷害。目標為野怪時，額外回復 90（+10% 最大生命）生命。可儲存 2 個充能（90 秒充能時間）。",
+      "tooltip": "<div class='tooltip-title'>重擊</div>對目標史詩級野怪、大型野怪、中型野怪或小兵造成 450 真實傷害。目標為野怪時，額外回復 90（+10% 最大生命）生命。可儲存 2 個充能（90 秒充能時間）。"
     },
     "SummonerSnowURFSnowball_Mark": {
       "name": "標記",
@@ -370,9 +370,9 @@
     },
     "1035": {
       "name": "餘燼之刃",
-      "desc": "<mainText><stats></stats>對野怪 8% 全能吸血<br><li><passive>灼燒：</passive>對野怪造成傷害時會燃燒牠們，在 5 秒內持續造成共 <magicDamage>（60 + 30% 魔法攻擊 + 5% 額外物理攻擊 + 2% 額外生命） 魔法傷害</magicDamage>。<li><passive>精密之道：</passive>重擊 5 次將消耗這個道具並將你的重擊升級為<attention>精密重擊</attention>，並提升重擊對野怪的傷害。精密重擊會標記英雄 4 秒。在此期間，你會在 2.5 秒內持續造成<truedamage>48 – 125（根據等級）</truedamage>額外真實傷害。你所承受的來自被標記英雄的傷害降低 20%。<li><passive>狩獵者：</passive>擊殺大型野怪會獲得額外經驗值。<li><passive>補償：</passive>在野區或河道時，每秒最多回復 8 - 18（根據等級）魔力。<br><br><rules><status>消耗</status>此道具使你永久獲得所有道具效果，並提升重擊對野怪的傷害。若你從小兵賺取的金錢多過從野怪賺取的金錢，來自小兵的金錢與經驗值將大幅減少。範圍攻擊的治癒效果不會減少。如果你的等級比遊戲中英雄的平均等級落後 2 級，擊殺野怪會獲得額外經驗值。</rules><br><rules>只有普攻與技能會附加精密重擊的燃燒傷害</rules></mainText><br>",
+      "desc": "<mainText><stats></stats>對野怪 7% 全能吸血<br><li><passive>灼燒：</passive>對野怪造成傷害時會燃燒牠們，在 5 秒內持續造成共 <magicDamage>（60 + 30% 魔法攻擊 + 5% 額外物理攻擊 + 2% 額外生命） 魔法傷害</magicDamage>。<li><passive>精密之道：</passive>重擊 5 次將消耗這個道具並將你的重擊升級為<attention>精密重擊</attention>，並提升重擊對野怪的傷害。精密重擊會標記英雄 4 秒。在此期間，你會在 2.5 秒內持續造成<truedamage>48 – 125（根據等級）</truedamage>額外真實傷害。你所承受的來自被標記英雄的傷害降低 20%。<li><passive>狩獵者：</passive>擊殺大型野怪會獲得額外經驗值。<li><passive>補償：</passive>在野區或河道時，每秒最多回復 8 - 18（根據等級）魔力。<br><br><rules><status>消耗</status>此道具使你永久獲得所有道具效果，並提升重擊對野怪的傷害。若你從小兵賺取的金錢多過從野怪賺取的金錢，來自小兵的金錢與經驗值將大幅減少。範圍攻擊的治癒效果不會減少。如果你的等級比遊戲中英雄的平均等級落後 2 級，擊殺野怪會獲得額外經驗值。</rules><br><rules>只有普攻與技能會附加精密重擊的燃燒傷害</rules></mainText><br>",
       "gold": 350,
-      "tooltip": "<div class='tooltip-title'>餘燼之刃</div><mainText><stats></stats>對野怪 8% 全能吸血<br><li><passive>灼燒：</passive>對野怪造成傷害時會燃燒牠們，在 5 秒內持續造成共 <magicDamage>（60 + 30% 魔法攻擊 + 5% 額外物理攻擊 + 2% 額外生命） 魔法傷害</magicDamage>。<li><passive>精密之道：</passive>重擊 5 次將消耗這個道具並將你的重擊升級為<attention>精密重擊</attention>，並提升重擊對野怪的傷害。精密重擊會標記英雄 4 秒。在此期間，你會在 2.5 秒內持續造成<truedamage>48 – 125（根據等級）</truedamage>額外真實傷害。你所承受的來自被標記英雄的傷害降低 20%。<li><passive>狩獵者：</passive>擊殺大型野怪會獲得額外經驗值。<li><passive>補償：</passive>在野區或河道時，每秒最多回復 8 - 18（根據等級）魔力。<br><br><rules><status>消耗</status>此道具使你永久獲得所有道具效果，並提升重擊對野怪的傷害。若你從小兵賺取的金錢多過從野怪賺取的金錢，來自小兵的金錢與經驗值將大幅減少。範圍攻擊的治癒效果不會減少。如果你的等級比遊戲中英雄的平均等級落後 2 級，擊殺野怪會獲得額外經驗值。</rules><br><rules>只有普攻與技能會附加精密重擊的燃燒傷害</rules></mainText><br><div class='tooltip-gold'>350 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>餘燼之刃</div><mainText><stats></stats>對野怪 7% 全能吸血<br><li><passive>灼燒：</passive>對野怪造成傷害時會燃燒牠們，在 5 秒內持續造成共 <magicDamage>（60 + 30% 魔法攻擊 + 5% 額外物理攻擊 + 2% 額外生命） 魔法傷害</magicDamage>。<li><passive>精密之道：</passive>重擊 5 次將消耗這個道具並將你的重擊升級為<attention>精密重擊</attention>，並提升重擊對野怪的傷害。精密重擊會標記英雄 4 秒。在此期間，你會在 2.5 秒內持續造成<truedamage>48 – 125（根據等級）</truedamage>額外真實傷害。你所承受的來自被標記英雄的傷害降低 20%。<li><passive>狩獵者：</passive>擊殺大型野怪會獲得額外經驗值。<li><passive>補償：</passive>在野區或河道時，每秒最多回復 8 - 18（根據等級）魔力。<br><br><rules><status>消耗</status>此道具使你永久獲得所有道具效果，並提升重擊對野怪的傷害。若你從小兵賺取的金錢多過從野怪賺取的金錢，來自小兵的金錢與經驗值將大幅減少。範圍攻擊的治癒效果不會減少。如果你的等級比遊戲中英雄的平均等級落後 2 級，擊殺野怪會獲得額外經驗值。</rules><br><rules>只有普攻與技能會附加精密重擊的燃燒傷害</rules></mainText><br><div class='tooltip-gold'>350 Gold</div>"
     },
     "1036": {
       "name": "長劍",
@@ -394,9 +394,9 @@
     },
     "1039": {
       "name": "雹刃",
-      "desc": "<mainText><stats></stats>對野怪擁有 8% 全能吸血<br><li><passive>灼燒：</passive>對野怪造成傷害時會燃燒牠們，在 5 秒內持續造成共 <magicDamage>（60 + 30% 魔法攻擊 + 5% 額外物理攻擊 + 2% 額外生命）魔法傷害</magicDamage>。<li><passive>凜冽之途：</passive>重擊 5 次將消耗這個道具並將你的重擊升級為<attention>凜冽重擊</attention>，並提升重擊對野怪的傷害。凜冽重擊對英雄造成 <truedamage>20 - 156（根據等級）</truedamage> 真實傷害並偷取其 20% 移動速度，持續 2 秒。<li><passive>狩獵者：</passive>擊殺大型野怪將會獲得額外經驗值。<li><passive>補償：</passive> 在野區或河道時，每秒最多回復 8 -18（根據等級）魔力。<br><br><rules><status>消耗</status>此道具使你永久獲得所有道具效果，並提升重擊對野怪的傷害。若你從小兵賺取的金錢多過從野怪賺取的金錢，來自小兵的金錢與經驗值將大幅減少。範圍攻擊的治癒效果不會減少。如果你的等級比遊戲中英雄的平均等級落後 2 級，擊殺野怪會獲得額外經驗值。</rules> <br><br></mainText><br>",
+      "desc": "<mainText><stats></stats>對野怪擁有 7% 全能吸血<br><li><passive>灼燒：</passive>對野怪造成傷害時會燃燒牠們，在 5 秒內持續造成共 <magicDamage>（60 + 30% 魔法攻擊 + 5% 額外物理攻擊 + 2% 額外生命）魔法傷害</magicDamage>。<li><passive>凜冽之途：</passive>重擊 5 次將消耗這個道具並將你的重擊升級為<attention>凜冽重擊</attention>，並提升重擊對野怪的傷害。凜冽重擊對英雄造成 <truedamage>20 - 156（根據等級）</truedamage> 真實傷害並偷取其 20% 移動速度，持續 2 秒。<li><passive>狩獵者：</passive>擊殺大型野怪將會獲得額外經驗值。<li><passive>補償：</passive> 在野區或河道時，每秒最多回復 8 -18（根據等級）魔力。<br><br><rules><status>消耗</status>此道具使你永久獲得所有道具效果，並提升重擊對野怪的傷害。若你從小兵賺取的金錢多過從野怪賺取的金錢，來自小兵的金錢與經驗值將大幅減少。範圍攻擊的治癒效果不會減少。如果你的等級比遊戲中英雄的平均等級落後 2 級，擊殺野怪會獲得額外經驗值。</rules> <br><br></mainText><br>",
       "gold": 350,
-      "tooltip": "<div class='tooltip-title'>雹刃</div><mainText><stats></stats>對野怪擁有 8% 全能吸血<br><li><passive>灼燒：</passive>對野怪造成傷害時會燃燒牠們，在 5 秒內持續造成共 <magicDamage>（60 + 30% 魔法攻擊 + 5% 額外物理攻擊 + 2% 額外生命）魔法傷害</magicDamage>。<li><passive>凜冽之途：</passive>重擊 5 次將消耗這個道具並將你的重擊升級為<attention>凜冽重擊</attention>，並提升重擊對野怪的傷害。凜冽重擊對英雄造成 <truedamage>20 - 156（根據等級）</truedamage> 真實傷害並偷取其 20% 移動速度，持續 2 秒。<li><passive>狩獵者：</passive>擊殺大型野怪將會獲得額外經驗值。<li><passive>補償：</passive> 在野區或河道時，每秒最多回復 8 -18（根據等級）魔力。<br><br><rules><status>消耗</status>此道具使你永久獲得所有道具效果，並提升重擊對野怪的傷害。若你從小兵賺取的金錢多過從野怪賺取的金錢，來自小兵的金錢與經驗值將大幅減少。範圍攻擊的治癒效果不會減少。如果你的等級比遊戲中英雄的平均等級落後 2 級，擊殺野怪會獲得額外經驗值。</rules> <br><br></mainText><br><div class='tooltip-gold'>350 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>雹刃</div><mainText><stats></stats>對野怪擁有 7% 全能吸血<br><li><passive>灼燒：</passive>對野怪造成傷害時會燃燒牠們，在 5 秒內持續造成共 <magicDamage>（60 + 30% 魔法攻擊 + 5% 額外物理攻擊 + 2% 額外生命）魔法傷害</magicDamage>。<li><passive>凜冽之途：</passive>重擊 5 次將消耗這個道具並將你的重擊升級為<attention>凜冽重擊</attention>，並提升重擊對野怪的傷害。凜冽重擊對英雄造成 <truedamage>20 - 156（根據等級）</truedamage> 真實傷害並偷取其 20% 移動速度，持續 2 秒。<li><passive>狩獵者：</passive>擊殺大型野怪將會獲得額外經驗值。<li><passive>補償：</passive> 在野區或河道時，每秒最多回復 8 -18（根據等級）魔力。<br><br><rules><status>消耗</status>此道具使你永久獲得所有道具效果，並提升重擊對野怪的傷害。若你從小兵賺取的金錢多過從野怪賺取的金錢，來自小兵的金錢與經驗值將大幅減少。範圍攻擊的治癒效果不會減少。如果你的等級比遊戲中英雄的平均等級落後 2 級，擊殺野怪會獲得額外經驗值。</rules> <br><br></mainText><br><div class='tooltip-gold'>350 Gold</div>"
     },
     "1040": {
       "name": "黑曜鋒刃",
@@ -424,9 +424,9 @@
     },
     "1053": {
       "name": "吸血鬼權杖",
-      "desc": "<mainText><stats><attention>15</attention> 物理攻擊<br><attention>8%</attention> 普攻吸血</stats></mainText><br>",
+      "desc": "<mainText><stats><attention>15</attention> 物理攻擊<br><attention>7%</attention> 普攻吸血</stats></mainText><br>",
       "gold": 900,
-      "tooltip": "<div class='tooltip-title'>吸血鬼權杖</div><mainText><stats><attention>15</attention> 物理攻擊<br><attention>8%</attention> 普攻吸血</stats></mainText><br><div class='tooltip-gold'>900 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>吸血鬼權杖</div><mainText><stats><attention>15</attention> 物理攻擊<br><attention>7%</attention> 普攻吸血</stats></mainText><br><div class='tooltip-gold'>900 Gold</div>"
     },
     "1054": {
       "name": "多蘭之盾",
@@ -442,9 +442,9 @@
     },
     "1056": {
       "name": "多蘭之戒",
-      "desc": "<mainText><stats><attention>15</attention>  魔法攻擊<br><attention>70</attention> 生命</stats><br><li><passive>專注：</passive>普攻對小兵造成額外 <physicalDamage>5 物理傷害</physicalDamage>。<li><passive>汲取：</passive>每秒回復 <scaleMana>0.75 魔力</scaleMana>。傷害一名敵方英雄會提升此回復量至每秒 <scaleMana>1.25 魔力</scaleMana>，持續 10 秒。如果你無法獲得魔力，會改為回復等同於該數值 50% 的生命。</mainText><br>",
+      "desc": "<mainText><stats><attention>15</attention>  魔法攻擊<br><attention>70</attention> 生命</stats><br><li><passive>專注：</passive>普攻對小兵造成額外 <physicalDamage>5 物理傷害</physicalDamage>。<li><passive>汲取：</passive>每秒回復 <scaleMana>1 魔力</scaleMana>。傷害一名敵方英雄會提升此回復量至每秒 <scaleMana>1.5 魔力</scaleMana>，持續 10 秒。如果你無法獲得魔力，會改為回復等同於該數值 45% 的生命。</mainText><br>",
       "gold": 400,
-      "tooltip": "<div class='tooltip-title'>多蘭之戒</div><mainText><stats><attention>15</attention>  魔法攻擊<br><attention>70</attention> 生命</stats><br><li><passive>專注：</passive>普攻對小兵造成額外 <physicalDamage>5 物理傷害</physicalDamage>。<li><passive>汲取：</passive>每秒回復 <scaleMana>0.75 魔力</scaleMana>。傷害一名敵方英雄會提升此回復量至每秒 <scaleMana>1.25 魔力</scaleMana>，持續 10 秒。如果你無法獲得魔力，會改為回復等同於該數值 50% 的生命。</mainText><br><div class='tooltip-gold'>400 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>多蘭之戒</div><mainText><stats><attention>15</attention>  魔法攻擊<br><attention>70</attention> 生命</stats><br><li><passive>專注：</passive>普攻對小兵造成額外 <physicalDamage>5 物理傷害</physicalDamage>。<li><passive>汲取：</passive>每秒回復 <scaleMana>1 魔力</scaleMana>。傷害一名敵方英雄會提升此回復量至每秒 <scaleMana>1.5 魔力</scaleMana>，持續 10 秒。如果你無法獲得魔力，會改為回復等同於該數值 45% 的生命。</mainText><br><div class='tooltip-gold'>400 Gold</div>"
     },
     "1057": {
       "name": "負極斗篷",
@@ -646,9 +646,9 @@
     },
     "2140": {
       "name": "憤怒藥劑",
-      "desc": "<mainText><stats></stats><active>主動─消耗：</active>喝下可獲得 <scaleAD>30 物理攻擊</scaleAD>及 <lifeSteal>15% 物理吸血</lifeSteal>（對英雄使用），持續 3 分鐘。<br><br><rules>喝下不同藥劑會取代現有的藥劑效果。</rules></mainText><br>",
+      "desc": "<mainText><stats></stats><active>主動─消耗：</active>喝下可獲得 <scaleAD>30 物理攻擊</scaleAD>及 <lifeSteal>12% 物理吸血</lifeSteal>（對英雄使用），持續 3 分鐘。<br><br><rules>喝下不同藥劑會取代現有的藥劑效果。</rules></mainText><br>",
       "gold": 500,
-      "tooltip": "<div class='tooltip-title'>憤怒藥劑</div><mainText><stats></stats><active>主動─消耗：</active>喝下可獲得 <scaleAD>30 物理攻擊</scaleAD>及 <lifeSteal>15% 物理吸血</lifeSteal>（對英雄使用），持續 3 分鐘。<br><br><rules>喝下不同藥劑會取代現有的藥劑效果。</rules></mainText><br><div class='tooltip-gold'>500 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>憤怒藥劑</div><mainText><stats></stats><active>主動─消耗：</active>喝下可獲得 <scaleAD>30 物理攻擊</scaleAD>及 <lifeSteal>12% 物理吸血</lifeSteal>（對英雄使用），持續 3 分鐘。<br><br><rules>喝下不同藥劑會取代現有的藥劑效果。</rules></mainText><br><div class='tooltip-gold'>500 Gold</div>"
     },
     "2403": {
       "name": "小兵去質器",
@@ -700,9 +700,9 @@
     },
     "3003": {
       "name": "大天使之杖",
-      "desc": "<mainText><stats><attention>60</attention>  魔法攻擊<br><attention>500</attention> 魔力<br><attention>200</attention> 生命</stats><br><li><passive>威嚇：</passive>獲得相當於 <scaleMana>0.5% 額外魔力</scaleMana>的技能疾速。<li><passive>魔力補充：</passive>以技能命中目標會消耗一次充能並獲得 <scaleMana>3 額外魔力</scaleMana>。若目標是英雄，則獲得的額外魔力加倍。提供的額外魔力疊滿至 360 時，此道具進化成<rarityLegendary>熾天使的擁抱</rarityLegendary>。<br><br><rules>每 8 秒獲得一次新的<passive>魔力補充</passive>（最多 4 次）。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>60</attention>  魔法攻擊<br><attention>500</attention> 魔力<br><attention>200</attention> 生命</stats><br><li><passive>威嚇：</passive>獲得相當於 <scaleMana>0.5% 額外魔力</scaleMana>的技能疾速。<li><passive>魔力補充：</passive>以技能命中目標會消耗一次充能並獲得 <scaleMana>3 額外魔力</scaleMana>。若目標是英雄，則獲得的額外魔力加倍。提供的額外魔力疊滿至 360 時，此道具進化成<rarityLegendary>熾天使的擁抱</rarityLegendary>。<br><br><rules>每 8 秒獲得一次新的<passive>魔力補充</passive>充能（最多 4 次）。</rules></mainText><br>",
       "gold": 2600,
-      "tooltip": "<div class='tooltip-title'>大天使之杖</div><mainText><stats><attention>60</attention>  魔法攻擊<br><attention>500</attention> 魔力<br><attention>200</attention> 生命</stats><br><li><passive>威嚇：</passive>獲得相當於 <scaleMana>0.5% 額外魔力</scaleMana>的技能疾速。<li><passive>魔力補充：</passive>以技能命中目標會消耗一次充能並獲得 <scaleMana>3 額外魔力</scaleMana>。若目標是英雄，則獲得的額外魔力加倍。提供的額外魔力疊滿至 360 時，此道具進化成<rarityLegendary>熾天使的擁抱</rarityLegendary>。<br><br><rules>每 8 秒獲得一次新的<passive>魔力補充</passive>（最多 4 次）。</rules></mainText><br><div class='tooltip-gold'>2600 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>大天使之杖</div><mainText><stats><attention>60</attention>  魔法攻擊<br><attention>500</attention> 魔力<br><attention>200</attention> 生命</stats><br><li><passive>威嚇：</passive>獲得相當於 <scaleMana>0.5% 額外魔力</scaleMana>的技能疾速。<li><passive>魔力補充：</passive>以技能命中目標會消耗一次充能並獲得 <scaleMana>3 額外魔力</scaleMana>。若目標是英雄，則獲得的額外魔力加倍。提供的額外魔力疊滿至 360 時，此道具進化成<rarityLegendary>熾天使的擁抱</rarityLegendary>。<br><br><rules>每 8 秒獲得一次新的<passive>魔力補充</passive>充能（最多 4 次）。</rules></mainText><br><div class='tooltip-gold'>2600 Gold</div>"
     },
     "3004": {
       "name": "魔劍正宗",
@@ -724,9 +724,9 @@
     },
     "3011": {
       "name": "生化科技腐化器",
-      "desc": "<mainText><stats><attention>55</attention>  魔法攻擊<br><attention>20</attention> 技能疾速<br><attention>100%</attention> 基礎魔力回復</stats><br><li><passive>蘑菇毒素：</passive>造成魔法傷害可對英雄附加 <status>40% 重創效果</status>，持續 3 秒。為另一名友軍提供治癒或護盾會強化你和該友軍，使你們對敵方英雄的下一次傷害附加 <status>60% 重創效果</status>。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>60</attention>  魔法攻擊<br><attention>20</attention> 技能疾速<br><attention>100%</attention> 基礎魔力回復</stats><br><li><passive>蘑菇毒素：</passive>造成魔法傷害可對英雄附加 <status>25% 重創效果</status>，持續 3 秒。為另一名友軍提供治癒或護盾會強化你和該友軍，使你們對敵方英雄的下一次傷害附加 <status>40% 重創效果</status>。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br>",
       "gold": 2300,
-      "tooltip": "<div class='tooltip-title'>生化科技腐化器</div><mainText><stats><attention>55</attention>  魔法攻擊<br><attention>20</attention> 技能疾速<br><attention>100%</attention> 基礎魔力回復</stats><br><li><passive>蘑菇毒素：</passive>造成魔法傷害可對英雄附加 <status>40% 重創效果</status>，持續 3 秒。為另一名友軍提供治癒或護盾會強化你和該友軍，使你們對敵方英雄的下一次傷害附加 <status>60% 重創效果</status>。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br><div class='tooltip-gold'>2300 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>生化科技腐化器</div><mainText><stats><attention>60</attention>  魔法攻擊<br><attention>20</attention> 技能疾速<br><attention>100%</attention> 基礎魔力回復</stats><br><li><passive>蘑菇毒素：</passive>造成魔法傷害可對英雄附加 <status>25% 重創效果</status>，持續 3 秒。為另一名友軍提供治癒或護盾會強化你和該友軍，使你們對敵方英雄的下一次傷害附加 <status>40% 重創效果</status>。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br><div class='tooltip-gold'>2300 Gold</div>"
     },
     "3020": {
       "name": "法師之靴",
@@ -754,27 +754,27 @@
     },
     "3033": {
       "name": "致死宣告",
-      "desc": "<mainText><stats><attention>25</attention> 物理攻擊<br><attention>25%</attention> 攻擊速度<br><attention>20%</attention> 暴擊機率<br><attention>7%</attention> 移動速度</stats><br><li><passive>敗血症：</passive>造成物理傷害可對敵方英雄施加 <status>40% 重創效果</status>，持續 3 秒。對一個敵方英雄連續造成 3 次普攻，則<status>重創效果</status>提升至 60%，直到效果消失為止。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>25</attention> 物理攻擊<br><attention>25%</attention> 攻擊速度<br><attention>20%</attention> 暴擊機率<br><attention>7%</attention> 移動速度</stats><br><li><passive>敗血症：</passive>造成物理傷害可對敵方英雄施加 <status>25% 重創效果</status>，持續 3 秒。對一個敵方英雄連續造成 2 次普攻，則<status>重創效果</status>提升至 40%，直到效果消失為止。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br>",
       "gold": 2500,
-      "tooltip": "<div class='tooltip-title'>致死宣告</div><mainText><stats><attention>25</attention> 物理攻擊<br><attention>25%</attention> 攻擊速度<br><attention>20%</attention> 暴擊機率<br><attention>7%</attention> 移動速度</stats><br><li><passive>敗血症：</passive>造成物理傷害可對敵方英雄施加 <status>40% 重創效果</status>，持續 3 秒。對一個敵方英雄連續造成 3 次普攻，則<status>重創效果</status>提升至 60%，直到效果消失為止。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>致死宣告</div><mainText><stats><attention>25</attention> 物理攻擊<br><attention>25%</attention> 攻擊速度<br><attention>20%</attention> 暴擊機率<br><attention>7%</attention> 移動速度</stats><br><li><passive>敗血症：</passive>造成物理傷害可對敵方英雄施加 <status>25% 重創效果</status>，持續 3 秒。對一個敵方英雄連續造成 2 次普攻，則<status>重創效果</status>提升至 40%，直到效果消失為止。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
     },
     "3035": {
       "name": "最後耳語",
-      "desc": "<mainText><stats><attention>20</attention> 物理攻擊<br><attention>20%</attention> 物理穿透</stats></mainText><br>",
+      "desc": "<mainText><stats><attention>20</attention> 物理攻擊<br><attention>18%</attention> 物理穿透</stats></mainText><br>",
       "gold": 1450,
-      "tooltip": "<div class='tooltip-title'>最後耳語</div><mainText><stats><attention>20</attention> 物理攻擊<br><attention>20%</attention> 物理穿透</stats></mainText><br><div class='tooltip-gold'>1450 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>最後耳語</div><mainText><stats><attention>20</attention> 物理攻擊<br><attention>18%</attention> 物理穿透</stats></mainText><br><div class='tooltip-gold'>1450 Gold</div>"
     },
     "3036": {
       "name": "多明尼克的問候",
-      "desc": "<mainText><stats><attention>30</attention> 物理攻擊<br><attention>20%</attention> 暴擊機率<br><attention>35%</attention> 物理穿透</stats><br><li><passive>巨人殺手：</passive>對抗最大生命比你高的英雄，最多造成 <physicalDamage>15% 額外物理傷害</physicalDamage>。<br><br><rules>當生命差距達到 2000 時，傷害加成會達到最大值。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>30</attention> 物理攻擊<br><attention>20%</attention> 暴擊機率<br><attention>30%</attention> 物理穿透</stats><br><li><passive>巨人殺手：</passive>對抗最大生命比你高的英雄，最多造成 <physicalDamage>15% 額外物理傷害</physicalDamage>。<br><br><rules>當生命差距達到 2000 時，傷害加成會達到最大值。</rules></mainText><br>",
       "gold": 3000,
-      "tooltip": "<div class='tooltip-title'>多明尼克的問候</div><mainText><stats><attention>30</attention> 物理攻擊<br><attention>20%</attention> 暴擊機率<br><attention>35%</attention> 物理穿透</stats><br><li><passive>巨人殺手：</passive>對抗最大生命比你高的英雄，最多造成 <physicalDamage>15% 額外物理傷害</physicalDamage>。<br><br><rules>當生命差距達到 2000 時，傷害加成會達到最大值。</rules></mainText><br><div class='tooltip-gold'>3000 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>多明尼克的問候</div><mainText><stats><attention>30</attention> 物理攻擊<br><attention>20%</attention> 暴擊機率<br><attention>30%</attention> 物理穿透</stats><br><li><passive>巨人殺手：</passive>對抗最大生命比你高的英雄，最多造成 <physicalDamage>15% 額外物理傷害</physicalDamage>。<br><br><rules>當生命差距達到 2000 時，傷害加成會達到最大值。</rules></mainText><br><div class='tooltip-gold'>3000 Gold</div>"
     },
     "3040": {
       "name": "熾天使的擁抱",
-      "desc": "<mainText><stats><attention>80</attention>  魔法攻擊<br><attention>860</attention> 魔力<br><attention>250</attention> 生命</stats><br><li><passive>威嚇：</passive>獲得相當於 <scaleMana>1.3% 額外魔力</scaleMana>的技能疾速。<li><passive>天堂：</passive>回復等同於 35% 花費<scaleMana>魔力</scaleMana>的<scaleHealth>生命</scaleHealth>，每次施放技能的回復上限為 25-50 (+10% 魔法攻擊)。開關式技能可每秒治癒最多等量的生命。</mainText><br>",
+      "desc": "<mainText><stats><attention>80</attention>  魔法攻擊<br><attention>860</attention> 魔力<br><attention>250</attention> 生命</stats><br><li><passive>威嚇：</passive>獲得相當於 <scaleMana>1.3% 額外魔力</scaleMana>的技能疾速。<li><passive>天堂：</passive>回復等同於 25% 花費<scaleMana>魔力</scaleMana>的<scaleHealth>生命</scaleHealth>，每次施放技能的回復上限為 25-50 (+10% 魔法攻擊)。開關式技能可每秒治癒最多等量的生命。</mainText><br>",
       "gold": 2600,
-      "tooltip": "<div class='tooltip-title'>熾天使的擁抱</div><mainText><stats><attention>80</attention>  魔法攻擊<br><attention>860</attention> 魔力<br><attention>250</attention> 生命</stats><br><li><passive>威嚇：</passive>獲得相當於 <scaleMana>1.3% 額外魔力</scaleMana>的技能疾速。<li><passive>天堂：</passive>回復等同於 35% 花費<scaleMana>魔力</scaleMana>的<scaleHealth>生命</scaleHealth>，每次施放技能的回復上限為 25-50 (+10% 魔法攻擊)。開關式技能可每秒治癒最多等量的生命。</mainText><br><div class='tooltip-gold'>2600 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>熾天使的擁抱</div><mainText><stats><attention>80</attention>  魔法攻擊<br><attention>860</attention> 魔力<br><attention>250</attention> 生命</stats><br><li><passive>威嚇：</passive>獲得相當於 <scaleMana>1.3% 額外魔力</scaleMana>的技能疾速。<li><passive>天堂：</passive>回復等同於 25% 花費<scaleMana>魔力</scaleMana>的<scaleHealth>生命</scaleHealth>，每次施放技能的回復上限為 25-50 (+10% 魔法攻擊)。開關式技能可每秒治癒最多等量的生命。</mainText><br><div class='tooltip-gold'>2600 Gold</div>"
     },
     "3041": {
       "name": "靈魂竊取者",
@@ -784,15 +784,15 @@
     },
     "3042": {
       "name": "終極魔劍",
-      "desc": "<mainText><stats><attention>35</attention> 物理攻擊<br><attention>860</attention> 魔力<br><attention>15</attention> 技能疾速</stats><br><li><passive>威嚇：</passive>獲得等同於 <scaleAD>2.5% 最大魔力的物理攻擊</scaleAD>。<li><passive>衝擊：</passive>對英雄的普攻會造成額外 <physicalDamage>1.5% 最大魔力的物理傷害</physicalDamage>（<OnHit>命中</OnHit>）。對英雄的傷害性技能會造成額外 <physicalDamage>（近戰英雄 3.5%  | 遠程英雄 2.7%）最大魔力 + 6% 總物理攻擊的物理傷害</physicalDamage>。</mainText><br>",
+      "desc": "<mainText><stats><attention>35</attention> 物理攻擊<br><attention>860</attention> 魔力<br><attention>15</attention> 技能疾速</stats><br><li><passive>威嚇：</passive>獲得<scaleAD>等同於 2.5% 最大魔力的額外物理攻擊</scaleAD>。<li><passive>衝擊：</passive>對英雄的普攻會造成額外 <physicalDamage>1.5% 最大魔力的物理傷害</physicalDamage> <OnHit>命中</OnHit>。對英雄的傷害性技能會造成額外 <physicalDamage>（近戰英雄 3.5% | 遠程英雄 2.7%）最大魔力 + 6% 總物理攻擊的物理傷害</physicalDamage>。</mainText><br>",
       "gold": 3000,
-      "tooltip": "<div class='tooltip-title'>終極魔劍</div><mainText><stats><attention>35</attention> 物理攻擊<br><attention>860</attention> 魔力<br><attention>15</attention> 技能疾速</stats><br><li><passive>威嚇：</passive>獲得等同於 <scaleAD>2.5% 最大魔力的物理攻擊</scaleAD>。<li><passive>衝擊：</passive>對英雄的普攻會造成額外 <physicalDamage>1.5% 最大魔力的物理傷害</physicalDamage>（<OnHit>命中</OnHit>）。對英雄的傷害性技能會造成額外 <physicalDamage>（近戰英雄 3.5%  | 遠程英雄 2.7%）最大魔力 + 6% 總物理攻擊的物理傷害</physicalDamage>。</mainText><br><div class='tooltip-gold'>3000 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>終極魔劍</div><mainText><stats><attention>35</attention> 物理攻擊<br><attention>860</attention> 魔力<br><attention>15</attention> 技能疾速</stats><br><li><passive>威嚇：</passive>獲得<scaleAD>等同於 2.5% 最大魔力的額外物理攻擊</scaleAD>。<li><passive>衝擊：</passive>對英雄的普攻會造成額外 <physicalDamage>1.5% 最大魔力的物理傷害</physicalDamage> <OnHit>命中</OnHit>。對英雄的傷害性技能會造成額外 <physicalDamage>（近戰英雄 3.5% | 遠程英雄 2.7%）最大魔力 + 6% 總物理攻擊的物理傷害</physicalDamage>。</mainText><br><div class='tooltip-gold'>3000 Gold</div>"
     },
     "3044": {
       "name": "淨蝕之槌",
-      "desc": "<mainText><stats><attention>15</attention> 物理攻擊<br><attention>200</attention> 生命</stats><br><li><passive>堅忍：</passive>對英雄造成物理傷害後，在 6 秒內回復 <healing>2% 最大生命</healing>。<br><br><rules>對於 遠距英雄，回復效果將減至 50%。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>15</attention> 物理攻擊<br><attention>200</attention> 生命</stats><br><li><passive>堅毅：</passive>對英雄造成物理傷害後，在 6 秒內回復 <healing>1.6% 最大生命</healing>。<br><br><rules>遠程英雄的生命回復減少至 50%。</rules></mainText><br>",
       "gold": 1100,
-      "tooltip": "<div class='tooltip-title'>淨蝕之槌</div><mainText><stats><attention>15</attention> 物理攻擊<br><attention>200</attention> 生命</stats><br><li><passive>堅忍：</passive>對英雄造成物理傷害後，在 6 秒內回復 <healing>2% 最大生命</healing>。<br><br><rules>對於 遠距英雄，回復效果將減至 50%。</rules></mainText><br><div class='tooltip-gold'>1100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>淨蝕之槌</div><mainText><stats><attention>15</attention> 物理攻擊<br><attention>200</attention> 生命</stats><br><li><passive>堅毅：</passive>對英雄造成物理傷害後，在 6 秒內回復 <healing>1.6% 最大生命</healing>。<br><br><rules>遠程英雄的生命回復減少至 50%。</rules></mainText><br><div class='tooltip-gold'>1100 Gold</div>"
     },
     "3046": {
       "name": "幻影之舞",
@@ -808,9 +808,9 @@
     },
     "3050": {
       "name": "錫柯的聚合之力",
-      "desc": "<mainText><stats><attention>250</attention> 生命<br><attention>25</attention>  物理防禦<br><attention>250</attention> 魔力<br><attention>20</attention> 技能疾速</stats><br><br><active>主動─</active><active>連通：</active>指派一個<attention>同盟</attention>（60秒冷卻時間）。<br><li><passive>聚合之力：</passive>在你使一個敵人<status>定身</status>的 8 秒內，<attention>同盟</attention>的普攻和技能對該敵人附加額外 <magicDamage>（30 - 70（根據等級）（+1.5% 最大生命 ）（+7.5% 魔法攻擊）的魔法傷害</magicDamage>。<br><br><rules>英雄同一時間只能與一件錫柯的聚合之力綁定。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>250</attention> 生命<br><attention>35</attention>  物理防禦<br><attention>250</attention> 魔力<br><attention>20</attention> 技能疾速</stats><br><br><active>主動─</active><active>連通：</active>指派一個<attention>同盟</attention>（60秒冷卻時間）。<br><li><passive>聚合之力：</passive>在你使一個敵人<status>定身</status>的 8 秒內，<attention>同盟</attention>的普攻和技能對該敵人附加額外 <magicDamage>（30 - 70（根據等級）（+1.5% 最大生命 ）（+7.5% 魔法攻擊）的魔法傷害</magicDamage>。<br><br><rules>英雄同一時間只能與一件錫柯的聚合之力綁定。</rules></mainText><br>",
       "gold": 2400,
-      "tooltip": "<div class='tooltip-title'>錫柯的聚合之力</div><mainText><stats><attention>250</attention> 生命<br><attention>25</attention>  物理防禦<br><attention>250</attention> 魔力<br><attention>20</attention> 技能疾速</stats><br><br><active>主動─</active><active>連通：</active>指派一個<attention>同盟</attention>（60秒冷卻時間）。<br><li><passive>聚合之力：</passive>在你使一個敵人<status>定身</status>的 8 秒內，<attention>同盟</attention>的普攻和技能對該敵人附加額外 <magicDamage>（30 - 70（根據等級）（+1.5% 最大生命 ）（+7.5% 魔法攻擊）的魔法傷害</magicDamage>。<br><br><rules>英雄同一時間只能與一件錫柯的聚合之力綁定。</rules></mainText><br><div class='tooltip-gold'>2400 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>錫柯的聚合之力</div><mainText><stats><attention>250</attention> 生命<br><attention>35</attention>  物理防禦<br><attention>250</attention> 魔力<br><attention>20</attention> 技能疾速</stats><br><br><active>主動─</active><active>連通：</active>指派一個<attention>同盟</attention>（60秒冷卻時間）。<br><li><passive>聚合之力：</passive>在你使一個敵人<status>定身</status>的 8 秒內，<attention>同盟</attention>的普攻和技能對該敵人附加額外 <magicDamage>（30 - 70（根據等級）（+1.5% 最大生命 ）（+7.5% 魔法攻擊）的魔法傷害</magicDamage>。<br><br><rules>英雄同一時間只能與一件錫柯的聚合之力綁定。</rules></mainText><br><div class='tooltip-gold'>2400 Gold</div>"
     },
     "3051": {
       "name": "爐縛之斧",
@@ -820,9 +820,9 @@
     },
     "3053": {
       "name": "史特拉克手套",
-      "desc": "<mainText><stats><attention>400</attention> 生命</stats><br><li><passive>狂暴利爪：</passive>獲得等同於 40% 基礎物理攻擊的額外物理攻擊。<li><passive>命脈：</passive>若承受的傷害會使你的生命低於 30%，則獲得一個 <shield>75% 額外生命的護盾</shield>，持續 3.75 秒（60秒 ）。</mainText><br>",
+      "desc": "<mainText><stats><attention>400</attention> 生命</stats><br><li><passive>狂暴利爪：</passive>獲得等同於 40% 基礎物理攻擊的額外物理攻擊。<li><passive>命脈：</passive>若承受的傷害會使你的生命低於 30%，則獲得一個 <shield>70% 額外生命的護盾</shield>，持續 3.75 秒（60秒 ）。</mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>史特拉克手套</div><mainText><stats><attention>400</attention> 生命</stats><br><li><passive>狂暴利爪：</passive>獲得等同於 40% 基礎物理攻擊的額外物理攻擊。<li><passive>命脈：</passive>若承受的傷害會使你的生命低於 30%，則獲得一個 <shield>75% 額外生命的護盾</shield>，持續 3.75 秒（60秒 ）。</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>史特拉克手套</div><mainText><stats><attention>400</attention> 生命</stats><br><li><passive>狂暴利爪：</passive>獲得等同於 40% 基礎物理攻擊的額外物理攻擊。<li><passive>命脈：</passive>若承受的傷害會使你的生命低於 30%，則獲得一個 <shield>70% 額外生命的護盾</shield>，持續 3.75 秒（60秒 ）。</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
     },
     "3057": {
       "name": "閃耀劍",
@@ -832,9 +832,9 @@
     },
     "3065": {
       "name": "振奮盔甲",
-      "desc": "<mainText><stats><attention>450</attention> 生命<br><attention>40</attention> 魔法防禦<br><attention>10</attention> 技能疾速<br><attention>100%</attention> 基礎生命回復</stats><br><li><passive>無限活力：</passive>你身上受到的治癒與護盾效果提升 25%。</mainText><br>",
+      "desc": "<mainText><stats><attention>450</attention> 生命<br><attention>50</attention> 魔法防禦<br><attention>10</attention> 技能疾速<br><attention>100%</attention> 基礎生命回復</stats><br><li><passive>無限活力：</passive>你身上受到的治癒與護盾效果提升 25%。</mainText><br>",
       "gold": 2900,
-      "tooltip": "<div class='tooltip-title'>振奮盔甲</div><mainText><stats><attention>450</attention> 生命<br><attention>40</attention> 魔法防禦<br><attention>10</attention> 技能疾速<br><attention>100%</attention> 基礎生命回復</stats><br><li><passive>無限活力：</passive>你身上受到的治癒與護盾效果提升 25%。</mainText><br><div class='tooltip-gold'>2900 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>振奮盔甲</div><mainText><stats><attention>450</attention> 生命<br><attention>50</attention> 魔法防禦<br><attention>10</attention> 技能疾速<br><attention>100%</attention> 基礎生命回復</stats><br><li><passive>無限活力：</passive>你身上受到的治癒與護盾效果提升 25%。</mainText><br><div class='tooltip-gold'>2900 Gold</div>"
     },
     "3066": {
       "name": "飛翼月甲",
@@ -850,9 +850,9 @@
     },
     "3068": {
       "name": "日炎聖盾",
-      "desc": "<mainText><stats><attention>350</attention> 生命<br><attention>35</attention>  物理防禦<br><attention>35</attention> 魔法防禦<br><attention>20</attention> 技能疾速</stats><br><li><passive>獻祭：</passive>承受或造成傷害將使你每秒開始對附近敵人造成 <magicDamage>（12 - 30 （根據等級） + 1% 額外生命） 魔法傷害</magicDamage>（對小兵造成 25% 額外傷害，對野怪造成 150% 額外傷害），持續 3 秒。使用此效果傷害英雄或史詩級野怪即獲得一層疊加，使後續的<passive>獻祭</passive>傷害提升 12%，持續 5 秒（最多 6 層）。<li><passive>炎之觸：</passive>達到最高<passive>獻祭</passive>層數時，你的普攻每秒以<passive>獻祭</passive>傷害燃燒附近敵人，持續 3 秒。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5%</attention> 韌性及緩速抗性及 <attention>50</attention> 生命。</mainText><br>",
+      "desc": "<mainText><stats><attention>450</attention> 生命<br><attention>35</attention>  物理防禦<br><attention>35</attention> 魔法防禦<br><attention>20</attention> 技能疾速</stats><br><li><passive>獻祭：</passive>承受或造成傷害將使你每秒開始對附近敵人造成 <magicDamage>（12 - 30 （根據等級） + 1% 額外生命） 魔法傷害</magicDamage>（對小兵造成 25% 額外傷害，對野怪造成 150% 額外傷害），持續 3 秒。使用此效果傷害英雄或史詩級野怪即獲得一層疊加，使後續的<passive>獻祭</passive>傷害提升 10%，持續 5 秒（最多 6 層）。<li><passive>炎之觸：</passive>達到最高<passive>獻祭</passive>層數時，你的普攻每秒以<passive>獻祭</passive>傷害燃燒附近敵人，持續 3 秒。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5%</attention> 韌性及緩速抗性及 <attention>50</attention> 生命。</mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>日炎聖盾</div><mainText><stats><attention>350</attention> 生命<br><attention>35</attention>  物理防禦<br><attention>35</attention> 魔法防禦<br><attention>20</attention> 技能疾速</stats><br><li><passive>獻祭：</passive>承受或造成傷害將使你每秒開始對附近敵人造成 <magicDamage>（12 - 30 （根據等級） + 1% 額外生命） 魔法傷害</magicDamage>（對小兵造成 25% 額外傷害，對野怪造成 150% 額外傷害），持續 3 秒。使用此效果傷害英雄或史詩級野怪即獲得一層疊加，使後續的<passive>獻祭</passive>傷害提升 12%，持續 5 秒（最多 6 層）。<li><passive>炎之觸：</passive>達到最高<passive>獻祭</passive>層數時，你的普攻每秒以<passive>獻祭</passive>傷害燃燒附近敵人，持續 3 秒。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5%</attention> 韌性及緩速抗性及 <attention>50</attention> 生命。</mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>日炎聖盾</div><mainText><stats><attention>450</attention> 生命<br><attention>35</attention>  物理防禦<br><attention>35</attention> 魔法防禦<br><attention>20</attention> 技能疾速</stats><br><li><passive>獻祭：</passive>承受或造成傷害將使你每秒開始對附近敵人造成 <magicDamage>（12 - 30 （根據等級） + 1% 額外生命） 魔法傷害</magicDamage>（對小兵造成 25% 額外傷害，對野怪造成 150% 額外傷害），持續 3 秒。使用此效果傷害英雄或史詩級野怪即獲得一層疊加，使後續的<passive>獻祭</passive>傷害提升 10%，持續 5 秒（最多 6 層）。<li><passive>炎之觸：</passive>達到最高<passive>獻祭</passive>層數時，你的普攻每秒以<passive>獻祭</passive>傷害燃燒附近敵人，持續 3 秒。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5%</attention> 韌性及緩速抗性及 <attention>50</attention> 生命。</mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "3070": {
       "name": "女神之淚",
@@ -868,9 +868,9 @@
     },
     "3072": {
       "name": "嗜血者",
-      "desc": "<mainText><stats><attention>55</attention> 物理攻擊<br><attention>20%</attention> 暴擊機率<br><attention>20%</attention> 普攻吸血</stats><br><li><passive>庇蔭靈藥：</passive>普攻吸血現在可以超量治癒自己。超過的生命會化為 <shield> 50 - 350 (根據等級) 護盾</shield>，在 25 秒內未造成或承受傷害將遞減。</mainText><br>",
+      "desc": "<mainText><stats><attention>55</attention> 物理攻擊<br><attention>20%</attention> 暴擊機率<br><attention>18%</attention> 普攻吸血</stats><br><li><passive>庇蔭靈藥：</passive>普攻吸血現在可以超量治癒自己。溢出的生命可儲存為一個 <shield>50 - 320（根據等級）的護盾</shield>，如果在過去 25 秒內未造成或承受傷害，則會緩慢消退。</mainText><br>",
       "gold": 3400,
-      "tooltip": "<div class='tooltip-title'>嗜血者</div><mainText><stats><attention>55</attention> 物理攻擊<br><attention>20%</attention> 暴擊機率<br><attention>20%</attention> 普攻吸血</stats><br><li><passive>庇蔭靈藥：</passive>普攻吸血現在可以超量治癒自己。超過的生命會化為 <shield> 50 - 350 (根據等級) 護盾</shield>，在 25 秒內未造成或承受傷害將遞減。</mainText><br><div class='tooltip-gold'>3400 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>嗜血者</div><mainText><stats><attention>55</attention> 物理攻擊<br><attention>20%</attention> 暴擊機率<br><attention>18%</attention> 普攻吸血</stats><br><li><passive>庇蔭靈藥：</passive>普攻吸血現在可以超量治癒自己。溢出的生命可儲存為一個 <shield>50 - 320（根據等級）的護盾</shield>，如果在過去 25 秒內未造成或承受傷害，則會緩慢消退。</mainText><br><div class='tooltip-gold'>3400 Gold</div>"
     },
     "3074": {
       "name": "狂怒九頭蛇",
@@ -880,15 +880,15 @@
     },
     "3075": {
       "name": "荊棘之甲",
-      "desc": "<mainText><stats><attention>350</attention> 生命<br><attention>60</attention>  物理防禦</stats><br><li><passive>荊棘：</passive>被普攻擊中時，對攻擊者造成 <magicDamage>(10 + 10% 額外物理防禦) 魔法傷害</magicDamage>，若目標是英雄則施加40% <status>重創效果</status>，持續 3 秒。定身敵方英雄也會施加 60% <status>重創效果</status>，持續 3 秒。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>350</attention> 生命<br><attention>60</attention>  物理防禦</stats><br><li><passive>荊棘：</passive>被普攻擊中時，對攻擊者造成 <magicDamage>(10 + 20% 額外物理防禦) 魔法傷害</magicDamage>，若目標是英雄則施加25% <status>重創效果</status>，持續 3 秒。定身敵方英雄也會施加 40% <status>重創效果</status>，持續 3 秒。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br>",
       "gold": 2700,
-      "tooltip": "<div class='tooltip-title'>荊棘之甲</div><mainText><stats><attention>350</attention> 生命<br><attention>60</attention>  物理防禦</stats><br><li><passive>荊棘：</passive>被普攻擊中時，對攻擊者造成 <magicDamage>(10 + 10% 額外物理防禦) 魔法傷害</magicDamage>，若目標是英雄則施加40% <status>重創效果</status>，持續 3 秒。定身敵方英雄也會施加 60% <status>重創效果</status>，持續 3 秒。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br><div class='tooltip-gold'>2700 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>荊棘之甲</div><mainText><stats><attention>350</attention> 生命<br><attention>60</attention>  物理防禦</stats><br><li><passive>荊棘：</passive>被普攻擊中時，對攻擊者造成 <magicDamage>(10 + 20% 額外物理防禦) 魔法傷害</magicDamage>，若目標是英雄則施加25% <status>重創效果</status>，持續 3 秒。定身敵方英雄也會施加 40% <status>重創效果</status>，持續 3 秒。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br><div class='tooltip-gold'>2700 Gold</div>"
     },
     "3076": {
       "name": "刺藤胸甲",
-      "desc": "<mainText><stats><attention>30</attention>  物理防禦</stats><br><li><passive>荊棘：</passive>被普攻擊中時，對攻擊者造成 <magicDamage>3 魔法傷害</magicDamage>，若目標是英雄則施加 <status>40% 重創效果</status>，持續 3 秒。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>30</attention>  物理防禦</stats><br><li><passive>荊棘：</passive>被普攻擊中時，對攻擊者造成 <magicDamage>4 魔法傷害</magicDamage>，若目標是英雄則施加 <status>25% 重創效果</status>，持續 3 秒。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br>",
       "gold": 800,
-      "tooltip": "<div class='tooltip-title'>刺藤胸甲</div><mainText><stats><attention>30</attention>  物理防禦</stats><br><li><passive>荊棘：</passive>被普攻擊中時，對攻擊者造成 <magicDamage>3 魔法傷害</magicDamage>，若目標是英雄則施加 <status>40% 重創效果</status>，持續 3 秒。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br><div class='tooltip-gold'>800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>刺藤胸甲</div><mainText><stats><attention>30</attention>  物理防禦</stats><br><li><passive>荊棘：</passive>被普攻擊中時，對攻擊者造成 <magicDamage>4 魔法傷害</magicDamage>，若目標是英雄則施加 <status>25% 重創效果</status>，持續 3 秒。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br><div class='tooltip-gold'>800 Gold</div>"
     },
     "3077": {
       "name": "海神之斧",
@@ -970,9 +970,9 @@
     },
     "3107": {
       "name": "贖罪神石",
-      "desc": "<mainText><stats><attention>20%</attention> 治癒及護盾強度<br><attention>200</attention> 生命<br><attention>15</attention> 技能疾速<br><attention>100%</attention> 基礎魔力回復</stats><br><br><active>主動─</active> <active>審判：</active>指定一個 5500 距離內的區域。2.5 秒後，降下一道光束治療友軍 <healing>200 - 400 (隨著友軍等級提高) 生命</healing>，並燃燒敵方英雄，造成相當於目標 <trueDamage>10% 最大生命的真實傷害</trueDamage>（90 秒冷卻時間）。<br><br><rules>死亡時可啟用道具。若目標受到其他<active>審判</active>效果所影響，則傷害和治癒效果降低 50%。強度隨等級提升的效果是根據友軍的等級計算。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>20%</attention> 治癒及護盾強度<br><attention>200</attention> 生命<br><attention>15</attention> 技能疾速<br><attention>100%</attention> 基礎魔力回復</stats><br><br><active>主動─</active> <active>審判：</active>指定一個 5500 距離內的區域。2.5 秒後，降下一道光束治療友軍 <healing>180 - 340 (隨著友軍等級提高) 生命</healing>，並燃燒敵方英雄，造成相當於目標 <trueDamage>10% 最大生命的真實傷害</trueDamage>（90 秒冷卻時間）。<br><br><rules>死亡時可啟用道具。若目標受到其他<active>審判</active>效果所影響，則傷害和治癒效果降低 50%。強度隨等級提升的效果是根據友軍的等級計算。</rules></mainText><br>",
       "gold": 2300,
-      "tooltip": "<div class='tooltip-title'>贖罪神石</div><mainText><stats><attention>20%</attention> 治癒及護盾強度<br><attention>200</attention> 生命<br><attention>15</attention> 技能疾速<br><attention>100%</attention> 基礎魔力回復</stats><br><br><active>主動─</active> <active>審判：</active>指定一個 5500 距離內的區域。2.5 秒後，降下一道光束治療友軍 <healing>200 - 400 (隨著友軍等級提高) 生命</healing>，並燃燒敵方英雄，造成相當於目標 <trueDamage>10% 最大生命的真實傷害</trueDamage>（90 秒冷卻時間）。<br><br><rules>死亡時可啟用道具。若目標受到其他<active>審判</active>效果所影響，則傷害和治癒效果降低 50%。強度隨等級提升的效果是根據友軍的等級計算。</rules></mainText><br><div class='tooltip-gold'>2300 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>贖罪神石</div><mainText><stats><attention>20%</attention> 治癒及護盾強度<br><attention>200</attention> 生命<br><attention>15</attention> 技能疾速<br><attention>100%</attention> 基礎魔力回復</stats><br><br><active>主動─</active> <active>審判：</active>指定一個 5500 距離內的區域。2.5 秒後，降下一道光束治療友軍 <healing>180 - 340 (隨著友軍等級提高) 生命</healing>，並燃燒敵方英雄，造成相當於目標 <trueDamage>10% 最大生命的真實傷害</trueDamage>（90 秒冷卻時間）。<br><br><rules>死亡時可啟用道具。若目標受到其他<active>審判</active>效果所影響，則傷害和治癒效果降低 50%。強度隨等級提升的效果是根據友軍的等級計算。</rules></mainText><br><div class='tooltip-gold'>2300 Gold</div>"
     },
     "3108": {
       "name": "惡魔法典",
@@ -982,9 +982,9 @@
     },
     "3109": {
       "name": "騎士誓願",
-      "desc": "<mainText><stats><attention>400</attention> 生命<br><attention>10</attention> 技能疾速<br><attention>200%</attention> 基礎生命回復</stats><br><br><active>主動─</active><active>宣誓：</active>指派一位友軍為<attention>互許</attention>對象（60 秒冷卻時間）。<br><li><passive>犧牲：</passive>當你的<attention>互許</attention>友軍在附近，將他承受的 10% 傷害轉嫁到你身上，並根據<attention>互許</attention>友軍對英雄造成傷害的 8% 獲得等量的治癒。如果他的生命低於 30%，則傷害減免提升至 <attention>20%</attention>。<br><br><rules>英雄同一時間只能與一件騎士誓願綁定。如果你的生命低於 30%，則停止傷害轉嫁</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>400</attention> 生命<br><attention>20</attention> 技能疾速<br><attention>200%</attention> 基礎生命回復</stats><br><br><active>主動─</active><active>宣誓：</active>指派一位友軍為<attention>互許</attention>對象（60 秒冷卻時間）。<br><li><passive>犧牲：</passive>當你的<attention>互許</attention>友軍在附近，將他承受的 10% 傷害轉嫁到你身上，並根據<attention>互許</attention>友軍對英雄造成傷害的 7% 獲得等量的治癒。如果他的生命低於 30%，則傷害減免提升至 <attention>20%</attention>。<br><br><rules>英雄同一時間只能與一件騎士誓願綁定。如果你的生命低於 30%，則停止傷害轉嫁</rules></mainText><br>",
       "gold": 2300,
-      "tooltip": "<div class='tooltip-title'>騎士誓願</div><mainText><stats><attention>400</attention> 生命<br><attention>10</attention> 技能疾速<br><attention>200%</attention> 基礎生命回復</stats><br><br><active>主動─</active><active>宣誓：</active>指派一位友軍為<attention>互許</attention>對象（60 秒冷卻時間）。<br><li><passive>犧牲：</passive>當你的<attention>互許</attention>友軍在附近，將他承受的 10% 傷害轉嫁到你身上，並根據<attention>互許</attention>友軍對英雄造成傷害的 8% 獲得等量的治癒。如果他的生命低於 30%，則傷害減免提升至 <attention>20%</attention>。<br><br><rules>英雄同一時間只能與一件騎士誓願綁定。如果你的生命低於 30%，則停止傷害轉嫁</rules></mainText><br><div class='tooltip-gold'>2300 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>騎士誓願</div><mainText><stats><attention>400</attention> 生命<br><attention>20</attention> 技能疾速<br><attention>200%</attention> 基礎生命回復</stats><br><br><active>主動─</active><active>宣誓：</active>指派一位友軍為<attention>互許</attention>對象（60 秒冷卻時間）。<br><li><passive>犧牲：</passive>當你的<attention>互許</attention>友軍在附近，將他承受的 10% 傷害轉嫁到你身上，並根據<attention>互許</attention>友軍對英雄造成傷害的 7% 獲得等量的治癒。如果他的生命低於 30%，則傷害減免提升至 <attention>20%</attention>。<br><br><rules>英雄同一時間只能與一件騎士誓願綁定。如果你的生命低於 30%，則停止傷害轉嫁</rules></mainText><br><div class='tooltip-gold'>2300 Gold</div>"
     },
     "3110": {
       "name": "冰霜之心",
@@ -1042,15 +1042,15 @@
     },
     "3121": {
       "name": "芬布爾之冬",
-      "desc": "<mainText><stats><attention>350</attention> 生命<br><attention>860</attention> 魔力<br><attention>15</attention> 技能疾速</stats><li><passive>威嚇：</passive>獲得<scaleHealth>等同於 8% 總魔力的額外生命</scaleHealth>。<li><passive>永恆酷寒：</passive><status>定身</status>或<status>緩速</status>（僅限近戰）一名敵方英雄時，消耗 <scaleMana>3% 當前魔力</scaleMana>產生一個護盾，持續 3 秒，護盾可吸收 <scaleMana>100-200 + 5% 當前魔力</scaleMana>的傷害（8 秒冷卻時間）。如果附近有超過一名以上的敵人，則護盾量提升 <attention>80%</attention>。<br><br><rules>此效果只會在你擁有超過 20% 魔力時發動。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>350</attention> 生命<br><attention>860</attention> 魔力<br><attention>15</attention> 技能疾速</stats><li><passive>威嚇：</passive>獲得<scaleHealth>等同於 8% 總魔力的額外生命</scaleHealth>。<li><passive>永恆酷寒：</passive><status>定身</status>或<status>緩速</status> （僅限近戰）一名敵方英雄時，消耗 <scaleMana>3% 當前魔力</scaleMana>產生一個護盾，持續 3 秒，護盾可吸收 <scaleMana>100-180 + 4.5% 當前魔力</scaleMana>的傷害（8 秒）。如果附近有超過一名以上的敵人，則護盾量提升 <attention>80%</attention>。<br><br><rules>此效果只會在你擁有超過 20% 魔力時發動。</rules></mainText><br>",
       "gold": 2700,
-      "tooltip": "<div class='tooltip-title'>芬布爾之冬</div><mainText><stats><attention>350</attention> 生命<br><attention>860</attention> 魔力<br><attention>15</attention> 技能疾速</stats><li><passive>威嚇：</passive>獲得<scaleHealth>等同於 8% 總魔力的額外生命</scaleHealth>。<li><passive>永恆酷寒：</passive><status>定身</status>或<status>緩速</status>（僅限近戰）一名敵方英雄時，消耗 <scaleMana>3% 當前魔力</scaleMana>產生一個護盾，持續 3 秒，護盾可吸收 <scaleMana>100-200 + 5% 當前魔力</scaleMana>的傷害（8 秒冷卻時間）。如果附近有超過一名以上的敵人，則護盾量提升 <attention>80%</attention>。<br><br><rules>此效果只會在你擁有超過 20% 魔力時發動。</rules></mainText><br><div class='tooltip-gold'>2700 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>芬布爾之冬</div><mainText><stats><attention>350</attention> 生命<br><attention>860</attention> 魔力<br><attention>15</attention> 技能疾速</stats><li><passive>威嚇：</passive>獲得<scaleHealth>等同於 8% 總魔力的額外生命</scaleHealth>。<li><passive>永恆酷寒：</passive><status>定身</status>或<status>緩速</status> （僅限近戰）一名敵方英雄時，消耗 <scaleMana>3% 當前魔力</scaleMana>產生一個護盾，持續 3 秒，護盾可吸收 <scaleMana>100-180 + 4.5% 當前魔力</scaleMana>的傷害（8 秒）。如果附近有超過一名以上的敵人，則護盾量提升 <attention>80%</attention>。<br><br><rules>此效果只會在你擁有超過 20% 魔力時發動。</rules></mainText><br><div class='tooltip-gold'>2700 Gold</div>"
     },
     "3123": {
       "name": "死刑宣告",
-      "desc": "<mainText><stats><attention>15</attention> 物理攻擊</stats><br><li><passive>撕裂：</passive>造成物理傷害可對英雄施加  <status>40% 重創效果</status>，持續 3 秒。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>20</attention> 物理攻擊</stats><br><li><passive>撕裂：</passive>造成物理傷害可對英雄施加  <status>25% 重創效果</status>，持續 3 秒。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br>",
       "gold": 800,
-      "tooltip": "<div class='tooltip-title'>死刑宣告</div><mainText><stats><attention>15</attention> 物理攻擊</stats><br><li><passive>撕裂：</passive>造成物理傷害可對英雄施加  <status>40% 重創效果</status>，持續 3 秒。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br><div class='tooltip-gold'>800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>死刑宣告</div><mainText><stats><attention>20</attention> 物理攻擊</stats><br><li><passive>撕裂：</passive>造成物理傷害可對英雄施加  <status>25% 重創效果</status>，持續 3 秒。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br><div class='tooltip-gold'>800 Gold</div>"
     },
     "3124": {
       "name": "鬼索的狂暴之刃",
@@ -1072,9 +1072,9 @@
     },
     "3135": {
       "name": "虛空之杖",
-      "desc": "<mainText><stats><attention>65</attention>  魔法攻擊<br><attention>45%</attention> 魔法穿透</stats></mainText><br>",
+      "desc": "<mainText><stats><attention>65</attention>  魔法攻擊<br><attention>40%</attention> 魔法穿透</stats></mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>虛空之杖</div><mainText><stats><attention>65</attention>  魔法攻擊<br><attention>45%</attention> 魔法穿透</stats></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>虛空之杖</div><mainText><stats><attention>65</attention>  魔法攻擊<br><attention>40%</attention> 魔法穿透</stats></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
     },
     "3139": {
       "name": "水星彎刀",
@@ -1096,9 +1096,9 @@
     },
     "3143": {
       "name": "蘭頓之兆",
-      "desc": "<mainText><stats><attention>250</attention> 生命<br><attention>80</attention>  物理防禦<br><attention>10</attention> 技能疾速</stats><br><br><active>主動─</active> <active>謙遜：</active>短暫<status>緩速</status>附近敵人並降低他們的<scaleAD>物理攻擊</scaleAD> 10% 與暴擊傷害 20%，持續 4 秒（60 秒冷卻時間）。<br><li><passive>堅如磐石：</passive>使即將受到的普攻傷害減少最多 5 + （0.35% 最大生命），上限為普攻傷害的 40%。</mainText><br>",
+      "desc": "<mainText><stats><attention>250</attention> 生命<br><attention>90</attention>  物理防禦<br><attention>10</attention> 技能疾速</stats><br><br><active>主動─</active> <active>謙遜：</active>短暫<status>緩速</status>附近敵人並降低他們的<scaleAD>物理攻擊</scaleAD> 10% 與暴擊傷害 20%，持續 4 秒（60 秒冷卻時間）。<br><li><passive>堅如磐石：</passive>使即將受到的普攻傷害減少最多 5 + （0.35% 最大生命），上限為普攻傷害的 40%。</mainText><br>",
       "gold": 2700,
-      "tooltip": "<div class='tooltip-title'>蘭頓之兆</div><mainText><stats><attention>250</attention> 生命<br><attention>80</attention>  物理防禦<br><attention>10</attention> 技能疾速</stats><br><br><active>主動─</active> <active>謙遜：</active>短暫<status>緩速</status>附近敵人並降低他們的<scaleAD>物理攻擊</scaleAD> 10% 與暴擊傷害 20%，持續 4 秒（60 秒冷卻時間）。<br><li><passive>堅如磐石：</passive>使即將受到的普攻傷害減少最多 5 + （0.35% 最大生命），上限為普攻傷害的 40%。</mainText><br><div class='tooltip-gold'>2700 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>蘭頓之兆</div><mainText><stats><attention>250</attention> 生命<br><attention>90</attention>  物理防禦<br><attention>10</attention> 技能疾速</stats><br><br><active>主動─</active> <active>謙遜：</active>短暫<status>緩速</status>附近敵人並降低他們的<scaleAD>物理攻擊</scaleAD> 10% 與暴擊傷害 20%，持續 4 秒（60 秒冷卻時間）。<br><li><passive>堅如磐石：</passive>使即將受到的普攻傷害減少最多 5 + （0.35% 最大生命），上限為普攻傷害的 40%。</mainText><br><div class='tooltip-gold'>2700 Gold</div>"
     },
     "3145": {
       "name": "海克斯科技發電機",
@@ -1108,9 +1108,9 @@
     },
     "3152": {
       "name": "海克斯科技火箭腰帶",
-      "desc": "<mainText><stats><attention>90</attention>  魔法攻擊<br><attention>6</attention> 魔法穿透<br><attention>250</attention> 生命<br><attention>15</attention> 技能疾速</stats><br><br><active>主動─</active> <active>超音速：</active>朝目標方向衝刺，釋放一波魔法飛彈並造成 <magicDamage>（125 + 15% 魔法攻擊）魔法傷害</magicDamage>。接下來，朝敵方英雄移動時獲得 <speed>30% 移動速度</speed>，持續 1.5 秒（40 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention>魔法穿透。<br><br><rules>超音速的衝刺無法穿越地形。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>90</attention>  魔法攻擊<br><attention>10</attention> 魔法穿透<br><attention>250</attention> 生命<br><attention>15</attention> 技能疾速</stats><br><br><active>主動─</active> <active>超音速：</active>朝目標方向衝刺，釋放一波魔法飛彈並造成 <magicDamage>（125 + 15% 魔法攻擊）魔法傷害</magicDamage>。接下來，朝敵方英雄移動時獲得 <speed>30% 移動速度</speed>，持續 1.5 秒（40 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention>魔法穿透。<br><br><rules>超音速的衝刺無法穿越地形。</rules></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>海克斯科技火箭腰帶</div><mainText><stats><attention>90</attention>  魔法攻擊<br><attention>6</attention> 魔法穿透<br><attention>250</attention> 生命<br><attention>15</attention> 技能疾速</stats><br><br><active>主動─</active> <active>超音速：</active>朝目標方向衝刺，釋放一波魔法飛彈並造成 <magicDamage>（125 + 15% 魔法攻擊）魔法傷害</magicDamage>。接下來，朝敵方英雄移動時獲得 <speed>30% 移動速度</speed>，持續 1.5 秒（40 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention>魔法穿透。<br><br><rules>超音速的衝刺無法穿越地形。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>海克斯科技火箭腰帶</div><mainText><stats><attention>90</attention>  魔法攻擊<br><attention>10</attention> 魔法穿透<br><attention>250</attention> 生命<br><attention>15</attention> 技能疾速</stats><br><br><active>主動─</active> <active>超音速：</active>朝目標方向衝刺，釋放一波魔法飛彈並造成 <magicDamage>（125 + 15% 魔法攻擊）魔法傷害</magicDamage>。接下來，朝敵方英雄移動時獲得 <speed>30% 移動速度</speed>，持續 1.5 秒（40 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention>魔法穿透。<br><br><rules>超音速的衝刺無法穿越地形。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "3153": {
       "name": "殞落王者之劍",
@@ -1126,9 +1126,9 @@
     },
     "3156": {
       "name": "魔提斯深淵",
-      "desc": "<mainText><stats><attention>55</attention> 物理攻擊<br><attention>50</attention> 魔法防禦<br><attention>20</attention> 技能疾速</stats><br><li><passive>命脈：</passive>承受會使生命低於 30% 的魔法傷害時，獲得 <shield>（200 + 225% 額外物理攻擊 [遠程英雄僅會獲得 75% 護盾]）魔法傷害護盾</shield>，持續 5 秒（60 秒冷卻時間）。當<passive>命脈</passive>觸發時，獲得 <lifeSteal>12% 全能吸血</lifeSteal>直到戰鬥結束。</mainText><br>",
+      "desc": "<mainText><stats><attention>55</attention> 物理攻擊<br><attention>50</attention> 魔法防禦<br><attention>20</attention> 技能疾速</stats><br><li><passive>命脈：</passive>承受會使生命低於 30% 的魔法傷害時，獲得<shield>（200 + 225% 額外物理攻擊的魔法傷害護盾（遠程英雄的護盾量僅有 75%）</shield>，持續 5 秒（75 秒冷卻時間）。當<passive>命脈</passive>觸發時，獲得 <lifeSteal>10% 全能吸血</lifeSteal>直到戰鬥結束。</mainText><br>",
       "gold": 2900,
-      "tooltip": "<div class='tooltip-title'>魔提斯深淵</div><mainText><stats><attention>55</attention> 物理攻擊<br><attention>50</attention> 魔法防禦<br><attention>20</attention> 技能疾速</stats><br><li><passive>命脈：</passive>承受會使生命低於 30% 的魔法傷害時，獲得 <shield>（200 + 225% 額外物理攻擊 [遠程英雄僅會獲得 75% 護盾]）魔法傷害護盾</shield>，持續 5 秒（60 秒冷卻時間）。當<passive>命脈</passive>觸發時，獲得 <lifeSteal>12% 全能吸血</lifeSteal>直到戰鬥結束。</mainText><br><div class='tooltip-gold'>2900 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>魔提斯深淵</div><mainText><stats><attention>55</attention> 物理攻擊<br><attention>50</attention> 魔法防禦<br><attention>20</attention> 技能疾速</stats><br><li><passive>命脈：</passive>承受會使生命低於 30% 的魔法傷害時，獲得<shield>（200 + 225% 額外物理攻擊的魔法傷害護盾（遠程英雄的護盾量僅有 75%）</shield>，持續 5 秒（75 秒冷卻時間）。當<passive>命脈</passive>觸發時，獲得 <lifeSteal>10% 全能吸血</lifeSteal>直到戰鬥結束。</mainText><br><div class='tooltip-gold'>2900 Gold</div>"
     },
     "3157": {
       "name": "中婭沙漏",
@@ -1144,9 +1144,9 @@
     },
     "3165": {
       "name": "黑魔禁書",
-      "desc": "<mainText><stats><attention>80</attention>  魔法攻擊<br><attention>250</attention> 生命</stats><br><li><passive>苦難：</passive>造成魔法傷害可對敵方英雄施加 <status>40% 重創</status>，持續 3 秒。若目標的生命低於 50%，此效果將提升至 <status>60% 重創</status>。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>90</attention>  魔法攻擊<br><attention>300</attention> 生命</stats><br><li><passive>苦難：</passive>造成魔法傷害可對敵方英雄施加 <status>25% 重創</status>，持續 3 秒。若目標的生命低於 50%，此效果將提升至 <status>40% 重創</status>。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br>",
       "gold": 2500,
-      "tooltip": "<div class='tooltip-title'>黑魔禁書</div><mainText><stats><attention>80</attention>  魔法攻擊<br><attention>250</attention> 生命</stats><br><li><passive>苦難：</passive>造成魔法傷害可對敵方英雄施加 <status>40% 重創</status>，持續 3 秒。若目標的生命低於 50%，此效果將提升至 <status>60% 重創</status>。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>黑魔禁書</div><mainText><stats><attention>90</attention>  魔法攻擊<br><attention>300</attention> 生命</stats><br><li><passive>苦難：</passive>造成魔法傷害可對敵方英雄施加 <status>25% 重創</status>，持續 3 秒。若目標的生命低於 50%，此效果將提升至 <status>40% 重創</status>。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
     },
     "3177": {
       "name": "保衛者之刃",
@@ -1156,15 +1156,15 @@
     },
     "3179": {
       "name": "闇影戰戟",
-      "desc": "<mainText><stats><attention>50</attention> 物理攻擊<br><attention>10</attention> 物理致命<br><attention>15</attention> 技能疾速</stats><br><li><passive>熄滅燈火：</passive>被敵方守衛發現時，揭露陷阱並使周圍的敵方守衛失效，持續 8 秒（35 秒冷卻時間）。你的普攻將立刻擊殺現形的陷阱，並對守衛造成三倍傷害。</mainText><br>",
+      "desc": "<mainText><stats><attention>50</attention> 物理攻擊<br><attention>10</attention> 物理致命<br><attention>15</attention> 技能疾速</stats><br><li><passive>熄滅燈火：</passive>被敵方守衛發現時，揭露陷阱並使周圍的敵方守衛失效，持續 8 秒（40 秒冷卻時間）。你的普攻將立刻擊殺現形的陷阱，並對守衛造成三倍傷害。</mainText><br>",
       "gold": 2300,
-      "tooltip": "<div class='tooltip-title'>闇影戰戟</div><mainText><stats><attention>50</attention> 物理攻擊<br><attention>10</attention> 物理致命<br><attention>15</attention> 技能疾速</stats><br><li><passive>熄滅燈火：</passive>被敵方守衛發現時，揭露陷阱並使周圍的敵方守衛失效，持續 8 秒（35 秒冷卻時間）。你的普攻將立刻擊殺現形的陷阱，並對守衛造成三倍傷害。</mainText><br><div class='tooltip-gold'>2300 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>闇影戰戟</div><mainText><stats><attention>50</attention> 物理攻擊<br><attention>10</attention> 物理致命<br><attention>15</attention> 技能疾速</stats><br><li><passive>熄滅燈火：</passive>被敵方守衛發現時，揭露陷阱並使周圍的敵方守衛失效，持續 8 秒（40 秒冷卻時間）。你的普攻將立刻擊殺現形的陷阱，並對守衛造成三倍傷害。</mainText><br><div class='tooltip-gold'>2300 Gold</div>"
     },
     "3181": {
       "name": "破船戰斧",
-      "desc": "<mainText><stats><attention>50</attention> 物理攻擊<br><attention>400</attention> 生命<br><attention>150%</attention> 基礎生命回復</stats><br><li><passive>登船小隊：</passive>你附近沒有友方英雄時，獲得 20-45 <scaleArmor>物理防禦</scaleArmor>及<scaleMR>魔法防禦</scaleMR>，並提升 20% 對防禦塔傷害。附近的大型士兵獲得 60 - 135 <scaleArmor>物理防禦</scaleArmor>及<scaleMR>魔法防禦</scaleMR>並提升 200% 對防禦塔傷害。<br><br><rules>如果一名友軍靠得太近，登船小隊提供的防禦力將在 3 秒內逐漸減少。</rules><br></mainText><br>",
+      "desc": "<mainText><stats><attention>50</attention> 物理攻擊<br><attention>400</attention> 生命<br><attention>150%</attention> 基礎生命回復</stats><br><li><passive>登船小隊：</passive>當你附近沒有友方英雄時，獲得（10 - 75 / 5 - 37.5）<scaleArmor>物理防禦</scaleArmor>及<scaleMR>魔法防禦</scaleMR>，且普攻對防禦塔造成 20% 額外傷害。附近的大型士兵獲得（30 - 225 / 15 - 112.5）<scaleArmor>物理防禦</scaleArmor>及<scaleMR>魔法防禦</scaleMR>，並提升 200% 對防禦塔傷害。<br><br><rules>如果一名友軍靠得太近，登船小隊提供的防禦力將在 3 秒內逐漸減少。</rules></mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>破船戰斧</div><mainText><stats><attention>50</attention> 物理攻擊<br><attention>400</attention> 生命<br><attention>150%</attention> 基礎生命回復</stats><br><li><passive>登船小隊：</passive>你附近沒有友方英雄時，獲得 20-45 <scaleArmor>物理防禦</scaleArmor>及<scaleMR>魔法防禦</scaleMR>，並提升 20% 對防禦塔傷害。附近的大型士兵獲得 60 - 135 <scaleArmor>物理防禦</scaleArmor>及<scaleMR>魔法防禦</scaleMR>並提升 200% 對防禦塔傷害。<br><br><rules>如果一名友軍靠得太近，登船小隊提供的防禦力將在 3 秒內逐漸減少。</rules><br></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>破船戰斧</div><mainText><stats><attention>50</attention> 物理攻擊<br><attention>400</attention> 生命<br><attention>150%</attention> 基礎生命回復</stats><br><li><passive>登船小隊：</passive>當你附近沒有友方英雄時，獲得（10 - 75 / 5 - 37.5）<scaleArmor>物理防禦</scaleArmor>及<scaleMR>魔法防禦</scaleMR>，且普攻對防禦塔造成 20% 額外傷害。附近的大型士兵獲得（30 - 225 / 15 - 112.5）<scaleArmor>物理防禦</scaleArmor>及<scaleMR>魔法防禦</scaleMR>，並提升 200% 對防禦塔傷害。<br><br><rules>如果一名友軍靠得太近，登船小隊提供的防禦力將在 3 秒內逐漸減少。</rules></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
     },
     "3184": {
       "name": "保衛者戰鎚",
@@ -1174,9 +1174,9 @@
     },
     "3190": {
       "name": "日輪的加冕",
-      "desc": "<mainText><stats><attention>200</attention> 生命<br><attention>20</attention> 技能疾速<br><attention>30</attention>  物理防禦<br><attention>30</attention> 魔法防禦</stats><br><br><active>主動─</active><active>奉獻：</active>提供附近友軍一個 <shield>200 - 365 （視友軍等級而變） 護盾</shield>，在 2.5 秒內遞減（90 秒冷卻時間）。<br><li><passive>奉獻：</passive>提供附近友方英雄 <scaleArmor>3 物理防禦</scaleArmor>及<scaleMR>魔法防禦</scaleMR>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 使<passive>奉獻</passive>效果提升 <attention>2</attention> 物理防禦 / 魔法防禦。<br><br><rules>強度隨等級提升的效果是根據友軍的等級計算。<br>後續  20 秒內受到的<active>義舉</active>護盾只會有 25% 效果。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>200</attention> 生命<br><attention>20</attention> 技能疾速<br><attention>30</attention>  物理防禦<br><attention>30</attention> 魔法防禦</stats><br><br><active>主動─</active><active>奉獻：</active>提供附近友軍一個 <shield>180 - 330 （視友軍等級而變） 護盾</shield>，在 2.5 秒內遞減（90 秒冷卻時間）。<br><li><passive>奉獻：</passive>提供附近友方英雄 <scaleArmor>3 物理防禦</scaleArmor>及<scaleMR>魔法防禦</scaleMR>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 使<passive>奉獻</passive>效果提升 <attention>2</attention> 物理防禦 / 魔法防禦。<br><br><rules>強度隨等級提升的效果是根據友軍的等級計算。<br>後續  20 秒內受到的<active>義舉</active>護盾只會有 25% 效果。</rules></mainText><br>",
       "gold": 2500,
-      "tooltip": "<div class='tooltip-title'>日輪的加冕</div><mainText><stats><attention>200</attention> 生命<br><attention>20</attention> 技能疾速<br><attention>30</attention>  物理防禦<br><attention>30</attention> 魔法防禦</stats><br><br><active>主動─</active><active>奉獻：</active>提供附近友軍一個 <shield>200 - 365 （視友軍等級而變） 護盾</shield>，在 2.5 秒內遞減（90 秒冷卻時間）。<br><li><passive>奉獻：</passive>提供附近友方英雄 <scaleArmor>3 物理防禦</scaleArmor>及<scaleMR>魔法防禦</scaleMR>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 使<passive>奉獻</passive>效果提升 <attention>2</attention> 物理防禦 / 魔法防禦。<br><br><rules>強度隨等級提升的效果是根據友軍的等級計算。<br>後續  20 秒內受到的<active>義舉</active>護盾只會有 25% 效果。</rules></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>日輪的加冕</div><mainText><stats><attention>200</attention> 生命<br><attention>20</attention> 技能疾速<br><attention>30</attention>  物理防禦<br><attention>30</attention> 魔法防禦</stats><br><br><active>主動─</active><active>奉獻：</active>提供附近友軍一個 <shield>180 - 330 （視友軍等級而變） 護盾</shield>，在 2.5 秒內遞減（90 秒冷卻時間）。<br><li><passive>奉獻：</passive>提供附近友方英雄 <scaleArmor>3 物理防禦</scaleArmor>及<scaleMR>魔法防禦</scaleMR>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 使<passive>奉獻</passive>效果提升 <attention>2</attention> 物理防禦 / 魔法防禦。<br><br><rules>強度隨等級提升的效果是根據友軍的等級計算。<br>後續  20 秒內受到的<active>義舉</active>護盾只會有 25% 效果。</rules></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
     },
     "3191": {
       "name": "探索者護腕",
@@ -1186,9 +1186,9 @@
     },
     "3193": {
       "name": "石像鬼磐核",
-      "desc": "<mainText><stats><attention>60</attention>  物理防禦<br><attention>60</attention> 魔法防禦<br><attention>15</attention> 技能疾速</stats><br><br><active>主動─</active> <active>堅不可摧：</active> 獲得一個 <shield>(100 + 100% 額外生命) 護盾</shield>，在 2.5 秒內遞減，同時體型增加 25%，持續 2.5 秒。（90 秒冷卻時間）。<br><li><passive>堅守：</passive> 承受來自一名英雄的傷害時會獲得一層 <scaleArmor>5% 額外物理防禦</scaleArmor> 與 <scaleMR>5% 額外魔法防禦</scaleMR>，持續 6 秒。<br><br><rules>最多 5層；每個英雄疊加一次。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>60</attention>  物理防禦<br><attention>60</attention> 魔法防禦<br><attention>15</attention> 技能疾速</stats><br><br><active>主動─</active> <active>堅不可摧：</active> 獲得一個 <shield>（100 + 90% 額外生命）的護盾</shield>，在 2.5 秒內遞減，同時體型增加 25%（90 秒冷卻時間）。<br><li><passive>堅守：</passive> 承受來自一名英雄的傷害時會獲得一層 <scaleArmor>5% 額外物理防禦</scaleArmor> 與 <scaleMR>5% 額外魔法防禦</scaleMR>，持續 6 秒。<br><br><rules>最多 5層；每個英雄疊加一次。</rules></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>石像鬼磐核</div><mainText><stats><attention>60</attention>  物理防禦<br><attention>60</attention> 魔法防禦<br><attention>15</attention> 技能疾速</stats><br><br><active>主動─</active> <active>堅不可摧：</active> 獲得一個 <shield>(100 + 100% 額外生命) 護盾</shield>，在 2.5 秒內遞減，同時體型增加 25%，持續 2.5 秒。（90 秒冷卻時間）。<br><li><passive>堅守：</passive> 承受來自一名英雄的傷害時會獲得一層 <scaleArmor>5% 額外物理防禦</scaleArmor> 與 <scaleMR>5% 額外魔法防禦</scaleMR>，持續 6 秒。<br><br><rules>最多 5層；每個英雄疊加一次。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>石像鬼磐核</div><mainText><stats><attention>60</attention>  物理防禦<br><attention>60</attention> 魔法防禦<br><attention>15</attention> 技能疾速</stats><br><br><active>主動─</active> <active>堅不可摧：</active> 獲得一個 <shield>（100 + 90% 額外生命）的護盾</shield>，在 2.5 秒內遞減，同時體型增加 25%（90 秒冷卻時間）。<br><li><passive>堅守：</passive> 承受來自一名英雄的傷害時會獲得一層 <scaleArmor>5% 額外物理防禦</scaleArmor> 與 <scaleMR>5% 額外魔法防禦</scaleMR>，持續 6 秒。<br><br><rules>最多 5層；每個英雄疊加一次。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "3211": {
       "name": "亡靈斗篷",
@@ -1198,9 +1198,9 @@
     },
     "3222": {
       "name": "米凱的祝福",
-      "desc": "<mainText><stats><attention>20%</attention> 治癒及護盾強度<br><attention>50</attention> 魔法防禦<br><attention>15</attention> 技能疾速<br><attention>100%</attention> 基礎魔力回復</stats><br><br><active>主動─</active><active>淨化：</active>移除友軍英雄身上所有控制減益效果（<status>擊飛</status>與<status>壓制</status>除外），並回復  <healing>100 - 200（視友軍等級而變）生命</healing>（120 秒冷卻時間）。</mainText><br>",
+      "desc": "<mainText><stats><attention>20%</attention> 治癒及護盾強度<br><attention>50</attention> 魔法防禦<br><attention>15</attention> 技能疾速<br><attention>100%</attention> 基礎魔力回復</stats><br><br><active>主動─</active><active>淨化：</active>移除友軍英雄身上所有控制減益效果（<status>擊飛</status>與<status>壓制</status>除外），並回復  <healing>100 - 180（視友軍等級而變）生命</healing>（120 秒冷卻時間）。</mainText><br>",
       "gold": 2300,
-      "tooltip": "<div class='tooltip-title'>米凱的祝福</div><mainText><stats><attention>20%</attention> 治癒及護盾強度<br><attention>50</attention> 魔法防禦<br><attention>15</attention> 技能疾速<br><attention>100%</attention> 基礎魔力回復</stats><br><br><active>主動─</active><active>淨化：</active>移除友軍英雄身上所有控制減益效果（<status>擊飛</status>與<status>壓制</status>除外），並回復  <healing>100 - 200（視友軍等級而變）生命</healing>（120 秒冷卻時間）。</mainText><br><div class='tooltip-gold'>2300 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>米凱的祝福</div><mainText><stats><attention>20%</attention> 治癒及護盾強度<br><attention>50</attention> 魔法防禦<br><attention>15</attention> 技能疾速<br><attention>100%</attention> 基礎魔力回復</stats><br><br><active>主動─</active><active>淨化：</active>移除友軍英雄身上所有控制減益效果（<status>擊飛</status>與<status>壓制</status>除外），並回復  <healing>100 - 180（視友軍等級而變）生命</healing>（120 秒冷卻時間）。</mainText><br><div class='tooltip-gold'>2300 Gold</div>"
     },
     "3330": {
       "name": "稻草人",
@@ -1240,9 +1240,9 @@
     },
     "3508": {
       "name": "奪魄之鐮",
-      "desc": "<mainText><stats><attention>45</attention> 物理攻擊<br><attention>20%</attention> 暴擊機率<br><attention>20</attention> 技能疾速</stats><br><li><passive>魔法彎刀：</passive>使用技能後，下一次普攻被強化並造成額外 <physicalDamage>100% 基礎物理攻擊 + 40% 額外物理攻擊的物理傷害</physicalDamage> <OnHit>命中</OnHit> 並回復等同於40% 傷害的魔力(1.5 秒冷卻)。</mainText><br>",
+      "desc": "<mainText><stats><attention>45</attention> 物理攻擊<br><attention>20%</attention> 暴擊機率<br><attention>20</attention> 技能疾速</stats><br><li><passive>魔法彎刀：</passive>使用技能後，下一次普攻被強化並造成額外 <physicalDamage>100% 基礎物理攻擊 + 40% 額外物理攻擊的物理傷害</physicalDamage> <OnHit>命中</OnHit> 並回復等同於 40% 傷害的魔力（1.5 秒冷卻時間）。</mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>奪魄之鐮</div><mainText><stats><attention>45</attention> 物理攻擊<br><attention>20%</attention> 暴擊機率<br><attention>20</attention> 技能疾速</stats><br><li><passive>魔法彎刀：</passive>使用技能後，下一次普攻被強化並造成額外 <physicalDamage>100% 基礎物理攻擊 + 40% 額外物理攻擊的物理傷害</physicalDamage> <OnHit>命中</OnHit> 並回復等同於40% 傷害的魔力(1.5 秒冷卻)。</mainText><br><div class='tooltip-gold'>2800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>奪魄之鐮</div><mainText><stats><attention>45</attention> 物理攻擊<br><attention>20%</attention> 暴擊機率<br><attention>20</attention> 技能疾速</stats><br><li><passive>魔法彎刀：</passive>使用技能後，下一次普攻被強化並造成額外 <physicalDamage>100% 基礎物理攻擊 + 40% 額外物理攻擊的物理傷害</physicalDamage> <OnHit>命中</OnHit> 並回復等同於 40% 傷害的魔力（1.5 秒冷卻時間）。</mainText><br><div class='tooltip-gold'>2800 Gold</div>"
     },
     "3513": {
       "name": "預示者之眼",
@@ -1306,9 +1306,9 @@
     },
     "3853": {
       "name": "真霜碎片",
-      "desc": "<mainText><stats><attention>40</attention>  魔法攻擊<br><attention>75</attention> 生命<br><attention>100%</attention> 基礎魔力回復<br>每 10 秒 + <attention>3</attention> 金錢</stats><br><br><active>主動─</active> <active>守衛：</active>在場上放置一個對敵人來說<keywordStealth>隱形</keywordStealth>的潛行守衛，為友方提供周圍區域的視野。最多可攜帶 0 個潛行守衛，回到商店時會補充。 <br><br><active>主動─</active> <active>守衛：</active>在場上放置一個對敵人<keywordStealth>隱形</keywordStealth>的潛行守衛，為友方提供周圍區域的視野。最多可儲存 4 個潛行守衛，回到商店時會補充。</mainText><br>",
+      "desc": "<mainText><stats><attention>40</attention>  魔法攻擊<br><attention>75</attention> 生命<br><attention>115%</attention> 基礎魔力回復<br>每 10 秒 + <attention>3</attention> 金錢</stats><br><br><active>主動─</active> <active>守衛：</active>在場上放置一個對敵人來說<keywordStealth>隱形</keywordStealth>的潛行守衛，為友方提供周圍區域的視野。最多可攜帶 0 個潛行守衛，回到商店時會補充。 <br><br><active>主動─</active> <active>守衛：</active>在場上放置一個對敵人<keywordStealth>隱形</keywordStealth>的潛行守衛，為友方提供周圍區域的視野。最多可儲存 4 個潛行守衛，回到商店時會補充。</mainText><br>",
       "gold": 400,
-      "tooltip": "<div class='tooltip-title'>真霜碎片</div><mainText><stats><attention>40</attention>  魔法攻擊<br><attention>75</attention> 生命<br><attention>100%</attention> 基礎魔力回復<br>每 10 秒 + <attention>3</attention> 金錢</stats><br><br><active>主動─</active> <active>守衛：</active>在場上放置一個對敵人來說<keywordStealth>隱形</keywordStealth>的潛行守衛，為友方提供周圍區域的視野。最多可攜帶 0 個潛行守衛，回到商店時會補充。 <br><br><active>主動─</active> <active>守衛：</active>在場上放置一個對敵人<keywordStealth>隱形</keywordStealth>的潛行守衛，為友方提供周圍區域的視野。最多可儲存 4 個潛行守衛，回到商店時會補充。</mainText><br><div class='tooltip-gold'>400 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>真霜碎片</div><mainText><stats><attention>40</attention>  魔法攻擊<br><attention>75</attention> 生命<br><attention>115%</attention> 基礎魔力回復<br>每 10 秒 + <attention>3</attention> 金錢</stats><br><br><active>主動─</active> <active>守衛：</active>在場上放置一個對敵人來說<keywordStealth>隱形</keywordStealth>的潛行守衛，為友方提供周圍區域的視野。最多可攜帶 0 個潛行守衛，回到商店時會補充。 <br><br><active>主動─</active> <active>守衛：</active>在場上放置一個對敵人<keywordStealth>隱形</keywordStealth>的潛行守衛，為友方提供周圍區域的視野。最多可儲存 4 個潛行守衛，回到商店時會補充。</mainText><br><div class='tooltip-gold'>400 Gold</div>"
     },
     "3854": {
       "name": "鋼鐵護肩",
@@ -1384,9 +1384,9 @@
     },
     "3916": {
       "name": "遺忘寶珠",
-      "desc": "<mainText><stats><attention>30</attention>  魔法攻擊</stats><br><li><passive>詛咒：</passive>造成魔法傷害可對敵方英雄施加 <status>40% 重創效果</status>，持續 3 秒。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>35</attention>  魔法攻擊</stats><br><li><passive>詛咒：</passive>造成魔法傷害可對敵方英雄施加 <status>25% 重創效果</status>，持續 3 秒。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br>",
       "gold": 800,
-      "tooltip": "<div class='tooltip-title'>遺忘寶珠</div><mainText><stats><attention>30</attention>  魔法攻擊</stats><br><li><passive>詛咒：</passive>造成魔法傷害可對敵方英雄施加 <status>40% 重創效果</status>，持續 3 秒。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br><div class='tooltip-gold'>800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>遺忘寶珠</div><mainText><stats><attention>35</attention>  魔法攻擊</stats><br><li><passive>詛咒：</passive>造成魔法傷害可對敵方英雄施加 <status>25% 重創效果</status>，持續 3 秒。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br><div class='tooltip-gold'>800 Gold</div>"
     },
     "4005": {
       "name": "帝王命令",
@@ -1420,9 +1420,9 @@
     },
     "4630": {
       "name": "枯萎寶石",
-      "desc": "<mainText><stats><attention>25</attention>  魔法攻擊<br><attention>15%</attention> 魔法穿透</stats></mainText><br>",
+      "desc": "<mainText><stats><attention>25</attention>  魔法攻擊<br><attention>13%</attention> 魔法穿透</stats></mainText><br>",
       "gold": 1250,
-      "tooltip": "<div class='tooltip-title'>枯萎寶石</div><mainText><stats><attention>25</attention>  魔法攻擊<br><attention>15%</attention> 魔法穿透</stats></mainText><br><div class='tooltip-gold'>1250 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>枯萎寶石</div><mainText><stats><attention>25</attention>  魔法攻擊<br><attention>13%</attention> 魔法穿透</stats></mainText><br><div class='tooltip-gold'>1250 Gold</div>"
     },
     "4632": {
       "name": "蒼翠屏障",
@@ -1432,9 +1432,9 @@
     },
     "4633": {
       "name": "峽谷製造者",
-      "desc": "<mainText><stats><attention>80</attention>  魔法攻擊<br><attention>300</attention> 生命<br><attention>15</attention> 技能疾速<br><attention>8%</attention> 全能吸血</stats><br><li><passive>虛空腐化：</passive>在對敵方英雄造成傷害時，每秒造成 3% 額外傷害（最大 9%）。達到最大效果時，額外傷害改為造成<trueDamage>真實傷害</trueDamage>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>2%</attention> 全能吸血與 8 魔法攻擊。</mainText><br>",
+      "desc": "<mainText><stats><attention>70</attention>  魔法攻擊<br><attention>300</attention> 生命<br><attention>15</attention> 技能疾速<br><attention>7%</attention> 全能吸血</stats><br><li><passive>虛空腐化：</passive>在對敵方英雄造成傷害時，每秒造成 3% 額外傷害（最大 9%）。達到最大效果時，額外傷害改為造成<trueDamage>真實傷害</trueDamage>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>2%</attention> 全能吸血與 8 魔法攻擊。</mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>峽谷製造者</div><mainText><stats><attention>80</attention>  魔法攻擊<br><attention>300</attention> 生命<br><attention>15</attention> 技能疾速<br><attention>8%</attention> 全能吸血</stats><br><li><passive>虛空腐化：</passive>在對敵方英雄造成傷害時，每秒造成 3% 額外傷害（最大 9%）。達到最大效果時，額外傷害改為造成<trueDamage>真實傷害</trueDamage>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>2%</attention> 全能吸血與 8 魔法攻擊。</mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>峽谷製造者</div><mainText><stats><attention>70</attention>  魔法攻擊<br><attention>300</attention> 生命<br><attention>15</attention> 技能疾速<br><attention>7%</attention> 全能吸血</stats><br><li><passive>虛空腐化：</passive>在對敵方英雄造成傷害時，每秒造成 3% 額外傷害（最大 9%）。達到最大效果時，額外傷害改為造成<trueDamage>真實傷害</trueDamage>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>2%</attention> 全能吸血與 8 魔法攻擊。</mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "4635": {
       "name": "榨血睥睨",
@@ -1444,15 +1444,15 @@
     },
     "4636": {
       "name": "闇夜收割者",
-      "desc": "<mainText><stats><attention>90</attention>  魔法攻擊<br><attention>300</attention> 生命<br><attention>15</attention> 技能疾速</stats><br><li><passive>撕裂靈魂：</passive>傷害一名英雄時造成額外 <magicDamage>（125 +15% 魔法攻擊）魔法傷害</magicDamage>，並使你獲得 <speed>25% 移動速度</speed>，持續 1.5 秒（每名英雄 40 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。<br><br><rules>傷害一名新英雄會延長移動速度加成的持續時間。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>90</attention>  魔法攻擊<br><attention>300</attention> 生命<br><attention>25</attention> 技能疾速</stats><br><li><passive>撕裂靈魂：</passive>傷害一名英雄時造成額外 <magicDamage>（125 +15% 魔法攻擊）魔法傷害</magicDamage>，並使你獲得 <speed>25% 移動速度</speed>，持續 1.5 秒（每名英雄 30 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。<br><br><rules>傷害一名新英雄會延長移動速度加成的持續時間。</rules></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>闇夜收割者</div><mainText><stats><attention>90</attention>  魔法攻擊<br><attention>300</attention> 生命<br><attention>15</attention> 技能疾速</stats><br><li><passive>撕裂靈魂：</passive>傷害一名英雄時造成額外 <magicDamage>（125 +15% 魔法攻擊）魔法傷害</magicDamage>，並使你獲得 <speed>25% 移動速度</speed>，持續 1.5 秒（每名英雄 40 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。<br><br><rules>傷害一名新英雄會延長移動速度加成的持續時間。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>闇夜收割者</div><mainText><stats><attention>90</attention>  魔法攻擊<br><attention>300</attention> 生命<br><attention>25</attention> 技能疾速</stats><br><li><passive>撕裂靈魂：</passive>傷害一名英雄時造成額外 <magicDamage>（125 +15% 魔法攻擊）魔法傷害</magicDamage>，並使你獲得 <speed>25% 移動速度</speed>，持續 1.5 秒（每名英雄 30 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。<br><br><rules>傷害一名新英雄會延長移動速度加成的持續時間。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "4637": {
       "name": "惡魔之擁",
-      "desc": "<mainText><stats><attention>60</attention>  魔法攻擊<br><attention>450</attention> 生命</stats><br><li><passive>阿薩卡納之凝視：</passive>你的技能傷害燃燒敵人，每秒造成 2/1.2% （近戰英雄 / 遠程英雄）<magicDamage>最大生命的魔法傷害</magicDamage>，持續 4 秒。<li><passive>暗黑契約：</passive>獲得等同於 2% <scaleHealth>額外生命</scaleHealth>的<scaleAP>魔法攻擊</scaleAP>。</mainText><br>",
+      "desc": "<mainText><stats><attention>60</attention>  魔法攻擊<br><attention>450</attention> 生命</stats><br><li><passive>阿薩卡納之凝視：</passive>你的技能傷害燃燒敵人，每秒造成 1.8/1% （近戰英雄 / 遠程英雄）<magicDamage>最大生命的魔法傷害</magicDamage>，持續 4 秒。<li><passive>暗黑契約：</passive>獲得等同於 2% <scaleHealth>額外生命</scaleHealth>的<scaleAP>魔法攻擊</scaleAP>。</mainText><br>",
       "gold": 3000,
-      "tooltip": "<div class='tooltip-title'>惡魔之擁</div><mainText><stats><attention>60</attention>  魔法攻擊<br><attention>450</attention> 生命</stats><br><li><passive>阿薩卡納之凝視：</passive>你的技能傷害燃燒敵人，每秒造成 2/1.2% （近戰英雄 / 遠程英雄）<magicDamage>最大生命的魔法傷害</magicDamage>，持續 4 秒。<li><passive>暗黑契約：</passive>獲得等同於 2% <scaleHealth>額外生命</scaleHealth>的<scaleAP>魔法攻擊</scaleAP>。</mainText><br><div class='tooltip-gold'>3000 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>惡魔之擁</div><mainText><stats><attention>60</attention>  魔法攻擊<br><attention>450</attention> 生命</stats><br><li><passive>阿薩卡納之凝視：</passive>你的技能傷害燃燒敵人，每秒造成 1.8/1% （近戰英雄 / 遠程英雄）<magicDamage>最大生命的魔法傷害</magicDamage>，持續 4 秒。<li><passive>暗黑契約：</passive>獲得等同於 2% <scaleHealth>額外生命</scaleHealth>的<scaleAP>魔法攻擊</scaleAP>。</mainText><br><div class='tooltip-gold'>3000 Gold</div>"
     },
     "4638": {
       "name": "警戒視石",
@@ -1480,9 +1480,9 @@
     },
     "4644": {
       "name": "殘破王后之冠",
-      "desc": "<mainText><stats><attention>60</attention>  魔法攻擊<br><attention>250</attention> 生命<br><attention>600</attention> 魔力<br><attention>20</attention> 技能疾速</stats><br><li><passive>神禦加護：</passive>你受到<keywordMajor>加護</keywordMajor>，減少即將承受的英雄傷害 75%。受到英雄傷害後，<keywordMajor>加護</keywordMajor>效果將持續 1.5 秒。（40 秒冷卻時間）。<li><passive>聖光恩賜：</passive>受到<keywordMajor>加護</keywordMajor>時，以及其被打破後的 3 秒內，獲得 <scaleAP>10-40 魔法攻擊</scaleAP>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>1%</attention> 移動速度及 8 魔法攻擊。</mainText><br>",
+      "desc": "<mainText><stats><attention>70</attention>  魔法攻擊<br><attention>250</attention> 生命<br><attention>600</attention> 魔力<br><attention>20</attention> 技能疾速</stats><br><li><passive>神禦加護：</passive>你受到<keywordMajor>加護</keywordMajor>，減少即將承受的英雄傷害 75%。受到英雄傷害後，<keywordMajor>加護</keywordMajor>效果將持續 1.5 秒。（40 秒冷卻時間）。<li><passive>聖光恩賜：</passive>受到<keywordMajor>加護</keywordMajor>時，以及其被打破後的 3 秒內，獲得 <scaleAP>10-40 魔法攻擊</scaleAP>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>1%</attention> 移動速度及 8 魔法攻擊。</mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>殘破王后之冠</div><mainText><stats><attention>60</attention>  魔法攻擊<br><attention>250</attention> 生命<br><attention>600</attention> 魔力<br><attention>20</attention> 技能疾速</stats><br><li><passive>神禦加護：</passive>你受到<keywordMajor>加護</keywordMajor>，減少即將承受的英雄傷害 75%。受到英雄傷害後，<keywordMajor>加護</keywordMajor>效果將持續 1.5 秒。（40 秒冷卻時間）。<li><passive>聖光恩賜：</passive>受到<keywordMajor>加護</keywordMajor>時，以及其被打破後的 3 秒內，獲得 <scaleAP>10-40 魔法攻擊</scaleAP>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>1%</attention> 移動速度及 8 魔法攻擊。</mainText><br><div class='tooltip-gold'>2800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>殘破王后之冠</div><mainText><stats><attention>70</attention>  魔法攻擊<br><attention>250</attention> 生命<br><attention>600</attention> 魔力<br><attention>20</attention> 技能疾速</stats><br><li><passive>神禦加護：</passive>你受到<keywordMajor>加護</keywordMajor>，減少即將承受的英雄傷害 75%。受到英雄傷害後，<keywordMajor>加護</keywordMajor>效果將持續 1.5 秒。（40 秒冷卻時間）。<li><passive>聖光恩賜：</passive>受到<keywordMajor>加護</keywordMajor>時，以及其被打破後的 3 秒內，獲得 <scaleAP>10-40 魔法攻擊</scaleAP>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>1%</attention> 移動速度及 8 魔法攻擊。</mainText><br><div class='tooltip-gold'>2800 Gold</div>"
     },
     "4645": {
       "name": "黯影之炎",
@@ -1504,15 +1504,15 @@
     },
     "6333": {
       "name": "死亡之舞",
-      "desc": "<mainText><stats><attention>55</attention> 物理攻擊<br><attention>45</attention>  物理防禦<br><attention>15</attention> 技能疾速</stats><br><li><passive>無視痛苦：</passive>你承受的 30%（遠程英雄則為 10%）傷害改為在 3 秒內持續的流血傷害。<li><passive>違抗：</passive>參與英雄擊殺可淨化<passive>無視痛苦</passive>的剩餘傷害，並在 2 秒內回復<healing>等同於 175% 額外物理攻擊的生命</healing>。</mainText><br>",
+      "desc": "<mainText><stats><attention>55</attention> 物理攻擊<br><attention>45</attention>  物理防禦<br><attention>15</attention> 技能疾速</stats><br><li><passive>無視痛苦：</passive>你承受的 30%（遠程英雄則為 10%）傷害改為在 3 秒內持續的流血傷害。<li><passive>違抗：</passive>參與英雄擊殺可淨化<passive>無視痛苦</passive>的剩餘傷害，並在 2 秒內回復<healing>等同於 140% 額外物理攻擊的生命</healing>。</mainText><br>",
       "gold": 3300,
-      "tooltip": "<div class='tooltip-title'>死亡之舞</div><mainText><stats><attention>55</attention> 物理攻擊<br><attention>45</attention>  物理防禦<br><attention>15</attention> 技能疾速</stats><br><li><passive>無視痛苦：</passive>你承受的 30%（遠程英雄則為 10%）傷害改為在 3 秒內持續的流血傷害。<li><passive>違抗：</passive>參與英雄擊殺可淨化<passive>無視痛苦</passive>的剩餘傷害，並在 2 秒內回復<healing>等同於 175% 額外物理攻擊的生命</healing>。</mainText><br><div class='tooltip-gold'>3300 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>死亡之舞</div><mainText><stats><attention>55</attention> 物理攻擊<br><attention>45</attention>  物理防禦<br><attention>15</attention> 技能疾速</stats><br><li><passive>無視痛苦：</passive>你承受的 30%（遠程英雄則為 10%）傷害改為在 3 秒內持續的流血傷害。<li><passive>違抗：</passive>參與英雄擊殺可淨化<passive>無視痛苦</passive>的剩餘傷害，並在 2 秒內回復<healing>等同於 140% 額外物理攻擊的生命</healing>。</mainText><br><div class='tooltip-gold'>3300 Gold</div>"
     },
     "6609": {
       "name": "生化龐克鏈鋸之劍",
-      "desc": "<mainText><stats><attention>45</attention> 物理攻擊<br><attention>250</attention> 生命<br><attention>15</attention> 技能疾速</stats><br><li><passive>劈剪：</passive>造成物理傷害可對敵方英雄施加 40% <status>重創效果</status>，持續 3 秒。若目標的生命低於 50%，則<status>重創效果</status>提升至 60%。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>55</attention> 物理攻擊<br><attention>250</attention> 生命<br><attention>25</attention> 技能疾速</stats><br><li><passive>劈剪：</passive>造成物理傷害可對敵方英雄施加 25% <status>重創效果</status>，持續 3 秒。若目標的生命低於 50%，則<status>重創效果</status>提升至 40%。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br>",
       "gold": 2600,
-      "tooltip": "<div class='tooltip-title'>生化龐克鏈鋸之劍</div><mainText><stats><attention>45</attention> 物理攻擊<br><attention>250</attention> 生命<br><attention>15</attention> 技能疾速</stats><br><li><passive>劈剪：</passive>造成物理傷害可對敵方英雄施加 40% <status>重創效果</status>，持續 3 秒。若目標的生命低於 50%，則<status>重創效果</status>提升至 60%。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br><div class='tooltip-gold'>2600 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>生化龐克鏈鋸之劍</div><mainText><stats><attention>55</attention> 物理攻擊<br><attention>250</attention> 生命<br><attention>25</attention> 技能疾速</stats><br><li><passive>劈剪：</passive>造成物理傷害可對敵方英雄施加 25% <status>重創效果</status>，持續 3 秒。若目標的生命低於 50%，則<status>重創效果</status>提升至 40%。<br><br><rules><status>重創效果</status>降低治癒及回復效果的效益。</rules></mainText><br><div class='tooltip-gold'>2600 Gold</div>"
     },
     "6616": {
       "name": "流水之杖",
@@ -1522,15 +1522,15 @@
     },
     "6617": {
       "name": "月之石再生裝置",
-      "desc": "<mainText><stats><attention>40</attention>  魔法攻擊<br><attention>200</attention> 生命<br><attention>20</attention> 技能疾速<br><attention>100%</attention> 基礎魔力回復</stats><br><li><passive>星光恩典：</passive>在戰鬥中以普攻或技能影響英雄時，為附近傷勢最嚴重的友軍回復 <healing>70 生命</healing>（2 秒冷卻時間）。與英雄戰鬥的狀態中，每秒提升你的治癒和護盾強度 6%（最多提升 5 次）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <passive>星光恩典</passive>的治癒效果提升 <attention>10</attention> 生命。<br><br></mainText><br>",
+      "desc": "<mainText><stats><attention>40</attention>  魔法攻擊<br><attention>200</attention> 生命<br><attention>20</attention> 技能疾速<br><attention>100%</attention> 基礎魔力回復</stats><br><li><passive>星光恩典：</passive>在戰鬥中以普攻或技能影響英雄時，為附近傷勢最嚴重的友軍回復 <healing>60 生命</healing>（2 秒冷卻時間）。與英雄戰鬥的狀態中，每秒提升你的治癒和護盾強度 5%（最多疊加 5 次）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 提升 <attention>8</attention> 至<passive>星光恩典</passive>的治癒效果。<br><br></mainText><br>",
       "gold": 2500,
-      "tooltip": "<div class='tooltip-title'>月之石再生裝置</div><mainText><stats><attention>40</attention>  魔法攻擊<br><attention>200</attention> 生命<br><attention>20</attention> 技能疾速<br><attention>100%</attention> 基礎魔力回復</stats><br><li><passive>星光恩典：</passive>在戰鬥中以普攻或技能影響英雄時，為附近傷勢最嚴重的友軍回復 <healing>70 生命</healing>（2 秒冷卻時間）。與英雄戰鬥的狀態中，每秒提升你的治癒和護盾強度 6%（最多提升 5 次）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <passive>星光恩典</passive>的治癒效果提升 <attention>10</attention> 生命。<br><br></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>月之石再生裝置</div><mainText><stats><attention>40</attention>  魔法攻擊<br><attention>200</attention> 生命<br><attention>20</attention> 技能疾速<br><attention>100%</attention> 基礎魔力回復</stats><br><li><passive>星光恩典：</passive>在戰鬥中以普攻或技能影響英雄時，為附近傷勢最嚴重的友軍回復 <healing>60 生命</healing>（2 秒冷卻時間）。與英雄戰鬥的狀態中，每秒提升你的治癒和護盾強度 5%（最多疊加 5 次）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 提升 <attention>8</attention> 至<passive>星光恩典</passive>的治癒效果。<br><br></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
     },
     "6630": {
       "name": "飲血戰錘",
-      "desc": "<mainText><stats><attention>55</attention> 物理攻擊<br><attention>300</attention> 生命<br><attention>20</attention> 技能疾速<br><attention>10%</attention> 全能吸血</stats><br><br><active>主動─</active> <active>迫切斬擊：</active>對附近敵人造成 <physicalDamage>（175% 基礎物理攻擊）物理傷害</physicalDamage>。每擊中一個英雄回復 <healing>（25% 基礎物理攻擊 + 10% 失去生命）生命</healing> （15 秒冷卻時間，可被技能疾速減少）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。</mainText><br>",
+      "desc": "<mainText><stats><attention>55</attention> 物理攻擊<br><attention>300</attention> 生命<br><attention>20</attention> 技能疾速<br><attention>8%</attention> 全能吸血</stats><br><br><active>主動─</active> <active>迫切斬擊：</active>對附近敵人造成 <physicalDamage>（175% 基礎物理攻擊）物理傷害</physicalDamage>。每擊中一個英雄回復 <healing>（20% 基礎物理攻擊 + 8% 失去生命）生命</healing> （15 秒冷卻時間，可被技能疾速減少）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>7</attention> 技能疾速。</mainText><br>",
       "gold": 3300,
-      "tooltip": "<div class='tooltip-title'>飲血戰錘</div><mainText><stats><attention>55</attention> 物理攻擊<br><attention>300</attention> 生命<br><attention>20</attention> 技能疾速<br><attention>10%</attention> 全能吸血</stats><br><br><active>主動─</active> <active>迫切斬擊：</active>對附近敵人造成 <physicalDamage>（175% 基礎物理攻擊）物理傷害</physicalDamage>。每擊中一個英雄回復 <healing>（25% 基礎物理攻擊 + 10% 失去生命）生命</healing> （15 秒冷卻時間，可被技能疾速減少）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。</mainText><br><div class='tooltip-gold'>3300 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>飲血戰錘</div><mainText><stats><attention>55</attention> 物理攻擊<br><attention>300</attention> 生命<br><attention>20</attention> 技能疾速<br><attention>8%</attention> 全能吸血</stats><br><br><active>主動─</active> <active>迫切斬擊：</active>對附近敵人造成 <physicalDamage>（175% 基礎物理攻擊）物理傷害</physicalDamage>。每擊中一個英雄回復 <healing>（20% 基礎物理攻擊 + 8% 失去生命）生命</healing> （15 秒冷卻時間，可被技能疾速減少）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>7</attention> 技能疾速。</mainText><br><div class='tooltip-gold'>3300 Gold</div>"
     },
     "6631": {
       "name": "步履破壞者",
@@ -1540,15 +1540,15 @@
     },
     "6632": {
       "name": "聖裂之杖",
-      "desc": "<mainText><stats><attention>40</attention> 物理攻擊<br><attention>300</attention> 生命<br><attention>20</attention> 技能疾速</stats><li><passive>魔法彎刀：</passive>使用技能後，下一次普攻被強化並造成額外 <physicalDamage>12%（遠程英雄則為 9%）目標最大生命的物理傷害</physicalDamage> <OnHit>命中</OnHit>（1.5 秒冷卻時間）。若目標是英雄，回復等同於 7.8%（遠程英雄則為 3.6%）目標最大生命的生命。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5%</attention>物理穿透和 <attention>5%</attention> 魔法穿透。<br><br><rules><passive>魔法彎刀</passive>會對目標單位造成至少（150% 基礎物理攻擊）傷害，但對野怪不會造成超過（250% 基礎物理攻擊）傷害。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>40</attention> 物理攻擊<br><attention>300</attention> 生命<br><attention>20</attention> 技能疾速</stats><li><passive>魔法彎刀：</passive>使用技能後，下一次普攻被強化並造成額外 <physicalDamage>12%（遠程英雄則為 9%）目標最大生命的物理傷害</physicalDamage> <OnHit>命中</OnHit>（1.5 秒冷卻時間）。若目標是英雄，回復等同於 6%（遠程英雄則為 3%）目標最大生命的生命。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5%</attention>物理穿透和 <attention>5%</attention> 魔法穿透。<br><br><rules><passive>魔法彎刀</passive>會對目標單位造成至少（150% 基礎物理攻擊）傷害，但對野怪不會造成超過（250% 基礎物理攻擊）傷害。</rules></mainText><br>",
       "gold": 3300,
-      "tooltip": "<div class='tooltip-title'>聖裂之杖</div><mainText><stats><attention>40</attention> 物理攻擊<br><attention>300</attention> 生命<br><attention>20</attention> 技能疾速</stats><li><passive>魔法彎刀：</passive>使用技能後，下一次普攻被強化並造成額外 <physicalDamage>12%（遠程英雄則為 9%）目標最大生命的物理傷害</physicalDamage> <OnHit>命中</OnHit>（1.5 秒冷卻時間）。若目標是英雄，回復等同於 7.8%（遠程英雄則為 3.6%）目標最大生命的生命。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5%</attention>物理穿透和 <attention>5%</attention> 魔法穿透。<br><br><rules><passive>魔法彎刀</passive>會對目標單位造成至少（150% 基礎物理攻擊）傷害，但對野怪不會造成超過（250% 基礎物理攻擊）傷害。</rules></mainText><br><div class='tooltip-gold'>3300 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>聖裂之杖</div><mainText><stats><attention>40</attention> 物理攻擊<br><attention>300</attention> 生命<br><attention>20</attention> 技能疾速</stats><li><passive>魔法彎刀：</passive>使用技能後，下一次普攻被強化並造成額外 <physicalDamage>12%（遠程英雄則為 9%）目標最大生命的物理傷害</physicalDamage> <OnHit>命中</OnHit>（1.5 秒冷卻時間）。若目標是英雄，回復等同於 6%（遠程英雄則為 3%）目標最大生命的生命。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5%</attention>物理穿透和 <attention>5%</attention> 魔法穿透。<br><br><rules><passive>魔法彎刀</passive>會對目標單位造成至少（150% 基礎物理攻擊）傷害，但對野怪不會造成超過（250% 基礎物理攻擊）傷害。</rules></mainText><br><div class='tooltip-gold'>3300 Gold</div>"
     },
     "6653": {
       "name": "黎安卓的苦楚",
-      "desc": "<mainText><stats><attention>80</attention>  魔法攻擊<br><attention>600</attention> 魔力<br><attention>20</attention> 技能疾速</stats><br><li><passive>痛苦：</passive> 根據敵方英雄的額外生命值（最大值： 1250 額外生命）造成最多<magicDamage>12% 魔法傷害</magicDamage> 。<li><passive>折磨</passive>用技能造成傷害時會讓敵人燃燒，每秒造成等同於  <magicDamage>(15 + 1.5% 魔法攻擊) + 1% 最大生命值的魔法傷害</magicDamage>，持續4 秒。 <br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。</mainText><br>",
+      "desc": "<mainText><stats><attention>80</attention>  魔法攻擊<br><attention>600</attention> 魔力<br><attention>20</attention> 技能疾速</stats><br><li><passive>痛苦：</passive> 根據敵方英雄的額外生命值（最大值： 1250 額外生命）造成最多<magicDamage>12% 魔法傷害</magicDamage> 。<li><passive>折磨</passive>用技能造成傷害時會讓敵人燃燒，每秒造成等同於  <magicDamage>(12.5 + 1.5% 魔法攻擊) + 1% 最大生命值的魔法傷害</magicDamage>，持續4 秒。 <br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。</mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>黎安卓的苦楚</div><mainText><stats><attention>80</attention>  魔法攻擊<br><attention>600</attention> 魔力<br><attention>20</attention> 技能疾速</stats><br><li><passive>痛苦：</passive> 根據敵方英雄的額外生命值（最大值： 1250 額外生命）造成最多<magicDamage>12% 魔法傷害</magicDamage> 。<li><passive>折磨</passive>用技能造成傷害時會讓敵人燃燒，每秒造成等同於  <magicDamage>(15 + 1.5% 魔法攻擊) + 1% 最大生命值的魔法傷害</magicDamage>，持續4 秒。 <br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。</mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>黎安卓的苦楚</div><mainText><stats><attention>80</attention>  魔法攻擊<br><attention>600</attention> 魔力<br><attention>20</attention> 技能疾速</stats><br><li><passive>痛苦：</passive> 根據敵方英雄的額外生命值（最大值： 1250 額外生命）造成最多<magicDamage>12% 魔法傷害</magicDamage> 。<li><passive>折磨</passive>用技能造成傷害時會讓敵人燃燒，每秒造成等同於  <magicDamage>(12.5 + 1.5% 魔法攻擊) + 1% 最大生命值的魔法傷害</magicDamage>，持續4 秒。 <br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。</mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "6655": {
       "name": "盧登驟雨",
@@ -1558,27 +1558,27 @@
     },
     "6656": {
       "name": "永寒之霜",
-      "desc": "<mainText><stats><attention>70</attention>  魔法攻擊<br><attention>250</attention> 生命<br><attention>600</attention> 魔力<br><attention>20</attention> 技能疾速</stats><br><br><active>主動─</active> <active>冰封：</active>向錐形範圍造成 <magicDamage>（100+30% 魔法攻擊）魔法傷害</magicDamage>，對敵方造成 65% <status>緩速</status>，持續 1.5 秒。錐形範圍中央的敵人則會改為被<status>定身</status>（30 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>10</attention> 魔法攻擊。<br></mainText><br>",
+      "desc": "<mainText><stats><attention>70</attention>  魔法攻擊<br><attention>250</attention> 生命<br><attention>600</attention> 魔力<br><attention>20</attention> 技能疾速</stats><br><br><active>主動─</active> <active>冰封：</active>向錐形範圍造成 <magicDamage>（100+30% 魔法攻擊）魔法傷害</magicDamage>，對敵方造成 65% <status>緩速</status>，持續 1 秒。錐形範圍中央的敵人則會改為被<status>定身</status>（30 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>10</attention> 魔法攻擊。<br></mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>永寒之霜</div><mainText><stats><attention>70</attention>  魔法攻擊<br><attention>250</attention> 生命<br><attention>600</attention> 魔力<br><attention>20</attention> 技能疾速</stats><br><br><active>主動─</active> <active>冰封：</active>向錐形範圍造成 <magicDamage>（100+30% 魔法攻擊）魔法傷害</magicDamage>，對敵方造成 65% <status>緩速</status>，持續 1.5 秒。錐形範圍中央的敵人則會改為被<status>定身</status>（30 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>10</attention> 魔法攻擊。<br></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>永寒之霜</div><mainText><stats><attention>70</attention>  魔法攻擊<br><attention>250</attention> 生命<br><attention>600</attention> 魔力<br><attention>20</attention> 技能疾速</stats><br><br><active>主動─</active> <active>冰封：</active>向錐形範圍造成 <magicDamage>（100+30% 魔法攻擊）魔法傷害</magicDamage>，對敵方造成 65% <status>緩速</status>，持續 1 秒。錐形範圍中央的敵人則會改為被<status>定身</status>（30 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>10</attention> 魔法攻擊。<br></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
     },
     "6660": {
       "name": "巴米灰燼",
       "desc": "<mainText><stats><attention>300</attention> 生命</stats><br><li><passive>獻祭：</passive>受到或製造傷害將使你每秒開始對附近敵人造成 <magicDamage>(15 + 1% 額外生命) 魔法傷害</magicDamage>（對小兵造成 25% 額外傷害，對野怪造成 25% 額外傷害），持續 3 秒。</mainText><br>",
-      "gold": 1100,
-      "tooltip": "<div class='tooltip-title'>巴米灰燼</div><mainText><stats><attention>300</attention> 生命</stats><br><li><passive>獻祭：</passive>受到或製造傷害將使你每秒開始對附近敵人造成 <magicDamage>(15 + 1% 額外生命) 魔法傷害</magicDamage>（對小兵造成 25% 額外傷害，對野怪造成 25% 額外傷害），持續 3 秒。</mainText><br><div class='tooltip-gold'>1100 Gold</div>"
+      "gold": 1000,
+      "tooltip": "<div class='tooltip-title'>巴米灰燼</div><mainText><stats><attention>300</attention> 生命</stats><br><li><passive>獻祭：</passive>受到或製造傷害將使你每秒開始對附近敵人造成 <magicDamage>(15 + 1% 額外生命) 魔法傷害</magicDamage>（對小兵造成 25% 額外傷害，對野怪造成 25% 額外傷害），持續 3 秒。</mainText><br><div class='tooltip-gold'>1000 Gold</div>"
     },
     "6662": {
       "name": "霜火霸拳",
-      "desc": "<mainText><stats><attention>350</attention> 生命<br><attention>25</attention>  物理防禦<br><attention>25</attention> 魔法防禦<br><attention>20</attention> 技能疾速</stats><br><li><passive>獻祭：</passive>承受或造成傷害將使你開始對附近敵人造成每秒 <magicDamage>（12 + 1% 額外生命）魔法傷害</magicDamage>（對小兵造成 25% 額外傷害，對野怪造成 150% 額外傷害），持續 3 秒。<li><passive>冰雪束縛：</passive>普攻創造一個存在 1.5 秒的寒霜領域，對區域內所有敵人造成（12-85 / 6-42.5）額外魔法傷害（4 秒冷卻時間；遠程英雄則為 6 秒冷卻時間）。經過該領域的敵人會受到近戰英雄 25%；遠程英雄 12.5%（根據你的<scaleHealth>最大生命</scaleHealth>提升）<status>緩速</status>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>100</attention> 生命及 <attention>6%</attention> 體積。</mainText><br>",
+      "desc": "<mainText><stats><attention>450</attention> 生命<br><attention>25</attention>  物理防禦<br><attention>25</attention> 魔法防禦<br><attention>20</attention> 技能疾速</stats><br><li><passive>獻祭：</passive>承受或造成傷害將使你開始對附近敵人造成每秒 <magicDamage>（12 + 1% 額外生命）魔法傷害</magicDamage>（對小兵造成 25% 額外傷害，對野怪造成 150% 額外傷害），持續 3 秒。<li><passive>冰雪束縛：</passive>普攻創造一個存在 1.5 秒的寒霜領域，對區域內所有敵人造成（12 - 85  / 6 - 42.5）額外魔法傷害（4 秒冷卻時間；遠程英雄則為 6 秒冷卻時間）。經過該領域的敵人會受到近戰英雄 25%；遠程英雄 12.5%（根據你的<scaleHealth>最大生命</scaleHealth>提升）<status>緩速</status>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>100</attention> 生命及 <attention>6%</attention> 體積。</mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>霜火霸拳</div><mainText><stats><attention>350</attention> 生命<br><attention>25</attention>  物理防禦<br><attention>25</attention> 魔法防禦<br><attention>20</attention> 技能疾速</stats><br><li><passive>獻祭：</passive>承受或造成傷害將使你開始對附近敵人造成每秒 <magicDamage>（12 + 1% 額外生命）魔法傷害</magicDamage>（對小兵造成 25% 額外傷害，對野怪造成 150% 額外傷害），持續 3 秒。<li><passive>冰雪束縛：</passive>普攻創造一個存在 1.5 秒的寒霜領域，對區域內所有敵人造成（12-85 / 6-42.5）額外魔法傷害（4 秒冷卻時間；遠程英雄則為 6 秒冷卻時間）。經過該領域的敵人會受到近戰英雄 25%；遠程英雄 12.5%（根據你的<scaleHealth>最大生命</scaleHealth>提升）<status>緩速</status>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>100</attention> 生命及 <attention>6%</attention> 體積。</mainText><br><div class='tooltip-gold'>2800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>霜火霸拳</div><mainText><stats><attention>450</attention> 生命<br><attention>25</attention>  物理防禦<br><attention>25</attention> 魔法防禦<br><attention>20</attention> 技能疾速</stats><br><li><passive>獻祭：</passive>承受或造成傷害將使你開始對附近敵人造成每秒 <magicDamage>（12 + 1% 額外生命）魔法傷害</magicDamage>（對小兵造成 25% 額外傷害，對野怪造成 150% 額外傷害），持續 3 秒。<li><passive>冰雪束縛：</passive>普攻創造一個存在 1.5 秒的寒霜領域，對區域內所有敵人造成（12 - 85  / 6 - 42.5）額外魔法傷害（4 秒冷卻時間；遠程英雄則為 6 秒冷卻時間）。經過該領域的敵人會受到近戰英雄 25%；遠程英雄 12.5%（根據你的<scaleHealth>最大生命</scaleHealth>提升）<status>緩速</status>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>100</attention> 生命及 <attention>6%</attention> 體積。</mainText><br><div class='tooltip-gold'>2800 Gold</div>"
     },
     "6664": {
       "name": "渦輪煉金罐",
-      "desc": "<mainText><stats><attention>350</attention> 生命<br><attention>25</attention>  物理防禦<br><attention>25</attention> 魔法防禦<br><attention>20</attention> 技能疾速</stats><br><br><active>主動─</active> <active>超級充能：</active>朝敵方英雄或敵方防禦塔前進時獲得 <speed>40% 移動速度</speed>，持續 4 秒。接近一名敵人（或 4 秒後）釋放一股衝擊波，使附近敵方英雄被 <status>緩速</status> 50%，持續 1.5 秒（90 秒冷卻時間）。<br><br><passive>燃料補充：</passive>移動與承受來自英雄及大型野怪的傷害可為<keywordMajor>渦輪煉金罐</keywordMajor>填補燃料。疊至 100 層時，你的下一次普攻對所有附近敵人造成 <magicDamage>40-120（+1% 最大生命 + 3% 移動速度）魔法傷害</magicDamage>（對小兵造成 30% 額外傷害，對野怪造成 200% 額外傷害）。<br><br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速和 <attention>50</attention> 生命。</mainText><br>",
+      "desc": "<mainText><stats><attention>450</attention> 生命<br><attention>25</attention>  物理防禦<br><attention>25</attention> 魔法防禦<br><attention>20</attention> 技能疾速</stats><br><br><active>主動─</active> <active>超級充能：</active>朝敵方英雄或敵方防禦塔前進時獲得 <speed>40% 移動速度</speed>，持續 4 秒。接近一名敵人（或 4 秒後）釋放一股衝擊波，使附近敵方英雄被 <status>緩速</status> 50%，持續 1.5 秒（90 秒冷卻時間）。<br><br><passive>燃料補充：</passive>移動與承受來自英雄及大型野怪的傷害可為<keywordMajor>渦輪煉金罐</keywordMajor>填補燃料。疊至 100 層時，你的下一次普攻對所有附近敵人造成 <magicDamage>40-120（+1% 最大生命 + 3% 移動速度）魔法傷害</magicDamage>（對小兵造成 30% 額外傷害，對野怪造成 200% 額外傷害）。<br><br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速和 <attention>50</attention> 生命。</mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>渦輪煉金罐</div><mainText><stats><attention>350</attention> 生命<br><attention>25</attention>  物理防禦<br><attention>25</attention> 魔法防禦<br><attention>20</attention> 技能疾速</stats><br><br><active>主動─</active> <active>超級充能：</active>朝敵方英雄或敵方防禦塔前進時獲得 <speed>40% 移動速度</speed>，持續 4 秒。接近一名敵人（或 4 秒後）釋放一股衝擊波，使附近敵方英雄被 <status>緩速</status> 50%，持續 1.5 秒（90 秒冷卻時間）。<br><br><passive>燃料補充：</passive>移動與承受來自英雄及大型野怪的傷害可為<keywordMajor>渦輪煉金罐</keywordMajor>填補燃料。疊至 100 層時，你的下一次普攻對所有附近敵人造成 <magicDamage>40-120（+1% 最大生命 + 3% 移動速度）魔法傷害</magicDamage>（對小兵造成 30% 額外傷害，對野怪造成 200% 額外傷害）。<br><br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速和 <attention>50</attention> 生命。</mainText><br><div class='tooltip-gold'>2800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>渦輪煉金罐</div><mainText><stats><attention>450</attention> 生命<br><attention>25</attention>  物理防禦<br><attention>25</attention> 魔法防禦<br><attention>20</attention> 技能疾速</stats><br><br><active>主動─</active> <active>超級充能：</active>朝敵方英雄或敵方防禦塔前進時獲得 <speed>40% 移動速度</speed>，持續 4 秒。接近一名敵人（或 4 秒後）釋放一股衝擊波，使附近敵方英雄被 <status>緩速</status> 50%，持續 1.5 秒（90 秒冷卻時間）。<br><br><passive>燃料補充：</passive>移動與承受來自英雄及大型野怪的傷害可為<keywordMajor>渦輪煉金罐</keywordMajor>填補燃料。疊至 100 層時，你的下一次普攻對所有附近敵人造成 <magicDamage>40-120（+1% 最大生命 + 3% 移動速度）魔法傷害</magicDamage>（對小兵造成 30% 額外傷害，對野怪造成 200% 額外傷害）。<br><br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速和 <attention>50</attention> 生命。</mainText><br><div class='tooltip-gold'>2800 Gold</div>"
     },
     "6670": {
       "name": "正午之顫",
@@ -1594,15 +1594,15 @@
     },
     "6672": {
       "name": "海妖殺手",
-      "desc": "<mainText><stats><attention>65</attention> 物理攻擊<br><attention>25%</attention> 攻擊速度<br><attention>20%</attention> 暴擊機率</stats><br><li><passive>打倒它：</passive>每三下普攻造成額外 <trueDamage>（60 + 45% 額外物理攻擊）真實傷害</trueDamage>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>10%</attention> 攻速。</mainText><br>",
+      "desc": "<mainText><stats><attention>65</attention> 物理攻擊<br><attention>25%</attention> 攻擊速度<br><attention>20%</attention> 暴擊機率</stats><br><li><passive>打倒它：</passive>每三下普攻造成額外 <trueDamage>（50 + 40% 額外物理攻擊）真實傷害</trueDamage>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>10%</attention> 攻速。</mainText><br>",
       "gold": 3400,
-      "tooltip": "<div class='tooltip-title'>海妖殺手</div><mainText><stats><attention>65</attention> 物理攻擊<br><attention>25%</attention> 攻擊速度<br><attention>20%</attention> 暴擊機率</stats><br><li><passive>打倒它：</passive>每三下普攻造成額外 <trueDamage>（60 + 45% 額外物理攻擊）真實傷害</trueDamage>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>10%</attention> 攻速。</mainText><br><div class='tooltip-gold'>3400 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>海妖殺手</div><mainText><stats><attention>65</attention> 物理攻擊<br><attention>25%</attention> 攻擊速度<br><attention>20%</attention> 暴擊機率</stats><br><li><passive>打倒它：</passive>每三下普攻造成額外 <trueDamage>（50 + 40% 額外物理攻擊）真實傷害</trueDamage>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>10%</attention> 攻速。</mainText><br><div class='tooltip-gold'>3400 Gold</div>"
     },
     "6673": {
       "name": "不朽盾弓",
-      "desc": "<mainText><stats><attention>50</attention> 物理攻擊<br><attention>20%</attention> 攻擊速度<br><attention>20%</attention> 暴擊機率<br><attention>8%</attention> 普攻吸血</stats><br><li><passive>命脈：</passive>在受到會讓生命低於 30% 的傷害時，獲得一個 <shield>275 - 700 護盾</shield>，持續 3 秒。此外，獲得 <attackDamage>15-35 物理攻擊</attackDamage>，持續 8 秒（90秒 ）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 物理攻擊和 <attention>70</attention> 生命。</mainText><br>",
+      "desc": "<mainText><stats><attention>50</attention> 物理攻擊<br><attention>20%</attention> 攻擊速度<br><attention>20%</attention> 暴擊機率<br><attention>7%</attention> 普攻吸血</stats><br><li><passive>命脈：</passive>在受到會讓生命低於 30% 的傷害時，獲得一個 <shield>250 - 630 的護盾</shield>，持續 3 秒。此外，獲得 <attackDamage>15-35 物理攻擊</attackDamage>，持續 8 秒（90秒 ）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 物理攻擊和 <attention>70</attention> 生命。</mainText><br>",
       "gold": 3400,
-      "tooltip": "<div class='tooltip-title'>不朽盾弓</div><mainText><stats><attention>50</attention> 物理攻擊<br><attention>20%</attention> 攻擊速度<br><attention>20%</attention> 暴擊機率<br><attention>8%</attention> 普攻吸血</stats><br><li><passive>命脈：</passive>在受到會讓生命低於 30% 的傷害時，獲得一個 <shield>275 - 700 護盾</shield>，持續 3 秒。此外，獲得 <attackDamage>15-35 物理攻擊</attackDamage>，持續 8 秒（90秒 ）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 物理攻擊和 <attention>70</attention> 生命。</mainText><br><div class='tooltip-gold'>3400 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>不朽盾弓</div><mainText><stats><attention>50</attention> 物理攻擊<br><attention>20%</attention> 攻擊速度<br><attention>20%</attention> 暴擊機率<br><attention>7%</attention> 普攻吸血</stats><br><li><passive>命脈：</passive>在受到會讓生命低於 30% 的傷害時，獲得一個 <shield>250 - 630 的護盾</shield>，持續 3 秒。此外，獲得 <attackDamage>15-35 物理攻擊</attackDamage>，持續 8 秒（90秒 ）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 物理攻擊和 <attention>70</attention> 生命。</mainText><br><div class='tooltip-gold'>3400 Gold</div>"
     },
     "6675": {
       "name": "那歐疾刃",
@@ -1624,21 +1624,21 @@
     },
     "6691": {
       "name": "暮色黑刃",
-      "desc": "<mainText><stats><attention>60</attention> 物理攻擊<br><attention>18</attention> 物理致命<br><attention>20</attention> 技能疾速</stats><br><li><passive>夜色潛伏：</passive>普攻一名敵方英雄造成額外 <physicalDamage>（近戰英雄為 75 + 30% 額外物理攻擊；遠程英雄為 55 + 25% 額外物理攻擊）物理傷害</physicalDamage>（15 秒冷卻時間）。如果攻擊者是一名 近戰英雄，則此普攻也會<status>緩速</status>目標 99%，持續 0.25 秒。當你在過去 3 秒內傷害過的一名敵方英雄死亡，刷新此效果的冷卻時間，並使你 <keywordStealth>隱形</keywordStealth>，持續 1.5 秒。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。<br></mainText><br>",
+      "desc": "<mainText><stats><attention>60</attention> 物理攻擊<br><attention>22</attention> 物理致命<br><attention>20</attention> 技能疾速</stats><br><li><passive>夜色潛伏：</passive>普攻一名敵方英雄造成額外 <physicalDamage>（近戰英雄為 75 + 30% 額外物理攻擊；遠程英雄為 55 + 25% 額外物理攻擊）物理傷害</physicalDamage>（15 秒冷卻時間）。如果攻擊者是一名 近戰英雄，則此普攻也會<status>緩速</status>目標 99%，持續 0.25 秒。當你在過去 3 秒內傷害過的一名敵方英雄死亡，刷新此效果的冷卻時間，並使你 <keywordStealth>隱形</keywordStealth>，持續 1.5 秒。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。<br></mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>暮色黑刃</div><mainText><stats><attention>60</attention> 物理攻擊<br><attention>18</attention> 物理致命<br><attention>20</attention> 技能疾速</stats><br><li><passive>夜色潛伏：</passive>普攻一名敵方英雄造成額外 <physicalDamage>（近戰英雄為 75 + 30% 額外物理攻擊；遠程英雄為 55 + 25% 額外物理攻擊）物理傷害</physicalDamage>（15 秒冷卻時間）。如果攻擊者是一名 近戰英雄，則此普攻也會<status>緩速</status>目標 99%，持續 0.25 秒。當你在過去 3 秒內傷害過的一名敵方英雄死亡，刷新此效果的冷卻時間，並使你 <keywordStealth>隱形</keywordStealth>，持續 1.5 秒。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。<br></mainText><br><div class='tooltip-gold'>3100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>暮色黑刃</div><mainText><stats><attention>60</attention> 物理攻擊<br><attention>22</attention> 物理致命<br><attention>20</attention> 技能疾速</stats><br><li><passive>夜色潛伏：</passive>普攻一名敵方英雄造成額外 <physicalDamage>（近戰英雄為 75 + 30% 額外物理攻擊；遠程英雄為 55 + 25% 額外物理攻擊）物理傷害</physicalDamage>（15 秒冷卻時間）。如果攻擊者是一名 近戰英雄，則此普攻也會<status>緩速</status>目標 99%，持續 0.25 秒。當你在過去 3 秒內傷害過的一名敵方英雄死亡，刷新此效果的冷卻時間，並使你 <keywordStealth>隱形</keywordStealth>，持續 1.5 秒。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。<br></mainText><br><div class='tooltip-gold'>3100 Gold</div>"
     },
     "6692": {
       "name": "星蝕",
-      "desc": "<mainText><stats><attention>55</attention> 物理攻擊<br><attention>18</attention> 物理致命<br><attention>8%</attention> 全能吸血</stats><br><li><passive>不落之月：</passive>在 1.5 秒內使用 2 次獨立的普攻或技能命中一個英雄，會造成額外 <physicalDamage>6% 最大生命的物理傷害</physicalDamage>，使你獲得 <speed>15% 移動速度</speed>及一個 <shield>（180 + 40% 額外物理攻擊）的護盾（遠程英雄則獲得 50% 護盾）</shield>，持續 2 秒（8 秒冷卻時間；遠程英雄則為 16 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>4%</attention> 物理穿透</mainText><br>",
+      "desc": "<mainText><stats><attention>55</attention> 物理攻擊<br><attention>22</attention> 物理致命<br><attention>7%</attention> 全能吸血</stats><br><br><li><passive>不落之月：</passive> 在 1.5 秒內使用 2 次獨立的普攻或技能命中一名英雄，會造成額外 <physicalDamage>{{ Item_Melee_Ranged_Split_C }}% 最大生命的物理傷害</physicalDamage>，並使你獲得 <speed>15% 移動速度</speed> 及一個<shield>（160 + 35% 額外物理攻擊）的護盾（遠程英雄的護盾效果則為 50%）</shield>，持續 2 秒（8 秒冷卻時間，遠程英雄則為 16 秒冷卻時間）。<br><br>{{ Item_Mythic_Passive }} <attention>4%</attention> 物理穿透</mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>星蝕</div><mainText><stats><attention>55</attention> 物理攻擊<br><attention>18</attention> 物理致命<br><attention>8%</attention> 全能吸血</stats><br><li><passive>不落之月：</passive>在 1.5 秒內使用 2 次獨立的普攻或技能命中一個英雄，會造成額外 <physicalDamage>6% 最大生命的物理傷害</physicalDamage>，使你獲得 <speed>15% 移動速度</speed>及一個 <shield>（180 + 40% 額外物理攻擊）的護盾（遠程英雄則獲得 50% 護盾）</shield>，持續 2 秒（8 秒冷卻時間；遠程英雄則為 16 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>4%</attention> 物理穿透</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>星蝕</div><mainText><stats><attention>55</attention> 物理攻擊<br><attention>22</attention> 物理致命<br><attention>7%</attention> 全能吸血</stats><br><br><li><passive>不落之月：</passive> 在 1.5 秒內使用 2 次獨立的普攻或技能命中一名英雄，會造成額外 <physicalDamage>{{ Item_Melee_Ranged_Split_C }}% 最大生命的物理傷害</physicalDamage>，並使你獲得 <speed>15% 移動速度</speed> 及一個<shield>（160 + 35% 額外物理攻擊）的護盾（遠程英雄的護盾效果則為 50%）</shield>，持續 2 秒（8 秒冷卻時間，遠程英雄則為 16 秒冷卻時間）。<br><br>{{ Item_Mythic_Passive }} <attention>4%</attention> 物理穿透</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
     },
     "6693": {
       "name": "潛行者之爪",
-      "desc": "<mainText><stats><attention>60</attention> 物理攻擊<br><attention>18</attention> 物理致命<br><attention>20</attention> 技能疾速</stats><br><br><active>主動─</active> <active>揚沙：</active>衝刺過目標敵方英雄，造成 <physicalDamage>（75 + 30% 額外物理攻擊）物理傷害</physicalDamage>。接下來 3 秒內，你對目標造成 15% 額外傷害。（90 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 物理致命</mainText><br>",
+      "desc": "<mainText><stats><attention>60</attention> 物理攻擊<br><attention>22</attention> 物理致命<br><attention>20</attention> 技能疾速</stats><br><br><active>主動─</active> <active>揚沙：</active>衝刺過目標敵方英雄，造成 <physicalDamage>（75 + 30% 額外物理攻擊）物理傷害</physicalDamage>。接下來 3 秒內，你對目標造成 15% 額外傷害。（90 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 物理致命</mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>潛行者之爪</div><mainText><stats><attention>60</attention> 物理攻擊<br><attention>18</attention> 物理致命<br><attention>20</attention> 技能疾速</stats><br><br><active>主動─</active> <active>揚沙：</active>衝刺過目標敵方英雄，造成 <physicalDamage>（75 + 30% 額外物理攻擊）物理傷害</physicalDamage>。接下來 3 秒內，你對目標造成 15% 額外傷害。（90 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 物理致命</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>潛行者之爪</div><mainText><stats><attention>60</attention> 物理攻擊<br><attention>22</attention> 物理致命<br><attention>20</attention> 技能疾速</stats><br><br><active>主動─</active> <active>揚沙：</active>衝刺過目標敵方英雄，造成 <physicalDamage>（75 + 30% 額外物理攻擊）物理傷害</physicalDamage>。接下來 3 秒內，你對目標造成 15% 額外傷害。（90 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 物理致命</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
     },
     "6694": {
       "name": "席利妲咒怨",
@@ -1648,51 +1648,51 @@
     },
     "6695": {
       "name": "巨蛇鋒牙",
-      "desc": "<mainText><stats><attention>55</attention> 物理攻擊<br><attention>12</attention> 物理致命</stats><br><li><passive>破盾者：</passive>對敵方英雄造成傷害時會降低他們能夠被賦予的護盾量（50% | 遠程英雄則為 35%），持續 3 秒。當你對還未受到破盾者影響的英雄造成傷害時，降低他們身上已存在的所有護盾量（50% | 遠程英雄則為 35%）。<br><br><rules>不會對只阻擋魔法傷害的護盾造成額外傷害。<br>道具對 近戰英雄和 遠程英雄會有不同的表現。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>55</attention> 物理攻擊<br><attention>14</attention> 物理致命</stats><br><li><passive>破盾者：</passive>對敵方英雄造成傷害時會降低他們能夠被賦予的護盾量（50% | 遠程英雄則為 35%），持續 3 秒。當你對還未受到破盾者影響的英雄造成傷害時，降低他們身上已存在的所有護盾量（50% | 遠程英雄則為 35%）。<br><br><rules>不會對只阻擋魔法傷害的護盾造成額外傷害。<br>道具對 近戰英雄和 遠程英雄會有不同的表現。</rules></mainText><br>",
       "gold": 2600,
-      "tooltip": "<div class='tooltip-title'>巨蛇鋒牙</div><mainText><stats><attention>55</attention> 物理攻擊<br><attention>12</attention> 物理致命</stats><br><li><passive>破盾者：</passive>對敵方英雄造成傷害時會降低他們能夠被賦予的護盾量（50% | 遠程英雄則為 35%），持續 3 秒。當你對還未受到破盾者影響的英雄造成傷害時，降低他們身上已存在的所有護盾量（50% | 遠程英雄則為 35%）。<br><br><rules>不會對只阻擋魔法傷害的護盾造成額外傷害。<br>道具對 近戰英雄和 遠程英雄會有不同的表現。</rules></mainText><br><div class='tooltip-gold'>2600 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>巨蛇鋒牙</div><mainText><stats><attention>55</attention> 物理攻擊<br><attention>14</attention> 物理致命</stats><br><li><passive>破盾者：</passive>對敵方英雄造成傷害時會降低他們能夠被賦予的護盾量（50% | 遠程英雄則為 35%），持續 3 秒。當你對還未受到破盾者影響的英雄造成傷害時，降低他們身上已存在的所有護盾量（50% | 遠程英雄則為 35%）。<br><br><rules>不會對只阻擋魔法傷害的護盾造成額外傷害。<br>道具對 近戰英雄和 遠程英雄會有不同的表現。</rules></mainText><br><div class='tooltip-gold'>2600 Gold</div>"
     },
     "6696": {
       "name": "公理弧刃",
-      "desc": "<mainText><stats><attention>55</attention> 物理攻擊<br><attention>10</attention> 物理致命<br><attention>25</attention> 技能疾速</stats><br><li><passive>瞬息萬變：</passive>每當一名英雄在你傷害過的 3 秒內死亡，返還 20% 你的大絕的總冷卻時間。</mainText><br>",
+      "desc": "<mainText><stats><attention>55</attention> 物理攻擊<br><attention>13</attention> 物理致命<br><attention>25</attention> 技能疾速</stats><br><li><passive>瞬息萬變：</passive>每當一名英雄在你傷害過的 3 秒內死亡，返還 20% 你的大絕的總冷卻時間。</mainText><br>",
       "gold": 3000,
-      "tooltip": "<div class='tooltip-title'>公理弧刃</div><mainText><stats><attention>55</attention> 物理攻擊<br><attention>10</attention> 物理致命<br><attention>25</attention> 技能疾速</stats><br><li><passive>瞬息萬變：</passive>每當一名英雄在你傷害過的 3 秒內死亡，返還 20% 你的大絕的總冷卻時間。</mainText><br><div class='tooltip-gold'>3000 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>公理弧刃</div><mainText><stats><attention>55</attention> 物理攻擊<br><attention>13</attention> 物理致命<br><attention>25</attention> 技能疾速</stats><br><li><passive>瞬息萬變：</passive>每當一名英雄在你傷害過的 3 秒內死亡，返還 20% 你的大絕的總冷卻時間。</mainText><br><div class='tooltip-gold'>3000 Gold</div>"
     },
     "7000": {
       "name": "沙雀之爪",
-      "desc": "<mainText><stats><ornnBonus>75</ornnBonus> 物理攻擊<br><ornnBonus>26</ornnBonus> 物理致命<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><br><active>主動─</active> <active>揚沙：</active>衝刺過目標敵方英雄，造成 <physicalDamage>（75 + 30% 額外物理攻擊）物理傷害</physicalDamage>。接下來 3 秒內，你對目標造成 15% 額外傷害。（90 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 物理致命</mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>75</ornnBonus> 物理攻擊<br><ornnBonus>32</ornnBonus> 物理致命<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><br><active>主動─</active> <active>揚沙：</active>衝刺過目標敵方英雄，造成 <physicalDamage>（75 + 30% 額外物理攻擊）物理傷害</physicalDamage>。接下來 3 秒內，你對目標造成 15% 額外傷害。（90 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 物理致命</mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>沙雀之爪</div><mainText><stats><ornnBonus>75</ornnBonus> 物理攻擊<br><ornnBonus>26</ornnBonus> 物理致命<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><br><active>主動─</active> <active>揚沙：</active>衝刺過目標敵方英雄，造成 <physicalDamage>（75 + 30% 額外物理攻擊）物理傷害</physicalDamage>。接下來 3 秒內，你對目標造成 15% 額外傷害。（90 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 物理致命</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>沙雀之爪</div><mainText><stats><ornnBonus>75</ornnBonus> 物理攻擊<br><ornnBonus>32</ornnBonus> 物理致命<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><br><active>主動─</active> <active>揚沙：</active>衝刺過目標敵方英雄，造成 <physicalDamage>（75 + 30% 額外物理攻擊）物理傷害</physicalDamage>。接下來 3 秒內，你對目標造成 15% 額外傷害。（90 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 物理致命</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
     },
     "7001": {
       "name": "朔望",
-      "desc": "<mainText><stats><ornnBonus>75</ornnBonus> 物理攻擊<br><ornnBonus>26</ornnBonus> 物理致命<br><ornnBonus>10%</ornnBonus> 全能吸血</stats><br><li><passive>不落之月：</passive>在 1.5 秒內使用 2 次獨立的普攻或技能命中一個英雄，會造成額外 <physicalDamage>6% 最大生命的物理傷害</physicalDamage>，使你獲得 <speed>15% 移動速度</speed>及一個 <shield>（180 + 40% 額外物理攻擊）的護盾（遠程英雄則獲得 50% 護盾）</shield>，持續 2 秒（8 秒冷卻時間；遠程英雄則為 16 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>4%</attention> 物理穿透</mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>75</ornnBonus> 物理攻擊<br><ornnBonus>32</ornnBonus> 物理致命<br><ornnBonus>8%</ornnBonus> 全能吸血</stats><br><br><li><passive>不落之月：</passive> 在 1.5 秒內使用 2 次獨立的普攻或技能命中一名英雄，會造成額外 <physicalDamage>{{ Item_Melee_Ranged_Split_C }}% 最大生命的物理傷害</physicalDamage>，並使你獲得 <speed>15% 移動速度</speed> 及一個<shield>（160 + 35% 額外物理攻擊）的護盾（遠程英雄的護盾效果則為 50%）</shield>，持續 2 秒（8 秒冷卻時間，遠程英雄則為 16 秒冷卻時間）。<br><br>{{ Item_Mythic_Passive }} <attention>4%</attention> 物理穿透</mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>朔望</div><mainText><stats><ornnBonus>75</ornnBonus> 物理攻擊<br><ornnBonus>26</ornnBonus> 物理致命<br><ornnBonus>10%</ornnBonus> 全能吸血</stats><br><li><passive>不落之月：</passive>在 1.5 秒內使用 2 次獨立的普攻或技能命中一個英雄，會造成額外 <physicalDamage>6% 最大生命的物理傷害</physicalDamage>，使你獲得 <speed>15% 移動速度</speed>及一個 <shield>（180 + 40% 額外物理攻擊）的護盾（遠程英雄則獲得 50% 護盾）</shield>，持續 2 秒（8 秒冷卻時間；遠程英雄則為 16 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>4%</attention> 物理穿透</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>朔望</div><mainText><stats><ornnBonus>75</ornnBonus> 物理攻擊<br><ornnBonus>32</ornnBonus> 物理致命<br><ornnBonus>8%</ornnBonus> 全能吸血</stats><br><br><li><passive>不落之月：</passive> 在 1.5 秒內使用 2 次獨立的普攻或技能命中一名英雄，會造成額外 <physicalDamage>{{ Item_Melee_Ranged_Split_C }}% 最大生命的物理傷害</physicalDamage>，並使你獲得 <speed>15% 移動速度</speed> 及一個<shield>（160 + 35% 額外物理攻擊）的護盾（遠程英雄的護盾效果則為 50%）</shield>，持續 2 秒（8 秒冷卻時間，遠程英雄則為 16 秒冷卻時間）。<br><br>{{ Item_Mythic_Passive }} <attention>4%</attention> 物理穿透</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
     },
     "7002": {
       "name": "暗影雕刻者",
-      "desc": "<mainText><stats><ornnBonus>75</ornnBonus> 物理攻擊<br><ornnBonus>26</ornnBonus> 物理致命<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><li><passive>夜色潛伏：</passive>普攻一名敵方英雄造成額外 <physicalDamage>（近戰英雄為 75 + 30% 額外物理攻擊；遠程英雄為 55 + 25% 額外物理攻擊）物理傷害</physicalDamage>（15 秒冷卻時間）。如果攻擊者是一名 近戰英雄，則此普攻也會<status>緩速</status>目標 99%，持續 0.25 秒。當你在過去 3 秒內傷害過的一名敵方英雄死亡，刷新此效果的冷卻時間，並使你 <keywordStealth>隱形</keywordStealth>，持續 1.5 秒。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。<br></mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>75</ornnBonus> 物理攻擊<br><ornnBonus>32</ornnBonus> 物理致命<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><li><passive>夜色潛伏：</passive>普攻一名敵方英雄造成額外 <physicalDamage>（近戰英雄為 75 + 30% 額外物理攻擊；遠程英雄為 55 + 25% 額外物理攻擊）物理傷害</physicalDamage>（15 秒冷卻時間）。如果攻擊者是一名 近戰英雄，則此普攻也會<status>緩速</status>目標 99%，持續 0.25 秒。當你在過去 3 秒內傷害過的一名敵方英雄死亡，刷新此效果的冷卻時間，並使你 <keywordStealth>隱形</keywordStealth>，持續 1.5 秒。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。<br></mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>暗影雕刻者</div><mainText><stats><ornnBonus>75</ornnBonus> 物理攻擊<br><ornnBonus>26</ornnBonus> 物理致命<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><li><passive>夜色潛伏：</passive>普攻一名敵方英雄造成額外 <physicalDamage>（近戰英雄為 75 + 30% 額外物理攻擊；遠程英雄為 55 + 25% 額外物理攻擊）物理傷害</physicalDamage>（15 秒冷卻時間）。如果攻擊者是一名 近戰英雄，則此普攻也會<status>緩速</status>目標 99%，持續 0.25 秒。當你在過去 3 秒內傷害過的一名敵方英雄死亡，刷新此效果的冷卻時間，並使你 <keywordStealth>隱形</keywordStealth>，持續 1.5 秒。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。<br></mainText><br><div class='tooltip-gold'>3100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>暗影雕刻者</div><mainText><stats><ornnBonus>75</ornnBonus> 物理攻擊<br><ornnBonus>32</ornnBonus> 物理致命<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><li><passive>夜色潛伏：</passive>普攻一名敵方英雄造成額外 <physicalDamage>（近戰英雄為 75 + 30% 額外物理攻擊；遠程英雄為 55 + 25% 額外物理攻擊）物理傷害</physicalDamage>（15 秒冷卻時間）。如果攻擊者是一名 近戰英雄，則此普攻也會<status>緩速</status>目標 99%，持續 0.25 秒。當你在過去 3 秒內傷害過的一名敵方英雄死亡，刷新此效果的冷卻時間，並使你 <keywordStealth>隱形</keywordStealth>，持續 1.5 秒。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。<br></mainText><br><div class='tooltip-gold'>3100 Gold</div>"
     },
     "7003": {
       "name": "海克斯渦輪增壓實驗品",
-      "desc": "<mainText><stats><ornnBonus>500</ornnBonus> 生命<br><ornnBonus>40</ornnBonus> 物理防禦<br><ornnBonus>40</ornnBonus> 魔法防禦<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><br><active>主動─</active> <active>超級充能：</active>朝敵方英雄或敵方防禦塔前進時獲得 <speed>40% 移動速度</speed>，持續 4 秒。接近一名敵人（或 4 秒後）釋放一股衝擊波，使附近敵方英雄被 <status>緩速</status> 50%，持續 1.5 秒（90 秒冷卻時間）。<br><br><passive>燃料補充：</passive>移動與承受來自英雄及大型野怪的傷害可為<keywordMajor>渦輪煉金罐</keywordMajor>填補燃料。疊至 100 層時，你的下一次普攻對所有附近敵人造成 <magicDamage>40-120（+1% 最大生命 + 3% 移動速度）魔法傷害</magicDamage>（對小兵造成 30% 額外傷害，對野怪造成 200% 額外傷害）。<br><br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速和 <attention>50</attention> 生命。</mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>600</ornnBonus> 生命<br><ornnBonus>40</ornnBonus> 物理防禦<br><ornnBonus>40</ornnBonus> 魔法防禦<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><br><active>主動─</active> <active>超級充能：</active>朝敵方英雄或敵方防禦塔前進時獲得 <speed>40% 移動速度</speed>，持續 4 秒。接近一名敵人（或 4 秒後）釋放一股衝擊波，使附近敵方英雄被 <status>緩速</status> 50%，持續 1.5 秒（90 秒冷卻時間）。<br><br><passive>燃料補充：</passive>移動與承受來自英雄及大型野怪的傷害可為<keywordMajor>渦輪煉金罐</keywordMajor>填補燃料。疊至 100 層時，你的下一次普攻對所有附近敵人造成 <magicDamage>40-120（+1% 最大生命 + 3% 移動速度）魔法傷害</magicDamage>（對小兵造成 30% 額外傷害，對野怪造成 200% 額外傷害）。<br><br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速和 <attention>50</attention> 生命。</mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>海克斯渦輪增壓實驗品</div><mainText><stats><ornnBonus>500</ornnBonus> 生命<br><ornnBonus>40</ornnBonus> 物理防禦<br><ornnBonus>40</ornnBonus> 魔法防禦<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><br><active>主動─</active> <active>超級充能：</active>朝敵方英雄或敵方防禦塔前進時獲得 <speed>40% 移動速度</speed>，持續 4 秒。接近一名敵人（或 4 秒後）釋放一股衝擊波，使附近敵方英雄被 <status>緩速</status> 50%，持續 1.5 秒（90 秒冷卻時間）。<br><br><passive>燃料補充：</passive>移動與承受來自英雄及大型野怪的傷害可為<keywordMajor>渦輪煉金罐</keywordMajor>填補燃料。疊至 100 層時，你的下一次普攻對所有附近敵人造成 <magicDamage>40-120（+1% 最大生命 + 3% 移動速度）魔法傷害</magicDamage>（對小兵造成 30% 額外傷害，對野怪造成 200% 額外傷害）。<br><br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速和 <attention>50</attention> 生命。</mainText><br><div class='tooltip-gold'>2800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>海克斯渦輪增壓實驗品</div><mainText><stats><ornnBonus>600</ornnBonus> 生命<br><ornnBonus>40</ornnBonus> 物理防禦<br><ornnBonus>40</ornnBonus> 魔法防禦<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><br><active>主動─</active> <active>超級充能：</active>朝敵方英雄或敵方防禦塔前進時獲得 <speed>40% 移動速度</speed>，持續 4 秒。接近一名敵人（或 4 秒後）釋放一股衝擊波，使附近敵方英雄被 <status>緩速</status> 50%，持續 1.5 秒（90 秒冷卻時間）。<br><br><passive>燃料補充：</passive>移動與承受來自英雄及大型野怪的傷害可為<keywordMajor>渦輪煉金罐</keywordMajor>填補燃料。疊至 100 層時，你的下一次普攻對所有附近敵人造成 <magicDamage>40-120（+1% 最大生命 + 3% 移動速度）魔法傷害</magicDamage>（對小兵造成 30% 額外傷害，對野怪造成 200% 額外傷害）。<br><br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速和 <attention>50</attention> 生命。</mainText><br><div class='tooltip-gold'>2800 Gold</div>"
     },
     "7004": {
       "name": "鍛爐之冠",
-      "desc": "<mainText><stats><ornnBonus>500</ornnBonus> 生命<br><ornnBonus>50</ornnBonus> 物理防禦<br><ornnBonus>50</ornnBonus> 魔法防禦<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><li><passive>獻祭：</passive>承受或造成傷害將使你每秒開始對附近敵人造成 <magicDamage>（12 - 30 （根據等級） + 1% 額外生命） 魔法傷害</magicDamage>（對小兵造成 25% 額外傷害，對野怪造成 150% 額外傷害），持續 3 秒。使用此效果傷害英雄或史詩級野怪即獲得一層疊加，使後續的<passive>獻祭</passive>傷害提升 12%，持續 5 秒（最多 6 層）。<li><passive>炎之觸：</passive>達到最高<passive>獻祭</passive>層數時，你的普攻每秒以<passive>獻祭</passive>傷害燃燒附近敵人，持續 3 秒。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5%</attention> 韌性及緩速抗性及 <attention>50</attention> 生命。</mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>600</ornnBonus> 生命<br><ornnBonus>50</ornnBonus> 物理防禦<br><ornnBonus>50</ornnBonus> 魔法防禦<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><li><passive>獻祭：</passive>承受或造成傷害將使你每秒開始對附近敵人造成 <magicDamage>（12 - 30 （根據等級） + 1% 額外生命） 魔法傷害</magicDamage>（對小兵造成 25% 額外傷害，對野怪造成 150% 額外傷害），持續 3 秒。使用此效果傷害英雄或史詩級野怪即獲得一層疊加，使後續的<passive>獻祭</passive>傷害提升 10%，持續 5 秒（最多 6 層）。<li><passive>炎之觸：</passive>達到最高<passive>獻祭</passive>層數時，你的普攻每秒以<passive>獻祭</passive>傷害燃燒附近敵人，持續 3 秒。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5%</attention> 韌性及緩速抗性及 <attention>50</attention> 生命。</mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>鍛爐之冠</div><mainText><stats><ornnBonus>500</ornnBonus> 生命<br><ornnBonus>50</ornnBonus> 物理防禦<br><ornnBonus>50</ornnBonus> 魔法防禦<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><li><passive>獻祭：</passive>承受或造成傷害將使你每秒開始對附近敵人造成 <magicDamage>（12 - 30 （根據等級） + 1% 額外生命） 魔法傷害</magicDamage>（對小兵造成 25% 額外傷害，對野怪造成 150% 額外傷害），持續 3 秒。使用此效果傷害英雄或史詩級野怪即獲得一層疊加，使後續的<passive>獻祭</passive>傷害提升 12%，持續 5 秒（最多 6 層）。<li><passive>炎之觸：</passive>達到最高<passive>獻祭</passive>層數時，你的普攻每秒以<passive>獻祭</passive>傷害燃燒附近敵人，持續 3 秒。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5%</attention> 韌性及緩速抗性及 <attention>50</attention> 生命。</mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>鍛爐之冠</div><mainText><stats><ornnBonus>600</ornnBonus> 生命<br><ornnBonus>50</ornnBonus> 物理防禦<br><ornnBonus>50</ornnBonus> 魔法防禦<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><li><passive>獻祭：</passive>承受或造成傷害將使你每秒開始對附近敵人造成 <magicDamage>（12 - 30 （根據等級） + 1% 額外生命） 魔法傷害</magicDamage>（對小兵造成 25% 額外傷害，對野怪造成 150% 額外傷害），持續 3 秒。使用此效果傷害英雄或史詩級野怪即獲得一層疊加，使後續的<passive>獻祭</passive>傷害提升 10%，持續 5 秒（最多 6 層）。<li><passive>炎之觸：</passive>達到最高<passive>獻祭</passive>層數時，你的普攻每秒以<passive>獻祭</passive>傷害燃燒附近敵人，持續 3 秒。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5%</attention> 韌性及緩速抗性及 <attention>50</attention> 生命。</mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "7005": {
       "name": "霜鑄握把",
-      "desc": "<mainText><stats><ornnBonus>500</ornnBonus> 生命<br><ornnBonus>40</ornnBonus> 物理防禦<br><ornnBonus>40</ornnBonus> 魔法防禦<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><li><passive>獻祭：</passive>承受或造成傷害將使你開始對附近敵人造成每秒 <magicDamage>（12 + 1% 額外生命）魔法傷害</magicDamage>（對小兵造成 25% 額外傷害，對野怪造成 150% 額外傷害），持續 3 秒。<li><passive>冰雪束縛：</passive>普攻創造一個存在 1.5 秒的寒霜領域，對區域內所有敵人造成（12-85 / 6-42.5）額外魔法傷害（4 秒冷卻時間；遠程英雄則為 6 秒冷卻時間）。經過該領域的敵人會受到近戰英雄 25%；遠程英雄 12.5%（根據你的<scaleHealth>最大生命</scaleHealth>提升）<status>緩速</status>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>100</attention> 生命及 <attention>6%</attention> 體積。</mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>600</ornnBonus> 生命<br><ornnBonus>40</ornnBonus> 物理防禦<br><ornnBonus>40</ornnBonus> 魔法防禦<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><li><passive>獻祭：</passive>承受或造成傷害將使你開始對附近敵人造成每秒 <magicDamage>（12 + 1% 額外生命）魔法傷害</magicDamage>（對小兵造成 25% 額外傷害，對野怪造成 150% 額外傷害），持續 3 秒。<li><passive>冰雪束縛：</passive>普攻創造一個存在 1.5 秒的寒霜領域，對區域內所有敵人造成（12 - 85  / 6 - 42.5）額外魔法傷害（4 秒冷卻時間；遠程英雄則為 6 秒冷卻時間）。經過該領域的敵人會受到近戰英雄 25%；遠程英雄 12.5%（根據你的<scaleHealth>最大生命</scaleHealth>提升）<status>緩速</status>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>100</attention> 生命及 <attention>6%</attention> 體積。</mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>霜鑄握把</div><mainText><stats><ornnBonus>500</ornnBonus> 生命<br><ornnBonus>40</ornnBonus> 物理防禦<br><ornnBonus>40</ornnBonus> 魔法防禦<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><li><passive>獻祭：</passive>承受或造成傷害將使你開始對附近敵人造成每秒 <magicDamage>（12 + 1% 額外生命）魔法傷害</magicDamage>（對小兵造成 25% 額外傷害，對野怪造成 150% 額外傷害），持續 3 秒。<li><passive>冰雪束縛：</passive>普攻創造一個存在 1.5 秒的寒霜領域，對區域內所有敵人造成（12-85 / 6-42.5）額外魔法傷害（4 秒冷卻時間；遠程英雄則為 6 秒冷卻時間）。經過該領域的敵人會受到近戰英雄 25%；遠程英雄 12.5%（根據你的<scaleHealth>最大生命</scaleHealth>提升）<status>緩速</status>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>100</attention> 生命及 <attention>6%</attention> 體積。</mainText><br><div class='tooltip-gold'>2800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>霜鑄握把</div><mainText><stats><ornnBonus>600</ornnBonus> 生命<br><ornnBonus>40</ornnBonus> 物理防禦<br><ornnBonus>40</ornnBonus> 魔法防禦<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><li><passive>獻祭：</passive>承受或造成傷害將使你開始對附近敵人造成每秒 <magicDamage>（12 + 1% 額外生命）魔法傷害</magicDamage>（對小兵造成 25% 額外傷害，對野怪造成 150% 額外傷害），持續 3 秒。<li><passive>冰雪束縛：</passive>普攻創造一個存在 1.5 秒的寒霜領域，對區域內所有敵人造成（12 - 85  / 6 - 42.5）額外魔法傷害（4 秒冷卻時間；遠程英雄則為 6 秒冷卻時間）。經過該領域的敵人會受到近戰英雄 25%；遠程英雄 12.5%（根據你的<scaleHealth>最大生命</scaleHealth>提升）<status>緩速</status>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>100</attention> 生命及 <attention>6%</attention> 體積。</mainText><br><div class='tooltip-gold'>2800 Gold</div>"
     },
     "7006": {
       "name": "颱風",
@@ -1702,39 +1702,39 @@
     },
     "7007": {
       "name": "墮龍祭品",
-      "desc": "<mainText><stats><ornnBonus>85</ornnBonus> 物理攻擊<br><ornnBonus>40%</ornnBonus> 攻擊速度<br><attention>20%</attention> 暴擊機率</stats><br><li><passive>打倒它：</passive>每三下普攻造成額外 <trueDamage>（60 + 45% 額外物理攻擊）真實傷害</trueDamage>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>10%</attention> 攻速。</mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>85</ornnBonus> 物理攻擊<br><ornnBonus>40%</ornnBonus> 攻擊速度<br><attention>20%</attention> 暴擊機率</stats><br><li><passive>打倒它：</passive>每三下普攻造成額外 <trueDamage>（50 + 40% 額外物理攻擊）真實傷害</trueDamage>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>10%</attention> 攻速。</mainText><br>",
       "gold": 3400,
-      "tooltip": "<div class='tooltip-title'>墮龍祭品</div><mainText><stats><ornnBonus>85</ornnBonus> 物理攻擊<br><ornnBonus>40%</ornnBonus> 攻擊速度<br><attention>20%</attention> 暴擊機率</stats><br><li><passive>打倒它：</passive>每三下普攻造成額外 <trueDamage>（60 + 45% 額外物理攻擊）真實傷害</trueDamage>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>10%</attention> 攻速。</mainText><br><div class='tooltip-gold'>3400 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>墮龍祭品</div><mainText><stats><ornnBonus>85</ornnBonus> 物理攻擊<br><ornnBonus>40%</ornnBonus> 攻擊速度<br><attention>20%</attention> 暴擊機率</stats><br><li><passive>打倒它：</passive>每三下普攻造成額外 <trueDamage>（50 + 40% 額外物理攻擊）真實傷害</trueDamage>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>10%</attention> 攻速。</mainText><br><div class='tooltip-gold'>3400 Gold</div>"
     },
     "7008": {
       "name": "鮮血守衛",
-      "desc": "<mainText><stats><ornnBonus>65</ornnBonus> 物理攻擊<br><ornnBonus>30%</ornnBonus> 攻擊速度<br><attention>20%</attention> 暴擊機率<br><ornnBonus>10%</ornnBonus> 普攻吸血</stats><br><li><passive>命脈：</passive>在受到會讓生命低於 30% 的傷害時，獲得一個 <shield>275 - 700 護盾</shield>，持續 3 秒。此外，獲得 <attackDamage>15-35 物理攻擊</attackDamage>，持續 8 秒（90秒 ）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 物理攻擊和 <attention>70</attention> 生命。</mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>65</ornnBonus> 物理攻擊<br><ornnBonus>30%</ornnBonus> 攻擊速度<br><attention>20%</attention> 暴擊機率<br><ornnBonus>8%</ornnBonus> 普攻吸血</stats><br><li><passive>命脈：</passive>在受到會讓生命低於 30% 的傷害時，獲得一個 <shield>250 - 630 的護盾</shield>，持續 3 秒。此外，獲得 <attackDamage>15-35 物理攻擊</attackDamage>，持續 8 秒（90秒 ）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 物理攻擊和 <attention>70</attention> 生命。</mainText><br>",
       "gold": 3400,
-      "tooltip": "<div class='tooltip-title'>鮮血守衛</div><mainText><stats><ornnBonus>65</ornnBonus> 物理攻擊<br><ornnBonus>30%</ornnBonus> 攻擊速度<br><attention>20%</attention> 暴擊機率<br><ornnBonus>10%</ornnBonus> 普攻吸血</stats><br><li><passive>命脈：</passive>在受到會讓生命低於 30% 的傷害時，獲得一個 <shield>275 - 700 護盾</shield>，持續 3 秒。此外，獲得 <attackDamage>15-35 物理攻擊</attackDamage>，持續 8 秒（90秒 ）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 物理攻擊和 <attention>70</attention> 生命。</mainText><br><div class='tooltip-gold'>3400 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>鮮血守衛</div><mainText><stats><ornnBonus>65</ornnBonus> 物理攻擊<br><ornnBonus>30%</ornnBonus> 攻擊速度<br><attention>20%</attention> 暴擊機率<br><ornnBonus>8%</ornnBonus> 普攻吸血</stats><br><li><passive>命脈：</passive>在受到會讓生命低於 30% 的傷害時，獲得一個 <shield>250 - 630 的護盾</shield>，持續 3 秒。此外，獲得 <attackDamage>15-35 物理攻擊</attackDamage>，持續 8 秒（90秒 ）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 物理攻擊和 <attention>70</attention> 生命。</mainText><br><div class='tooltip-gold'>3400 Gold</div>"
     },
     "7009": {
       "name": "伊卡西亞的詛咒",
-      "desc": "<mainText><stats><ornnBonus>100</ornnBonus> 魔法攻擊<br><ornnBonus>450</ornnBonus> 生命<br><ornnBonus>20</ornnBonus> 技能疾速<br><ornnBonus>10%</ornnBonus> 全能吸血</stats><br><li><passive>虛空腐化：</passive>在對敵方英雄造成傷害時，每秒造成 3% 額外傷害（最大 9%）。達到最大效果時，額外傷害改為造成<trueDamage>真實傷害</trueDamage>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>2%</attention> 全能吸血與 8 魔法攻擊。</mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>90</ornnBonus> 魔法攻擊<br><ornnBonus>450</ornnBonus> 生命<br><ornnBonus>20</ornnBonus> 技能疾速<br><ornnBonus>8%</ornnBonus> 全能吸血</stats><br><li><passive>虛空腐化：</passive>在對敵方英雄造成傷害時，每秒造成 3% 額外傷害（最大 9%）。達到最大效果時，額外傷害改為造成<trueDamage>真實傷害</trueDamage>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>2%</attention> 全能吸血與 8 魔法攻擊。</mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>伊卡西亞的詛咒</div><mainText><stats><ornnBonus>100</ornnBonus> 魔法攻擊<br><ornnBonus>450</ornnBonus> 生命<br><ornnBonus>20</ornnBonus> 技能疾速<br><ornnBonus>10%</ornnBonus> 全能吸血</stats><br><li><passive>虛空腐化：</passive>在對敵方英雄造成傷害時，每秒造成 3% 額外傷害（最大 9%）。達到最大效果時，額外傷害改為造成<trueDamage>真實傷害</trueDamage>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>2%</attention> 全能吸血與 8 魔法攻擊。</mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>伊卡西亞的詛咒</div><mainText><stats><ornnBonus>90</ornnBonus> 魔法攻擊<br><ornnBonus>450</ornnBonus> 生命<br><ornnBonus>20</ornnBonus> 技能疾速<br><ornnBonus>8%</ornnBonus> 全能吸血</stats><br><li><passive>虛空腐化：</passive>在對敵方英雄造成傷害時，每秒造成 3% 額外傷害（最大 9%）。達到最大效果時，額外傷害改為造成<trueDamage>真實傷害</trueDamage>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>2%</attention> 全能吸血與 8 魔法攻擊。</mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "7010": {
       "name": "暮潮",
-      "desc": "<mainText><stats><ornnBonus>120</ornnBonus> 魔法攻擊<br><ornnBonus>400</ornnBonus> 生命<br><ornnBonus>20</ornnBonus> 技能疾速</stats><br><li><passive>撕裂靈魂：</passive>傷害一名英雄時造成額外 <magicDamage>（125 +15% 魔法攻擊）魔法傷害</magicDamage>，並使你獲得 <speed>25% 移動速度</speed>，持續 1.5 秒（每名英雄 40 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。<br><br><rules>傷害一名新英雄會延長移動速度加成的持續時間。</rules></mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>120</ornnBonus> 魔法攻擊<br><ornnBonus>400</ornnBonus> 生命<br><ornnBonus>30</ornnBonus> 技能疾速</stats><br><li><passive>撕裂靈魂：</passive>傷害一名英雄時造成額外 <magicDamage>（125 +15% 魔法攻擊）魔法傷害</magicDamage>，並使你獲得 <speed>25% 移動速度</speed>，持續 1.5 秒（每名英雄 30 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。<br><br><rules>傷害一名新英雄會延長移動速度加成的持續時間。</rules></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>暮潮</div><mainText><stats><ornnBonus>120</ornnBonus> 魔法攻擊<br><ornnBonus>400</ornnBonus> 生命<br><ornnBonus>20</ornnBonus> 技能疾速</stats><br><li><passive>撕裂靈魂：</passive>傷害一名英雄時造成額外 <magicDamage>（125 +15% 魔法攻擊）魔法傷害</magicDamage>，並使你獲得 <speed>25% 移動速度</speed>，持續 1.5 秒（每名英雄 40 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。<br><br><rules>傷害一名新英雄會延長移動速度加成的持續時間。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>暮潮</div><mainText><stats><ornnBonus>120</ornnBonus> 魔法攻擊<br><ornnBonus>400</ornnBonus> 生命<br><ornnBonus>30</ornnBonus> 技能疾速</stats><br><li><passive>撕裂靈魂：</passive>傷害一名英雄時造成額外 <magicDamage>（125 +15% 魔法攻擊）魔法傷害</magicDamage>，並使你獲得 <speed>25% 移動速度</speed>，持續 1.5 秒（每名英雄 30 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。<br><br><rules>傷害一名新英雄會延長移動速度加成的持續時間。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "7011": {
       "name": "升級版火箭背包",
-      "desc": "<mainText><stats><ornnBonus>120</ornnBonus> 魔法攻擊<br><ornnBonus>10</ornnBonus> 魔法穿透<br><ornnBonus>350</ornnBonus> 生命<br><ornnBonus>20</ornnBonus> 技能疾速</stats><br><br><active>主動─</active> <active>超音速：</active>朝目標方向衝刺，釋放一波魔法飛彈並造成 <magicDamage>（125 + 15% 魔法攻擊）魔法傷害</magicDamage>。接下來，朝敵方英雄移動時獲得 <speed>30% 移動速度</speed>，持續 1.5 秒（40 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention>魔法穿透。<br><br><rules>超音速的衝刺無法穿越地形。</rules></mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>120</ornnBonus> 魔法攻擊<br><ornnBonus>15</ornnBonus> 魔法穿透<br><ornnBonus>350</ornnBonus> 生命<br><ornnBonus>20</ornnBonus> 技能疾速</stats><br><br><active>主動─</active> <active>超音速：</active>朝目標方向衝刺，釋放一波魔法飛彈並造成 <magicDamage>（125 + 15% 魔法攻擊）魔法傷害</magicDamage>。接下來，朝敵方英雄移動時獲得 <speed>30% 移動速度</speed>，持續 1.5 秒（40 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention>魔法穿透。<br><br><rules>超音速的衝刺無法穿越地形。</rules></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>升級版火箭背包</div><mainText><stats><ornnBonus>120</ornnBonus> 魔法攻擊<br><ornnBonus>10</ornnBonus> 魔法穿透<br><ornnBonus>350</ornnBonus> 生命<br><ornnBonus>20</ornnBonus> 技能疾速</stats><br><br><active>主動─</active> <active>超音速：</active>朝目標方向衝刺，釋放一波魔法飛彈並造成 <magicDamage>（125 + 15% 魔法攻擊）魔法傷害</magicDamage>。接下來，朝敵方英雄移動時獲得 <speed>30% 移動速度</speed>，持續 1.5 秒（40 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention>魔法穿透。<br><br><rules>超音速的衝刺無法穿越地形。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>升級版火箭背包</div><mainText><stats><ornnBonus>120</ornnBonus> 魔法攻擊<br><ornnBonus>15</ornnBonus> 魔法穿透<br><ornnBonus>350</ornnBonus> 生命<br><ornnBonus>20</ornnBonus> 技能疾速</stats><br><br><active>主動─</active> <active>超音速：</active>朝目標方向衝刺，釋放一波魔法飛彈並造成 <magicDamage>（125 + 15% 魔法攻擊）魔法傷害</magicDamage>。接下來，朝敵方英雄移動時獲得 <speed>30% 移動速度</speed>，持續 1.5 秒（40 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention>魔法穿透。<br><br><rules>超音速的衝刺無法穿越地形。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "7012": {
       "name": "黎安卓的哀嘆",
-      "desc": "<mainText><stats><ornnBonus>110</ornnBonus> 魔法攻擊<br><ornnBonus>800</ornnBonus> 魔力<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><li><passive>痛苦：</passive> 根據敵方英雄的額外生命值（最大值： 1250 額外生命）造成最多<magicDamage>12% 魔法傷害</magicDamage> 。<li><passive>折磨</passive>用技能造成傷害時會讓敵人燃燒，每秒造成等同於  <magicDamage>(15 + 1.5% 魔法攻擊) + 1% 最大生命值的魔法傷害</magicDamage>，持續4 秒。 <br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。</mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>110</ornnBonus> 魔法攻擊<br><ornnBonus>800</ornnBonus> 魔力<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><li><passive>痛苦：</passive> 根據敵方英雄的額外生命值（最大值： 1250 額外生命）造成最多<magicDamage>12% 魔法傷害</magicDamage> 。<li><passive>折磨</passive>用技能造成傷害時會讓敵人燃燒，每秒造成等同於  <magicDamage>(12.5 + 1.5% 魔法攻擊) + 1% 最大生命值的魔法傷害</magicDamage>，持續4 秒。 <br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。</mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>黎安卓的哀嘆</div><mainText><stats><ornnBonus>110</ornnBonus> 魔法攻擊<br><ornnBonus>800</ornnBonus> 魔力<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><li><passive>痛苦：</passive> 根據敵方英雄的額外生命值（最大值： 1250 額外生命）造成最多<magicDamage>12% 魔法傷害</magicDamage> 。<li><passive>折磨</passive>用技能造成傷害時會讓敵人燃燒，每秒造成等同於  <magicDamage>(15 + 1.5% 魔法攻擊) + 1% 最大生命值的魔法傷害</magicDamage>，持續4 秒。 <br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。</mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>黎安卓的哀嘆</div><mainText><stats><ornnBonus>110</ornnBonus> 魔法攻擊<br><ornnBonus>800</ornnBonus> 魔力<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><li><passive>痛苦：</passive> 根據敵方英雄的額外生命值（最大值： 1250 額外生命）造成最多<magicDamage>12% 魔法傷害</magicDamage> 。<li><passive>折磨</passive>用技能造成傷害時會讓敵人燃燒，每秒造成等同於  <magicDamage>(12.5 + 1.5% 魔法攻擊) + 1% 最大生命值的魔法傷害</magicDamage>，持續4 秒。 <br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。</mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "7013": {
       "name": "盧登之眼",
@@ -1744,15 +1744,15 @@
     },
     "7014": {
       "name": "永冬",
-      "desc": "<mainText><stats><ornnBonus>100</ornnBonus> 魔法攻擊<br><ornnBonus>350</ornnBonus> 生命<br><ornnBonus>800</ornnBonus> 魔力<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><br><active>主動─</active> <active>冰封：</active>向錐形範圍造成 <magicDamage>（100+30% 魔法攻擊）魔法傷害</magicDamage>，對敵方造成 65% <status>緩速</status>，持續 1.5 秒。錐形範圍中央的敵人則會改為被<status>定身</status>（30 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>10</attention> 魔法攻擊。<br></mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>90</ornnBonus> 魔法攻擊<br><ornnBonus>350</ornnBonus> 生命<br><ornnBonus>800</ornnBonus> 魔力<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><br><active>主動─</active> <active>冰封：</active>向錐形範圍造成 <magicDamage>（100+30% 魔法攻擊）魔法傷害</magicDamage>，對敵方造成 65% <status>緩速</status>，持續 1 秒。錐形範圍中央的敵人則會改為被<status>定身</status>（30 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>10</attention> 魔法攻擊。<br></mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>永冬</div><mainText><stats><ornnBonus>100</ornnBonus> 魔法攻擊<br><ornnBonus>350</ornnBonus> 生命<br><ornnBonus>800</ornnBonus> 魔力<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><br><active>主動─</active> <active>冰封：</active>向錐形範圍造成 <magicDamage>（100+30% 魔法攻擊）魔法傷害</magicDamage>，對敵方造成 65% <status>緩速</status>，持續 1.5 秒。錐形範圍中央的敵人則會改為被<status>定身</status>（30 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>10</attention> 魔法攻擊。<br></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>永冬</div><mainText><stats><ornnBonus>90</ornnBonus> 魔法攻擊<br><ornnBonus>350</ornnBonus> 生命<br><ornnBonus>800</ornnBonus> 魔力<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><br><active>主動─</active> <active>冰封：</active>向錐形範圍造成 <magicDamage>（100+30% 魔法攻擊）魔法傷害</magicDamage>，對敵方造成 65% <status>緩速</status>，持續 1 秒。錐形範圍中央的敵人則會改為被<status>定身</status>（30 秒冷卻時間）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>10</attention> 魔法攻擊。<br></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
     },
     "7015": {
       "name": "無休之飢",
-      "desc": "<mainText><stats><ornnBonus>70</ornnBonus> 物理攻擊<br><ornnBonus>450</ornnBonus> 生命<br><ornnBonus>25</ornnBonus> 技能疾速<br><ornnBonus>15%</ornnBonus> 全能吸血</stats><br><br><active>主動─</active> <active>迫切斬擊：</active>對附近敵人造成 <physicalDamage>（175% 基礎物理攻擊）物理傷害</physicalDamage>。每擊中一個英雄回復 <healing>（25% 基礎物理攻擊 + 10% 失去生命）生命</healing> （15 秒冷卻時間，可被技能疾速減少）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。</mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>70</ornnBonus> 物理攻擊<br><ornnBonus>450</ornnBonus> 生命<br><ornnBonus>25</ornnBonus> 技能疾速<br><ornnBonus>12%</ornnBonus> 全能吸血</stats><br><br><active>主動─</active> <active>迫切斬擊：</active>對附近敵人造成 <physicalDamage>（175% 基礎物理攻擊）物理傷害</physicalDamage>。每擊中一個英雄回復 <healing>（20% 基礎物理攻擊 + 8% 失去生命）生命</healing> （15 秒冷卻時間，可被技能疾速減少）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>7</attention> 技能疾速。</mainText><br>",
       "gold": 3300,
-      "tooltip": "<div class='tooltip-title'>無休之飢</div><mainText><stats><ornnBonus>70</ornnBonus> 物理攻擊<br><ornnBonus>450</ornnBonus> 生命<br><ornnBonus>25</ornnBonus> 技能疾速<br><ornnBonus>15%</ornnBonus> 全能吸血</stats><br><br><active>主動─</active> <active>迫切斬擊：</active>對附近敵人造成 <physicalDamage>（175% 基礎物理攻擊）物理傷害</physicalDamage>。每擊中一個英雄回復 <healing>（25% 基礎物理攻擊 + 10% 失去生命）生命</healing> （15 秒冷卻時間，可被技能疾速減少）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5</attention> 技能疾速。</mainText><br><div class='tooltip-gold'>3300 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>無休之飢</div><mainText><stats><ornnBonus>70</ornnBonus> 物理攻擊<br><ornnBonus>450</ornnBonus> 生命<br><ornnBonus>25</ornnBonus> 技能疾速<br><ornnBonus>12%</ornnBonus> 全能吸血</stats><br><br><active>主動─</active> <active>迫切斬擊：</active>對附近敵人造成 <physicalDamage>（175% 基礎物理攻擊）物理傷害</physicalDamage>。每擊中一個英雄回復 <healing>（20% 基礎物理攻擊 + 8% 失去生命）生命</healing> （15 秒冷卻時間，可被技能疾速減少）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>7</attention> 技能疾速。</mainText><br><div class='tooltip-gold'>3300 Gold</div>"
     },
     "7016": {
       "name": "碎夢者",
@@ -1762,9 +1762,9 @@
     },
     "7017": {
       "name": "弒神",
-      "desc": "<mainText><stats><ornnBonus>60</ornnBonus> 物理攻擊<br><ornnBonus>450</ornnBonus> 生命<br><ornnBonus>25</ornnBonus> 技能疾速</stats><li><passive>魔法彎刀：</passive>使用技能後，下一次普攻被強化並造成額外 <physicalDamage>12%（遠程英雄則為 9%）目標最大生命的物理傷害</physicalDamage> <OnHit>命中</OnHit>（1.5 秒冷卻時間）。若目標是英雄，回復等同於 7.8%（遠程英雄則為 3.6%）目標最大生命的生命。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5%</attention>物理穿透和 <attention>5%</attention> 魔法穿透。<br><br><rules><passive>魔法彎刀</passive>會對目標單位造成至少（150% 基礎物理攻擊）傷害，但對野怪不會造成超過（250% 基礎物理攻擊）傷害。</rules></mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>60</ornnBonus> 物理攻擊<br><ornnBonus>450</ornnBonus> 生命<br><ornnBonus>25</ornnBonus> 技能疾速</stats><li><passive>魔法彎刀：</passive>使用技能後，下一次普攻被強化並造成額外 <physicalDamage>12%（遠程英雄則為 9%）目標最大生命的物理傷害</physicalDamage> <OnHit>命中</OnHit>（1.5 秒冷卻時間）。若目標是英雄，回復等同於 6%（遠程英雄則為 3%）目標最大生命的生命。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5%</attention>物理穿透和 <attention>5%</attention> 魔法穿透。<br><br><rules><passive>魔法彎刀</passive>會對目標單位造成至少（150% 基礎物理攻擊）傷害，但對野怪不會造成超過（250% 基礎物理攻擊）傷害。</rules></mainText><br>",
       "gold": 3300,
-      "tooltip": "<div class='tooltip-title'>弒神</div><mainText><stats><ornnBonus>60</ornnBonus> 物理攻擊<br><ornnBonus>450</ornnBonus> 生命<br><ornnBonus>25</ornnBonus> 技能疾速</stats><li><passive>魔法彎刀：</passive>使用技能後，下一次普攻被強化並造成額外 <physicalDamage>12%（遠程英雄則為 9%）目標最大生命的物理傷害</physicalDamage> <OnHit>命中</OnHit>（1.5 秒冷卻時間）。若目標是英雄，回復等同於 7.8%（遠程英雄則為 3.6%）目標最大生命的生命。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5%</attention>物理穿透和 <attention>5%</attention> 魔法穿透。<br><br><rules><passive>魔法彎刀</passive>會對目標單位造成至少（150% 基礎物理攻擊）傷害，但對野怪不會造成超過（250% 基礎物理攻擊）傷害。</rules></mainText><br><div class='tooltip-gold'>3300 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>弒神</div><mainText><stats><ornnBonus>60</ornnBonus> 物理攻擊<br><ornnBonus>450</ornnBonus> 生命<br><ornnBonus>25</ornnBonus> 技能疾速</stats><li><passive>魔法彎刀：</passive>使用技能後，下一次普攻被強化並造成額外 <physicalDamage>12%（遠程英雄則為 9%）目標最大生命的物理傷害</physicalDamage> <OnHit>命中</OnHit>（1.5 秒冷卻時間）。若目標是英雄，回復等同於 6%（遠程英雄則為 3%）目標最大生命的生命。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>5%</attention>物理穿透和 <attention>5%</attention> 魔法穿透。<br><br><rules><passive>魔法彎刀</passive>會對目標單位造成至少（150% 基礎物理攻擊）傷害，但對野怪不會造成超過（250% 基礎物理攻擊）傷害。</rules></mainText><br><div class='tooltip-gold'>3300 Gold</div>"
     },
     "7018": {
       "name": "無盡之力",
@@ -1774,9 +1774,9 @@
     },
     "7019": {
       "name": "黃金黎明的寶藏",
-      "desc": "<mainText><stats><ornnBonus>400</ornnBonus> 生命<br><ornnBonus>25</ornnBonus> 技能疾速<br><ornnBonus>40</ornnBonus> 物理防禦<br><ornnBonus>40</ornnBonus> 魔法防禦</stats><br><br><active>主動─</active><active>奉獻：</active>提供附近友軍一個 <shield>200 - 365 （視友軍等級而變） 護盾</shield>，在 2.5 秒內遞減（90 秒冷卻時間）。<br><li><passive>奉獻：</passive>提供附近友方英雄 <scaleArmor>3 物理防禦</scaleArmor>及<scaleMR>魔法防禦</scaleMR>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 使<passive>奉獻</passive>效果提升 <attention>2</attention> 物理防禦 / 魔法防禦。<br><br><rules>強度隨等級提升的效果是根據友軍的等級計算。<br>後續  20 秒內受到的<active>義舉</active>護盾只會有 25% 效果。</rules></mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>400</ornnBonus> 生命<br><ornnBonus>25</ornnBonus> 技能疾速<br><ornnBonus>40</ornnBonus> 物理防禦<br><ornnBonus>40</ornnBonus> 魔法防禦</stats><br><br><active>主動─</active><active>奉獻：</active>提供附近友軍一個 <shield>180 - 330 （視友軍等級而變） 護盾</shield>，在 2.5 秒內遞減（90 秒冷卻時間）。<br><li><passive>奉獻：</passive>提供附近友方英雄 <scaleArmor>3 物理防禦</scaleArmor>及<scaleMR>魔法防禦</scaleMR>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 使<passive>奉獻</passive>效果提升 <attention>2</attention> 物理防禦 / 魔法防禦。<br><br><rules>強度隨等級提升的效果是根據友軍的等級計算。<br>後續  20 秒內受到的<active>義舉</active>護盾只會有 25% 效果。</rules></mainText><br>",
       "gold": 2500,
-      "tooltip": "<div class='tooltip-title'>黃金黎明的寶藏</div><mainText><stats><ornnBonus>400</ornnBonus> 生命<br><ornnBonus>25</ornnBonus> 技能疾速<br><ornnBonus>40</ornnBonus> 物理防禦<br><ornnBonus>40</ornnBonus> 魔法防禦</stats><br><br><active>主動─</active><active>奉獻：</active>提供附近友軍一個 <shield>200 - 365 （視友軍等級而變） 護盾</shield>，在 2.5 秒內遞減（90 秒冷卻時間）。<br><li><passive>奉獻：</passive>提供附近友方英雄 <scaleArmor>3 物理防禦</scaleArmor>及<scaleMR>魔法防禦</scaleMR>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 使<passive>奉獻</passive>效果提升 <attention>2</attention> 物理防禦 / 魔法防禦。<br><br><rules>強度隨等級提升的效果是根據友軍的等級計算。<br>後續  20 秒內受到的<active>義舉</active>護盾只會有 25% 效果。</rules></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>黃金黎明的寶藏</div><mainText><stats><ornnBonus>400</ornnBonus> 生命<br><ornnBonus>25</ornnBonus> 技能疾速<br><ornnBonus>40</ornnBonus> 物理防禦<br><ornnBonus>40</ornnBonus> 魔法防禦</stats><br><br><active>主動─</active><active>奉獻：</active>提供附近友軍一個 <shield>180 - 330 （視友軍等級而變） 護盾</shield>，在 2.5 秒內遞減（90 秒冷卻時間）。<br><li><passive>奉獻：</passive>提供附近友方英雄 <scaleArmor>3 物理防禦</scaleArmor>及<scaleMR>魔法防禦</scaleMR>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 使<passive>奉獻</passive>效果提升 <attention>2</attention> 物理防禦 / 魔法防禦。<br><br><rules>強度隨等級提升的效果是根據友軍的等級計算。<br>後續  20 秒內受到的<active>義舉</active>護盾只會有 25% 效果。</rules></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
     },
     "7020": {
       "name": "蘇瑞亞的安魂曲",
@@ -1786,9 +1786,9 @@
     },
     "7021": {
       "name": "擲星者",
-      "desc": "<mainText><stats><ornnBonus>70</ornnBonus> 魔法攻擊<br><ornnBonus>300</ornnBonus> 生命<br><ornnBonus>25</ornnBonus> 技能疾速<br><ornnBonus>200%</ornnBonus> 基礎魔力回復</stats><br><li><passive>星光恩典：</passive>在戰鬥中以普攻或技能影響英雄時，為附近傷勢最嚴重的友軍回復 <healing>70 生命</healing>（2 秒冷卻時間）。與英雄戰鬥的狀態中，每秒提升你的治癒和護盾強度 6%（最多提升 5 次）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <passive>星光恩典</passive>的治癒效果提升 <attention>10</attention> 生命。<br><br></mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>70</ornnBonus> 魔法攻擊<br><ornnBonus>300</ornnBonus> 生命<br><ornnBonus>25</ornnBonus> 技能疾速<br><ornnBonus>200%</ornnBonus> 基礎魔力回復</stats><br><li><passive>星光恩典：</passive>在戰鬥中以普攻或技能影響英雄時，為附近傷勢最嚴重的友軍回復 <healing>60 生命</healing>（2 秒冷卻時間）。與英雄戰鬥的狀態中，每秒提升你的治癒和護盾強度 5%（最多疊加 5 次）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 提升 <attention>8</attention> 至<passive>星光恩典</passive>的治癒效果。<br><br></mainText><br>",
       "gold": 2500,
-      "tooltip": "<div class='tooltip-title'>擲星者</div><mainText><stats><ornnBonus>70</ornnBonus> 魔法攻擊<br><ornnBonus>300</ornnBonus> 生命<br><ornnBonus>25</ornnBonus> 技能疾速<br><ornnBonus>200%</ornnBonus> 基礎魔力回復</stats><br><li><passive>星光恩典：</passive>在戰鬥中以普攻或技能影響英雄時，為附近傷勢最嚴重的友軍回復 <healing>70 生命</healing>（2 秒冷卻時間）。與英雄戰鬥的狀態中，每秒提升你的治癒和護盾強度 6%（最多提升 5 次）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <passive>星光恩典</passive>的治癒效果提升 <attention>10</attention> 生命。<br><br></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>擲星者</div><mainText><stats><ornnBonus>70</ornnBonus> 魔法攻擊<br><ornnBonus>300</ornnBonus> 生命<br><ornnBonus>25</ornnBonus> 技能疾速<br><ornnBonus>200%</ornnBonus> 基礎魔力回復</stats><br><li><passive>星光恩典：</passive>在戰鬥中以普攻或技能影響英雄時，為附近傷勢最嚴重的友軍回復 <healing>60 生命</healing>（2 秒冷卻時間）。與英雄戰鬥的狀態中，每秒提升你的治癒和護盾強度 5%（最多疊加 5 次）。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 提升 <attention>8</attention> 至<passive>星光恩典</passive>的治癒效果。<br><br></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
     },
     "7022": {
       "name": "指揮所",
@@ -1804,9 +1804,9 @@
     },
     "7024": {
       "name": "休止",
-      "desc": "<mainText><stats><ornnBonus>70</ornnBonus> 魔法攻擊<br><ornnBonus>350</ornnBonus> 生命<br><ornnBonus>800</ornnBonus> 魔力<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><li><passive>神禦加護：</passive>你受到<keywordMajor>加護</keywordMajor>，減少即將承受的英雄傷害 75%。受到英雄傷害後，<keywordMajor>加護</keywordMajor>效果將持續 1.5 秒。（40 秒冷卻時間）。<li><passive>聖光恩賜：</passive>受到<keywordMajor>加護</keywordMajor>時，以及其被打破後的 3 秒內，獲得 <scaleAP>10-40 魔法攻擊</scaleAP>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>1%</attention> 移動速度及 8 魔法攻擊。</mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>90</ornnBonus> 魔法攻擊<br><ornnBonus>350</ornnBonus> 生命<br><ornnBonus>800</ornnBonus> 魔力<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><li><passive>神禦加護：</passive>你受到<keywordMajor>加護</keywordMajor>，減少即將承受的英雄傷害 75%。受到英雄傷害後，<keywordMajor>加護</keywordMajor>效果將持續 1.5 秒。（40 秒冷卻時間）。<li><passive>聖光恩賜：</passive>受到<keywordMajor>加護</keywordMajor>時，以及其被打破後的 3 秒內，獲得 <scaleAP>10-40 魔法攻擊</scaleAP>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>1%</attention> 移動速度及 8 魔法攻擊。</mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>休止</div><mainText><stats><ornnBonus>70</ornnBonus> 魔法攻擊<br><ornnBonus>350</ornnBonus> 生命<br><ornnBonus>800</ornnBonus> 魔力<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><li><passive>神禦加護：</passive>你受到<keywordMajor>加護</keywordMajor>，減少即將承受的英雄傷害 75%。受到英雄傷害後，<keywordMajor>加護</keywordMajor>效果將持續 1.5 秒。（40 秒冷卻時間）。<li><passive>聖光恩賜：</passive>受到<keywordMajor>加護</keywordMajor>時，以及其被打破後的 3 秒內，獲得 <scaleAP>10-40 魔法攻擊</scaleAP>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>1%</attention> 移動速度及 8 魔法攻擊。</mainText><br><div class='tooltip-gold'>2800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>休止</div><mainText><stats><ornnBonus>90</ornnBonus> 魔法攻擊<br><ornnBonus>350</ornnBonus> 生命<br><ornnBonus>800</ornnBonus> 魔力<br><ornnBonus>25</ornnBonus> 技能疾速</stats><br><li><passive>神禦加護：</passive>你受到<keywordMajor>加護</keywordMajor>，減少即將承受的英雄傷害 75%。受到英雄傷害後，<keywordMajor>加護</keywordMajor>效果將持續 1.5 秒。（40 秒冷卻時間）。<li><passive>聖光恩賜：</passive>受到<keywordMajor>加護</keywordMajor>時，以及其被打破後的 3 秒內，獲得 <scaleAP>10-40 魔法攻擊</scaleAP>。<br><br><rarityMythic>神話被動：</rarityMythic> 提供所有其他<rarityLegendary>傳說</rarityLegendary>道具 <attention>1%</attention> 移動速度及 8 魔法攻擊。</mainText><br><div class='tooltip-gold'>2800 Gold</div>"
     },
     "7050": {
       "name": "剛普朗克 版面",
@@ -1822,9 +1822,9 @@
     },
     "8020": {
       "name": "深淵面具",
-      "desc": "<mainText><stats><attention>450</attention> 生命<br><attention>30</attention> 魔法防禦<br><attention>10</attention> 技能疾速</stats><br><li><passive>毀滅：</passive><status>詛咒</status>附近敵方英雄，減少他們<scaleMR>等同於 5 + 1.2% 額外生命的魔法防禦</scaleMR>（上限為 25）。根據每一名被<status>詛咒</status>的敵人，獲得 <scaleMR>7 魔法防禦</scaleMR>。</mainText><br>",
+      "desc": "<mainText><stats><attention>450</attention> 生命<br><attention>35</attention> 魔法防禦<br><attention>10</attention> 技能疾速</stats><br><li><passive>毀滅：</passive><status>詛咒</status>附近敵方英雄，減少他們<scaleMR>等同於 5 + 1.2% 額外生命的魔法防禦</scaleMR>（上限為 25）。根據每一名被<status>詛咒</status>的敵人，獲得 <scaleMR>9 魔法防禦</scaleMR>。</mainText><br>",
       "gold": 2700,
-      "tooltip": "<div class='tooltip-title'>深淵面具</div><mainText><stats><attention>450</attention> 生命<br><attention>30</attention> 魔法防禦<br><attention>10</attention> 技能疾速</stats><br><li><passive>毀滅：</passive><status>詛咒</status>附近敵方英雄，減少他們<scaleMR>等同於 5 + 1.2% 額外生命的魔法防禦</scaleMR>（上限為 25）。根據每一名被<status>詛咒</status>的敵人，獲得 <scaleMR>7 魔法防禦</scaleMR>。</mainText><br><div class='tooltip-gold'>2700 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>深淵面具</div><mainText><stats><attention>450</attention> 生命<br><attention>35</attention> 魔法防禦<br><attention>10</attention> 技能疾速</stats><br><li><passive>毀滅：</passive><status>詛咒</status>附近敵方英雄，減少他們<scaleMR>等同於 5 + 1.2% 額外生命的魔法防禦</scaleMR>（上限為 25）。根據每一名被<status>詛咒</status>的敵人，獲得 <scaleMR>9 魔法防禦</scaleMR>。</mainText><br><div class='tooltip-gold'>2700 Gold</div>"
     }
   },
   "champions": {
@@ -1948,6 +1948,7 @@
     "163": "塔莉雅",
     "164": "卡蜜兒",
     "166": "埃可尚",
+    "200": "貝爾薇斯",
     "201": "布郎姆",
     "202": "燼",
     "203": "鏡爪",
@@ -9372,8 +9373,8 @@
     },
     "8010": {
       "name": "征服者",
-      "desc": "基礎攻擊或技能在命中敵方英雄時獲得 2 層征服者效果，持續 5 秒，每層效果提供 2-4.5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>適性之力</font></lol-uikit-tooltipped-keyword>。 最多可以疊加 12 次。遠程英雄每次普攻只會提供 1 層效果。<br><br>在疊滿層數後，你對英雄造成的 9% 傷害會轉化為對自身的回復效果（遠程英雄則為 6%）。",
-      "tooltip": "<div class='tooltip-title'>征服者</div>基礎攻擊或技能在命中敵方英雄時獲得 2 層征服者效果，持續 5 秒，每層效果提供 2-4.5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>適性之力</font></lol-uikit-tooltipped-keyword>。 最多可以疊加 12 次。遠程英雄每次普攻只會提供 1 層效果。<br><br>在疊滿層數後，你對英雄造成的 9% 傷害會轉化為對自身的回復效果（遠程英雄則為 6%）。"
+      "desc": "基礎攻擊或技能在命中敵方英雄時獲得 2 層征服者效果，持續 5 秒，每層效果提供 2-4.5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>適性之力</font></lol-uikit-tooltipped-keyword>。 最多可以疊加 12 次。遠程英雄每次普攻只會提供 1 層效果。<br><br>在疊滿層數後，你對英雄造成的 8% 傷害會轉化為對自身的回復效果（遠程英雄則為 5%）。",
+      "tooltip": "<div class='tooltip-title'>征服者</div>基礎攻擊或技能在命中敵方英雄時獲得 2 層征服者效果，持續 5 秒，每層效果提供 2-4.5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>適性之力</font></lol-uikit-tooltipped-keyword>。 最多可以疊加 12 次。遠程英雄每次普攻只會提供 1 層效果。<br><br>在疊滿層數後，你對英雄造成的 8% 傷害會轉化為對自身的回復效果（遠程英雄則為 5%）。"
     },
     "8014": {
       "name": "致命一擊",
@@ -9472,8 +9473,8 @@
     },
     "8139": {
       "name": "血噬",
-      "desc": "傷害一名敵方英雄時治癒自己。<br><br>治癒量：18 - 35（+0.2 額外物理攻擊、+0.1 魔法攻擊）生命（隨等級提升）<br><br>冷卻時間：20 秒",
-      "tooltip": "<div class='tooltip-title'>血噬</div>傷害一名敵方英雄時治癒自己。<br><br>治癒量：18 - 35（+0.2 額外物理攻擊、+0.1 魔法攻擊）生命（隨等級提升）<br><br>冷卻時間：20 秒"
+      "desc": "傷害一名敵方英雄時治癒自己。<br><br>治癒量：16 - 30（+0.15 額外物理攻擊、+0.08 魔法攻擊）生命（隨等級提升）<br><br>冷卻時間：20 秒",
+      "tooltip": "<div class='tooltip-title'>血噬</div>傷害一名敵方英雄時治癒自己。<br><br>治癒量：16 - 30（+0.15 額外物理攻擊、+0.08 魔法攻擊）生命（隨等級提升）<br><br>冷卻時間：20 秒"
     },
     "8143": {
       "name": "即刻衝擊",
@@ -9502,8 +9503,8 @@
     },
     "8214": {
       "name": "召喚艾莉",
-      "desc": "用普攻或技能對敵方英雄造成傷害會將艾莉送至目標身上，造成傷害：10 - 40，隨等級提升 (+<scaleAP>0.1 魔法攻擊</scaleAP>) (+<scaleAD>0.15 額外物理攻擊</scaleAD>)。<br><br>強化或保護友軍也會將艾莉送至目標身上，提供護盾：35 - 80，隨等級提升 (+<scaleAP>0.25 魔法攻擊</scaleAP>) (+<scaleAD>0.4 額外物理攻擊</scaleAD>)。<br><br>艾莉尚未返回你的身邊時無法將牠再次送至一名新的目標身上。",
-      "tooltip": "<div class='tooltip-title'>召喚艾莉</div>用普攻或技能對敵方英雄造成傷害會將艾莉送至目標身上，造成傷害：10 - 40，隨等級提升 (+<scaleAP>0.1 魔法攻擊</scaleAP>) (+<scaleAD>0.15 額外物理攻擊</scaleAD>)。<br><br>強化或保護友軍也會將艾莉送至目標身上，提供護盾：35 - 80，隨等級提升 (+<scaleAP>0.25 魔法攻擊</scaleAP>) (+<scaleAD>0.4 額外物理攻擊</scaleAD>)。<br><br>艾莉尚未返回你的身邊時無法將牠再次送至一名新的目標身上。"
+      "desc": "用普攻或技能對敵方英雄造成傷害會將艾莉送至目標身上，造成傷害：10 - 40，隨等級提升 (+<scaleAP>0.1 魔法攻擊</scaleAP>) (+<scaleAD>0.15 額外物理攻擊</scaleAD>)。<br><br>強化或保護友軍也會將艾莉送至目標身上，提供護盾：30 - 75，隨等級提升 (+<scaleAP>0.22 魔法攻擊</scaleAP>) (+<scaleAD>0.35 額外物理攻擊</scaleAD>)。<br><br>艾莉尚未返回你的身邊時無法將牠再次送至一名新的目標身上。",
+      "tooltip": "<div class='tooltip-title'>召喚艾莉</div>用普攻或技能對敵方英雄造成傷害會將艾莉送至目標身上，造成傷害：10 - 40，隨等級提升 (+<scaleAP>0.1 魔法攻擊</scaleAP>) (+<scaleAD>0.15 額外物理攻擊</scaleAD>)。<br><br>強化或保護友軍也會將艾莉送至目標身上，提供護盾：30 - 75，隨等級提升 (+<scaleAP>0.22 魔法攻擊</scaleAP>) (+<scaleAD>0.35 額外物理攻擊</scaleAD>)。<br><br>艾莉尚未返回你的身邊時無法將牠再次送至一名新的目標身上。"
     },
     "8220": {
       "name": "災厄",
@@ -9512,8 +9513,8 @@
     },
     "8224": {
       "name": "除魔晶球",
-      "desc": "如接下來承受的魔法傷害將使你的生命低於30% 的話獲得一個護盾，根據英雄等級吸收 40 - 120 點魔法傷害（<scaleAP>+0.1 魔法攻擊</scaleAP>、 <scaleAD>+0.15 額外物理攻擊</scaleAD>），持續 4 秒。<br><br>冷卻時間：60 秒",
-      "tooltip": "<div class='tooltip-title'>除魔晶球</div>如接下來承受的魔法傷害將使你的生命低於30% 的話獲得一個護盾，根據英雄等級吸收 40 - 120 點魔法傷害（<scaleAP>+0.1 魔法攻擊</scaleAP>、 <scaleAD>+0.15 額外物理攻擊</scaleAD>），持續 4 秒。<br><br>冷卻時間：60 秒"
+      "desc": "如接下來承受的魔法傷害將使你的生命低於30% 的話獲得一個護盾，根據英雄等級吸收 35 - 110 點魔法傷害（<scaleAP>+0.09 魔法攻擊</scaleAP>、 <scaleAD>+0.14 額外物理攻擊</scaleAD>），持續 4 秒。<br><br>冷卻時間：60 秒",
+      "tooltip": "<div class='tooltip-title'>除魔晶球</div>如接下來承受的魔法傷害將使你的生命低於30% 的話獲得一個護盾，根據英雄等級吸收 35 - 110 點魔法傷害（<scaleAP>+0.09 魔法攻擊</scaleAP>、 <scaleAD>+0.14 額外物理攻擊</scaleAD>），持續 4 秒。<br><br>冷卻時間：60 秒"
     },
     "8226": {
       "name": "附魔之帶",
@@ -9637,13 +9638,8 @@
     },
     "8352": {
       "name": "時間扭曲藥水",
-      "desc": "消耗藥水或乾糧使你立刻獲得 50% 的生命或魔力回復量。此外，在效果持續時獲得 <speed>5% 移動速度</speed>。<br><br>",
-      "tooltip": "<div class='tooltip-title'>時間扭曲藥水</div>消耗藥水或乾糧使你立刻獲得 50% 的生命或魔力回復量。此外，在效果持續時獲得 <speed>5% 移動速度</speed>。<br><br>"
-    },
-    "8358": {
-      "name": "原型：全能之石",
-      "desc": "周期性地提供另一個隨機關鍵符文的單次使用機會。<br><br>使用一次關鍵符文後獲得下一個關鍵符文間有 5-3 秒冷卻時間。（遠程英雄則為 9-7 秒）<br><br><rules><br>如果在 40 秒內不使用關鍵符文，萬能之石將在你處於非戰鬥狀態時提供另一個隨機的關鍵符文。<br>裂地衝擊僅可被點出可觸發該符文的基礎技能的英雄所使用。<br>掠食者僅可被已購買鞋子的英雄所使用。<br></rules>",
-      "tooltip": "<div class='tooltip-title'>原型：全能之石</div>周期性地提供另一個隨機關鍵符文的單次使用機會。<br><br>使用一次關鍵符文後獲得下一個關鍵符文間有 5-3 秒冷卻時間。（遠程英雄則為 9-7 秒）<br><br><rules><br>如果在 40 秒內不使用關鍵符文，萬能之石將在你處於非戰鬥狀態時提供另一個隨機的關鍵符文。<br>裂地衝擊僅可被點出可觸發該符文的基礎技能的英雄所使用。<br>掠食者僅可被已購買鞋子的英雄所使用。<br></rules>"
+      "desc": "消耗藥水或乾糧使你立刻獲得 30% 的生命或魔力回復量。此外，在效果持續時獲得 <speed>4% 移動速度</speed>。<br><br>",
+      "tooltip": "<div class='tooltip-title'>時間扭曲藥水</div>消耗藥水或乾糧使你立刻獲得 30% 的生命或魔力回復量。此外，在效果持續時獲得 <speed>4% 移動速度</speed>。<br><br>"
     },
     "8359": {
       "name": "竊盜高手",
@@ -9657,8 +9653,8 @@
     },
     "8369": {
       "name": "先發制人",
-      "desc": "進入與英雄戰鬥狀態的 0.25 秒內，對一名敵方英雄使用普攻或技能，可獲得 5 金錢與持續 3 秒的<b>先發制人</b>效果，使你對英雄造成 <truedamage>10%</truedamage> 額外<truedamage>傷害</truedamage>，並獲得等同於 <gold>100%（遠程英雄則為 70%）</gold> 造成額外傷害的<gold>金錢</gold>。<br><br>冷卻時間：<scaleLevel>25-15</scaleLevel>",
-      "tooltip": "<div class='tooltip-title'>先發制人</div>進入與英雄戰鬥狀態的 0.25 秒內，對一名敵方英雄使用普攻或技能，可獲得 5 金錢與持續 3 秒的<b>先發制人</b>效果，使你對英雄造成 <truedamage>10%</truedamage> 額外<truedamage>傷害</truedamage>，並獲得等同於 <gold>100%（遠程英雄則為 70%）</gold> 造成額外傷害的<gold>金錢</gold>。<br><br>冷卻時間：<scaleLevel>25-15</scaleLevel>"
+      "desc": "進入與英雄戰鬥狀態的 0.25 秒內，對一名敵方英雄使用普攻或技能，可獲得 5 金錢與持續 3 秒的<b>先發制人</b>效果，使你對英雄造成 <truedamage>10%</truedamage> 額外<truedamage>傷害</truedamage>，並獲得等同於 <gold>100%（遠程英雄則為 70%）</gold>造成額外傷害的<gold>金錢</gold>。<br><br>冷卻時間：<scaleLevel>25 - 15</scaleLevel> 秒",
+      "tooltip": "<div class='tooltip-title'>先發制人</div>進入與英雄戰鬥狀態的 0.25 秒內，對一名敵方英雄使用普攻或技能，可獲得 5 金錢與持續 3 秒的<b>先發制人</b>效果，使你對英雄造成 <truedamage>10%</truedamage> 額外<truedamage>傷害</truedamage>，並獲得等同於 <gold>100%（遠程英雄則為 70%）</gold>造成額外傷害的<gold>金錢</gold>。<br><br>冷卻時間：<scaleLevel>25 - 15</scaleLevel> 秒"
     },
     "8401": {
       "name": "盾擊",
@@ -9687,8 +9683,8 @@
     },
     "8429": {
       "name": "調節",
-      "desc": "遊戲進行至 12 分鐘後獲得 +9 物理防禦和 +9 魔法防禦，並提升 5% 物理防禦和魔法防禦。",
-      "tooltip": "<div class='tooltip-title'>調節</div>遊戲進行至 12 分鐘後獲得 +9 物理防禦和 +9 魔法防禦，並提升 5% 物理防禦和魔法防禦。"
+      "desc": "遊戲進行至 12 分鐘後獲得 +9 物理防禦和 +9 魔法防禦，並提升 4% 物理防禦和魔法防禦。",
+      "tooltip": "<div class='tooltip-title'>調節</div>遊戲進行至 12 分鐘後獲得 +9 物理防禦和 +9 魔法防禦，並提升 4% 物理防禦和魔法防禦。"
     },
     "8430": {
       "name": "鋼鐵肌膚",
@@ -9702,8 +9698,8 @@
     },
     "8437": {
       "name": "不死之握",
-      "desc": "進入戰鬥之後，每過 4 秒你下一次對敵方英雄的普攻將附帶以下效果：<li>額外造成相當於自身 4% 最大生命的魔法傷害</li><li>使你回復相當於自身 2% 最大生命的血量</li><li>永久提升 5 生命</li><br><rules><i>遠程攻擊型英雄：</i>額外傷害、治癒效果及獲得的永久生命減少 40%。</rules><br>",
-      "tooltip": "<div class='tooltip-title'>不死之握</div>進入戰鬥之後，每過 4 秒你下一次對敵方英雄的普攻將附帶以下效果：<li>額外造成相當於自身 4% 最大生命的魔法傷害</li><li>使你回復相當於自身 2% 最大生命的血量</li><li>永久提升 5 生命</li><br><rules><i>遠程攻擊型英雄：</i>額外傷害、治癒效果及獲得的永久生命減少 40%。</rules><br>"
+      "desc": "進入戰鬥之後每過 4 秒，你對敵方英雄的下一次普攻將附帶以下效果：<li>造成等同於你 3.5% 最大生命的額外魔法傷害</li><li>獲得等同於你 1.7% 最大生命的治癒量</li><li>使你的最大生命永久提升 5</li><br><rules><i>遠程英雄：</i>傷害、治癒及永久生命的獲得量減少 40%。</rules><br>",
+      "tooltip": "<div class='tooltip-title'>不死之握</div>進入戰鬥之後每過 4 秒，你對敵方英雄的下一次普攻將附帶以下效果：<li>造成等同於你 3.5% 最大生命的額外魔法傷害</li><li>獲得等同於你 1.7% 最大生命的治癒量</li><li>使你的最大生命永久提升 5</li><br><rules><i>遠程英雄：</i>傷害、治癒及永久生命的獲得量減少 40%。</rules><br>"
     },
     "8439": {
       "name": "裂地衝擊",
@@ -9737,13 +9733,13 @@
     },
     "8463": {
       "name": "生命之泉",
-      "desc": "對一名敵方英雄造成行動受限效果時標記他們 4 秒。<br><br>友方英雄攻擊被標記的敵人將於 2 秒內回復相當於 5 + 1% 你的最大生命的血量。",
-      "tooltip": "<div class='tooltip-title'>生命之泉</div>對一名敵方英雄造成行動受限效果時標記他們 4 秒。<br><br>友方英雄攻擊被標記的敵人將於 2 秒內回復相當於 5 + 1% 你的最大生命的血量。"
+      "desc": "對一名敵方英雄造成行動受限效果時標記他們 4 秒。<br><br>友方英雄攻擊被標記的敵人將於 2 秒內回復相當於 5 + 0.9% 你的最大生命的血量。",
+      "tooltip": "<div class='tooltip-title'>生命之泉</div>對一名敵方英雄造成行動受限效果時標記他們 4 秒。<br><br>友方英雄攻擊被標記的敵人將於 2 秒內回復相當於 5 + 0.9% 你的最大生命的血量。"
     },
     "8465": {
       "name": "神聖守護",
-      "desc": "<i>守護</i> 距離你 350 單位內的隊友，以及被你選為技能目標的隊友 2.5 秒。當 <i>守護</i>持續時，如果你或該隊友在<i>守護</i>持續期間所承受的傷害超過一定數值，你們兩個都會獲得一個持續 1.5 秒的護盾。<br><br>冷卻時間：<scaleLevel>70 ~40</scaleLevel> 秒 <br>護盾：<scaleLevel>50~130</scaleLevel>+你的<scaleAP>15%</scaleAP> 魔法攻擊 + 你<scalehealth>9%</scalehealth> 額外生命。<br>觸發數值：<scaleLevel>90~250</scaleLevel> 減免後傷害。",
-      "tooltip": "<div class='tooltip-title'>神聖守護</div><i>守護</i> 距離你 350 單位內的隊友，以及被你選為技能目標的隊友 2.5 秒。當 <i>守護</i>持續時，如果你或該隊友在<i>守護</i>持續期間所承受的傷害超過一定數值，你們兩個都會獲得一個持續 1.5 秒的護盾。<br><br>冷卻時間：<scaleLevel>70 ~40</scaleLevel> 秒 <br>護盾：<scaleLevel>50~130</scaleLevel>+你的<scaleAP>15%</scaleAP> 魔法攻擊 + 你<scalehealth>9%</scalehealth> 額外生命。<br>觸發數值：<scaleLevel>90~250</scaleLevel> 減免後傷害。"
+      "desc": "<i>守護</i> 距離你 350 單位內的隊友，以及被你選為技能目標的隊友 2.5 秒。當 <i>守護</i>持續時，如果你或該隊友在<i>守護</i>持續期間所承受的傷害超過一定數值，你們兩個都會獲得一個持續 1.5 秒的護盾。<br><br>冷卻時間：<scaleLevel>70 ~40</scaleLevel> 秒 <br>護盾：<scaleLevel>45~120</scaleLevel>+你的<scaleAP>12.5%</scaleAP> 魔法攻擊 + 你<scalehealth>8%</scalehealth> 額外生命。<br>觸發數值：<scaleLevel>90~250</scaleLevel> 減免後傷害。",
+      "tooltip": "<div class='tooltip-title'>神聖守護</div><i>守護</i> 距離你 350 單位內的隊友，以及被你選為技能目標的隊友 2.5 秒。當 <i>守護</i>持續時，如果你或該隊友在<i>守護</i>持續期間所承受的傷害超過一定數值，你們兩個都會獲得一個持續 1.5 秒的護盾。<br><br>冷卻時間：<scaleLevel>70 ~40</scaleLevel> 秒 <br>護盾：<scaleLevel>45~120</scaleLevel>+你的<scaleAP>12.5%</scaleAP> 魔法攻擊 + 你<scalehealth>8%</scalehealth> 額外生命。<br>觸發數值：<scaleLevel>90~250</scaleLevel> 減免後傷害。"
     },
     "8472": {
       "name": "蛹化",
@@ -9757,8 +9753,8 @@
     },
     "9101": {
       "name": "超量治癒",
-      "desc": "你身上溢補的治癒量會轉化成一個護盾，護盾值最多達 10 <scaleHealth>(+10% 最大生命)</scaleHealth>。<br><br>自己或一名友軍對自己的溢補治癒量將有 20 至 100% 會轉化成護盾。",
-      "tooltip": "<div class='tooltip-title'>超量治癒</div>你身上溢補的治癒量會轉化成一個護盾，護盾值最多達 10 <scaleHealth>(+10% 最大生命)</scaleHealth>。<br><br>自己或一名友軍對自己的溢補治癒量將有 20 至 100% 會轉化成護盾。"
+      "desc": "你身上溢補的治癒量會轉化成一個護盾，護盾值最多達 10 <scaleHealth>(+9% 最大生命)</scaleHealth>。<br><br>自己或一名友軍對自己的溢補治癒量將有 20 至 100% 會轉化成護盾。",
+      "tooltip": "<div class='tooltip-title'>超量治癒</div>你身上溢補的治癒量會轉化成一個護盾，護盾值最多達 10 <scaleHealth>(+9% 最大生命)</scaleHealth>。<br><br>自己或一名友軍對自己的溢補治癒量將有 20 至 100% 會轉化成護盾。"
     },
     "9103": {
       "name": "傳奇：血脈",
@@ -9777,8 +9773,8 @@
     },
     "9111": {
       "name": "凱旋",
-      "desc": "造成擊殺或助攻時回復  12% 失去生命並獲得額外 20 金錢。<br><br><hr><br><i>「最危險的對決伴隨著最偉大的榮耀。」<br>—諾克薩斯謀士</i>",
-      "tooltip": "<div class='tooltip-title'>凱旋</div>造成擊殺或助攻時回復  12% 失去生命並獲得額外 20 金錢。<br><br><hr><br><i>「最危險的對決伴隨著最偉大的榮耀。」<br>—諾克薩斯謀士</i>"
+      "desc": "造成擊殺或助攻時回復  10% 失去生命並獲得額外 20 金錢。<br><br><hr><br><i>「最危險的對決伴隨著最偉大的榮耀。」<br>—諾克薩斯謀士</i>",
+      "tooltip": "<div class='tooltip-title'>凱旋</div>造成擊殺或助攻時回復  10% 失去生命並獲得額外 20 金錢。<br><br><hr><br><i>「最危險的對決伴隨著最偉大的榮耀。」<br>—諾克薩斯謀士</i>"
     },
     "9923": {
       "name": "刀鋒之雹",

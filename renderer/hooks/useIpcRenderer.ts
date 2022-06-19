@@ -21,7 +21,7 @@ import {
     setMypage,
     setClientLogin,
     setIsLoLGameLive,
-    setLoLCurrentGameQueue, setRegion
+    setLoLCurrentGameQueue, setRegion, setMemberPolicyModalIsOpen
 } from "../redux/slices/common";
 import { useHistory } from "react-router-dom";
 import {PAGE_PATH_LIVE_CHAMPION, PAGE_PATH_LIVE_INGAME, PAGE_PATH_LIVE_MULTISEARCH, PAGE_PATH_MAIN} from "../constants";
@@ -109,6 +109,10 @@ export const useIpcRenderer = () => {
 
         window.api.on("scale", (event, data) => {
             dispatch(setScale(data));
+        });
+
+        window.api.on("memberPolicyUpdated", (event, data) => {
+            dispatch(setMemberPolicyModalIsOpen(true));
         });
 
         // ipcRenderer.on("check-feedback", (event, data) => {

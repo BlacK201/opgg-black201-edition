@@ -8,7 +8,6 @@ import Dropdown from "../components/common/Dropdown";
 import Error from "../components/common/Error";
 import sendGA4Event from "../../utils/ga4";
 
-// const { ipcRenderer } = globalThis.require('electron');
 const championsMetaData = require("../../../assets/data/meta/champions.json");
 
 // const tftSet = "6.5";
@@ -36,7 +35,7 @@ const Tft = () => {
     const [openedIndex, setOpenedIndex] = useState<any>(-1);
     const [isGuideOpen, setIsGuideOpen] = useState(false);
     const [guideInfo, setGuideInfo] = useState<any>();
-    const [tftSet, setTftSet] = useState("6.5");
+    const [tftSet, setTftSet] = useState("7");
     const [filter, setFilter] = useState<string>("all");
     const [dropboxContent, setDropboxContent] = useState([{
         value: "all",
@@ -55,7 +54,7 @@ const Tft = () => {
         // window.api.send("tft-join");
         if (!data) {
             axios.get(`https://desktop-app-data.s3.ap-northeast-2.amazonaws.com/tft/${tftSet}/meta.json?timestamp=${new Date().getTime()}`).then((res) => {
-                setTftSet(res.data.set);
+                // setTftSet(res.data.set);
                 res.data?.traits.map((trait: any) => {
                     if (trait.isClass) {
                         setDropboxContent(dropboxContent => [...dropboxContent, {
@@ -350,6 +349,7 @@ const Tft = () => {
                                                 <div className={"tft-champion"}>
                                                     <div className={`tft-cost tft-cost-${c.cost}`}>
                                                         <img src={`https://desktop-app-data.s3.ap-northeast-2.amazonaws.com/tft/${tftSet}/champions/${c.champion}.png`} />
+                                                        <div className={`tft-cost-area tft-cost-area-${c.cost} `}>${c.cost}</div>
                                                     </div>
                                                     <div className={"tft-items"}>
                                                         {(c.item1.id !== 0 && c.item1.id !== null) &&

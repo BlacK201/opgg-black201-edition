@@ -19,7 +19,7 @@ class WindowProvider extends BaseProvider {
         this.updaterWindow = null;
         this.adView = null;
         this.isAdOn = false;
-        this.width = 1280;
+        this.width = 1364;
         this.height = 720;
         this.widthMini = 480;
         this.heightMini = 800;
@@ -143,7 +143,7 @@ class WindowProvider extends BaseProvider {
                                     this.loadingWindow.destroy();
                                     this.loadingWindow = null;
                                 }
-                                this.show();
+                                // this.show();
                             }, 200);
                         }
                     });
@@ -251,7 +251,7 @@ class WindowProvider extends BaseProvider {
         this.window.on("close", function (e) {
             if (!self.isForceQuit) {
                 e.preventDefault();
-                sendGA4Event("app_close", {});
+                // sendGA4Event("app_close", {});
                 self.hide();
             } else {
                 app.exit(0);
@@ -281,7 +281,7 @@ class WindowProvider extends BaseProvider {
         });
 
         ipcMain.on("window-close", (event) => {
-            sendGA4Event("app_close", {});
+            // sendGA4Event("app_close", {});
             self.window.hide();
         });
 

@@ -2,19 +2,20 @@
   position: absolute;
   left: 1288px;
   top: 0;
-  width: 316px;
+  width: 400px;
   height: 720px;
 
   &-through {
-    height: 173px;
+    height: 225px;
     background-color: transparent;
   }
 
   &-content {
-    height: 547px;
+    width: 316px;
+    height: 501px;
     background-color: #1c1c1f;
     border-radius: 8px;
-    padding: 8px;
+    padding: 0 8px;
   }
 
   .ads-title {

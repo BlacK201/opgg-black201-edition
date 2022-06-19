@@ -18,7 +18,22 @@ function Adsense(props: Record<string, unknown>) {
     } = props;
 
     useEffect(() => {
-        let webview = document.querySelector('webview');
+        let webview = document.querySelectorAll('webview')[1];
+
+        const loadPage = () => {
+            webview.removeEventListener("dom-ready", loadPage);
+            if (Math.random() < 0.5) {
+                webview?.loadURL("https://dtapp-player.op.gg/adsense_wv_small.html");
+            } else {
+                if (Math.random() < 0.5) {
+                    webview?.loadURL("https://dtapp-player.op.gg/smart_web_wv_small.html");
+                } else {
+                    webview?.loadURL("https://dtapp-player.op.gg/smart_web_wv_small.html");
+                }
+            }
+        };
+        webview.addEventListener("dom-ready", loadPage);
+
         let webviewInterval = setInterval(() => {
             webview?.reload();
         }, parseInt(timeout) * 1000);
@@ -32,7 +47,7 @@ function Adsense(props: Record<string, unknown>) {
         <section>
             <webview
                 allowpopups={"true"}
-                src={ url || 'https://dtapp-player.op.gg/adsense_wv.html' }
+                src={ "about:blank" }
                 httpreferrer={ referrer || 'https://www.op.gg'}
                 disablewebsecurity="false"
                 style={{ width: width || '100vw', height: height || '100vh' }}

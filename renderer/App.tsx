@@ -36,6 +36,8 @@ import axios from "axios";
 import apiMultisearch from "./renewal/pages/apiMultisearch";
 import IngameLCU from "./renewal/pages/ingameLCU";
 import GlobalAds from "./renewal/components/layouts/GlobalAds";
+import MemberPolicyModal from "./components/Modal/MemberPolicyModal";
+import NoticeModal from "./components/Modal/NoticeModal";
 const {isNMP} = require("./utils/nmp");
 const {countryHasAds} = require("./utils/ads");
 const {countryHasAdsAdsense} = require("./utils/adsAdsense");
@@ -125,6 +127,8 @@ const App = () => {
                 </div>
                 <Side/>
                 <Settings/>
+                <MemberPolicyModal />
+                <NoticeModal />
                 {!isOverlay &&
                 <>
                     {(!isNMP && playwireAds.includes(localRegion))

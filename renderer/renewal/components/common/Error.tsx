@@ -51,7 +51,7 @@ const Error = ({error, msgType, isMini, champion}: any) => {
     }
 
     const onClickReport = () => {
-        window.api.openExternal("https://discord.gg/eyZuBjKquN");
+        window.api.openExternal("https://discord.gg/hsSC7vDWU8");
     }
 
     return (

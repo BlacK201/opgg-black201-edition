@@ -46,7 +46,8 @@ const initialState: commonState = {
     isAutoAccept: getSettingInLocalStorage("autoaccept"),
     region: localStorage.getItem("region") ?? "KR",
     hasError: false,
-    april: !(localStorage.getItem("april") === "false")
+    april: !(localStorage.getItem("april") === "false"),
+    memberPolicyModalIsOpen: false
 }
 
 const issuesDisplaySlice = createSlice({
@@ -186,6 +187,9 @@ const issuesDisplaySlice = createSlice({
         },
         setApril(state, action) {
             state.april = action.payload
+        },
+        setMemberPolicyModalIsOpen(state, action) {
+            state.memberPolicyModalIsOpen = action.payload
         }
     }
 })
@@ -230,7 +234,8 @@ export const {
     setIsAutoAccept,
     setRegion,
     setHasError,
-    setApril
+    setApril,
+    setMemberPolicyModalIsOpen
 } = issuesDisplaySlice.actions
 
 export default issuesDisplaySlice.reducer

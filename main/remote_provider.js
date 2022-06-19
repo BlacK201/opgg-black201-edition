@@ -51,15 +51,15 @@ class RemoteProvider extends BaseProvider {
 
                 if (isPositionInBound) {
                     this.setBounds({
-                        x: bounds.x,
-                        y: bounds.y
+                        x: parseInt(bounds.x),
+                        y: parseInt(bounds.y)
                     })
                 }
             } else {
                 let tmp = this.parentWindow?.window.getBounds();
                 this.setBounds({
-                    x: tmp.x + (this.widthMini - this.window.getBounds().width) / 2,
-                    y: tmp.y + this.heightMini - 88 - 30
+                    x: parseInt(tmp.x + (this.widthMini - this.window.getBounds().width) / 2),
+                    y: parseInt(tmp.y + this.heightMini - 88 - 30)
                 });
             }
         });

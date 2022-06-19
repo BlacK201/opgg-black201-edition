@@ -29,10 +29,19 @@ let ga = ua(GA_TRACKING_ID, userId);
 const {isNMP} = require("../renderer/utils/nmp");
 const App = require("./app");
 const CustomTray = require("./tray");
+const {default: axios} = require("axios");
 
 const application = new App();
 const tray = new CustomTray(application);
 app.on("ready", () => {
+    axios.get("https://geo-internal.op.gg/api/current-ip")
+        .then((result) => {
+            let data = result.data;
+            nodeStorage.setItem("geo", JSON.stringify(data));
+        })
+        .catch((_) => {});
+
+    app.commandLine.appendSwitch('wm-window-animations-disabled');
     application.init();
 
     ga.pageview("/").send();
@@ -64,6 +73,7 @@ if (isDev && process.platform === "win32") {
 
 process.on("uncaughtException", (err) => {
     console.log("#################################################", err);
+    sendGA4Event("app_crash", {});
     try {
         app.quit() && app.exit(0);
     } catch(e) {}
@@ -89,7 +99,7 @@ app.on("window-all-closed", () => {
 app.on("before-quit", function (e) {
     if (!application.window.isForceQuit) {
         e.preventDefault();
-        sendGA4Event("app_close", {});
+        // sendGA4Event("app_close", {});
         application.window.hide();
     } else {
         application.window.setLocalStorage("logged-in", "false");
@@ -106,6 +116,7 @@ function getParameterByName(name, url = window.location.href) {
 }
 
 ipcMain.on("i18n-changed", (event, arg) => {
+    nodeStorage.setItem("locale", arg);
     tray.buildTray(i18nResources[arg]);
 });
 
@@ -141,6 +152,14 @@ ipcMain.on("check-update", (event) => {
     autoUpdater.checkForUpdates().catch((err) => {
         console.log(err);
     });
+});
+
+ipcMain.on("geo", (event) => {
+    event.returnValue = nodeStorage.getItem("geo");
+});
+
+ipcMain.on("locale", async (event) => {
+    event.returnValue = nodeStorage.getItem("locale");
 });
 
 if (!isNMP) {
