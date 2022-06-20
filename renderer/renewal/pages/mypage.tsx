@@ -556,7 +556,8 @@ const MyPage = () => {
                                         <div className={"mypage-top__bottom-profile-rank-contents"}>
                                             {mypage.ranked.queueMap[queue].tier !== "NONE"
                                                 ? <img
-                                                    src={`https://opgg-static.akamaized.net/images/medals/${mypage.ranked.queueMap[queue].tier.toLowerCase()}_1.png?image=q_auto:best,w_40&v=1`}/>
+                                                    // src={`https://opgg-static.akamaized.net/images/medals/${mypage.ranked.queueMap[queue].tier.toLowerCase()}_1.png?image=q_auto:best,w_40&v=1`}/>
+                                                    src={`../../assets/images/${mypage.ranked.queueMap[queue].tier.toLowerCase()}.png`}/>
                                                 : <img src={`../../assets/images/default.png`}/>
                                             }
                                             <div>
@@ -971,7 +972,7 @@ const MyPage = () => {
                                                 <div style={{
                                                     marginBottom: "2px",
                                                     fontSize: "11px"
-                                                }}>CS {me.stats.minion_kill + me.stats.neutral_minion_kill} ({((me.stats.minion_kill + me.stats.neutral_minion_kill) / parseInt(game.game_length_second / 60)).toFixed(1)})
+                                                }}>CS {me.stats.minion_kill + me.stats.neutral_minion_kill} ({Math.round(((me.stats.minion_kill + me.stats.neutral_minion_kill) / (game.game_length_second / 60)) * 10) / 10})
                                                 </div>
                                                 {game.average_tier_info &&
                                                 <div style={{fontSize: "11px"}}>{t("tier-average")} <b>{game.average_tier_info.tier[0] + game.average_tier_info.tier.toLowerCase().slice(1)}</b>

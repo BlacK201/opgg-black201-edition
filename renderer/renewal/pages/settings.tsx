@@ -7,6 +7,7 @@ import {LANGUAGE_LIST} from "../../constants";
 import {useTypedSelector} from "../../redux/store";
 import {useDispatch} from "react-redux";
 import sendGA4Event from "../../utils/ga4";
+import axios from "axios";
 
 const {isNMP} = require("../../utils/nmp");
 
@@ -89,6 +90,7 @@ const Settings = () => {
   const onChangeApril = onChangeGame("april", "april", "april");
   const [scaleSetting, setScaleSetting] = useState(localStorage.getItem("scale") ?? "1");
   const [languageSetting, setLanguageSetting] = useState(localStorage.getItem("i18n"));
+  const [isUpdateAvailable, setIsUpdateAvailable] = useState(false);
 
   let nickname = localStorage.getItem("opgg_nickname");
   let vcredist = localStorage.getItem("vcredist") === "true";
@@ -107,6 +109,11 @@ const Settings = () => {
     i18n.changeLanguage(lang);
   };
 
+  const versionToInt = (version: string): number => {
+    let v = version.split(".");
+    return parseInt(v[0])*10000+parseInt(v[1])*100+parseInt(v[2]);
+  };
+
   useEffect(() => {
     gameSettings.isSpell = isNMP ? localStorage.getItem("isSpell") === "true" : getSettingInLocalStorage("isSpell");
     // console.log(gameSettings.isSpell);
@@ -116,6 +123,16 @@ const Settings = () => {
 
   useEffect(() => {
     if (isSettingOpen) {
+      window.api.invoke("get-version").then((v) => {
+        axios.get("https://desktop-patch.op.gg/latest.yml").then((res) => {
+          let latestVersion = res.data.split("version: ")[1].split("\n")[0];
+          if (versionToInt(v) < versionToInt(latestVersion)) {
+            setIsUpdateAvailable(true);
+          }
+        }).catch(() => {
+        })
+      });
+
       sendGA4Event("view_setting_page", {
         "menu_name": "full"
       });
@@ -165,6 +182,7 @@ const Settings = () => {
       window.api.send("logout");
     } else {
       window.open("https://member.op.gg/?redirect_url=https://member.op.gg/client-login&remember_me=true", '_blank');
+      // window.open("https://member-stage-1fdsf134.op.gg/?redirect_url=https://member-stage-1fdsf134.op.gg/client-login&remember_me=true", '_blank')
     }
   }
 
@@ -179,28 +197,26 @@ const Settings = () => {
           <img src={"../../assets/images/icon-close-wh.svg"}/>
         </div>
         <div className={"popup-settings-side"}>
-          {lang === "kr" &&
-              <div className={"popup-settings-side-top"}>
-                  <div className={"popup-settings-profile"}>
-                      <div className={"popup-settings-profile-img"}>
-                          <img src={"../../assets/images/opgg-logo-square.svg"}/>
-                      </div>
-                      <div className={"popup-settings-profile-info"}>
-                          <div>{nickname ?? "Login Please"}</div>
-                        {nickname
-                          ? <div>OP.GG Account</div>
-                          : <div></div>
-                        }
-                      </div>
-                  </div>
-                  <div className={"popup-settings-login"} onClick={onClickLoginButton}>
-                    {nickname
-                      ? "OP.GG Logout"
-                      : "OP.GG Member Login"
-                    }
-                  </div>
-              </div>
-          }
+          <div className={"popup-settings-side-top"}>
+            <div className={"popup-settings-profile"}>
+                <div className={"popup-settings-profile-img"}>
+                  <img src={"../../assets/images/opgg-logo-square.svg"}/>
+                </div>
+                <div className={"popup-settings-profile-info"}>
+                  <div>{nickname ?? "Login Please"}</div>
+                  {nickname
+                    ? <div>OP.GG Account</div>
+                    : <div></div>
+                  }
+                </div>
+            </div>
+            <div className={"popup-settings-login"} onClick={onClickLoginButton}>
+              {nickname
+                ? "OP.GG Logout"
+                : "OP.GG Member Login"
+              }
+            </div>
+          </div>
           <div className={"popup-settings-side-bottom"}>
             <div className={"popup-settings-side-bottom-section"}>{t("sidebar.settings")}</div>
             <div
@@ -209,6 +225,14 @@ const Settings = () => {
             <div
               className={`popup-settings-side-bottom-section-row ${index === 1 ? "popup-settings-side-bottom-section-row-active" : ""}`}
               onClick={() => setIndex(1)}>{t("settings.language")}</div>
+          </div>
+          <div className={"privacy-policy"}>
+            <div onClick={() => {
+              window.api.openExternal(`https://www.op.gg/policies/agreement`);
+            }}>{t("settings.terms")}</div>
+            <div onClick={() => {
+              window.api.openExternal(`https://www.op.gg/policies/privacy`);
+            }}>{t("settings.privacy")}</div>
           </div>
           <div className={"if-award"} onClick={() => {
             window.api.openExternal("https://ifdesign.com/en/winner-ranking/project/opgg-for-desktop/350772");
@@ -332,6 +356,27 @@ const Settings = () => {
                           }}
                       >{t("app-restart")}
                       </div>
+
+                    {(!isNMP && isUpdateAvailable) &&
+                        <div
+                          onClick={() => {
+                            window.api.send("check-update");
+                          }}
+                          style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                            height: "30px",
+                            borderRadius: "6px",
+                            cursor: "pointer",
+                            fontSize: "12px",
+                            backgroundColor: "#6b42dc",
+                            padding: "0 12px",
+                            marginLeft: "8px"
+                          }}
+                        >{t("app-update")}
+                        </div>
+                    }
 
                     {vcredist &&
                         <div

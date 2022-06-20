@@ -222,8 +222,8 @@
   "spells": {
     "SummonerBarrier": {
       "name": "バリア",
-      "desc": "2秒間自身のチャンピオンにバリアを張って115 - 455のダメージを軽減(チャンピオンのレベルに応じて変動)。",
-      "tooltip": "<div class='tooltip-title'>バリア</div>2秒間自身のチャンピオンにバリアを張って115 - 455のダメージを軽減(チャンピオンのレベルに応じて変動)。"
+      "desc": "2秒間自身のチャンピオンにバリアを張って105 - 411のダメージを軽減(チャンピオンのレベルに応じて変動)。",
+      "tooltip": "<div class='tooltip-title'>バリア</div>2秒間自身のチャンピオンにバリアを張って105 - 411のダメージを軽減(チャンピオンのレベルに応じて変動)。"
     },
     "SummonerBoost": {
       "name": "クレンズ",
@@ -252,8 +252,8 @@
     },
     "SummonerHeal": {
       "name": "ヒール",
-      "desc": "自身および対象の味方の体力を90 - 345(チャンピオンのレベルに応じて変動)回復し、移動速度を1秒間にわたって30%増加。直前に「ヒール」の効果を受けた自身と味方に対しては、体力の回復量が半減する。",
-      "tooltip": "<div class='tooltip-title'>ヒール</div>自身および対象の味方の体力を90 - 345(チャンピオンのレベルに応じて変動)回復し、移動速度を1秒間にわたって30%増加。直前に「ヒール」の効果を受けた自身と味方に対しては、体力の回復量が半減する。"
+      "desc": "自身および対象の味方チャンピオンの体力を80 - 318(チャンピオンのレベルに応じて変動)回復し、移動速度を1秒間にわたって30%増加。直前に「ヒール」の効果を受けていた場合は、体力の回復量が半減する。",
+      "tooltip": "<div class='tooltip-title'>ヒール</div>自身および対象の味方チャンピオンの体力を80 - 318(チャンピオンのレベルに応じて変動)回復し、移動速度を1秒間にわたって30%増加。直前に「ヒール」の効果を受けていた場合は、体力の回復量が半減する。"
     },
     "SummonerMana": {
       "name": "クラリティ",
@@ -272,8 +272,8 @@
     },
     "SummonerSmite": {
       "name": "スマイト",
-      "desc": "対象のエピックモンスター、大型モンスター、中型モンスター、ミニオンに対し450の確定ダメージを与える。2回までチャージしておける(リチャージ時間90秒)。",
-      "tooltip": "<div class='tooltip-title'>スマイト</div>対象のエピックモンスター、大型モンスター、中型モンスター、ミニオンに対し450の確定ダメージを与える。2回までチャージしておける(リチャージ時間90秒)。"
+      "desc": "対象のエピックモンスター、大型モンスター、中型モンスター、ミニオンに対し450の確定ダメージを与える。さらに対象がモンスターの場合は、90(+最大体力の10%)の体力を回復する。2回までチャージしておける(リチャージ時間90秒)。",
+      "tooltip": "<div class='tooltip-title'>スマイト</div>対象のエピックモンスター、大型モンスター、中型モンスター、ミニオンに対し450の確定ダメージを与える。さらに対象がモンスターの場合は、90(+最大体力の10%)の体力を回復する。2回までチャージしておける(リチャージ時間90秒)。"
     },
     "SummonerSnowURFSnowball_Mark": {
       "name": "マーク",
@@ -370,9 +370,9 @@
     },
     "1035": {
       "name": "残炎のナイフ",
-      "desc": "<mainText><stats></stats>モンスターに対してはオムニヴァンプ8%<br><li><passive>烈炎:</passive> モンスターにダメージを与えると対象を燃やし、5秒かけて<magicDamage>(60 + 魔力の30% + 増加攻撃力の5% + 増加体力の2%)の魔法ダメージ</magicDamage>を与える。<li><passive>挑戦の道:</passive> 「スマイト」を5回使用するとこのアイテムが消費されて、「スマイト」が<attention>「チャレンジ・スマイト」</attention>にアップグレードされ、モンスターに与えるダメージが増加する。「チャレンジ・スマイト」は4秒間チャンピオンをマークする。この間はその対象への通常攻撃命中時に2.5秒かけて<truedamage>48 - 125(チャンピオンレベルに応じて)</truedamage>の追加確定ダメージを与え、対象から受けるダメージが20%軽減される。<li><passive>狩人:</passive> 大型モンスターをキルすると追加経験値を獲得する。<li><passive>リクープ:</passive> ジャングルまたは川にいる間は、最大で毎秒8 - 18マナ(チャンピオンレベルに応じて)を回復する。<br><br><rules>このアイテムを<status>消費</status>するとアイテムのすべての効果を恒久的に獲得し、「スマイト」でモンスターに与えるダメージが増加する。ジャングルモンスターよりもミニオンから獲得したゴールドの方が多い場合は、ミニオンから得られるゴールドと経験値が大幅に低下する。範囲効果による攻撃でも回復量は減少しない。自分のレベルがその試合の全チャンピオンの平均レベルよりも2レベル低い場合は、モンスターをキルすると追加経験値を獲得する。 </rules><br><rules>「チャレンジ・スマイト」の炎上を適用するのは通常攻撃とスキルのみ。</rules></mainText><br>",
+      "desc": "<mainText><stats></stats>モンスターに対してはオムニヴァンプ7%<br><li><passive>烈炎:</passive> モンスターにダメージを与えると対象を燃やし、5秒かけて<magicDamage>(60 + 魔力の30% + 増加攻撃力の5% + 増加体力の2%)の魔法ダメージ</magicDamage>を与える。<li><passive>挑戦の道:</passive> 「スマイト」を5回使用するとこのアイテムが消費されて、「スマイト」が<attention>「チャレンジ・スマイト」</attention>にアップグレードされ、モンスターに与えるダメージが増加する。「チャレンジ・スマイト」は4秒間チャンピオンをマークする。この間はその対象への通常攻撃命中時に2.5秒かけて<truedamage>48 - 125(チャンピオンレベルに応じて)</truedamage>の追加確定ダメージを与え、対象から受けるダメージが20%軽減される。<li><passive>狩人:</passive> 大型モンスターをキルすると追加経験値を獲得する。<li><passive>リクープ:</passive> ジャングルまたは川にいる間は、最大で毎秒8 - 18マナ(チャンピオンレベルに応じて)を回復する。<br><br><rules>このアイテムを<status>消費</status>するとアイテムのすべての効果を恒久的に獲得し、「スマイト」でモンスターに与えるダメージが増加する。ジャングルモンスターよりもミニオンから獲得したゴールドの方が多い場合は、ミニオンから得られるゴールドと経験値が大幅に低下する。範囲効果による攻撃でも回復量は減少しない。自分のレベルがその試合の全チャンピオンの平均レベルよりも2レベル低い場合は、モンスターをキルすると追加経験値を獲得する。 </rules><br><rules>「チャレンジ・スマイト」の炎上を適用するのは通常攻撃とスキルのみ。</rules></mainText><br>",
       "gold": 350,
-      "tooltip": "<div class='tooltip-title'>残炎のナイフ</div><mainText><stats></stats>モンスターに対してはオムニヴァンプ8%<br><li><passive>烈炎:</passive> モンスターにダメージを与えると対象を燃やし、5秒かけて<magicDamage>(60 + 魔力の30% + 増加攻撃力の5% + 増加体力の2%)の魔法ダメージ</magicDamage>を与える。<li><passive>挑戦の道:</passive> 「スマイト」を5回使用するとこのアイテムが消費されて、「スマイト」が<attention>「チャレンジ・スマイト」</attention>にアップグレードされ、モンスターに与えるダメージが増加する。「チャレンジ・スマイト」は4秒間チャンピオンをマークする。この間はその対象への通常攻撃命中時に2.5秒かけて<truedamage>48 - 125(チャンピオンレベルに応じて)</truedamage>の追加確定ダメージを与え、対象から受けるダメージが20%軽減される。<li><passive>狩人:</passive> 大型モンスターをキルすると追加経験値を獲得する。<li><passive>リクープ:</passive> ジャングルまたは川にいる間は、最大で毎秒8 - 18マナ(チャンピオンレベルに応じて)を回復する。<br><br><rules>このアイテムを<status>消費</status>するとアイテムのすべての効果を恒久的に獲得し、「スマイト」でモンスターに与えるダメージが増加する。ジャングルモンスターよりもミニオンから獲得したゴールドの方が多い場合は、ミニオンから得られるゴールドと経験値が大幅に低下する。範囲効果による攻撃でも回復量は減少しない。自分のレベルがその試合の全チャンピオンの平均レベルよりも2レベル低い場合は、モンスターをキルすると追加経験値を獲得する。 </rules><br><rules>「チャレンジ・スマイト」の炎上を適用するのは通常攻撃とスキルのみ。</rules></mainText><br><div class='tooltip-gold'>350 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>残炎のナイフ</div><mainText><stats></stats>モンスターに対してはオムニヴァンプ7%<br><li><passive>烈炎:</passive> モンスターにダメージを与えると対象を燃やし、5秒かけて<magicDamage>(60 + 魔力の30% + 増加攻撃力の5% + 増加体力の2%)の魔法ダメージ</magicDamage>を与える。<li><passive>挑戦の道:</passive> 「スマイト」を5回使用するとこのアイテムが消費されて、「スマイト」が<attention>「チャレンジ・スマイト」</attention>にアップグレードされ、モンスターに与えるダメージが増加する。「チャレンジ・スマイト」は4秒間チャンピオンをマークする。この間はその対象への通常攻撃命中時に2.5秒かけて<truedamage>48 - 125(チャンピオンレベルに応じて)</truedamage>の追加確定ダメージを与え、対象から受けるダメージが20%軽減される。<li><passive>狩人:</passive> 大型モンスターをキルすると追加経験値を獲得する。<li><passive>リクープ:</passive> ジャングルまたは川にいる間は、最大で毎秒8 - 18マナ(チャンピオンレベルに応じて)を回復する。<br><br><rules>このアイテムを<status>消費</status>するとアイテムのすべての効果を恒久的に獲得し、「スマイト」でモンスターに与えるダメージが増加する。ジャングルモンスターよりもミニオンから獲得したゴールドの方が多い場合は、ミニオンから得られるゴールドと経験値が大幅に低下する。範囲効果による攻撃でも回復量は減少しない。自分のレベルがその試合の全チャンピオンの平均レベルよりも2レベル低い場合は、モンスターをキルすると追加経験値を獲得する。 </rules><br><rules>「チャレンジ・スマイト」の炎上を適用するのは通常攻撃とスキルのみ。</rules></mainText><br><div class='tooltip-gold'>350 Gold</div>"
     },
     "1036": {
       "name": "ロング ソード",
@@ -394,9 +394,9 @@
     },
     "1039": {
       "name": "氷雨の刃",
-      "desc": "<mainText><stats></stats>モンスターに対してはオムニヴァンプ8%<br><li><passive>烈炎:</passive> モンスターにダメージを与えると対象を燃やし、5秒かけて<magicDamage>(60 + 魔力の30% + 増加攻撃力の5% + 増加体力の2%)の魔法ダメージ</magicDamage>を与える。<li><passive>凍てつく道:</passive> 「スマイト」を5回使用するとこのアイテムが消費されて、「スマイト」が<attention>「チル・スマイト」</attention>にアップグレードされ、モンスターに与えるダメージが増加する。「チル・スマイト」をチャンピオンに使用すると<truedamage>20 - 156(チャンピオンレベルに応じて)</truedamage>の確定ダメージを与え、2秒間対象の移動速度の20%を奪う。<li><passive>狩人:</passive> 大型モンスターをキルすると追加経験値を獲得する。<li><passive>リクープ:</passive> ジャングルまたは川にいる間は最大で毎秒8 - 18マナ(チャンピオンレベルに応じて)を回復する。<br><br><rules>このアイテムを<status>消費</status>するとアイテムのすべての効果を恒久的に獲得し、「スマイト」でモンスターに与えるダメージが増加する。ジャングルモンスターよりもミニオンから獲得したゴールドの方が多い場合は、ミニオンから得られるゴールドと経験値が大幅に低下する。範囲効果による攻撃でも回復量は減少しない。自分のレベルがその試合の全チャンピオンの平均レベルよりも2レベル低い場合は、モンスターをキルすると追加経験値を獲得する。 </rules><br><br></mainText><br>",
+      "desc": "<mainText><stats></stats>モンスターに対してはオムニヴァンプ7%<br><li><passive>烈炎:</passive> モンスターにダメージを与えると対象を燃やし、5秒かけて<magicDamage>(60 + 魔力の30% + 増加攻撃力の5% + 増加体力の2%)の魔法ダメージ</magicDamage>を与える。<li><passive>凍てつく道:</passive> 「スマイト」を5回使用するとこのアイテムが消費されて、「スマイト」が<attention>「チル・スマイト」</attention>にアップグレードされ、モンスターに与えるダメージが増加する。「チル・スマイト」をチャンピオンに使用すると<truedamage>20 - 156(チャンピオンレベルに応じて)</truedamage>の確定ダメージを与え、2秒間対象の移動速度の20%を奪う。<li><passive>狩人:</passive> 大型モンスターをキルすると追加経験値を獲得する。<li><passive>リクープ:</passive> ジャングルまたは川にいる間は最大で毎秒8 - 18マナ(チャンピオンレベルに応じて)を回復する。<br><br><rules>このアイテムを<status>消費</status>するとアイテムのすべての効果を恒久的に獲得し、「スマイト」でモンスターに与えるダメージが増加する。ジャングルモンスターよりもミニオンから獲得したゴールドの方が多い場合は、ミニオンから得られるゴールドと経験値が大幅に低下する。範囲効果による攻撃でも回復量は減少しない。自分のレベルがその試合の全チャンピオンの平均レベルよりも2レベル低い場合は、モンスターをキルすると追加経験値を獲得する。 </rules><br><br></mainText><br>",
       "gold": 350,
-      "tooltip": "<div class='tooltip-title'>氷雨の刃</div><mainText><stats></stats>モンスターに対してはオムニヴァンプ8%<br><li><passive>烈炎:</passive> モンスターにダメージを与えると対象を燃やし、5秒かけて<magicDamage>(60 + 魔力の30% + 増加攻撃力の5% + 増加体力の2%)の魔法ダメージ</magicDamage>を与える。<li><passive>凍てつく道:</passive> 「スマイト」を5回使用するとこのアイテムが消費されて、「スマイト」が<attention>「チル・スマイト」</attention>にアップグレードされ、モンスターに与えるダメージが増加する。「チル・スマイト」をチャンピオンに使用すると<truedamage>20 - 156(チャンピオンレベルに応じて)</truedamage>の確定ダメージを与え、2秒間対象の移動速度の20%を奪う。<li><passive>狩人:</passive> 大型モンスターをキルすると追加経験値を獲得する。<li><passive>リクープ:</passive> ジャングルまたは川にいる間は最大で毎秒8 - 18マナ(チャンピオンレベルに応じて)を回復する。<br><br><rules>このアイテムを<status>消費</status>するとアイテムのすべての効果を恒久的に獲得し、「スマイト」でモンスターに与えるダメージが増加する。ジャングルモンスターよりもミニオンから獲得したゴールドの方が多い場合は、ミニオンから得られるゴールドと経験値が大幅に低下する。範囲効果による攻撃でも回復量は減少しない。自分のレベルがその試合の全チャンピオンの平均レベルよりも2レベル低い場合は、モンスターをキルすると追加経験値を獲得する。 </rules><br><br></mainText><br><div class='tooltip-gold'>350 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>氷雨の刃</div><mainText><stats></stats>モンスターに対してはオムニヴァンプ7%<br><li><passive>烈炎:</passive> モンスターにダメージを与えると対象を燃やし、5秒かけて<magicDamage>(60 + 魔力の30% + 増加攻撃力の5% + 増加体力の2%)の魔法ダメージ</magicDamage>を与える。<li><passive>凍てつく道:</passive> 「スマイト」を5回使用するとこのアイテムが消費されて、「スマイト」が<attention>「チル・スマイト」</attention>にアップグレードされ、モンスターに与えるダメージが増加する。「チル・スマイト」をチャンピオンに使用すると<truedamage>20 - 156(チャンピオンレベルに応じて)</truedamage>の確定ダメージを与え、2秒間対象の移動速度の20%を奪う。<li><passive>狩人:</passive> 大型モンスターをキルすると追加経験値を獲得する。<li><passive>リクープ:</passive> ジャングルまたは川にいる間は最大で毎秒8 - 18マナ(チャンピオンレベルに応じて)を回復する。<br><br><rules>このアイテムを<status>消費</status>するとアイテムのすべての効果を恒久的に獲得し、「スマイト」でモンスターに与えるダメージが増加する。ジャングルモンスターよりもミニオンから獲得したゴールドの方が多い場合は、ミニオンから得られるゴールドと経験値が大幅に低下する。範囲効果による攻撃でも回復量は減少しない。自分のレベルがその試合の全チャンピオンの平均レベルよりも2レベル低い場合は、モンスターをキルすると追加経験値を獲得する。 </rules><br><br></mainText><br><div class='tooltip-gold'>350 Gold</div>"
     },
     "1040": {
       "name": "オブシディアン エッジ",
@@ -424,9 +424,9 @@
     },
     "1053": {
       "name": "ヴァンパイア セプター",
-      "desc": "<mainText><stats>攻撃力<attention>15</attention><br>ライフ スティール<attention>8%</attention></stats></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>15</attention><br>ライフ スティール<attention>7%</attention></stats></mainText><br>",
       "gold": 900,
-      "tooltip": "<div class='tooltip-title'>ヴァンパイア セプター</div><mainText><stats>攻撃力<attention>15</attention><br>ライフ スティール<attention>8%</attention></stats></mainText><br><div class='tooltip-gold'>900 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ヴァンパイア セプター</div><mainText><stats>攻撃力<attention>15</attention><br>ライフ スティール<attention>7%</attention></stats></mainText><br><div class='tooltip-gold'>900 Gold</div>"
     },
     "1054": {
       "name": "ドラン シールド",
@@ -442,9 +442,9 @@
     },
     "1056": {
       "name": "ドラン リング",
-      "desc": "<mainText><stats>魔力<attention>15</attention><br>体力<attention>70</attention></stats><br><li><passive>一点集中:</passive> 通常攻撃がミニオンに<physicalDamage>5の物理ダメージ</physicalDamage>を追加で与える。<li><passive>生気吸収:</passive> 毎秒<scaleMana>0.75マナ</scaleMana>を回復する。敵チャンピオンにダメージを与えると、10秒間、この回復量が毎秒<scaleMana>1.25マナ</scaleMana>に上昇する。マナを回復できない場合は、その値の50%にあたる体力を回復する。 </mainText><br>",
+      "desc": "<mainText><stats>魔力<attention>15</attention><br>体力<attention>70</attention></stats><br><li><passive>一点集中:</passive> 通常攻撃がミニオンに<physicalDamage>5の物理ダメージ</physicalDamage>を追加で与える。<li><passive>生気吸収:</passive> 毎秒<scaleMana>1マナ</scaleMana>を回復する。敵チャンピオンにダメージを与えると、10秒間、この回復量が毎秒<scaleMana>1.5マナ</scaleMana>に上昇する。マナを回復できない場合は、その値の45%にあたる体力を回復する。 </mainText><br>",
       "gold": 400,
-      "tooltip": "<div class='tooltip-title'>ドラン リング</div><mainText><stats>魔力<attention>15</attention><br>体力<attention>70</attention></stats><br><li><passive>一点集中:</passive> 通常攻撃がミニオンに<physicalDamage>5の物理ダメージ</physicalDamage>を追加で与える。<li><passive>生気吸収:</passive> 毎秒<scaleMana>0.75マナ</scaleMana>を回復する。敵チャンピオンにダメージを与えると、10秒間、この回復量が毎秒<scaleMana>1.25マナ</scaleMana>に上昇する。マナを回復できない場合は、その値の50%にあたる体力を回復する。 </mainText><br><div class='tooltip-gold'>400 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ドラン リング</div><mainText><stats>魔力<attention>15</attention><br>体力<attention>70</attention></stats><br><li><passive>一点集中:</passive> 通常攻撃がミニオンに<physicalDamage>5の物理ダメージ</physicalDamage>を追加で与える。<li><passive>生気吸収:</passive> 毎秒<scaleMana>1マナ</scaleMana>を回復する。敵チャンピオンにダメージを与えると、10秒間、この回復量が毎秒<scaleMana>1.5マナ</scaleMana>に上昇する。マナを回復できない場合は、その値の45%にあたる体力を回復する。 </mainText><br><div class='tooltip-gold'>400 Gold</div>"
     },
     "1057": {
       "name": "ネガトロン クローク",
@@ -646,9 +646,9 @@
     },
     "2140": {
       "name": "ラース エリクサー",
-      "desc": "<mainText><stats></stats><active>発動効果 - 消費:</active> 飲むと3分間、<scaleAD>攻撃力が30</scaleAD>、チャンピオンに対する<lifeSteal>物理ヴァンプが15%</lifeSteal>増加する。<br><br><rules>別のエリクサーを飲むと、現在のエリクサーの効果と置き換わる。</rules></mainText><br>",
+      "desc": "<mainText><stats></stats><active>発動効果 - 消費:</active> 飲むと3分間、<scaleAD>攻撃力が30</scaleAD>、チャンピオンに対する<lifeSteal>物理ヴァンプが12%</lifeSteal>増加する。<br><br><rules>別のエリクサーを飲むと、現在のエリクサーの効果と置き換わる。</rules></mainText><br>",
       "gold": 500,
-      "tooltip": "<div class='tooltip-title'>ラース エリクサー</div><mainText><stats></stats><active>発動効果 - 消費:</active> 飲むと3分間、<scaleAD>攻撃力が30</scaleAD>、チャンピオンに対する<lifeSteal>物理ヴァンプが15%</lifeSteal>増加する。<br><br><rules>別のエリクサーを飲むと、現在のエリクサーの効果と置き換わる。</rules></mainText><br><div class='tooltip-gold'>500 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ラース エリクサー</div><mainText><stats></stats><active>発動効果 - 消費:</active> 飲むと3分間、<scaleAD>攻撃力が30</scaleAD>、チャンピオンに対する<lifeSteal>物理ヴァンプが12%</lifeSteal>増加する。<br><br><rules>別のエリクサーを飲むと、現在のエリクサーの効果と置き換わる。</rules></mainText><br><div class='tooltip-gold'>500 Gold</div>"
     },
     "2403": {
       "name": "ミニオン吸収装置",
@@ -724,9 +724,9 @@
     },
     "3011": {
       "name": "ケミテック ピュートリファイアー",
-      "desc": "<mainText><stats>魔力<attention>55</attention><br>スキルヘイスト<attention>20</attention><br>基本マナ自動回復<attention>100%</attention></stats><br><li><passive>毒キノコ液:</passive> チャンピオンに魔法ダメージを与えると、3秒間<status>40%の「重傷」</status>を付与する。自分以外の味方に回復効果かシールドを付与すると、自身とその味方の両方が強化され、次に敵チャンピオンに与えるダメージで<status>60%の「重傷」</status>を付与する。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br>",
+      "desc": "<mainText><stats>魔力<attention>60</attention><br>スキルヘイスト<attention>20</attention><br>基本マナ自動回復<attention>100%</attention></stats><br><li><passive>毒キノコ液:</passive> チャンピオンに魔法ダメージを与えると、3秒間<status>25%の「重傷」</status>を付与する。自分以外の味方に回復効果かシールドを付与すると、自身とその味方の両方が強化され、次に敵チャンピオンに与えるダメージで<status>40%の「重傷」</status>を付与する。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br>",
       "gold": 2300,
-      "tooltip": "<div class='tooltip-title'>ケミテック ピュートリファイアー</div><mainText><stats>魔力<attention>55</attention><br>スキルヘイスト<attention>20</attention><br>基本マナ自動回復<attention>100%</attention></stats><br><li><passive>毒キノコ液:</passive> チャンピオンに魔法ダメージを与えると、3秒間<status>40%の「重傷」</status>を付与する。自分以外の味方に回復効果かシールドを付与すると、自身とその味方の両方が強化され、次に敵チャンピオンに与えるダメージで<status>60%の「重傷」</status>を付与する。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br><div class='tooltip-gold'>2300 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ケミテック ピュートリファイアー</div><mainText><stats>魔力<attention>60</attention><br>スキルヘイスト<attention>20</attention><br>基本マナ自動回復<attention>100%</attention></stats><br><li><passive>毒キノコ液:</passive> チャンピオンに魔法ダメージを与えると、3秒間<status>25%の「重傷」</status>を付与する。自分以外の味方に回復効果かシールドを付与すると、自身とその味方の両方が強化され、次に敵チャンピオンに与えるダメージで<status>40%の「重傷」</status>を付与する。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br><div class='tooltip-gold'>2300 Gold</div>"
     },
     "3020": {
       "name": "ソーサラー シューズ",
@@ -754,27 +754,27 @@
     },
     "3033": {
       "name": "モータル リマインダー",
-      "desc": "<mainText><stats>攻撃力<attention>25</attention><br>攻撃速度<attention>25%</attention><br>クリティカル率<attention>20%</attention><br>移動速度<attention>7%</attention></stats><br><li><passive>セプシス:</passive> 敵チャンピオンに物理ダメージを与えると、3秒間<status>40%の「重傷」</status>を付与する。敵チャンピオンに3回連続で通常攻撃を行うと、効果時間終了までその対象への<status>「重傷」効果が60%</status>に強化される。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>25</attention><br>攻撃速度<attention>25%</attention><br>クリティカル率<attention>20%</attention><br>移動速度<attention>7%</attention></stats><br><li><passive>セプシス:</passive> 敵チャンピオンに物理ダメージを与えると、3秒間<status>25%の「重傷」</status>を付与する。敵チャンピオンに2回連続で通常攻撃を行うと、効果時間終了までその対象への<status>「重傷」効果が40%</status>に強化される。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br>",
       "gold": 2500,
-      "tooltip": "<div class='tooltip-title'>モータル リマインダー</div><mainText><stats>攻撃力<attention>25</attention><br>攻撃速度<attention>25%</attention><br>クリティカル率<attention>20%</attention><br>移動速度<attention>7%</attention></stats><br><li><passive>セプシス:</passive> 敵チャンピオンに物理ダメージを与えると、3秒間<status>40%の「重傷」</status>を付与する。敵チャンピオンに3回連続で通常攻撃を行うと、効果時間終了までその対象への<status>「重傷」効果が60%</status>に強化される。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>モータル リマインダー</div><mainText><stats>攻撃力<attention>25</attention><br>攻撃速度<attention>25%</attention><br>クリティカル率<attention>20%</attention><br>移動速度<attention>7%</attention></stats><br><li><passive>セプシス:</passive> 敵チャンピオンに物理ダメージを与えると、3秒間<status>25%の「重傷」</status>を付与する。敵チャンピオンに2回連続で通常攻撃を行うと、効果時間終了までその対象への<status>「重傷」効果が40%</status>に強化される。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
     },
     "3035": {
       "name": "ラスト ウィスパー",
-      "desc": "<mainText><stats>攻撃力<attention>20</attention><br>物理防御貫通<attention>20%</attention></stats></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>20</attention><br>物理防御貫通<attention>18%</attention></stats></mainText><br>",
       "gold": 1450,
-      "tooltip": "<div class='tooltip-title'>ラスト ウィスパー</div><mainText><stats>攻撃力<attention>20</attention><br>物理防御貫通<attention>20%</attention></stats></mainText><br><div class='tooltip-gold'>1450 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ラスト ウィスパー</div><mainText><stats>攻撃力<attention>20</attention><br>物理防御貫通<attention>18%</attention></stats></mainText><br><div class='tooltip-gold'>1450 Gold</div>"
     },
     "3036": {
       "name": "ドミニク リガード",
-      "desc": "<mainText><stats>攻撃力<attention>30</attention><br>クリティカル率<attention>20%</attention><br>物理防御貫通<attention>35%</attention></stats><br><li><passive>ジャイアント スレイヤー:</passive> 自分より最大体力の多い敵チャンピオンに対し、その差に応じて最大<physicalDamage>15%の追加物理ダメージ</physicalDamage>を与える。<br><br><rules>「ジャイアント スレイヤー」は相手と自分の体力の差が2000だった場合に最大のダメージを与える。</rules></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>30</attention><br>クリティカル率<attention>20%</attention><br>物理防御貫通<attention>30%</attention></stats><br><li><passive>ジャイアント スレイヤー:</passive> 自分より最大体力の多い敵チャンピオンに対し、その差に応じて最大<physicalDamage>15%の追加物理ダメージ</physicalDamage>を与える。<br><br><rules>「ジャイアント スレイヤー」は相手と自分の体力の差が2000だった場合に最大のダメージを与える。</rules></mainText><br>",
       "gold": 3000,
-      "tooltip": "<div class='tooltip-title'>ドミニク リガード</div><mainText><stats>攻撃力<attention>30</attention><br>クリティカル率<attention>20%</attention><br>物理防御貫通<attention>35%</attention></stats><br><li><passive>ジャイアント スレイヤー:</passive> 自分より最大体力の多い敵チャンピオンに対し、その差に応じて最大<physicalDamage>15%の追加物理ダメージ</physicalDamage>を与える。<br><br><rules>「ジャイアント スレイヤー」は相手と自分の体力の差が2000だった場合に最大のダメージを与える。</rules></mainText><br><div class='tooltip-gold'>3000 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ドミニク リガード</div><mainText><stats>攻撃力<attention>30</attention><br>クリティカル率<attention>20%</attention><br>物理防御貫通<attention>30%</attention></stats><br><li><passive>ジャイアント スレイヤー:</passive> 自分より最大体力の多い敵チャンピオンに対し、その差に応じて最大<physicalDamage>15%の追加物理ダメージ</physicalDamage>を与える。<br><br><rules>「ジャイアント スレイヤー」は相手と自分の体力の差が2000だった場合に最大のダメージを与える。</rules></mainText><br><div class='tooltip-gold'>3000 Gold</div>"
     },
     "3040": {
       "name": "セラフ エンブレイス",
-      "desc": "<mainText><stats>魔力<attention>80</attention><br>マナ<attention>860</attention><br>体力<attention>250</attention></stats><br><li><passive>畏怖:</passive> <scaleMana>増加マナの1.3%</scaleMana>にあたるスキルヘイストを獲得する。<li><passive>エンピリアン:</passive> 消費した<scaleMana>マナ</scaleMana>の35%にあたる<scaleHealth>体力</scaleHealth>を回復する。回復量はスキルの使用1回につき最大25-50(+魔力の10%)まで。継続して発動するスキルの場合、同量の体力が毎秒の最大回復量となる。 </mainText><br>",
+      "desc": "<mainText><stats>魔力<attention>80</attention><br>マナ<attention>860</attention><br>体力<attention>250</attention></stats><br><li><passive>畏怖:</passive> <scaleMana>増加マナの1.3%</scaleMana>にあたるスキルヘイストを獲得する。<li><passive>エンピリアン:</passive> 消費した<scaleMana>マナ</scaleMana>の25%にあたる<scaleHealth>体力</scaleHealth>を回復する。回復量はスキルの使用1回につき最大25-50(+魔力の10%)まで。継続して発動するスキルの場合、同量の体力が毎秒の最大回復量となる。 </mainText><br>",
       "gold": 2600,
-      "tooltip": "<div class='tooltip-title'>セラフ エンブレイス</div><mainText><stats>魔力<attention>80</attention><br>マナ<attention>860</attention><br>体力<attention>250</attention></stats><br><li><passive>畏怖:</passive> <scaleMana>増加マナの1.3%</scaleMana>にあたるスキルヘイストを獲得する。<li><passive>エンピリアン:</passive> 消費した<scaleMana>マナ</scaleMana>の35%にあたる<scaleHealth>体力</scaleHealth>を回復する。回復量はスキルの使用1回につき最大25-50(+魔力の10%)まで。継続して発動するスキルの場合、同量の体力が毎秒の最大回復量となる。 </mainText><br><div class='tooltip-gold'>2600 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>セラフ エンブレイス</div><mainText><stats>魔力<attention>80</attention><br>マナ<attention>860</attention><br>体力<attention>250</attention></stats><br><li><passive>畏怖:</passive> <scaleMana>増加マナの1.3%</scaleMana>にあたるスキルヘイストを獲得する。<li><passive>エンピリアン:</passive> 消費した<scaleMana>マナ</scaleMana>の25%にあたる<scaleHealth>体力</scaleHealth>を回復する。回復量はスキルの使用1回につき最大25-50(+魔力の10%)まで。継続して発動するスキルの場合、同量の体力が毎秒の最大回復量となる。 </mainText><br><div class='tooltip-gold'>2600 Gold</div>"
     },
     "3041": {
       "name": "メジャイ ソウルスティーラー",
@@ -784,15 +784,15 @@
     },
     "3042": {
       "name": "ムラマナ",
-      "desc": "<mainText><stats>攻撃力<attention>35</attention><br>マナ<attention>860</attention><br>スキルヘイスト<attention>15</attention></stats><br><li><passive>畏怖:</passive> 追加で<scaleAD>最大マナの2.5%にあたる攻撃力</scaleAD>を獲得する。<li><passive>ショック:</passive> チャンピオンに対する通常攻撃が追加で<physicalDamage>最大マナの1.5%にあたる物理ダメージ</physicalDamage> (<OnHit>通常攻撃時効果</OnHit>)を与える。チャンピオンに対するダメージスキルは追加で<physicalDamage>最大マナの(近接攻撃チャンピオンは3.5% | 遠隔攻撃チャンピオンは2.7%) + 合計攻撃力の6%の物理ダメージ</physicalDamage>を与える。</mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>35</attention><br>マナ<attention>860</attention><br>スキルヘイスト<attention>15</attention></stats><br><li><passive>畏怖:</passive> 追加で<scaleAD>最大マナの2.5%にあたる攻撃力</scaleAD>を獲得する。<li><passive>ショック:</passive> チャンピオンに対する通常攻撃が追加で<physicalDamage>最大マナの1.5%にあたる物理ダメージ</physicalDamage> <OnHit>通常攻撃時効果</OnHit>を与える。チャンピオンに対するダメージスキルは追加で<physicalDamage>最大マナの(近接攻撃チャンピオンは3.5% | 遠隔攻撃チャンピオンは2.7%) + 合計攻撃力の6%の物理ダメージ</physicalDamage>を与える。</mainText><br>",
       "gold": 3000,
-      "tooltip": "<div class='tooltip-title'>ムラマナ</div><mainText><stats>攻撃力<attention>35</attention><br>マナ<attention>860</attention><br>スキルヘイスト<attention>15</attention></stats><br><li><passive>畏怖:</passive> 追加で<scaleAD>最大マナの2.5%にあたる攻撃力</scaleAD>を獲得する。<li><passive>ショック:</passive> チャンピオンに対する通常攻撃が追加で<physicalDamage>最大マナの1.5%にあたる物理ダメージ</physicalDamage> (<OnHit>通常攻撃時効果</OnHit>)を与える。チャンピオンに対するダメージスキルは追加で<physicalDamage>最大マナの(近接攻撃チャンピオンは3.5% | 遠隔攻撃チャンピオンは2.7%) + 合計攻撃力の6%の物理ダメージ</physicalDamage>を与える。</mainText><br><div class='tooltip-gold'>3000 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ムラマナ</div><mainText><stats>攻撃力<attention>35</attention><br>マナ<attention>860</attention><br>スキルヘイスト<attention>15</attention></stats><br><li><passive>畏怖:</passive> 追加で<scaleAD>最大マナの2.5%にあたる攻撃力</scaleAD>を獲得する。<li><passive>ショック:</passive> チャンピオンに対する通常攻撃が追加で<physicalDamage>最大マナの1.5%にあたる物理ダメージ</physicalDamage> <OnHit>通常攻撃時効果</OnHit>を与える。チャンピオンに対するダメージスキルは追加で<physicalDamage>最大マナの(近接攻撃チャンピオンは3.5% | 遠隔攻撃チャンピオンは2.7%) + 合計攻撃力の6%の物理ダメージ</physicalDamage>を与える。</mainText><br><div class='tooltip-gold'>3000 Gold</div>"
     },
     "3044": {
       "name": "ファージ",
-      "desc": "<mainText><stats>攻撃力<attention>15</attention><br>体力<attention>200</attention></stats><br><li><passive>頑健:</passive> チャンピオンに物理ダメージを与えると、6秒かけて<healing>最大体力の2%</healing>を回復する。<br><br><rules>遠隔攻撃チャンピオンは回復効果が50%まで低下する。</rules></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>15</attention><br>体力<attention>200</attention></stats><br><li><passive>頑健:</passive> チャンピオンに物理ダメージを与えると、6秒かけて<healing>最大体力の1.6%</healing>を回復する。<br><br><rules>遠隔攻撃チャンピオンは回復効果が50%まで低下する。</rules></mainText><br>",
       "gold": 1100,
-      "tooltip": "<div class='tooltip-title'>ファージ</div><mainText><stats>攻撃力<attention>15</attention><br>体力<attention>200</attention></stats><br><li><passive>頑健:</passive> チャンピオンに物理ダメージを与えると、6秒かけて<healing>最大体力の2%</healing>を回復する。<br><br><rules>遠隔攻撃チャンピオンは回復効果が50%まで低下する。</rules></mainText><br><div class='tooltip-gold'>1100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ファージ</div><mainText><stats>攻撃力<attention>15</attention><br>体力<attention>200</attention></stats><br><li><passive>頑健:</passive> チャンピオンに物理ダメージを与えると、6秒かけて<healing>最大体力の1.6%</healing>を回復する。<br><br><rules>遠隔攻撃チャンピオンは回復効果が50%まで低下する。</rules></mainText><br><div class='tooltip-gold'>1100 Gold</div>"
     },
     "3046": {
       "name": "ファントム ダンサー",
@@ -808,9 +808,9 @@
     },
     "3050": {
       "name": "ジーク コンバージェンス",
-      "desc": "<mainText><stats>体力<attention>250</attention><br>物理防御 <attention>25</attention><br>マナ<attention>250</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><active>発動効果 -</active> <active>パイプ:</active> <attention>協力者</attention>を指定する(クールダウン60秒)。<br><li><passive>コンバージェンス:</passive> 敵に<status>移動不能効果</status>を与えてから8秒間、自身の<attention>協力者</attention>の通常攻撃とスキルが、その敵に追加で<magicDamage>30 - 70(チャンピオンレベルに応じて)(+最大体力の1.5%)(+魔力の7.5%)の魔法ダメージ</magicDamage>を与える。<br><br><rules>チャンピオンは一度に1つの「ジーク コンバージェンス」にしか繋がれない。</rules></mainText><br>",
+      "desc": "<mainText><stats>体力<attention>250</attention><br>物理防御 <attention>35</attention><br>マナ<attention>250</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><active>発動効果 -</active> <active>パイプ:</active> <attention>協力者</attention>を指定する(クールダウン60秒)。<br><li><passive>コンバージェンス:</passive> 敵に<status>移動不能効果</status>を与えてから8秒間、自身の<attention>協力者</attention>の通常攻撃とスキルが、その敵に追加で<magicDamage>30 - 70(チャンピオンレベルに応じて)(+最大体力の1.5%)(+魔力の7.5%)の魔法ダメージ</magicDamage>を与える。<br><br><rules>チャンピオンは一度に1つの「ジーク コンバージェンス」にしか繋がれない。</rules></mainText><br>",
       "gold": 2400,
-      "tooltip": "<div class='tooltip-title'>ジーク コンバージェンス</div><mainText><stats>体力<attention>250</attention><br>物理防御 <attention>25</attention><br>マナ<attention>250</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><active>発動効果 -</active> <active>パイプ:</active> <attention>協力者</attention>を指定する(クールダウン60秒)。<br><li><passive>コンバージェンス:</passive> 敵に<status>移動不能効果</status>を与えてから8秒間、自身の<attention>協力者</attention>の通常攻撃とスキルが、その敵に追加で<magicDamage>30 - 70(チャンピオンレベルに応じて)(+最大体力の1.5%)(+魔力の7.5%)の魔法ダメージ</magicDamage>を与える。<br><br><rules>チャンピオンは一度に1つの「ジーク コンバージェンス」にしか繋がれない。</rules></mainText><br><div class='tooltip-gold'>2400 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ジーク コンバージェンス</div><mainText><stats>体力<attention>250</attention><br>物理防御 <attention>35</attention><br>マナ<attention>250</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><active>発動効果 -</active> <active>パイプ:</active> <attention>協力者</attention>を指定する(クールダウン60秒)。<br><li><passive>コンバージェンス:</passive> 敵に<status>移動不能効果</status>を与えてから8秒間、自身の<attention>協力者</attention>の通常攻撃とスキルが、その敵に追加で<magicDamage>30 - 70(チャンピオンレベルに応じて)(+最大体力の1.5%)(+魔力の7.5%)の魔法ダメージ</magicDamage>を与える。<br><br><rules>チャンピオンは一度に1つの「ジーク コンバージェンス」にしか繋がれない。</rules></mainText><br><div class='tooltip-gold'>2400 Gold</div>"
     },
     "3051": {
       "name": "ハースバウンド アックス",
@@ -820,9 +820,9 @@
     },
     "3053": {
       "name": "ステラックの篭手",
-      "desc": "<mainText><stats>体力<attention>400</attention></stats><br><li><passive>獲物を狙う爪:</passive> 基本攻撃力の40%にあたる増加攻撃力を獲得する。<li><passive>ライフライン:</passive> ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、3.75秒間<shield>増加体力の75%にあたる耐久値のシールド</shield>を得る(60秒 )。</mainText><br>",
+      "desc": "<mainText><stats>体力<attention>400</attention></stats><br><li><passive>獲物を狙う爪:</passive> 基本攻撃力の40%にあたる増加攻撃力を獲得する。<li><passive>ライフライン:</passive> ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、3.75秒間<shield>増加体力の70%にあたる耐久値のシールド</shield>を得る(60秒 )。</mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>ステラックの篭手</div><mainText><stats>体力<attention>400</attention></stats><br><li><passive>獲物を狙う爪:</passive> 基本攻撃力の40%にあたる増加攻撃力を獲得する。<li><passive>ライフライン:</passive> ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、3.75秒間<shield>増加体力の75%にあたる耐久値のシールド</shield>を得る(60秒 )。</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ステラックの篭手</div><mainText><stats>体力<attention>400</attention></stats><br><li><passive>獲物を狙う爪:</passive> 基本攻撃力の40%にあたる増加攻撃力を獲得する。<li><passive>ライフライン:</passive> ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、3.75秒間<shield>増加体力の70%にあたる耐久値のシールド</shield>を得る(60秒 )。</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
     },
     "3057": {
       "name": "シーン",
@@ -832,9 +832,9 @@
     },
     "3065": {
       "name": "スピリット ビサージュ",
-      "desc": "<mainText><stats>体力<attention>450</attention><br>魔法防御<attention>40</attention><br>スキルヘイスト<attention>10</attention><br>基本体力自動回復<attention>100%</attention></stats><br><li><passive>無限の胆力:</passive> 自身が受けるすべての回復効果とシールド耐久値が25%増加する。</mainText><br>",
+      "desc": "<mainText><stats>体力<attention>450</attention><br>魔法防御<attention>50</attention><br>スキルヘイスト<attention>10</attention><br>基本体力自動回復<attention>100%</attention></stats><br><li><passive>無限の胆力:</passive> 自身が受けるすべての回復効果とシールド耐久値が25%増加する。</mainText><br>",
       "gold": 2900,
-      "tooltip": "<div class='tooltip-title'>スピリット ビサージュ</div><mainText><stats>体力<attention>450</attention><br>魔法防御<attention>40</attention><br>スキルヘイスト<attention>10</attention><br>基本体力自動回復<attention>100%</attention></stats><br><li><passive>無限の胆力:</passive> 自身が受けるすべての回復効果とシールド耐久値が25%増加する。</mainText><br><div class='tooltip-gold'>2900 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>スピリット ビサージュ</div><mainText><stats>体力<attention>450</attention><br>魔法防御<attention>50</attention><br>スキルヘイスト<attention>10</attention><br>基本体力自動回復<attention>100%</attention></stats><br><li><passive>無限の胆力:</passive> 自身が受けるすべての回復効果とシールド耐久値が25%増加する。</mainText><br><div class='tooltip-gold'>2900 Gold</div>"
     },
     "3066": {
       "name": "翼のムーンプレート",
@@ -850,9 +850,9 @@
     },
     "3068": {
       "name": "サンファイア イージス",
-      "desc": "<mainText><stats>体力<attention>350</attention><br>物理防御 <attention>35</attention><br>魔法防御<attention>35</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>猛火:</passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(12 - 30(チャンピオンレベルに応じて) + 増加体力の1%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては25%、モンスターに対しては150%増加する)。この効果でチャンピオンまたはエピックモンスターにダメージを与えるとスタックが増加し、それ以降に<passive>「猛火」</passive>で与えるダメージが5秒間12%増加する(最大スタック6)。<li><passive>発火:</passive> <passive>「猛火」</passive>のスタックが最大になると、通常攻撃が周囲の敵を燃やして3秒間<passive>「猛火」</passive>のダメージを毎秒与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 行動妨害耐性とスロウ耐性<attention>5%</attention>、体力<attention>50</attention></mainText><br>",
+      "desc": "<mainText><stats>体力<attention>450</attention><br>物理防御 <attention>35</attention><br>魔法防御<attention>35</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>猛火:</passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(12 - 30(チャンピオンレベルに応じて) + 増加体力の1%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては25%、モンスターに対しては150%増加する)。この効果でチャンピオンまたはエピックモンスターにダメージを与えるとスタックが増加し、それ以降に<passive>「猛火」</passive>で与えるダメージが5秒間10%増加する(最大スタック6)。<li><passive>発火:</passive> <passive>「猛火」</passive>のスタックが最大になると、通常攻撃が周囲の敵を燃やして3秒間<passive>「猛火」</passive>のダメージを毎秒与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 行動妨害耐性とスロウ耐性<attention>5%</attention>、体力<attention>50</attention></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>サンファイア イージス</div><mainText><stats>体力<attention>350</attention><br>物理防御 <attention>35</attention><br>魔法防御<attention>35</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>猛火:</passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(12 - 30(チャンピオンレベルに応じて) + 増加体力の1%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては25%、モンスターに対しては150%増加する)。この効果でチャンピオンまたはエピックモンスターにダメージを与えるとスタックが増加し、それ以降に<passive>「猛火」</passive>で与えるダメージが5秒間12%増加する(最大スタック6)。<li><passive>発火:</passive> <passive>「猛火」</passive>のスタックが最大になると、通常攻撃が周囲の敵を燃やして3秒間<passive>「猛火」</passive>のダメージを毎秒与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 行動妨害耐性とスロウ耐性<attention>5%</attention>、体力<attention>50</attention></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>サンファイア イージス</div><mainText><stats>体力<attention>450</attention><br>物理防御 <attention>35</attention><br>魔法防御<attention>35</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>猛火:</passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(12 - 30(チャンピオンレベルに応じて) + 増加体力の1%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては25%、モンスターに対しては150%増加する)。この効果でチャンピオンまたはエピックモンスターにダメージを与えるとスタックが増加し、それ以降に<passive>「猛火」</passive>で与えるダメージが5秒間10%増加する(最大スタック6)。<li><passive>発火:</passive> <passive>「猛火」</passive>のスタックが最大になると、通常攻撃が周囲の敵を燃やして3秒間<passive>「猛火」</passive>のダメージを毎秒与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 行動妨害耐性とスロウ耐性<attention>5%</attention>、体力<attention>50</attention></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "3070": {
       "name": "女神の涙",
@@ -868,9 +868,9 @@
     },
     "3072": {
       "name": "ブラッドサースター",
-      "desc": "<mainText><stats>攻撃力<attention>55</attention><br>クリティカル率<attention>20%</attention><br>ライフ スティール<attention>20%</attention></stats><br><li><passive>イコルシールド:</passive> 通常攻撃によるライフスティールで最大体力を超えて回復できる。体力回復の余剰分は、<shield>耐久値50 - 350(チャンピオンレベルに応じて)のシールド</shield>として蓄積される。このシールドは、非戦闘状態が25秒間続くと、徐々に減衰する。</mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>55</attention><br>クリティカル率<attention>20%</attention><br>ライフ スティール<attention>18%</attention></stats><br><li><passive>イコルシールド:</passive> 通常攻撃によるライフスティールで最大体力を超えて回復できる。体力回復の余剰分は、<shield>耐久値50 - 320(チャンピオンレベルに応じて)のシールド</shield>として蓄積される。このシールドは、非戦闘状態が25秒間続くと、徐々に減衰する。</mainText><br>",
       "gold": 3400,
-      "tooltip": "<div class='tooltip-title'>ブラッドサースター</div><mainText><stats>攻撃力<attention>55</attention><br>クリティカル率<attention>20%</attention><br>ライフ スティール<attention>20%</attention></stats><br><li><passive>イコルシールド:</passive> 通常攻撃によるライフスティールで最大体力を超えて回復できる。体力回復の余剰分は、<shield>耐久値50 - 350(チャンピオンレベルに応じて)のシールド</shield>として蓄積される。このシールドは、非戦闘状態が25秒間続くと、徐々に減衰する。</mainText><br><div class='tooltip-gold'>3400 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ブラッドサースター</div><mainText><stats>攻撃力<attention>55</attention><br>クリティカル率<attention>20%</attention><br>ライフ スティール<attention>18%</attention></stats><br><li><passive>イコルシールド:</passive> 通常攻撃によるライフスティールで最大体力を超えて回復できる。体力回復の余剰分は、<shield>耐久値50 - 320(チャンピオンレベルに応じて)のシールド</shield>として蓄積される。このシールドは、非戦闘状態が25秒間続くと、徐々に減衰する。</mainText><br><div class='tooltip-gold'>3400 Gold</div>"
     },
     "3074": {
       "name": "ラヴァナス ハイドラ",
@@ -880,15 +880,15 @@
     },
     "3075": {
       "name": "ソーンメイル",
-      "desc": "<mainText><stats>体力<attention>350</attention><br>物理防御 <attention>60</attention></stats><br><li><passive>棘:</passive> 通常攻撃を受けると、攻撃者に<magicDamage>(10 + 増加物理防御の10%)の魔法ダメージ</magicDamage>を与え、対象がチャンピオンだった場合は3秒間40%の<status>「重傷」</status>を付与する。また、敵チャンピオンに移動不能効果を与えると、3秒間60%の<status>「重傷」</status>を与える。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br>",
+      "desc": "<mainText><stats>体力<attention>350</attention><br>物理防御 <attention>60</attention></stats><br><li><passive>棘:</passive> 通常攻撃を受けると、攻撃者に<magicDamage>(10 + 増加物理防御の20%)の魔法ダメージ</magicDamage>を与え、対象がチャンピオンだった場合は3秒間25%の<status>「重傷」</status>を付与する。また、敵チャンピオンに移動不能効果を与えると、3秒間40%の<status>「重傷」</status>を与える。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br>",
       "gold": 2700,
-      "tooltip": "<div class='tooltip-title'>ソーンメイル</div><mainText><stats>体力<attention>350</attention><br>物理防御 <attention>60</attention></stats><br><li><passive>棘:</passive> 通常攻撃を受けると、攻撃者に<magicDamage>(10 + 増加物理防御の10%)の魔法ダメージ</magicDamage>を与え、対象がチャンピオンだった場合は3秒間40%の<status>「重傷」</status>を付与する。また、敵チャンピオンに移動不能効果を与えると、3秒間60%の<status>「重傷」</status>を与える。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br><div class='tooltip-gold'>2700 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ソーンメイル</div><mainText><stats>体力<attention>350</attention><br>物理防御 <attention>60</attention></stats><br><li><passive>棘:</passive> 通常攻撃を受けると、攻撃者に<magicDamage>(10 + 増加物理防御の20%)の魔法ダメージ</magicDamage>を与え、対象がチャンピオンだった場合は3秒間25%の<status>「重傷」</status>を付与する。また、敵チャンピオンに移動不能効果を与えると、3秒間40%の<status>「重傷」</status>を与える。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br><div class='tooltip-gold'>2700 Gold</div>"
     },
     "3076": {
       "name": "ブランブル ベスト",
-      "desc": "<mainText><stats>物理防御 <attention>30</attention></stats><br><li><passive>棘:</passive> 通常攻撃を受けると、攻撃者に<magicDamage>3の魔法ダメージ</magicDamage>を与え、対象がチャンピオンだった場合は3秒間<status>40%の「重傷」</status>を付与する。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br>",
+      "desc": "<mainText><stats>物理防御 <attention>30</attention></stats><br><li><passive>棘:</passive> 通常攻撃を受けると、攻撃者に<magicDamage>4の魔法ダメージ</magicDamage>を与え、対象がチャンピオンだった場合は3秒間<status>25%の「重傷」</status>を付与する。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br>",
       "gold": 800,
-      "tooltip": "<div class='tooltip-title'>ブランブル ベスト</div><mainText><stats>物理防御 <attention>30</attention></stats><br><li><passive>棘:</passive> 通常攻撃を受けると、攻撃者に<magicDamage>3の魔法ダメージ</magicDamage>を与え、対象がチャンピオンだった場合は3秒間<status>40%の「重傷」</status>を付与する。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br><div class='tooltip-gold'>800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ブランブル ベスト</div><mainText><stats>物理防御 <attention>30</attention></stats><br><li><passive>棘:</passive> 通常攻撃を受けると、攻撃者に<magicDamage>4の魔法ダメージ</magicDamage>を与え、対象がチャンピオンだった場合は3秒間<status>25%の「重傷」</status>を付与する。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br><div class='tooltip-gold'>800 Gold</div>"
     },
     "3077": {
       "name": "ティアマット",
@@ -970,9 +970,9 @@
     },
     "3107": {
       "name": "リデンプション",
-      "desc": "<mainText><stats>回復効果およびシールド量<attention>20%</attention><br>体力<attention>200</attention><br>スキルヘイスト<attention>15</attention><br>基本マナ自動回復<attention>100%</attention></stats><br><br><active>発動効果 -</active> <active>介入:</active> 射程5500以内の一定範囲を指定する。2.5秒後に光が天から降り注ぎ、味方の<healing>体力を200 - 400(味方のチャンピオンレベルに応じて)</healing>回復し、敵チャンピオンを燃やして<trueDamage>最大体力の10%の確定ダメージ</trueDamage>を与える(クールダウン90秒)。<br><br><rules>アイテムは死亡中でも使用できる。対象が直前に別の<active>「介入」</active>の効果を受けていた場合は、ダメージおよび回復効果が50%低下する。レベルによる効果の増加量は味方のレベルに応じて決まる。</rules></mainText><br>",
+      "desc": "<mainText><stats>回復効果およびシールド量<attention>20%</attention><br>体力<attention>200</attention><br>スキルヘイスト<attention>15</attention><br>基本マナ自動回復<attention>100%</attention></stats><br><br><active>発動効果 -</active> <active>介入:</active> 射程5500以内の一定範囲を指定する。2.5秒後に光が天から降り注ぎ、味方の<healing>体力を180 - 340(味方のチャンピオンレベルに応じて)</healing>回復し、敵チャンピオンを燃やして<trueDamage>最大体力の10%の確定ダメージ</trueDamage>を与える(クールダウン90秒)。<br><br><rules>アイテムは死亡中でも使用できる。対象が直前に別の<active>「介入」</active>の効果を受けていた場合は、ダメージおよび回復効果が50%低下する。レベルによる効果の増加量は味方のレベルに応じて決まる。</rules></mainText><br>",
       "gold": 2300,
-      "tooltip": "<div class='tooltip-title'>リデンプション</div><mainText><stats>回復効果およびシールド量<attention>20%</attention><br>体力<attention>200</attention><br>スキルヘイスト<attention>15</attention><br>基本マナ自動回復<attention>100%</attention></stats><br><br><active>発動効果 -</active> <active>介入:</active> 射程5500以内の一定範囲を指定する。2.5秒後に光が天から降り注ぎ、味方の<healing>体力を200 - 400(味方のチャンピオンレベルに応じて)</healing>回復し、敵チャンピオンを燃やして<trueDamage>最大体力の10%の確定ダメージ</trueDamage>を与える(クールダウン90秒)。<br><br><rules>アイテムは死亡中でも使用できる。対象が直前に別の<active>「介入」</active>の効果を受けていた場合は、ダメージおよび回復効果が50%低下する。レベルによる効果の増加量は味方のレベルに応じて決まる。</rules></mainText><br><div class='tooltip-gold'>2300 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>リデンプション</div><mainText><stats>回復効果およびシールド量<attention>20%</attention><br>体力<attention>200</attention><br>スキルヘイスト<attention>15</attention><br>基本マナ自動回復<attention>100%</attention></stats><br><br><active>発動効果 -</active> <active>介入:</active> 射程5500以内の一定範囲を指定する。2.5秒後に光が天から降り注ぎ、味方の<healing>体力を180 - 340(味方のチャンピオンレベルに応じて)</healing>回復し、敵チャンピオンを燃やして<trueDamage>最大体力の10%の確定ダメージ</trueDamage>を与える(クールダウン90秒)。<br><br><rules>アイテムは死亡中でも使用できる。対象が直前に別の<active>「介入」</active>の効果を受けていた場合は、ダメージおよび回復効果が50%低下する。レベルによる効果の増加量は味方のレベルに応じて決まる。</rules></mainText><br><div class='tooltip-gold'>2300 Gold</div>"
     },
     "3108": {
       "name": "フィンディッシュの古書",
@@ -982,9 +982,9 @@
     },
     "3109": {
       "name": "騎士の誓い",
-      "desc": "<mainText><stats>体力<attention>400</attention><br>スキルヘイスト<attention>10</attention><br>基本体力自動回復<attention>200%</attention></stats><br><br><active>発動効果 -</active> <active>誓約:</active> 味方を<attention>同志</attention>に指定する(クールダウン60秒)。<br><li><passive>犠牲:</passive> 味方の<attention>同志</attention>が近くにいる間は、その味方が受けるダメージの10%を代わりに受け、また<attention>同志</attention>がチャンピオンに与えたダメージの8%にあたる体力を回復する。<attention>同志</attention>の体力が30%未満だった場合は、ダメージ軽減効果が<attention>20%</attention>まで増加する。<br><br><rules>各チャンピオンは一度に1つの「騎士の誓い」としかリンクできない。自身の体力が30%未満になると、ダメージを代わりに受けなくなる。</rules></mainText><br>",
+      "desc": "<mainText><stats>体力<attention>400</attention><br>スキルヘイスト<attention>20</attention><br>基本体力自動回復<attention>200%</attention></stats><br><br><active>発動効果 -</active> <active>誓約:</active> 味方を<attention>同志</attention>に指定する(クールダウン60秒)。<br><li><passive>犠牲:</passive> 味方の<attention>同志</attention>が近くにいる間は、その味方が受けるダメージの10%を代わりに受け、また<attention>同志</attention>がチャンピオンに与えたダメージの7%にあたる体力を回復する。<attention>同志</attention>の体力が30%未満だった場合は、ダメージ軽減効果が<attention>20%</attention>まで増加する。<br><br><rules>各チャンピオンは一度に1つの「騎士の誓い」としかリンクできない。自身の体力が30%未満になると、ダメージを代わりに受けなくなる。</rules></mainText><br>",
       "gold": 2300,
-      "tooltip": "<div class='tooltip-title'>騎士の誓い</div><mainText><stats>体力<attention>400</attention><br>スキルヘイスト<attention>10</attention><br>基本体力自動回復<attention>200%</attention></stats><br><br><active>発動効果 -</active> <active>誓約:</active> 味方を<attention>同志</attention>に指定する(クールダウン60秒)。<br><li><passive>犠牲:</passive> 味方の<attention>同志</attention>が近くにいる間は、その味方が受けるダメージの10%を代わりに受け、また<attention>同志</attention>がチャンピオンに与えたダメージの8%にあたる体力を回復する。<attention>同志</attention>の体力が30%未満だった場合は、ダメージ軽減効果が<attention>20%</attention>まで増加する。<br><br><rules>各チャンピオンは一度に1つの「騎士の誓い」としかリンクできない。自身の体力が30%未満になると、ダメージを代わりに受けなくなる。</rules></mainText><br><div class='tooltip-gold'>2300 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>騎士の誓い</div><mainText><stats>体力<attention>400</attention><br>スキルヘイスト<attention>20</attention><br>基本体力自動回復<attention>200%</attention></stats><br><br><active>発動効果 -</active> <active>誓約:</active> 味方を<attention>同志</attention>に指定する(クールダウン60秒)。<br><li><passive>犠牲:</passive> 味方の<attention>同志</attention>が近くにいる間は、その味方が受けるダメージの10%を代わりに受け、また<attention>同志</attention>がチャンピオンに与えたダメージの7%にあたる体力を回復する。<attention>同志</attention>の体力が30%未満だった場合は、ダメージ軽減効果が<attention>20%</attention>まで増加する。<br><br><rules>各チャンピオンは一度に1つの「騎士の誓い」としかリンクできない。自身の体力が30%未満になると、ダメージを代わりに受けなくなる。</rules></mainText><br><div class='tooltip-gold'>2300 Gold</div>"
     },
     "3110": {
       "name": "フローズン ハート",
@@ -1042,15 +1042,15 @@
     },
     "3121": {
       "name": "フィンブルウィンター",
-      "desc": "<mainText><stats>体力<attention>350</attention><br>マナ<attention>860</attention><br>スキルヘイスト<attention>15</attention></stats><li><passive>畏怖:</passive> 追加で<scaleHealth>合計マナの8%にあたる体力</scaleHealth>を獲得する。<li><passive>不朽:</passive> 敵チャンピオンに<status>移動不能効果</status>または<status>スロウ効果</status>(近接のみ)を与えると、<scaleMana>現在マナの3%</scaleMana>を消費して、3秒間、耐久値<scaleMana>100 - 200 + 現在マナの5%</scaleMana>のシールドを獲得する(8秒)。周囲に敵チャンピオンが複数いる場合は、このシールドの耐久値が<attention>80%</attention>増加する。<br><br><rules>この効果は残りマナが20%を上回っていなければ発動しない。</rules></mainText><br>",
+      "desc": "<mainText><stats>体力<attention>350</attention><br>マナ<attention>860</attention><br>スキルヘイスト<attention>15</attention></stats><li><passive>畏怖:</passive> 追加で<scaleHealth>合計マナの8%にあたる体力</scaleHealth>を獲得する。<li><passive>不朽:</passive> 敵チャンピオンに<status>移動不能効果</status>または<status>スロウ効果</status>(近接のみ)を与えると、<scaleMana>現在マナの3%</scaleMana>を消費して、3秒間、耐久値<scaleMana>100 - 180 + 現在マナの4.5%</scaleMana>のシールドを獲得する(8秒)。周囲に敵チャンピオンが複数いる場合は、このシールドの耐久値が<attention>80%</attention>増加する。<br><br><rules>この効果は残りマナが20%を上回っていなければ発動しない。</rules></mainText><br>",
       "gold": 2700,
-      "tooltip": "<div class='tooltip-title'>フィンブルウィンター</div><mainText><stats>体力<attention>350</attention><br>マナ<attention>860</attention><br>スキルヘイスト<attention>15</attention></stats><li><passive>畏怖:</passive> 追加で<scaleHealth>合計マナの8%にあたる体力</scaleHealth>を獲得する。<li><passive>不朽:</passive> 敵チャンピオンに<status>移動不能効果</status>または<status>スロウ効果</status>(近接のみ)を与えると、<scaleMana>現在マナの3%</scaleMana>を消費して、3秒間、耐久値<scaleMana>100 - 200 + 現在マナの5%</scaleMana>のシールドを獲得する(8秒)。周囲に敵チャンピオンが複数いる場合は、このシールドの耐久値が<attention>80%</attention>増加する。<br><br><rules>この効果は残りマナが20%を上回っていなければ発動しない。</rules></mainText><br><div class='tooltip-gold'>2700 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>フィンブルウィンター</div><mainText><stats>体力<attention>350</attention><br>マナ<attention>860</attention><br>スキルヘイスト<attention>15</attention></stats><li><passive>畏怖:</passive> 追加で<scaleHealth>合計マナの8%にあたる体力</scaleHealth>を獲得する。<li><passive>不朽:</passive> 敵チャンピオンに<status>移動不能効果</status>または<status>スロウ効果</status>(近接のみ)を与えると、<scaleMana>現在マナの3%</scaleMana>を消費して、3秒間、耐久値<scaleMana>100 - 180 + 現在マナの4.5%</scaleMana>のシールドを獲得する(8秒)。周囲に敵チャンピオンが複数いる場合は、このシールドの耐久値が<attention>80%</attention>増加する。<br><br><rules>この効果は残りマナが20%を上回っていなければ発動しない。</rules></mainText><br><div class='tooltip-gold'>2700 Gold</div>"
     },
     "3123": {
       "name": "エクスキューショナー コーリング",
-      "desc": "<mainText><stats>攻撃力<attention>15</attention></stats><br><li><passive>切り裂き:</passive> チャンピオンに物理ダメージを与えると、3秒間<status>40%の「重傷」</status>を付与する。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>20</attention></stats><br><li><passive>切り裂き:</passive> チャンピオンに物理ダメージを与えると、3秒間<status>25%の「重傷」</status>を付与する。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br>",
       "gold": 800,
-      "tooltip": "<div class='tooltip-title'>エクスキューショナー コーリング</div><mainText><stats>攻撃力<attention>15</attention></stats><br><li><passive>切り裂き:</passive> チャンピオンに物理ダメージを与えると、3秒間<status>40%の「重傷」</status>を付与する。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br><div class='tooltip-gold'>800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>エクスキューショナー コーリング</div><mainText><stats>攻撃力<attention>20</attention></stats><br><li><passive>切り裂き:</passive> チャンピオンに物理ダメージを与えると、3秒間<status>25%の「重傷」</status>を付与する。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br><div class='tooltip-gold'>800 Gold</div>"
     },
     "3124": {
       "name": "グインソー レイジブレード",
@@ -1072,9 +1072,9 @@
     },
     "3135": {
       "name": "ヴォイド スタッフ",
-      "desc": "<mainText><stats>魔力<attention>65</attention><br>魔法防御貫通<attention>45%</attention></stats></mainText><br>",
+      "desc": "<mainText><stats>魔力<attention>65</attention><br>魔法防御貫通<attention>40%</attention></stats></mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>ヴォイド スタッフ</div><mainText><stats>魔力<attention>65</attention><br>魔法防御貫通<attention>45%</attention></stats></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ヴォイド スタッフ</div><mainText><stats>魔力<attention>65</attention><br>魔法防御貫通<attention>40%</attention></stats></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
     },
     "3139": {
       "name": "マーキュリアル シミター",
@@ -1096,9 +1096,9 @@
     },
     "3143": {
       "name": "ランデュイン オーメン",
-      "desc": "<mainText><stats>体力<attention>250</attention><br>物理防御 <attention>80</attention><br>スキルヘイスト<attention>10</attention></stats><br><br><active>発動効果 -</active> <active>卑下:</active> 少しの間、周囲の敵に<status>スロウ効果</status>を与え、4秒間<scaleAD>攻撃力</scaleAD>を10%、クリティカルダメージを20%低下させる(クールダウン60秒)。<br><li><passive>岩より固く:</passive> 通常攻撃で受けるダメージを最大で5 + (最大体力の0.35%)軽減する。通常攻撃のダメージの40%が上限。</mainText><br>",
+      "desc": "<mainText><stats>体力<attention>250</attention><br>物理防御 <attention>90</attention><br>スキルヘイスト<attention>10</attention></stats><br><br><active>発動効果 -</active> <active>卑下:</active> 少しの間、周囲の敵に<status>スロウ効果</status>を与え、4秒間<scaleAD>攻撃力</scaleAD>を10%、クリティカルダメージを20%低下させる(クールダウン60秒)。<br><li><passive>岩より固く:</passive> 通常攻撃で受けるダメージを最大で5 + (最大体力の0.35%)軽減する。通常攻撃のダメージの40%が上限。</mainText><br>",
       "gold": 2700,
-      "tooltip": "<div class='tooltip-title'>ランデュイン オーメン</div><mainText><stats>体力<attention>250</attention><br>物理防御 <attention>80</attention><br>スキルヘイスト<attention>10</attention></stats><br><br><active>発動効果 -</active> <active>卑下:</active> 少しの間、周囲の敵に<status>スロウ効果</status>を与え、4秒間<scaleAD>攻撃力</scaleAD>を10%、クリティカルダメージを20%低下させる(クールダウン60秒)。<br><li><passive>岩より固く:</passive> 通常攻撃で受けるダメージを最大で5 + (最大体力の0.35%)軽減する。通常攻撃のダメージの40%が上限。</mainText><br><div class='tooltip-gold'>2700 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ランデュイン オーメン</div><mainText><stats>体力<attention>250</attention><br>物理防御 <attention>90</attention><br>スキルヘイスト<attention>10</attention></stats><br><br><active>発動効果 -</active> <active>卑下:</active> 少しの間、周囲の敵に<status>スロウ効果</status>を与え、4秒間<scaleAD>攻撃力</scaleAD>を10%、クリティカルダメージを20%低下させる(クールダウン60秒)。<br><li><passive>岩より固く:</passive> 通常攻撃で受けるダメージを最大で5 + (最大体力の0.35%)軽減する。通常攻撃のダメージの40%が上限。</mainText><br><div class='tooltip-gold'>2700 Gold</div>"
     },
     "3145": {
       "name": "ヘクステック オルタネーター",
@@ -1108,9 +1108,9 @@
     },
     "3152": {
       "name": "ヘクステック ロケットベルト",
-      "desc": "<mainText><stats>魔力<attention>90</attention><br>魔法防御貫通<attention>6</attention><br>体力<attention>250</attention><br>スキルヘイスト<attention>15</attention></stats><br><br><active>発動効果 -</active> <active>超音速:</active> 指定方向にダッシュして扇状に魔弾を放ち、<magicDamage>(125 + 魔力の15%)の魔法ダメージ</magicDamage>を与える。その後1.5秒間、敵チャンピオンに向かう際に<speed>移動速度が30%</speed>増加する(クールダウン40秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 魔法防御貫通<attention>5</attention><br><br><rules>「超音速」のダッシュは地形を越えられない。</rules></mainText><br>",
+      "desc": "<mainText><stats>魔力<attention>90</attention><br>魔法防御貫通<attention>10</attention><br>体力<attention>250</attention><br>スキルヘイスト<attention>15</attention></stats><br><br><active>発動効果 -</active> <active>超音速:</active> 指定方向にダッシュして扇状に魔弾を放ち、<magicDamage>(125 + 魔力の15%)の魔法ダメージ</magicDamage>を与える。その後1.5秒間、敵チャンピオンに向かう際に<speed>移動速度が30%</speed>増加する(クールダウン40秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 魔法防御貫通<attention>5</attention><br><br><rules>「超音速」のダッシュは地形を越えられない。</rules></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>ヘクステック ロケットベルト</div><mainText><stats>魔力<attention>90</attention><br>魔法防御貫通<attention>6</attention><br>体力<attention>250</attention><br>スキルヘイスト<attention>15</attention></stats><br><br><active>発動効果 -</active> <active>超音速:</active> 指定方向にダッシュして扇状に魔弾を放ち、<magicDamage>(125 + 魔力の15%)の魔法ダメージ</magicDamage>を与える。その後1.5秒間、敵チャンピオンに向かう際に<speed>移動速度が30%</speed>増加する(クールダウン40秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 魔法防御貫通<attention>5</attention><br><br><rules>「超音速」のダッシュは地形を越えられない。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ヘクステック ロケットベルト</div><mainText><stats>魔力<attention>90</attention><br>魔法防御貫通<attention>10</attention><br>体力<attention>250</attention><br>スキルヘイスト<attention>15</attention></stats><br><br><active>発動効果 -</active> <active>超音速:</active> 指定方向にダッシュして扇状に魔弾を放ち、<magicDamage>(125 + 魔力の15%)の魔法ダメージ</magicDamage>を与える。その後1.5秒間、敵チャンピオンに向かう際に<speed>移動速度が30%</speed>増加する(クールダウン40秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 魔法防御貫通<attention>5</attention><br><br><rules>「超音速」のダッシュは地形を越えられない。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "3153": {
       "name": "ルインドキング ブレード",
@@ -1126,9 +1126,9 @@
     },
     "3156": {
       "name": "マルモティウスの胃袋",
-      "desc": "<mainText><stats>攻撃力<attention>55</attention><br>魔法防御<attention>50</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>ライフライン:</passive> 魔法ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、5秒間<shield>(200 + 増加攻撃力の225%[遠隔攻撃チャンピオンはシールド耐久値が75%に低下])の魔法ダメージを防ぐシールド</shield>を得る(クールダウン60秒)。<passive>「ライフライン」</passive>が発動すると、戦闘終了まで<lifeSteal>12%のオムニヴァンプ</lifeSteal>を獲得する。  </mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>55</attention><br>魔法防御<attention>50</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>ライフライン:</passive> 魔法ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、5秒間<shield>(200 + 増加攻撃力の225%[遠隔攻撃チャンピオンはシールド耐久値が75%に低下])の魔法ダメージを防ぐシールド</shield>を得る(クールダウン75秒)。<passive>「ライフライン」</passive>が発動すると、戦闘終了まで<lifeSteal>10%のオムニヴァンプ</lifeSteal>を獲得する。  </mainText><br>",
       "gold": 2900,
-      "tooltip": "<div class='tooltip-title'>マルモティウスの胃袋</div><mainText><stats>攻撃力<attention>55</attention><br>魔法防御<attention>50</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>ライフライン:</passive> 魔法ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、5秒間<shield>(200 + 増加攻撃力の225%[遠隔攻撃チャンピオンはシールド耐久値が75%に低下])の魔法ダメージを防ぐシールド</shield>を得る(クールダウン60秒)。<passive>「ライフライン」</passive>が発動すると、戦闘終了まで<lifeSteal>12%のオムニヴァンプ</lifeSteal>を獲得する。  </mainText><br><div class='tooltip-gold'>2900 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>マルモティウスの胃袋</div><mainText><stats>攻撃力<attention>55</attention><br>魔法防御<attention>50</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>ライフライン:</passive> 魔法ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、5秒間<shield>(200 + 増加攻撃力の225%[遠隔攻撃チャンピオンはシールド耐久値が75%に低下])の魔法ダメージを防ぐシールド</shield>を得る(クールダウン75秒)。<passive>「ライフライン」</passive>が発動すると、戦闘終了まで<lifeSteal>10%のオムニヴァンプ</lifeSteal>を獲得する。  </mainText><br><div class='tooltip-gold'>2900 Gold</div>"
     },
     "3157": {
       "name": "ゾーニャの砂時計",
@@ -1144,9 +1144,9 @@
     },
     "3165": {
       "name": "モレロノミコン",
-      "desc": "<mainText><stats>魔力<attention>80</attention><br>体力<attention>250</attention></stats><br><li><passive>苦痛:</passive> 敵チャンピオンに魔法ダメージを与えると、3秒間<status>40%の「重傷」</status>を付与する。対象の体力が50%未満だった場合は、この効果が<status>60%の「重傷」</status>に強化される。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br>",
+      "desc": "<mainText><stats>魔力<attention>90</attention><br>体力<attention>300</attention></stats><br><li><passive>苦痛:</passive> 敵チャンピオンに魔法ダメージを与えると、3秒間<status>25%の「重傷」</status>を付与する。対象の体力が50%未満だった場合は、この効果が<status>40%の「重傷」</status>に強化される。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br>",
       "gold": 2500,
-      "tooltip": "<div class='tooltip-title'>モレロノミコン</div><mainText><stats>魔力<attention>80</attention><br>体力<attention>250</attention></stats><br><li><passive>苦痛:</passive> 敵チャンピオンに魔法ダメージを与えると、3秒間<status>40%の「重傷」</status>を付与する。対象の体力が50%未満だった場合は、この効果が<status>60%の「重傷」</status>に強化される。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>モレロノミコン</div><mainText><stats>魔力<attention>90</attention><br>体力<attention>300</attention></stats><br><li><passive>苦痛:</passive> 敵チャンピオンに魔法ダメージを与えると、3秒間<status>25%の「重傷」</status>を付与する。対象の体力が50%未満だった場合は、この効果が<status>40%の「重傷」</status>に強化される。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
     },
     "3177": {
       "name": "ガーディアン ブレード",
@@ -1156,15 +1156,15 @@
     },
     "3179": {
       "name": "アンブラル グレイブ",
-      "desc": "<mainText><stats>攻撃力<attention>50</attention><br>脅威<attention>10</attention><br>スキルヘイスト<attention>15</attention></stats><br><li><passive>ブラックアウト:</passive> 敵のワードに発見されると8秒間周囲にある罠を可視化してワードを無効化する(クールダウン35秒)。通常攻撃が可視化したトラップを即座に破壊し、ワードには3倍のダメージを与える。</mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>50</attention><br>脅威<attention>10</attention><br>スキルヘイスト<attention>15</attention></stats><br><li><passive>ブラックアウト:</passive> 敵のワードに発見されると8秒間周囲にある罠を可視化してワードを無効化する(クールダウン40秒)。通常攻撃が可視化したトラップを即座に破壊し、ワードには3倍のダメージを与える。</mainText><br>",
       "gold": 2300,
-      "tooltip": "<div class='tooltip-title'>アンブラル グレイブ</div><mainText><stats>攻撃力<attention>50</attention><br>脅威<attention>10</attention><br>スキルヘイスト<attention>15</attention></stats><br><li><passive>ブラックアウト:</passive> 敵のワードに発見されると8秒間周囲にある罠を可視化してワードを無効化する(クールダウン35秒)。通常攻撃が可視化したトラップを即座に破壊し、ワードには3倍のダメージを与える。</mainText><br><div class='tooltip-gold'>2300 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>アンブラル グレイブ</div><mainText><stats>攻撃力<attention>50</attention><br>脅威<attention>10</attention><br>スキルヘイスト<attention>15</attention></stats><br><li><passive>ブラックアウト:</passive> 敵のワードに発見されると8秒間周囲にある罠を可視化してワードを無効化する(クールダウン40秒)。通常攻撃が可視化したトラップを即座に破壊し、ワードには3倍のダメージを与える。</mainText><br><div class='tooltip-gold'>2300 Gold</div>"
     },
     "3181": {
       "name": "ハルブレイカー",
-      "desc": "<mainText><stats>攻撃力<attention>50</attention><br>体力<attention>400</attention><br>基本体力自動回復<attention>150%</attention></stats><br><li><passive>乗船部隊:</passive> 周囲に味方チャンピオンがいない場合はの<scaleArmor>物理防御</scaleArmor>と<scaleMR>魔法防御</scaleMR>が20 - 45増加し、タワーに与えるダメージが20%増加する。周囲の大型ミニオンは<scaleArmor>物理防御</scaleArmor>と<scaleMR>魔法防御</scaleMR>が60 - 135増加し、タワーに与えるダメージが200%増加する。<br><br><rules>「乗船部隊」の防御力は味方が近づきすぎると3秒かけて元に戻る。</rules><br></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>50</attention><br>体力<attention>400</attention><br>基本体力自動回復<attention>150%</attention></stats><br><br><li><passive>乗船部隊:</passive> 周囲に味方チャンピオンがいない場合は<scaleArmor>物理防御</scaleArmor>と<scaleMR>魔法防御</scaleMR>が(10 - 75 / 5 - 37.5)増加し、通常攻撃でタワーに与えるダメージが20%増加する。周囲の大型ミニオンは<scaleArmor>物理防御</scaleArmor>と<scaleMR>魔法防御</scaleMR>が(30 - 225 / 15 - 112.5)増加し、タワーに与えるダメージが200%増加する。<br><br><rules>「乗船部隊」の防御力は味方が近づきすぎると3秒かけて元に戻る。</rules><br></mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>ハルブレイカー</div><mainText><stats>攻撃力<attention>50</attention><br>体力<attention>400</attention><br>基本体力自動回復<attention>150%</attention></stats><br><li><passive>乗船部隊:</passive> 周囲に味方チャンピオンがいない場合はの<scaleArmor>物理防御</scaleArmor>と<scaleMR>魔法防御</scaleMR>が20 - 45増加し、タワーに与えるダメージが20%増加する。周囲の大型ミニオンは<scaleArmor>物理防御</scaleArmor>と<scaleMR>魔法防御</scaleMR>が60 - 135増加し、タワーに与えるダメージが200%増加する。<br><br><rules>「乗船部隊」の防御力は味方が近づきすぎると3秒かけて元に戻る。</rules><br></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ハルブレイカー</div><mainText><stats>攻撃力<attention>50</attention><br>体力<attention>400</attention><br>基本体力自動回復<attention>150%</attention></stats><br><br><li><passive>乗船部隊:</passive> 周囲に味方チャンピオンがいない場合は<scaleArmor>物理防御</scaleArmor>と<scaleMR>魔法防御</scaleMR>が(10 - 75 / 5 - 37.5)増加し、通常攻撃でタワーに与えるダメージが20%増加する。周囲の大型ミニオンは<scaleArmor>物理防御</scaleArmor>と<scaleMR>魔法防御</scaleMR>が(30 - 225 / 15 - 112.5)増加し、タワーに与えるダメージが200%増加する。<br><br><rules>「乗船部隊」の防御力は味方が近づきすぎると3秒かけて元に戻る。</rules><br></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
     },
     "3184": {
       "name": "ガーディアン ハンマー",
@@ -1174,9 +1174,9 @@
     },
     "3190": {
       "name": "ソラリのロケット",
-      "desc": "<mainText><stats>体力<attention>200</attention><br>スキルヘイスト<attention>20</attention><br>物理防御 <attention>30</attention><br>魔法防御<attention>30</attention></stats><br><br><active>発動効果 -</active> <active>献身:</active> 周囲の味方に<shield>耐久値200 - 365(味方のチャンピオンレベルに応じて)のシールド</shield>を付与する。シールドは2.5秒かけて徐々に元に戻る(クールダウン90秒)。 <br><li><passive>奉献:</passive> 周囲の味方チャンピオンに<scaleArmor>3の物理防御</scaleArmor>と同量の<scaleMR>魔法防御</scaleMR>を付与する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: <attention>2</attention>の物理防御 / 魔法防御を<passive>「奉献」</passive>の効果に追加<br><br><rules>レベルによる効果の増加量は味方のレベルに応じて決まる。<br>20秒以内に連続で<active>「献身」</active>の効果を受ける場合、2回目以降のシールド耐久値は25%となる。</rules></mainText><br>",
+      "desc": "<mainText><stats>体力<attention>200</attention><br>スキルヘイスト<attention>20</attention><br>物理防御 <attention>30</attention><br>魔法防御<attention>30</attention></stats><br><br><active>発動効果 -</active> <active>献身:</active> 周囲の味方に<shield>耐久値180 - 330(味方のチャンピオンレベルに応じて)のシールド</shield>を付与する。シールドは2.5秒かけて徐々に元に戻る(クールダウン90秒)。 <br><li><passive>奉献:</passive> 周囲の味方チャンピオンに<scaleArmor>3の物理防御</scaleArmor>と同量の<scaleMR>魔法防御</scaleMR>を付与する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: <attention>2</attention>の物理防御 / 魔法防御を<passive>「奉献」</passive>の効果に追加<br><br><rules>レベルによる効果の増加量は味方のレベルに応じて決まる。<br>20秒以内に連続で<active>「献身」</active>の効果を受ける場合、2回目以降のシールド耐久値は25%となる。</rules></mainText><br>",
       "gold": 2500,
-      "tooltip": "<div class='tooltip-title'>ソラリのロケット</div><mainText><stats>体力<attention>200</attention><br>スキルヘイスト<attention>20</attention><br>物理防御 <attention>30</attention><br>魔法防御<attention>30</attention></stats><br><br><active>発動効果 -</active> <active>献身:</active> 周囲の味方に<shield>耐久値200 - 365(味方のチャンピオンレベルに応じて)のシールド</shield>を付与する。シールドは2.5秒かけて徐々に元に戻る(クールダウン90秒)。 <br><li><passive>奉献:</passive> 周囲の味方チャンピオンに<scaleArmor>3の物理防御</scaleArmor>と同量の<scaleMR>魔法防御</scaleMR>を付与する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: <attention>2</attention>の物理防御 / 魔法防御を<passive>「奉献」</passive>の効果に追加<br><br><rules>レベルによる効果の増加量は味方のレベルに応じて決まる。<br>20秒以内に連続で<active>「献身」</active>の効果を受ける場合、2回目以降のシールド耐久値は25%となる。</rules></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ソラリのロケット</div><mainText><stats>体力<attention>200</attention><br>スキルヘイスト<attention>20</attention><br>物理防御 <attention>30</attention><br>魔法防御<attention>30</attention></stats><br><br><active>発動効果 -</active> <active>献身:</active> 周囲の味方に<shield>耐久値180 - 330(味方のチャンピオンレベルに応じて)のシールド</shield>を付与する。シールドは2.5秒かけて徐々に元に戻る(クールダウン90秒)。 <br><li><passive>奉献:</passive> 周囲の味方チャンピオンに<scaleArmor>3の物理防御</scaleArmor>と同量の<scaleMR>魔法防御</scaleMR>を付与する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: <attention>2</attention>の物理防御 / 魔法防御を<passive>「奉献」</passive>の効果に追加<br><br><rules>レベルによる効果の増加量は味方のレベルに応じて決まる。<br>20秒以内に連続で<active>「献身」</active>の効果を受ける場合、2回目以降のシールド耐久値は25%となる。</rules></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
     },
     "3191": {
       "name": "シーカー アームガード",
@@ -1186,9 +1186,9 @@
     },
     "3193": {
       "name": "ガーゴイル ストーンプレート",
-      "desc": "<mainText><stats>物理防御 <attention>60</attention><br>魔法防御<attention>60</attention><br>スキルヘイスト<attention>15</attention></stats><br><br><active>発動効果 -</active> <active>不屈:</active> 2.5秒間、<shield>耐久値(100 + 増加体力の100%)のシールド</shield>を獲得して、サイズが25%増加する。このシールドは効果時間をかけて減衰していく(クールダウン90秒)。<br><li><passive>要塞化:</passive> チャンピオンからダメージを受けると6秒間、<scaleArmor>増加物理防御5%</scaleArmor>と<scaleMR>増加魔法防御5%</scaleMR>のスタックを獲得する。<br><br><rules>最大5スタックで、各チャンピオンから1スタックのみ獲得できる。</rules></mainText><br>",
+      "desc": "<mainText><stats>物理防御 <attention>60</attention><br>魔法防御<attention>60</attention><br>スキルヘイスト<attention>15</attention></stats><br><br><active>発動効果 -</active> <active>不屈:</active> 2.5秒間、<shield>耐久値(100 + 増加体力の90%)のシールド</shield>を獲得して、サイズが25%増加する。このシールドは効果時間をかけて減衰していく(クールダウン90秒)。<br><li><passive>要塞化:</passive> チャンピオンからダメージを受けると6秒間、<scaleArmor>増加物理防御5%</scaleArmor>と<scaleMR>増加魔法防御5%</scaleMR>のスタックを獲得する。<br><br><rules>最大5スタックで、各チャンピオンから1スタックのみ獲得できる。</rules></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>ガーゴイル ストーンプレート</div><mainText><stats>物理防御 <attention>60</attention><br>魔法防御<attention>60</attention><br>スキルヘイスト<attention>15</attention></stats><br><br><active>発動効果 -</active> <active>不屈:</active> 2.5秒間、<shield>耐久値(100 + 増加体力の100%)のシールド</shield>を獲得して、サイズが25%増加する。このシールドは効果時間をかけて減衰していく(クールダウン90秒)。<br><li><passive>要塞化:</passive> チャンピオンからダメージを受けると6秒間、<scaleArmor>増加物理防御5%</scaleArmor>と<scaleMR>増加魔法防御5%</scaleMR>のスタックを獲得する。<br><br><rules>最大5スタックで、各チャンピオンから1スタックのみ獲得できる。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ガーゴイル ストーンプレート</div><mainText><stats>物理防御 <attention>60</attention><br>魔法防御<attention>60</attention><br>スキルヘイスト<attention>15</attention></stats><br><br><active>発動効果 -</active> <active>不屈:</active> 2.5秒間、<shield>耐久値(100 + 増加体力の90%)のシールド</shield>を獲得して、サイズが25%増加する。このシールドは効果時間をかけて減衰していく(クールダウン90秒)。<br><li><passive>要塞化:</passive> チャンピオンからダメージを受けると6秒間、<scaleArmor>増加物理防御5%</scaleArmor>と<scaleMR>増加魔法防御5%</scaleMR>のスタックを獲得する。<br><br><rules>最大5スタックで、各チャンピオンから1スタックのみ獲得できる。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "3211": {
       "name": "スペクター カウル",
@@ -1198,9 +1198,9 @@
     },
     "3222": {
       "name": "ミカエルの祝福",
-      "desc": "<mainText><stats>回復効果およびシールド量<attention>20%</attention><br>魔法防御<attention>50</attention><br>スキルヘイスト<attention>15</attention><br>基本マナ自動回復<attention>100%</attention></stats><br><br><active>発動効果 -</active> <active>浄化:</active> 味方チャンピオンから<status>ノックアップ</status>と<status>サプレッション</status>以外のすべての行動妨害系デバフを除去し、<healing>体力を100 - 200(味方のチャンピオンレベルに応じて)</healing>回復させる(クールダウン120秒)。</mainText><br>",
+      "desc": "<mainText><stats>回復効果およびシールド量<attention>20%</attention><br>魔法防御<attention>50</attention><br>スキルヘイスト<attention>15</attention><br>基本マナ自動回復<attention>100%</attention></stats><br><br><active>発動効果 -</active> <active>浄化:</active> 味方チャンピオンから<status>ノックアップ</status>と<status>サプレッション</status>以外のすべての行動妨害系デバフを除去し、<healing>体力を100 - 180(味方のチャンピオンレベルに応じて)</healing>回復させる(クールダウン120秒)。</mainText><br>",
       "gold": 2300,
-      "tooltip": "<div class='tooltip-title'>ミカエルの祝福</div><mainText><stats>回復効果およびシールド量<attention>20%</attention><br>魔法防御<attention>50</attention><br>スキルヘイスト<attention>15</attention><br>基本マナ自動回復<attention>100%</attention></stats><br><br><active>発動効果 -</active> <active>浄化:</active> 味方チャンピオンから<status>ノックアップ</status>と<status>サプレッション</status>以外のすべての行動妨害系デバフを除去し、<healing>体力を100 - 200(味方のチャンピオンレベルに応じて)</healing>回復させる(クールダウン120秒)。</mainText><br><div class='tooltip-gold'>2300 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ミカエルの祝福</div><mainText><stats>回復効果およびシールド量<attention>20%</attention><br>魔法防御<attention>50</attention><br>スキルヘイスト<attention>15</attention><br>基本マナ自動回復<attention>100%</attention></stats><br><br><active>発動効果 -</active> <active>浄化:</active> 味方チャンピオンから<status>ノックアップ</status>と<status>サプレッション</status>以外のすべての行動妨害系デバフを除去し、<healing>体力を100 - 180(味方のチャンピオンレベルに応じて)</healing>回復させる(クールダウン120秒)。</mainText><br><div class='tooltip-gold'>2300 Gold</div>"
     },
     "3330": {
       "name": "身代わり人形",
@@ -1306,9 +1306,9 @@
     },
     "3853": {
       "name": "真なる氷のかけら",
-      "desc": "<mainText><stats>魔力<attention>40</attention><br>体力<attention>75</attention><br>基本マナ自動回復<attention>100%</attention><br>獲得ゴールド(10秒毎)<attention>3</attention></stats><br><br><active>発動効果 -</active> <active>ワード設置:</active> 「ステルス ワード」を設置する。このワードは敵からは<keywordStealth>インビジブル</keywordStealth>状態となり、味方チームに周囲の視界を与える。最大0個まで所持可能で、ショップを訪れると補充される。 <br><br><active>発動効果 -</active> <active>ワード設置:</active> 「ステルス ワード」を設置する。このワードは敵からは<keywordStealth>インビジブル</keywordStealth>状態となり、味方チームに周囲の視界を与える。最大4個まで所持可能で、ショップを訪れると補充される。 </mainText><br>",
+      "desc": "<mainText><stats>魔力<attention>40</attention><br>体力<attention>75</attention><br>基本マナ自動回復<attention>115%</attention><br>獲得ゴールド(10秒毎)<attention>3</attention></stats><br><br><active>発動効果 -</active> <active>ワード設置:</active> 「ステルス ワード」を設置する。このワードは敵からは<keywordStealth>インビジブル</keywordStealth>状態となり、味方チームに周囲の視界を与える。最大0個まで所持可能で、ショップを訪れると補充される。 <br><br><active>発動効果 -</active> <active>ワード設置:</active> 「ステルス ワード」を設置する。このワードは敵からは<keywordStealth>インビジブル</keywordStealth>状態となり、味方チームに周囲の視界を与える。最大4個まで所持可能で、ショップを訪れると補充される。 </mainText><br>",
       "gold": 400,
-      "tooltip": "<div class='tooltip-title'>真なる氷のかけら</div><mainText><stats>魔力<attention>40</attention><br>体力<attention>75</attention><br>基本マナ自動回復<attention>100%</attention><br>獲得ゴールド(10秒毎)<attention>3</attention></stats><br><br><active>発動効果 -</active> <active>ワード設置:</active> 「ステルス ワード」を設置する。このワードは敵からは<keywordStealth>インビジブル</keywordStealth>状態となり、味方チームに周囲の視界を与える。最大0個まで所持可能で、ショップを訪れると補充される。 <br><br><active>発動効果 -</active> <active>ワード設置:</active> 「ステルス ワード」を設置する。このワードは敵からは<keywordStealth>インビジブル</keywordStealth>状態となり、味方チームに周囲の視界を与える。最大4個まで所持可能で、ショップを訪れると補充される。 </mainText><br><div class='tooltip-gold'>400 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>真なる氷のかけら</div><mainText><stats>魔力<attention>40</attention><br>体力<attention>75</attention><br>基本マナ自動回復<attention>115%</attention><br>獲得ゴールド(10秒毎)<attention>3</attention></stats><br><br><active>発動効果 -</active> <active>ワード設置:</active> 「ステルス ワード」を設置する。このワードは敵からは<keywordStealth>インビジブル</keywordStealth>状態となり、味方チームに周囲の視界を与える。最大0個まで所持可能で、ショップを訪れると補充される。 <br><br><active>発動効果 -</active> <active>ワード設置:</active> 「ステルス ワード」を設置する。このワードは敵からは<keywordStealth>インビジブル</keywordStealth>状態となり、味方チームに周囲の視界を与える。最大4個まで所持可能で、ショップを訪れると補充される。 </mainText><br><div class='tooltip-gold'>400 Gold</div>"
     },
     "3854": {
       "name": "鋼のショルダーガード",
@@ -1384,9 +1384,9 @@
     },
     "3916": {
       "name": "忘却のオーブ",
-      "desc": "<mainText><stats>魔力<attention>30</attention></stats><br><li><passive>邪気:</passive> チャンピオンに魔法ダメージを与えると、3秒間<status>40%の「重傷」</status>を付与する。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br>",
+      "desc": "<mainText><stats>魔力<attention>35</attention></stats><br><li><passive>邪気:</passive> チャンピオンに魔法ダメージを与えると、3秒間<status>25%の「重傷」</status>を付与する。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br>",
       "gold": 800,
-      "tooltip": "<div class='tooltip-title'>忘却のオーブ</div><mainText><stats>魔力<attention>30</attention></stats><br><li><passive>邪気:</passive> チャンピオンに魔法ダメージを与えると、3秒間<status>40%の「重傷」</status>を付与する。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br><div class='tooltip-gold'>800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>忘却のオーブ</div><mainText><stats>魔力<attention>35</attention></stats><br><li><passive>邪気:</passive> チャンピオンに魔法ダメージを与えると、3秒間<status>25%の「重傷」</status>を付与する。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br><div class='tooltip-gold'>800 Gold</div>"
     },
     "4005": {
       "name": "帝国の指令",
@@ -1420,9 +1420,9 @@
     },
     "4630": {
       "name": "枯死の宝石",
-      "desc": "<mainText><stats>魔力<attention>25</attention><br>魔法防御貫通<attention>15%</attention></stats></mainText><br>",
+      "desc": "<mainText><stats>魔力<attention>25</attention><br>魔法防御貫通<attention>13%</attention></stats></mainText><br>",
       "gold": 1250,
-      "tooltip": "<div class='tooltip-title'>枯死の宝石</div><mainText><stats>魔力<attention>25</attention><br>魔法防御貫通<attention>15%</attention></stats></mainText><br><div class='tooltip-gold'>1250 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>枯死の宝石</div><mainText><stats>魔力<attention>25</attention><br>魔法防御貫通<attention>13%</attention></stats></mainText><br><div class='tooltip-gold'>1250 Gold</div>"
     },
     "4632": {
       "name": "ヴァーダント バリア",
@@ -1432,9 +1432,9 @@
     },
     "4633": {
       "name": "リフトメーカー",
-      "desc": "<mainText><stats>魔力<attention>80</attention><br>体力<attention>300</attention><br>スキルヘイスト<attention>15</attention><br>オムニヴァンプ<attention>8%</attention></stats><br><li><passive>ヴォイドの邪念:</passive> 敵チャンピオンにダメージを与えると、毎秒3%の追加ダメージを与える(最大9%)。効果が最大になると、追加ダメージが<trueDamage>確定ダメージ</trueDamage>に変換される。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: オムニヴァンプ<attention>2%</attention>と魔力8</mainText><br>",
+      "desc": "<mainText><stats>魔力<attention>70</attention><br>体力<attention>300</attention><br>スキルヘイスト<attention>15</attention><br>オムニヴァンプ<attention>7%</attention></stats><br><li><passive>ヴォイドの邪念:</passive> 敵チャンピオンにダメージを与えると、毎秒3%の追加ダメージを与える(最大9%)。効果が最大になると、追加ダメージが<trueDamage>確定ダメージ</trueDamage>に変換される。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: オムニヴァンプ<attention>2%</attention>と魔力8</mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>リフトメーカー</div><mainText><stats>魔力<attention>80</attention><br>体力<attention>300</attention><br>スキルヘイスト<attention>15</attention><br>オムニヴァンプ<attention>8%</attention></stats><br><li><passive>ヴォイドの邪念:</passive> 敵チャンピオンにダメージを与えると、毎秒3%の追加ダメージを与える(最大9%)。効果が最大になると、追加ダメージが<trueDamage>確定ダメージ</trueDamage>に変換される。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: オムニヴァンプ<attention>2%</attention>と魔力8</mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>リフトメーカー</div><mainText><stats>魔力<attention>70</attention><br>体力<attention>300</attention><br>スキルヘイスト<attention>15</attention><br>オムニヴァンプ<attention>7%</attention></stats><br><li><passive>ヴォイドの邪念:</passive> 敵チャンピオンにダメージを与えると、毎秒3%の追加ダメージを与える(最大9%)。効果が最大になると、追加ダメージが<trueDamage>確定ダメージ</trueDamage>に変換される。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: オムニヴァンプ<attention>2%</attention>と魔力8</mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "4635": {
       "name": "リーチング リア",
@@ -1444,15 +1444,15 @@
     },
     "4636": {
       "name": "ナイト ハーベスター",
-      "desc": "<mainText><stats>魔力<attention>90</attention><br>体力<attention>300</attention><br>スキルヘイスト<attention>15</attention></stats><br><li><passive>ソウルレンド:</passive> チャンピオンにダメージを与えると<magicDamage>(125 +魔力の15%)の魔法ダメージ</magicDamage>を追加で与え、1.5秒間<speed>移動速度が25%</speed>増加する(チャンピオンごとにクールダウン40秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention><br><br><rules>新たなチャンピオンにダメージを与えると移動速度増加の効果時間が延長される。</rules></mainText><br>",
+      "desc": "<mainText><stats>魔力<attention>90</attention><br>体力<attention>300</attention><br>スキルヘイスト<attention>25</attention></stats><br><li><passive>ソウルレンド:</passive> チャンピオンにダメージを与えると<magicDamage>(125 +魔力の15%)の魔法ダメージ</magicDamage>を追加で与え、1.5秒間<speed>移動速度が25%</speed>増加する(チャンピオンごとにクールダウン30秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention><br><br><rules>新たなチャンピオンにダメージを与えると移動速度増加の効果時間が延長される。</rules></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>ナイト ハーベスター</div><mainText><stats>魔力<attention>90</attention><br>体力<attention>300</attention><br>スキルヘイスト<attention>15</attention></stats><br><li><passive>ソウルレンド:</passive> チャンピオンにダメージを与えると<magicDamage>(125 +魔力の15%)の魔法ダメージ</magicDamage>を追加で与え、1.5秒間<speed>移動速度が25%</speed>増加する(チャンピオンごとにクールダウン40秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention><br><br><rules>新たなチャンピオンにダメージを与えると移動速度増加の効果時間が延長される。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ナイト ハーベスター</div><mainText><stats>魔力<attention>90</attention><br>体力<attention>300</attention><br>スキルヘイスト<attention>25</attention></stats><br><li><passive>ソウルレンド:</passive> チャンピオンにダメージを与えると<magicDamage>(125 +魔力の15%)の魔法ダメージ</magicDamage>を追加で与え、1.5秒間<speed>移動速度が25%</speed>増加する(チャンピオンごとにクールダウン30秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention><br><br><rules>新たなチャンピオンにダメージを与えると移動速度増加の効果時間が延長される。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "4637": {
       "name": "悪魔の抱擁",
-      "desc": "<mainText><stats>魔力<attention>60</attention><br>体力<attention>450</attention></stats><br><li><passive>アザカナの眼光:</passive> スキルダメージを与えると、4秒間敵を燃やして<magicDamage>最大体力の2/1.2%(近接/遠隔)にあたる魔法ダメージ</magicDamage>を毎秒与える。<li><passive>闇の契約:</passive> <scaleHealth>増加体力</scaleHealth>の2%を<scaleAP>魔力</scaleAP>として獲得する。 </mainText><br>",
+      "desc": "<mainText><stats>魔力<attention>60</attention><br>体力<attention>450</attention></stats><br><li><passive>アザカナの眼光:</passive> スキルダメージを与えると、4秒間敵を燃やして<magicDamage>最大体力の1.8/1%(近接/遠隔)にあたる魔法ダメージ</magicDamage>を毎秒与える。<li><passive>闇の契約:</passive> <scaleHealth>増加体力</scaleHealth>の2%を<scaleAP>魔力</scaleAP>として獲得する。 </mainText><br>",
       "gold": 3000,
-      "tooltip": "<div class='tooltip-title'>悪魔の抱擁</div><mainText><stats>魔力<attention>60</attention><br>体力<attention>450</attention></stats><br><li><passive>アザカナの眼光:</passive> スキルダメージを与えると、4秒間敵を燃やして<magicDamage>最大体力の2/1.2%(近接/遠隔)にあたる魔法ダメージ</magicDamage>を毎秒与える。<li><passive>闇の契約:</passive> <scaleHealth>増加体力</scaleHealth>の2%を<scaleAP>魔力</scaleAP>として獲得する。 </mainText><br><div class='tooltip-gold'>3000 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>悪魔の抱擁</div><mainText><stats>魔力<attention>60</attention><br>体力<attention>450</attention></stats><br><li><passive>アザカナの眼光:</passive> スキルダメージを与えると、4秒間敵を燃やして<magicDamage>最大体力の1.8/1%(近接/遠隔)にあたる魔法ダメージ</magicDamage>を毎秒与える。<li><passive>闇の契約:</passive> <scaleHealth>増加体力</scaleHealth>の2%を<scaleAP>魔力</scaleAP>として獲得する。 </mainText><br><div class='tooltip-gold'>3000 Gold</div>"
     },
     "4638": {
       "name": "ウォッチフル ワードストーン",
@@ -1480,9 +1480,9 @@
     },
     "4644": {
       "name": "シャッタードクイーン クラウン",
-      "desc": "<mainText><stats>魔力<attention>60</attention><br>体力<attention>250</attention><br>マナ<attention>600</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>聖なる保護:</passive> <keywordMajor>「セーフガード」</keywordMajor>で守られており、チャンピオンから受けるダメージが75%軽減される。<keywordMajor>「セーフガード」</keywordMajor>はチャンピオンによるダメージを受けてから1.5秒間持続する(クールダウン40秒)。<li><passive>聖なる贈り物:</passive> <keywordMajor>「セーフガード」</keywordMajor>発動中および終了後3秒間は<scaleAP>魔力が10-40</scaleAP>増加する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 移動速度<attention>1%</attention>、魔力8</mainText><br>",
+      "desc": "<mainText><stats>魔力<attention>70</attention><br>体力<attention>250</attention><br>マナ<attention>600</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>聖なる保護:</passive> <keywordMajor>「セーフガード」</keywordMajor>で守られており、チャンピオンから受けるダメージが75%軽減される。<keywordMajor>「セーフガード」</keywordMajor>はチャンピオンによるダメージを受けてから1.5秒間持続する(クールダウン40秒)。<li><passive>聖なる贈り物:</passive> <keywordMajor>「セーフガード」</keywordMajor>発動中および終了後3秒間は<scaleAP>魔力が10-40</scaleAP>増加する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 移動速度<attention>1%</attention>、魔力8</mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>シャッタードクイーン クラウン</div><mainText><stats>魔力<attention>60</attention><br>体力<attention>250</attention><br>マナ<attention>600</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>聖なる保護:</passive> <keywordMajor>「セーフガード」</keywordMajor>で守られており、チャンピオンから受けるダメージが75%軽減される。<keywordMajor>「セーフガード」</keywordMajor>はチャンピオンによるダメージを受けてから1.5秒間持続する(クールダウン40秒)。<li><passive>聖なる贈り物:</passive> <keywordMajor>「セーフガード」</keywordMajor>発動中および終了後3秒間は<scaleAP>魔力が10-40</scaleAP>増加する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 移動速度<attention>1%</attention>、魔力8</mainText><br><div class='tooltip-gold'>2800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>シャッタードクイーン クラウン</div><mainText><stats>魔力<attention>70</attention><br>体力<attention>250</attention><br>マナ<attention>600</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>聖なる保護:</passive> <keywordMajor>「セーフガード」</keywordMajor>で守られており、チャンピオンから受けるダメージが75%軽減される。<keywordMajor>「セーフガード」</keywordMajor>はチャンピオンによるダメージを受けてから1.5秒間持続する(クールダウン40秒)。<li><passive>聖なる贈り物:</passive> <keywordMajor>「セーフガード」</keywordMajor>発動中および終了後3秒間は<scaleAP>魔力が10-40</scaleAP>増加する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 移動速度<attention>1%</attention>、魔力8</mainText><br><div class='tooltip-gold'>2800 Gold</div>"
     },
     "4645": {
       "name": "シャドウフレイム",
@@ -1504,15 +1504,15 @@
     },
     "6333": {
       "name": "デス ダンス",
-      "desc": "<mainText><stats>攻撃力<attention>55</attention><br>物理防御 <attention>45</attention><br>スキルヘイスト<attention>15</attention></stats><br><li><passive>強行突破:</passive> 受けたダメージの30%(遠隔攻撃チャンピオンは10%)を3秒かけて受けるようになる。<li><passive>拒絶:</passive> チャンピオンからキルまたはアシストを奪うと、<passive>「強行突破」</passive>の残りダメージが除去されて、2秒かけて<healing>増加攻撃力の175%にあたる体力</healing>を回復する。</mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>55</attention><br>物理防御 <attention>45</attention><br>スキルヘイスト<attention>15</attention></stats><br><li><passive>強行突破:</passive> 受けたダメージの30%(遠隔攻撃チャンピオンは10%)を3秒かけて受けるようになる。<li><passive>拒絶:</passive> チャンピオンからキルまたはアシストを奪うと、<passive>「強行突破」</passive>の残りダメージが除去されて、2秒かけて<healing>増加攻撃力の140%にあたる体力</healing>を回復する。</mainText><br>",
       "gold": 3300,
-      "tooltip": "<div class='tooltip-title'>デス ダンス</div><mainText><stats>攻撃力<attention>55</attention><br>物理防御 <attention>45</attention><br>スキルヘイスト<attention>15</attention></stats><br><li><passive>強行突破:</passive> 受けたダメージの30%(遠隔攻撃チャンピオンは10%)を3秒かけて受けるようになる。<li><passive>拒絶:</passive> チャンピオンからキルまたはアシストを奪うと、<passive>「強行突破」</passive>の残りダメージが除去されて、2秒かけて<healing>増加攻撃力の175%にあたる体力</healing>を回復する。</mainText><br><div class='tooltip-gold'>3300 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>デス ダンス</div><mainText><stats>攻撃力<attention>55</attention><br>物理防御 <attention>45</attention><br>スキルヘイスト<attention>15</attention></stats><br><li><passive>強行突破:</passive> 受けたダメージの30%(遠隔攻撃チャンピオンは10%)を3秒かけて受けるようになる。<li><passive>拒絶:</passive> チャンピオンからキルまたはアシストを奪うと、<passive>「強行突破」</passive>の残りダメージが除去されて、2秒かけて<healing>増加攻撃力の140%にあたる体力</healing>を回復する。</mainText><br><div class='tooltip-gold'>3300 Gold</div>"
     },
     "6609": {
       "name": "ケミパンク チェーンソード",
-      "desc": "<mainText><stats>攻撃力<attention>45</attention><br>体力<attention>250</attention><br>スキルヘイスト<attention>15</attention></stats><br><li><passive>両断:</passive> 敵チャンピオンに物理ダメージを与えると、3秒間40%の<status>「重傷」</status>を付与する。対象の体力が50%未満だった場合は、この効果が60%の<status>「重傷」</status>に強化される。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>55</attention><br>体力<attention>250</attention><br>スキルヘイスト<attention>25</attention></stats><br><li><passive>両断:</passive> 敵チャンピオンに物理ダメージを与えると、3秒間25%の<status>「重傷」</status>を付与する。対象の体力が50%未満だった場合は、この効果が40%の<status>「重傷」</status>に強化される。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br>",
       "gold": 2600,
-      "tooltip": "<div class='tooltip-title'>ケミパンク チェーンソード</div><mainText><stats>攻撃力<attention>45</attention><br>体力<attention>250</attention><br>スキルヘイスト<attention>15</attention></stats><br><li><passive>両断:</passive> 敵チャンピオンに物理ダメージを与えると、3秒間40%の<status>「重傷」</status>を付与する。対象の体力が50%未満だった場合は、この効果が60%の<status>「重傷」</status>に強化される。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br><div class='tooltip-gold'>2600 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ケミパンク チェーンソード</div><mainText><stats>攻撃力<attention>55</attention><br>体力<attention>250</attention><br>スキルヘイスト<attention>25</attention></stats><br><li><passive>両断:</passive> 敵チャンピオンに物理ダメージを与えると、3秒間25%の<status>「重傷」</status>を付与する。対象の体力が50%未満だった場合は、この効果が40%の<status>「重傷」</status>に強化される。<br><br><rules><status>「重傷」</status>は体力回復および自動回復の効果を減少させる。</rules></mainText><br><div class='tooltip-gold'>2600 Gold</div>"
     },
     "6616": {
       "name": "フロー ウォーター スタッフ",
@@ -1522,15 +1522,15 @@
     },
     "6617": {
       "name": "ムーンストーンの再生",
-      "desc": "<mainText><stats>魔力<attention>40</attention><br>体力<attention>200</attention><br>スキルヘイスト<attention>20</attention><br>基本マナ自動回復<attention>100%</attention></stats><br><li><passive>星明りの恩寵:</passive> 戦闘中に通常攻撃かスキルでチャンピオンに影響を与えると、近くにいる最も多くのダメージを受けた味方1体の<healing>体力を70</healing>回復する(クールダウン2秒)。チャンピオンと戦闘状態になると、自身の与える回復効果とシールド効果が毎秒6%増加する(最大5回までスタック)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: <passive>「星明りの恩寵」</passive>の回復量 +<attention>10</attention><br><br></mainText><br>",
+      "desc": "<mainText><stats>魔力<attention>40</attention><br>体力<attention>200</attention><br>スキルヘイスト<attention>20</attention><br>基本マナ自動回復<attention>100%</attention></stats><br><li><passive>星明りの恩寵:</passive> 戦闘中に通常攻撃かスキルでチャンピオンに影響を与えると、近くにいる最も多くのダメージを受けた味方1体の<healing>体力を60</healing>回復する(クールダウン2秒)。チャンピオンと戦闘状態になると、自身の与える回復効果とシールド効果が毎秒5%増加する(最大5回までスタック)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: <passive>「星明りの恩寵」</passive>の回復量 +<attention>8</attention><br><br></mainText><br>",
       "gold": 2500,
-      "tooltip": "<div class='tooltip-title'>ムーンストーンの再生</div><mainText><stats>魔力<attention>40</attention><br>体力<attention>200</attention><br>スキルヘイスト<attention>20</attention><br>基本マナ自動回復<attention>100%</attention></stats><br><li><passive>星明りの恩寵:</passive> 戦闘中に通常攻撃かスキルでチャンピオンに影響を与えると、近くにいる最も多くのダメージを受けた味方1体の<healing>体力を70</healing>回復する(クールダウン2秒)。チャンピオンと戦闘状態になると、自身の与える回復効果とシールド効果が毎秒6%増加する(最大5回までスタック)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: <passive>「星明りの恩寵」</passive>の回復量 +<attention>10</attention><br><br></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ムーンストーンの再生</div><mainText><stats>魔力<attention>40</attention><br>体力<attention>200</attention><br>スキルヘイスト<attention>20</attention><br>基本マナ自動回復<attention>100%</attention></stats><br><li><passive>星明りの恩寵:</passive> 戦闘中に通常攻撃かスキルでチャンピオンに影響を与えると、近くにいる最も多くのダメージを受けた味方1体の<healing>体力を60</healing>回復する(クールダウン2秒)。チャンピオンと戦闘状態になると、自身の与える回復効果とシールド効果が毎秒5%増加する(最大5回までスタック)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: <passive>「星明りの恩寵」</passive>の回復量 +<attention>8</attention><br><br></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
     },
     "6630": {
       "name": "ゴアドリンカー",
-      "desc": "<mainText><stats>攻撃力<attention>55</attention><br>体力<attention>300</attention><br>スキルヘイスト<attention>20</attention><br>オムニヴァンプ<attention>10%</attention></stats><br><br><active>発動効果 -</active> <active>サースティング スラッシュ:</active> 周囲の敵に<physicalDamage>基本攻撃力の175%の物理ダメージ</physicalDamage>を与え、命中したチャンピオン1体につき<healing>(基本攻撃力の25% + 減少体力の10%)の体力</healing>を回復する(クールダウン15秒、スキルヘイストで短縮される)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>55</attention><br>体力<attention>300</attention><br>スキルヘイスト<attention>20</attention><br>オムニヴァンプ<attention>8%</attention></stats><br><br><active>発動効果 -</active> <active>サースティング スラッシュ:</active> 周囲の敵に<physicalDamage>基本攻撃力の175%の物理ダメージ</physicalDamage>を与え、命中したチャンピオン1体につき<healing>(基本攻撃力の20% + 減少体力の8%)の体力</healing>を回復する(クールダウン15秒、スキルヘイストで短縮される)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>7</attention></mainText><br>",
       "gold": 3300,
-      "tooltip": "<div class='tooltip-title'>ゴアドリンカー</div><mainText><stats>攻撃力<attention>55</attention><br>体力<attention>300</attention><br>スキルヘイスト<attention>20</attention><br>オムニヴァンプ<attention>10%</attention></stats><br><br><active>発動効果 -</active> <active>サースティング スラッシュ:</active> 周囲の敵に<physicalDamage>基本攻撃力の175%の物理ダメージ</physicalDamage>を与え、命中したチャンピオン1体につき<healing>(基本攻撃力の25% + 減少体力の10%)の体力</healing>を回復する(クールダウン15秒、スキルヘイストで短縮される)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention></mainText><br><div class='tooltip-gold'>3300 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ゴアドリンカー</div><mainText><stats>攻撃力<attention>55</attention><br>体力<attention>300</attention><br>スキルヘイスト<attention>20</attention><br>オムニヴァンプ<attention>8%</attention></stats><br><br><active>発動効果 -</active> <active>サースティング スラッシュ:</active> 周囲の敵に<physicalDamage>基本攻撃力の175%の物理ダメージ</physicalDamage>を与え、命中したチャンピオン1体につき<healing>(基本攻撃力の20% + 減少体力の8%)の体力</healing>を回復する(クールダウン15秒、スキルヘイストで短縮される)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>7</attention></mainText><br><div class='tooltip-gold'>3300 Gold</div>"
     },
     "6631": {
       "name": "ストライドブレイカー",
@@ -1540,15 +1540,15 @@
     },
     "6632": {
       "name": "ディヴァイン サンダラー",
-      "desc": "<mainText><stats>攻撃力<attention>40</attention><br>体力<attention>300</attention><br>スキルヘイスト<attention>20</attention></stats><li><passive>追撃:</passive> スキルを使った後、次の通常攻撃が強化されて<physicalDamage>対象の最大体力の12%(遠隔攻撃チャンピオンは9%)の物理ダメージ</physicalDamage> <OnHit>通常攻撃時効果</OnHit>を追加で与える(クールダウン1.5秒)。対象がチャンピオンだった場合は、さらに対象の最大体力の7.8%(遠隔攻撃チャンピオンは3.6%)にあたる体力を回復する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 物理防御貫通<attention>5%</attention>、魔法防御貫通<attention>5%</attention><br><br><rules><passive>「追撃」</passive>はユニットに最小でも(基本攻撃力の150%)のダメージを与えるが、モンスターに対しては(基本攻撃力の250%)が上限。</rules></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>40</attention><br>体力<attention>300</attention><br>スキルヘイスト<attention>20</attention></stats><li><passive>追撃:</passive> スキルを使った後、次の通常攻撃が強化されて<physicalDamage>対象の最大体力の12%(遠隔攻撃チャンピオンは9%)の物理ダメージ</physicalDamage> <OnHit>通常攻撃時効果</OnHit>を追加で与える(クールダウン1.5秒)。対象がチャンピオンだった場合は、さらに対象の最大体力の6%(遠隔攻撃チャンピオンは3%)にあたる体力を回復する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 物理防御貫通<attention>5%</attention>、魔法防御貫通<attention>5%</attention><br><br><rules><passive>「追撃」</passive>はユニットに最小でも(基本攻撃力の150%)のダメージを与えるが、モンスターに対しては(基本攻撃力の250%)が上限。</rules></mainText><br>",
       "gold": 3300,
-      "tooltip": "<div class='tooltip-title'>ディヴァイン サンダラー</div><mainText><stats>攻撃力<attention>40</attention><br>体力<attention>300</attention><br>スキルヘイスト<attention>20</attention></stats><li><passive>追撃:</passive> スキルを使った後、次の通常攻撃が強化されて<physicalDamage>対象の最大体力の12%(遠隔攻撃チャンピオンは9%)の物理ダメージ</physicalDamage> <OnHit>通常攻撃時効果</OnHit>を追加で与える(クールダウン1.5秒)。対象がチャンピオンだった場合は、さらに対象の最大体力の7.8%(遠隔攻撃チャンピオンは3.6%)にあたる体力を回復する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 物理防御貫通<attention>5%</attention>、魔法防御貫通<attention>5%</attention><br><br><rules><passive>「追撃」</passive>はユニットに最小でも(基本攻撃力の150%)のダメージを与えるが、モンスターに対しては(基本攻撃力の250%)が上限。</rules></mainText><br><div class='tooltip-gold'>3300 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ディヴァイン サンダラー</div><mainText><stats>攻撃力<attention>40</attention><br>体力<attention>300</attention><br>スキルヘイスト<attention>20</attention></stats><li><passive>追撃:</passive> スキルを使った後、次の通常攻撃が強化されて<physicalDamage>対象の最大体力の12%(遠隔攻撃チャンピオンは9%)の物理ダメージ</physicalDamage> <OnHit>通常攻撃時効果</OnHit>を追加で与える(クールダウン1.5秒)。対象がチャンピオンだった場合は、さらに対象の最大体力の6%(遠隔攻撃チャンピオンは3%)にあたる体力を回復する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 物理防御貫通<attention>5%</attention>、魔法防御貫通<attention>5%</attention><br><br><rules><passive>「追撃」</passive>はユニットに最小でも(基本攻撃力の150%)のダメージを与えるが、モンスターに対しては(基本攻撃力の250%)が上限。</rules></mainText><br><div class='tooltip-gold'>3300 Gold</div>"
     },
     "6653": {
       "name": "ライアンドリーの苦悶",
-      "desc": "<mainText><stats>魔力<attention>80</attention><br>マナ<attention>600</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>激痛:</passive> 対象の増加体力に応じてチャンピオンに最大<magicDamage>12%の追加魔法ダメージ</magicDamage>を与える(増加体力1250で最大)。<li><passive>苦悶:</passive> スキルでダメージを与えると敵を燃やし、4秒間、毎秒<magicDamage>(15 + 魔力の1.5%)(+最大体力の1%)の魔法ダメージ</magicDamage>を与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention></mainText><br>",
+      "desc": "<mainText><stats>魔力<attention>80</attention><br>マナ<attention>600</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>激痛:</passive> 対象の増加体力に応じてチャンピオンに最大<magicDamage>12%の追加魔法ダメージ</magicDamage>を与える(増加体力1250で最大)。<li><passive>苦悶:</passive> スキルでダメージを与えると敵を燃やし、4秒間、毎秒<magicDamage>(12.5 + 魔力の1.5%)(+最大体力の1%)の魔法ダメージ</magicDamage>を与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>ライアンドリーの苦悶</div><mainText><stats>魔力<attention>80</attention><br>マナ<attention>600</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>激痛:</passive> 対象の増加体力に応じてチャンピオンに最大<magicDamage>12%の追加魔法ダメージ</magicDamage>を与える(増加体力1250で最大)。<li><passive>苦悶:</passive> スキルでダメージを与えると敵を燃やし、4秒間、毎秒<magicDamage>(15 + 魔力の1.5%)(+最大体力の1%)の魔法ダメージ</magicDamage>を与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ライアンドリーの苦悶</div><mainText><stats>魔力<attention>80</attention><br>マナ<attention>600</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>激痛:</passive> 対象の増加体力に応じてチャンピオンに最大<magicDamage>12%の追加魔法ダメージ</magicDamage>を与える(増加体力1250で最大)。<li><passive>苦悶:</passive> スキルでダメージを与えると敵を燃やし、4秒間、毎秒<magicDamage>(12.5 + 魔力の1.5%)(+最大体力の1%)の魔法ダメージ</magicDamage>を与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "6655": {
       "name": "ルーデン テンペスト",
@@ -1558,27 +1558,27 @@
     },
     "6656": {
       "name": "エバーフロスト",
-      "desc": "<mainText><stats>魔力<attention>70</attention><br>体力<attention>250</attention><br>マナ<attention>600</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><active>発動効果 -</active> <active>氷結:</active> 扇状の範囲に<magicDamage>(100 + 魔力の30%)の魔法ダメージ</magicDamage>を与え、1.5秒間65%の<status>スロウ効果</status>を付与する。扇状の範囲の中心にいた敵には、代わりに<status>スネア効果</status>を付与する(クールダウン30秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 魔力<attention>10</attention><br></mainText><br>",
+      "desc": "<mainText><stats>魔力<attention>70</attention><br>体力<attention>250</attention><br>マナ<attention>600</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><active>発動効果 -</active> <active>氷結:</active> 扇状の範囲に<magicDamage>(100 + 魔力の30%)の魔法ダメージ</magicDamage>を与え、1秒間65%の<status>スロウ効果</status>を付与する。扇状の範囲の中心にいた敵には、代わりに<status>スネア効果</status>を付与する(クールダウン30秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 魔力<attention>10</attention><br></mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>エバーフロスト</div><mainText><stats>魔力<attention>70</attention><br>体力<attention>250</attention><br>マナ<attention>600</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><active>発動効果 -</active> <active>氷結:</active> 扇状の範囲に<magicDamage>(100 + 魔力の30%)の魔法ダメージ</magicDamage>を与え、1.5秒間65%の<status>スロウ効果</status>を付与する。扇状の範囲の中心にいた敵には、代わりに<status>スネア効果</status>を付与する(クールダウン30秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 魔力<attention>10</attention><br></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>エバーフロスト</div><mainText><stats>魔力<attention>70</attention><br>体力<attention>250</attention><br>マナ<attention>600</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><active>発動効果 -</active> <active>氷結:</active> 扇状の範囲に<magicDamage>(100 + 魔力の30%)の魔法ダメージ</magicDamage>を与え、1秒間65%の<status>スロウ効果</status>を付与する。扇状の範囲の中心にいた敵には、代わりに<status>スネア効果</status>を付与する(クールダウン30秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 魔力<attention>10</attention><br></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
     },
     "6660": {
       "name": "バミ シンダー",
       "desc": "<mainText><stats>体力<attention>300</attention></stats><br><li><passive>猛火:</passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(15 + 増加体力の1%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては25%、モンスターに対しては25%増加する)。</mainText><br>",
-      "gold": 1100,
-      "tooltip": "<div class='tooltip-title'>バミ シンダー</div><mainText><stats>体力<attention>300</attention></stats><br><li><passive>猛火:</passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(15 + 増加体力の1%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては25%、モンスターに対しては25%増加する)。</mainText><br><div class='tooltip-gold'>1100 Gold</div>"
+      "gold": 1000,
+      "tooltip": "<div class='tooltip-title'>バミ シンダー</div><mainText><stats>体力<attention>300</attention></stats><br><li><passive>猛火:</passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(15 + 増加体力の1%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては25%、モンスターに対しては25%増加する)。</mainText><br><div class='tooltip-gold'>1000 Gold</div>"
     },
     "6662": {
       "name": "フロストファイア ガントレット",
-      "desc": "<mainText><stats>体力<attention>350</attention><br>物理防御 <attention>25</attention><br>魔法防御<attention>25</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>猛火:</passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(12 + 増加体力の1%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては25%、モンスターに対しては150%増加する)。<li><passive>スノーバインド:</passive> 通常攻撃が1.5秒間、凍てつくゾーンを作り出し、範囲内のすべての敵に(12-85 / 6-42.5)の追加魔法ダメージを与える(クールダウン4秒、遠隔攻撃チャンピオンは6秒)。ゾーンに入った敵に近接攻撃チャンピオンは25%、遠隔攻撃チャンピオンは12.5%(自身の<scaleHealth>最大体力</scaleHealth>で増加)の<status>スロウ効果</status>を与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 体力<attention>100</attention>、サイズ<attention>6%</attention></mainText><br>",
+      "desc": "<mainText><stats>体力<attention>450</attention><br>物理防御 <attention>25</attention><br>魔法防御<attention>25</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>猛火:</passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(12 + 増加体力の1%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては25%、モンスターに対しては150%増加する)。<li><passive>スノーバインド:</passive> 通常攻撃が1.5秒間、凍てつくゾーンを作り出し、範囲内のすべての敵に(12 - 85 / 6 - 42.5)の追加魔法ダメージを与える(クールダウン4秒、遠隔攻撃チャンピオンは6秒)。ゾーンに入った敵に近接攻撃チャンピオンは25%、遠隔攻撃チャンピオンは12.5%(自身の<scaleHealth>最大体力</scaleHealth>で増加)の<status>スロウ効果</status>を与える。 <br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 体力<attention>100</attention>、サイズ<attention>6%</attention></mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>フロストファイア ガントレット</div><mainText><stats>体力<attention>350</attention><br>物理防御 <attention>25</attention><br>魔法防御<attention>25</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>猛火:</passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(12 + 増加体力の1%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては25%、モンスターに対しては150%増加する)。<li><passive>スノーバインド:</passive> 通常攻撃が1.5秒間、凍てつくゾーンを作り出し、範囲内のすべての敵に(12-85 / 6-42.5)の追加魔法ダメージを与える(クールダウン4秒、遠隔攻撃チャンピオンは6秒)。ゾーンに入った敵に近接攻撃チャンピオンは25%、遠隔攻撃チャンピオンは12.5%(自身の<scaleHealth>最大体力</scaleHealth>で増加)の<status>スロウ効果</status>を与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 体力<attention>100</attention>、サイズ<attention>6%</attention></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>フロストファイア ガントレット</div><mainText><stats>体力<attention>450</attention><br>物理防御 <attention>25</attention><br>魔法防御<attention>25</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>猛火:</passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(12 + 増加体力の1%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては25%、モンスターに対しては150%増加する)。<li><passive>スノーバインド:</passive> 通常攻撃が1.5秒間、凍てつくゾーンを作り出し、範囲内のすべての敵に(12 - 85 / 6 - 42.5)の追加魔法ダメージを与える(クールダウン4秒、遠隔攻撃チャンピオンは6秒)。ゾーンに入った敵に近接攻撃チャンピオンは25%、遠隔攻撃チャンピオンは12.5%(自身の<scaleHealth>最大体力</scaleHealth>で増加)の<status>スロウ効果</status>を与える。 <br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 体力<attention>100</attention>、サイズ<attention>6%</attention></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
     },
     "6664": {
       "name": "ターボ ケミタンク",
-      "desc": "<mainText><stats>体力<attention>350</attention><br>物理防御 <attention>25</attention><br>魔法防御<attention>25</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><active>発動効果 -</active> <active>過給:</active> 4秒間、敵または敵タワーに向かって移動する際の<speed>移動速度が40%</speed>増加する。敵に近づくか、発動後4秒経過すると衝撃波が放たれ、周囲にいるチャンピオンに1.5秒間50%の<status>スロウ効果</status>を与える(クールダウン90秒)。<br><passive>燃料補給:</passive> 移動するか、チャンピオンまたは大型モンスターからダメージを受けると、<keywordMajor>「ケミタンク」</keywordMajor>が満たされていく。100スタックになると、次の通常攻撃が周囲のすべての敵に<magicDamage>40 - 120(+最大体力の1%、+移動速度の3%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては30%、ジャングルモンスターに対しては200%増加する)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention>、体力<attention>50</attention></mainText><br>",
+      "desc": "<mainText><stats>体力<attention>450</attention><br>物理防御 <attention>25</attention><br>魔法防御<attention>25</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><active>発動効果 -</active> <active>過給:</active> 4秒間、敵または敵タワーに向かって移動する際の<speed>移動速度が40%</speed>増加する。敵に近づくか、発動後4秒経過すると衝撃波が放たれ、周囲にいるチャンピオンに1.5秒間50%の<status>スロウ効果</status>を与える(クールダウン90秒)。<br><passive>燃料補給:</passive> 移動するか、チャンピオンまたは大型モンスターからダメージを受けると、<keywordMajor>「ケミタンク」</keywordMajor>が満たされていく。100スタックになると、次の通常攻撃が周囲のすべての敵に<magicDamage>40 - 120(+最大体力の1%、+移動速度の3%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては30%、ジャングルモンスターに対しては200%増加する)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention>、体力<attention>50</attention></mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>ターボ ケミタンク</div><mainText><stats>体力<attention>350</attention><br>物理防御 <attention>25</attention><br>魔法防御<attention>25</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><active>発動効果 -</active> <active>過給:</active> 4秒間、敵または敵タワーに向かって移動する際の<speed>移動速度が40%</speed>増加する。敵に近づくか、発動後4秒経過すると衝撃波が放たれ、周囲にいるチャンピオンに1.5秒間50%の<status>スロウ効果</status>を与える(クールダウン90秒)。<br><passive>燃料補給:</passive> 移動するか、チャンピオンまたは大型モンスターからダメージを受けると、<keywordMajor>「ケミタンク」</keywordMajor>が満たされていく。100スタックになると、次の通常攻撃が周囲のすべての敵に<magicDamage>40 - 120(+最大体力の1%、+移動速度の3%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては30%、ジャングルモンスターに対しては200%増加する)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention>、体力<attention>50</attention></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ターボ ケミタンク</div><mainText><stats>体力<attention>450</attention><br>物理防御 <attention>25</attention><br>魔法防御<attention>25</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><active>発動効果 -</active> <active>過給:</active> 4秒間、敵または敵タワーに向かって移動する際の<speed>移動速度が40%</speed>増加する。敵に近づくか、発動後4秒経過すると衝撃波が放たれ、周囲にいるチャンピオンに1.5秒間50%の<status>スロウ効果</status>を与える(クールダウン90秒)。<br><passive>燃料補給:</passive> 移動するか、チャンピオンまたは大型モンスターからダメージを受けると、<keywordMajor>「ケミタンク」</keywordMajor>が満たされていく。100スタックになると、次の通常攻撃が周囲のすべての敵に<magicDamage>40 - 120(+最大体力の1%、+移動速度の3%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては30%、ジャングルモンスターに対しては200%増加する)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention>、体力<attention>50</attention></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
     },
     "6670": {
       "name": "ヌーンクィヴァー",
@@ -1594,15 +1594,15 @@
     },
     "6672": {
       "name": "クラーケン スレイヤー",
-      "desc": "<mainText><stats>攻撃力<attention>65</attention><br>攻撃速度<attention>25%</attention><br>クリティカル率<attention>20%</attention></stats><br><li><passive>打倒:</passive> 通常攻撃が3回ごとに<trueDamage>(60 + 増加攻撃力の45%)の確定ダメージ</trueDamage>を追加で与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 攻撃速度<attention>10%</attention></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>65</attention><br>攻撃速度<attention>25%</attention><br>クリティカル率<attention>20%</attention></stats><br><li><passive>打倒:</passive> 通常攻撃が3回ごとに<trueDamage>(50 + 増加攻撃力の40%)の確定ダメージ</trueDamage>を追加で与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 攻撃速度<attention>10%</attention></mainText><br>",
       "gold": 3400,
-      "tooltip": "<div class='tooltip-title'>クラーケン スレイヤー</div><mainText><stats>攻撃力<attention>65</attention><br>攻撃速度<attention>25%</attention><br>クリティカル率<attention>20%</attention></stats><br><li><passive>打倒:</passive> 通常攻撃が3回ごとに<trueDamage>(60 + 増加攻撃力の45%)の確定ダメージ</trueDamage>を追加で与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 攻撃速度<attention>10%</attention></mainText><br><div class='tooltip-gold'>3400 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>クラーケン スレイヤー</div><mainText><stats>攻撃力<attention>65</attention><br>攻撃速度<attention>25%</attention><br>クリティカル率<attention>20%</attention></stats><br><li><passive>打倒:</passive> 通常攻撃が3回ごとに<trueDamage>(50 + 増加攻撃力の40%)の確定ダメージ</trueDamage>を追加で与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 攻撃速度<attention>10%</attention></mainText><br><div class='tooltip-gold'>3400 Gold</div>"
     },
     "6673": {
       "name": "イモータル シールドボウ",
-      "desc": "<mainText><stats>攻撃力<attention>50</attention><br>攻撃速度<attention>20%</attention><br>クリティカル率<attention>20%</attention><br>ライフ スティール<attention>8%</attention></stats><br><li><passive>ライフライン:</passive> 体力が30%未満になるダメージを受けると、3秒間<shield>耐久値275 - 700のシールド</shield>を獲得する。さらに8秒間、<attackDamage>攻撃力が15 - 35</attackDamage>増加する(90秒 )。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 攻撃力<attention>5</attention>、体力<attention>70</attention></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>50</attention><br>攻撃速度<attention>20%</attention><br>クリティカル率<attention>20%</attention><br>ライフ スティール<attention>7%</attention></stats><br><li><passive>ライフライン:</passive> 体力が30%未満になるダメージを受けると、3秒間<shield>耐久値250 - 630のシールド</shield>を獲得する。さらに8秒間、<attackDamage>攻撃力が15 - 35</attackDamage>増加する(90秒 )。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 攻撃力<attention>5</attention>、体力<attention>70</attention></mainText><br>",
       "gold": 3400,
-      "tooltip": "<div class='tooltip-title'>イモータル シールドボウ</div><mainText><stats>攻撃力<attention>50</attention><br>攻撃速度<attention>20%</attention><br>クリティカル率<attention>20%</attention><br>ライフ スティール<attention>8%</attention></stats><br><li><passive>ライフライン:</passive> 体力が30%未満になるダメージを受けると、3秒間<shield>耐久値275 - 700のシールド</shield>を獲得する。さらに8秒間、<attackDamage>攻撃力が15 - 35</attackDamage>増加する(90秒 )。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 攻撃力<attention>5</attention>、体力<attention>70</attention></mainText><br><div class='tooltip-gold'>3400 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>イモータル シールドボウ</div><mainText><stats>攻撃力<attention>50</attention><br>攻撃速度<attention>20%</attention><br>クリティカル率<attention>20%</attention><br>ライフ スティール<attention>7%</attention></stats><br><li><passive>ライフライン:</passive> 体力が30%未満になるダメージを受けると、3秒間<shield>耐久値250 - 630のシールド</shield>を獲得する。さらに8秒間、<attackDamage>攻撃力が15 - 35</attackDamage>増加する(90秒 )。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 攻撃力<attention>5</attention>、体力<attention>70</attention></mainText><br><div class='tooltip-gold'>3400 Gold</div>"
     },
     "6675": {
       "name": "ナヴォリ クイックブレード",
@@ -1624,21 +1624,21 @@
     },
     "6691": {
       "name": "ドラクサー ダスクブレード",
-      "desc": "<mainText><stats>攻撃力<attention>60</attention><br>脅威<attention>18</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>ナイトストーカー:</passive> チャンピオンに通常攻撃を行うと、追加で<physicalDamage>(近接攻撃は75 + 増加攻撃力の30% / 遠隔攻撃は55 + 増加攻撃力の25%)の物理ダメージ</physicalDamage>を与える(クールダウン15秒)。近接攻撃チャンピオンが行った場合、この通常攻撃は対象に0.25秒間99%の<status>スロウ効果</status>も与える。ダメージを与えたチャンピオンが3秒以内に倒された場合は、このクールダウンが解消されて、1.5秒間<keywordStealth>インビジブル</keywordStealth>状態になる。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention><br></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>60</attention><br>脅威<attention>22</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>ナイトストーカー:</passive> チャンピオンに通常攻撃を行うと、追加で<physicalDamage>(近接攻撃は75 + 増加攻撃力の30% / 遠隔攻撃は55 + 増加攻撃力の25%)の物理ダメージ</physicalDamage>を与える(クールダウン15秒)。近接攻撃チャンピオンが行った場合、この通常攻撃は対象に0.25秒間99%の<status>スロウ効果</status>も与える。ダメージを与えたチャンピオンが3秒以内に倒された場合は、このクールダウンが解消されて、1.5秒間<keywordStealth>インビジブル</keywordStealth>状態になる。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention><br></mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>ドラクサー ダスクブレード</div><mainText><stats>攻撃力<attention>60</attention><br>脅威<attention>18</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>ナイトストーカー:</passive> チャンピオンに通常攻撃を行うと、追加で<physicalDamage>(近接攻撃は75 + 増加攻撃力の30% / 遠隔攻撃は55 + 増加攻撃力の25%)の物理ダメージ</physicalDamage>を与える(クールダウン15秒)。近接攻撃チャンピオンが行った場合、この通常攻撃は対象に0.25秒間99%の<status>スロウ効果</status>も与える。ダメージを与えたチャンピオンが3秒以内に倒された場合は、このクールダウンが解消されて、1.5秒間<keywordStealth>インビジブル</keywordStealth>状態になる。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention><br></mainText><br><div class='tooltip-gold'>3100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ドラクサー ダスクブレード</div><mainText><stats>攻撃力<attention>60</attention><br>脅威<attention>22</attention><br>スキルヘイスト<attention>20</attention></stats><br><li><passive>ナイトストーカー:</passive> チャンピオンに通常攻撃を行うと、追加で<physicalDamage>(近接攻撃は75 + 増加攻撃力の30% / 遠隔攻撃は55 + 増加攻撃力の25%)の物理ダメージ</physicalDamage>を与える(クールダウン15秒)。近接攻撃チャンピオンが行った場合、この通常攻撃は対象に0.25秒間99%の<status>スロウ効果</status>も与える。ダメージを与えたチャンピオンが3秒以内に倒された場合は、このクールダウンが解消されて、1.5秒間<keywordStealth>インビジブル</keywordStealth>状態になる。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention><br></mainText><br><div class='tooltip-gold'>3100 Gold</div>"
     },
     "6692": {
       "name": "赤月の刃",
-      "desc": "<mainText><stats>攻撃力<attention>55</attention><br>脅威<attention>18</attention><br>オムニヴァンプ<attention>8%</attention></stats><br><br><li><passive>沈まぬ月:</passive> 1.5秒以内に2つの異なる通常攻撃またはスキルをチャンピオンに命中させると、追加で<physicalDamage>最大体力の6%にあたる物理ダメージ</physicalDamage>を与える。また、自身は2秒間<speed>移動速度が15%</speed>増加して、<shield>耐久値(180 + 増加攻撃力の40%)のシールド(遠隔攻撃チャンピオンのシールド耐久値は50%)</shield>を獲得する(クールダウン8秒、遠隔攻撃チャンピオンはクールダウン16秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 物理防御貫通<attention>4%</attention></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>55</attention><br>脅威<attention>22</attention><br>オムニヴァンプ<attention>7%</attention></stats><br><br><li><passive>沈まぬ月:</passive> 1.5秒以内に2つの異なる通常攻撃またはスキルをチャンピオンに命中させると、追加で<physicalDamage>最大体力の{{ Item_Melee_Ranged_Split_C }}%にあたる物理ダメージ</physicalDamage>を与える。また、自身は2秒間<speed>移動速度が15%</speed>増加して、<shield>耐久値(160 + 増加攻撃力の35%)のシールド(遠隔攻撃チャンピオンのシールド耐久値は50%)</shield>を獲得する(クールダウン8秒、遠隔攻撃チャンピオンはクールダウン16秒)。<br><br>{{ Item_Mythic_Passive }} 物理防御貫通<attention>4%</attention></mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>赤月の刃</div><mainText><stats>攻撃力<attention>55</attention><br>脅威<attention>18</attention><br>オムニヴァンプ<attention>8%</attention></stats><br><br><li><passive>沈まぬ月:</passive> 1.5秒以内に2つの異なる通常攻撃またはスキルをチャンピオンに命中させると、追加で<physicalDamage>最大体力の6%にあたる物理ダメージ</physicalDamage>を与える。また、自身は2秒間<speed>移動速度が15%</speed>増加して、<shield>耐久値(180 + 増加攻撃力の40%)のシールド(遠隔攻撃チャンピオンのシールド耐久値は50%)</shield>を獲得する(クールダウン8秒、遠隔攻撃チャンピオンはクールダウン16秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 物理防御貫通<attention>4%</attention></mainText><br><div class='tooltip-gold'>3100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>赤月の刃</div><mainText><stats>攻撃力<attention>55</attention><br>脅威<attention>22</attention><br>オムニヴァンプ<attention>7%</attention></stats><br><br><li><passive>沈まぬ月:</passive> 1.5秒以内に2つの異なる通常攻撃またはスキルをチャンピオンに命中させると、追加で<physicalDamage>最大体力の{{ Item_Melee_Ranged_Split_C }}%にあたる物理ダメージ</physicalDamage>を与える。また、自身は2秒間<speed>移動速度が15%</speed>増加して、<shield>耐久値(160 + 増加攻撃力の35%)のシールド(遠隔攻撃チャンピオンのシールド耐久値は50%)</shield>を獲得する(クールダウン8秒、遠隔攻撃チャンピオンはクールダウン16秒)。<br><br>{{ Item_Mythic_Passive }} 物理防御貫通<attention>4%</attention></mainText><br><div class='tooltip-gold'>3100 Gold</div>"
     },
     "6693": {
       "name": "プローラー クロウ",
-      "desc": "<mainText><stats>攻撃力<attention>60</attention><br>脅威<attention>18</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><active>発動効果 -</active> <active>サンドスワイプ:</active> 対象の敵チャンピオンを通り過ぎるようにダッシュして、<physicalDamage>(75 + 増加攻撃力の30%)の物理ダメージ</physicalDamage>を与える。その後3秒間、その対象に与えるダメージが15%増加する(クールダウン90秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 脅威<attention>5</attention></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>60</attention><br>脅威<attention>22</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><active>発動効果 -</active> <active>サンドスワイプ:</active> 対象の敵チャンピオンを通り過ぎるようにダッシュして、<physicalDamage>(75 + 増加攻撃力の30%)の物理ダメージ</physicalDamage>を与える。その後3秒間、その対象に与えるダメージが15%増加する(クールダウン90秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 脅威<attention>5</attention></mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>プローラー クロウ</div><mainText><stats>攻撃力<attention>60</attention><br>脅威<attention>18</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><active>発動効果 -</active> <active>サンドスワイプ:</active> 対象の敵チャンピオンを通り過ぎるようにダッシュして、<physicalDamage>(75 + 増加攻撃力の30%)の物理ダメージ</physicalDamage>を与える。その後3秒間、その対象に与えるダメージが15%増加する(クールダウン90秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 脅威<attention>5</attention></mainText><br><div class='tooltip-gold'>3100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>プローラー クロウ</div><mainText><stats>攻撃力<attention>60</attention><br>脅威<attention>22</attention><br>スキルヘイスト<attention>20</attention></stats><br><br><active>発動効果 -</active> <active>サンドスワイプ:</active> 対象の敵チャンピオンを通り過ぎるようにダッシュして、<physicalDamage>(75 + 増加攻撃力の30%)の物理ダメージ</physicalDamage>を与える。その後3秒間、その対象に与えるダメージが15%増加する(クールダウン90秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 脅威<attention>5</attention></mainText><br><div class='tooltip-gold'>3100 Gold</div>"
     },
     "6694": {
       "name": "セリルダの怨恨",
@@ -1648,51 +1648,51 @@
     },
     "6695": {
       "name": "毒蛇の牙",
-      "desc": "<mainText><stats>攻撃力<attention>55</attention><br>脅威<attention>12</attention></stats><br><li><passive>盾崩し:</passive> 敵チャンピオンにダメージを与えると3秒間、対象が獲得するシールドの耐久値を(50% | 遠隔攻撃チャンピオンは35%)低下させる。「盾崩し」の効果を受けていない敵にダメージを与えた場合は、対象が受けているすべてのシールドの耐久値を(50% | 遠隔攻撃チャンピオンは35%)低下させる。<br><br><rules>追加ダメージは魔法ダメージのみを防ぐシールドを展開した対象には適用されない。<br>近接攻撃チャンピオンか遠隔攻撃チャンピオンかに応じて、アイテムの効果は異なる。</rules></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>55</attention><br>脅威<attention>14</attention></stats><br><li><passive>盾崩し:</passive> 敵チャンピオンにダメージを与えると3秒間、対象が獲得するシールドの耐久値を(50% | 遠隔攻撃チャンピオンは35%)低下させる。「盾崩し」の効果を受けていない敵にダメージを与えた場合は、対象が受けているすべてのシールドの耐久値を(50% | 遠隔攻撃チャンピオンは35%)低下させる。<br><br><rules>追加ダメージは魔法ダメージのみを防ぐシールドを展開した対象には適用されない。<br>近接攻撃チャンピオンか遠隔攻撃チャンピオンかに応じて、アイテムの効果は異なる。</rules></mainText><br>",
       "gold": 2600,
-      "tooltip": "<div class='tooltip-title'>毒蛇の牙</div><mainText><stats>攻撃力<attention>55</attention><br>脅威<attention>12</attention></stats><br><li><passive>盾崩し:</passive> 敵チャンピオンにダメージを与えると3秒間、対象が獲得するシールドの耐久値を(50% | 遠隔攻撃チャンピオンは35%)低下させる。「盾崩し」の効果を受けていない敵にダメージを与えた場合は、対象が受けているすべてのシールドの耐久値を(50% | 遠隔攻撃チャンピオンは35%)低下させる。<br><br><rules>追加ダメージは魔法ダメージのみを防ぐシールドを展開した対象には適用されない。<br>近接攻撃チャンピオンか遠隔攻撃チャンピオンかに応じて、アイテムの効果は異なる。</rules></mainText><br><div class='tooltip-gold'>2600 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>毒蛇の牙</div><mainText><stats>攻撃力<attention>55</attention><br>脅威<attention>14</attention></stats><br><li><passive>盾崩し:</passive> 敵チャンピオンにダメージを与えると3秒間、対象が獲得するシールドの耐久値を(50% | 遠隔攻撃チャンピオンは35%)低下させる。「盾崩し」の効果を受けていない敵にダメージを与えた場合は、対象が受けているすべてのシールドの耐久値を(50% | 遠隔攻撃チャンピオンは35%)低下させる。<br><br><rules>追加ダメージは魔法ダメージのみを防ぐシールドを展開した対象には適用されない。<br>近接攻撃チャンピオンか遠隔攻撃チャンピオンかに応じて、アイテムの効果は異なる。</rules></mainText><br><div class='tooltip-gold'>2600 Gold</div>"
     },
     "6696": {
       "name": "アクシオム アーク",
-      "desc": "<mainText><stats>攻撃力<attention>55</attention><br>脅威<attention>10</attention><br>スキルヘイスト<attention>25</attention></stats><br><li><passive>流転:</passive> ダメージを与えてから3秒以内にそのチャンピオンが倒されるたびに、アルティメットスキルの合計クールダウンの20%が解消される。</mainText><br>",
+      "desc": "<mainText><stats>攻撃力<attention>55</attention><br>脅威<attention>13</attention><br>スキルヘイスト<attention>25</attention></stats><br><li><passive>流転:</passive> ダメージを与えてから3秒以内にそのチャンピオンが倒されるたびに、アルティメットスキルの合計クールダウンの20%が解消される。</mainText><br>",
       "gold": 3000,
-      "tooltip": "<div class='tooltip-title'>アクシオム アーク</div><mainText><stats>攻撃力<attention>55</attention><br>脅威<attention>10</attention><br>スキルヘイスト<attention>25</attention></stats><br><li><passive>流転:</passive> ダメージを与えてから3秒以内にそのチャンピオンが倒されるたびに、アルティメットスキルの合計クールダウンの20%が解消される。</mainText><br><div class='tooltip-gold'>3000 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>アクシオム アーク</div><mainText><stats>攻撃力<attention>55</attention><br>脅威<attention>13</attention><br>スキルヘイスト<attention>25</attention></stats><br><li><passive>流転:</passive> ダメージを与えてから3秒以内にそのチャンピオンが倒されるたびに、アルティメットスキルの合計クールダウンの20%が解消される。</mainText><br><div class='tooltip-gold'>3000 Gold</div>"
     },
     "7000": {
       "name": "サンドシュライク クロウ",
-      "desc": "<mainText><stats>攻撃力<ornnBonus>75</ornnBonus><br>脅威<ornnBonus>26</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><br><active>発動効果 -</active> <active>サンドスワイプ:</active> 対象の敵チャンピオンを通り過ぎるようにダッシュして、<physicalDamage>(75 + 増加攻撃力の30%)の物理ダメージ</physicalDamage>を与える。その後3秒間、その対象に与えるダメージが15%増加する(クールダウン90秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 脅威<attention>5</attention></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<ornnBonus>75</ornnBonus><br>脅威<ornnBonus>32</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><br><active>発動効果 -</active> <active>サンドスワイプ:</active> 対象の敵チャンピオンを通り過ぎるようにダッシュして、<physicalDamage>(75 + 増加攻撃力の30%)の物理ダメージ</physicalDamage>を与える。その後3秒間、その対象に与えるダメージが15%増加する(クールダウン90秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 脅威<attention>5</attention></mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>サンドシュライク クロウ</div><mainText><stats>攻撃力<ornnBonus>75</ornnBonus><br>脅威<ornnBonus>26</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><br><active>発動効果 -</active> <active>サンドスワイプ:</active> 対象の敵チャンピオンを通り過ぎるようにダッシュして、<physicalDamage>(75 + 増加攻撃力の30%)の物理ダメージ</physicalDamage>を与える。その後3秒間、その対象に与えるダメージが15%増加する(クールダウン90秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 脅威<attention>5</attention></mainText><br><div class='tooltip-gold'>3100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>サンドシュライク クロウ</div><mainText><stats>攻撃力<ornnBonus>75</ornnBonus><br>脅威<ornnBonus>32</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><br><active>発動効果 -</active> <active>サンドスワイプ:</active> 対象の敵チャンピオンを通り過ぎるようにダッシュして、<physicalDamage>(75 + 増加攻撃力の30%)の物理ダメージ</physicalDamage>を与える。その後3秒間、その対象に与えるダメージが15%増加する(クールダウン90秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 脅威<attention>5</attention></mainText><br><div class='tooltip-gold'>3100 Gold</div>"
     },
     "7001": {
       "name": "朔望",
-      "desc": "<mainText><stats>攻撃力<ornnBonus>75</ornnBonus><br>脅威<ornnBonus>26</ornnBonus><br>オムニヴァンプ<ornnBonus>10%</ornnBonus></stats><br><br><li><passive>沈まぬ月:</passive> 1.5秒以内に2つの異なる通常攻撃またはスキルをチャンピオンに命中させると、追加で<physicalDamage>最大体力の6%にあたる物理ダメージ</physicalDamage>を与える。また、自身は2秒間<speed>移動速度が15%</speed>増加して、<shield>耐久値(180 + 増加攻撃力の40%)のシールド(遠隔攻撃チャンピオンのシールド耐久値は50%)</shield>を獲得する(クールダウン8秒、遠隔攻撃チャンピオンはクールダウン16秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 物理防御貫通<attention>4%</attention></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<ornnBonus>75</ornnBonus><br>脅威<ornnBonus>32</ornnBonus><br>オムニヴァンプ<ornnBonus>8%</ornnBonus></stats><br><br><li><passive>沈まぬ月:</passive> 1.5秒以内に2つの異なる通常攻撃またはスキルをチャンピオンに命中させると、追加で<physicalDamage>最大体力の{{ Item_Melee_Ranged_Split_C }}%にあたる物理ダメージ</physicalDamage>を与える。また、自身は2秒間<speed>移動速度が15%</speed>増加して、<shield>耐久値(160 + 増加攻撃力の35%)のシールド(遠隔攻撃チャンピオンのシールド耐久値は50%)</shield>を獲得する(クールダウン8秒、遠隔攻撃チャンピオンはクールダウン16秒)。<br><br>{{ Item_Mythic_Passive }} 物理防御貫通<attention>4%</attention></mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>朔望</div><mainText><stats>攻撃力<ornnBonus>75</ornnBonus><br>脅威<ornnBonus>26</ornnBonus><br>オムニヴァンプ<ornnBonus>10%</ornnBonus></stats><br><br><li><passive>沈まぬ月:</passive> 1.5秒以内に2つの異なる通常攻撃またはスキルをチャンピオンに命中させると、追加で<physicalDamage>最大体力の6%にあたる物理ダメージ</physicalDamage>を与える。また、自身は2秒間<speed>移動速度が15%</speed>増加して、<shield>耐久値(180 + 増加攻撃力の40%)のシールド(遠隔攻撃チャンピオンのシールド耐久値は50%)</shield>を獲得する(クールダウン8秒、遠隔攻撃チャンピオンはクールダウン16秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 物理防御貫通<attention>4%</attention></mainText><br><div class='tooltip-gold'>3100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>朔望</div><mainText><stats>攻撃力<ornnBonus>75</ornnBonus><br>脅威<ornnBonus>32</ornnBonus><br>オムニヴァンプ<ornnBonus>8%</ornnBonus></stats><br><br><li><passive>沈まぬ月:</passive> 1.5秒以内に2つの異なる通常攻撃またはスキルをチャンピオンに命中させると、追加で<physicalDamage>最大体力の{{ Item_Melee_Ranged_Split_C }}%にあたる物理ダメージ</physicalDamage>を与える。また、自身は2秒間<speed>移動速度が15%</speed>増加して、<shield>耐久値(160 + 増加攻撃力の35%)のシールド(遠隔攻撃チャンピオンのシールド耐久値は50%)</shield>を獲得する(クールダウン8秒、遠隔攻撃チャンピオンはクールダウン16秒)。<br><br>{{ Item_Mythic_Passive }} 物理防御貫通<attention>4%</attention></mainText><br><div class='tooltip-gold'>3100 Gold</div>"
     },
     "7002": {
       "name": "ドラクサー シャドウカーバー",
-      "desc": "<mainText><stats>攻撃力<ornnBonus>75</ornnBonus><br>脅威<ornnBonus>26</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><li><passive>ナイトストーカー:</passive> チャンピオンに通常攻撃を行うと、追加で<physicalDamage>(近接攻撃は75 + 増加攻撃力の30% / 遠隔攻撃は55 + 増加攻撃力の25%)の物理ダメージ</physicalDamage>を与える(クールダウン15秒)。近接攻撃チャンピオンが行った場合、この通常攻撃は対象に0.25秒間99%の<status>スロウ効果</status>も与える。ダメージを与えたチャンピオンが3秒以内に倒された場合は、このクールダウンが解消されて、1.5秒間<keywordStealth>インビジブル</keywordStealth>状態になる。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention><br></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<ornnBonus>75</ornnBonus><br>脅威<ornnBonus>32</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><li><passive>ナイトストーカー:</passive> チャンピオンに通常攻撃を行うと、追加で<physicalDamage>(近接攻撃は75 + 増加攻撃力の30% / 遠隔攻撃は55 + 増加攻撃力の25%)の物理ダメージ</physicalDamage>を与える(クールダウン15秒)。近接攻撃チャンピオンが行った場合、この通常攻撃は対象に0.25秒間99%の<status>スロウ効果</status>も与える。ダメージを与えたチャンピオンが3秒以内に倒された場合は、このクールダウンが解消されて、1.5秒間<keywordStealth>インビジブル</keywordStealth>状態になる。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention><br></mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>ドラクサー シャドウカーバー</div><mainText><stats>攻撃力<ornnBonus>75</ornnBonus><br>脅威<ornnBonus>26</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><li><passive>ナイトストーカー:</passive> チャンピオンに通常攻撃を行うと、追加で<physicalDamage>(近接攻撃は75 + 増加攻撃力の30% / 遠隔攻撃は55 + 増加攻撃力の25%)の物理ダメージ</physicalDamage>を与える(クールダウン15秒)。近接攻撃チャンピオンが行った場合、この通常攻撃は対象に0.25秒間99%の<status>スロウ効果</status>も与える。ダメージを与えたチャンピオンが3秒以内に倒された場合は、このクールダウンが解消されて、1.5秒間<keywordStealth>インビジブル</keywordStealth>状態になる。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention><br></mainText><br><div class='tooltip-gold'>3100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ドラクサー シャドウカーバー</div><mainText><stats>攻撃力<ornnBonus>75</ornnBonus><br>脅威<ornnBonus>32</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><li><passive>ナイトストーカー:</passive> チャンピオンに通常攻撃を行うと、追加で<physicalDamage>(近接攻撃は75 + 増加攻撃力の30% / 遠隔攻撃は55 + 増加攻撃力の25%)の物理ダメージ</physicalDamage>を与える(クールダウン15秒)。近接攻撃チャンピオンが行った場合、この通常攻撃は対象に0.25秒間99%の<status>スロウ効果</status>も与える。ダメージを与えたチャンピオンが3秒以内に倒された場合は、このクールダウンが解消されて、1.5秒間<keywordStealth>インビジブル</keywordStealth>状態になる。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention><br></mainText><br><div class='tooltip-gold'>3100 Gold</div>"
     },
     "7003": {
       "name": "ターボチャージ ヘクスペリメント",
-      "desc": "<mainText><stats>体力<ornnBonus>500</ornnBonus><br>物理防御<ornnBonus>40</ornnBonus><br>魔法防御<ornnBonus>40</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><br><active>発動効果 -</active> <active>過給:</active> 4秒間、敵または敵タワーに向かって移動する際の<speed>移動速度が40%</speed>増加する。敵に近づくか、発動後4秒経過すると衝撃波が放たれ、周囲にいるチャンピオンに1.5秒間50%の<status>スロウ効果</status>を与える(クールダウン90秒)。<br><passive>燃料補給:</passive> 移動するか、チャンピオンまたは大型モンスターからダメージを受けると、<keywordMajor>「ケミタンク」</keywordMajor>が満たされていく。100スタックになると、次の通常攻撃が周囲のすべての敵に<magicDamage>40 - 120(+最大体力の1%、+移動速度の3%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては30%、ジャングルモンスターに対しては200%増加する)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention>、体力<attention>50</attention></mainText><br>",
+      "desc": "<mainText><stats>体力<ornnBonus>600</ornnBonus><br>物理防御<ornnBonus>40</ornnBonus><br>魔法防御<ornnBonus>40</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><br><active>発動効果 -</active> <active>過給:</active> 4秒間、敵または敵タワーに向かって移動する際の<speed>移動速度が40%</speed>増加する。敵に近づくか、発動後4秒経過すると衝撃波が放たれ、周囲にいるチャンピオンに1.5秒間50%の<status>スロウ効果</status>を与える(クールダウン90秒)。<br><passive>燃料補給:</passive> 移動するか、チャンピオンまたは大型モンスターからダメージを受けると、<keywordMajor>「ケミタンク」</keywordMajor>が満たされていく。100スタックになると、次の通常攻撃が周囲のすべての敵に<magicDamage>40 - 120(+最大体力の1%、+移動速度の3%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては30%、ジャングルモンスターに対しては200%増加する)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention>、体力<attention>50</attention></mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>ターボチャージ ヘクスペリメント</div><mainText><stats>体力<ornnBonus>500</ornnBonus><br>物理防御<ornnBonus>40</ornnBonus><br>魔法防御<ornnBonus>40</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><br><active>発動効果 -</active> <active>過給:</active> 4秒間、敵または敵タワーに向かって移動する際の<speed>移動速度が40%</speed>増加する。敵に近づくか、発動後4秒経過すると衝撃波が放たれ、周囲にいるチャンピオンに1.5秒間50%の<status>スロウ効果</status>を与える(クールダウン90秒)。<br><passive>燃料補給:</passive> 移動するか、チャンピオンまたは大型モンスターからダメージを受けると、<keywordMajor>「ケミタンク」</keywordMajor>が満たされていく。100スタックになると、次の通常攻撃が周囲のすべての敵に<magicDamage>40 - 120(+最大体力の1%、+移動速度の3%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては30%、ジャングルモンスターに対しては200%増加する)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention>、体力<attention>50</attention></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ターボチャージ ヘクスペリメント</div><mainText><stats>体力<ornnBonus>600</ornnBonus><br>物理防御<ornnBonus>40</ornnBonus><br>魔法防御<ornnBonus>40</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><br><active>発動効果 -</active> <active>過給:</active> 4秒間、敵または敵タワーに向かって移動する際の<speed>移動速度が40%</speed>増加する。敵に近づくか、発動後4秒経過すると衝撃波が放たれ、周囲にいるチャンピオンに1.5秒間50%の<status>スロウ効果</status>を与える(クールダウン90秒)。<br><passive>燃料補給:</passive> 移動するか、チャンピオンまたは大型モンスターからダメージを受けると、<keywordMajor>「ケミタンク」</keywordMajor>が満たされていく。100スタックになると、次の通常攻撃が周囲のすべての敵に<magicDamage>40 - 120(+最大体力の1%、+移動速度の3%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては30%、ジャングルモンスターに対しては200%増加する)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention>、体力<attention>50</attention></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
     },
     "7004": {
       "name": "フォージファイア クレスト",
-      "desc": "<mainText><stats>体力<ornnBonus>500</ornnBonus><br>物理防御<ornnBonus>50</ornnBonus><br>魔法防御<ornnBonus>50</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><li><passive>猛火:</passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(12 - 30(チャンピオンレベルに応じて) + 増加体力の1%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては25%、モンスターに対しては150%増加する)。この効果でチャンピオンまたはエピックモンスターにダメージを与えるとスタックが増加し、それ以降に<passive>「猛火」</passive>で与えるダメージが5秒間12%増加する(最大スタック6)。<li><passive>発火:</passive> <passive>「猛火」</passive>のスタックが最大になると、通常攻撃が周囲の敵を燃やして3秒間<passive>「猛火」</passive>のダメージを毎秒与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 行動妨害耐性とスロウ耐性<attention>5%</attention>、体力<attention>50</attention></mainText><br>",
+      "desc": "<mainText><stats>体力<ornnBonus>600</ornnBonus><br>物理防御<ornnBonus>50</ornnBonus><br>魔法防御<ornnBonus>50</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><li><passive>猛火:</passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(12 - 30(チャンピオンレベルに応じて) + 増加体力の1%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては25%、モンスターに対しては150%増加する)。この効果でチャンピオンまたはエピックモンスターにダメージを与えるとスタックが増加し、それ以降に<passive>「猛火」</passive>で与えるダメージが5秒間10%増加する(最大スタック6)。<li><passive>発火:</passive> <passive>「猛火」</passive>のスタックが最大になると、通常攻撃が周囲の敵を燃やして3秒間<passive>「猛火」</passive>のダメージを毎秒与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 行動妨害耐性とスロウ耐性<attention>5%</attention>、体力<attention>50</attention></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>フォージファイア クレスト</div><mainText><stats>体力<ornnBonus>500</ornnBonus><br>物理防御<ornnBonus>50</ornnBonus><br>魔法防御<ornnBonus>50</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><li><passive>猛火:</passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(12 - 30(チャンピオンレベルに応じて) + 増加体力の1%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては25%、モンスターに対しては150%増加する)。この効果でチャンピオンまたはエピックモンスターにダメージを与えるとスタックが増加し、それ以降に<passive>「猛火」</passive>で与えるダメージが5秒間12%増加する(最大スタック6)。<li><passive>発火:</passive> <passive>「猛火」</passive>のスタックが最大になると、通常攻撃が周囲の敵を燃やして3秒間<passive>「猛火」</passive>のダメージを毎秒与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 行動妨害耐性とスロウ耐性<attention>5%</attention>、体力<attention>50</attention></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>フォージファイア クレスト</div><mainText><stats>体力<ornnBonus>600</ornnBonus><br>物理防御<ornnBonus>50</ornnBonus><br>魔法防御<ornnBonus>50</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><li><passive>猛火:</passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(12 - 30(チャンピオンレベルに応じて) + 増加体力の1%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては25%、モンスターに対しては150%増加する)。この効果でチャンピオンまたはエピックモンスターにダメージを与えるとスタックが増加し、それ以降に<passive>「猛火」</passive>で与えるダメージが5秒間10%増加する(最大スタック6)。<li><passive>発火:</passive> <passive>「猛火」</passive>のスタックが最大になると、通常攻撃が周囲の敵を燃やして3秒間<passive>「猛火」</passive>のダメージを毎秒与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 行動妨害耐性とスロウ耐性<attention>5%</attention>、体力<attention>50</attention></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "7005": {
       "name": "ライムフォージド グラスプ",
-      "desc": "<mainText><stats>体力<ornnBonus>500</ornnBonus><br>物理防御<ornnBonus>40</ornnBonus><br>魔法防御<ornnBonus>40</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><li><passive>猛火:</passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(12 + 増加体力の1%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては25%、モンスターに対しては150%増加する)。<li><passive>スノーバインド:</passive> 通常攻撃が1.5秒間、凍てつくゾーンを作り出し、範囲内のすべての敵に(12-85 / 6-42.5)の追加魔法ダメージを与える(クールダウン4秒、遠隔攻撃チャンピオンは6秒)。ゾーンに入った敵に近接攻撃チャンピオンは25%、遠隔攻撃チャンピオンは12.5%(自身の<scaleHealth>最大体力</scaleHealth>で増加)の<status>スロウ効果</status>を与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 体力<attention>100</attention>、サイズ<attention>6%</attention></mainText><br>",
+      "desc": "<mainText><stats>体力<ornnBonus>600</ornnBonus><br>物理防御<ornnBonus>40</ornnBonus><br>魔法防御<ornnBonus>40</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><li><passive>猛火:</passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(12 + 増加体力の1%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては25%、モンスターに対しては150%増加する)。<li><passive>スノーバインド:</passive> 通常攻撃が1.5秒間、凍てつくゾーンを作り出し、範囲内のすべての敵に(12 - 85 / 6 - 42.5)の追加魔法ダメージを与える(クールダウン4秒、遠隔攻撃チャンピオンは6秒)。ゾーンに入った敵に近接攻撃チャンピオンは25%、遠隔攻撃チャンピオンは12.5%(自身の<scaleHealth>最大体力</scaleHealth>で増加)の<status>スロウ効果</status>を与える。 <br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 体力<attention>100</attention>、サイズ<attention>6%</attention></mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>ライムフォージド グラスプ</div><mainText><stats>体力<ornnBonus>500</ornnBonus><br>物理防御<ornnBonus>40</ornnBonus><br>魔法防御<ornnBonus>40</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><li><passive>猛火:</passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(12 + 増加体力の1%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては25%、モンスターに対しては150%増加する)。<li><passive>スノーバインド:</passive> 通常攻撃が1.5秒間、凍てつくゾーンを作り出し、範囲内のすべての敵に(12-85 / 6-42.5)の追加魔法ダメージを与える(クールダウン4秒、遠隔攻撃チャンピオンは6秒)。ゾーンに入った敵に近接攻撃チャンピオンは25%、遠隔攻撃チャンピオンは12.5%(自身の<scaleHealth>最大体力</scaleHealth>で増加)の<status>スロウ効果</status>を与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 体力<attention>100</attention>、サイズ<attention>6%</attention></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ライムフォージド グラスプ</div><mainText><stats>体力<ornnBonus>600</ornnBonus><br>物理防御<ornnBonus>40</ornnBonus><br>魔法防御<ornnBonus>40</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><li><passive>猛火:</passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(12 + 増加体力の1%)の魔法ダメージ</magicDamage>を与える(このダメージはミニオンに対しては25%、モンスターに対しては150%増加する)。<li><passive>スノーバインド:</passive> 通常攻撃が1.5秒間、凍てつくゾーンを作り出し、範囲内のすべての敵に(12 - 85 / 6 - 42.5)の追加魔法ダメージを与える(クールダウン4秒、遠隔攻撃チャンピオンは6秒)。ゾーンに入った敵に近接攻撃チャンピオンは25%、遠隔攻撃チャンピオンは12.5%(自身の<scaleHealth>最大体力</scaleHealth>で増加)の<status>スロウ効果</status>を与える。 <br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 体力<attention>100</attention>、サイズ<attention>6%</attention></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
     },
     "7006": {
       "name": "タイフーン",
@@ -1702,39 +1702,39 @@
     },
     "7007": {
       "name": "ワームフォールン サクリファイス",
-      "desc": "<mainText><stats>攻撃力<ornnBonus>85</ornnBonus><br>攻撃速度<ornnBonus>40%</ornnBonus><br>クリティカル率<attention>20%</attention></stats><br><li><passive>打倒:</passive> 通常攻撃が3回ごとに<trueDamage>(60 + 増加攻撃力の45%)の確定ダメージ</trueDamage>を追加で与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 攻撃速度<attention>10%</attention></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<ornnBonus>85</ornnBonus><br>攻撃速度<ornnBonus>40%</ornnBonus><br>クリティカル率<attention>20%</attention></stats><br><li><passive>打倒:</passive> 通常攻撃が3回ごとに<trueDamage>(50 + 増加攻撃力の40%)の確定ダメージ</trueDamage>を追加で与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 攻撃速度<attention>10%</attention></mainText><br>",
       "gold": 3400,
-      "tooltip": "<div class='tooltip-title'>ワームフォールン サクリファイス</div><mainText><stats>攻撃力<ornnBonus>85</ornnBonus><br>攻撃速度<ornnBonus>40%</ornnBonus><br>クリティカル率<attention>20%</attention></stats><br><li><passive>打倒:</passive> 通常攻撃が3回ごとに<trueDamage>(60 + 増加攻撃力の45%)の確定ダメージ</trueDamage>を追加で与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 攻撃速度<attention>10%</attention></mainText><br><div class='tooltip-gold'>3400 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ワームフォールン サクリファイス</div><mainText><stats>攻撃力<ornnBonus>85</ornnBonus><br>攻撃速度<ornnBonus>40%</ornnBonus><br>クリティカル率<attention>20%</attention></stats><br><li><passive>打倒:</passive> 通常攻撃が3回ごとに<trueDamage>(50 + 増加攻撃力の40%)の確定ダメージ</trueDamage>を追加で与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 攻撃速度<attention>10%</attention></mainText><br><div class='tooltip-gold'>3400 Gold</div>"
     },
     "7008": {
       "name": "ブラッドワード",
-      "desc": "<mainText><stats>攻撃力<ornnBonus>65</ornnBonus><br>攻撃速度<ornnBonus>30%</ornnBonus><br>クリティカル率<attention>20%</attention><br>ライフ スティール<ornnBonus>10%</ornnBonus></stats><br><li><passive>ライフライン:</passive> 体力が30%未満になるダメージを受けると、3秒間<shield>耐久値275 - 700のシールド</shield>を獲得する。さらに8秒間、<attackDamage>攻撃力が15 - 35</attackDamage>増加する(90秒 )。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 攻撃力<attention>5</attention>、体力<attention>70</attention></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<ornnBonus>65</ornnBonus><br>攻撃速度<ornnBonus>30%</ornnBonus><br>クリティカル率<attention>20%</attention><br>ライフ スティール<ornnBonus>8%</ornnBonus></stats><br><li><passive>ライフライン:</passive> 体力が30%未満になるダメージを受けると、3秒間<shield>耐久値250 - 630のシールド</shield>を獲得する。さらに8秒間、<attackDamage>攻撃力が15 - 35</attackDamage>増加する(90秒 )。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 攻撃力<attention>5</attention>、体力<attention>70</attention></mainText><br>",
       "gold": 3400,
-      "tooltip": "<div class='tooltip-title'>ブラッドワード</div><mainText><stats>攻撃力<ornnBonus>65</ornnBonus><br>攻撃速度<ornnBonus>30%</ornnBonus><br>クリティカル率<attention>20%</attention><br>ライフ スティール<ornnBonus>10%</ornnBonus></stats><br><li><passive>ライフライン:</passive> 体力が30%未満になるダメージを受けると、3秒間<shield>耐久値275 - 700のシールド</shield>を獲得する。さらに8秒間、<attackDamage>攻撃力が15 - 35</attackDamage>増加する(90秒 )。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 攻撃力<attention>5</attention>、体力<attention>70</attention></mainText><br><div class='tooltip-gold'>3400 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ブラッドワード</div><mainText><stats>攻撃力<ornnBonus>65</ornnBonus><br>攻撃速度<ornnBonus>30%</ornnBonus><br>クリティカル率<attention>20%</attention><br>ライフ スティール<ornnBonus>8%</ornnBonus></stats><br><li><passive>ライフライン:</passive> 体力が30%未満になるダメージを受けると、3秒間<shield>耐久値250 - 630のシールド</shield>を獲得する。さらに8秒間、<attackDamage>攻撃力が15 - 35</attackDamage>増加する(90秒 )。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 攻撃力<attention>5</attention>、体力<attention>70</attention></mainText><br><div class='tooltip-gold'>3400 Gold</div>"
     },
     "7009": {
       "name": "イカシアの呪い",
-      "desc": "<mainText><stats>魔力<ornnBonus>100</ornnBonus><br>体力<ornnBonus>450</ornnBonus><br>スキルヘイスト<ornnBonus>20</ornnBonus><br>オムニヴァンプ<ornnBonus>10%</ornnBonus></stats><br><li><passive>ヴォイドの邪念:</passive> 敵チャンピオンにダメージを与えると、毎秒3%の追加ダメージを与える(最大9%)。効果が最大になると、追加ダメージが<trueDamage>確定ダメージ</trueDamage>に変換される。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: オムニヴァンプ<attention>2%</attention>と魔力8</mainText><br>",
+      "desc": "<mainText><stats>魔力<ornnBonus>90</ornnBonus><br>体力<ornnBonus>450</ornnBonus><br>スキルヘイスト<ornnBonus>20</ornnBonus><br>オムニヴァンプ<ornnBonus>8%</ornnBonus></stats><br><li><passive>ヴォイドの邪念:</passive> 敵チャンピオンにダメージを与えると、毎秒3%の追加ダメージを与える(最大9%)。効果が最大になると、追加ダメージが<trueDamage>確定ダメージ</trueDamage>に変換される。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: オムニヴァンプ<attention>2%</attention>と魔力8</mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>イカシアの呪い</div><mainText><stats>魔力<ornnBonus>100</ornnBonus><br>体力<ornnBonus>450</ornnBonus><br>スキルヘイスト<ornnBonus>20</ornnBonus><br>オムニヴァンプ<ornnBonus>10%</ornnBonus></stats><br><li><passive>ヴォイドの邪念:</passive> 敵チャンピオンにダメージを与えると、毎秒3%の追加ダメージを与える(最大9%)。効果が最大になると、追加ダメージが<trueDamage>確定ダメージ</trueDamage>に変換される。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: オムニヴァンプ<attention>2%</attention>と魔力8</mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>イカシアの呪い</div><mainText><stats>魔力<ornnBonus>90</ornnBonus><br>体力<ornnBonus>450</ornnBonus><br>スキルヘイスト<ornnBonus>20</ornnBonus><br>オムニヴァンプ<ornnBonus>8%</ornnBonus></stats><br><li><passive>ヴォイドの邪念:</passive> 敵チャンピオンにダメージを与えると、毎秒3%の追加ダメージを与える(最大9%)。効果が最大になると、追加ダメージが<trueDamage>確定ダメージ</trueDamage>に変換される。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: オムニヴァンプ<attention>2%</attention>と魔力8</mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "7010": {
       "name": "ヴェスパータイド",
-      "desc": "<mainText><stats>魔力<ornnBonus>120</ornnBonus><br>体力<ornnBonus>400</ornnBonus><br>スキルヘイスト<ornnBonus>20</ornnBonus></stats><br><li><passive>ソウルレンド:</passive> チャンピオンにダメージを与えると<magicDamage>(125 +魔力の15%)の魔法ダメージ</magicDamage>を追加で与え、1.5秒間<speed>移動速度が25%</speed>増加する(チャンピオンごとにクールダウン40秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention><br><br><rules>新たなチャンピオンにダメージを与えると移動速度増加の効果時間が延長される。</rules></mainText><br>",
+      "desc": "<mainText><stats>魔力<ornnBonus>120</ornnBonus><br>体力<ornnBonus>400</ornnBonus><br>スキルヘイスト<ornnBonus>30</ornnBonus></stats><br><li><passive>ソウルレンド:</passive> チャンピオンにダメージを与えると<magicDamage>(125 +魔力の15%)の魔法ダメージ</magicDamage>を追加で与え、1.5秒間<speed>移動速度が25%</speed>増加する(チャンピオンごとにクールダウン30秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention><br><br><rules>新たなチャンピオンにダメージを与えると移動速度増加の効果時間が延長される。</rules></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>ヴェスパータイド</div><mainText><stats>魔力<ornnBonus>120</ornnBonus><br>体力<ornnBonus>400</ornnBonus><br>スキルヘイスト<ornnBonus>20</ornnBonus></stats><br><li><passive>ソウルレンド:</passive> チャンピオンにダメージを与えると<magicDamage>(125 +魔力の15%)の魔法ダメージ</magicDamage>を追加で与え、1.5秒間<speed>移動速度が25%</speed>増加する(チャンピオンごとにクールダウン40秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention><br><br><rules>新たなチャンピオンにダメージを与えると移動速度増加の効果時間が延長される。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ヴェスパータイド</div><mainText><stats>魔力<ornnBonus>120</ornnBonus><br>体力<ornnBonus>400</ornnBonus><br>スキルヘイスト<ornnBonus>30</ornnBonus></stats><br><li><passive>ソウルレンド:</passive> チャンピオンにダメージを与えると<magicDamage>(125 +魔力の15%)の魔法ダメージ</magicDamage>を追加で与え、1.5秒間<speed>移動速度が25%</speed>増加する(チャンピオンごとにクールダウン30秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention><br><br><rules>新たなチャンピオンにダメージを与えると移動速度増加の効果時間が延長される。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "7011": {
       "name": "アップグレード エアロパック",
-      "desc": "<mainText><stats>魔力<ornnBonus>120</ornnBonus><br>魔法防御貫通<ornnBonus>10</ornnBonus><br>体力<ornnBonus>350</ornnBonus><br>スキルヘイスト<ornnBonus>20</ornnBonus></stats><br><br><active>発動効果 -</active> <active>超音速:</active> 指定方向にダッシュして扇状に魔弾を放ち、<magicDamage>(125 + 魔力の15%)の魔法ダメージ</magicDamage>を与える。その後1.5秒間、敵チャンピオンに向かう際に<speed>移動速度が30%</speed>増加する(クールダウン40秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 魔法防御貫通<attention>5</attention><br><br><rules>「超音速」のダッシュは地形を越えられない。</rules></mainText><br>",
+      "desc": "<mainText><stats>魔力<ornnBonus>120</ornnBonus><br>魔法防御貫通<ornnBonus>15</ornnBonus><br>体力<ornnBonus>350</ornnBonus><br>スキルヘイスト<ornnBonus>20</ornnBonus></stats><br><br><active>発動効果 -</active> <active>超音速:</active> 指定方向にダッシュして扇状に魔弾を放ち、<magicDamage>(125 + 魔力の15%)の魔法ダメージ</magicDamage>を与える。その後1.5秒間、敵チャンピオンに向かう際に<speed>移動速度が30%</speed>増加する(クールダウン40秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 魔法防御貫通<attention>5</attention><br><br><rules>「超音速」のダッシュは地形を越えられない。</rules></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>アップグレード エアロパック</div><mainText><stats>魔力<ornnBonus>120</ornnBonus><br>魔法防御貫通<ornnBonus>10</ornnBonus><br>体力<ornnBonus>350</ornnBonus><br>スキルヘイスト<ornnBonus>20</ornnBonus></stats><br><br><active>発動効果 -</active> <active>超音速:</active> 指定方向にダッシュして扇状に魔弾を放ち、<magicDamage>(125 + 魔力の15%)の魔法ダメージ</magicDamage>を与える。その後1.5秒間、敵チャンピオンに向かう際に<speed>移動速度が30%</speed>増加する(クールダウン40秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 魔法防御貫通<attention>5</attention><br><br><rules>「超音速」のダッシュは地形を越えられない。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>アップグレード エアロパック</div><mainText><stats>魔力<ornnBonus>120</ornnBonus><br>魔法防御貫通<ornnBonus>15</ornnBonus><br>体力<ornnBonus>350</ornnBonus><br>スキルヘイスト<ornnBonus>20</ornnBonus></stats><br><br><active>発動効果 -</active> <active>超音速:</active> 指定方向にダッシュして扇状に魔弾を放ち、<magicDamage>(125 + 魔力の15%)の魔法ダメージ</magicDamage>を与える。その後1.5秒間、敵チャンピオンに向かう際に<speed>移動速度が30%</speed>増加する(クールダウン40秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 魔法防御貫通<attention>5</attention><br><br><rules>「超音速」のダッシュは地形を越えられない。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "7012": {
       "name": "ライアンドリーの悲嘆",
-      "desc": "<mainText><stats>魔力<ornnBonus>110</ornnBonus><br>マナ<ornnBonus>800</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><li><passive>激痛:</passive> 対象の増加体力に応じてチャンピオンに最大<magicDamage>12%の追加魔法ダメージ</magicDamage>を与える(増加体力1250で最大)。<li><passive>苦悶:</passive> スキルでダメージを与えると敵を燃やし、4秒間、毎秒<magicDamage>(15 + 魔力の1.5%)(+最大体力の1%)の魔法ダメージ</magicDamage>を与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention></mainText><br>",
+      "desc": "<mainText><stats>魔力<ornnBonus>110</ornnBonus><br>マナ<ornnBonus>800</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><li><passive>激痛:</passive> 対象の増加体力に応じてチャンピオンに最大<magicDamage>12%の追加魔法ダメージ</magicDamage>を与える(増加体力1250で最大)。<li><passive>苦悶:</passive> スキルでダメージを与えると敵を燃やし、4秒間、毎秒<magicDamage>(12.5 + 魔力の1.5%)(+最大体力の1%)の魔法ダメージ</magicDamage>を与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>ライアンドリーの悲嘆</div><mainText><stats>魔力<ornnBonus>110</ornnBonus><br>マナ<ornnBonus>800</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><li><passive>激痛:</passive> 対象の増加体力に応じてチャンピオンに最大<magicDamage>12%の追加魔法ダメージ</magicDamage>を与える(増加体力1250で最大)。<li><passive>苦悶:</passive> スキルでダメージを与えると敵を燃やし、4秒間、毎秒<magicDamage>(15 + 魔力の1.5%)(+最大体力の1%)の魔法ダメージ</magicDamage>を与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>ライアンドリーの悲嘆</div><mainText><stats>魔力<ornnBonus>110</ornnBonus><br>マナ<ornnBonus>800</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><li><passive>激痛:</passive> 対象の増加体力に応じてチャンピオンに最大<magicDamage>12%の追加魔法ダメージ</magicDamage>を与える(増加体力1250で最大)。<li><passive>苦悶:</passive> スキルでダメージを与えると敵を燃やし、4秒間、毎秒<magicDamage>(12.5 + 魔力の1.5%)(+最大体力の1%)の魔法ダメージ</magicDamage>を与える。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "7013": {
       "name": "ルーデンの瞳",
@@ -1744,15 +1744,15 @@
     },
     "7014": {
       "name": "永遠の冬",
-      "desc": "<mainText><stats>魔力<ornnBonus>100</ornnBonus><br>体力<ornnBonus>350</ornnBonus><br>マナ<ornnBonus>800</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><br><active>発動効果 -</active> <active>氷結:</active> 扇状の範囲に<magicDamage>(100 + 魔力の30%)の魔法ダメージ</magicDamage>を与え、1.5秒間65%の<status>スロウ効果</status>を付与する。扇状の範囲の中心にいた敵には、代わりに<status>スネア効果</status>を付与する(クールダウン30秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 魔力<attention>10</attention><br></mainText><br>",
+      "desc": "<mainText><stats>魔力<ornnBonus>90</ornnBonus><br>体力<ornnBonus>350</ornnBonus><br>マナ<ornnBonus>800</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><br><active>発動効果 -</active> <active>氷結:</active> 扇状の範囲に<magicDamage>(100 + 魔力の30%)の魔法ダメージ</magicDamage>を与え、1秒間65%の<status>スロウ効果</status>を付与する。扇状の範囲の中心にいた敵には、代わりに<status>スネア効果</status>を付与する(クールダウン30秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 魔力<attention>10</attention><br></mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>永遠の冬</div><mainText><stats>魔力<ornnBonus>100</ornnBonus><br>体力<ornnBonus>350</ornnBonus><br>マナ<ornnBonus>800</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><br><active>発動効果 -</active> <active>氷結:</active> 扇状の範囲に<magicDamage>(100 + 魔力の30%)の魔法ダメージ</magicDamage>を与え、1.5秒間65%の<status>スロウ効果</status>を付与する。扇状の範囲の中心にいた敵には、代わりに<status>スネア効果</status>を付与する(クールダウン30秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 魔力<attention>10</attention><br></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>永遠の冬</div><mainText><stats>魔力<ornnBonus>90</ornnBonus><br>体力<ornnBonus>350</ornnBonus><br>マナ<ornnBonus>800</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><br><active>発動効果 -</active> <active>氷結:</active> 扇状の範囲に<magicDamage>(100 + 魔力の30%)の魔法ダメージ</magicDamage>を与え、1秒間65%の<status>スロウ効果</status>を付与する。扇状の範囲の中心にいた敵には、代わりに<status>スネア効果</status>を付与する(クールダウン30秒)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 魔力<attention>10</attention><br></mainText><br><div class='tooltip-gold'>2800 Gold</div>"
     },
     "7015": {
       "name": "絶え間なき渇き",
-      "desc": "<mainText><stats>攻撃力<ornnBonus>70</ornnBonus><br>体力<ornnBonus>450</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus><br>オムニヴァンプ<ornnBonus>15%</ornnBonus></stats><br><br><active>発動効果 -</active> <active>サースティング スラッシュ:</active> 周囲の敵に<physicalDamage>基本攻撃力の175%の物理ダメージ</physicalDamage>を与え、命中したチャンピオン1体につき<healing>(基本攻撃力の25% + 減少体力の10%)の体力</healing>を回復する(クールダウン15秒、スキルヘイストで短縮される)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<ornnBonus>70</ornnBonus><br>体力<ornnBonus>450</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus><br>オムニヴァンプ<ornnBonus>12%</ornnBonus></stats><br><br><active>発動効果 -</active> <active>サースティング スラッシュ:</active> 周囲の敵に<physicalDamage>基本攻撃力の175%の物理ダメージ</physicalDamage>を与え、命中したチャンピオン1体につき<healing>(基本攻撃力の20% + 減少体力の8%)の体力</healing>を回復する(クールダウン15秒、スキルヘイストで短縮される)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>7</attention></mainText><br>",
       "gold": 3300,
-      "tooltip": "<div class='tooltip-title'>絶え間なき渇き</div><mainText><stats>攻撃力<ornnBonus>70</ornnBonus><br>体力<ornnBonus>450</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus><br>オムニヴァンプ<ornnBonus>15%</ornnBonus></stats><br><br><active>発動効果 -</active> <active>サースティング スラッシュ:</active> 周囲の敵に<physicalDamage>基本攻撃力の175%の物理ダメージ</physicalDamage>を与え、命中したチャンピオン1体につき<healing>(基本攻撃力の25% + 減少体力の10%)の体力</healing>を回復する(クールダウン15秒、スキルヘイストで短縮される)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>5</attention></mainText><br><div class='tooltip-gold'>3300 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>絶え間なき渇き</div><mainText><stats>攻撃力<ornnBonus>70</ornnBonus><br>体力<ornnBonus>450</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus><br>オムニヴァンプ<ornnBonus>12%</ornnBonus></stats><br><br><active>発動効果 -</active> <active>サースティング スラッシュ:</active> 周囲の敵に<physicalDamage>基本攻撃力の175%の物理ダメージ</physicalDamage>を与え、命中したチャンピオン1体につき<healing>(基本攻撃力の20% + 減少体力の8%)の体力</healing>を回復する(クールダウン15秒、スキルヘイストで短縮される)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: スキルヘイスト<attention>7</attention></mainText><br><div class='tooltip-gold'>3300 Gold</div>"
     },
     "7016": {
       "name": "ドリームシャター",
@@ -1762,9 +1762,9 @@
     },
     "7017": {
       "name": "神殺し",
-      "desc": "<mainText><stats>攻撃力<ornnBonus>60</ornnBonus><br>体力<ornnBonus>450</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><li><passive>追撃:</passive> スキルを使った後、次の通常攻撃が強化されて<physicalDamage>対象の最大体力の12%(遠隔攻撃チャンピオンは9%)の物理ダメージ</physicalDamage> <OnHit>通常攻撃時効果</OnHit>を追加で与える(クールダウン1.5秒)。対象がチャンピオンだった場合は、さらに対象の最大体力の7.8%(遠隔攻撃チャンピオンは3.6%)にあたる体力を回復する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 物理防御貫通<attention>5%</attention>、魔法防御貫通<attention>5%</attention><br><br><rules><passive>「追撃」</passive>はユニットに最小でも(基本攻撃力の150%)のダメージを与えるが、モンスターに対しては(基本攻撃力の250%)が上限。</rules></mainText><br>",
+      "desc": "<mainText><stats>攻撃力<ornnBonus>60</ornnBonus><br>体力<ornnBonus>450</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><li><passive>追撃:</passive> スキルを使った後、次の通常攻撃が強化されて<physicalDamage>対象の最大体力の12%(遠隔攻撃チャンピオンは9%)の物理ダメージ</physicalDamage> <OnHit>通常攻撃時効果</OnHit>を追加で与える(クールダウン1.5秒)。対象がチャンピオンだった場合は、さらに対象の最大体力の6%(遠隔攻撃チャンピオンは3%)にあたる体力を回復する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 物理防御貫通<attention>5%</attention>、魔法防御貫通<attention>5%</attention><br><br><rules><passive>「追撃」</passive>はユニットに最小でも(基本攻撃力の150%)のダメージを与えるが、モンスターに対しては(基本攻撃力の250%)が上限。</rules></mainText><br>",
       "gold": 3300,
-      "tooltip": "<div class='tooltip-title'>神殺し</div><mainText><stats>攻撃力<ornnBonus>60</ornnBonus><br>体力<ornnBonus>450</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><li><passive>追撃:</passive> スキルを使った後、次の通常攻撃が強化されて<physicalDamage>対象の最大体力の12%(遠隔攻撃チャンピオンは9%)の物理ダメージ</physicalDamage> <OnHit>通常攻撃時効果</OnHit>を追加で与える(クールダウン1.5秒)。対象がチャンピオンだった場合は、さらに対象の最大体力の7.8%(遠隔攻撃チャンピオンは3.6%)にあたる体力を回復する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 物理防御貫通<attention>5%</attention>、魔法防御貫通<attention>5%</attention><br><br><rules><passive>「追撃」</passive>はユニットに最小でも(基本攻撃力の150%)のダメージを与えるが、モンスターに対しては(基本攻撃力の250%)が上限。</rules></mainText><br><div class='tooltip-gold'>3300 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>神殺し</div><mainText><stats>攻撃力<ornnBonus>60</ornnBonus><br>体力<ornnBonus>450</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><li><passive>追撃:</passive> スキルを使った後、次の通常攻撃が強化されて<physicalDamage>対象の最大体力の12%(遠隔攻撃チャンピオンは9%)の物理ダメージ</physicalDamage> <OnHit>通常攻撃時効果</OnHit>を追加で与える(クールダウン1.5秒)。対象がチャンピオンだった場合は、さらに対象の最大体力の6%(遠隔攻撃チャンピオンは3%)にあたる体力を回復する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 物理防御貫通<attention>5%</attention>、魔法防御貫通<attention>5%</attention><br><br><rules><passive>「追撃」</passive>はユニットに最小でも(基本攻撃力の150%)のダメージを与えるが、モンスターに対しては(基本攻撃力の250%)が上限。</rules></mainText><br><div class='tooltip-gold'>3300 Gold</div>"
     },
     "7018": {
       "name": "インフィニティ フォース",
@@ -1774,9 +1774,9 @@
     },
     "7019": {
       "name": "来光の聖遺物",
-      "desc": "<mainText><stats>体力<ornnBonus>400</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus><br>物理防御<ornnBonus>40</ornnBonus><br>魔法防御<ornnBonus>40</ornnBonus></stats><br><br><active>発動効果 -</active> <active>献身:</active> 周囲の味方に<shield>耐久値200 - 365(味方のチャンピオンレベルに応じて)のシールド</shield>を付与する。シールドは2.5秒かけて徐々に元に戻る(クールダウン90秒)。 <br><li><passive>奉献:</passive> 周囲の味方チャンピオンに<scaleArmor>3の物理防御</scaleArmor>と同量の<scaleMR>魔法防御</scaleMR>を付与する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: <attention>2</attention>の物理防御 / 魔法防御を<passive>「奉献」</passive>の効果に追加<br><br><rules>レベルによる効果の増加量は味方のレベルに応じて決まる。<br>20秒以内に連続で<active>「献身」</active>の効果を受ける場合、2回目以降のシールド耐久値は25%となる。</rules></mainText><br>",
+      "desc": "<mainText><stats>体力<ornnBonus>400</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus><br>物理防御<ornnBonus>40</ornnBonus><br>魔法防御<ornnBonus>40</ornnBonus></stats><br><br><active>発動効果 -</active> <active>献身:</active> 周囲の味方に<shield>耐久値180 - 330(味方のチャンピオンレベルに応じて)のシールド</shield>を付与する。シールドは2.5秒かけて徐々に元に戻る(クールダウン90秒)。 <br><li><passive>奉献:</passive> 周囲の味方チャンピオンに<scaleArmor>3の物理防御</scaleArmor>と同量の<scaleMR>魔法防御</scaleMR>を付与する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: <attention>2</attention>の物理防御 / 魔法防御を<passive>「奉献」</passive>の効果に追加<br><br><rules>レベルによる効果の増加量は味方のレベルに応じて決まる。<br>20秒以内に連続で<active>「献身」</active>の効果を受ける場合、2回目以降のシールド耐久値は25%となる。</rules></mainText><br>",
       "gold": 2500,
-      "tooltip": "<div class='tooltip-title'>来光の聖遺物</div><mainText><stats>体力<ornnBonus>400</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus><br>物理防御<ornnBonus>40</ornnBonus><br>魔法防御<ornnBonus>40</ornnBonus></stats><br><br><active>発動効果 -</active> <active>献身:</active> 周囲の味方に<shield>耐久値200 - 365(味方のチャンピオンレベルに応じて)のシールド</shield>を付与する。シールドは2.5秒かけて徐々に元に戻る(クールダウン90秒)。 <br><li><passive>奉献:</passive> 周囲の味方チャンピオンに<scaleArmor>3の物理防御</scaleArmor>と同量の<scaleMR>魔法防御</scaleMR>を付与する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: <attention>2</attention>の物理防御 / 魔法防御を<passive>「奉献」</passive>の効果に追加<br><br><rules>レベルによる効果の増加量は味方のレベルに応じて決まる。<br>20秒以内に連続で<active>「献身」</active>の効果を受ける場合、2回目以降のシールド耐久値は25%となる。</rules></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>来光の聖遺物</div><mainText><stats>体力<ornnBonus>400</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus><br>物理防御<ornnBonus>40</ornnBonus><br>魔法防御<ornnBonus>40</ornnBonus></stats><br><br><active>発動効果 -</active> <active>献身:</active> 周囲の味方に<shield>耐久値180 - 330(味方のチャンピオンレベルに応じて)のシールド</shield>を付与する。シールドは2.5秒かけて徐々に元に戻る(クールダウン90秒)。 <br><li><passive>奉献:</passive> 周囲の味方チャンピオンに<scaleArmor>3の物理防御</scaleArmor>と同量の<scaleMR>魔法防御</scaleMR>を付与する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: <attention>2</attention>の物理防御 / 魔法防御を<passive>「奉献」</passive>の効果に追加<br><br><rules>レベルによる効果の増加量は味方のレベルに応じて決まる。<br>20秒以内に連続で<active>「献身」</active>の効果を受ける場合、2回目以降のシールド耐久値は25%となる。</rules></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
     },
     "7020": {
       "name": "シュレリアの鎮魂歌",
@@ -1786,9 +1786,9 @@
     },
     "7021": {
       "name": "スターキャスター",
-      "desc": "<mainText><stats>魔力<ornnBonus>70</ornnBonus><br>体力<ornnBonus>300</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus><br>基本マナ自動回復<ornnBonus>200%</ornnBonus></stats><br><li><passive>星明りの恩寵:</passive> 戦闘中に通常攻撃かスキルでチャンピオンに影響を与えると、近くにいる最も多くのダメージを受けた味方1体の<healing>体力を70</healing>回復する(クールダウン2秒)。チャンピオンと戦闘状態になると、自身の与える回復効果とシールド効果が毎秒6%増加する(最大5回までスタック)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: <passive>「星明りの恩寵」</passive>の回復量 +<attention>10</attention><br><br></mainText><br>",
+      "desc": "<mainText><stats>魔力<ornnBonus>70</ornnBonus><br>体力<ornnBonus>300</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus><br>基本マナ自動回復<ornnBonus>200%</ornnBonus></stats><br><li><passive>星明りの恩寵:</passive> 戦闘中に通常攻撃かスキルでチャンピオンに影響を与えると、近くにいる最も多くのダメージを受けた味方1体の<healing>体力を60</healing>回復する(クールダウン2秒)。チャンピオンと戦闘状態になると、自身の与える回復効果とシールド効果が毎秒5%増加する(最大5回までスタック)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: <passive>「星明りの恩寵」</passive>の回復量 +<attention>8</attention><br><br></mainText><br>",
       "gold": 2500,
-      "tooltip": "<div class='tooltip-title'>スターキャスター</div><mainText><stats>魔力<ornnBonus>70</ornnBonus><br>体力<ornnBonus>300</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus><br>基本マナ自動回復<ornnBonus>200%</ornnBonus></stats><br><li><passive>星明りの恩寵:</passive> 戦闘中に通常攻撃かスキルでチャンピオンに影響を与えると、近くにいる最も多くのダメージを受けた味方1体の<healing>体力を70</healing>回復する(クールダウン2秒)。チャンピオンと戦闘状態になると、自身の与える回復効果とシールド効果が毎秒6%増加する(最大5回までスタック)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: <passive>「星明りの恩寵」</passive>の回復量 +<attention>10</attention><br><br></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>スターキャスター</div><mainText><stats>魔力<ornnBonus>70</ornnBonus><br>体力<ornnBonus>300</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus><br>基本マナ自動回復<ornnBonus>200%</ornnBonus></stats><br><li><passive>星明りの恩寵:</passive> 戦闘中に通常攻撃かスキルでチャンピオンに影響を与えると、近くにいる最も多くのダメージを受けた味方1体の<healing>体力を60</healing>回復する(クールダウン2秒)。チャンピオンと戦闘状態になると、自身の与える回復効果とシールド効果が毎秒5%増加する(最大5回までスタック)。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: <passive>「星明りの恩寵」</passive>の回復量 +<attention>8</attention><br><br></mainText><br><div class='tooltip-gold'>2500 Gold</div>"
     },
     "7022": {
       "name": "統率者の座",
@@ -1804,9 +1804,9 @@
     },
     "7024": {
       "name": "カエスーラ",
-      "desc": "<mainText><stats>魔力<ornnBonus>70</ornnBonus><br>体力<ornnBonus>350</ornnBonus><br>マナ<ornnBonus>800</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><li><passive>聖なる保護:</passive> <keywordMajor>「セーフガード」</keywordMajor>で守られており、チャンピオンから受けるダメージが75%軽減される。<keywordMajor>「セーフガード」</keywordMajor>はチャンピオンによるダメージを受けてから1.5秒間持続する(クールダウン40秒)。<li><passive>聖なる贈り物:</passive> <keywordMajor>「セーフガード」</keywordMajor>発動中および終了後3秒間は<scaleAP>魔力が10-40</scaleAP>増加する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 移動速度<attention>1%</attention>、魔力8</mainText><br>",
+      "desc": "<mainText><stats>魔力<ornnBonus>90</ornnBonus><br>体力<ornnBonus>350</ornnBonus><br>マナ<ornnBonus>800</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><li><passive>聖なる保護:</passive> <keywordMajor>「セーフガード」</keywordMajor>で守られており、チャンピオンから受けるダメージが75%軽減される。<keywordMajor>「セーフガード」</keywordMajor>はチャンピオンによるダメージを受けてから1.5秒間持続する(クールダウン40秒)。<li><passive>聖なる贈り物:</passive> <keywordMajor>「セーフガード」</keywordMajor>発動中および終了後3秒間は<scaleAP>魔力が10-40</scaleAP>増加する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 移動速度<attention>1%</attention>、魔力8</mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>カエスーラ</div><mainText><stats>魔力<ornnBonus>70</ornnBonus><br>体力<ornnBonus>350</ornnBonus><br>マナ<ornnBonus>800</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><li><passive>聖なる保護:</passive> <keywordMajor>「セーフガード」</keywordMajor>で守られており、チャンピオンから受けるダメージが75%軽減される。<keywordMajor>「セーフガード」</keywordMajor>はチャンピオンによるダメージを受けてから1.5秒間持続する(クールダウン40秒)。<li><passive>聖なる贈り物:</passive> <keywordMajor>「セーフガード」</keywordMajor>発動中および終了後3秒間は<scaleAP>魔力が10-40</scaleAP>増加する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 移動速度<attention>1%</attention>、魔力8</mainText><br><div class='tooltip-gold'>2800 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>カエスーラ</div><mainText><stats>魔力<ornnBonus>90</ornnBonus><br>体力<ornnBonus>350</ornnBonus><br>マナ<ornnBonus>800</ornnBonus><br>スキルヘイスト<ornnBonus>25</ornnBonus></stats><br><li><passive>聖なる保護:</passive> <keywordMajor>「セーフガード」</keywordMajor>で守られており、チャンピオンから受けるダメージが75%軽減される。<keywordMajor>「セーフガード」</keywordMajor>はチャンピオンによるダメージを受けてから1.5秒間持続する(クールダウン40秒)。<li><passive>聖なる贈り物:</passive> <keywordMajor>「セーフガード」</keywordMajor>発動中および終了後3秒間は<scaleAP>魔力が10-40</scaleAP>増加する。<br><br><rarityMythic>ミシック自動効果:</rarityMythic> 他のすべての<rarityLegendary>レジェンダリー</rarityLegendary>アイテムに以下を付与する: 移動速度<attention>1%</attention>、魔力8</mainText><br><div class='tooltip-gold'>2800 Gold</div>"
     },
     "7050": {
       "name": "ガングプランク プレースホルダー",
@@ -1822,9 +1822,9 @@
     },
     "8020": {
       "name": "アビサル マスク",
-      "desc": "<mainText><stats>体力<attention>450</attention><br>魔法防御<attention>30</attention><br>スキルヘイスト<attention>10</attention></stats><br><li><passive>荒廃:</passive> 周囲の敵チャンピオンに<status>「呪術」</status>をかけ、<scaleMR>魔法防御を5 + 増加体力の1.2%</scaleMR>低下させる(最大25)。<status>「呪術」</status>をかけた敵1体につき、<scaleMR>7の魔法防御</scaleMR>を獲得する。</mainText><br>",
+      "desc": "<mainText><stats>体力<attention>450</attention><br>魔法防御<attention>35</attention><br>スキルヘイスト<attention>10</attention></stats><br><li><passive>荒廃:</passive> 周囲の敵チャンピオンに<status>「呪術」</status>をかけ、<scaleMR>魔法防御を5 + 増加体力の1.2%</scaleMR>低下させる(最大25)。<status>「呪術」</status>をかけた敵1体につき、<scaleMR>9の魔法防御</scaleMR>を獲得する。</mainText><br>",
       "gold": 2700,
-      "tooltip": "<div class='tooltip-title'>アビサル マスク</div><mainText><stats>体力<attention>450</attention><br>魔法防御<attention>30</attention><br>スキルヘイスト<attention>10</attention></stats><br><li><passive>荒廃:</passive> 周囲の敵チャンピオンに<status>「呪術」</status>をかけ、<scaleMR>魔法防御を5 + 増加体力の1.2%</scaleMR>低下させる(最大25)。<status>「呪術」</status>をかけた敵1体につき、<scaleMR>7の魔法防御</scaleMR>を獲得する。</mainText><br><div class='tooltip-gold'>2700 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>アビサル マスク</div><mainText><stats>体力<attention>450</attention><br>魔法防御<attention>35</attention><br>スキルヘイスト<attention>10</attention></stats><br><li><passive>荒廃:</passive> 周囲の敵チャンピオンに<status>「呪術」</status>をかけ、<scaleMR>魔法防御を5 + 増加体力の1.2%</scaleMR>低下させる(最大25)。<status>「呪術」</status>をかけた敵1体につき、<scaleMR>9の魔法防御</scaleMR>を獲得する。</mainText><br><div class='tooltip-gold'>2700 Gold</div>"
     }
   },
   "champions": {
@@ -1948,6 +1948,7 @@
     "163": "タリヤ",
     "164": "カミール",
     "166": "アクシャン",
+    "200": "ベル＝ヴェス",
     "201": "ブラウム",
     "202": "ジン",
     "203": "キンドレッド",
@@ -9399,8 +9400,8 @@
     },
     "8010": {
       "name": "征服者",
-      "desc": "敵チャンピオンにダメージを与える通常攻撃またはスキルで5秒間、「征服者」のスタックを2つ獲得する。スタック1つごとに2 - 4.5の<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>アダプティブフォース</font></lol-uikit-tooltipped-keyword>を獲得する。最大12スタック。遠隔攻撃チャンピオンは通常攻撃1回につき1スタックのみ獲得する。<br><br>最大スタック時にチャンピオンに与えたダメージの9%(遠隔攻撃チャンピオンは6%)の体力を回復する。",
-      "tooltip": "<div class='tooltip-title'>征服者</div>敵チャンピオンにダメージを与える通常攻撃またはスキルで5秒間、「征服者」のスタックを2つ獲得する。スタック1つごとに2 - 4.5の<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>アダプティブフォース</font></lol-uikit-tooltipped-keyword>を獲得する。最大12スタック。遠隔攻撃チャンピオンは通常攻撃1回につき1スタックのみ獲得する。<br><br>最大スタック時にチャンピオンに与えたダメージの9%(遠隔攻撃チャンピオンは6%)の体力を回復する。"
+      "desc": "敵チャンピオンにダメージを与える通常攻撃またはスキルで5秒間、「征服者」のスタックを2つ獲得する。スタック1つごとに2 - 4.5の<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>アダプティブフォース</font></lol-uikit-tooltipped-keyword>を獲得する。最大12スタック。遠隔攻撃チャンピオンは通常攻撃1回につき1スタックのみ獲得する。<br><br>最大スタック時にチャンピオンに与えたダメージの8%(遠隔攻撃チャンピオンは5%)の体力を回復する。",
+      "tooltip": "<div class='tooltip-title'>征服者</div>敵チャンピオンにダメージを与える通常攻撃またはスキルで5秒間、「征服者」のスタックを2つ獲得する。スタック1つごとに2 - 4.5の<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>アダプティブフォース</font></lol-uikit-tooltipped-keyword>を獲得する。最大12スタック。遠隔攻撃チャンピオンは通常攻撃1回につき1スタックのみ獲得する。<br><br>最大スタック時にチャンピオンに与えたダメージの8%(遠隔攻撃チャンピオンは5%)の体力を回復する。"
     },
     "8014": {
       "name": "最期の慈悲",
@@ -9499,8 +9500,8 @@
     },
     "8139": {
       "name": "血の味わい",
-      "desc": "敵チャンピオンにダメージを与えると自身の体力を回復。<br><br>回復量: レベルに応じて18 - 35(+増加攻撃力x0.2、+魔力x0.1)<br><br>クールダウン: 20秒",
-      "tooltip": "<div class='tooltip-title'>血の味わい</div>敵チャンピオンにダメージを与えると自身の体力を回復。<br><br>回復量: レベルに応じて18 - 35(+増加攻撃力x0.2、+魔力x0.1)<br><br>クールダウン: 20秒"
+      "desc": "敵チャンピオンにダメージを与えると自身の体力を回復。<br><br>回復量: レベルに応じて16 - 30(+増加攻撃力x0.15、+魔力x0.08)<br><br>クールダウン: 20秒",
+      "tooltip": "<div class='tooltip-title'>血の味わい</div>敵チャンピオンにダメージを与えると自身の体力を回復。<br><br>回復量: レベルに応じて16 - 30(+増加攻撃力x0.15、+魔力x0.08)<br><br>クールダウン: 20秒"
     },
     "8143": {
       "name": "サドンインパクト",
@@ -9529,8 +9530,8 @@
     },
     "8214": {
       "name": "エアリー召喚",
-      "desc": "通常攻撃かスキルで敵チャンピオンを攻撃すると対象に向けて「エアリー」を送り出し、レベルに応じて10 - 40(+<scaleAP>魔力x0.1</scaleAP>)(+<scaleAD>増加攻撃力x0.15</scaleAD>)のダメージを与える。<br><br>味方をスキルで強化するかスキルで守ると対象に向けて「エアリー」を送り出し、レベルに応じて35 - 80(+<scaleAP>魔力x0.25</scaleAP>)(+<scaleAD>増加攻撃力x0.4</scaleAD>)のシールドを付与する。<br><br>「エアリー」は一旦自身のもとに呼び戻さなければ、再び送り出すことはできない。",
-      "tooltip": "<div class='tooltip-title'>エアリー召喚</div>通常攻撃かスキルで敵チャンピオンを攻撃すると対象に向けて「エアリー」を送り出し、レベルに応じて10 - 40(+<scaleAP>魔力x0.1</scaleAP>)(+<scaleAD>増加攻撃力x0.15</scaleAD>)のダメージを与える。<br><br>味方をスキルで強化するかスキルで守ると対象に向けて「エアリー」を送り出し、レベルに応じて35 - 80(+<scaleAP>魔力x0.25</scaleAP>)(+<scaleAD>増加攻撃力x0.4</scaleAD>)のシールドを付与する。<br><br>「エアリー」は一旦自身のもとに呼び戻さなければ、再び送り出すことはできない。"
+      "desc": "通常攻撃かスキルで敵チャンピオンを攻撃すると対象に向けて「エアリー」を送り出し、レベルに応じて10 - 40(+<scaleAP>魔力x0.1</scaleAP>)(+<scaleAD>増加攻撃力x0.15</scaleAD>)のダメージを与える。<br><br>味方をスキルで強化するかスキルで守ると対象に向けて「エアリー」を送り出し、レベルに応じて30 - 75(+<scaleAP>魔力x0.22</scaleAP>)(+<scaleAD>増加攻撃力x0.35</scaleAD>)のシールドを付与する。<br><br>「エアリー」は一旦自身のもとに呼び戻さなければ、再び送り出すことはできない。",
+      "tooltip": "<div class='tooltip-title'>エアリー召喚</div>通常攻撃かスキルで敵チャンピオンを攻撃すると対象に向けて「エアリー」を送り出し、レベルに応じて10 - 40(+<scaleAP>魔力x0.1</scaleAP>)(+<scaleAD>増加攻撃力x0.15</scaleAD>)のダメージを与える。<br><br>味方をスキルで強化するかスキルで守ると対象に向けて「エアリー」を送り出し、レベルに応じて30 - 75(+<scaleAP>魔力x0.22</scaleAP>)(+<scaleAD>増加攻撃力x0.35</scaleAD>)のシールドを付与する。<br><br>「エアリー」は一旦自身のもとに呼び戻さなければ、再び送り出すことはできない。"
     },
     "8220": {
       "name": "破滅の災い",
@@ -9539,8 +9540,8 @@
     },
     "8224": {
       "name": "魔除けのオーブ",
-      "desc": "体力が30%未満になる魔法ダメージを受けると、レベルに応じて40 - 120(<scaleAP>+魔力x0.1</scaleAP>、<scaleAD>+増加攻撃力x0.15</scaleAD>)の魔法ダメージを防ぐシールドを4秒間獲得。<br><br>クールダウン: 60秒",
-      "tooltip": "<div class='tooltip-title'>魔除けのオーブ</div>体力が30%未満になる魔法ダメージを受けると、レベルに応じて40 - 120(<scaleAP>+魔力x0.1</scaleAP>、<scaleAD>+増加攻撃力x0.15</scaleAD>)の魔法ダメージを防ぐシールドを4秒間獲得。<br><br>クールダウン: 60秒"
+      "desc": "体力が30%未満になる魔法ダメージを受けると、レベルに応じて35 - 110(<scaleAP>+魔力x0.09</scaleAP>、<scaleAD>+増加攻撃力x0.14</scaleAD>)の魔法ダメージを防ぐシールドを4秒間獲得。<br><br>クールダウン: 60秒",
+      "tooltip": "<div class='tooltip-title'>魔除けのオーブ</div>体力が30%未満になる魔法ダメージを受けると、レベルに応じて35 - 110(<scaleAP>+魔力x0.09</scaleAP>、<scaleAD>+増加攻撃力x0.14</scaleAD>)の魔法ダメージを防ぐシールドを4秒間獲得。<br><br>クールダウン: 60秒"
     },
     "8226": {
       "name": "マナフローバンド",
@@ -9664,13 +9665,8 @@
     },
     "8352": {
       "name": "タイムワープトニック",
-      "desc": "ポーションまたはビスケットを使用すると、回復する体力またはマナの50%を即座に得られる。また、回復効果を受けている間は<speed>移動速度が5%</speed>増加する。<br><br>",
-      "tooltip": "<div class='tooltip-title'>タイムワープトニック</div>ポーションまたはビスケットを使用すると、回復する体力またはマナの50%を即座に得られる。また、回復効果を受けている間は<speed>移動速度が5%</speed>増加する。<br><br>"
-    },
-    "8358": {
-      "name": "プロトタイプ: オムニストーン",
-      "desc": "一定時間ごとに別のランダムなキーストーンを1回使用可能になる。<br><br>キーストーンを使用してから次のキーストーンを獲得するまでに5-3秒間のクールダウンがある(遠隔攻撃チャンピオンは9-7秒)。<br><br><rules><br>獲得したキーストーンを使用せずに40秒経過すると、チャンピオンと非戦闘状態になった際に「オムニストーン」が再抽選される。<br>「アフターショック」はそれを発動可能な通常スキルを習得していないと利用可能にならない。<br>「プレデター」はブーツを購入済みでなければ利用可能にならない。<br></rules>",
-      "tooltip": "<div class='tooltip-title'>プロトタイプ: オムニストーン</div>一定時間ごとに別のランダムなキーストーンを1回使用可能になる。<br><br>キーストーンを使用してから次のキーストーンを獲得するまでに5-3秒間のクールダウンがある(遠隔攻撃チャンピオンは9-7秒)。<br><br><rules><br>獲得したキーストーンを使用せずに40秒経過すると、チャンピオンと非戦闘状態になった際に「オムニストーン」が再抽選される。<br>「アフターショック」はそれを発動可能な通常スキルを習得していないと利用可能にならない。<br>「プレデター」はブーツを購入済みでなければ利用可能にならない。<br></rules>"
+      "desc": "ポーションまたはビスケットを使用すると、回復する体力またはマナの30%を即座に得られる。また、回復効果を受けている間は<speed>移動速度が4%</speed>増加する。<br><br>",
+      "tooltip": "<div class='tooltip-title'>タイムワープトニック</div>ポーションまたはビスケットを使用すると、回復する体力またはマナの30%を即座に得られる。また、回復効果を受けている間は<speed>移動速度が4%</speed>増加する。<br><br>"
     },
     "8359": {
       "name": "ねこばば",
@@ -9684,8 +9680,8 @@
     },
     "8369": {
       "name": "ファーストストライク",
-      "desc": "チャンピオンと戦闘状態になってから、0.25秒以内に敵チャンピオンに通常攻撃またはスキルを命中させると5ゴールドを獲得する。さらに3秒間<b>、「ファーストストライク」</b>を獲得して、チャンピオンに<truedamage>10%</truedamage>の追加<truedamage>ダメージ</truedamage>を与えるようになり、与えた追加ダメージの<gold>100%(遠隔攻撃チャンピオンは70%)</gold>にあたる<gold>ゴールド</gold>を獲得する。<br><br>クールダウン: <scaleLevel>25-15</scaleLevel>",
-      "tooltip": "<div class='tooltip-title'>ファーストストライク</div>チャンピオンと戦闘状態になってから、0.25秒以内に敵チャンピオンに通常攻撃またはスキルを命中させると5ゴールドを獲得する。さらに3秒間<b>、「ファーストストライク」</b>を獲得して、チャンピオンに<truedamage>10%</truedamage>の追加<truedamage>ダメージ</truedamage>を与えるようになり、与えた追加ダメージの<gold>100%(遠隔攻撃チャンピオンは70%)</gold>にあたる<gold>ゴールド</gold>を獲得する。<br><br>クールダウン: <scaleLevel>25-15</scaleLevel>"
+      "desc": "チャンピオンと戦闘状態になってから、0.25秒以内に敵チャンピオンに通常攻撃またはスキルを命中させると5ゴールドを獲得する。さらに3秒間、<b>「ファーストストライク」</b>を獲得して、チャンピオンに<truedamage>10%</truedamage>の追加<truedamage>ダメージ</truedamage>を与えるようになり、与えた追加ダメージの<gold>100%(遠隔攻撃チャンピオンは70%)</gold>にあたる<gold>ゴールド</gold>を獲得する。<br><br>クールダウン: <scaleLevel>25 - 15</scaleLevel>秒",
+      "tooltip": "<div class='tooltip-title'>ファーストストライク</div>チャンピオンと戦闘状態になってから、0.25秒以内に敵チャンピオンに通常攻撃またはスキルを命中させると5ゴールドを獲得する。さらに3秒間、<b>「ファーストストライク」</b>を獲得して、チャンピオンに<truedamage>10%</truedamage>の追加<truedamage>ダメージ</truedamage>を与えるようになり、与えた追加ダメージの<gold>100%(遠隔攻撃チャンピオンは70%)</gold>にあたる<gold>ゴールド</gold>を獲得する。<br><br>クールダウン: <scaleLevel>25 - 15</scaleLevel>秒"
     },
     "8401": {
       "name": "シールドバッシュ",
@@ -9714,8 +9710,8 @@
     },
     "8429": {
       "name": "心身調整",
-      "desc": "試合開始12分後に物理防御 +9と魔法防御 +9を獲得。物理防御と魔法防御が5%増加。",
-      "tooltip": "<div class='tooltip-title'>心身調整</div>試合開始12分後に物理防御 +9と魔法防御 +9を獲得。物理防御と魔法防御が5%増加。"
+      "desc": "試合開始12分後に物理防御 +9と魔法防御 +9を獲得。物理防御と魔法防御が4%増加。",
+      "tooltip": "<div class='tooltip-title'>心身調整</div>試合開始12分後に物理防御 +9と魔法防御 +9を獲得。物理防御と魔法防御が4%増加。"
     },
     "8430": {
       "name": "アイアンスキン",
@@ -9729,8 +9725,8 @@
     },
     "8437": {
       "name": "不死者の握撃",
-      "desc": "戦闘中4秒毎に、敵チャンピオンに対する通常攻撃が以下の追加効果を獲得:<li>自身の最大体力の4%に相当する追加魔法ダメージを与える</li><li>最大体力の2%分、体力を回復する</li><li>最大体力を恒久的に5増加させる</li><br><rules>遠隔攻撃チャンピオン: ダメージ、回復量、恒久的に増加する最大体力量が40%減少。</rules><br>",
-      "tooltip": "<div class='tooltip-title'>不死者の握撃</div>戦闘中4秒毎に、敵チャンピオンに対する通常攻撃が以下の追加効果を獲得:<li>自身の最大体力の4%に相当する追加魔法ダメージを与える</li><li>最大体力の2%分、体力を回復する</li><li>最大体力を恒久的に5増加させる</li><br><rules>遠隔攻撃チャンピオン: ダメージ、回復量、恒久的に増加する最大体力量が40%減少。</rules><br>"
+      "desc": "戦闘中4秒毎に、敵チャンピオンに対する通常攻撃が以下の追加効果を獲得:<li>自身の最大体力の3.5%に相当する追加魔法ダメージを与える</li><li>最大体力の1.7%分、体力を回復する</li><li>最大体力を恒久的に5増加させる</li><br><rules>遠隔攻撃チャンピオン: ダメージ、回復量、恒久的に増加する最大体力量が40%減少。</rules><br>",
+      "tooltip": "<div class='tooltip-title'>不死者の握撃</div>戦闘中4秒毎に、敵チャンピオンに対する通常攻撃が以下の追加効果を獲得:<li>自身の最大体力の3.5%に相当する追加魔法ダメージを与える</li><li>最大体力の1.7%分、体力を回復する</li><li>最大体力を恒久的に5増加させる</li><br><rules>遠隔攻撃チャンピオン: ダメージ、回復量、恒久的に増加する最大体力量が40%減少。</rules><br>"
     },
     "8439": {
       "name": "アフターショック",
@@ -9764,13 +9760,13 @@
     },
     "8463": {
       "name": "生命の泉",
-      "desc": "敵チャンピオンに移動妨害効果を付与すると4秒間マークする。<br><br>マークされた敵を味方が攻撃すると、2秒かけて5に自身の最大体力の1%を加えた量、その味方の体力を回復する。",
-      "tooltip": "<div class='tooltip-title'>生命の泉</div>敵チャンピオンに移動妨害効果を付与すると4秒間マークする。<br><br>マークされた敵を味方が攻撃すると、2秒かけて5に自身の最大体力の1%を加えた量、その味方の体力を回復する。"
+      "desc": "敵チャンピオンに移動妨害効果を付与すると4秒間マークする。<br><br>マークされた敵を味方が攻撃すると、2秒かけて5に自身の最大体力の0.9%を加えた量、その味方の体力を回復する。",
+      "tooltip": "<div class='tooltip-title'>生命の泉</div>敵チャンピオンに移動妨害効果を付与すると4秒間マークする。<br><br>マークされた敵を味方が攻撃すると、2秒かけて5に自身の最大体力の0.9%を加えた量、その味方の体力を回復する。"
     },
     "8465": {
       "name": "ガーディアン",
-      "desc": "350ユニット以内にいる味方ユニットと自身のスキルの対象となった味方ユニットを2.5秒間「ガード」する。「ガード」中に自身とその味方のどちらかが一定量以上のダメージを受けた場合、両方が1.5秒間シールドを獲得する。<br><br>クールダウン: <scaleLevel>70 - 40</scaleLevel>秒<br>シールド: <scaleLevel>50 - 130</scaleLevel> + 自身の魔力の<scaleAP>15%</scaleAP> + 自身の増加体力の<scalehealth>9%</scalehealth><br>発動しきい値: <scaleLevel>90 - 250</scaleLevel>軽減後ダメージ",
-      "tooltip": "<div class='tooltip-title'>ガーディアン</div>350ユニット以内にいる味方ユニットと自身のスキルの対象となった味方ユニットを2.5秒間「ガード」する。「ガード」中に自身とその味方のどちらかが一定量以上のダメージを受けた場合、両方が1.5秒間シールドを獲得する。<br><br>クールダウン: <scaleLevel>70 - 40</scaleLevel>秒<br>シールド: <scaleLevel>50 - 130</scaleLevel> + 自身の魔力の<scaleAP>15%</scaleAP> + 自身の増加体力の<scalehealth>9%</scalehealth><br>発動しきい値: <scaleLevel>90 - 250</scaleLevel>軽減後ダメージ"
+      "desc": "350ユニット以内にいる味方ユニットと自身のスキルの対象となった味方ユニットを2.5秒間「ガード」する。「ガード」中に自身とその味方のどちらかが一定量以上のダメージを受けた場合、両方が1.5秒間シールドを獲得する。<br><br>クールダウン: <scaleLevel>70 - 40</scaleLevel>秒<br>シールド: <scaleLevel>45 - 120</scaleLevel> + 自身の魔力の<scaleAP>12.5%</scaleAP> + 自身の増加体力の<scalehealth>8%</scalehealth><br>発動しきい値: <scaleLevel>90 - 250</scaleLevel>軽減後ダメージ",
+      "tooltip": "<div class='tooltip-title'>ガーディアン</div>350ユニット以内にいる味方ユニットと自身のスキルの対象となった味方ユニットを2.5秒間「ガード」する。「ガード」中に自身とその味方のどちらかが一定量以上のダメージを受けた場合、両方が1.5秒間シールドを獲得する。<br><br>クールダウン: <scaleLevel>70 - 40</scaleLevel>秒<br>シールド: <scaleLevel>45 - 120</scaleLevel> + 自身の魔力の<scaleAP>12.5%</scaleAP> + 自身の増加体力の<scalehealth>8%</scalehealth><br>発動しきい値: <scaleLevel>90 - 250</scaleLevel>軽減後ダメージ"
     },
     "8472": {
       "name": "羽化",
@@ -9784,8 +9780,8 @@
     },
     "9101": {
       "name": "オーバーヒール",
-      "desc": "余剰回復量がシールドに変換される。耐久値は最大で10<scaleHealth>(+最大体力の10%)</scaleHealth>。<br><br>自身または味方による余剰回復なら変換率は20 - 100%になる。",
-      "tooltip": "<div class='tooltip-title'>オーバーヒール</div>余剰回復量がシールドに変換される。耐久値は最大で10<scaleHealth>(+最大体力の10%)</scaleHealth>。<br><br>自身または味方による余剰回復なら変換率は20 - 100%になる。"
+      "desc": "余剰回復量がシールドに変換される。耐久値は最大で10<scaleHealth>(+最大体力の9%)</scaleHealth>。<br><br>自身または味方による余剰回復なら変換率は20 - 100%になる。",
+      "tooltip": "<div class='tooltip-title'>オーバーヒール</div>余剰回復量がシールドに変換される。耐久値は最大で10<scaleHealth>(+最大体力の9%)</scaleHealth>。<br><br>自身または味方による余剰回復なら変換率は20 - 100%になる。"
     },
     "9103": {
       "name": "レジェンド: 血脈",
@@ -9804,8 +9800,8 @@
     },
     "9111": {
       "name": "凱旋",
-      "desc": "キルまたはアシストを獲得すると減少体力の12%を回復して20の追加ゴールドを獲得する。<br><br><hr><br>「危険を冒してこそ、真の勝利に到達できる。」<br>――ノクサスの清算人",
-      "tooltip": "<div class='tooltip-title'>凱旋</div>キルまたはアシストを獲得すると減少体力の12%を回復して20の追加ゴールドを獲得する。<br><br><hr><br>「危険を冒してこそ、真の勝利に到達できる。」<br>――ノクサスの清算人"
+      "desc": "キルまたはアシストを獲得すると減少体力の10%を回復して20の追加ゴールドを獲得する。<br><br><hr><br>「危険を冒してこそ、真の勝利に到達できる。」<br>――ノクサスの清算人",
+      "tooltip": "<div class='tooltip-title'>凱旋</div>キルまたはアシストを獲得すると減少体力の10%を回復して20の追加ゴールドを獲得する。<br><br><hr><br>「危険を冒してこそ、真の勝利に到達できる。」<br>――ノクサスの清算人"
     },
     "9923": {
       "name": "ヘイルブレード",

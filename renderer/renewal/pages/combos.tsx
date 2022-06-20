@@ -53,6 +53,7 @@ const Combos = () => {
 
   const onClickVideo = (video: any, id: string) => () => {
     sendGA4Event("click_combo_video", {
+      click_from: "combo_page",
       champion_id: id,
       video_id: video.videoId,
       video_name: video.videoName,

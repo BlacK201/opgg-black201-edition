@@ -17,19 +17,31 @@ module.exports = Object.freeze({
     LOL_REGION_LOCALE: "/riotclient/region-locale",
     LOL_CAREER_STATS_SUMMONER_GAMES: "/lol-career-stats/v1/summoner-games/{0}",
     LOL_PRESHUTDOWN_BEGIN: "/riotclient/pre-shutdown/begin",
+    LOL_INSTALL_DIR: "/data-store/v1/install-dir",
+    LOL_GAME_SETTINGS: "/lol-game-settings/v1/game-settings",
 
     OPGG_DESKTOP_APP_S3: "https://opgg-desktop-data.akamaized.net",
     OPGG_980TI_S3: "https://test980ti.s3.ap-northeast-2.amazonaws.com",
 
     DEFAULT_LEAGUE_DIRECTORY: "C:\\Riot Games\\League of Legends",
 
+    TRANSFORM_CHAMPION_IDS: [
+        76,     // 니달리
+        126,    // 제이스
+        350,    // 유미
+        // 221,    // 제리
+        43,     // 카르마
+        60      // 엘리스
+    ],
     TFT_QUEUE_IDS: [
         1090, // 노말
         1100, // 랭겜
+        1110, // ???
         1120, // 노말 초고속
         1130, // 랭겜 초고속
         1140, // 일반 더블 업
-        1150  // 더블업 베타
+        1150, // 더블업 베타
+        1160  // 더블업 랭크
     ],
     BOT_QUEUE_IDS: [
         830,

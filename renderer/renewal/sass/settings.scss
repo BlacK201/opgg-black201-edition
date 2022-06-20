@@ -176,3 +176,17 @@
   left: 28px;
   cursor: pointer;
 }
+
+.privacy-policy {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 110px;
+  font-size: 11px;
+  padding: 0 28px;
+  color: #7b7a8e;
+
+  div {
+    cursor: pointer;
+  }
+}

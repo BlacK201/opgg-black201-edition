@@ -35,11 +35,8 @@ const Login = () => {
   };
 
   const onClick = () => {
-    if (i18n === "kr") {
-      window.open("https://member.op.gg/?redirect_url=https://member.op.gg/client-login&remember_me=true", '_blank')
-    } else {
-      window.api.send("guest");
-    }
+    window.open("https://member.op.gg/?redirect_url=https://member.op.gg/client-login&remember_me=true", '_blank')
+    // window.open("https://member-stage-1fdsf134.op.gg/?redirect_url=https://member-stage-1fdsf134.op.gg/client-login&remember_me=true", '_blank')
   }
 
   const onSignUpClick = () => {
@@ -83,25 +80,16 @@ const Login = () => {
                 className="login-button"
                 onClick={onClick}
                 // disabled={!Boolean(username && password)}
-            >
-                {i18n === "kr"
-                    ? <>{t("login.button")}</>
-                    : <>{t("login.start")}</>
-                }
-
+            >{t("login.button")}
             </button>
-            {i18n === "kr" &&
-              <>
-                <div className={"sign-up"}>
-                  <div>{t("login.signup-title")}</div>
-                  <div className={"sign-up-link"} onClick={onSignUpClick}>{t("login.signup")}</div>
-                </div>
-                <div className={"sign-up"} style={{marginTop: "8px"}}>
-                <div>{t("login.or")}</div>
-                <div className={"guest-link"} onClick={onGuestClick}>{t("login.guest")}</div>
-                </div>
-              </>
-            }
+            <div className={"sign-up"}>
+              <div>{t("login.signup-title")}</div>
+              <div className={"sign-up-link"} onClick={onSignUpClick}>{t("login.signup")}</div>
+            </div>
+            <div className={"sign-up"} style={{marginTop: "8px"}}>
+            <div>{t("login.or")}</div>
+            <div className={"guest-link"} onClick={onGuestClick}>{t("login.guest")}</div>
+            </div>
             </>
             }
           <div className="login-help">

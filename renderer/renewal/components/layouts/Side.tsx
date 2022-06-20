@@ -341,7 +341,7 @@ const Side = () => {
                       d={hrefIcon["tft"].d}
                       transform={hrefIcon["tft"].transform}
                   />
-                  <span className="side-href-item-title">추천 메타 6.5</span>
+                  <span className="side-href-item-title">시즌 7 추천 메타</span>
                 </NavLink>
               </div>
             </div>

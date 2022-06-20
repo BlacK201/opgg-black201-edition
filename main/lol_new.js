@@ -76,11 +76,14 @@ class LoL {
             spellLocation: "d",
             isOverlayOn: false,
             region: null,
-            rust: false
+            rust: false,
+            isFront: false,
+            installDir: null
         }
         this.game = {
             summoner: null,
             queueId: 0,
+            mapId: "",
             championId: 0,
             perkPages: null,
             itemSets: null,
@@ -93,6 +96,7 @@ class LoL {
         }
         this.isGameRunning = false;
         this.detectGameProcessInterval = null;
+        this.liveClientDataInterval = null;
         this.ws = null;
 
         if (process.platform === "win32") {
@@ -181,14 +185,26 @@ class LoL {
                 let summonerRankResponse = await this.callAPI("GET", "lol", `${lolConstants.LOL_RANKED_STATS}/${this.game.summoner.puuid}`)
                     .catch((_) => {return null});
                 if (!summonerRankResponse) return;
+
+                let installDir = await this.callAPI("GET", "lol", lolConstants.LOL_INSTALL_DIR)
+                    .catch((_) => {return null;});
+                if (installDir) this.config.installDir = installDir.data;
+
+                // ipcMain.emit("lol-loaded");
+
                 sendGA4Event("login_lol", {
-                    login_lol: true,
-                    summoner_name: this.game.summoner.displayName,
-                    summoner_rank: summonerRankResponse.data.highestRankedEntry.tier,
-                    server: this.config.region.region,
-                    summoner_level: this.game.summoner.summonerLevel,
-                    number_of_monitors: screen.getAllDisplays().length,
-                    screen_resolution: `${screen.getPrimaryDisplay().size.width}*${screen.getPrimaryDisplay().size.height}`
+                    // login_lol: true,
+                    // summoner_name: this.game.summoner.displayName,
+                    // summoner_rank: summonerRankResponse.data.highestRankedEntry.tier,
+                    // server: this.config.region.region,
+                    // summoner_level: this.game.summoner.summonerLevel,
+                    // number_of_monitors: screen.getAllDisplays().length,
+                    // screen_resolution: `${screen.getPrimaryDisplay().size.width}*${screen.getPrimaryDisplay().size.height}`,
+                    // setting_autoitem: this.config.isItemBuildOn,
+                    // setting_autorune: this.config.isRuneOn,
+                    // setting_isSpell: this.config.isSpellOn,
+                    // setting_isOverlay: this.config.isOverlayOn,
+                    // app_size: nodeStorage.getItem("scale")
                 }, {
                     login_lol: true,
                     summoner_name: this.game.summoner.displayName,
@@ -196,7 +212,12 @@ class LoL {
                     server: this.config.region.region,
                     summoner_level: this.game.summoner.summonerLevel,
                     number_of_monitors: screen.getAllDisplays().length,
-                    screen_resolution: `${screen.getPrimaryDisplay().size.width}*${screen.getPrimaryDisplay().size.height}`
+                    screen_resolution: `${screen.getPrimaryDisplay().size.width}*${screen.getPrimaryDisplay().size.height}`,
+                    setting_autoitem: this.config.isItemBuildOn,
+                    setting_autorune: this.config.isRuneOn,
+                    setting_isSpell: this.config.isSpellOn,
+                    setting_isOverlay: this.config.isOverlayOn,
+                    app_size: nodeStorage.getItem("scale")
                 });
 
                 setTimeout(() => {
@@ -234,6 +255,7 @@ class LoL {
                     switch (uri) {
                         case lolConstants.LOL_GAMEFLOW_SESSION:
                             this.game.queueId = data.gameData.queue.id;
+                            this.game.mapId = data.map.gameMode;
                             this.gameFlowChanged(data);
                             break;
 
@@ -462,6 +484,7 @@ class LoL {
                 } catch (_) {}
                 this.broadcastIPC("is-lol-game-live", false);
                 this.game.isPlaying = false;
+                this.config.isFront = false;
                 break;
             case "Matchmaking":
                 if (this.game.phase === data.phase) break;
@@ -501,21 +524,59 @@ class LoL {
                             ingameInterval = null;
 
                             this.getIngameData(tmpName);
+
+                            this.app.overlayWindow.sendToRenderer("lol-levelup-hide", true);
+                            let gameStartInterval = setInterval(async () => {
+                                let liveClientData = await this.callAPI("GET", "liveclientdata", "/eventdata").catch((_) => {
+                                    return null;
+                                });
+                                if (!liveClientData) return;
+                                if (liveClientData.data.Events.length > 0) {
+                                    this.app.overlayWindow.sendToRenderer("lol-levelup-hide", false);
+                                    clearInterval(gameStartInterval);
+                                    this.liveClientDataInterval = setInterval(async () => {
+                                        let liveClientData = await this.callAPI("GET", "liveclientdata", "/activeplayer").catch((_) => {
+                                            return null;
+                                        });
+                                        if (!liveClientData) return;
+                                        let total = 0;
+                                        if (lolConstants.TRANSFORM_CHAMPION_IDS.includes(this.game.championId)) {
+                                            total = -1;
+                                        }
+
+                                        for (let [key, value] of Object.entries(liveClientData.data.abilities)) {
+                                            if (key !== "Passive") {
+                                                total += value.abilityLevel;
+                                            }
+                                        }
+                                        if (total === liveClientData.data.level) {
+                                            this.app.overlayWindow.sendToRenderer("lol-levelup-hide", true);
+                                        } else {
+                                            this.app.overlayWindow.sendToRenderer("lol-levelup-hide", false);
+                                        }
+                                        // this.app.overlayWindow.sendToRenderer("lol-levelup", liveClientData.data.level);
+                                        this.app.overlayWindow.sendToRenderer("lol-levelup", total);
+                                    }, 1000);
+                                }
+                            }, 1000);
                         }, 1000);
                     }
 
                     // overlay
                     if (!isNMP && this.app.overlayWindow && process.platform === "win32" &&
-                        IOVhook && this.config.isOverlayOn) {
+                        IOVhook && this.config.isOverlayOn && screen.getPrimaryDisplay().scaleFactor === 1) {
                         let isInjected = false;
                         if (!isInjected) {
                             let tmpInterval = setInterval(() => {
                                 for (let i = 0; i < IOVhook.getTopWindows().length; i++) {
                                     const p = IOVhook.getTopWindows()[i];
                                     if (p.title === "League of Legends (TM) Client") {
+                                        ipcMain.emit("lol-loaded");
                                         isInjected = true;
                                         clearInterval(tmpInterval);
                                         IOVhook.injectProcess(p);
+                                        this.app.overlayWindow.toggleOverlay();
+                                        sendGA4Event("lol_overlay_injected", {});
                                     }
                                 }
                             }, 3000);
@@ -548,12 +609,17 @@ class LoL {
                         });
                     }, 1000);
                 }
+                clearInterval(this.liveClientDataInterval);
                 this.game.isPlaying = false;
+                this.config.isFront = false;
+                this.app.window.show();
                 break;
             case null:
             default:
                 this.game.phase = "";
                 this.game.isPlaying = false;
+                this.config.isFront = false;
+                clearInterval(this.liveClientDataInterval);
                 this.broadcastIPC("is-lol-game-live", false);
                 this.broadcastIPC("lol-current-game-queue", -9999);
         }
@@ -564,6 +630,7 @@ class LoL {
     async champSelectionSession(data) {
         if (!this.game.isPlaying && !lolConstants.TFT_QUEUE_IDS.includes(this.game.queueId)) {
             this.game.isPlaying = true;
+            this.app.window.showInactive();
 
             let promises = [];
             let summoners = [];
@@ -616,13 +683,19 @@ class LoL {
             } else if (me.championPickIntent !== 0 && me.championPickIntent !== this.game.championId) {
                 hasChange = true;
                 this.game.championId = me.championPickIntent;
-            } else if (myPick.championId !== 0 && myPick.championId !== this.game.championId) {
+            } else if (myPick.championId !== 0 && myPick.championId !== this.game.championId && this.game.queueId !== -1) {
                 hasChange = true;
                 this.game.championId = myPick.championId;
             }
         }
 
-        if (hasChange) {
+        if (hasChange && !lolConstants.TFT_QUEUE_IDS.includes(this.game.queueId)) {
+            if (!this.config.isFront) {
+                this.config.isFront = true;
+                this.app.window.show();
+            } else {
+                this.app.window.showInactive();
+            }
             let selectedRegion = await this.app.window.getLocalStorage("selected-region") ?? "kr";
             let tierFilter = await this.app.window.getLocalStorage("tier-filter") ?? "platinum_plus";
             let versionFilter = await this.app.window.getLocalStorage("version-filter") ?? "";
@@ -673,9 +746,17 @@ class LoL {
         if (queueId === 900) {
             mode = "urf";
             tier = "gold_plus";
+            version = "";
         } else if (queueId === 450) {
             mode = "aram";
             tier = "gold_plus";
+            version = "";
+        } else if (queueId === -1) {
+            if (this.game.mapId === "ARAM") {
+                mode = "aram";
+                tier = "gold_plus";
+                version = "";
+            }
         }
 
         let primaryLane = mode;
@@ -734,6 +815,11 @@ class LoL {
                         lane: primaryLane,
                         counters: counters
                     });
+
+                    // 오버레이 스킬
+                    if (overview.skills.length > 0) {
+                        this.app.overlayWindow.sendToRenderer("lol-skill-data", overview.skills[0].order);
+                    }
 
                     // 자동 스펠 설정
                     let selectionBody = {};

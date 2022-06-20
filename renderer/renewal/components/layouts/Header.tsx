@@ -8,6 +8,7 @@ import customToastr from "../../../lib/toastr";
 import { useHistory } from "react-router-dom";
 import sendGA4Event from "../../../utils/ga4";
 const {isNMP} = require("../../../utils/nmp");
+import Tippy from '@tippyjs/react';
 
 const customStyles = {
     overlay: {
@@ -50,6 +51,7 @@ const Header = () => {
     }
 
     const onClickClose = () => {
+        sendGA4Event("app_close", {});
         if (isNMP) {
             setCloseModalIsOpen(true);
         } else {
@@ -78,7 +80,26 @@ const Header = () => {
     return (
         <header id="app-header-win" className="app-header">
             <div className="game-select">
-                <img width="32px" height="32px" src="../../assets/images/opgg-logo-square.svg" />
+                <Tippy content={t("opgg-open")}>
+                    <img width="32px" height="32px" src="../../assets/images/opgg-logo-square.svg" onClick={() => {
+                        sendGA4Event("click_main_logo", {
+                            summoner_name: localStorage.getItem("opgg_nickname"),
+                            server: localStorage.getItem("region"),
+                            opggNickname: localStorage.getItem("opgg_nickname")
+                        });
+                        if (localStorage.getItem("opgg_nickname")) {
+                            window.api.invoke("member-ott").then((data) => {
+                                if (data) {
+                                    window.api.openExternal(`https://member-node.op.gg/api/redirect?ott=${data.token}&ts=${data.ts}&url=https://op.gg`);
+                                } else {
+                                    window.api.openExternal("https://op.gg");
+                                }
+                            });
+                        } else {
+                            window.api.openExternal("https://op.gg");
+                        }
+                    }} className={"opgg-logo"} />
+                </Tippy>
                 {/*<img width="16px" height="16px" src="../../assets/images/icon-down.svg" className="down-arrow" />*/}
                 <img width="24px" height="24px" src="../../assets/images/img-sidebar-lol.svg" style={{marginLeft: "8px"}} />
                 <div style={{
@@ -176,11 +197,7 @@ function SummonerSearch({ searchStyle = {}, inputStyle = {}, imgStyle = {} }) {
     };
 
     const onOpen = () => {
-        // reactGa.event({
-        //     category: 'SUMMONER_SEARCH',
-        //     action: 'CLICKED',
-        //     label: 'INPUT'
-        // });
+        sendGA4Event("click_main_summoner_search", {});
         setModalIsOpen(true);
     };
 

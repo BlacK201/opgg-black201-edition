@@ -32,14 +32,14 @@
       "id": 7,
       "key": "SummonerHeal",
       "name": "회복",
-      "description": "자신과 대상 아군 챔피언의 체력을 90~345만큼 (챔피언 레벨에 따라 변동) 회복시키고 1초 동안 이동 속도가 30% 증가합니다. 최근 소환사 주문 회복의 영향을 받은 유닛의 경우 치유량이 절반만 적용됩니다.",
+      "description": "자신과 대상 아군 챔피언의 체력을 80~318만큼 (챔피언 레벨에 따라 변동) 회복시키고 1초 동안 이동 속도가 30% 증가합니다. 최근 소환사 주문 회복의 영향을 받은 유닛의 경우 치유량이 절반만 적용됩니다.",
       "image_url": "https://opgg-static.akamaized.net/images/lol/spell/SummonerHeal.png"
     },
     {
       "id": 11,
       "key": "SummonerSmite",
       "name": "강타",
-      "description": "대상 에픽 및 대형/중형 몬스터 또는 미니언에게 450의 고정 피해를 입힙니다. 2회까지 충전됩니다. (충전 시간 90초)",
+      "description": "대상 에픽 및 대형/중형 몬스터 또는 미니언에게 450의 고정 피해를 입힙니다. 몬스터에게 사용하면 체력도 90(+최대 체력의 10%)만큼 회복됩니다. 2회까지 충전됩니다. (충전 시간 90초)",
       "image_url": "https://opgg-static.akamaized.net/images/lol/spell/SummonerSmite.png"
     },
     {
@@ -67,7 +67,7 @@
       "id": 21,
       "key": "SummonerBarrier",
       "name": "방어막",
-      "description": "2초 동안 방어막으로 감싸 피해를 115~455(챔피언 레벨에 따라 변동)만큼 흡수합니다.",
+      "description": "2초 동안 방어막으로 감싸 피해를 105~411(챔피언 레벨에 따라 변동)만큼 흡수합니다.",
       "image_url": "https://opgg-static.akamaized.net/images/lol/spell/SummonerBarrier.png"
     },
     {
@@ -114,6 +114,6 @@
     }
   ],
   "meta": {
-    "version": "12.06"
+    "version": "12.11"
   }
 }

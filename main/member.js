@@ -6,6 +6,7 @@ const nodeStorage = new LocalStorage(`${app.getPath("userData")}/session`);
 let memberAPI = function(method, url, data=null, options={}) {
     return new Promise(function(resolve, reject) {
         let uri = "https://member-api.op.gg";
+        // uri = "https://member-api-stage-1fdsf134.op.gg";
 
         let _ot = nodeStorage.getItem("_ot");
 
@@ -42,7 +43,12 @@ function renewal() {
     return memberAPI("POST", "/v1/authentication/token/renewal?isRememberMe=true");
 }
 
+function ott(ts) {
+    return memberAPI("GET", `/v1/member/ott/generate?ts=${ts}`);
+}
+
 module.exports = {
     member,
-    renewal
+    renewal,
+    ott
 }

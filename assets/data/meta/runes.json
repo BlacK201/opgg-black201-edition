@@ -18,8 +18,8 @@
       "rune_sequence": 1,
       "key": "LethalTempo",
       "name": "치명적 속도",
-      "short_desc": "적 챔피언 기본 공격 시 공격 속도 상승. (최대 6회 중첩) 최대 중첩 시 공격 사거리 상승 및 최고 공격 속도 제한 해제",
-      "long_desc": "적 챔피언을 기본 공격하면 6초 동안 공격 속도가 [60%~90%] (근접) 또는 [30%~54%] (원거리) 상승합니다. 이 효과는 6회까지 중첩됩니다.<br><br>최대로 중첩되면 공격 속도가 2.5를 초과할 수 있으며 공격 사거리가 50 (근접) 또는 75 (원거리) 상승합니다.",
+      "short_desc": "적 챔피언 기본 공격 시 공격 속도 상승(최대 6회 중첩). 최대 중첩 시 공격 사거리 상승 및 최고 공격 속도 제한 해제",
+      "long_desc": "적 챔피언을 기본 공격하면 6초 동안 공격 속도가 [60%~90%] (근접) 또는 [18%~42%] (원거리) 상승합니다. 이 효과는 6회까지 중첩됩니다.<br><br>최대로 중첩되면 공격 속도가 2.5를 초과할 수 있으며 공격 사거리가 50 (근접) 또는 75 (원거리) 상승합니다.",
       "image_url": "https://opgg-static.akamaized.net/images/lol/perk/8008.png"
     },
     {
@@ -41,7 +41,7 @@
       "key": "Conqueror",
       "name": "정복자",
       "short_desc": "적 챔피언 공격 시 적응형 능력치 중첩 획득. 12회 중첩 시 챔피언 대상 피해량의 일부만큼 체력 회복",
-      "long_desc": "적 챔피언에게 기본 공격 또는 스킬로 피해를 입히면 5초 동안 정복자 중첩을 2만큼 얻어 중첩마다 2~4.5의 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>적응형 능력치</font></lol-uikit-tooltipped-keyword>를 얻습니다. 최대 12회까지 중첩됩니다. 원거리 챔피언은 기본 공격으로 중첩을 1만 획득할 수 있습니다.<br><br>최대로 중첩되면 챔피언에게 입힌 피해량의 9%만큼 체력을 회복합니다. (원거리 챔피언은 6%)",
+      "long_desc": "적 챔피언에게 기본 공격 또는 스킬로 피해를 입히면 5초 동안 정복자 중첩을 2만큼 얻어 중첩마다 2~4.5의 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>적응형 능력치</font></lol-uikit-tooltipped-keyword>를 얻습니다. 최대 12회까지 중첩됩니다. 원거리 챔피언은 기본 공격으로 중첩을 1만 획득할 수 있습니다.<br><br>최대로 중첩되면 챔피언에게 입힌 피해량의 8%만큼 체력을 회복합니다. (원거리 챔피언은 5%)",
       "image_url": "https://opgg-static.akamaized.net/images/lol/perk/8010.png"
     },
     {
@@ -206,7 +206,7 @@
       "key": "TasteOfBlood",
       "name": "피의 맛",
       "short_desc": "적 챔피언에게 피해를 입히면 체력을 회복합니다.",
-      "long_desc": "적 챔피언에게 피해를 입히면 체력을 회복합니다.<br><br>회복량: 18 ~ 35 (+추가 공격력의 0.2, +주문력의 0.1) (레벨에 비례)<br><br>재사용 대기시간: 20초",
+      "long_desc": "적 챔피언에게 피해를 입히면 체력을 회복합니다.<br><br>회복량: 16 ~ 30 (+추가 공격력의 0.15, +주문력의 0.08) (레벨에 비례)<br><br>재사용 대기시간: 20초",
       "image_url": "https://opgg-static.akamaized.net/images/lol/perk/8139.png"
     },
     {
@@ -239,7 +239,7 @@
       "key": "SummonAery",
       "name": "콩콩이 소환",
       "short_desc": "공격 또는 스킬 사용 시 대상에 콩콩이를 보내 적에게 피해를 주거나 아군에게 보호막 생성",
-      "long_desc": "적 챔피언을 기본 공격 또는 스킬로 공격하면 콩콩이를 보내 레벨에 따라 10~40(+<scaleAP>주문력의 0.1</scaleAP>)(+<scaleAD>추가 공격력의 0.15</scaleAD>)만큼 피해를 입힙니다.<br><br>아군에게 스킬로 강화 효과 또는 보호막을 적용하면 콩콩이를 보내 레벨에 따라 35~80(+<scaleAP>주문력의 0.25</scaleAP>)(+<scaleAD>추가 공격력의 0.4</scaleAD>)만큼 피해를 흡수하는 보호막을 씌웁니다.<br><br>콩콩이는 자신에게 돌아오기 전까지 다른 대상에게 보낼 수 없습니다.",
+      "long_desc": "적 챔피언을 기본 공격 또는 스킬로 공격하면 콩콩이를 보내 레벨에 따라 10~40(+<scaleAP>주문력의 0.1</scaleAP>)(+<scaleAD>추가 공격력의 0.15</scaleAD>)만큼 피해를 입힙니다.<br><br>아군에게 스킬로 강화 효과 또는 보호막을 적용하면 콩콩이를 보내 레벨에 따라 30~75(+<scaleAP>주문력의 0.22</scaleAP>)(+<scaleAD>추가 공격력의 0.35</scaleAD>)만큼 피해를 흡수하는 보호막을 씌웁니다.<br><br>콩콩이는 자신에게 돌아오기 전까지 다른 대상에게 보낼 수 없습니다.",
       "image_url": "https://opgg-static.akamaized.net/images/lol/perk/8214.png"
     },
     {
@@ -250,7 +250,7 @@
       "key": "NullifyingOrb",
       "name": "무효화 구체",
       "short_desc": "마법 피해를 받아 체력이 낮아지면 마법 피해를 흡수하는 보호막 생성",
-      "long_desc": "마법 피해를 받아 체력이 30% 이하가 될 경우, 4초 동안 레벨에 비례해 40 ~ 120 (<scaleAP>+주문력의 0.1</scaleAP> 및 <scaleAD>+추가 공격력의 0.15</scaleAD>)의 마법 피해를 흡수하는 보호막이 생성됩니다.<br><br>재사용 대기시간: 60초",
+      "long_desc": "마법 피해를 받아 체력이 30% 이하가 될 경우, 4초 동안 레벨에 비례해 35 ~ 110 (<scaleAP>+주문력의 0.09</scaleAP> 및 <scaleAD>+추가 공격력의 0.14</scaleAD>)의 마법 피해를 흡수하는 보호막이 생성됩니다.<br><br>재사용 대기시간: 60초",
       "image_url": "https://opgg-static.akamaized.net/images/lol/perk/8224.png"
     },
     {
@@ -458,7 +458,7 @@
       "rune_sequence": 0,
       "key": "GlacialAugment",
       "name": "빙결 강화",
-      "short_desc": "적 챔피언을 이동 불가 상태로 만들면 3줄기의 빙결 광선이 뻗어 나와 근처 적들을 둔화하고 아군에게 입히는 피해를 감소시킵니다. 재사용 대기시간: 25초",
+      "short_desc": "적 챔피언을 이동 불가 상태로 만들면 3줄기의 빙결 광선이 뻗어 나와 근처 적들을 둔화하고 아군에게 입히는 피해를 감소시킵니다.",
       "long_desc": "적 챔피언을 이동 불가 상태로 만들면 대상에게서 3줄기의 빙결 광선이 자신과 근처 다른 챔피언을 향해 뻗어 나와 3초(+이동 불가 효과 지속시간의 100%) 동안 적들을 30%(+회복 및 보호막 효과 10%당 9%)(+주문력 100당 3%)(+추가 공격력 100당 4%) 둔화하고 자신을 제외한 아군에게 입히는 피해를 15% 감소시키는 빙결 영역을 생성합니다. <br><br>재사용 대기시간: 25초",
       "image_url": "https://opgg-static.akamaized.net/images/lol/perk/8351.png"
     },
@@ -470,7 +470,7 @@
       "key": "TimeWarpTonic",
       "name": "시간 왜곡 물약",
       "short_desc": "물약이나 비스킷으로 회복량 일부를 즉시 회복. 물약이나 비스킷의 효과가 지속되는 동안 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>이동 속도</lol-uikit-tooltipped-keyword> 증가",
-      "long_desc": "물약이나 비스킷을 사용하면 체력이나 마나 회복량의 50%를 즉시 회복합니다. 또한 물약이나 비스킷의 효과가 지속되는 동안 <speed>이동 속도가 5%</speed> 증가합니다.<br><br>",
+      "long_desc": "물약이나 비스킷을 사용하면 체력이나 마나 회복량의 30%를 즉시 회복합니다. 또한 물약이나 비스킷의 효과가 지속되는 동안 <speed>이동 속도가 4%</speed> 증가합니다.<br><br>",
       "image_url": "https://opgg-static.akamaized.net/images/lol/perk/8352.png"
     },
     {
@@ -492,7 +492,7 @@
       "key": "FirstStrike",
       "name": "선제공격",
       "short_desc": "적 챔피언과 전투 개시 시 3초 동안 10%의 추가 피해 및 입힌 피해에 따라 골드 획득",
-      "long_desc": "적 챔피언과 전투 시작 후 0.25초 내에 스킬이나 기본 공격으로 해당 적 챔피언에게 피해를 입히면 5골드를 획득하고 3초 동안 <b>선제공격</b> 효과가 발동됩니다. 효과 발동 시 적 챔피언에게 <truedamage>10%</truedamage>의 추가 <truedamage>피해</truedamage>를 입힙니다. 또한 입힌 추가 피해의 <gold>100%(원거리 챔피언은 70%)</gold>에 해당하는 <gold>골드</gold>를 획득합니다.<br><br>재사용 대기시간: <scaleLevel>25~15</scaleLevel>",
+      "long_desc": "적 챔피언과 전투 시작 후 0.25초 내에 스킬이나 기본 공격으로 해당 적 챔피언에게 피해를 입히면 5골드를 획득하고 3초 동안 <b>선제공격</b> 효과가 발동됩니다. 효과 발동 시 적 챔피언에게 <truedamage>10%</truedamage>의 추가 <truedamage>피해</truedamage>를 입힙니다. 또한 입힌 추가 피해의 <gold>100%(원거리 챔피언은 70%)</gold>에 해당하는 <gold>골드</gold>를 획득합니다.<br><br>재사용 대기시간: <scaleLevel>25~15</scaleLevel>초",
       "image_url": "https://opgg-static.akamaized.net/images/lol/perk/8369.png"
     },
     {
@@ -524,8 +524,8 @@
       "rune_sequence": 0,
       "key": "Conditioning",
       "name": "사전 준비",
-      "short_desc": "12분 후 방어력 +9 및 마법 저항력 +9 증가와 동시에 방어력 및 마법 저항력 5% 증가",
-      "long_desc": "12분 후 방어력 +9 및 마법 저항력 +9 증가와 동시에 방어력 및 마법 저항력 5% 증가",
+      "short_desc": "12분 후 방어력 +9 및 마법 저항력 +9 증가와 동시에 방어력 및 마법 저항력 4% 증가",
+      "long_desc": "12분 후 방어력 +9 및 마법 저항력 +9 증가와 동시에 방어력 및 마법 저항력 4% 증가",
       "image_url": "https://opgg-static.akamaized.net/images/lol/perk/8429.png"
     },
     {
@@ -536,7 +536,7 @@
       "key": "GraspOfTheUndying",
       "name": "착취의 손아귀",
       "short_desc": "4초마다 적 챔피언 기본 공격 시 추가 마법 피해, 체력 회복, 체력 영구 증가",
-      "long_desc": "전투 중 4초마다 챔피언에 대한 기본 공격 시 다음 효과를 얻습니다.<li>자신 최대 체력의 4%에 해당하는 추가 마법 피해</li><li>자신 최대 체력의 2%에 해당하는 체력 회복</li><li>영구적으로 체력 5 증가</li><br><rules><i>원거리 챔피언:</i> 피해량, 회복량, 체력 영구 증가량이 40% 감소합니다.</rules><br>",
+      "long_desc": "전투 중 4초마다 챔피언에 대한 기본 공격 시 다음 효과를 얻습니다.<li>자신 최대 체력의 3.5%에 해당하는 추가 마법 피해</li><li>자신 최대 체력의 1.7%에 해당하는 체력 회복</li><li>영구적으로 체력 5 증가</li><br><rules><i>원거리 챔피언:</i> 피해량, 회복량, 체력 영구 증가량이 40% 감소합니다.</rules><br>",
       "image_url": "https://opgg-static.akamaized.net/images/lol/perk/8437.png"
     },
     {
@@ -602,7 +602,7 @@
       "key": "FontOfLife",
       "name": "생명의 샘",
       "short_desc": "적 챔피언 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairMov'>이동 방해</lol-uikit-tooltipped-keyword> 시 표식을 남겨, 아군이 해당 적 공격 시 체력 회복 ",
-      "long_desc": "적 챔피언의 이동을 방해하면 4초 동안 표식을 남깁니다.<br><br>표식이 남겨진 적을 공격하는 아군 챔피언은 2초에 걸쳐 5 + 나의 최대 체력의 1%에 해당하는 체력을 회복합니다. ",
+      "long_desc": "적 챔피언의 이동을 방해하면 4초 동안 표식을 남깁니다.<br><br>표식이 남겨진 적을 공격하는 아군 챔피언은 2초에 걸쳐 5 + 나의 최대 체력의 0.9%에 해당하는 체력을 회복합니다. ",
       "image_url": "https://opgg-static.akamaized.net/images/lol/perk/8463.png"
     },
     {
@@ -613,7 +613,7 @@
       "key": "Guardian",
       "name": "수호자",
       "short_desc": "스킬 대상으로 지정한 아군이나 근처에 있는 아군을 보호. 자신 또는 보호받는 아군이 레벨에 비례하여 피해를 입으면 둘 다 보호막 획득.",
-      "long_desc": "자신으로부터 350유닛 내에 있는 아군이나 자신이 스킬의 대상으로 삼은 아군을 2.5초 동안 <i>보호</i>합니다. <i>보호</i>하는 중 자신과 아군 중 한 명이 <i>보호</i>의 지속시간 동안 어느 정도 피해를 입으면 둘 모두에게 1.5초 동안 보호막이 생성됩니다.<br><br>재사용 대기시간: <scaleLevel>70~40</scaleLevel>초<br>보호막 흡수량: <scaleLevel>50~130</scaleLevel>+주문력의 <scaleAP>15%</scaleAP>+추가 체력의 <scalehealth>9%</scalehealth><br>최종 기준치: 감소 후 피해량 <scaleLevel>90~250</scaleLevel>",
+      "long_desc": "자신으로부터 350유닛 내에 있는 아군이나 자신이 스킬의 대상으로 삼은 아군을 2.5초 동안 <i>보호</i>합니다. <i>보호</i>하는 중 자신과 아군 중 한 명이 <i>보호</i>의 지속시간 동안 어느 정도 피해를 입으면 둘 모두에게 1.5초 동안 보호막이 생성됩니다.<br><br>재사용 대기시간: <scaleLevel>70~40</scaleLevel>초<br>보호막 흡수량: <scaleLevel>45~120</scaleLevel>+주문력의 <scaleAP>12.5%</scaleAP>+추가 체력의 <scalehealth>8%</scalehealth><br>최종 기준치: 감소 후 피해량 <scaleLevel>90~250</scaleLevel>",
       "image_url": "https://opgg-static.akamaized.net/images/lol/perk/8465.png"
     },
     {
@@ -635,7 +635,7 @@
       "key": "Overheal",
       "name": "과다치유",
       "short_desc": "자신의 체력을 초과한 체력 회복 효과가 보호막으로 전환",
-      "long_desc": "자신에 대한 체력 회복 초과분이 보호막으로 전환됩니다. 보호막은 10<scaleHealth>(+최대 체력의 10%)</scaleHealth>에 해당하는 피해까지 흡수할 수 있습니다.<br><br>보호막 전환율은 자신 또는 아군으로부터의 체력 회복 초과분의 20~100%입니다.",
+      "long_desc": "자신에 대한 체력 회복 초과분이 보호막으로 전환됩니다. 보호막은 10<scaleHealth>(+최대 체력의 9%)</scaleHealth>에 해당하는 피해까지 흡수할 수 있습니다.<br><br>보호막 전환율은 자신 또는 아군으로부터의 체력 회복 초과분의 20~100%입니다.",
       "image_url": "https://opgg-static.akamaized.net/images/lol/perk/9101.png"
     },
     {
@@ -678,8 +678,8 @@
       "rune_sequence": 1,
       "key": "Triumph",
       "name": "승전보",
-      "short_desc": "챔피언 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>처치 관여</lol-uikit-tooltipped-keyword> 시 잃은 체력의 12%를 회복하며 추가로 20골드 획득 ",
-      "long_desc": "챔피언 처치 또는 어시스트 시 잃은 체력의 12%를 회복하며 추가로 20골드를 획득합니다. <br><br><hr><br><i>'가장 위험한 게임을 하는 자만이 진정 승리의 환희를 맛보았다고 말할 수 있다.' <br>—녹서스 검투사</i>",
+      "short_desc": "챔피언 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>처치 관여</lol-uikit-tooltipped-keyword> 시 잃은 체력의 10%를 회복하며 추가로 20골드 획득 ",
+      "long_desc": "챔피언 처치 또는 어시스트 시 잃은 체력의 10%를 회복하며 추가로 20골드를 획득합니다. <br><br><hr><br><i>'가장 위험한 게임을 하는 자만이 진정 승리의 환희를 맛보았다고 말할 수 있다.' <br>—녹서스 검투사</i>",
       "image_url": "https://opgg-static.akamaized.net/images/lol/perk/9111.png"
     },
     {
@@ -695,6 +695,6 @@
     }
   ],
   "meta": {
-    "version": "12.06"
+    "version": "12.11"
   }
 }

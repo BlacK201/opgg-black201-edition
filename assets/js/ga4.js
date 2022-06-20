@@ -21,10 +21,31 @@ if (isNMP) {
 }
 
 const userId = sessionStorage.getItem('userid') || v4();
-
 let sendGA4Event = async (name, params, userProperties= {}) => {
     params.engagement_time_msec = "123";
     params.app_ver = app.getVersion();
+
+    let geo = sessionStorage.getItem("geo");
+    if (geo) {
+        try {
+            geo = JSON.parse(geo);
+            params.countryCode = geo.countryCode;
+            params.country = geo.country;
+            params.latitude = geo.latitude;
+            params.longitude = geo.longitude;
+        } catch (_) {
+            params.countryCode = null;
+            params.country = null;
+            params.latitude = null;
+            params.longitude = null;
+        }
+    } else {
+        params.countryCode = null;
+        params.country = null;
+        params.latitude = null;
+        params.longitude = null;
+    }
+    params.language = sessionStorage.getItem("locale") ?? null;
 
     let up = {};
     if (Object.keys(userProperties).length !== 0) {

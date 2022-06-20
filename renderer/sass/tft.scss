@@ -227,10 +227,52 @@
 }
 
 .tft-cost {
+  position: relative;
   width: 40px;
   height: 40px;
   border-radius: 8px;
   border: solid 2px #758592;
+
+  &-area {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #000;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-size: 10px;
+    padding: 0 1px;
+    text-shadow: -1px 0 2px #000, 0 1px 2px #000, 1px 0 2px #000, 0 -1px 2px #000;
+
+    &-0 {
+      background: #758592;
+    }
+    &-1 {
+      background: #758592;
+    }
+    &-2 {
+      background: #00ae0a;
+    }
+    &-3 {
+      background: #1ea1f7;
+    }
+    &-4 {
+      background: #e537a2;
+    }
+    &-5 {
+      background: #eb9c00;
+    }
+    &-8 {
+      background: #e537a2;
+    }
+    &-10 {
+      background: #eb9c00;
+    }
+  }
+
+  &-0 {
+    border-color: #758592;
+  }
 
   &-2 {
     border-color: #00ae0a;
@@ -245,6 +287,14 @@
   }
 
   &-5 {
+    border-color: #eb9c00;
+  }
+
+  &-8 {
+    border-color: #e537a2;
+  }
+
+  &-10 {
     border-color: #eb9c00;
   }
 
@@ -321,6 +371,10 @@
   justify-content: center;
   align-items: center;
 
+  &-0 {
+    border-color: #758592;
+  }
+
   &-2 {
     border-color: #00ae0a;
   }
@@ -334,6 +388,14 @@
   }
 
   &-5 {
+    border-color: #eb9c00;
+  }
+
+  &-8 {
+    border-color: #e537a2;
+  }
+
+  &-10 {
     border-color: #eb9c00;
   }
 
@@ -424,6 +486,9 @@
   box-sizing: border-box;
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 
+  &-0 {
+    background: #758592;
+  }
   &-1 {
     background: #758592;
   }
@@ -437,6 +502,12 @@
     background: #e537a2;
   }
   &-5 {
+    background: #eb9c00;
+  }
+  &-8 {
+    background: #e537a2;
+  }
+  &-10 {
     background: #eb9c00;
   }
 }

@@ -29,6 +29,17 @@
   "april-notice": "만우절 효과는 좌측 하단 설정에서 끌 수 있습니다.",
   "champion-refresh": "새로고침 완료",
   "app-restart": "앱 재시작",
+  "app-update": "새로운 버전 사용 가능",
+  "opgg-open": "OP.GG 웹사이트 열기",
+  "login-success": "OP.GG 로그인 성공",
+  "new-policy": "이용약관 개정 알림",
+  "new-policy-desc": "OP.GG의 이용약관, 개인정보 수집 및 이용이 개정되었습니다. 자세한 사항은 아래 동의하기를 통해 확인후 동의를 진행해 주시기 바립니다.",
+  "disagree": "거절",
+  "accept": "동의하러 가기",
+  "join-discord": "디스코드 참가하기",
+  "combo-growth": "콤보 영상을 시청한 유저는 승률이 더 높습니다.<br />영상을 확인해보세요.",
+  "new-overlay-notice-title": "오버레이 기능이 전면 업데이트 되었습니다.",
+  "new-overlay-notice": "이제는 오버레이를 통해 다음에 어떤 스킬 레벨을 올려야 하는지 쉽게 확인할 수 있습니다.<br /><br />다음 업데이트에는 CS와 골드 획득량을 실시간으로 티어와 포지션별로 비교할 수 있는 기능이 추가될 예정입니다.<br /><br />오버레이를 이용하면서 불편한 점이나 제안할 게 있다면 오피지지 디스코드 채널에 방문해서 의견을 남겨주세요.<br /><br />",
   "tray": {
     "developer": "개발자 도구",
     "display-scale": "앱 화면 배율 설정",
@@ -397,6 +408,7 @@
     "163": "탈리야",
     "164": "카밀",
     "166": "아크샨",
+    "200": "벨베스",
     "201": "브라움",
     "202": "진",
     "203": "킨드레드",
@@ -506,9 +518,9 @@
     },
     "1035": {
       "name": "잉걸불 칼",
-      "desc": "<mainText><stats></stats>몬스터 대상 모든 피해 흡혈 8%<br><li><passive>불태우기:</passive> 몬스터에게 피해를 입히면 5초 동안 불태워 <magicDamage>60+주문력의 30%+추가 공격력의 5%+추가 체력의 2%의 마법 피해</magicDamage>를 입힙니다.<li><passive>승부의 길:</passive> 강타를 5회 사용하면 이 아이템을 소모해 강타를 <attention>승부의 강타</attention>로 업그레이드하고 몬스터에게 입히는 피해량을 증가시킵니다. 승부의 강타는 4초 동안 챔피언에게 표식을 남깁니다. 표식이 있는 동안 대상에게 적중 시 2.5초에 걸쳐 <truedamage>48~125(레벨에 비례)</truedamage>의 추가 고정 피해를 입히고, 대상으로부터 입는 피해량은 20% 감소합니다.<li><passive>사냥꾼:</passive> 대형 몬스터 처치 시 추가 경험치를 얻습니다.<li><passive>만회:</passive> 정글 또는 강에 있을 때 초당 8~18(레벨에 비례)의 마나를 회복합니다. <br><br><rules>이 아이템을 <status>소모</status>하면 모든 아이템의 효과를 영구히 얻고 몬스터에게 입히는 강타 피해가 증가합니다. 정글 몬스터보다 미니언으로부터 더 많은 골드를 획득했다면, 미니언으로부터 얻는 골드와 경험치가 크게 감소합니다. 광역 공격 시에는 체력 회복 감소 효과가 적용되지 않습니다. 게임의 평균 챔피언 레벨보다 2레벨 뒤쳐졌다면 몬스터 처치 시 추가 경험치를 얻습니다. </rules><br><rules>승부의 강타는 기본 공격 또는 스킬로 피해를 입힐 때만 대상을 불태웁니다.</rules></mainText><br>",
+      "desc": "<mainText><stats></stats>몬스터 대상 모든 피해 흡혈 7%<br><li><passive>불태우기:</passive> 몬스터에게 피해를 입히면 5초 동안 불태워 <magicDamage>60+주문력의 30%+추가 공격력의 5%+추가 체력의 2%의 마법 피해</magicDamage>를 입힙니다.<li><passive>승부의 길:</passive> 강타를 5회 사용하면 이 아이템을 소모해 강타를 <attention>승부의 강타</attention>로 업그레이드하고 몬스터에게 입히는 피해량을 증가시킵니다. 승부의 강타는 4초 동안 챔피언에게 표식을 남깁니다. 표식이 있는 동안 대상에게 적중 시 2.5초에 걸쳐 <truedamage>48~125(레벨에 비례)</truedamage>의 추가 고정 피해를 입히고, 대상으로부터 입는 피해량은 20% 감소합니다.<li><passive>사냥꾼:</passive> 대형 몬스터 처치 시 추가 경험치를 얻습니다.<li><passive>만회:</passive> 정글 또는 강에 있을 때 초당 8~18(레벨에 비례)의 마나를 회복합니다. <br><br><rules>이 아이템을 <status>소모</status>하면 모든 아이템의 효과를 영구히 얻고 몬스터에게 입히는 강타 피해가 증가합니다. 정글 몬스터보다 미니언으로부터 더 많은 골드를 획득했다면, 미니언으로부터 얻는 골드와 경험치가 크게 감소합니다. 광역 공격 시에는 체력 회복 감소 효과가 적용되지 않습니다. 게임의 평균 챔피언 레벨보다 2레벨 뒤쳐졌다면 몬스터 처치 시 추가 경험치를 얻습니다. </rules><br><rules>승부의 강타는 기본 공격 또는 스킬로 피해를 입힐 때만 대상을 불태웁니다.</rules></mainText><br>",
       "gold": 350,
-      "tooltip": "<div class='tooltip-title'>잉걸불 칼</div><mainText><stats></stats>몬스터 대상 모든 피해 흡혈 8%<br><li><passive>불태우기:</passive> 몬스터에게 피해를 입히면 5초 동안 불태워 <magicDamage>60+주문력의 30%+추가 공격력의 5%+추가 체력의 2%의 마법 피해</magicDamage>를 입힙니다.<li><passive>승부의 길:</passive> 강타를 5회 사용하면 이 아이템을 소모해 강타를 <attention>승부의 강타</attention>로 업그레이드하고 몬스터에게 입히는 피해량을 증가시킵니다. 승부의 강타는 4초 동안 챔피언에게 표식을 남깁니다. 표식이 있는 동안 대상에게 적중 시 2.5초에 걸쳐 <truedamage>48~125(레벨에 비례)</truedamage>의 추가 고정 피해를 입히고, 대상으로부터 입는 피해량은 20% 감소합니다.<li><passive>사냥꾼:</passive> 대형 몬스터 처치 시 추가 경험치를 얻습니다.<li><passive>만회:</passive> 정글 또는 강에 있을 때 초당 8~18(레벨에 비례)의 마나를 회복합니다. <br><br><rules>이 아이템을 <status>소모</status>하면 모든 아이템의 효과를 영구히 얻고 몬스터에게 입히는 강타 피해가 증가합니다. 정글 몬스터보다 미니언으로부터 더 많은 골드를 획득했다면, 미니언으로부터 얻는 골드와 경험치가 크게 감소합니다. 광역 공격 시에는 체력 회복 감소 효과가 적용되지 않습니다. 게임의 평균 챔피언 레벨보다 2레벨 뒤쳐졌다면 몬스터 처치 시 추가 경험치를 얻습니다. </rules><br><rules>승부의 강타는 기본 공격 또는 스킬로 피해를 입힐 때만 대상을 불태웁니다.</rules></mainText><br><div class='tooltip-gold'>350 골드</div>"
+      "tooltip": "<div class='tooltip-title'>잉걸불 칼</div><mainText><stats></stats>몬스터 대상 모든 피해 흡혈 7%<br><li><passive>불태우기:</passive> 몬스터에게 피해를 입히면 5초 동안 불태워 <magicDamage>60+주문력의 30%+추가 공격력의 5%+추가 체력의 2%의 마법 피해</magicDamage>를 입힙니다.<li><passive>승부의 길:</passive> 강타를 5회 사용하면 이 아이템을 소모해 강타를 <attention>승부의 강타</attention>로 업그레이드하고 몬스터에게 입히는 피해량을 증가시킵니다. 승부의 강타는 4초 동안 챔피언에게 표식을 남깁니다. 표식이 있는 동안 대상에게 적중 시 2.5초에 걸쳐 <truedamage>48~125(레벨에 비례)</truedamage>의 추가 고정 피해를 입히고, 대상으로부터 입는 피해량은 20% 감소합니다.<li><passive>사냥꾼:</passive> 대형 몬스터 처치 시 추가 경험치를 얻습니다.<li><passive>만회:</passive> 정글 또는 강에 있을 때 초당 8~18(레벨에 비례)의 마나를 회복합니다. <br><br><rules>이 아이템을 <status>소모</status>하면 모든 아이템의 효과를 영구히 얻고 몬스터에게 입히는 강타 피해가 증가합니다. 정글 몬스터보다 미니언으로부터 더 많은 골드를 획득했다면, 미니언으로부터 얻는 골드와 경험치가 크게 감소합니다. 광역 공격 시에는 체력 회복 감소 효과가 적용되지 않습니다. 게임의 평균 챔피언 레벨보다 2레벨 뒤쳐졌다면 몬스터 처치 시 추가 경험치를 얻습니다. </rules><br><rules>승부의 강타는 기본 공격 또는 스킬로 피해를 입힐 때만 대상을 불태웁니다.</rules></mainText><br><div class='tooltip-gold'>350 골드</div>"
     },
     "1036": {
       "name": "롱소드",
@@ -530,9 +542,9 @@
     },
     "1039": {
       "name": "빗발칼날",
-      "desc": "<mainText><stats></stats>몬스터 대상 모든 피해 흡혈 8%<br><li><passive>불태우기:</passive> 몬스터에게 피해를 입히면 5초 동안 불태워 <magicDamage>60+주문력의 30%+추가 공격력의 5%+추가 체력의 2%의 마법 피해</magicDamage>를 입힙니다.<li><passive>차가운 길:</passive> 강타를 5회 사용하면 이 아이템을 소모해 강타를 <attention>혹한의 강타</attention>로 업그레이드하고 몬스터에게 입히는 피해량을 증가시킵니다. 혹한의 강타를 챔피언에게 사용하면 <truedamage>20~156(레벨에 비례)</truedamage>의 고정 피해를 입히고 2초 동안 이동 속도를 20% 훔칩니다.<li><passive>사냥꾼:</passive> 대형 몬스터 처치 시 추가 경험치를 얻습니다.<li><passive>만회:</passive> 정글 또는 강에 있을 때 초당 8~18(레벨에 비례)의 마나를 회복합니다. <br><br><rules>이 아이템을 <status>소모</status>하면 모든 아이템의 효과를 영구히 얻고 몬스터에게 입히는 강타 피해가 증가합니다. 정글 몬스터보다 미니언으로부터 더 많은 골드를 획득했다면, 미니언으로부터 얻는 골드와 경험치가 크게 감소합니다. 광역 공격 시에는 체력 회복 감소 효과가 적용되지 않습니다. 게임의 평균 챔피언 레벨보다 2레벨 뒤쳐졌다면 몬스터 처치 시 추가 경험치를 얻습니다. </rules><br><br></mainText><br>",
+      "desc": "<mainText><stats></stats>몬스터 대상 모든 피해 흡혈 7%<br><li><passive>불태우기:</passive> 몬스터에게 피해를 입히면 5초 동안 불태워 <magicDamage>60+주문력의 30%+추가 공격력의 5%+추가 체력의 2%의 마법 피해</magicDamage>를 입힙니다.<li><passive>차가운 길:</passive> 강타를 5회 사용하면 이 아이템을 소모해 강타를 <attention>혹한의 강타</attention>로 업그레이드하고 몬스터에게 입히는 피해량을 증가시킵니다. 혹한의 강타를 챔피언에게 사용하면 <truedamage>20~156(레벨에 비례)</truedamage>의 고정 피해를 입히고 2초 동안 이동 속도를 20% 훔칩니다.<li><passive>사냥꾼:</passive> 대형 몬스터 처치 시 추가 경험치를 얻습니다.<li><passive>만회:</passive> 정글 또는 강에 있을 때 초당 8~18(레벨에 비례)의 마나를 회복합니다. <br><br><rules>이 아이템을 <status>소모</status>하면 모든 아이템의 효과를 영구히 얻고 몬스터에게 입히는 강타 피해가 증가합니다. 정글 몬스터보다 미니언으로부터 더 많은 골드를 획득했다면, 미니언으로부터 얻는 골드와 경험치가 크게 감소합니다. 광역 공격 시에는 체력 회복 감소 효과가 적용되지 않습니다. 게임의 평균 챔피언 레벨보다 2레벨 뒤쳐졌다면 몬스터 처치 시 추가 경험치를 얻습니다. </rules><br><br></mainText><br>",
       "gold": 350,
-      "tooltip": "<div class='tooltip-title'>빗발칼날</div><mainText><stats></stats>몬스터 대상 모든 피해 흡혈 8%<br><li><passive>불태우기:</passive> 몬스터에게 피해를 입히면 5초 동안 불태워 <magicDamage>60+주문력의 30%+추가 공격력의 5%+추가 체력의 2%의 마법 피해</magicDamage>를 입힙니다.<li><passive>차가운 길:</passive> 강타를 5회 사용하면 이 아이템을 소모해 강타를 <attention>혹한의 강타</attention>로 업그레이드하고 몬스터에게 입히는 피해량을 증가시킵니다. 혹한의 강타를 챔피언에게 사용하면 <truedamage>20~156(레벨에 비례)</truedamage>의 고정 피해를 입히고 2초 동안 이동 속도를 20% 훔칩니다.<li><passive>사냥꾼:</passive> 대형 몬스터 처치 시 추가 경험치를 얻습니다.<li><passive>만회:</passive> 정글 또는 강에 있을 때 초당 8~18(레벨에 비례)의 마나를 회복합니다. <br><br><rules>이 아이템을 <status>소모</status>하면 모든 아이템의 효과를 영구히 얻고 몬스터에게 입히는 강타 피해가 증가합니다. 정글 몬스터보다 미니언으로부터 더 많은 골드를 획득했다면, 미니언으로부터 얻는 골드와 경험치가 크게 감소합니다. 광역 공격 시에는 체력 회복 감소 효과가 적용되지 않습니다. 게임의 평균 챔피언 레벨보다 2레벨 뒤쳐졌다면 몬스터 처치 시 추가 경험치를 얻습니다. </rules><br><br></mainText><br><div class='tooltip-gold'>350 골드</div>"
+      "tooltip": "<div class='tooltip-title'>빗발칼날</div><mainText><stats></stats>몬스터 대상 모든 피해 흡혈 7%<br><li><passive>불태우기:</passive> 몬스터에게 피해를 입히면 5초 동안 불태워 <magicDamage>60+주문력의 30%+추가 공격력의 5%+추가 체력의 2%의 마법 피해</magicDamage>를 입힙니다.<li><passive>차가운 길:</passive> 강타를 5회 사용하면 이 아이템을 소모해 강타를 <attention>혹한의 강타</attention>로 업그레이드하고 몬스터에게 입히는 피해량을 증가시킵니다. 혹한의 강타를 챔피언에게 사용하면 <truedamage>20~156(레벨에 비례)</truedamage>의 고정 피해를 입히고 2초 동안 이동 속도를 20% 훔칩니다.<li><passive>사냥꾼:</passive> 대형 몬스터 처치 시 추가 경험치를 얻습니다.<li><passive>만회:</passive> 정글 또는 강에 있을 때 초당 8~18(레벨에 비례)의 마나를 회복합니다. <br><br><rules>이 아이템을 <status>소모</status>하면 모든 아이템의 효과를 영구히 얻고 몬스터에게 입히는 강타 피해가 증가합니다. 정글 몬스터보다 미니언으로부터 더 많은 골드를 획득했다면, 미니언으로부터 얻는 골드와 경험치가 크게 감소합니다. 광역 공격 시에는 체력 회복 감소 효과가 적용되지 않습니다. 게임의 평균 챔피언 레벨보다 2레벨 뒤쳐졌다면 몬스터 처치 시 추가 경험치를 얻습니다. </rules><br><br></mainText><br><div class='tooltip-gold'>350 골드</div>"
     },
     "1040": {
       "name": "흑요석 검",
@@ -560,9 +572,9 @@
     },
     "1053": {
       "name": "흡혈의 낫",
-      "desc": "<mainText><stats>공격력 <attention>15</attention><br>생명력 흡수 <attention>8%</attention></stats></mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>15</attention><br>생명력 흡수 <attention>7%</attention></stats></mainText><br>",
       "gold": 900,
-      "tooltip": "<div class='tooltip-title'>흡혈의 낫</div><mainText><stats>공격력 <attention>15</attention><br>생명력 흡수 <attention>8%</attention></stats></mainText><br><div class='tooltip-gold'>900 골드</div>"
+      "tooltip": "<div class='tooltip-title'>흡혈의 낫</div><mainText><stats>공격력 <attention>15</attention><br>생명력 흡수 <attention>7%</attention></stats></mainText><br><div class='tooltip-gold'>900 골드</div>"
     },
     "1054": {
       "name": "도란의 방패",
@@ -578,9 +590,9 @@
     },
     "1056": {
       "name": "도란의 반지",
-      "desc": "<mainText><stats>주문력 <attention>15</attention><br>체력 <attention>70</attention></stats><br><li><passive>집중:</passive> 미니언에게 기본 공격 시 <physicalDamage>5의 물리 피해</physicalDamage>를 추가로 입힙니다. <li><passive>흡수:</passive> 매초 <scaleMana>0.75의 마나</scaleMana>를 회복합니다. 적 챔피언에게 피해를 입히면 10초 동안 회복량이 <scaleMana>1.25마나</scaleMana>로 증가합니다. 마나를 회복할 수 없으면 회복량의 50%만큼 체력을 회복합니다.</mainText><br>",
+      "desc": "<mainText><stats>주문력 <attention>15</attention><br>체력 <attention>70</attention></stats><br><li><passive>집중:</passive> 미니언에게 기본 공격 시 <physicalDamage>5의 물리 피해</physicalDamage>를 추가로 입힙니다. <li><passive>흡수:</passive> 매초 <scaleMana>1의 마나</scaleMana>를 회복합니다. 적 챔피언에게 피해를 입히면 10초 동안 회복량이 <scaleMana>1.5마나</scaleMana>로 증가합니다. 마나를 회복할 수 없으면 회복량의 45%만큼 체력을 회복합니다.</mainText><br>",
       "gold": 400,
-      "tooltip": "<div class='tooltip-title'>도란의 반지</div><mainText><stats>주문력 <attention>15</attention><br>체력 <attention>70</attention></stats><br><li><passive>집중:</passive> 미니언에게 기본 공격 시 <physicalDamage>5의 물리 피해</physicalDamage>를 추가로 입힙니다. <li><passive>흡수:</passive> 매초 <scaleMana>0.75의 마나</scaleMana>를 회복합니다. 적 챔피언에게 피해를 입히면 10초 동안 회복량이 <scaleMana>1.25마나</scaleMana>로 증가합니다. 마나를 회복할 수 없으면 회복량의 50%만큼 체력을 회복합니다.</mainText><br><div class='tooltip-gold'>400 골드</div>"
+      "tooltip": "<div class='tooltip-title'>도란의 반지</div><mainText><stats>주문력 <attention>15</attention><br>체력 <attention>70</attention></stats><br><li><passive>집중:</passive> 미니언에게 기본 공격 시 <physicalDamage>5의 물리 피해</physicalDamage>를 추가로 입힙니다. <li><passive>흡수:</passive> 매초 <scaleMana>1의 마나</scaleMana>를 회복합니다. 적 챔피언에게 피해를 입히면 10초 동안 회복량이 <scaleMana>1.5마나</scaleMana>로 증가합니다. 마나를 회복할 수 없으면 회복량의 45%만큼 체력을 회복합니다.</mainText><br><div class='tooltip-gold'>400 골드</div>"
     },
     "1057": {
       "name": "음전자 망토",
@@ -782,9 +794,9 @@
     },
     "2140": {
       "name": "분노의 영약",
-      "desc": "<mainText><stats></stats><active>사용 시 - 소모:</active> 3분 동안 <scaleAD>공격력이 30</scaleAD>, 챔피언 대상 <lifeSteal>물리 피해 흡혈이 15%</lifeSteal> 증가합니다.<br><br><rules>다른 종류의 영약을 마시면 기존 영약의 효과가 사라집니다.</rules></mainText><br>",
+      "desc": "<mainText><stats></stats><active>사용 시 - 소모:</active> 3분 동안 <scaleAD>공격력이 30</scaleAD>, 챔피언 대상 <lifeSteal>물리 피해 흡혈이 12%</lifeSteal> 증가합니다.<br><br><rules>다른 종류의 영약을 마시면 기존 영약의 효과가 사라집니다.</rules></mainText><br>",
       "gold": 500,
-      "tooltip": "<div class='tooltip-title'>분노의 영약</div><mainText><stats></stats><active>사용 시 - 소모:</active> 3분 동안 <scaleAD>공격력이 30</scaleAD>, 챔피언 대상 <lifeSteal>물리 피해 흡혈이 15%</lifeSteal> 증가합니다.<br><br><rules>다른 종류의 영약을 마시면 기존 영약의 효과가 사라집니다.</rules></mainText><br><div class='tooltip-gold'>500 골드</div>"
+      "tooltip": "<div class='tooltip-title'>분노의 영약</div><mainText><stats></stats><active>사용 시 - 소모:</active> 3분 동안 <scaleAD>공격력이 30</scaleAD>, 챔피언 대상 <lifeSteal>물리 피해 흡혈이 12%</lifeSteal> 증가합니다.<br><br><rules>다른 종류의 영약을 마시면 기존 영약의 효과가 사라집니다.</rules></mainText><br><div class='tooltip-gold'>500 골드</div>"
     },
     "2403": {
       "name": "미니언 해체분석기",
@@ -860,9 +872,9 @@
     },
     "3011": {
       "name": "화학공학 부패기",
-      "desc": "<mainText><stats>주문력 <attention>55</attention><br>스킬 가속 <attention>20</attention><br>기본 마나 재생 <attention>100%</attention></stats><br><li><passive>버섯 독소:</passive> 챔피언에게 마법 피해를 입히면 3초 동안 <status>40%의 고통스러운 상처</status>를 남깁니다. 다른 아군을 치유하거나 보호막을 씌워주면 자신과 대상 아군 모두 강화되어 다음번 적 챔피언에게 피해를 입힐 때 <status>60%의 고통스러운 상처</status>를 남깁니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>주문력 <attention>60</attention><br>스킬 가속 <attention>20</attention><br>기본 마나 재생 <attention>100%</attention></stats><br><li><passive>버섯 독소:</passive> 챔피언에게 마법 피해를 입히면 3초 동안 <status>25%의 고통스러운 상처</status>를 남깁니다. 다른 아군을 치유하거나 보호막을 씌워주면 자신과 대상 아군 모두 강화되어 다음번 적 챔피언에게 피해를 입힐 때 <status>40%의 고통스러운 상처</status>를 남깁니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br>",
       "gold": 2300,
-      "tooltip": "<div class='tooltip-title'>화학공학 부패기</div><mainText><stats>주문력 <attention>55</attention><br>스킬 가속 <attention>20</attention><br>기본 마나 재생 <attention>100%</attention></stats><br><li><passive>버섯 독소:</passive> 챔피언에게 마법 피해를 입히면 3초 동안 <status>40%의 고통스러운 상처</status>를 남깁니다. 다른 아군을 치유하거나 보호막을 씌워주면 자신과 대상 아군 모두 강화되어 다음번 적 챔피언에게 피해를 입힐 때 <status>60%의 고통스러운 상처</status>를 남깁니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br><div class='tooltip-gold'>2300 골드</div>"
+      "tooltip": "<div class='tooltip-title'>화학공학 부패기</div><mainText><stats>주문력 <attention>60</attention><br>스킬 가속 <attention>20</attention><br>기본 마나 재생 <attention>100%</attention></stats><br><li><passive>버섯 독소:</passive> 챔피언에게 마법 피해를 입히면 3초 동안 <status>25%의 고통스러운 상처</status>를 남깁니다. 다른 아군을 치유하거나 보호막을 씌워주면 자신과 대상 아군 모두 강화되어 다음번 적 챔피언에게 피해를 입힐 때 <status>40%의 고통스러운 상처</status>를 남깁니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br><div class='tooltip-gold'>2300 골드</div>"
     },
     "3020": {
       "name": "마법사의 신발",
@@ -890,27 +902,27 @@
     },
     "3033": {
       "name": "필멸자의 운명",
-      "desc": "<mainText><stats>공격력 <attention>25</attention><br>공격 속도 <attention>25%</attention><br>치명타 확률 <attention>20%</attention><br>이동 속도 <attention>7%</attention></stats><br><li><passive>패혈증:</passive> 적 챔피언에게 물리 피해를 입히면 3초 동안 <status>40%의 고통스러운 상처</status>를 남깁니다. 적 챔피언에게 기본 공격을 연속으로 3회 가하면 지속시간 동안 대상 챔피언이 받는 <status>고통스러운 상처 효과가 60%</status>로 증가합니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>25</attention><br>공격 속도 <attention>25%</attention><br>치명타 확률 <attention>20%</attention><br>이동 속도 <attention>7%</attention></stats><br><li><passive>패혈증:</passive> 적 챔피언에게 물리 피해를 입히면 3초 동안 <status>25%의 고통스러운 상처</status>를 남깁니다. 적 챔피언에게 기본 공격을 연속으로 2회 가하면 지속시간 동안 대상 챔피언이 받는 <status>고통스러운 상처 효과가 40%</status>로 증가합니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br>",
       "gold": 2500,
-      "tooltip": "<div class='tooltip-title'>필멸자의 운명</div><mainText><stats>공격력 <attention>25</attention><br>공격 속도 <attention>25%</attention><br>치명타 확률 <attention>20%</attention><br>이동 속도 <attention>7%</attention></stats><br><li><passive>패혈증:</passive> 적 챔피언에게 물리 피해를 입히면 3초 동안 <status>40%의 고통스러운 상처</status>를 남깁니다. 적 챔피언에게 기본 공격을 연속으로 3회 가하면 지속시간 동안 대상 챔피언이 받는 <status>고통스러운 상처 효과가 60%</status>로 증가합니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br><div class='tooltip-gold'>2500 골드</div>"
+      "tooltip": "<div class='tooltip-title'>필멸자의 운명</div><mainText><stats>공격력 <attention>25</attention><br>공격 속도 <attention>25%</attention><br>치명타 확률 <attention>20%</attention><br>이동 속도 <attention>7%</attention></stats><br><li><passive>패혈증:</passive> 적 챔피언에게 물리 피해를 입히면 3초 동안 <status>25%의 고통스러운 상처</status>를 남깁니다. 적 챔피언에게 기본 공격을 연속으로 2회 가하면 지속시간 동안 대상 챔피언이 받는 <status>고통스러운 상처 효과가 40%</status>로 증가합니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br><div class='tooltip-gold'>2500 골드</div>"
     },
     "3035": {
       "name": "최후의 속삭임",
-      "desc": "<mainText><stats>공격력 <attention>20</attention><br>방어구 관통력 <attention>20%</attention></stats></mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>20</attention><br>방어구 관통력 <attention>18%</attention></stats></mainText><br>",
       "gold": 1450,
-      "tooltip": "<div class='tooltip-title'>최후의 속삭임</div><mainText><stats>공격력 <attention>20</attention><br>방어구 관통력 <attention>20%</attention></stats></mainText><br><div class='tooltip-gold'>1450 골드</div>"
+      "tooltip": "<div class='tooltip-title'>최후의 속삭임</div><mainText><stats>공격력 <attention>20</attention><br>방어구 관통력 <attention>18%</attention></stats></mainText><br><div class='tooltip-gold'>1450 골드</div>"
     },
     "3036": {
       "name": "도미닉 경의 인사",
-      "desc": "<mainText><stats>공격력 <attention>30</attention><br>치명타 확률 <attention>20%</attention><br>방어구 관통력 <attention>35%</attention></stats><br><li><passive>거인 학살자:</passive> 자신보다 최대 체력이 높은 적 챔피언에게 최대 <physicalDamage>15%의 추가 물리 피해</physicalDamage>를 입힙니다.<br><br><rules>체력 차이가 2000 이상일 때 추가 피해량이 최대가 됩니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>30</attention><br>치명타 확률 <attention>20%</attention><br>방어구 관통력 <attention>30%</attention></stats><br><li><passive>거인 학살자:</passive> 자신보다 최대 체력이 높은 적 챔피언에게 최대 <physicalDamage>15%의 추가 물리 피해</physicalDamage>를 입힙니다.<br><br><rules>체력 차이가 2000 이상일 때 추가 피해량이 최대가 됩니다.</rules></mainText><br>",
       "gold": 3000,
-      "tooltip": "<div class='tooltip-title'>도미닉 경의 인사</div><mainText><stats>공격력 <attention>30</attention><br>치명타 확률 <attention>20%</attention><br>방어구 관통력 <attention>35%</attention></stats><br><li><passive>거인 학살자:</passive> 자신보다 최대 체력이 높은 적 챔피언에게 최대 <physicalDamage>15%의 추가 물리 피해</physicalDamage>를 입힙니다.<br><br><rules>체력 차이가 2000 이상일 때 추가 피해량이 최대가 됩니다.</rules></mainText><br><div class='tooltip-gold'>3000 골드</div>"
+      "tooltip": "<div class='tooltip-title'>도미닉 경의 인사</div><mainText><stats>공격력 <attention>30</attention><br>치명타 확률 <attention>20%</attention><br>방어구 관통력 <attention>30%</attention></stats><br><li><passive>거인 학살자:</passive> 자신보다 최대 체력이 높은 적 챔피언에게 최대 <physicalDamage>15%의 추가 물리 피해</physicalDamage>를 입힙니다.<br><br><rules>체력 차이가 2000 이상일 때 추가 피해량이 최대가 됩니다.</rules></mainText><br><div class='tooltip-gold'>3000 골드</div>"
     },
     "3040": {
       "name": "대천사의 포옹",
-      "desc": "<mainText><stats>주문력 <attention>80</attention><br>마나 <attention>860</attention><br>체력 <attention>250</attention></stats><br><li><passive>경탄:</passive> <scaleMana>추가 마나의 1.3%</scaleMana>만큼 스킬 가속을 얻습니다.<li><passive>창공:</passive> 소모한 <scaleMana>마나</scaleMana>의 35%만큼, 시전당 최대 25~50(+주문력의 10%)의 <scaleHealth>체력</scaleHealth>을 회복합니다. 활성화/비활성화가 가능한 스킬은 초당 최대 같은 양의 체력을 회복합니다. </mainText><br>",
+      "desc": "<mainText><stats>주문력 <attention>80</attention><br>마나 <attention>860</attention><br>체력 <attention>250</attention></stats><br><li><passive>경탄:</passive> <scaleMana>추가 마나의 1.3%</scaleMana>만큼 스킬 가속을 얻습니다.<li><passive>창공:</passive> 소모한 <scaleMana>마나</scaleMana>의 25%만큼, 시전당 최대 25~50(+주문력의 10%)의 <scaleHealth>체력</scaleHealth>을 회복합니다. 활성화/비활성화가 가능한 스킬은 초당 최대 같은 양의 체력을 회복합니다. </mainText><br>",
       "gold": 2600,
-      "tooltip": "<div class='tooltip-title'>대천사의 포옹</div><mainText><stats>주문력 <attention>80</attention><br>마나 <attention>860</attention><br>체력 <attention>250</attention></stats><br><li><passive>경탄:</passive> <scaleMana>추가 마나의 1.3%</scaleMana>만큼 스킬 가속을 얻습니다.<li><passive>창공:</passive> 소모한 <scaleMana>마나</scaleMana>의 35%만큼, 시전당 최대 25~50(+주문력의 10%)의 <scaleHealth>체력</scaleHealth>을 회복합니다. 활성화/비활성화가 가능한 스킬은 초당 최대 같은 양의 체력을 회복합니다. </mainText><br><div class='tooltip-gold'>2600 골드</div>"
+      "tooltip": "<div class='tooltip-title'>대천사의 포옹</div><mainText><stats>주문력 <attention>80</attention><br>마나 <attention>860</attention><br>체력 <attention>250</attention></stats><br><li><passive>경탄:</passive> <scaleMana>추가 마나의 1.3%</scaleMana>만큼 스킬 가속을 얻습니다.<li><passive>창공:</passive> 소모한 <scaleMana>마나</scaleMana>의 25%만큼, 시전당 최대 25~50(+주문력의 10%)의 <scaleHealth>체력</scaleHealth>을 회복합니다. 활성화/비활성화가 가능한 스킬은 초당 최대 같은 양의 체력을 회복합니다. </mainText><br><div class='tooltip-gold'>2600 골드</div>"
     },
     "3041": {
       "name": "메자이의 영혼약탈자",
@@ -920,15 +932,15 @@
     },
     "3042": {
       "name": "무라마나",
-      "desc": "<mainText><stats>공격력 <attention>35</attention><br>마나 <attention>860</attention><br>스킬 가속 <attention>15</attention></stats><br><li><passive>경탄:</passive> <scaleAD>공격력을 최대 마나의 2.5%</scaleAD>만큼 추가로 얻습니다. <li><passive>충격:</passive> 챔피언에게 기본 공격 시 <physicalDamage>최대 마나의 1.5%에 해당하는 물리 피해</physicalDamage>(<OnHit>적중 시</OnHit> )를 추가로 입힙니다. 스킬로 챔피언에게 피해를 입히면 <physicalDamage>최대 마나의 일부(근접 챔피언의 경우 3.5% | 원거리 챔피언의 경우 2.7%)+총 공격력의 6%에 해당하는 물리 피해</physicalDamage>를 추가로 입힙니다.</mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>35</attention><br>마나 <attention>860</attention><br>스킬 가속 <attention>15</attention></stats><br><li><passive>경탄:</passive> <scaleAD>공격력을 최대 마나의 2.5%</scaleAD>만큼 추가로 얻습니다. <li><passive>충격:</passive> 챔피언에게 기본 공격 시 <physicalDamage>최대 마나의 1.5%에 해당하는 <OnHit>적중 시</OnHit> 물리 피해</physicalDamage>를 추가로 입힙니다. 스킬로 챔피언에게 피해를 입히면 <physicalDamage>최대 마나의 일부(근접 챔피언의 경우 3.5% | 원거리 챔피언의 경우 2.7%)+총 공격력의 6%에 해당하는 물리 피해</physicalDamage>를 추가로 입힙니다.</mainText><br>",
       "gold": 3000,
-      "tooltip": "<div class='tooltip-title'>무라마나</div><mainText><stats>공격력 <attention>35</attention><br>마나 <attention>860</attention><br>스킬 가속 <attention>15</attention></stats><br><li><passive>경탄:</passive> <scaleAD>공격력을 최대 마나의 2.5%</scaleAD>만큼 추가로 얻습니다. <li><passive>충격:</passive> 챔피언에게 기본 공격 시 <physicalDamage>최대 마나의 1.5%에 해당하는 물리 피해</physicalDamage>(<OnHit>적중 시</OnHit> )를 추가로 입힙니다. 스킬로 챔피언에게 피해를 입히면 <physicalDamage>최대 마나의 일부(근접 챔피언의 경우 3.5% | 원거리 챔피언의 경우 2.7%)+총 공격력의 6%에 해당하는 물리 피해</physicalDamage>를 추가로 입힙니다.</mainText><br><div class='tooltip-gold'>3000 골드</div>"
+      "tooltip": "<div class='tooltip-title'>무라마나</div><mainText><stats>공격력 <attention>35</attention><br>마나 <attention>860</attention><br>스킬 가속 <attention>15</attention></stats><br><li><passive>경탄:</passive> <scaleAD>공격력을 최대 마나의 2.5%</scaleAD>만큼 추가로 얻습니다. <li><passive>충격:</passive> 챔피언에게 기본 공격 시 <physicalDamage>최대 마나의 1.5%에 해당하는 <OnHit>적중 시</OnHit> 물리 피해</physicalDamage>를 추가로 입힙니다. 스킬로 챔피언에게 피해를 입히면 <physicalDamage>최대 마나의 일부(근접 챔피언의 경우 3.5% | 원거리 챔피언의 경우 2.7%)+총 공격력의 6%에 해당하는 물리 피해</physicalDamage>를 추가로 입힙니다.</mainText><br><div class='tooltip-gold'>3000 골드</div>"
     },
     "3044": {
       "name": "탐식의 망치",
-      "desc": "<mainText><stats>공격력 <attention>15</attention><br>체력 <attention>200</attention></stats><br><li><passive>완강:</passive> 챔피언에게 물리 피해를 입히면 6초 동안 <healing>최대 체력의 2%</healing>만큼 회복합니다.<br><br><rules>원거리 챔피언의 경우 회복량이 50%로 감소합니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>15</attention><br>체력 <attention>200</attention></stats><br><li><passive>완강:</passive> 챔피언에게 물리 피해를 입히면 6초 동안 <healing>최대 체력의 1.6%</healing>만큼 회복합니다.<br><br><rules>원거리 챔피언의 경우 회복량이 50%로 감소합니다.</rules></mainText><br>",
       "gold": 1100,
-      "tooltip": "<div class='tooltip-title'>탐식의 망치</div><mainText><stats>공격력 <attention>15</attention><br>체력 <attention>200</attention></stats><br><li><passive>완강:</passive> 챔피언에게 물리 피해를 입히면 6초 동안 <healing>최대 체력의 2%</healing>만큼 회복합니다.<br><br><rules>원거리 챔피언의 경우 회복량이 50%로 감소합니다.</rules></mainText><br><div class='tooltip-gold'>1100 골드</div>"
+      "tooltip": "<div class='tooltip-title'>탐식의 망치</div><mainText><stats>공격력 <attention>15</attention><br>체력 <attention>200</attention></stats><br><li><passive>완강:</passive> 챔피언에게 물리 피해를 입히면 6초 동안 <healing>최대 체력의 1.6%</healing>만큼 회복합니다.<br><br><rules>원거리 챔피언의 경우 회복량이 50%로 감소합니다.</rules></mainText><br><div class='tooltip-gold'>1100 골드</div>"
     },
     "3046": {
       "name": "유령 무희",
@@ -944,9 +956,9 @@
     },
     "3050": {
       "name": "지크의 융합",
-      "desc": "<mainText><stats>체력 <attention>250</attention><br>방어력 <attention>25</attention><br>마나 <attention>250</attention><br>스킬 가속 <attention>20</attention></stats><br><br><active>사용 시 -</active> <active>전도체:</active> 한 명을 <attention>동료</attention>로 지정합니다. (재사용 대기시간 60초)<br><li><passive>융합:</passive> 적을 <status>이동 불가</status> 상태로 만들면 8초 동안 <attention>동료</attention>의 기본 공격과 스킬이 해당 적에게 <magicDamage>30~70(레벨에 비례)(+최대 체력의 1.5%)(+주문력의 7.5%)의 마법 피해</magicDamage>를 추가로 입힙니다.<br><br><rules>지크의 융합 결속은 한 번에 하나만 가능합니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>체력 <attention>250</attention><br>방어력 <attention>35</attention><br>마나 <attention>250</attention><br>스킬 가속 <attention>20</attention></stats><br><br><active>사용 시 -</active> <active>전도체:</active> 한 명을 <attention>동료</attention>로 지정합니다. (재사용 대기시간 60초)<br><li><passive>융합:</passive> 적을 <status>이동 불가</status> 상태로 만들면 8초 동안 <attention>동료</attention>의 기본 공격과 스킬이 해당 적에게 <magicDamage>30~70(레벨에 비례)(+최대 체력의 1.5%)(+주문력의 7.5%)의 마법 피해</magicDamage>를 추가로 입힙니다.<br><br><rules>지크의 융합 결속은 한 번에 하나만 가능합니다.</rules></mainText><br>",
       "gold": 2400,
-      "tooltip": "<div class='tooltip-title'>지크의 융합</div><mainText><stats>체력 <attention>250</attention><br>방어력 <attention>25</attention><br>마나 <attention>250</attention><br>스킬 가속 <attention>20</attention></stats><br><br><active>사용 시 -</active> <active>전도체:</active> 한 명을 <attention>동료</attention>로 지정합니다. (재사용 대기시간 60초)<br><li><passive>융합:</passive> 적을 <status>이동 불가</status> 상태로 만들면 8초 동안 <attention>동료</attention>의 기본 공격과 스킬이 해당 적에게 <magicDamage>30~70(레벨에 비례)(+최대 체력의 1.5%)(+주문력의 7.5%)의 마법 피해</magicDamage>를 추가로 입힙니다.<br><br><rules>지크의 융합 결속은 한 번에 하나만 가능합니다.</rules></mainText><br><div class='tooltip-gold'>2400 골드</div>"
+      "tooltip": "<div class='tooltip-title'>지크의 융합</div><mainText><stats>체력 <attention>250</attention><br>방어력 <attention>35</attention><br>마나 <attention>250</attention><br>스킬 가속 <attention>20</attention></stats><br><br><active>사용 시 -</active> <active>전도체:</active> 한 명을 <attention>동료</attention>로 지정합니다. (재사용 대기시간 60초)<br><li><passive>융합:</passive> 적을 <status>이동 불가</status> 상태로 만들면 8초 동안 <attention>동료</attention>의 기본 공격과 스킬이 해당 적에게 <magicDamage>30~70(레벨에 비례)(+최대 체력의 1.5%)(+주문력의 7.5%)의 마법 피해</magicDamage>를 추가로 입힙니다.<br><br><rules>지크의 융합 결속은 한 번에 하나만 가능합니다.</rules></mainText><br><div class='tooltip-gold'>2400 골드</div>"
     },
     "3051": {
       "name": "온기가 필요한 자의 도끼",
@@ -956,9 +968,9 @@
     },
     "3053": {
       "name": "스테락의 도전",
-      "desc": "<mainText><stats>체력 <attention>400</attention></stats><br><li><passive>잡아채는 발톱:</passive> 기본 공격력의 40%를 추가 공격력으로 얻습니다.<li><passive>생명선:</passive> 체력이 30% 밑으로 떨어질 만큼 피해를 입으면 3.75초 동안 <shield>추가 체력의 75%에 해당하는 피해를 흡수하는 보호막</shield>을 얻습니다. (60초 )</mainText><br>",
+      "desc": "<mainText><stats>체력 <attention>400</attention></stats><br><li><passive>잡아채는 발톱:</passive> 기본 공격력의 40%를 추가 공격력으로 얻습니다.<li><passive>생명선:</passive> 체력이 30% 밑으로 떨어질 만큼 피해를 입으면 3.75초 동안 <shield>추가 체력의 70%에 해당하는 피해를 흡수하는 보호막</shield>을 얻습니다. (60초 )</mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>스테락의 도전</div><mainText><stats>체력 <attention>400</attention></stats><br><li><passive>잡아채는 발톱:</passive> 기본 공격력의 40%를 추가 공격력으로 얻습니다.<li><passive>생명선:</passive> 체력이 30% 밑으로 떨어질 만큼 피해를 입으면 3.75초 동안 <shield>추가 체력의 75%에 해당하는 피해를 흡수하는 보호막</shield>을 얻습니다. (60초 )</mainText><br><div class='tooltip-gold'>3100 골드</div>"
+      "tooltip": "<div class='tooltip-title'>스테락의 도전</div><mainText><stats>체력 <attention>400</attention></stats><br><li><passive>잡아채는 발톱:</passive> 기본 공격력의 40%를 추가 공격력으로 얻습니다.<li><passive>생명선:</passive> 체력이 30% 밑으로 떨어질 만큼 피해를 입으면 3.75초 동안 <shield>추가 체력의 70%에 해당하는 피해를 흡수하는 보호막</shield>을 얻습니다. (60초 )</mainText><br><div class='tooltip-gold'>3100 골드</div>"
     },
     "3057": {
       "name": "광휘의 검",
@@ -968,9 +980,9 @@
     },
     "3065": {
       "name": "정령의 형상",
-      "desc": "<mainText><stats>체력 <attention>450</attention><br>마법 저항력 <attention>40</attention><br>스킬 가속 <attention>10</attention><br>기본 체력 재생 <attention>100%</attention></stats><br><li><passive>무한한 활력:</passive> 자신이 받는 모든 체력 회복 및 보호막 효과가 25% 증가합니다.</mainText><br>",
+      "desc": "<mainText><stats>체력 <attention>450</attention><br>마법 저항력 <attention>50</attention><br>스킬 가속 <attention>10</attention><br>기본 체력 재생 <attention>100%</attention></stats><br><li><passive>무한한 활력:</passive> 자신이 받는 모든 체력 회복 및 보호막 효과가 25% 증가합니다.</mainText><br>",
       "gold": 2900,
-      "tooltip": "<div class='tooltip-title'>정령의 형상</div><mainText><stats>체력 <attention>450</attention><br>마법 저항력 <attention>40</attention><br>스킬 가속 <attention>10</attention><br>기본 체력 재생 <attention>100%</attention></stats><br><li><passive>무한한 활력:</passive> 자신이 받는 모든 체력 회복 및 보호막 효과가 25% 증가합니다.</mainText><br><div class='tooltip-gold'>2900 골드</div>"
+      "tooltip": "<div class='tooltip-title'>정령의 형상</div><mainText><stats>체력 <attention>450</attention><br>마법 저항력 <attention>50</attention><br>스킬 가속 <attention>10</attention><br>기본 체력 재생 <attention>100%</attention></stats><br><li><passive>무한한 활력:</passive> 자신이 받는 모든 체력 회복 및 보호막 효과가 25% 증가합니다.</mainText><br><div class='tooltip-gold'>2900 골드</div>"
     },
     "3066": {
       "name": "비상의 월갑",
@@ -986,9 +998,9 @@
     },
     "3068": {
       "name": "태양불꽃 방패",
-      "desc": "<mainText><stats>체력 <attention>350</attention><br>방어력 <attention>35</attention><br>마법 저항력 <attention>35</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>불사르기:</passive> 피해를 받거나 입히면 주변 적들에게 3초 동안 초당 <magicDamage>12~30(레벨에 비례)+추가 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. (미니언 대상 25%, 몬스터 대상 150% 증가) 챔피언이나 에픽 몬스터에게 이 효과로 피해를 입히면 중첩이 1회 쌓여 다음 <passive>불사르기</passive> 피해량이 5초 동안 12% 증가합니다. (최대 6회 중첩)<li><passive>불의 손길:</passive> <passive>불사르기</passive> 중첩이 최대가 되면 기본 공격 시 주변 적들을 불태워 3초 동안 <passive>불사르기</passive> 피해를 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 강인함 및 둔화 저항 <attention>5%</attention> 및 체력 <attention>50</attention></mainText><br>",
+      "desc": "<mainText><stats>체력 <attention>450</attention><br>방어력 <attention>35</attention><br>마법 저항력 <attention>35</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>불사르기:</passive> 피해를 받거나 입히면 주변 적들에게 3초 동안 초당 <magicDamage>12~30(레벨에 비례)+추가 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. (미니언 대상 25%, 몬스터 대상 150% 증가) 챔피언이나 에픽 몬스터에게 이 효과로 피해를 입히면 중첩이 1회 쌓여 다음 <passive>불사르기</passive> 피해량이 5초 동안 10% 증가합니다. (최대 6회 중첩)<li><passive>불의 손길:</passive> <passive>불사르기</passive> 중첩이 최대가 되면 기본 공격 시 주변 적들을 불태워 3초 동안 <passive>불사르기</passive> 피해를 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 강인함 및 둔화 저항 <attention>5%</attention> 및 체력 <attention>50</attention></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>태양불꽃 방패</div><mainText><stats>체력 <attention>350</attention><br>방어력 <attention>35</attention><br>마법 저항력 <attention>35</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>불사르기:</passive> 피해를 받거나 입히면 주변 적들에게 3초 동안 초당 <magicDamage>12~30(레벨에 비례)+추가 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. (미니언 대상 25%, 몬스터 대상 150% 증가) 챔피언이나 에픽 몬스터에게 이 효과로 피해를 입히면 중첩이 1회 쌓여 다음 <passive>불사르기</passive> 피해량이 5초 동안 12% 증가합니다. (최대 6회 중첩)<li><passive>불의 손길:</passive> <passive>불사르기</passive> 중첩이 최대가 되면 기본 공격 시 주변 적들을 불태워 3초 동안 <passive>불사르기</passive> 피해를 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 강인함 및 둔화 저항 <attention>5%</attention> 및 체력 <attention>50</attention></mainText><br><div class='tooltip-gold'>3200 골드</div>"
+      "tooltip": "<div class='tooltip-title'>태양불꽃 방패</div><mainText><stats>체력 <attention>450</attention><br>방어력 <attention>35</attention><br>마법 저항력 <attention>35</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>불사르기:</passive> 피해를 받거나 입히면 주변 적들에게 3초 동안 초당 <magicDamage>12~30(레벨에 비례)+추가 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. (미니언 대상 25%, 몬스터 대상 150% 증가) 챔피언이나 에픽 몬스터에게 이 효과로 피해를 입히면 중첩이 1회 쌓여 다음 <passive>불사르기</passive> 피해량이 5초 동안 10% 증가합니다. (최대 6회 중첩)<li><passive>불의 손길:</passive> <passive>불사르기</passive> 중첩이 최대가 되면 기본 공격 시 주변 적들을 불태워 3초 동안 <passive>불사르기</passive> 피해를 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 강인함 및 둔화 저항 <attention>5%</attention> 및 체력 <attention>50</attention></mainText><br><div class='tooltip-gold'>3200 골드</div>"
     },
     "3070": {
       "name": "여신의 눈물",
@@ -1004,9 +1016,9 @@
     },
     "3072": {
       "name": "피바라기",
-      "desc": "<mainText><stats>공격력 <attention>55</attention><br>치명타 확률 <attention>20%</attention><br>생명력 흡수 <attention>20%</attention></stats><br><li><passive>영액의 보호막:</passive> 기본 공격으로 최대 체력 이상 생명력 흡수가 가능합니다. 체력 회복 초과분은 <shield>50~350(레벨에 비례)의 피해를 흡수하는 보호막</shield>으로 전환되며 25초간 피해를 주거나 입지 않으면 서서히 사라집니다.</mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>55</attention><br>치명타 확률 <attention>20%</attention><br>생명력 흡수 <attention>18%</attention></stats><br><li><passive>영액의 보호막:</passive> 기본 공격으로 최대 체력 이상 생명력 흡수가 가능합니다. 체력 회복 초과분은 <shield>50~320(레벨에 비례)의 피해를 흡수하는 보호막</shield>으로 전환되며 25초간 피해를 주거나 입지 않으면 서서히 사라집니다.</mainText><br>",
       "gold": 3400,
-      "tooltip": "<div class='tooltip-title'>피바라기</div><mainText><stats>공격력 <attention>55</attention><br>치명타 확률 <attention>20%</attention><br>생명력 흡수 <attention>20%</attention></stats><br><li><passive>영액의 보호막:</passive> 기본 공격으로 최대 체력 이상 생명력 흡수가 가능합니다. 체력 회복 초과분은 <shield>50~350(레벨에 비례)의 피해를 흡수하는 보호막</shield>으로 전환되며 25초간 피해를 주거나 입지 않으면 서서히 사라집니다.</mainText><br><div class='tooltip-gold'>3400 골드</div>"
+      "tooltip": "<div class='tooltip-title'>피바라기</div><mainText><stats>공격력 <attention>55</attention><br>치명타 확률 <attention>20%</attention><br>생명력 흡수 <attention>18%</attention></stats><br><li><passive>영액의 보호막:</passive> 기본 공격으로 최대 체력 이상 생명력 흡수가 가능합니다. 체력 회복 초과분은 <shield>50~320(레벨에 비례)의 피해를 흡수하는 보호막</shield>으로 전환되며 25초간 피해를 주거나 입지 않으면 서서히 사라집니다.</mainText><br><div class='tooltip-gold'>3400 골드</div>"
     },
     "3074": {
       "name": "굶주린 히드라",
@@ -1016,15 +1028,15 @@
     },
     "3075": {
       "name": "가시 갑옷",
-      "desc": "<mainText><stats>체력 <attention>350</attention><br>방어력 <attention>60</attention></stats><br><li><passive>가시:</passive> 기본 공격에 맞으면 공격한 적에게 <magicDamage>10+추가 방어력의 10%에 해당하는 마법 피해</magicDamage>를 입히고, 대상이 챔피언일 경우 3초 동안 40%의 <status>고통스러운 상처</status>를 남깁니다. 적 챔피언을 이동 불가 상태로 만들면 3초 동안 60%의 <status>고통스러운 상처</status>를 남깁니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>체력 <attention>350</attention><br>방어력 <attention>60</attention></stats><br><li><passive>가시:</passive> 기본 공격에 맞으면 공격한 적에게 <magicDamage>10+추가 방어력의 20%에 해당하는 마법 피해</magicDamage>를 입히고, 대상이 챔피언일 경우 3초 동안 25%의 <status>고통스러운 상처</status>를 남깁니다. 적 챔피언을 이동 불가 상태로 만들면 3초 동안 40%의 <status>고통스러운 상처</status>를 남깁니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br>",
       "gold": 2700,
-      "tooltip": "<div class='tooltip-title'>가시 갑옷</div><mainText><stats>체력 <attention>350</attention><br>방어력 <attention>60</attention></stats><br><li><passive>가시:</passive> 기본 공격에 맞으면 공격한 적에게 <magicDamage>10+추가 방어력의 10%에 해당하는 마법 피해</magicDamage>를 입히고, 대상이 챔피언일 경우 3초 동안 40%의 <status>고통스러운 상처</status>를 남깁니다. 적 챔피언을 이동 불가 상태로 만들면 3초 동안 60%의 <status>고통스러운 상처</status>를 남깁니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br><div class='tooltip-gold'>2700 골드</div>"
+      "tooltip": "<div class='tooltip-title'>가시 갑옷</div><mainText><stats>체력 <attention>350</attention><br>방어력 <attention>60</attention></stats><br><li><passive>가시:</passive> 기본 공격에 맞으면 공격한 적에게 <magicDamage>10+추가 방어력의 20%에 해당하는 마법 피해</magicDamage>를 입히고, 대상이 챔피언일 경우 3초 동안 25%의 <status>고통스러운 상처</status>를 남깁니다. 적 챔피언을 이동 불가 상태로 만들면 3초 동안 40%의 <status>고통스러운 상처</status>를 남깁니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br><div class='tooltip-gold'>2700 골드</div>"
     },
     "3076": {
       "name": "덤불 조끼",
-      "desc": "<mainText><stats>방어력 <attention>30</attention></stats><br><li><passive>가시:</passive> 기본 공격에 맞으면 공격한 적에게 <magicDamage>3의 마법 피해</magicDamage>를 입히고, 대상이 챔피언일 경우 3초 동안 <status>40%의 고통스러운 상처</status>를 남깁니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>방어력 <attention>30</attention></stats><br><li><passive>가시:</passive> 기본 공격에 맞으면 공격한 적에게 <magicDamage>4의 마법 피해</magicDamage>를 입히고, 대상이 챔피언일 경우 3초 동안 <status>25%의 고통스러운 상처</status>를 남깁니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br>",
       "gold": 800,
-      "tooltip": "<div class='tooltip-title'>덤불 조끼</div><mainText><stats>방어력 <attention>30</attention></stats><br><li><passive>가시:</passive> 기본 공격에 맞으면 공격한 적에게 <magicDamage>3의 마법 피해</magicDamage>를 입히고, 대상이 챔피언일 경우 3초 동안 <status>40%의 고통스러운 상처</status>를 남깁니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br><div class='tooltip-gold'>800 골드</div>"
+      "tooltip": "<div class='tooltip-title'>덤불 조끼</div><mainText><stats>방어력 <attention>30</attention></stats><br><li><passive>가시:</passive> 기본 공격에 맞으면 공격한 적에게 <magicDamage>4의 마법 피해</magicDamage>를 입히고, 대상이 챔피언일 경우 3초 동안 <status>25%의 고통스러운 상처</status>를 남깁니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br><div class='tooltip-gold'>800 골드</div>"
     },
     "3077": {
       "name": "티아맷",
@@ -1106,9 +1118,9 @@
     },
     "3107": {
       "name": "구원",
-      "desc": "<mainText><stats>체력 회복 및 보호막 <attention>20%</attention><br>체력 <attention>200</attention><br>스킬 가속 <attention>15</attention><br>기본 마나 재생 <attention>100%</attention></stats><br><br><active>사용 시 -</active> <active>중재:</active> 5500 거리 안의 위치를 지정합니다. 2.5초 후 빛을 한 줄기 불러와 아군의 <healing>체력을 200~400(아군 레벨에 비례)</healing>만큼 회복시키고 적 챔피언에게 <trueDamage>최대 체력의 10%에 해당하는 고정 피해</trueDamage>를 입힙니다. (재사용 대기시간 90초)<br><br><rules>죽은 상태로도 사용할 수 있습니다. 대상이 최근 다른 챔피언의 <active>중재</active> 효과를 받은 경우 효과가 50% 감소합니다. 레벨 비례 효과는 아군의 레벨에 따라 상승합니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>체력 회복 및 보호막 <attention>20%</attention><br>체력 <attention>200</attention><br>스킬 가속 <attention>15</attention><br>기본 마나 재생 <attention>100%</attention></stats><br><br><active>사용 시 -</active> <active>중재:</active> 5500 거리 안의 위치를 지정합니다. 2.5초 후 빛을 한 줄기 불러와 아군의 <healing>체력을 180~340(아군 레벨에 비례)</healing>만큼 회복시키고 적 챔피언에게 <trueDamage>최대 체력의 10%에 해당하는 고정 피해</trueDamage>를 입힙니다. (재사용 대기시간 90초)<br><br><rules>죽은 상태로도 사용할 수 있습니다. 대상이 최근 다른 챔피언의 <active>중재</active> 효과를 받은 경우 효과가 50% 감소합니다. 레벨 비례 효과는 아군의 레벨에 따라 상승합니다.</rules></mainText><br>",
       "gold": 2300,
-      "tooltip": "<div class='tooltip-title'>구원</div><mainText><stats>체력 회복 및 보호막 <attention>20%</attention><br>체력 <attention>200</attention><br>스킬 가속 <attention>15</attention><br>기본 마나 재생 <attention>100%</attention></stats><br><br><active>사용 시 -</active> <active>중재:</active> 5500 거리 안의 위치를 지정합니다. 2.5초 후 빛을 한 줄기 불러와 아군의 <healing>체력을 200~400(아군 레벨에 비례)</healing>만큼 회복시키고 적 챔피언에게 <trueDamage>최대 체력의 10%에 해당하는 고정 피해</trueDamage>를 입힙니다. (재사용 대기시간 90초)<br><br><rules>죽은 상태로도 사용할 수 있습니다. 대상이 최근 다른 챔피언의 <active>중재</active> 효과를 받은 경우 효과가 50% 감소합니다. 레벨 비례 효과는 아군의 레벨에 따라 상승합니다.</rules></mainText><br><div class='tooltip-gold'>2300 골드</div>"
+      "tooltip": "<div class='tooltip-title'>구원</div><mainText><stats>체력 회복 및 보호막 <attention>20%</attention><br>체력 <attention>200</attention><br>스킬 가속 <attention>15</attention><br>기본 마나 재생 <attention>100%</attention></stats><br><br><active>사용 시 -</active> <active>중재:</active> 5500 거리 안의 위치를 지정합니다. 2.5초 후 빛을 한 줄기 불러와 아군의 <healing>체력을 180~340(아군 레벨에 비례)</healing>만큼 회복시키고 적 챔피언에게 <trueDamage>최대 체력의 10%에 해당하는 고정 피해</trueDamage>를 입힙니다. (재사용 대기시간 90초)<br><br><rules>죽은 상태로도 사용할 수 있습니다. 대상이 최근 다른 챔피언의 <active>중재</active> 효과를 받은 경우 효과가 50% 감소합니다. 레벨 비례 효과는 아군의 레벨에 따라 상승합니다.</rules></mainText><br><div class='tooltip-gold'>2300 골드</div>"
     },
     "3108": {
       "name": "악마의 마법서",
@@ -1118,9 +1130,9 @@
     },
     "3109": {
       "name": "기사의 맹세",
-      "desc": "<mainText><stats>체력 <attention>400</attention><br>스킬 가속 <attention>10</attention><br>기본 체력 재생 <attention>200%</attention></stats><br><br><active>사용 시 -</active> <active>맹세:</active> <attention>보호</attention>할 아군을 대상으로 지정합니다. (재사용 대기시간 60초)<br><li><passive>희생:</passive> <attention>보호</attention> 중인 아군이 근처에 있으면 아군이 입는 피해량의 10%를 대신 입고 <attention>보호</attention> 중인 아군이 챔피언에게 가하는 피해량의 8%만큼 체력을 회복합니다. 해당 아군의 체력이 30% 아래라면 피해량 감소 효과가 <attention>20%</attention>로 증가합니다.<br><br><rules>한 번에 한 명의 챔피언만 기사의 맹세로 연결될 수 있습니다. 자신의 체력이 30% 아래로 떨어지면 피해를 대신 입지 않습니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>체력 <attention>400</attention><br>스킬 가속 <attention>20</attention><br>기본 체력 재생 <attention>200%</attention></stats><br><br><active>사용 시 -</active> <active>맹세:</active> <attention>보호</attention>할 아군을 대상으로 지정합니다. (재사용 대기시간 60초)<br><li><passive>희생:</passive> <attention>보호</attention> 중인 아군이 근처에 있으면 아군이 입는 피해량의 10%를 대신 입고 <attention>보호</attention> 중인 아군이 챔피언에게 가하는 피해량의 7%만큼 체력을 회복합니다. 해당 아군의 체력이 30% 아래라면 피해량 감소 효과가 <attention>20%</attention>로 증가합니다.<br><br><rules>한 번에 한 명의 챔피언만 기사의 맹세로 연결될 수 있습니다. 자신의 체력이 30% 아래로 떨어지면 피해를 대신 입지 않습니다.</rules></mainText><br>",
       "gold": 2300,
-      "tooltip": "<div class='tooltip-title'>기사의 맹세</div><mainText><stats>체력 <attention>400</attention><br>스킬 가속 <attention>10</attention><br>기본 체력 재생 <attention>200%</attention></stats><br><br><active>사용 시 -</active> <active>맹세:</active> <attention>보호</attention>할 아군을 대상으로 지정합니다. (재사용 대기시간 60초)<br><li><passive>희생:</passive> <attention>보호</attention> 중인 아군이 근처에 있으면 아군이 입는 피해량의 10%를 대신 입고 <attention>보호</attention> 중인 아군이 챔피언에게 가하는 피해량의 8%만큼 체력을 회복합니다. 해당 아군의 체력이 30% 아래라면 피해량 감소 효과가 <attention>20%</attention>로 증가합니다.<br><br><rules>한 번에 한 명의 챔피언만 기사의 맹세로 연결될 수 있습니다. 자신의 체력이 30% 아래로 떨어지면 피해를 대신 입지 않습니다.</rules></mainText><br><div class='tooltip-gold'>2300 골드</div>"
+      "tooltip": "<div class='tooltip-title'>기사의 맹세</div><mainText><stats>체력 <attention>400</attention><br>스킬 가속 <attention>20</attention><br>기본 체력 재생 <attention>200%</attention></stats><br><br><active>사용 시 -</active> <active>맹세:</active> <attention>보호</attention>할 아군을 대상으로 지정합니다. (재사용 대기시간 60초)<br><li><passive>희생:</passive> <attention>보호</attention> 중인 아군이 근처에 있으면 아군이 입는 피해량의 10%를 대신 입고 <attention>보호</attention> 중인 아군이 챔피언에게 가하는 피해량의 7%만큼 체력을 회복합니다. 해당 아군의 체력이 30% 아래라면 피해량 감소 효과가 <attention>20%</attention>로 증가합니다.<br><br><rules>한 번에 한 명의 챔피언만 기사의 맹세로 연결될 수 있습니다. 자신의 체력이 30% 아래로 떨어지면 피해를 대신 입지 않습니다.</rules></mainText><br><div class='tooltip-gold'>2300 골드</div>"
     },
     "3110": {
       "name": "얼어붙은 심장",
@@ -1178,15 +1190,15 @@
     },
     "3121": {
       "name": "종말의 겨울",
-      "desc": "<mainText><stats>체력 <attention>350</attention><br>마나 <attention>860</attention><br>스킬 가속 <attention>15</attention></stats><li><passive>경탄:</passive> <scaleHealth>총 마나의 8%만큼 체력</scaleHealth>을 추가로 얻습니다.<li><passive>불변:</passive> 적 챔피언을 <status>이동 불가</status> 또는 <status>둔화</status> (근접 챔피언 전용) 상태로 만들면 <scaleMana>현재 마나의 3%</scaleMana>를 소모해 3초 동안 <scaleMana>100~200+현재 마나의 5%</scaleMana>의 피해를 흡수하는 보호막을 얻습니다. (8초) 근처에 적이 둘 이상 있으면 보호막의 피해 흡수량이 <attention>80%</attention> 증가합니다.<br><br><rules>이 효과는 마나가 20%보다 많을 때만 활성화됩니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>체력 <attention>350</attention><br>마나 <attention>860</attention><br>스킬 가속 <attention>15</attention></stats><li><passive>경탄:</passive> <scaleHealth>총 마나의 8%만큼 체력</scaleHealth>을 추가로 얻습니다.<li><passive>불변:</passive> 적 챔피언을 <status>이동 불가</status> 또는 <status>둔화</status> (근접 챔피언 전용) 상태로 만들면 <scaleMana>현재 마나의 3%</scaleMana>를 소모해 3초 동안 <scaleMana>100~180+현재 마나의 4.5%</scaleMana>의 피해를 흡수하는 보호막을 얻습니다. (8초) 근처에 적이 둘 이상 있으면 보호막의 피해 흡수량이 <attention>80%</attention> 증가합니다.<br><br><rules>이 효과는 마나가 20%보다 많을 때만 활성화됩니다.</rules></mainText><br>",
       "gold": 2700,
-      "tooltip": "<div class='tooltip-title'>종말의 겨울</div><mainText><stats>체력 <attention>350</attention><br>마나 <attention>860</attention><br>스킬 가속 <attention>15</attention></stats><li><passive>경탄:</passive> <scaleHealth>총 마나의 8%만큼 체력</scaleHealth>을 추가로 얻습니다.<li><passive>불변:</passive> 적 챔피언을 <status>이동 불가</status> 또는 <status>둔화</status> (근접 챔피언 전용) 상태로 만들면 <scaleMana>현재 마나의 3%</scaleMana>를 소모해 3초 동안 <scaleMana>100~200+현재 마나의 5%</scaleMana>의 피해를 흡수하는 보호막을 얻습니다. (8초) 근처에 적이 둘 이상 있으면 보호막의 피해 흡수량이 <attention>80%</attention> 증가합니다.<br><br><rules>이 효과는 마나가 20%보다 많을 때만 활성화됩니다.</rules></mainText><br><div class='tooltip-gold'>2700 골드</div>"
+      "tooltip": "<div class='tooltip-title'>종말의 겨울</div><mainText><stats>체력 <attention>350</attention><br>마나 <attention>860</attention><br>스킬 가속 <attention>15</attention></stats><li><passive>경탄:</passive> <scaleHealth>총 마나의 8%만큼 체력</scaleHealth>을 추가로 얻습니다.<li><passive>불변:</passive> 적 챔피언을 <status>이동 불가</status> 또는 <status>둔화</status> (근접 챔피언 전용) 상태로 만들면 <scaleMana>현재 마나의 3%</scaleMana>를 소모해 3초 동안 <scaleMana>100~180+현재 마나의 4.5%</scaleMana>의 피해를 흡수하는 보호막을 얻습니다. (8초) 근처에 적이 둘 이상 있으면 보호막의 피해 흡수량이 <attention>80%</attention> 증가합니다.<br><br><rules>이 효과는 마나가 20%보다 많을 때만 활성화됩니다.</rules></mainText><br><div class='tooltip-gold'>2700 골드</div>"
     },
     "3123": {
       "name": "처형인의 대검",
-      "desc": "<mainText><stats>공격력 <attention>15</attention></stats><br><li><passive>뽑아 찢기:</passive> 챔피언에게 물리 피해를 입히면 3초 동안 <status>40%의 고통스러운 상처</status>를 남깁니다. <br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>20</attention></stats><br><li><passive>뽑아 찢기:</passive> 챔피언에게 물리 피해를 입히면 3초 동안 <status>25%의 고통스러운 상처</status>를 남깁니다. <br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br>",
       "gold": 800,
-      "tooltip": "<div class='tooltip-title'>처형인의 대검</div><mainText><stats>공격력 <attention>15</attention></stats><br><li><passive>뽑아 찢기:</passive> 챔피언에게 물리 피해를 입히면 3초 동안 <status>40%의 고통스러운 상처</status>를 남깁니다. <br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br><div class='tooltip-gold'>800 골드</div>"
+      "tooltip": "<div class='tooltip-title'>처형인의 대검</div><mainText><stats>공격력 <attention>20</attention></stats><br><li><passive>뽑아 찢기:</passive> 챔피언에게 물리 피해를 입히면 3초 동안 <status>25%의 고통스러운 상처</status>를 남깁니다. <br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br><div class='tooltip-gold'>800 골드</div>"
     },
     "3124": {
       "name": "구인수의 격노검",
@@ -1208,9 +1220,9 @@
     },
     "3135": {
       "name": "공허의 지팡이",
-      "desc": "<mainText><stats>주문력 <attention>65</attention><br>마법 관통력 <attention>45%</attention></stats></mainText><br>",
+      "desc": "<mainText><stats>주문력 <attention>65</attention><br>마법 관통력 <attention>40%</attention></stats></mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>공허의 지팡이</div><mainText><stats>주문력 <attention>65</attention><br>마법 관통력 <attention>45%</attention></stats></mainText><br><div class='tooltip-gold'>2800 골드</div>"
+      "tooltip": "<div class='tooltip-title'>공허의 지팡이</div><mainText><stats>주문력 <attention>65</attention><br>마법 관통력 <attention>40%</attention></stats></mainText><br><div class='tooltip-gold'>2800 골드</div>"
     },
     "3139": {
       "name": "헤르메스의 시미터",
@@ -1232,9 +1244,9 @@
     },
     "3143": {
       "name": "란두인의 예언",
-      "desc": "<mainText><stats>체력 <attention>250</attention><br>방어력 <attention>80</attention><br>스킬 가속 <attention>10</attention></stats><br><br><active>사용 시 -</active> <active>억제:</active> 근처 적들을 잠깐 <status>둔화</status>하고 4초 동안 <scaleAD>공격력</scaleAD>을 10%, 치명타 피해량을 20% 감소시킵니다. (재사용 대기시간 60초)<br><li><passive>견고:</passive> 기본 공격으로 받는 피해량이 5+(최대 체력의 0.35%)까지 감소합니다. 이 수치는 피해량의 40%를 넘을 수 없습니다.</mainText><br>",
+      "desc": "<mainText><stats>체력 <attention>250</attention><br>방어력 <attention>90</attention><br>스킬 가속 <attention>10</attention></stats><br><br><active>사용 시 -</active> <active>억제:</active> 근처 적들을 잠깐 <status>둔화</status>하고 4초 동안 <scaleAD>공격력</scaleAD>을 10%, 치명타 피해량을 20% 감소시킵니다. (재사용 대기시간 60초)<br><li><passive>견고:</passive> 기본 공격으로 받는 피해량이 5+(최대 체력의 0.35%)까지 감소합니다. 이 수치는 피해량의 40%를 넘을 수 없습니다.</mainText><br>",
       "gold": 2700,
-      "tooltip": "<div class='tooltip-title'>란두인의 예언</div><mainText><stats>체력 <attention>250</attention><br>방어력 <attention>80</attention><br>스킬 가속 <attention>10</attention></stats><br><br><active>사용 시 -</active> <active>억제:</active> 근처 적들을 잠깐 <status>둔화</status>하고 4초 동안 <scaleAD>공격력</scaleAD>을 10%, 치명타 피해량을 20% 감소시킵니다. (재사용 대기시간 60초)<br><li><passive>견고:</passive> 기본 공격으로 받는 피해량이 5+(최대 체력의 0.35%)까지 감소합니다. 이 수치는 피해량의 40%를 넘을 수 없습니다.</mainText><br><div class='tooltip-gold'>2700 골드</div>"
+      "tooltip": "<div class='tooltip-title'>란두인의 예언</div><mainText><stats>체력 <attention>250</attention><br>방어력 <attention>90</attention><br>스킬 가속 <attention>10</attention></stats><br><br><active>사용 시 -</active> <active>억제:</active> 근처 적들을 잠깐 <status>둔화</status>하고 4초 동안 <scaleAD>공격력</scaleAD>을 10%, 치명타 피해량을 20% 감소시킵니다. (재사용 대기시간 60초)<br><li><passive>견고:</passive> 기본 공격으로 받는 피해량이 5+(최대 체력의 0.35%)까지 감소합니다. 이 수치는 피해량의 40%를 넘을 수 없습니다.</mainText><br><div class='tooltip-gold'>2700 골드</div>"
     },
     "3145": {
       "name": "마법공학 교류 발전기",
@@ -1244,9 +1256,9 @@
     },
     "3152": {
       "name": "마법공학 로켓 벨트",
-      "desc": "<mainText><stats>주문력 <attention>90</attention><br>마법 관통력 <attention>6</attention><br>체력 <attention>250</attention><br>스킬 가속 <attention>15</attention></stats><br><br><active>사용 시 -</active> <active>초음속:</active> 지정 방향으로 돌진하며 부채꼴 모양으로 <magicDamage>125+주문력의 15%에 해당하는 마법 피해</magicDamage>를 입히는 마법 탄환을 발사합니다. 그리고 1.5초 동안 적 챔피언 방향으로 이동할 때 <speed>이동 속도가 30%</speed> 상승합니다. (재사용 대기시간 40초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 마법 관통력 <attention>5</attention><br><br><rules>초음속 돌진으로 지형은 통과할 수 없습니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>주문력 <attention>90</attention><br>마법 관통력 <attention>10</attention><br>체력 <attention>250</attention><br>스킬 가속 <attention>15</attention></stats><br><br><active>사용 시 -</active> <active>초음속:</active> 지정 방향으로 돌진하며 부채꼴 모양으로 <magicDamage>125+주문력의 15%에 해당하는 마법 피해</magicDamage>를 입히는 마법 탄환을 발사합니다. 그리고 1.5초 동안 적 챔피언 방향으로 이동할 때 <speed>이동 속도가 30%</speed> 상승합니다. (재사용 대기시간 40초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 마법 관통력 <attention>5</attention><br><br><rules>초음속 돌진으로 지형은 통과할 수 없습니다.</rules></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>마법공학 로켓 벨트</div><mainText><stats>주문력 <attention>90</attention><br>마법 관통력 <attention>6</attention><br>체력 <attention>250</attention><br>스킬 가속 <attention>15</attention></stats><br><br><active>사용 시 -</active> <active>초음속:</active> 지정 방향으로 돌진하며 부채꼴 모양으로 <magicDamage>125+주문력의 15%에 해당하는 마법 피해</magicDamage>를 입히는 마법 탄환을 발사합니다. 그리고 1.5초 동안 적 챔피언 방향으로 이동할 때 <speed>이동 속도가 30%</speed> 상승합니다. (재사용 대기시간 40초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 마법 관통력 <attention>5</attention><br><br><rules>초음속 돌진으로 지형은 통과할 수 없습니다.</rules></mainText><br><div class='tooltip-gold'>3200 골드</div>"
+      "tooltip": "<div class='tooltip-title'>마법공학 로켓 벨트</div><mainText><stats>주문력 <attention>90</attention><br>마법 관통력 <attention>10</attention><br>체력 <attention>250</attention><br>스킬 가속 <attention>15</attention></stats><br><br><active>사용 시 -</active> <active>초음속:</active> 지정 방향으로 돌진하며 부채꼴 모양으로 <magicDamage>125+주문력의 15%에 해당하는 마법 피해</magicDamage>를 입히는 마법 탄환을 발사합니다. 그리고 1.5초 동안 적 챔피언 방향으로 이동할 때 <speed>이동 속도가 30%</speed> 상승합니다. (재사용 대기시간 40초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 마법 관통력 <attention>5</attention><br><br><rules>초음속 돌진으로 지형은 통과할 수 없습니다.</rules></mainText><br><div class='tooltip-gold'>3200 골드</div>"
     },
     "3153": {
       "name": "몰락한 왕의 검",
@@ -1262,9 +1274,9 @@
     },
     "3156": {
       "name": "맬모셔스의 아귀",
-      "desc": "<mainText><stats>공격력 <attention>55</attention><br>마법 저항력 <attention>50</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>생명선:</passive> 마법 피해를 받아 체력이 30% 아래가 될 경우 5초 동안 <shield>200+추가 공격력의 225%에 해당하는 마법 피해를 흡수하는 보호막(원거리 챔피언은 보호막 흡수량이 75%로 감소)</shield>을 얻습니다. (재사용 대기시간 60초) <passive>생명선</passive> 효과가 발동하면 전투가 끝날 때까지 <lifeSteal>모든 피해 흡혈 12%</lifeSteal>를 얻습니다.  </mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>55</attention><br>마법 저항력 <attention>50</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>생명선:</passive> 마법 피해를 받아 체력이 30% 아래가 될 경우 5초 동안 <shield>200+추가 공격력의 225%에 해당하는 마법 피해를 흡수하는 보호막(원거리 챔피언은 보호막 흡수량이 75%로 감소)</shield>을 얻습니다. (재사용 대기시간 75초) <passive>생명선</passive> 효과가 발동하면 전투가 끝날 때까지 <lifeSteal>모든 피해 흡혈 10%</lifeSteal>를 얻습니다.  </mainText><br>",
       "gold": 2900,
-      "tooltip": "<div class='tooltip-title'>맬모셔스의 아귀</div><mainText><stats>공격력 <attention>55</attention><br>마법 저항력 <attention>50</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>생명선:</passive> 마법 피해를 받아 체력이 30% 아래가 될 경우 5초 동안 <shield>200+추가 공격력의 225%에 해당하는 마법 피해를 흡수하는 보호막(원거리 챔피언은 보호막 흡수량이 75%로 감소)</shield>을 얻습니다. (재사용 대기시간 60초) <passive>생명선</passive> 효과가 발동하면 전투가 끝날 때까지 <lifeSteal>모든 피해 흡혈 12%</lifeSteal>를 얻습니다.  </mainText><br><div class='tooltip-gold'>2900 골드</div>"
+      "tooltip": "<div class='tooltip-title'>맬모셔스의 아귀</div><mainText><stats>공격력 <attention>55</attention><br>마법 저항력 <attention>50</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>생명선:</passive> 마법 피해를 받아 체력이 30% 아래가 될 경우 5초 동안 <shield>200+추가 공격력의 225%에 해당하는 마법 피해를 흡수하는 보호막(원거리 챔피언은 보호막 흡수량이 75%로 감소)</shield>을 얻습니다. (재사용 대기시간 75초) <passive>생명선</passive> 효과가 발동하면 전투가 끝날 때까지 <lifeSteal>모든 피해 흡혈 10%</lifeSteal>를 얻습니다.  </mainText><br><div class='tooltip-gold'>2900 골드</div>"
     },
     "3157": {
       "name": "존야의 모래시계",
@@ -1280,9 +1292,9 @@
     },
     "3165": {
       "name": "모렐로노미콘",
-      "desc": "<mainText><stats>주문력 <attention>80</attention><br>체력 <attention>250</attention></stats><br><li><passive>괴로움:</passive> 적 챔피언에게 마법 피해를 입히면 3초 동안 <status>40%의 고통스러운 상처</status> 를 남깁니다. 대상의 체력이 50% 이하라면 <status>고통스러운 상처의 효과가 60%</status>로 증가합니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>주문력 <attention>90</attention><br>체력 <attention>300</attention></stats><br><li><passive>괴로움:</passive> 적 챔피언에게 마법 피해를 입히면 3초 동안 <status>25%의 고통스러운 상처</status> 를 남깁니다. 대상의 체력이 50% 이하라면 <status>고통스러운 상처의 효과가 40%</status>로 증가합니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br>",
       "gold": 2500,
-      "tooltip": "<div class='tooltip-title'>모렐로노미콘</div><mainText><stats>주문력 <attention>80</attention><br>체력 <attention>250</attention></stats><br><li><passive>괴로움:</passive> 적 챔피언에게 마법 피해를 입히면 3초 동안 <status>40%의 고통스러운 상처</status> 를 남깁니다. 대상의 체력이 50% 이하라면 <status>고통스러운 상처의 효과가 60%</status>로 증가합니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br><div class='tooltip-gold'>2500 골드</div>"
+      "tooltip": "<div class='tooltip-title'>모렐로노미콘</div><mainText><stats>주문력 <attention>90</attention><br>체력 <attention>300</attention></stats><br><li><passive>괴로움:</passive> 적 챔피언에게 마법 피해를 입히면 3초 동안 <status>25%의 고통스러운 상처</status> 를 남깁니다. 대상의 체력이 50% 이하라면 <status>고통스러운 상처의 효과가 40%</status>로 증가합니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br><div class='tooltip-gold'>2500 골드</div>"
     },
     "3177": {
       "name": "수호자의 검",
@@ -1292,15 +1304,15 @@
     },
     "3179": {
       "name": "그림자 검",
-      "desc": "<mainText><stats>공격력 <attention>50</attention><br>물리 관통력 <attention>10</attention><br>스킬 가속 <attention>15</attention></stats><br><li><passive>암전:</passive> 적 와드에 발각되면 8초간 암전을 일으켜 근처의 투명한 덫과 와드를 드러내고, 추가로 와드를 무력화시킵니다. (재사용 대기시간 35초) 모습이 드러난 덫은 기본 공격 시 즉시 파괴되며 와드는 세 배의 피해를 입습니다.</mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>50</attention><br>물리 관통력 <attention>10</attention><br>스킬 가속 <attention>15</attention></stats><br><li><passive>암전:</passive> 적 와드에 발각되면 8초간 암전을 일으켜 근처의 투명한 덫과 와드를 드러내고, 추가로 와드를 무력화시킵니다. (재사용 대기시간 40초) 모습이 드러난 덫은 기본 공격 시 즉시 파괴되며 와드는 세 배의 피해를 입습니다.</mainText><br>",
       "gold": 2300,
-      "tooltip": "<div class='tooltip-title'>그림자 검</div><mainText><stats>공격력 <attention>50</attention><br>물리 관통력 <attention>10</attention><br>스킬 가속 <attention>15</attention></stats><br><li><passive>암전:</passive> 적 와드에 발각되면 8초간 암전을 일으켜 근처의 투명한 덫과 와드를 드러내고, 추가로 와드를 무력화시킵니다. (재사용 대기시간 35초) 모습이 드러난 덫은 기본 공격 시 즉시 파괴되며 와드는 세 배의 피해를 입습니다.</mainText><br><div class='tooltip-gold'>2300 골드</div>"
+      "tooltip": "<div class='tooltip-title'>그림자 검</div><mainText><stats>공격력 <attention>50</attention><br>물리 관통력 <attention>10</attention><br>스킬 가속 <attention>15</attention></stats><br><li><passive>암전:</passive> 적 와드에 발각되면 8초간 암전을 일으켜 근처의 투명한 덫과 와드를 드러내고, 추가로 와드를 무력화시킵니다. (재사용 대기시간 40초) 모습이 드러난 덫은 기본 공격 시 즉시 파괴되며 와드는 세 배의 피해를 입습니다.</mainText><br><div class='tooltip-gold'>2300 골드</div>"
     },
     "3181": {
       "name": "선체파괴자",
-      "desc": "<mainText><stats>공격력 <attention>50</attention><br>체력 <attention>400</attention><br>기본 체력 재생 <attention>150%</attention></stats><br><li><passive>승선 부대:</passive> 근처에 아군 챔피언이 없으면 <scaleArmor>방어력</scaleArmor>과 <scaleMR>마법 저항력</scaleMR>을 20~45 획득하고 포탑에 입히는 피해가 20% 증가합니다. 주변에 있는 대형 미니언은 <scaleArmor>방어력</scaleArmor>과 <scaleMR>마법 저항력</scaleMR>을 60~135 획득하고 포탑에 입히는 피해가 200% 증가합니다. <br><br><rules>아군 챔피언이 너무 가까이 오면 승선 부대 효과로 얻은 방어력과 마법 저항력이 3초에 걸쳐 사라집니다.</rules><br></mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>50</attention><br>체력 <attention>400</attention><br>기본 체력 재생 <attention>150%</attention></stats><br><br><li><passive>승선 부대:</passive> 근처에 아군 챔피언이 없으면 <scaleArmor>방어력</scaleArmor>과 <scaleMR>마법 저항력</scaleMR>을 (10~75/5~37.5) 획득하고 기본 공격으로 포탑에 입히는 피해가 20% 증가합니다. 주변에 있는 대형 미니언은 <scaleArmor>방어력</scaleArmor>과 <scaleMR>마법 저항력</scaleMR>을 30~225/15~112.5 획득하고 포탑에 입히는 피해가 200% 증가합니다. <br><br><rules>아군 챔피언이 너무 가까이 오면 승선 부대 효과로 얻은 방어력과 마법 저항력이 3초에 걸쳐 사라집니다.</rules><br></mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>선체파괴자</div><mainText><stats>공격력 <attention>50</attention><br>체력 <attention>400</attention><br>기본 체력 재생 <attention>150%</attention></stats><br><li><passive>승선 부대:</passive> 근처에 아군 챔피언이 없으면 <scaleArmor>방어력</scaleArmor>과 <scaleMR>마법 저항력</scaleMR>을 20~45 획득하고 포탑에 입히는 피해가 20% 증가합니다. 주변에 있는 대형 미니언은 <scaleArmor>방어력</scaleArmor>과 <scaleMR>마법 저항력</scaleMR>을 60~135 획득하고 포탑에 입히는 피해가 200% 증가합니다. <br><br><rules>아군 챔피언이 너무 가까이 오면 승선 부대 효과로 얻은 방어력과 마법 저항력이 3초에 걸쳐 사라집니다.</rules><br></mainText><br><div class='tooltip-gold'>2800 골드</div>"
+      "tooltip": "<div class='tooltip-title'>선체파괴자</div><mainText><stats>공격력 <attention>50</attention><br>체력 <attention>400</attention><br>기본 체력 재생 <attention>150%</attention></stats><br><br><li><passive>승선 부대:</passive> 근처에 아군 챔피언이 없으면 <scaleArmor>방어력</scaleArmor>과 <scaleMR>마법 저항력</scaleMR>을 (10~75/5~37.5) 획득하고 기본 공격으로 포탑에 입히는 피해가 20% 증가합니다. 주변에 있는 대형 미니언은 <scaleArmor>방어력</scaleArmor>과 <scaleMR>마법 저항력</scaleMR>을 30~225/15~112.5 획득하고 포탑에 입히는 피해가 200% 증가합니다. <br><br><rules>아군 챔피언이 너무 가까이 오면 승선 부대 효과로 얻은 방어력과 마법 저항력이 3초에 걸쳐 사라집니다.</rules><br></mainText><br><div class='tooltip-gold'>2800 골드</div>"
     },
     "3184": {
       "name": "수호자의 망치",
@@ -1310,9 +1322,9 @@
     },
     "3190": {
       "name": "강철의 솔라리 펜던트",
-      "desc": "<mainText><stats>체력 <attention>200</attention><br>스킬 가속 <attention>20</attention><br>방어력 <attention>30</attention><br>마법 저항력 <attention>30</attention></stats><br><br><active>사용 시 -</active> <active>헌신:</active> 주변 아군들에게 <shield>200~365(아군 레벨에 비례)의 피해를 흡수하는 보호막</shield>을 부여합니다. 보호막 피해 흡수량은 2.5초에 걸쳐 점차 감소합니다. (재사용 대기시간 90초) <br><li><passive>전념:</passive> 주변 아군들에게 <scaleArmor>3의 방어력</scaleArmor>과 <scaleMR>마법 저항력</scaleMR>을 부여합니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 <passive>전념</passive>으로 방어력 및 마법 저항력 <attention>2</attention> 증가<br><br><rules>레벨 비례 효과는 아군의 레벨에 따라 상승합니다.<br>20초 안에 <active>헌신</active> 보호막을 연속으로 사용하면 25%의 효과만 적용됩니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>체력 <attention>200</attention><br>스킬 가속 <attention>20</attention><br>방어력 <attention>30</attention><br>마법 저항력 <attention>30</attention></stats><br><br><active>사용 시 -</active> <active>헌신:</active> 주변 아군들에게 <shield>180~330(아군 레벨에 비례)의 피해를 흡수하는 보호막</shield>을 부여합니다. 보호막 피해 흡수량은 2.5초에 걸쳐 점차 감소합니다. (재사용 대기시간 90초) <br><li><passive>전념:</passive> 주변 아군들에게 <scaleArmor>3의 방어력</scaleArmor>과 <scaleMR>마법 저항력</scaleMR>을 부여합니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 <passive>전념</passive>으로 방어력 및 마법 저항력 <attention>2</attention> 증가<br><br><rules>레벨 비례 효과는 아군의 레벨에 따라 상승합니다.<br>20초 안에 <active>헌신</active> 보호막을 연속으로 사용하면 25%의 효과만 적용됩니다.</rules></mainText><br>",
       "gold": 2500,
-      "tooltip": "<div class='tooltip-title'>강철의 솔라리 펜던트</div><mainText><stats>체력 <attention>200</attention><br>스킬 가속 <attention>20</attention><br>방어력 <attention>30</attention><br>마법 저항력 <attention>30</attention></stats><br><br><active>사용 시 -</active> <active>헌신:</active> 주변 아군들에게 <shield>200~365(아군 레벨에 비례)의 피해를 흡수하는 보호막</shield>을 부여합니다. 보호막 피해 흡수량은 2.5초에 걸쳐 점차 감소합니다. (재사용 대기시간 90초) <br><li><passive>전념:</passive> 주변 아군들에게 <scaleArmor>3의 방어력</scaleArmor>과 <scaleMR>마법 저항력</scaleMR>을 부여합니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 <passive>전념</passive>으로 방어력 및 마법 저항력 <attention>2</attention> 증가<br><br><rules>레벨 비례 효과는 아군의 레벨에 따라 상승합니다.<br>20초 안에 <active>헌신</active> 보호막을 연속으로 사용하면 25%의 효과만 적용됩니다.</rules></mainText><br><div class='tooltip-gold'>2500 골드</div>"
+      "tooltip": "<div class='tooltip-title'>강철의 솔라리 펜던트</div><mainText><stats>체력 <attention>200</attention><br>스킬 가속 <attention>20</attention><br>방어력 <attention>30</attention><br>마법 저항력 <attention>30</attention></stats><br><br><active>사용 시 -</active> <active>헌신:</active> 주변 아군들에게 <shield>180~330(아군 레벨에 비례)의 피해를 흡수하는 보호막</shield>을 부여합니다. 보호막 피해 흡수량은 2.5초에 걸쳐 점차 감소합니다. (재사용 대기시간 90초) <br><li><passive>전념:</passive> 주변 아군들에게 <scaleArmor>3의 방어력</scaleArmor>과 <scaleMR>마법 저항력</scaleMR>을 부여합니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 <passive>전념</passive>으로 방어력 및 마법 저항력 <attention>2</attention> 증가<br><br><rules>레벨 비례 효과는 아군의 레벨에 따라 상승합니다.<br>20초 안에 <active>헌신</active> 보호막을 연속으로 사용하면 25%의 효과만 적용됩니다.</rules></mainText><br><div class='tooltip-gold'>2500 골드</div>"
     },
     "3191": {
       "name": "추적자의 팔목 보호대",
@@ -1322,9 +1334,9 @@
     },
     "3193": {
       "name": "가고일 돌갑옷",
-      "desc": "<mainText><stats>방어력 <attention>60</attention><br>마법 저항력 <attention>60</attention><br>스킬 가속 <attention>15</attention></stats><br><br><active>사용 시 -</active> <active>불굴:</active> 2.5초 동안 크기가 25% 커지며 <shield>100+추가 체력의 100%에 해당하는 피해를 흡수하는 보호막</shield>을 얻습니다. (재사용 대기시간 90초)<br><li><passive>구축:</passive> 챔피언에게 피해를 받으면 중첩을 1회 얻어 6초 동안 <scaleArmor>5%의 추가 방어력</scaleArmor>과 <scaleMR>5%의 추가 마법 저항력</scaleMR>을 얻습니다.<br><br><rules>챔피언당 하나씩 최대 5회까지 중첩됩니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>방어력 <attention>60</attention><br>마법 저항력 <attention>60</attention><br>스킬 가속 <attention>15</attention></stats><br><br><active>사용 시 -</active> <active>불굴:</active> 2.5초 동안 크기가 25% 커지며 <shield>100+추가 체력의 90%에 해당하는 피해를 흡수하는 보호막</shield>을 얻습니다. (재사용 대기시간 90초)<br><li><passive>구축:</passive> 챔피언에게 피해를 받으면 중첩을 1회 얻어 6초 동안 <scaleArmor>5%의 추가 방어력</scaleArmor>과 <scaleMR>5%의 추가 마법 저항력</scaleMR>을 얻습니다.<br><br><rules>챔피언당 하나씩 최대 5회까지 중첩됩니다.</rules></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>가고일 돌갑옷</div><mainText><stats>방어력 <attention>60</attention><br>마법 저항력 <attention>60</attention><br>스킬 가속 <attention>15</attention></stats><br><br><active>사용 시 -</active> <active>불굴:</active> 2.5초 동안 크기가 25% 커지며 <shield>100+추가 체력의 100%에 해당하는 피해를 흡수하는 보호막</shield>을 얻습니다. (재사용 대기시간 90초)<br><li><passive>구축:</passive> 챔피언에게 피해를 받으면 중첩을 1회 얻어 6초 동안 <scaleArmor>5%의 추가 방어력</scaleArmor>과 <scaleMR>5%의 추가 마법 저항력</scaleMR>을 얻습니다.<br><br><rules>챔피언당 하나씩 최대 5회까지 중첩됩니다.</rules></mainText><br><div class='tooltip-gold'>3200 골드</div>"
+      "tooltip": "<div class='tooltip-title'>가고일 돌갑옷</div><mainText><stats>방어력 <attention>60</attention><br>마법 저항력 <attention>60</attention><br>스킬 가속 <attention>15</attention></stats><br><br><active>사용 시 -</active> <active>불굴:</active> 2.5초 동안 크기가 25% 커지며 <shield>100+추가 체력의 90%에 해당하는 피해를 흡수하는 보호막</shield>을 얻습니다. (재사용 대기시간 90초)<br><li><passive>구축:</passive> 챔피언에게 피해를 받으면 중첩을 1회 얻어 6초 동안 <scaleArmor>5%의 추가 방어력</scaleArmor>과 <scaleMR>5%의 추가 마법 저항력</scaleMR>을 얻습니다.<br><br><rules>챔피언당 하나씩 최대 5회까지 중첩됩니다.</rules></mainText><br><div class='tooltip-gold'>3200 골드</div>"
     },
     "3211": {
       "name": "망령의 두건",
@@ -1334,9 +1346,9 @@
     },
     "3222": {
       "name": "미카엘의 축복",
-      "desc": "<mainText><stats>체력 회복 및 보호막 <attention>20%</attention><br>마법 저항력 <attention>50</attention><br>스킬 가속 <attention>15</attention><br>기본 마나 재생 <attention>100%</attention></stats><br><br><active>사용 시 -</active> <active>정화:</active> 아군 챔피언에게 걸린 모든 군중 제어 효과(<status>공중에 뜸</status> 및 <status>제압</status> 제외)를 제거하고 <healing>체력을 100~200 (아군 레벨에 비례)</healing> 회복합니다. (재사용 대기시간 120초)</mainText><br>",
+      "desc": "<mainText><stats>체력 회복 및 보호막 <attention>20%</attention><br>마법 저항력 <attention>50</attention><br>스킬 가속 <attention>15</attention><br>기본 마나 재생 <attention>100%</attention></stats><br><br><active>사용 시 -</active> <active>정화:</active> 아군 챔피언에게 걸린 모든 군중 제어 효과(<status>공중에 뜸</status> 및 <status>제압</status> 제외)를 제거하고 <healing>체력을 100~180 (아군 레벨에 비례)</healing> 회복합니다. (재사용 대기시간 120초)</mainText><br>",
       "gold": 2300,
-      "tooltip": "<div class='tooltip-title'>미카엘의 축복</div><mainText><stats>체력 회복 및 보호막 <attention>20%</attention><br>마법 저항력 <attention>50</attention><br>스킬 가속 <attention>15</attention><br>기본 마나 재생 <attention>100%</attention></stats><br><br><active>사용 시 -</active> <active>정화:</active> 아군 챔피언에게 걸린 모든 군중 제어 효과(<status>공중에 뜸</status> 및 <status>제압</status> 제외)를 제거하고 <healing>체력을 100~200 (아군 레벨에 비례)</healing> 회복합니다. (재사용 대기시간 120초)</mainText><br><div class='tooltip-gold'>2300 골드</div>"
+      "tooltip": "<div class='tooltip-title'>미카엘의 축복</div><mainText><stats>체력 회복 및 보호막 <attention>20%</attention><br>마법 저항력 <attention>50</attention><br>스킬 가속 <attention>15</attention><br>기본 마나 재생 <attention>100%</attention></stats><br><br><active>사용 시 -</active> <active>정화:</active> 아군 챔피언에게 걸린 모든 군중 제어 효과(<status>공중에 뜸</status> 및 <status>제압</status> 제외)를 제거하고 <healing>체력을 100~180 (아군 레벨에 비례)</healing> 회복합니다. (재사용 대기시간 120초)</mainText><br><div class='tooltip-gold'>2300 골드</div>"
     },
     "3330": {
       "name": "허수아비",
@@ -1442,9 +1454,9 @@
     },
     "3853": {
       "name": "얼음 정수의 파편",
-      "desc": "<mainText><stats>주문력 <attention>40</attention><br>체력 <attention>75</attention><br>기본 마나 재생 <attention>100%</attention><br>10초당 골드 <attention>3</attention></stats><br><br><active>사용 시 -</active> <active>와드:</active> 아군 모두에게 주변 지역을 밝혀 주는 <keywordStealth>투명</keywordStealth> 와드 하나를 지면에 설치합니다. 투명 와드는 최대 0개까지 보유할 수 있으며 상점 방문 시 다시 채워집니다. <br><br><active>사용 시 -</active> <active>와드:</active> 아군 모두에게 주변 지역을 밝혀 주는 <keywordStealth>투명</keywordStealth> 와드 하나를 지면에 설치합니다. 투명 와드는 최대 4개까지 보유할 수 있으며 상점 방문 시 다시 채워집니다. </mainText><br>",
+      "desc": "<mainText><stats>주문력 <attention>40</attention><br>체력 <attention>75</attention><br>기본 마나 재생 <attention>115%</attention><br>10초당 골드 <attention>3</attention></stats><br><br><active>사용 시 -</active> <active>와드:</active> 아군 모두에게 주변 지역을 밝혀 주는 <keywordStealth>투명</keywordStealth> 와드 하나를 지면에 설치합니다. 투명 와드는 최대 0개까지 보유할 수 있으며 상점 방문 시 다시 채워집니다. <br><br><active>사용 시 -</active> <active>와드:</active> 아군 모두에게 주변 지역을 밝혀 주는 <keywordStealth>투명</keywordStealth> 와드 하나를 지면에 설치합니다. 투명 와드는 최대 4개까지 보유할 수 있으며 상점 방문 시 다시 채워집니다. </mainText><br>",
       "gold": 400,
-      "tooltip": "<div class='tooltip-title'>얼음 정수의 파편</div><mainText><stats>주문력 <attention>40</attention><br>체력 <attention>75</attention><br>기본 마나 재생 <attention>100%</attention><br>10초당 골드 <attention>3</attention></stats><br><br><active>사용 시 -</active> <active>와드:</active> 아군 모두에게 주변 지역을 밝혀 주는 <keywordStealth>투명</keywordStealth> 와드 하나를 지면에 설치합니다. 투명 와드는 최대 0개까지 보유할 수 있으며 상점 방문 시 다시 채워집니다. <br><br><active>사용 시 -</active> <active>와드:</active> 아군 모두에게 주변 지역을 밝혀 주는 <keywordStealth>투명</keywordStealth> 와드 하나를 지면에 설치합니다. 투명 와드는 최대 4개까지 보유할 수 있으며 상점 방문 시 다시 채워집니다. </mainText><br><div class='tooltip-gold'>400 골드</div>"
+      "tooltip": "<div class='tooltip-title'>얼음 정수의 파편</div><mainText><stats>주문력 <attention>40</attention><br>체력 <attention>75</attention><br>기본 마나 재생 <attention>115%</attention><br>10초당 골드 <attention>3</attention></stats><br><br><active>사용 시 -</active> <active>와드:</active> 아군 모두에게 주변 지역을 밝혀 주는 <keywordStealth>투명</keywordStealth> 와드 하나를 지면에 설치합니다. 투명 와드는 최대 0개까지 보유할 수 있으며 상점 방문 시 다시 채워집니다. <br><br><active>사용 시 -</active> <active>와드:</active> 아군 모두에게 주변 지역을 밝혀 주는 <keywordStealth>투명</keywordStealth> 와드 하나를 지면에 설치합니다. 투명 와드는 최대 4개까지 보유할 수 있으며 상점 방문 시 다시 채워집니다. </mainText><br><div class='tooltip-gold'>400 골드</div>"
     },
     "3854": {
       "name": "강철 어깨 보호대",
@@ -1520,9 +1532,9 @@
     },
     "3916": {
       "name": "망각의 구",
-      "desc": "<mainText><stats>주문력 <attention>30</attention></stats><br><li><passive>저주:</passive> 챔피언에게 마법 피해를 입히면 3초 동안 <status>40%의 고통스러운 상처</status>를 남깁니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>주문력 <attention>35</attention></stats><br><li><passive>저주:</passive> 챔피언에게 마법 피해를 입히면 3초 동안 <status>25%의 고통스러운 상처</status>를 남깁니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br>",
       "gold": 800,
-      "tooltip": "<div class='tooltip-title'>망각의 구</div><mainText><stats>주문력 <attention>30</attention></stats><br><li><passive>저주:</passive> 챔피언에게 마법 피해를 입히면 3초 동안 <status>40%의 고통스러운 상처</status>를 남깁니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br><div class='tooltip-gold'>800 골드</div>"
+      "tooltip": "<div class='tooltip-title'>망각의 구</div><mainText><stats>주문력 <attention>35</attention></stats><br><li><passive>저주:</passive> 챔피언에게 마법 피해를 입히면 3초 동안 <status>25%의 고통스러운 상처</status>를 남깁니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br><div class='tooltip-gold'>800 골드</div>"
     },
     "4005": {
       "name": "제국의 명령",
@@ -1556,9 +1568,9 @@
     },
     "4630": {
       "name": "역병의 보석",
-      "desc": "<mainText><stats>주문력 <attention>25</attention><br>마법 관통력 <attention>15%</attention></stats></mainText><br>",
+      "desc": "<mainText><stats>주문력 <attention>25</attention><br>마법 관통력 <attention>13%</attention></stats></mainText><br>",
       "gold": 1250,
-      "tooltip": "<div class='tooltip-title'>역병의 보석</div><mainText><stats>주문력 <attention>25</attention><br>마법 관통력 <attention>15%</attention></stats></mainText><br><div class='tooltip-gold'>1250 골드</div>"
+      "tooltip": "<div class='tooltip-title'>역병의 보석</div><mainText><stats>주문력 <attention>25</attention><br>마법 관통력 <attention>13%</attention></stats></mainText><br><div class='tooltip-gold'>1250 골드</div>"
     },
     "4632": {
       "name": "신록의 장벽",
@@ -1568,9 +1580,9 @@
     },
     "4633": {
       "name": "균열 생성기",
-      "desc": "<mainText><stats>주문력 <attention>80</attention><br>체력 <attention>300</attention><br>스킬 가속 <attention>15</attention><br>모든 피해 흡혈 <attention>8%</attention></stats><br><li><passive>공허의 부패:</passive> 적 챔피언에게 피해를 입힐 시 매초 3%의 추가 피해(최대 9%)를 입힙니다. 피해량이 최대가 되면 추가 피해량을 <trueDamage>고정 피해</trueDamage>로 전환합니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 모든 피해 흡혈 <attention>2%</attention> 및 주문력 8</mainText><br>",
+      "desc": "<mainText><stats>주문력 <attention>70</attention><br>체력 <attention>300</attention><br>스킬 가속 <attention>15</attention><br>모든 피해 흡혈 <attention>7%</attention></stats><br><li><passive>공허의 부패:</passive> 적 챔피언에게 피해를 입힐 시 매초 3%의 추가 피해(최대 9%)를 입힙니다. 피해량이 최대가 되면 추가 피해량을 <trueDamage>고정 피해</trueDamage>로 전환합니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 모든 피해 흡혈 <attention>2%</attention> 및 주문력 8</mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>균열 생성기</div><mainText><stats>주문력 <attention>80</attention><br>체력 <attention>300</attention><br>스킬 가속 <attention>15</attention><br>모든 피해 흡혈 <attention>8%</attention></stats><br><li><passive>공허의 부패:</passive> 적 챔피언에게 피해를 입힐 시 매초 3%의 추가 피해(최대 9%)를 입힙니다. 피해량이 최대가 되면 추가 피해량을 <trueDamage>고정 피해</trueDamage>로 전환합니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 모든 피해 흡혈 <attention>2%</attention> 및 주문력 8</mainText><br><div class='tooltip-gold'>3200 골드</div>"
+      "tooltip": "<div class='tooltip-title'>균열 생성기</div><mainText><stats>주문력 <attention>70</attention><br>체력 <attention>300</attention><br>스킬 가속 <attention>15</attention><br>모든 피해 흡혈 <attention>7%</attention></stats><br><li><passive>공허의 부패:</passive> 적 챔피언에게 피해를 입힐 시 매초 3%의 추가 피해(최대 9%)를 입힙니다. 피해량이 최대가 되면 추가 피해량을 <trueDamage>고정 피해</trueDamage>로 전환합니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 모든 피해 흡혈 <attention>2%</attention> 및 주문력 8</mainText><br><div class='tooltip-gold'>3200 골드</div>"
     },
     "4635": {
       "name": "흡수의 시선",
@@ -1580,15 +1592,15 @@
     },
     "4636": {
       "name": "밤의 수확자",
-      "desc": "<mainText><stats>주문력 <attention>90</attention><br>체력 <attention>300</attention><br>스킬 가속 <attention>15</attention></stats><br><li><passive>영혼 찢기:</passive> 챔피언에게 피해를 입히면 <magicDamage>125+주문력의 15%에 해당하는 마법 피해</magicDamage>를 추가로 입히고 1.5초 동안 <speed>이동 속도가 25%</speed> 상승합니다. (챔피언당 재사용 대기시간 40초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention><br><br><rules>다른 챔피언에게 피해를 입히면 이동 속도 추가 효과의 지속시간이 늘어납니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>주문력 <attention>90</attention><br>체력 <attention>300</attention><br>스킬 가속 <attention>25</attention></stats><br><li><passive>영혼 찢기:</passive> 챔피언에게 피해를 입히면 <magicDamage>125+주문력의 15%에 해당하는 마법 피해</magicDamage>를 추가로 입히고 1.5초 동안 <speed>이동 속도가 25%</speed> 상승합니다. (챔피언당 재사용 대기시간 30초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention><br><br><rules>다른 챔피언에게 피해를 입히면 이동 속도 추가 효과의 지속시간이 늘어납니다.</rules></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>밤의 수확자</div><mainText><stats>주문력 <attention>90</attention><br>체력 <attention>300</attention><br>스킬 가속 <attention>15</attention></stats><br><li><passive>영혼 찢기:</passive> 챔피언에게 피해를 입히면 <magicDamage>125+주문력의 15%에 해당하는 마법 피해</magicDamage>를 추가로 입히고 1.5초 동안 <speed>이동 속도가 25%</speed> 상승합니다. (챔피언당 재사용 대기시간 40초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention><br><br><rules>다른 챔피언에게 피해를 입히면 이동 속도 추가 효과의 지속시간이 늘어납니다.</rules></mainText><br><div class='tooltip-gold'>3200 골드</div>"
+      "tooltip": "<div class='tooltip-title'>밤의 수확자</div><mainText><stats>주문력 <attention>90</attention><br>체력 <attention>300</attention><br>스킬 가속 <attention>25</attention></stats><br><li><passive>영혼 찢기:</passive> 챔피언에게 피해를 입히면 <magicDamage>125+주문력의 15%에 해당하는 마법 피해</magicDamage>를 추가로 입히고 1.5초 동안 <speed>이동 속도가 25%</speed> 상승합니다. (챔피언당 재사용 대기시간 30초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention><br><br><rules>다른 챔피언에게 피해를 입히면 이동 속도 추가 효과의 지속시간이 늘어납니다.</rules></mainText><br><div class='tooltip-gold'>3200 골드</div>"
     },
     "4637": {
       "name": "악마의 포옹",
-      "desc": "<mainText><stats>주문력 <attention>60</attention><br>체력 <attention>450</attention></stats><br><li><passive>아자카나의 응시:</passive> 스킬 피해를 입히면 4초 동안 적을 불태워 매초 2/1.2% (근접/원거리)의 <magicDamage>최대 체력에 비례한 마법 피해</magicDamage>를 입힙니다. <li><passive>어둠의 계약:</passive> <scaleHealth>추가 체력</scaleHealth>의 2%만큼 <scaleAP>주문력</scaleAP>을 얻습니다. </mainText><br>",
+      "desc": "<mainText><stats>주문력 <attention>60</attention><br>체력 <attention>450</attention></stats><br><li><passive>아자카나의 응시:</passive> 스킬 피해를 입히면 4초 동안 적을 불태워 매초 1.8/1% (근접/원거리)의 <magicDamage>최대 체력에 비례한 마법 피해</magicDamage>를 입힙니다. <li><passive>어둠의 계약:</passive> <scaleHealth>추가 체력</scaleHealth>의 2%만큼 <scaleAP>주문력</scaleAP>을 얻습니다. </mainText><br>",
       "gold": 3000,
-      "tooltip": "<div class='tooltip-title'>악마의 포옹</div><mainText><stats>주문력 <attention>60</attention><br>체력 <attention>450</attention></stats><br><li><passive>아자카나의 응시:</passive> 스킬 피해를 입히면 4초 동안 적을 불태워 매초 2/1.2% (근접/원거리)의 <magicDamage>최대 체력에 비례한 마법 피해</magicDamage>를 입힙니다. <li><passive>어둠의 계약:</passive> <scaleHealth>추가 체력</scaleHealth>의 2%만큼 <scaleAP>주문력</scaleAP>을 얻습니다. </mainText><br><div class='tooltip-gold'>3000 골드</div>"
+      "tooltip": "<div class='tooltip-title'>악마의 포옹</div><mainText><stats>주문력 <attention>60</attention><br>체력 <attention>450</attention></stats><br><li><passive>아자카나의 응시:</passive> 스킬 피해를 입히면 4초 동안 적을 불태워 매초 1.8/1% (근접/원거리)의 <magicDamage>최대 체력에 비례한 마법 피해</magicDamage>를 입힙니다. <li><passive>어둠의 계약:</passive> <scaleHealth>추가 체력</scaleHealth>의 2%만큼 <scaleAP>주문력</scaleAP>을 얻습니다. </mainText><br><div class='tooltip-gold'>3000 골드</div>"
     },
     "4638": {
       "name": "감시하는 와드석",
@@ -1616,9 +1628,9 @@
     },
     "4644": {
       "name": "부서진 여왕의 왕관",
-      "desc": "<mainText><stats>주문력 <attention>60</attention><br>체력 <attention>250</attention><br>마나 <attention>600</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>신성한 보호:</passive> <keywordMajor>보호</keywordMajor>를 받아 챔피언으로부터 받는 피해가 75% 감소합니다. <keywordMajor>보호</keywordMajor> 효과는 챔피언에게 피해를 받은 후 1.5초 동안 지속됩니다. (재사용 대기시간 40초) <li><passive>신의 선물:</passive> <keywordMajor>보호</keywordMajor> 상태일 때와 보호 효과가 끝난 뒤 3초 동안 <scaleAP>10~40의 주문력</scaleAP>을 얻습니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 이동 속도가 <attention>1%</attention>, 주문력이 8 증가합니다.</mainText><br>",
+      "desc": "<mainText><stats>주문력 <attention>70</attention><br>체력 <attention>250</attention><br>마나 <attention>600</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>신성한 보호:</passive> <keywordMajor>보호</keywordMajor>를 받아 챔피언으로부터 받는 피해가 75% 감소합니다. <keywordMajor>보호</keywordMajor> 효과는 챔피언에게 피해를 받은 후 1.5초 동안 지속됩니다. (재사용 대기시간 40초) <li><passive>신의 선물:</passive> <keywordMajor>보호</keywordMajor> 상태일 때와 보호 효과가 끝난 뒤 3초 동안 <scaleAP>10~40의 주문력</scaleAP>을 얻습니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 이동 속도가 <attention>1%</attention>, 주문력이 8 증가합니다.</mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>부서진 여왕의 왕관</div><mainText><stats>주문력 <attention>60</attention><br>체력 <attention>250</attention><br>마나 <attention>600</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>신성한 보호:</passive> <keywordMajor>보호</keywordMajor>를 받아 챔피언으로부터 받는 피해가 75% 감소합니다. <keywordMajor>보호</keywordMajor> 효과는 챔피언에게 피해를 받은 후 1.5초 동안 지속됩니다. (재사용 대기시간 40초) <li><passive>신의 선물:</passive> <keywordMajor>보호</keywordMajor> 상태일 때와 보호 효과가 끝난 뒤 3초 동안 <scaleAP>10~40의 주문력</scaleAP>을 얻습니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 이동 속도가 <attention>1%</attention>, 주문력이 8 증가합니다.</mainText><br><div class='tooltip-gold'>2800 골드</div>"
+      "tooltip": "<div class='tooltip-title'>부서진 여왕의 왕관</div><mainText><stats>주문력 <attention>70</attention><br>체력 <attention>250</attention><br>마나 <attention>600</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>신성한 보호:</passive> <keywordMajor>보호</keywordMajor>를 받아 챔피언으로부터 받는 피해가 75% 감소합니다. <keywordMajor>보호</keywordMajor> 효과는 챔피언에게 피해를 받은 후 1.5초 동안 지속됩니다. (재사용 대기시간 40초) <li><passive>신의 선물:</passive> <keywordMajor>보호</keywordMajor> 상태일 때와 보호 효과가 끝난 뒤 3초 동안 <scaleAP>10~40의 주문력</scaleAP>을 얻습니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 이동 속도가 <attention>1%</attention>, 주문력이 8 증가합니다.</mainText><br><div class='tooltip-gold'>2800 골드</div>"
     },
     "4645": {
       "name": "그림자불꽃",
@@ -1640,15 +1652,15 @@
     },
     "6333": {
       "name": "죽음의 무도",
-      "desc": "<mainText><stats>공격력 <attention>55</attention><br>방어력 <attention>45</attention><br>스킬 가속 <attention>15</attention></stats><br><li><passive>고통 무시:</passive> 자신이 받은 피해의 30%(원거리 챔피언의 경우 10%)를 3초 동안 나누어 입습니다.<li><passive>반항:</passive> 챔피언 처치 관여 시 <passive>고통 무시</passive>의 지속 피해 효과가 사라지고 2초 동안 <healing>추가 공격력의 175%에 해당하는 체력</healing>을 회복합니다.</mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>55</attention><br>방어력 <attention>45</attention><br>스킬 가속 <attention>15</attention></stats><br><li><passive>고통 무시:</passive> 자신이 받은 피해의 30%(원거리 챔피언의 경우 10%)를 3초 동안 나누어 입습니다.<li><passive>반항:</passive> 챔피언 처치 관여 시 <passive>고통 무시</passive>의 지속 피해 효과가 사라지고 2초 동안 <healing>추가 공격력의 140%에 해당하는 체력</healing>을 회복합니다.</mainText><br>",
       "gold": 3300,
-      "tooltip": "<div class='tooltip-title'>죽음의 무도</div><mainText><stats>공격력 <attention>55</attention><br>방어력 <attention>45</attention><br>스킬 가속 <attention>15</attention></stats><br><li><passive>고통 무시:</passive> 자신이 받은 피해의 30%(원거리 챔피언의 경우 10%)를 3초 동안 나누어 입습니다.<li><passive>반항:</passive> 챔피언 처치 관여 시 <passive>고통 무시</passive>의 지속 피해 효과가 사라지고 2초 동안 <healing>추가 공격력의 175%에 해당하는 체력</healing>을 회복합니다.</mainText><br><div class='tooltip-gold'>3300 골드</div>"
+      "tooltip": "<div class='tooltip-title'>죽음의 무도</div><mainText><stats>공격력 <attention>55</attention><br>방어력 <attention>45</attention><br>스킬 가속 <attention>15</attention></stats><br><li><passive>고통 무시:</passive> 자신이 받은 피해의 30%(원거리 챔피언의 경우 10%)를 3초 동안 나누어 입습니다.<li><passive>반항:</passive> 챔피언 처치 관여 시 <passive>고통 무시</passive>의 지속 피해 효과가 사라지고 2초 동안 <healing>추가 공격력의 140%에 해당하는 체력</healing>을 회복합니다.</mainText><br><div class='tooltip-gold'>3300 골드</div>"
     },
     "6609": {
       "name": "화공 펑크 사슬검",
-      "desc": "<mainText><stats>공격력 <attention>45</attention><br>체력 <attention>250</attention><br>스킬 가속 <attention>15</attention></stats><br><li><passive>광란의 뿔:</passive> 적 챔피언에게 물리 피해를 입히면 3초 동안 40%의 <status>고통스러운 상처</status>를 남깁니다. 대상의 체력이 50% 이하라면 <status>고통스러운 상처</status>의 효과가 60%로 증가합니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>55</attention><br>체력 <attention>250</attention><br>스킬 가속 <attention>25</attention></stats><br><li><passive>광란의 뿔:</passive> 적 챔피언에게 물리 피해를 입히면 3초 동안 25%의 <status>고통스러운 상처</status>를 남깁니다. 대상의 체력이 50% 이하라면 <status>고통스러운 상처</status>의 효과가 40%로 증가합니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br>",
       "gold": 2600,
-      "tooltip": "<div class='tooltip-title'>화공 펑크 사슬검</div><mainText><stats>공격력 <attention>45</attention><br>체력 <attention>250</attention><br>스킬 가속 <attention>15</attention></stats><br><li><passive>광란의 뿔:</passive> 적 챔피언에게 물리 피해를 입히면 3초 동안 40%의 <status>고통스러운 상처</status>를 남깁니다. 대상의 체력이 50% 이하라면 <status>고통스러운 상처</status>의 효과가 60%로 증가합니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br><div class='tooltip-gold'>2600 골드</div>"
+      "tooltip": "<div class='tooltip-title'>화공 펑크 사슬검</div><mainText><stats>공격력 <attention>55</attention><br>체력 <attention>250</attention><br>스킬 가속 <attention>25</attention></stats><br><li><passive>광란의 뿔:</passive> 적 챔피언에게 물리 피해를 입히면 3초 동안 25%의 <status>고통스러운 상처</status>를 남깁니다. 대상의 체력이 50% 이하라면 <status>고통스러운 상처</status>의 효과가 40%로 증가합니다.<br><br><rules><status>고통스러운 상처</status>는 치유 및 회복 효과를 감소시킵니다.</rules></mainText><br><div class='tooltip-gold'>2600 골드</div>"
     },
     "6616": {
       "name": "흐르는 물의 지팡이",
@@ -1658,15 +1670,15 @@
     },
     "6617": {
       "name": "월석 재생기",
-      "desc": "<mainText><stats>주문력 <attention>40</attention><br>체력 <attention>200</attention><br>스킬 가속 <attention>20</attention><br>기본 마나 재생 <attention>100%</attention></stats><br><li><passive>별빛 은총:</passive> 전투에서 챔피언에게 기본 공격을 하거나 스킬을 사용하면 주변에서 가장 많은 피해를 입은 아군의 <healing>체력을 70</healing> 회복시킵니다. (재사용 대기시간 2초) 챔피언과 전투에 돌입하고 매초가 지날 때마다 체력 회복과 보호막 효과가 6%씩 증가합니다. (최대 5회까지 중첩)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 <passive>별빛 은총</passive> 체력 회복량 증가 <attention>10</attention><br><br></mainText><br>",
+      "desc": "<mainText><stats>주문력 <attention>40</attention><br>체력 <attention>200</attention><br>스킬 가속 <attention>20</attention><br>기본 마나 재생 <attention>100%</attention></stats><br><li><passive>별빛 은총:</passive> 전투에서 챔피언에게 기본 공격을 하거나 스킬을 사용하면 주변에서 가장 많은 피해를 입은 아군의 <healing>체력을 60</healing> 회복시킵니다. (재사용 대기시간 2초) 챔피언과 전투에 돌입하고 매초가 지날 때마다 체력 회복과 보호막 효과가 5%씩 증가합니다. (최대 5회까지 중첩)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 <passive>별빛 은총</passive> 회복량이 <attention>8</attention> 증가합니다.<br><br></mainText><br>",
       "gold": 2500,
-      "tooltip": "<div class='tooltip-title'>월석 재생기</div><mainText><stats>주문력 <attention>40</attention><br>체력 <attention>200</attention><br>스킬 가속 <attention>20</attention><br>기본 마나 재생 <attention>100%</attention></stats><br><li><passive>별빛 은총:</passive> 전투에서 챔피언에게 기본 공격을 하거나 스킬을 사용하면 주변에서 가장 많은 피해를 입은 아군의 <healing>체력을 70</healing> 회복시킵니다. (재사용 대기시간 2초) 챔피언과 전투에 돌입하고 매초가 지날 때마다 체력 회복과 보호막 효과가 6%씩 증가합니다. (최대 5회까지 중첩)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 <passive>별빛 은총</passive> 체력 회복량 증가 <attention>10</attention><br><br></mainText><br><div class='tooltip-gold'>2500 골드</div>"
+      "tooltip": "<div class='tooltip-title'>월석 재생기</div><mainText><stats>주문력 <attention>40</attention><br>체력 <attention>200</attention><br>스킬 가속 <attention>20</attention><br>기본 마나 재생 <attention>100%</attention></stats><br><li><passive>별빛 은총:</passive> 전투에서 챔피언에게 기본 공격을 하거나 스킬을 사용하면 주변에서 가장 많은 피해를 입은 아군의 <healing>체력을 60</healing> 회복시킵니다. (재사용 대기시간 2초) 챔피언과 전투에 돌입하고 매초가 지날 때마다 체력 회복과 보호막 효과가 5%씩 증가합니다. (최대 5회까지 중첩)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 <passive>별빛 은총</passive> 회복량이 <attention>8</attention> 증가합니다.<br><br></mainText><br><div class='tooltip-gold'>2500 골드</div>"
     },
     "6630": {
       "name": "선혈포식자",
-      "desc": "<mainText><stats>공격력 <attention>55</attention><br>체력 <attention>300</attention><br>스킬 가속 <attention>20</attention><br>모든 피해 흡혈 <attention>10%</attention></stats><br><br><active>사용 시 -</active> <active>갈망의 가르기:</active> 주변 적들에게 <physicalDamage>기본 공격력의 175%에 해당하는 물리 피해</physicalDamage>를 입힙니다. 적중한 챔피언 하나당 <healing>기본 공격력의 25%+잃은 체력의 10%</healing>만큼 회복합니다. (재사용 대기시간 15초, 스킬 가속에 따라 감소)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention></mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>55</attention><br>체력 <attention>300</attention><br>스킬 가속 <attention>20</attention><br>모든 피해 흡혈 <attention>8%</attention></stats><br><br><active>사용 시 -</active> <active>갈망의 가르기:</active> 주변 적들에게 <physicalDamage>기본 공격력의 175%에 해당하는 물리 피해</physicalDamage>를 입힙니다. 적중한 챔피언 하나당 <healing>기본 공격력의 20%+잃은 체력의 8%</healing>만큼 회복합니다. (재사용 대기시간 15초, 스킬 가속에 따라 감소)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>7</attention></mainText><br>",
       "gold": 3300,
-      "tooltip": "<div class='tooltip-title'>선혈포식자</div><mainText><stats>공격력 <attention>55</attention><br>체력 <attention>300</attention><br>스킬 가속 <attention>20</attention><br>모든 피해 흡혈 <attention>10%</attention></stats><br><br><active>사용 시 -</active> <active>갈망의 가르기:</active> 주변 적들에게 <physicalDamage>기본 공격력의 175%에 해당하는 물리 피해</physicalDamage>를 입힙니다. 적중한 챔피언 하나당 <healing>기본 공격력의 25%+잃은 체력의 10%</healing>만큼 회복합니다. (재사용 대기시간 15초, 스킬 가속에 따라 감소)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention></mainText><br><div class='tooltip-gold'>3300 골드</div>"
+      "tooltip": "<div class='tooltip-title'>선혈포식자</div><mainText><stats>공격력 <attention>55</attention><br>체력 <attention>300</attention><br>스킬 가속 <attention>20</attention><br>모든 피해 흡혈 <attention>8%</attention></stats><br><br><active>사용 시 -</active> <active>갈망의 가르기:</active> 주변 적들에게 <physicalDamage>기본 공격력의 175%에 해당하는 물리 피해</physicalDamage>를 입힙니다. 적중한 챔피언 하나당 <healing>기본 공격력의 20%+잃은 체력의 8%</healing>만큼 회복합니다. (재사용 대기시간 15초, 스킬 가속에 따라 감소)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>7</attention></mainText><br><div class='tooltip-gold'>3300 골드</div>"
     },
     "6631": {
       "name": "발걸음 분쇄기",
@@ -1676,15 +1688,15 @@
     },
     "6632": {
       "name": "신성한 파괴자",
-      "desc": "<mainText><stats>공격력 <attention>40</attention><br>체력 <attention>300</attention><br>스킬 가속 <attention>20</attention></stats><li><passive>주문 검:</passive> 스킬을 사용하고 나면 다음 기본 공격 시 <physicalDamage>대상 최대 체력의 12%(소유자가 원거리 챔피언인 경우 9%)에 해당하는 물리 피해</physicalDamage>(<OnHit>적중 시</OnHit> )를 추가로 입힙니다. (재사용 대기시간 1.5초) 대상이 챔피언일 경우 대상 최대 체력의 7.8%만큼 체력을 회복합니다. (소유자가 원거리 챔피언인 경우 3.6%)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 방어구 관통력 <attention>5%</attention> 및 마법 관통력 <attention>5%</attention><br><br><rules><passive>주문 검</passive> 효과는 유닛에게 최소 기본 공격력의 150%에 해당하는 피해를 입히고 몬스터에게는 최대 기본 공격력의 250%에 해당하는 피해를 입힙니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>40</attention><br>체력 <attention>300</attention><br>스킬 가속 <attention>20</attention></stats><li><passive>주문 검:</passive> 스킬을 사용하고 나면 다음 기본 공격 시 <physicalDamage>대상 최대 체력의 12%(소유자가 원거리 챔피언인 경우 9%)에 해당하는 물리 피해</physicalDamage>(<OnHit>적중 시</OnHit> )를 추가로 입힙니다. (재사용 대기시간 1.5초) 대상이 챔피언일 경우 대상 최대 체력의 6%만큼 체력을 회복합니다. (소유자가 원거리 챔피언인 경우 3%)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 방어구 관통력 <attention>5%</attention> 및 마법 관통력 <attention>5%</attention><br><br><rules><passive>주문 검</passive> 효과는 유닛에게 최소 기본 공격력의 150%에 해당하는 피해를 입히고 몬스터에게는 최대 기본 공격력의 250%에 해당하는 피해를 입힙니다.</rules></mainText><br>",
       "gold": 3300,
-      "tooltip": "<div class='tooltip-title'>신성한 파괴자</div><mainText><stats>공격력 <attention>40</attention><br>체력 <attention>300</attention><br>스킬 가속 <attention>20</attention></stats><li><passive>주문 검:</passive> 스킬을 사용하고 나면 다음 기본 공격 시 <physicalDamage>대상 최대 체력의 12%(소유자가 원거리 챔피언인 경우 9%)에 해당하는 물리 피해</physicalDamage>(<OnHit>적중 시</OnHit> )를 추가로 입힙니다. (재사용 대기시간 1.5초) 대상이 챔피언일 경우 대상 최대 체력의 7.8%만큼 체력을 회복합니다. (소유자가 원거리 챔피언인 경우 3.6%)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 방어구 관통력 <attention>5%</attention> 및 마법 관통력 <attention>5%</attention><br><br><rules><passive>주문 검</passive> 효과는 유닛에게 최소 기본 공격력의 150%에 해당하는 피해를 입히고 몬스터에게는 최대 기본 공격력의 250%에 해당하는 피해를 입힙니다.</rules></mainText><br><div class='tooltip-gold'>3300 골드</div>"
+      "tooltip": "<div class='tooltip-title'>신성한 파괴자</div><mainText><stats>공격력 <attention>40</attention><br>체력 <attention>300</attention><br>스킬 가속 <attention>20</attention></stats><li><passive>주문 검:</passive> 스킬을 사용하고 나면 다음 기본 공격 시 <physicalDamage>대상 최대 체력의 12%(소유자가 원거리 챔피언인 경우 9%)에 해당하는 물리 피해</physicalDamage>(<OnHit>적중 시</OnHit> )를 추가로 입힙니다. (재사용 대기시간 1.5초) 대상이 챔피언일 경우 대상 최대 체력의 6%만큼 체력을 회복합니다. (소유자가 원거리 챔피언인 경우 3%)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 방어구 관통력 <attention>5%</attention> 및 마법 관통력 <attention>5%</attention><br><br><rules><passive>주문 검</passive> 효과는 유닛에게 최소 기본 공격력의 150%에 해당하는 피해를 입히고 몬스터에게는 최대 기본 공격력의 250%에 해당하는 피해를 입힙니다.</rules></mainText><br><div class='tooltip-gold'>3300 골드</div>"
     },
     "6653": {
       "name": "리안드리의 고뇌",
-      "desc": "<mainText><stats>주문력 <attention>80</attention><br>마나 <attention>600</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>고뇌:</passive> 대상의 추가 체력에 비례해 챔피언에게 최대 <magicDamage>12%의 추가 마법 피해</magicDamage>를 입힙니다. (추가 체력이 1250일 때 최대 피해)<li><passive>고통:</passive> 스킬로 피해를 입히면 4초 동안 적을 불태워 매초 <magicDamage>15+주문력의 1.5%+최대 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention></mainText><br>",
+      "desc": "<mainText><stats>주문력 <attention>80</attention><br>마나 <attention>600</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>고뇌:</passive> 대상의 추가 체력에 비례해 챔피언에게 최대 <magicDamage>12%의 추가 마법 피해</magicDamage>를 입힙니다. (추가 체력이 1250일 때 최대 피해)<li><passive>고통:</passive> 스킬로 피해를 입히면 4초 동안 적을 불태워 매초 <magicDamage>12.5+주문력의 1.5%+최대 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>리안드리의 고뇌</div><mainText><stats>주문력 <attention>80</attention><br>마나 <attention>600</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>고뇌:</passive> 대상의 추가 체력에 비례해 챔피언에게 최대 <magicDamage>12%의 추가 마법 피해</magicDamage>를 입힙니다. (추가 체력이 1250일 때 최대 피해)<li><passive>고통:</passive> 스킬로 피해를 입히면 4초 동안 적을 불태워 매초 <magicDamage>15+주문력의 1.5%+최대 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention></mainText><br><div class='tooltip-gold'>3200 골드</div>"
+      "tooltip": "<div class='tooltip-title'>리안드리의 고뇌</div><mainText><stats>주문력 <attention>80</attention><br>마나 <attention>600</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>고뇌:</passive> 대상의 추가 체력에 비례해 챔피언에게 최대 <magicDamage>12%의 추가 마법 피해</magicDamage>를 입힙니다. (추가 체력이 1250일 때 최대 피해)<li><passive>고통:</passive> 스킬로 피해를 입히면 4초 동안 적을 불태워 매초 <magicDamage>12.5+주문력의 1.5%+최대 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention></mainText><br><div class='tooltip-gold'>3200 골드</div>"
     },
     "6655": {
       "name": "루덴의 폭풍",
@@ -1694,27 +1706,27 @@
     },
     "6656": {
       "name": "만년서리",
-      "desc": "<mainText><stats>주문력 <attention>70</attention><br>체력 <attention>250</attention><br>마나 <attention>600</attention><br>스킬 가속 <attention>20</attention></stats><br><br><active>사용 시 -</active> <active>빙결:</active> 원뿔 범위 내의 적들에게 <magicDamage>100+주문력의 30%에 해당하는 마법 피해</magicDamage>를 입히고 1.5초 동안 65% <status>둔화</status>시킵니다. 범위 중앙의 적들은 <status>속박</status>됩니다. (재사용 대기시간 30초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 주문력 <attention>10</attention> <br></mainText><br>",
+      "desc": "<mainText><stats>주문력 <attention>70</attention><br>체력 <attention>250</attention><br>마나 <attention>600</attention><br>스킬 가속 <attention>20</attention></stats><br><br><active>사용 시 -</active> <active>빙결:</active> 원뿔 범위 내의 적들에게 <magicDamage>100+주문력의 30%에 해당하는 마법 피해</magicDamage>를 입히고 1초 동안 65% <status>둔화</status>시킵니다. 범위 중앙의 적들은 <status>속박</status>됩니다. (재사용 대기시간 30초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 주문력 <attention>10</attention> <br></mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>만년서리</div><mainText><stats>주문력 <attention>70</attention><br>체력 <attention>250</attention><br>마나 <attention>600</attention><br>스킬 가속 <attention>20</attention></stats><br><br><active>사용 시 -</active> <active>빙결:</active> 원뿔 범위 내의 적들에게 <magicDamage>100+주문력의 30%에 해당하는 마법 피해</magicDamage>를 입히고 1.5초 동안 65% <status>둔화</status>시킵니다. 범위 중앙의 적들은 <status>속박</status>됩니다. (재사용 대기시간 30초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 주문력 <attention>10</attention> <br></mainText><br><div class='tooltip-gold'>2800 골드</div>"
+      "tooltip": "<div class='tooltip-title'>만년서리</div><mainText><stats>주문력 <attention>70</attention><br>체력 <attention>250</attention><br>마나 <attention>600</attention><br>스킬 가속 <attention>20</attention></stats><br><br><active>사용 시 -</active> <active>빙결:</active> 원뿔 범위 내의 적들에게 <magicDamage>100+주문력의 30%에 해당하는 마법 피해</magicDamage>를 입히고 1초 동안 65% <status>둔화</status>시킵니다. 범위 중앙의 적들은 <status>속박</status>됩니다. (재사용 대기시간 30초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 주문력 <attention>10</attention> <br></mainText><br><div class='tooltip-gold'>2800 골드</div>"
     },
     "6660": {
       "name": "바미의 불씨",
       "desc": "<mainText><stats>체력 <attention>300</attention></stats><br><li><passive>불사르기:</passive> 피해를 받거나 입히면 주변 적들에게 3초 동안 초당 <magicDamage>15+추가 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. (미니언 대상 25%, 몬스터 대상 25% 증가)</mainText><br>",
-      "gold": 1100,
-      "tooltip": "<div class='tooltip-title'>바미의 불씨</div><mainText><stats>체력 <attention>300</attention></stats><br><li><passive>불사르기:</passive> 피해를 받거나 입히면 주변 적들에게 3초 동안 초당 <magicDamage>15+추가 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. (미니언 대상 25%, 몬스터 대상 25% 증가)</mainText><br><div class='tooltip-gold'>1100 골드</div>"
+      "gold": 1000,
+      "tooltip": "<div class='tooltip-title'>바미의 불씨</div><mainText><stats>체력 <attention>300</attention></stats><br><li><passive>불사르기:</passive> 피해를 받거나 입히면 주변 적들에게 3초 동안 초당 <magicDamage>15+추가 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. (미니언 대상 25%, 몬스터 대상 25% 증가)</mainText><br><div class='tooltip-gold'>1000 골드</div>"
     },
     "6662": {
       "name": "서리불꽃 건틀릿",
-      "desc": "<mainText><stats>체력 <attention>350</attention><br>방어력 <attention>25</attention><br>마법 저항력 <attention>25</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>불사르기:</passive> 피해를 받거나 입히면 주변 적들에게 3초 동안 초당 <magicDamage>12+추가 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. (미니언 대상 25%, 몬스터 대상 150% 증가)<li><passive>고립:</passive> 기본 공격 시 1.5초 동안 서리 영역을 생성하고 추가 마법 피해(12~85/6~42.5)를 입힙니다. (재사용 대기시간 4초, 원거리 챔피언의 경우 6초) 서리 영역을 지나는 적들은 근접 챔피언의 경우 25%, 원거리 챔피언의 경우 12.5% <status>둔화</status>됩니다. (자신의 <scaleHealth>최대 체력</scaleHealth>에 비례)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 체력 <attention>100</attention> 및 챔피언 크기 <attention>6%</attention></mainText><br>",
+      "desc": "<mainText><stats>체력 <attention>450</attention><br>방어력 <attention>25</attention><br>마법 저항력 <attention>25</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>불사르기:</passive> 피해를 받거나 입히면 주변 적들에게 3초 동안 초당 <magicDamage>12+추가 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. (미니언 대상 25%, 몬스터 대상 150% 증가)<li><passive>고립:</passive> 기본 공격 시 1.5초 동안 서리 영역을 생성하고 추가 마법 피해(12~85/6~42.5)를 입힙니다. (재사용 대기시간 4초, 원거리 챔피언의 경우 6초) 서리 영역을 지나는 적들은 근접 챔피언의 경우 25%, 원거리 챔피언의 경우 12.5% <status>둔화</status>됩니다. (자신의 <scaleHealth>최대 체력</scaleHealth>에 비례)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 체력 <attention>100</attention> 및 챔피언 크기 <attention>6%</attention></mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>서리불꽃 건틀릿</div><mainText><stats>체력 <attention>350</attention><br>방어력 <attention>25</attention><br>마법 저항력 <attention>25</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>불사르기:</passive> 피해를 받거나 입히면 주변 적들에게 3초 동안 초당 <magicDamage>12+추가 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. (미니언 대상 25%, 몬스터 대상 150% 증가)<li><passive>고립:</passive> 기본 공격 시 1.5초 동안 서리 영역을 생성하고 추가 마법 피해(12~85/6~42.5)를 입힙니다. (재사용 대기시간 4초, 원거리 챔피언의 경우 6초) 서리 영역을 지나는 적들은 근접 챔피언의 경우 25%, 원거리 챔피언의 경우 12.5% <status>둔화</status>됩니다. (자신의 <scaleHealth>최대 체력</scaleHealth>에 비례)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 체력 <attention>100</attention> 및 챔피언 크기 <attention>6%</attention></mainText><br><div class='tooltip-gold'>2800 골드</div>"
+      "tooltip": "<div class='tooltip-title'>서리불꽃 건틀릿</div><mainText><stats>체력 <attention>450</attention><br>방어력 <attention>25</attention><br>마법 저항력 <attention>25</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>불사르기:</passive> 피해를 받거나 입히면 주변 적들에게 3초 동안 초당 <magicDamage>12+추가 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. (미니언 대상 25%, 몬스터 대상 150% 증가)<li><passive>고립:</passive> 기본 공격 시 1.5초 동안 서리 영역을 생성하고 추가 마법 피해(12~85/6~42.5)를 입힙니다. (재사용 대기시간 4초, 원거리 챔피언의 경우 6초) 서리 영역을 지나는 적들은 근접 챔피언의 경우 25%, 원거리 챔피언의 경우 12.5% <status>둔화</status>됩니다. (자신의 <scaleHealth>최대 체력</scaleHealth>에 비례)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 체력 <attention>100</attention> 및 챔피언 크기 <attention>6%</attention></mainText><br><div class='tooltip-gold'>2800 골드</div>"
     },
     "6664": {
       "name": "터보 화공 탱크",
-      "desc": "<mainText><stats>체력 <attention>350</attention><br>방어력 <attention>25</attention><br>마법 저항력 <attention>25</attention><br>스킬 가속 <attention>20</attention></stats><br><br><active>사용 시 -</active> <active>고속 충전 완료:</active> 4초 동안 적이나 적 포탑 쪽으로 이동할 때 <speed>이동 속도가 40%</speed> 상승합니다. 적에게 근접하거나 4초가 지나면 충격파를 발산하여 1.5초 동안 주변 적 챔피언들을 50% <status>둔화</status>시킵니다. (재사용 대기시간 90초)<br><passive>연료 재충전:</passive> 이동하거나 챔피언 및 대형 몬스터에게 피해를 받으면 <keywordMajor>화공 탱크</keywordMajor>가 차오릅니다. 100까지 중첩되면 다음 기본 공격이 주변 모든 적에게 <magicDamage>40~120(+최대 체력의 1%, +이동 속도의 3%)의 마법 피해</magicDamage>(미니언 대상 30%, 정글 몬스터 대상 200% 증가)를 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention> 및 체력 <attention>50</attention></mainText><br>",
+      "desc": "<mainText><stats>체력 <attention>450</attention><br>방어력 <attention>25</attention><br>마법 저항력 <attention>25</attention><br>스킬 가속 <attention>20</attention></stats><br><br><active>사용 시 -</active> <active>고속 충전 완료:</active> 4초 동안 적이나 적 포탑 쪽으로 이동할 때 <speed>이동 속도가 40%</speed> 상승합니다. 적에게 근접하거나 4초가 지나면 충격파를 발산하여 1.5초 동안 주변 적 챔피언들을 50% <status>둔화</status>시킵니다. (재사용 대기시간 90초)<br><passive>연료 재충전:</passive> 이동하거나 챔피언 및 대형 몬스터에게 피해를 받으면 <keywordMajor>화공 탱크</keywordMajor>가 차오릅니다. 100까지 중첩되면 다음 기본 공격이 주변 모든 적에게 <magicDamage>40~120(+최대 체력의 1%, +이동 속도의 3%)의 마법 피해</magicDamage>(미니언 대상 30%, 정글 몬스터 대상 200% 증가)를 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention> 및 체력 <attention>50</attention></mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>터보 화공 탱크</div><mainText><stats>체력 <attention>350</attention><br>방어력 <attention>25</attention><br>마법 저항력 <attention>25</attention><br>스킬 가속 <attention>20</attention></stats><br><br><active>사용 시 -</active> <active>고속 충전 완료:</active> 4초 동안 적이나 적 포탑 쪽으로 이동할 때 <speed>이동 속도가 40%</speed> 상승합니다. 적에게 근접하거나 4초가 지나면 충격파를 발산하여 1.5초 동안 주변 적 챔피언들을 50% <status>둔화</status>시킵니다. (재사용 대기시간 90초)<br><passive>연료 재충전:</passive> 이동하거나 챔피언 및 대형 몬스터에게 피해를 받으면 <keywordMajor>화공 탱크</keywordMajor>가 차오릅니다. 100까지 중첩되면 다음 기본 공격이 주변 모든 적에게 <magicDamage>40~120(+최대 체력의 1%, +이동 속도의 3%)의 마법 피해</magicDamage>(미니언 대상 30%, 정글 몬스터 대상 200% 증가)를 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention> 및 체력 <attention>50</attention></mainText><br><div class='tooltip-gold'>2800 골드</div>"
+      "tooltip": "<div class='tooltip-title'>터보 화공 탱크</div><mainText><stats>체력 <attention>450</attention><br>방어력 <attention>25</attention><br>마법 저항력 <attention>25</attention><br>스킬 가속 <attention>20</attention></stats><br><br><active>사용 시 -</active> <active>고속 충전 완료:</active> 4초 동안 적이나 적 포탑 쪽으로 이동할 때 <speed>이동 속도가 40%</speed> 상승합니다. 적에게 근접하거나 4초가 지나면 충격파를 발산하여 1.5초 동안 주변 적 챔피언들을 50% <status>둔화</status>시킵니다. (재사용 대기시간 90초)<br><passive>연료 재충전:</passive> 이동하거나 챔피언 및 대형 몬스터에게 피해를 받으면 <keywordMajor>화공 탱크</keywordMajor>가 차오릅니다. 100까지 중첩되면 다음 기본 공격이 주변 모든 적에게 <magicDamage>40~120(+최대 체력의 1%, +이동 속도의 3%)의 마법 피해</magicDamage>(미니언 대상 30%, 정글 몬스터 대상 200% 증가)를 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention> 및 체력 <attention>50</attention></mainText><br><div class='tooltip-gold'>2800 골드</div>"
     },
     "6670": {
       "name": "절정의 화살",
@@ -1730,15 +1742,15 @@
     },
     "6672": {
       "name": "크라켄 학살자",
-      "desc": "<mainText><stats>공격력 <attention>65</attention><br>공격 속도 <attention>25%</attention><br>치명타 확률 <attention>20%</attention></stats><br><li><passive>벼락:</passive> 세 번째 기본 공격을 가할 때마다 <trueDamage>60+추가 공격력의 45%에 해당하는 고정 피해</trueDamage>를 추가로 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 공격 속도 <attention>10%</attention></mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>65</attention><br>공격 속도 <attention>25%</attention><br>치명타 확률 <attention>20%</attention></stats><br><li><passive>벼락:</passive> 세 번째 기본 공격을 가할 때마다 <trueDamage>50+추가 공격력의 40%에 해당하는 고정 피해</trueDamage>를 추가로 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 공격 속도 <attention>10%</attention></mainText><br>",
       "gold": 3400,
-      "tooltip": "<div class='tooltip-title'>크라켄 학살자</div><mainText><stats>공격력 <attention>65</attention><br>공격 속도 <attention>25%</attention><br>치명타 확률 <attention>20%</attention></stats><br><li><passive>벼락:</passive> 세 번째 기본 공격을 가할 때마다 <trueDamage>60+추가 공격력의 45%에 해당하는 고정 피해</trueDamage>를 추가로 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 공격 속도 <attention>10%</attention></mainText><br><div class='tooltip-gold'>3400 골드</div>"
+      "tooltip": "<div class='tooltip-title'>크라켄 학살자</div><mainText><stats>공격력 <attention>65</attention><br>공격 속도 <attention>25%</attention><br>치명타 확률 <attention>20%</attention></stats><br><li><passive>벼락:</passive> 세 번째 기본 공격을 가할 때마다 <trueDamage>50+추가 공격력의 40%에 해당하는 고정 피해</trueDamage>를 추가로 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 공격 속도 <attention>10%</attention></mainText><br><div class='tooltip-gold'>3400 골드</div>"
     },
     "6673": {
       "name": "불멸의 철갑궁",
-      "desc": "<mainText><stats>공격력 <attention>50</attention><br>공격 속도 <attention>20%</attention><br>치명타 확률 <attention>20%</attention><br>생명력 흡수 <attention>8%</attention></stats><br><li><passive>생명선:</passive> 피해를 받아 체력이 30% 아래로 떨어질 경우 3초 동안 <shield>275~700의 피해를 흡수하는 보호막</shield>을 얻습니다. 또한 8초 동안 <attackDamage>공격력이 15~35</attackDamage> 증가합니다. (90초 )<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 공격력 <attention>5</attention> 및 체력 <attention>70</attention></mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>50</attention><br>공격 속도 <attention>20%</attention><br>치명타 확률 <attention>20%</attention><br>생명력 흡수 <attention>7%</attention></stats><br><li><passive>생명선:</passive> 피해를 받아 체력이 30% 아래로 떨어질 경우 3초 동안 <shield>250~630의 피해를 흡수하는 보호막</shield>을 얻습니다. 또한 8초 동안 <attackDamage>공격력이 15~35</attackDamage> 증가합니다. (90초 )<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 공격력 <attention>5</attention> 및 체력 <attention>70</attention></mainText><br>",
       "gold": 3400,
-      "tooltip": "<div class='tooltip-title'>불멸의 철갑궁</div><mainText><stats>공격력 <attention>50</attention><br>공격 속도 <attention>20%</attention><br>치명타 확률 <attention>20%</attention><br>생명력 흡수 <attention>8%</attention></stats><br><li><passive>생명선:</passive> 피해를 받아 체력이 30% 아래로 떨어질 경우 3초 동안 <shield>275~700의 피해를 흡수하는 보호막</shield>을 얻습니다. 또한 8초 동안 <attackDamage>공격력이 15~35</attackDamage> 증가합니다. (90초 )<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 공격력 <attention>5</attention> 및 체력 <attention>70</attention></mainText><br><div class='tooltip-gold'>3400 골드</div>"
+      "tooltip": "<div class='tooltip-title'>불멸의 철갑궁</div><mainText><stats>공격력 <attention>50</attention><br>공격 속도 <attention>20%</attention><br>치명타 확률 <attention>20%</attention><br>생명력 흡수 <attention>7%</attention></stats><br><li><passive>생명선:</passive> 피해를 받아 체력이 30% 아래로 떨어질 경우 3초 동안 <shield>250~630의 피해를 흡수하는 보호막</shield>을 얻습니다. 또한 8초 동안 <attackDamage>공격력이 15~35</attackDamage> 증가합니다. (90초 )<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 공격력 <attention>5</attention> 및 체력 <attention>70</attention></mainText><br><div class='tooltip-gold'>3400 골드</div>"
     },
     "6675": {
       "name": "나보리 신속검",
@@ -1760,21 +1772,21 @@
     },
     "6691": {
       "name": "드락사르의 황혼검",
-      "desc": "<mainText><stats>공격력 <attention>60</attention><br>물리 관통력 <attention>18</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>밤의 추적자:</passive> 챔피언에게 기본 공격 시 <physicalDamage>물리 피해(근접 챔피언의 경우 75+추가 공격력의 30%, 원거리 챔피언의 경우 55+추가 공격력의 25%)</physicalDamage>를 추가로 입힙니다. (재사용 대기시간 15초) 또한 근접 챔피언의 경우 대상을 0.25초 동안 99% <status>둔화</status>시킵니다. 피해를 입은 챔피언이 3초 내에 처치되면 재사용 대기시간이 초기화되며 1.5초 동안 <keywordStealth>투명</keywordStealth> 상태가 됩니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention><br></mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>60</attention><br>물리 관통력 <attention>22</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>밤의 추적자:</passive> 챔피언에게 기본 공격 시 <physicalDamage>물리 피해(근접 챔피언의 경우 75+추가 공격력의 30%, 원거리 챔피언의 경우 55+추가 공격력의 25%)</physicalDamage>를 추가로 입힙니다. (재사용 대기시간 15초) 또한 근접 챔피언의 경우 대상을 0.25초 동안 99% <status>둔화</status>시킵니다. 피해를 입은 챔피언이 3초 내에 처치되면 재사용 대기시간이 초기화되며 1.5초 동안 <keywordStealth>투명</keywordStealth> 상태가 됩니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention><br></mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>드락사르의 황혼검</div><mainText><stats>공격력 <attention>60</attention><br>물리 관통력 <attention>18</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>밤의 추적자:</passive> 챔피언에게 기본 공격 시 <physicalDamage>물리 피해(근접 챔피언의 경우 75+추가 공격력의 30%, 원거리 챔피언의 경우 55+추가 공격력의 25%)</physicalDamage>를 추가로 입힙니다. (재사용 대기시간 15초) 또한 근접 챔피언의 경우 대상을 0.25초 동안 99% <status>둔화</status>시킵니다. 피해를 입은 챔피언이 3초 내에 처치되면 재사용 대기시간이 초기화되며 1.5초 동안 <keywordStealth>투명</keywordStealth> 상태가 됩니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention><br></mainText><br><div class='tooltip-gold'>3100 골드</div>"
+      "tooltip": "<div class='tooltip-title'>드락사르의 황혼검</div><mainText><stats>공격력 <attention>60</attention><br>물리 관통력 <attention>22</attention><br>스킬 가속 <attention>20</attention></stats><br><li><passive>밤의 추적자:</passive> 챔피언에게 기본 공격 시 <physicalDamage>물리 피해(근접 챔피언의 경우 75+추가 공격력의 30%, 원거리 챔피언의 경우 55+추가 공격력의 25%)</physicalDamage>를 추가로 입힙니다. (재사용 대기시간 15초) 또한 근접 챔피언의 경우 대상을 0.25초 동안 99% <status>둔화</status>시킵니다. 피해를 입은 챔피언이 3초 내에 처치되면 재사용 대기시간이 초기화되며 1.5초 동안 <keywordStealth>투명</keywordStealth> 상태가 됩니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention><br></mainText><br><div class='tooltip-gold'>3100 골드</div>"
     },
     "6692": {
       "name": "월식",
-      "desc": "<mainText><stats>공격력 <attention>55</attention><br>물리 관통력 <attention>18</attention><br>모든 피해 흡혈 <attention>8%</attention></stats><br><br><li><passive>늘 떠오르는 달:</passive> 1.5초 내에 한 챔피언에게 별개의 기본 공격이나 스킬로 2회 공격하면 <physicalDamage>대상 최대 체력의 6%에 해당하는 물리 피해</physicalDamage>를 추가로 입히고 2초 동안 <speed>이동 속도가 15%</speed> 상승하며 <shield>180+추가 공격력의 40%에 해당하는 피해를 흡수하는 보호막(원거리 챔피언의 경우 50%에 해당하는 피해를 흡수하는 보호막)</shield>을 얻습니다. (재사용 대기시간 8초, 원거리 챔피언의 경우 재사용 대기시간 16초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 방어구 관통력 <attention>4%</attention></mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>55</attention><br>물리 관통력 <attention>22</attention><br>모든 피해 흡혈 <attention>7%</attention></stats><br><br><li><passive>늘 떠오르는 달:</passive> 1.5초 내에 한 챔피언에게 별개의 기본 공격이나 스킬로 2회 공격하면 <physicalDamage>대상 최대 체력의 {{ Item_Melee_Ranged_Split_C }}%에 해당하는 물리 피해</physicalDamage>를 추가로 입히고 2초 동안 <speed>이동 속도가 15%</speed> 상승하며 <shield>160+추가 공격력의 35%에 해당하는 피해를 흡수하는 보호막(원거리 챔피언의 경우 50%에 해당하는 피해를 흡수하는 보호막)</shield>을 얻습니다. (재사용 대기시간 8초, 원거리 챔피언의 경우 재사용 대기시간 16초)<br><br>{{ Item_Mythic_Passive }} 방어구 관통력 <attention>4%</attention></mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>월식</div><mainText><stats>공격력 <attention>55</attention><br>물리 관통력 <attention>18</attention><br>모든 피해 흡혈 <attention>8%</attention></stats><br><br><li><passive>늘 떠오르는 달:</passive> 1.5초 내에 한 챔피언에게 별개의 기본 공격이나 스킬로 2회 공격하면 <physicalDamage>대상 최대 체력의 6%에 해당하는 물리 피해</physicalDamage>를 추가로 입히고 2초 동안 <speed>이동 속도가 15%</speed> 상승하며 <shield>180+추가 공격력의 40%에 해당하는 피해를 흡수하는 보호막(원거리 챔피언의 경우 50%에 해당하는 피해를 흡수하는 보호막)</shield>을 얻습니다. (재사용 대기시간 8초, 원거리 챔피언의 경우 재사용 대기시간 16초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 방어구 관통력 <attention>4%</attention></mainText><br><div class='tooltip-gold'>3100 골드</div>"
+      "tooltip": "<div class='tooltip-title'>월식</div><mainText><stats>공격력 <attention>55</attention><br>물리 관통력 <attention>22</attention><br>모든 피해 흡혈 <attention>7%</attention></stats><br><br><li><passive>늘 떠오르는 달:</passive> 1.5초 내에 한 챔피언에게 별개의 기본 공격이나 스킬로 2회 공격하면 <physicalDamage>대상 최대 체력의 {{ Item_Melee_Ranged_Split_C }}%에 해당하는 물리 피해</physicalDamage>를 추가로 입히고 2초 동안 <speed>이동 속도가 15%</speed> 상승하며 <shield>160+추가 공격력의 35%에 해당하는 피해를 흡수하는 보호막(원거리 챔피언의 경우 50%에 해당하는 피해를 흡수하는 보호막)</shield>을 얻습니다. (재사용 대기시간 8초, 원거리 챔피언의 경우 재사용 대기시간 16초)<br><br>{{ Item_Mythic_Passive }} 방어구 관통력 <attention>4%</attention></mainText><br><div class='tooltip-gold'>3100 골드</div>"
     },
     "6693": {
       "name": "자객의 발톱",
-      "desc": "<mainText><stats>공격력 <attention>60</attention><br>물리 관통력 <attention>18</attention><br>스킬 가속 <attention>20</attention></stats><br><br><active>사용 시 -</active> <active>모래 일격:</active> 지정한 적 챔피언을 관통해 돌진하며 <physicalDamage>75+추가 공격력의 30%에 해당하는 물리 피해</physicalDamage>를 입히고 3초 동안 대상에게 입히는 피해량이 15% 증가합니다. (재사용 대기시간 90초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 물리 관통력 <attention>5</attention></mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>60</attention><br>물리 관통력 <attention>22</attention><br>스킬 가속 <attention>20</attention></stats><br><br><active>사용 시 -</active> <active>모래 일격:</active> 지정한 적 챔피언을 관통해 돌진하며 <physicalDamage>75+추가 공격력의 30%에 해당하는 물리 피해</physicalDamage>를 입히고 3초 동안 대상에게 입히는 피해량이 15% 증가합니다. (재사용 대기시간 90초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 물리 관통력 <attention>5</attention></mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>자객의 발톱</div><mainText><stats>공격력 <attention>60</attention><br>물리 관통력 <attention>18</attention><br>스킬 가속 <attention>20</attention></stats><br><br><active>사용 시 -</active> <active>모래 일격:</active> 지정한 적 챔피언을 관통해 돌진하며 <physicalDamage>75+추가 공격력의 30%에 해당하는 물리 피해</physicalDamage>를 입히고 3초 동안 대상에게 입히는 피해량이 15% 증가합니다. (재사용 대기시간 90초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 물리 관통력 <attention>5</attention></mainText><br><div class='tooltip-gold'>3100 골드</div>"
+      "tooltip": "<div class='tooltip-title'>자객의 발톱</div><mainText><stats>공격력 <attention>60</attention><br>물리 관통력 <attention>22</attention><br>스킬 가속 <attention>20</attention></stats><br><br><active>사용 시 -</active> <active>모래 일격:</active> 지정한 적 챔피언을 관통해 돌진하며 <physicalDamage>75+추가 공격력의 30%에 해당하는 물리 피해</physicalDamage>를 입히고 3초 동안 대상에게 입히는 피해량이 15% 증가합니다. (재사용 대기시간 90초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 물리 관통력 <attention>5</attention></mainText><br><div class='tooltip-gold'>3100 골드</div>"
     },
     "6694": {
       "name": "세릴다의 원한",
@@ -1784,51 +1796,51 @@
     },
     "6695": {
       "name": "독사의 송곳니",
-      "desc": "<mainText><stats>공격력 <attention>55</attention><br>물리 관통력 <attention>12</attention></stats><br><li><passive>보호막 파괴자:</passive> 적 챔피언에게 피해를 입히면 3초 동안 받는 보호막의 효과를 감소시킵니다. (근접 챔피언의 경우 50% | 원거리 챔피언의 경우 35%) 보호막 파괴자에 영향을 받지 않은 적에게 피해를 입히면 보호막을 감소시킵니다. (근접 챔피언의 경우 50% | 원거리 챔피언의 경우 35%)<br><br><rules>마법 피해만 막는 보호막을 가진 대상에게는 추가 피해가 적용되지 않습니다.<br>아이템 성능은 근접 챔피언과 원거리 챔피언에게 각각 다르게 적용됩니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>55</attention><br>물리 관통력 <attention>14</attention></stats><br><li><passive>보호막 파괴자:</passive> 적 챔피언에게 피해를 입히면 3초 동안 받는 보호막의 효과를 감소시킵니다. (근접 챔피언의 경우 50% | 원거리 챔피언의 경우 35%) 보호막 파괴자에 영향을 받지 않은 적에게 피해를 입히면 보호막을 감소시킵니다. (근접 챔피언의 경우 50% | 원거리 챔피언의 경우 35%)<br><br><rules>마법 피해만 막는 보호막을 가진 대상에게는 추가 피해가 적용되지 않습니다.<br>아이템 성능은 근접 챔피언과 원거리 챔피언에게 각각 다르게 적용됩니다.</rules></mainText><br>",
       "gold": 2600,
-      "tooltip": "<div class='tooltip-title'>독사의 송곳니</div><mainText><stats>공격력 <attention>55</attention><br>물리 관통력 <attention>12</attention></stats><br><li><passive>보호막 파괴자:</passive> 적 챔피언에게 피해를 입히면 3초 동안 받는 보호막의 효과를 감소시킵니다. (근접 챔피언의 경우 50% | 원거리 챔피언의 경우 35%) 보호막 파괴자에 영향을 받지 않은 적에게 피해를 입히면 보호막을 감소시킵니다. (근접 챔피언의 경우 50% | 원거리 챔피언의 경우 35%)<br><br><rules>마법 피해만 막는 보호막을 가진 대상에게는 추가 피해가 적용되지 않습니다.<br>아이템 성능은 근접 챔피언과 원거리 챔피언에게 각각 다르게 적용됩니다.</rules></mainText><br><div class='tooltip-gold'>2600 골드</div>"
+      "tooltip": "<div class='tooltip-title'>독사의 송곳니</div><mainText><stats>공격력 <attention>55</attention><br>물리 관통력 <attention>14</attention></stats><br><li><passive>보호막 파괴자:</passive> 적 챔피언에게 피해를 입히면 3초 동안 받는 보호막의 효과를 감소시킵니다. (근접 챔피언의 경우 50% | 원거리 챔피언의 경우 35%) 보호막 파괴자에 영향을 받지 않은 적에게 피해를 입히면 보호막을 감소시킵니다. (근접 챔피언의 경우 50% | 원거리 챔피언의 경우 35%)<br><br><rules>마법 피해만 막는 보호막을 가진 대상에게는 추가 피해가 적용되지 않습니다.<br>아이템 성능은 근접 챔피언과 원거리 챔피언에게 각각 다르게 적용됩니다.</rules></mainText><br><div class='tooltip-gold'>2600 골드</div>"
     },
     "6696": {
       "name": "원칙의 원형낫",
-      "desc": "<mainText><stats>공격력 <attention>55</attention><br>물리 관통력 <attention>10</attention><br>스킬 가속 <attention>25</attention></stats><br><li><passive>흐름:</passive> 피해를 입힌 챔피언이 3초 내에 처치되면 궁극기 총 재사용 대기시간의 20%를 돌려받습니다.</mainText><br>",
+      "desc": "<mainText><stats>공격력 <attention>55</attention><br>물리 관통력 <attention>13</attention><br>스킬 가속 <attention>25</attention></stats><br><li><passive>흐름:</passive> 피해를 입힌 챔피언이 3초 내에 처치되면 궁극기 총 재사용 대기시간의 20%를 돌려받습니다.</mainText><br>",
       "gold": 3000,
-      "tooltip": "<div class='tooltip-title'>원칙의 원형낫</div><mainText><stats>공격력 <attention>55</attention><br>물리 관통력 <attention>10</attention><br>스킬 가속 <attention>25</attention></stats><br><li><passive>흐름:</passive> 피해를 입힌 챔피언이 3초 내에 처치되면 궁극기 총 재사용 대기시간의 20%를 돌려받습니다.</mainText><br><div class='tooltip-gold'>3000 골드</div>"
+      "tooltip": "<div class='tooltip-title'>원칙의 원형낫</div><mainText><stats>공격력 <attention>55</attention><br>물리 관통력 <attention>13</attention><br>스킬 가속 <attention>25</attention></stats><br><li><passive>흐름:</passive> 피해를 입힌 챔피언이 3초 내에 처치되면 궁극기 총 재사용 대기시간의 20%를 돌려받습니다.</mainText><br><div class='tooltip-gold'>3000 골드</div>"
     },
     "7000": {
       "name": "암살자의 발톱",
-      "desc": "<mainText><stats>공격력 <ornnBonus>75</ornnBonus><br>물리 관통력 <ornnBonus>26</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><br><active>사용 시 -</active> <active>모래 일격:</active> 지정한 적 챔피언을 관통해 돌진하며 <physicalDamage>75+추가 공격력의 30%에 해당하는 물리 피해</physicalDamage>를 입히고 3초 동안 대상에게 입히는 피해량이 15% 증가합니다. (재사용 대기시간 90초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 물리 관통력 <attention>5</attention></mainText><br>",
+      "desc": "<mainText><stats>공격력 <ornnBonus>75</ornnBonus><br>물리 관통력 <ornnBonus>32</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><br><active>사용 시 -</active> <active>모래 일격:</active> 지정한 적 챔피언을 관통해 돌진하며 <physicalDamage>75+추가 공격력의 30%에 해당하는 물리 피해</physicalDamage>를 입히고 3초 동안 대상에게 입히는 피해량이 15% 증가합니다. (재사용 대기시간 90초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 물리 관통력 <attention>5</attention></mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>암살자의 발톱</div><mainText><stats>공격력 <ornnBonus>75</ornnBonus><br>물리 관통력 <ornnBonus>26</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><br><active>사용 시 -</active> <active>모래 일격:</active> 지정한 적 챔피언을 관통해 돌진하며 <physicalDamage>75+추가 공격력의 30%에 해당하는 물리 피해</physicalDamage>를 입히고 3초 동안 대상에게 입히는 피해량이 15% 증가합니다. (재사용 대기시간 90초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 물리 관통력 <attention>5</attention></mainText><br><div class='tooltip-gold'>3100 골드</div>"
+      "tooltip": "<div class='tooltip-title'>암살자의 발톱</div><mainText><stats>공격력 <ornnBonus>75</ornnBonus><br>물리 관통력 <ornnBonus>32</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><br><active>사용 시 -</active> <active>모래 일격:</active> 지정한 적 챔피언을 관통해 돌진하며 <physicalDamage>75+추가 공격력의 30%에 해당하는 물리 피해</physicalDamage>를 입히고 3초 동안 대상에게 입히는 피해량이 15% 증가합니다. (재사용 대기시간 90초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 물리 관통력 <attention>5</attention></mainText><br><div class='tooltip-gold'>3100 골드</div>"
     },
     "7001": {
       "name": "천체 정렬",
-      "desc": "<mainText><stats>공격력 <ornnBonus>75</ornnBonus><br>물리 관통력 <ornnBonus>26</ornnBonus><br>모든 피해 흡혈 <ornnBonus>10%</ornnBonus></stats><br><br><li><passive>늘 떠오르는 달:</passive> 1.5초 내에 한 챔피언에게 별개의 기본 공격이나 스킬로 2회 공격하면 <physicalDamage>대상 최대 체력의 6%에 해당하는 물리 피해</physicalDamage>를 추가로 입히고 2초 동안 <speed>이동 속도가 15%</speed> 상승하며 <shield>180+추가 공격력의 40%에 해당하는 피해를 흡수하는 보호막(원거리 챔피언의 경우 50%에 해당하는 피해를 흡수하는 보호막)</shield>을 얻습니다. (재사용 대기시간 8초, 원거리 챔피언의 경우 재사용 대기시간 16초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 방어구 관통력 <attention>4%</attention></mainText><br>",
+      "desc": "<mainText><stats>공격력 <ornnBonus>75</ornnBonus><br>물리 관통력 <ornnBonus>32</ornnBonus><br>모든 피해 흡혈 <ornnBonus>8%</ornnBonus></stats><br><br><li><passive>늘 떠오르는 달:</passive> 1.5초 내에 한 챔피언에게 별개의 기본 공격이나 스킬로 2회 공격하면 <physicalDamage>대상 최대 체력의 {{ Item_Melee_Ranged_Split_C }}%에 해당하는 물리 피해</physicalDamage>를 추가로 입히고 2초 동안 <speed>이동 속도가 15%</speed> 상승하며 <shield>160+추가 공격력의 35%에 해당하는 피해를 흡수하는 보호막(원거리 챔피언의 경우 50%에 해당하는 피해를 흡수하는 보호막)</shield>을 얻습니다. (재사용 대기시간 8초, 원거리 챔피언의 경우 재사용 대기시간 16초)<br><br>{{ Item_Mythic_Passive }} 방어구 관통력 <attention>4%</attention></mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>천체 정렬</div><mainText><stats>공격력 <ornnBonus>75</ornnBonus><br>물리 관통력 <ornnBonus>26</ornnBonus><br>모든 피해 흡혈 <ornnBonus>10%</ornnBonus></stats><br><br><li><passive>늘 떠오르는 달:</passive> 1.5초 내에 한 챔피언에게 별개의 기본 공격이나 스킬로 2회 공격하면 <physicalDamage>대상 최대 체력의 6%에 해당하는 물리 피해</physicalDamage>를 추가로 입히고 2초 동안 <speed>이동 속도가 15%</speed> 상승하며 <shield>180+추가 공격력의 40%에 해당하는 피해를 흡수하는 보호막(원거리 챔피언의 경우 50%에 해당하는 피해를 흡수하는 보호막)</shield>을 얻습니다. (재사용 대기시간 8초, 원거리 챔피언의 경우 재사용 대기시간 16초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 방어구 관통력 <attention>4%</attention></mainText><br><div class='tooltip-gold'>3100 골드</div>"
+      "tooltip": "<div class='tooltip-title'>천체 정렬</div><mainText><stats>공격력 <ornnBonus>75</ornnBonus><br>물리 관통력 <ornnBonus>32</ornnBonus><br>모든 피해 흡혈 <ornnBonus>8%</ornnBonus></stats><br><br><li><passive>늘 떠오르는 달:</passive> 1.5초 내에 한 챔피언에게 별개의 기본 공격이나 스킬로 2회 공격하면 <physicalDamage>대상 최대 체력의 {{ Item_Melee_Ranged_Split_C }}%에 해당하는 물리 피해</physicalDamage>를 추가로 입히고 2초 동안 <speed>이동 속도가 15%</speed> 상승하며 <shield>160+추가 공격력의 35%에 해당하는 피해를 흡수하는 보호막(원거리 챔피언의 경우 50%에 해당하는 피해를 흡수하는 보호막)</shield>을 얻습니다. (재사용 대기시간 8초, 원거리 챔피언의 경우 재사용 대기시간 16초)<br><br>{{ Item_Mythic_Passive }} 방어구 관통력 <attention>4%</attention></mainText><br><div class='tooltip-gold'>3100 골드</div>"
     },
     "7002": {
       "name": "드락사르의 암흑검",
-      "desc": "<mainText><stats>공격력 <ornnBonus>75</ornnBonus><br>물리 관통력 <ornnBonus>26</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><li><passive>밤의 추적자:</passive> 챔피언에게 기본 공격 시 <physicalDamage>물리 피해(근접 챔피언의 경우 75+추가 공격력의 30%, 원거리 챔피언의 경우 55+추가 공격력의 25%)</physicalDamage>를 추가로 입힙니다. (재사용 대기시간 15초) 또한 근접 챔피언의 경우 대상을 0.25초 동안 99% <status>둔화</status>시킵니다. 피해를 입은 챔피언이 3초 내에 처치되면 재사용 대기시간이 초기화되며 1.5초 동안 <keywordStealth>투명</keywordStealth> 상태가 됩니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention><br></mainText><br>",
+      "desc": "<mainText><stats>공격력 <ornnBonus>75</ornnBonus><br>물리 관통력 <ornnBonus>32</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><li><passive>밤의 추적자:</passive> 챔피언에게 기본 공격 시 <physicalDamage>물리 피해(근접 챔피언의 경우 75+추가 공격력의 30%, 원거리 챔피언의 경우 55+추가 공격력의 25%)</physicalDamage>를 추가로 입힙니다. (재사용 대기시간 15초) 또한 근접 챔피언의 경우 대상을 0.25초 동안 99% <status>둔화</status>시킵니다. 피해를 입은 챔피언이 3초 내에 처치되면 재사용 대기시간이 초기화되며 1.5초 동안 <keywordStealth>투명</keywordStealth> 상태가 됩니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention><br></mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>드락사르의 암흑검</div><mainText><stats>공격력 <ornnBonus>75</ornnBonus><br>물리 관통력 <ornnBonus>26</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><li><passive>밤의 추적자:</passive> 챔피언에게 기본 공격 시 <physicalDamage>물리 피해(근접 챔피언의 경우 75+추가 공격력의 30%, 원거리 챔피언의 경우 55+추가 공격력의 25%)</physicalDamage>를 추가로 입힙니다. (재사용 대기시간 15초) 또한 근접 챔피언의 경우 대상을 0.25초 동안 99% <status>둔화</status>시킵니다. 피해를 입은 챔피언이 3초 내에 처치되면 재사용 대기시간이 초기화되며 1.5초 동안 <keywordStealth>투명</keywordStealth> 상태가 됩니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention><br></mainText><br><div class='tooltip-gold'>3100 골드</div>"
+      "tooltip": "<div class='tooltip-title'>드락사르의 암흑검</div><mainText><stats>공격력 <ornnBonus>75</ornnBonus><br>물리 관통력 <ornnBonus>32</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><li><passive>밤의 추적자:</passive> 챔피언에게 기본 공격 시 <physicalDamage>물리 피해(근접 챔피언의 경우 75+추가 공격력의 30%, 원거리 챔피언의 경우 55+추가 공격력의 25%)</physicalDamage>를 추가로 입힙니다. (재사용 대기시간 15초) 또한 근접 챔피언의 경우 대상을 0.25초 동안 99% <status>둔화</status>시킵니다. 피해를 입은 챔피언이 3초 내에 처치되면 재사용 대기시간이 초기화되며 1.5초 동안 <keywordStealth>투명</keywordStealth> 상태가 됩니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention><br></mainText><br><div class='tooltip-gold'>3100 골드</div>"
     },
     "7003": {
       "name": "터보 충전 마공학 실험장치",
-      "desc": "<mainText><stats>체력 <ornnBonus>500</ornnBonus><br>방어력 <ornnBonus>40</ornnBonus><br>마법 저항력 <ornnBonus>40</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><br><active>사용 시 -</active> <active>고속 충전 완료:</active> 4초 동안 적이나 적 포탑 쪽으로 이동할 때 <speed>이동 속도가 40%</speed> 상승합니다. 적에게 근접하거나 4초가 지나면 충격파를 발산하여 1.5초 동안 주변 적 챔피언들을 50% <status>둔화</status>시킵니다. (재사용 대기시간 90초)<br><passive>연료 재충전:</passive> 이동하거나 챔피언 및 대형 몬스터에게 피해를 받으면 <keywordMajor>화공 탱크</keywordMajor>가 차오릅니다. 100까지 중첩되면 다음 기본 공격이 주변 모든 적에게 <magicDamage>40~120(+최대 체력의 1%, +이동 속도의 3%)의 마법 피해</magicDamage>(미니언 대상 30%, 정글 몬스터 대상 200% 증가)를 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention> 및 체력 <attention>50</attention></mainText><br>",
+      "desc": "<mainText><stats>체력 <ornnBonus>600</ornnBonus><br>방어력 <ornnBonus>40</ornnBonus><br>마법 저항력 <ornnBonus>40</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><br><active>사용 시 -</active> <active>고속 충전 완료:</active> 4초 동안 적이나 적 포탑 쪽으로 이동할 때 <speed>이동 속도가 40%</speed> 상승합니다. 적에게 근접하거나 4초가 지나면 충격파를 발산하여 1.5초 동안 주변 적 챔피언들을 50% <status>둔화</status>시킵니다. (재사용 대기시간 90초)<br><passive>연료 재충전:</passive> 이동하거나 챔피언 및 대형 몬스터에게 피해를 받으면 <keywordMajor>화공 탱크</keywordMajor>가 차오릅니다. 100까지 중첩되면 다음 기본 공격이 주변 모든 적에게 <magicDamage>40~120(+최대 체력의 1%, +이동 속도의 3%)의 마법 피해</magicDamage>(미니언 대상 30%, 정글 몬스터 대상 200% 증가)를 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention> 및 체력 <attention>50</attention></mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>터보 충전 마공학 실험장치</div><mainText><stats>체력 <ornnBonus>500</ornnBonus><br>방어력 <ornnBonus>40</ornnBonus><br>마법 저항력 <ornnBonus>40</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><br><active>사용 시 -</active> <active>고속 충전 완료:</active> 4초 동안 적이나 적 포탑 쪽으로 이동할 때 <speed>이동 속도가 40%</speed> 상승합니다. 적에게 근접하거나 4초가 지나면 충격파를 발산하여 1.5초 동안 주변 적 챔피언들을 50% <status>둔화</status>시킵니다. (재사용 대기시간 90초)<br><passive>연료 재충전:</passive> 이동하거나 챔피언 및 대형 몬스터에게 피해를 받으면 <keywordMajor>화공 탱크</keywordMajor>가 차오릅니다. 100까지 중첩되면 다음 기본 공격이 주변 모든 적에게 <magicDamage>40~120(+최대 체력의 1%, +이동 속도의 3%)의 마법 피해</magicDamage>(미니언 대상 30%, 정글 몬스터 대상 200% 증가)를 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention> 및 체력 <attention>50</attention></mainText><br><div class='tooltip-gold'>2800 골드</div>"
+      "tooltip": "<div class='tooltip-title'>터보 충전 마공학 실험장치</div><mainText><stats>체력 <ornnBonus>600</ornnBonus><br>방어력 <ornnBonus>40</ornnBonus><br>마법 저항력 <ornnBonus>40</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><br><active>사용 시 -</active> <active>고속 충전 완료:</active> 4초 동안 적이나 적 포탑 쪽으로 이동할 때 <speed>이동 속도가 40%</speed> 상승합니다. 적에게 근접하거나 4초가 지나면 충격파를 발산하여 1.5초 동안 주변 적 챔피언들을 50% <status>둔화</status>시킵니다. (재사용 대기시간 90초)<br><passive>연료 재충전:</passive> 이동하거나 챔피언 및 대형 몬스터에게 피해를 받으면 <keywordMajor>화공 탱크</keywordMajor>가 차오릅니다. 100까지 중첩되면 다음 기본 공격이 주변 모든 적에게 <magicDamage>40~120(+최대 체력의 1%, +이동 속도의 3%)의 마법 피해</magicDamage>(미니언 대상 30%, 정글 몬스터 대상 200% 증가)를 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention> 및 체력 <attention>50</attention></mainText><br><div class='tooltip-gold'>2800 골드</div>"
     },
     "7004": {
       "name": "대장간 불꽃 문장",
-      "desc": "<mainText><stats>체력 <ornnBonus>500</ornnBonus><br>방어력 <ornnBonus>50</ornnBonus><br>마법 저항력 <ornnBonus>50</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><li><passive>불사르기:</passive> 피해를 받거나 입히면 주변 적들에게 3초 동안 초당 <magicDamage>12~30(레벨에 비례)+추가 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. (미니언 대상 25%, 몬스터 대상 150% 증가) 챔피언이나 에픽 몬스터에게 이 효과로 피해를 입히면 중첩이 1회 쌓여 다음 <passive>불사르기</passive> 피해량이 5초 동안 12% 증가합니다. (최대 6회 중첩)<li><passive>불의 손길:</passive> <passive>불사르기</passive> 중첩이 최대가 되면 기본 공격 시 주변 적들을 불태워 3초 동안 <passive>불사르기</passive> 피해를 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 강인함 및 둔화 저항 <attention>5%</attention> 및 체력 <attention>50</attention></mainText><br>",
+      "desc": "<mainText><stats>체력 <ornnBonus>600</ornnBonus><br>방어력 <ornnBonus>50</ornnBonus><br>마법 저항력 <ornnBonus>50</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><li><passive>불사르기:</passive> 피해를 받거나 입히면 주변 적들에게 3초 동안 초당 <magicDamage>12~30(레벨에 비례)+추가 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. (미니언 대상 25%, 몬스터 대상 150% 증가) 챔피언이나 에픽 몬스터에게 이 효과로 피해를 입히면 중첩이 1회 쌓여 다음 <passive>불사르기</passive> 피해량이 5초 동안 10% 증가합니다. (최대 6회 중첩)<li><passive>불의 손길:</passive> <passive>불사르기</passive> 중첩이 최대가 되면 기본 공격 시 주변 적들을 불태워 3초 동안 <passive>불사르기</passive> 피해를 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 강인함 및 둔화 저항 <attention>5%</attention> 및 체력 <attention>50</attention></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>대장간 불꽃 문장</div><mainText><stats>체력 <ornnBonus>500</ornnBonus><br>방어력 <ornnBonus>50</ornnBonus><br>마법 저항력 <ornnBonus>50</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><li><passive>불사르기:</passive> 피해를 받거나 입히면 주변 적들에게 3초 동안 초당 <magicDamage>12~30(레벨에 비례)+추가 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. (미니언 대상 25%, 몬스터 대상 150% 증가) 챔피언이나 에픽 몬스터에게 이 효과로 피해를 입히면 중첩이 1회 쌓여 다음 <passive>불사르기</passive> 피해량이 5초 동안 12% 증가합니다. (최대 6회 중첩)<li><passive>불의 손길:</passive> <passive>불사르기</passive> 중첩이 최대가 되면 기본 공격 시 주변 적들을 불태워 3초 동안 <passive>불사르기</passive> 피해를 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 강인함 및 둔화 저항 <attention>5%</attention> 및 체력 <attention>50</attention></mainText><br><div class='tooltip-gold'>3200 골드</div>"
+      "tooltip": "<div class='tooltip-title'>대장간 불꽃 문장</div><mainText><stats>체력 <ornnBonus>600</ornnBonus><br>방어력 <ornnBonus>50</ornnBonus><br>마법 저항력 <ornnBonus>50</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><li><passive>불사르기:</passive> 피해를 받거나 입히면 주변 적들에게 3초 동안 초당 <magicDamage>12~30(레벨에 비례)+추가 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. (미니언 대상 25%, 몬스터 대상 150% 증가) 챔피언이나 에픽 몬스터에게 이 효과로 피해를 입히면 중첩이 1회 쌓여 다음 <passive>불사르기</passive> 피해량이 5초 동안 10% 증가합니다. (최대 6회 중첩)<li><passive>불의 손길:</passive> <passive>불사르기</passive> 중첩이 최대가 되면 기본 공격 시 주변 적들을 불태워 3초 동안 <passive>불사르기</passive> 피해를 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 강인함 및 둔화 저항 <attention>5%</attention> 및 체력 <attention>50</attention></mainText><br><div class='tooltip-gold'>3200 골드</div>"
     },
     "7005": {
       "name": "서리벼림 손아귀",
-      "desc": "<mainText><stats>체력 <ornnBonus>500</ornnBonus><br>방어력 <ornnBonus>40</ornnBonus><br>마법 저항력 <ornnBonus>40</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><li><passive>불사르기:</passive> 피해를 받거나 입히면 주변 적들에게 3초 동안 초당 <magicDamage>12+추가 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. (미니언 대상 25%, 몬스터 대상 150% 증가)<li><passive>고립:</passive> 기본 공격 시 1.5초 동안 서리 영역을 생성하고 추가 마법 피해(12~85/6~42.5)를 입힙니다. (재사용 대기시간 4초, 원거리 챔피언의 경우 6초) 서리 영역을 지나는 적들은 근접 챔피언의 경우 25%, 원거리 챔피언의 경우 12.5% <status>둔화</status>됩니다. (자신의 <scaleHealth>최대 체력</scaleHealth>에 비례)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 체력 <attention>100</attention> 및 챔피언 크기 <attention>6%</attention></mainText><br>",
+      "desc": "<mainText><stats>체력 <ornnBonus>600</ornnBonus><br>방어력 <ornnBonus>40</ornnBonus><br>마법 저항력 <ornnBonus>40</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><li><passive>불사르기:</passive> 피해를 받거나 입히면 주변 적들에게 3초 동안 초당 <magicDamage>12+추가 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. (미니언 대상 25%, 몬스터 대상 150% 증가)<li><passive>고립:</passive> 기본 공격 시 1.5초 동안 서리 영역을 생성하고 추가 마법 피해(12~85/6~42.5)를 입힙니다. (재사용 대기시간 4초, 원거리 챔피언의 경우 6초) 서리 영역을 지나는 적들은 근접 챔피언의 경우 25%, 원거리 챔피언의 경우 12.5% <status>둔화</status>됩니다. (자신의 <scaleHealth>최대 체력</scaleHealth>에 비례)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 체력 <attention>100</attention> 및 챔피언 크기 <attention>6%</attention></mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>서리벼림 손아귀</div><mainText><stats>체력 <ornnBonus>500</ornnBonus><br>방어력 <ornnBonus>40</ornnBonus><br>마법 저항력 <ornnBonus>40</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><li><passive>불사르기:</passive> 피해를 받거나 입히면 주변 적들에게 3초 동안 초당 <magicDamage>12+추가 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. (미니언 대상 25%, 몬스터 대상 150% 증가)<li><passive>고립:</passive> 기본 공격 시 1.5초 동안 서리 영역을 생성하고 추가 마법 피해(12~85/6~42.5)를 입힙니다. (재사용 대기시간 4초, 원거리 챔피언의 경우 6초) 서리 영역을 지나는 적들은 근접 챔피언의 경우 25%, 원거리 챔피언의 경우 12.5% <status>둔화</status>됩니다. (자신의 <scaleHealth>최대 체력</scaleHealth>에 비례)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 체력 <attention>100</attention> 및 챔피언 크기 <attention>6%</attention></mainText><br><div class='tooltip-gold'>2800 골드</div>"
+      "tooltip": "<div class='tooltip-title'>서리벼림 손아귀</div><mainText><stats>체력 <ornnBonus>600</ornnBonus><br>방어력 <ornnBonus>40</ornnBonus><br>마법 저항력 <ornnBonus>40</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><li><passive>불사르기:</passive> 피해를 받거나 입히면 주변 적들에게 3초 동안 초당 <magicDamage>12+추가 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. (미니언 대상 25%, 몬스터 대상 150% 증가)<li><passive>고립:</passive> 기본 공격 시 1.5초 동안 서리 영역을 생성하고 추가 마법 피해(12~85/6~42.5)를 입힙니다. (재사용 대기시간 4초, 원거리 챔피언의 경우 6초) 서리 영역을 지나는 적들은 근접 챔피언의 경우 25%, 원거리 챔피언의 경우 12.5% <status>둔화</status>됩니다. (자신의 <scaleHealth>최대 체력</scaleHealth>에 비례)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 체력 <attention>100</attention> 및 챔피언 크기 <attention>6%</attention></mainText><br><div class='tooltip-gold'>2800 골드</div>"
     },
     "7006": {
       "name": "태풍",
@@ -1838,39 +1850,39 @@
     },
     "7007": {
       "name": "쓰러진 용의 제물",
-      "desc": "<mainText><stats>공격력 <ornnBonus>85</ornnBonus><br>공격 속도 <ornnBonus>40%</ornnBonus><br>치명타 확률 <attention>20%</attention></stats><br><li><passive>벼락:</passive> 세 번째 기본 공격을 가할 때마다 <trueDamage>60+추가 공격력의 45%에 해당하는 고정 피해</trueDamage>를 추가로 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 공격 속도 <attention>10%</attention></mainText><br>",
+      "desc": "<mainText><stats>공격력 <ornnBonus>85</ornnBonus><br>공격 속도 <ornnBonus>40%</ornnBonus><br>치명타 확률 <attention>20%</attention></stats><br><li><passive>벼락:</passive> 세 번째 기본 공격을 가할 때마다 <trueDamage>50+추가 공격력의 40%에 해당하는 고정 피해</trueDamage>를 추가로 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 공격 속도 <attention>10%</attention></mainText><br>",
       "gold": 3400,
-      "tooltip": "<div class='tooltip-title'>쓰러진 용의 제물</div><mainText><stats>공격력 <ornnBonus>85</ornnBonus><br>공격 속도 <ornnBonus>40%</ornnBonus><br>치명타 확률 <attention>20%</attention></stats><br><li><passive>벼락:</passive> 세 번째 기본 공격을 가할 때마다 <trueDamage>60+추가 공격력의 45%에 해당하는 고정 피해</trueDamage>를 추가로 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 공격 속도 <attention>10%</attention></mainText><br><div class='tooltip-gold'>3400 골드</div>"
+      "tooltip": "<div class='tooltip-title'>쓰러진 용의 제물</div><mainText><stats>공격력 <ornnBonus>85</ornnBonus><br>공격 속도 <ornnBonus>40%</ornnBonus><br>치명타 확률 <attention>20%</attention></stats><br><li><passive>벼락:</passive> 세 번째 기본 공격을 가할 때마다 <trueDamage>50+추가 공격력의 40%에 해당하는 고정 피해</trueDamage>를 추가로 입힙니다.<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 공격 속도 <attention>10%</attention></mainText><br><div class='tooltip-gold'>3400 골드</div>"
     },
     "7008": {
       "name": "핏빛 철갑궁",
-      "desc": "<mainText><stats>공격력 <ornnBonus>65</ornnBonus><br>공격 속도 <ornnBonus>30%</ornnBonus><br>치명타 확률 <attention>20%</attention><br>생명력 흡수 <ornnBonus>10%</ornnBonus></stats><br><li><passive>생명선:</passive> 피해를 받아 체력이 30% 아래로 떨어질 경우 3초 동안 <shield>275~700의 피해를 흡수하는 보호막</shield>을 얻습니다. 또한 8초 동안 <attackDamage>공격력이 15~35</attackDamage> 증가합니다. (90초 )<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 공격력 <attention>5</attention> 및 체력 <attention>70</attention></mainText><br>",
+      "desc": "<mainText><stats>공격력 <ornnBonus>65</ornnBonus><br>공격 속도 <ornnBonus>30%</ornnBonus><br>치명타 확률 <attention>20%</attention><br>생명력 흡수 <ornnBonus>8%</ornnBonus></stats><br><li><passive>생명선:</passive> 피해를 받아 체력이 30% 아래로 떨어질 경우 3초 동안 <shield>250~630의 피해를 흡수하는 보호막</shield>을 얻습니다. 또한 8초 동안 <attackDamage>공격력이 15~35</attackDamage> 증가합니다. (90초 )<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 공격력 <attention>5</attention> 및 체력 <attention>70</attention></mainText><br>",
       "gold": 3400,
-      "tooltip": "<div class='tooltip-title'>핏빛 철갑궁</div><mainText><stats>공격력 <ornnBonus>65</ornnBonus><br>공격 속도 <ornnBonus>30%</ornnBonus><br>치명타 확률 <attention>20%</attention><br>생명력 흡수 <ornnBonus>10%</ornnBonus></stats><br><li><passive>생명선:</passive> 피해를 받아 체력이 30% 아래로 떨어질 경우 3초 동안 <shield>275~700의 피해를 흡수하는 보호막</shield>을 얻습니다. 또한 8초 동안 <attackDamage>공격력이 15~35</attackDamage> 증가합니다. (90초 )<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 공격력 <attention>5</attention> 및 체력 <attention>70</attention></mainText><br><div class='tooltip-gold'>3400 골드</div>"
+      "tooltip": "<div class='tooltip-title'>핏빛 철갑궁</div><mainText><stats>공격력 <ornnBonus>65</ornnBonus><br>공격 속도 <ornnBonus>30%</ornnBonus><br>치명타 확률 <attention>20%</attention><br>생명력 흡수 <ornnBonus>8%</ornnBonus></stats><br><li><passive>생명선:</passive> 피해를 받아 체력이 30% 아래로 떨어질 경우 3초 동안 <shield>250~630의 피해를 흡수하는 보호막</shield>을 얻습니다. 또한 8초 동안 <attackDamage>공격력이 15~35</attackDamage> 증가합니다. (90초 )<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 공격력 <attention>5</attention> 및 체력 <attention>70</attention></mainText><br><div class='tooltip-gold'>3400 골드</div>"
     },
     "7009": {
       "name": "이케시아의 저주",
-      "desc": "<mainText><stats>주문력 <ornnBonus>100</ornnBonus><br>체력 <ornnBonus>450</ornnBonus><br>스킬 가속 <ornnBonus>20</ornnBonus><br>모든 피해 흡혈 <ornnBonus>10%</ornnBonus></stats><br><li><passive>공허의 부패:</passive> 적 챔피언에게 피해를 입힐 시 매초 3%의 추가 피해(최대 9%)를 입힙니다. 피해량이 최대가 되면 추가 피해량을 <trueDamage>고정 피해</trueDamage>로 전환합니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 모든 피해 흡혈 <attention>2%</attention> 및 주문력 8</mainText><br>",
+      "desc": "<mainText><stats>주문력 <ornnBonus>90</ornnBonus><br>체력 <ornnBonus>450</ornnBonus><br>스킬 가속 <ornnBonus>20</ornnBonus><br>모든 피해 흡혈 <ornnBonus>8%</ornnBonus></stats><br><li><passive>공허의 부패:</passive> 적 챔피언에게 피해를 입힐 시 매초 3%의 추가 피해(최대 9%)를 입힙니다. 피해량이 최대가 되면 추가 피해량을 <trueDamage>고정 피해</trueDamage>로 전환합니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 모든 피해 흡혈 <attention>2%</attention> 및 주문력 8</mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>이케시아의 저주</div><mainText><stats>주문력 <ornnBonus>100</ornnBonus><br>체력 <ornnBonus>450</ornnBonus><br>스킬 가속 <ornnBonus>20</ornnBonus><br>모든 피해 흡혈 <ornnBonus>10%</ornnBonus></stats><br><li><passive>공허의 부패:</passive> 적 챔피언에게 피해를 입힐 시 매초 3%의 추가 피해(최대 9%)를 입힙니다. 피해량이 최대가 되면 추가 피해량을 <trueDamage>고정 피해</trueDamage>로 전환합니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 모든 피해 흡혈 <attention>2%</attention> 및 주문력 8</mainText><br><div class='tooltip-gold'>3200 골드</div>"
+      "tooltip": "<div class='tooltip-title'>이케시아의 저주</div><mainText><stats>주문력 <ornnBonus>90</ornnBonus><br>체력 <ornnBonus>450</ornnBonus><br>스킬 가속 <ornnBonus>20</ornnBonus><br>모든 피해 흡혈 <ornnBonus>8%</ornnBonus></stats><br><li><passive>공허의 부패:</passive> 적 챔피언에게 피해를 입힐 시 매초 3%의 추가 피해(최대 9%)를 입힙니다. 피해량이 최대가 되면 추가 피해량을 <trueDamage>고정 피해</trueDamage>로 전환합니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 모든 피해 흡혈 <attention>2%</attention> 및 주문력 8</mainText><br><div class='tooltip-gold'>3200 골드</div>"
     },
     "7010": {
       "name": "어스름의 기원",
-      "desc": "<mainText><stats>주문력 <ornnBonus>120</ornnBonus><br>체력 <ornnBonus>400</ornnBonus><br>스킬 가속 <ornnBonus>20</ornnBonus></stats><br><li><passive>영혼 찢기:</passive> 챔피언에게 피해를 입히면 <magicDamage>125+주문력의 15%에 해당하는 마법 피해</magicDamage>를 추가로 입히고 1.5초 동안 <speed>이동 속도가 25%</speed> 상승합니다. (챔피언당 재사용 대기시간 40초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention><br><br><rules>다른 챔피언에게 피해를 입히면 이동 속도 추가 효과의 지속시간이 늘어납니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>주문력 <ornnBonus>120</ornnBonus><br>체력 <ornnBonus>400</ornnBonus><br>스킬 가속 <ornnBonus>30</ornnBonus></stats><br><li><passive>영혼 찢기:</passive> 챔피언에게 피해를 입히면 <magicDamage>125+주문력의 15%에 해당하는 마법 피해</magicDamage>를 추가로 입히고 1.5초 동안 <speed>이동 속도가 25%</speed> 상승합니다. (챔피언당 재사용 대기시간 30초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention><br><br><rules>다른 챔피언에게 피해를 입히면 이동 속도 추가 효과의 지속시간이 늘어납니다.</rules></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>어스름의 기원</div><mainText><stats>주문력 <ornnBonus>120</ornnBonus><br>체력 <ornnBonus>400</ornnBonus><br>스킬 가속 <ornnBonus>20</ornnBonus></stats><br><li><passive>영혼 찢기:</passive> 챔피언에게 피해를 입히면 <magicDamage>125+주문력의 15%에 해당하는 마법 피해</magicDamage>를 추가로 입히고 1.5초 동안 <speed>이동 속도가 25%</speed> 상승합니다. (챔피언당 재사용 대기시간 40초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention><br><br><rules>다른 챔피언에게 피해를 입히면 이동 속도 추가 효과의 지속시간이 늘어납니다.</rules></mainText><br><div class='tooltip-gold'>3200 골드</div>"
+      "tooltip": "<div class='tooltip-title'>어스름의 기원</div><mainText><stats>주문력 <ornnBonus>120</ornnBonus><br>체력 <ornnBonus>400</ornnBonus><br>스킬 가속 <ornnBonus>30</ornnBonus></stats><br><li><passive>영혼 찢기:</passive> 챔피언에게 피해를 입히면 <magicDamage>125+주문력의 15%에 해당하는 마법 피해</magicDamage>를 추가로 입히고 1.5초 동안 <speed>이동 속도가 25%</speed> 상승합니다. (챔피언당 재사용 대기시간 30초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention><br><br><rules>다른 챔피언에게 피해를 입히면 이동 속도 추가 효과의 지속시간이 늘어납니다.</rules></mainText><br><div class='tooltip-gold'>3200 골드</div>"
     },
     "7011": {
       "name": "업그레이드 비행팩",
-      "desc": "<mainText><stats>주문력 <ornnBonus>120</ornnBonus><br>마법 관통력 <ornnBonus>10</ornnBonus><br>체력 <ornnBonus>350</ornnBonus><br>스킬 가속 <ornnBonus>20</ornnBonus></stats><br><br><active>사용 시 -</active> <active>초음속:</active> 지정 방향으로 돌진하며 부채꼴 모양으로 <magicDamage>125+주문력의 15%에 해당하는 마법 피해</magicDamage>를 입히는 마법 탄환을 발사합니다. 그리고 1.5초 동안 적 챔피언 방향으로 이동할 때 <speed>이동 속도가 30%</speed> 상승합니다. (재사용 대기시간 40초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 마법 관통력 <attention>5</attention><br><br><rules>초음속 돌진으로 지형은 통과할 수 없습니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>주문력 <ornnBonus>120</ornnBonus><br>마법 관통력 <ornnBonus>15</ornnBonus><br>체력 <ornnBonus>350</ornnBonus><br>스킬 가속 <ornnBonus>20</ornnBonus></stats><br><br><active>사용 시 -</active> <active>초음속:</active> 지정 방향으로 돌진하며 부채꼴 모양으로 <magicDamage>125+주문력의 15%에 해당하는 마법 피해</magicDamage>를 입히는 마법 탄환을 발사합니다. 그리고 1.5초 동안 적 챔피언 방향으로 이동할 때 <speed>이동 속도가 30%</speed> 상승합니다. (재사용 대기시간 40초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 마법 관통력 <attention>5</attention><br><br><rules>초음속 돌진으로 지형은 통과할 수 없습니다.</rules></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>업그레이드 비행팩</div><mainText><stats>주문력 <ornnBonus>120</ornnBonus><br>마법 관통력 <ornnBonus>10</ornnBonus><br>체력 <ornnBonus>350</ornnBonus><br>스킬 가속 <ornnBonus>20</ornnBonus></stats><br><br><active>사용 시 -</active> <active>초음속:</active> 지정 방향으로 돌진하며 부채꼴 모양으로 <magicDamage>125+주문력의 15%에 해당하는 마법 피해</magicDamage>를 입히는 마법 탄환을 발사합니다. 그리고 1.5초 동안 적 챔피언 방향으로 이동할 때 <speed>이동 속도가 30%</speed> 상승합니다. (재사용 대기시간 40초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 마법 관통력 <attention>5</attention><br><br><rules>초음속 돌진으로 지형은 통과할 수 없습니다.</rules></mainText><br><div class='tooltip-gold'>3200 골드</div>"
+      "tooltip": "<div class='tooltip-title'>업그레이드 비행팩</div><mainText><stats>주문력 <ornnBonus>120</ornnBonus><br>마법 관통력 <ornnBonus>15</ornnBonus><br>체력 <ornnBonus>350</ornnBonus><br>스킬 가속 <ornnBonus>20</ornnBonus></stats><br><br><active>사용 시 -</active> <active>초음속:</active> 지정 방향으로 돌진하며 부채꼴 모양으로 <magicDamage>125+주문력의 15%에 해당하는 마법 피해</magicDamage>를 입히는 마법 탄환을 발사합니다. 그리고 1.5초 동안 적 챔피언 방향으로 이동할 때 <speed>이동 속도가 30%</speed> 상승합니다. (재사용 대기시간 40초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 마법 관통력 <attention>5</attention><br><br><rules>초음속 돌진으로 지형은 통과할 수 없습니다.</rules></mainText><br><div class='tooltip-gold'>3200 골드</div>"
     },
     "7012": {
       "name": "리안드리의 슬픔",
-      "desc": "<mainText><stats>주문력 <ornnBonus>110</ornnBonus><br>마나 <ornnBonus>800</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><li><passive>고뇌:</passive> 대상의 추가 체력에 비례해 챔피언에게 최대 <magicDamage>12%의 추가 마법 피해</magicDamage>를 입힙니다. (추가 체력이 1250일 때 최대 피해)<li><passive>고통:</passive> 스킬로 피해를 입히면 4초 동안 적을 불태워 매초 <magicDamage>15+주문력의 1.5%+최대 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention></mainText><br>",
+      "desc": "<mainText><stats>주문력 <ornnBonus>110</ornnBonus><br>마나 <ornnBonus>800</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><li><passive>고뇌:</passive> 대상의 추가 체력에 비례해 챔피언에게 최대 <magicDamage>12%의 추가 마법 피해</magicDamage>를 입힙니다. (추가 체력이 1250일 때 최대 피해)<li><passive>고통:</passive> 스킬로 피해를 입히면 4초 동안 적을 불태워 매초 <magicDamage>12.5+주문력의 1.5%+최대 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>리안드리의 슬픔</div><mainText><stats>주문력 <ornnBonus>110</ornnBonus><br>마나 <ornnBonus>800</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><li><passive>고뇌:</passive> 대상의 추가 체력에 비례해 챔피언에게 최대 <magicDamage>12%의 추가 마법 피해</magicDamage>를 입힙니다. (추가 체력이 1250일 때 최대 피해)<li><passive>고통:</passive> 스킬로 피해를 입히면 4초 동안 적을 불태워 매초 <magicDamage>15+주문력의 1.5%+최대 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention></mainText><br><div class='tooltip-gold'>3200 골드</div>"
+      "tooltip": "<div class='tooltip-title'>리안드리의 슬픔</div><mainText><stats>주문력 <ornnBonus>110</ornnBonus><br>마나 <ornnBonus>800</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><li><passive>고뇌:</passive> 대상의 추가 체력에 비례해 챔피언에게 최대 <magicDamage>12%의 추가 마법 피해</magicDamage>를 입힙니다. (추가 체력이 1250일 때 최대 피해)<li><passive>고통:</passive> 스킬로 피해를 입히면 4초 동안 적을 불태워 매초 <magicDamage>12.5+주문력의 1.5%+최대 체력의 1%에 해당하는 마법 피해</magicDamage>를 입힙니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention></mainText><br><div class='tooltip-gold'>3200 골드</div>"
     },
     "7013": {
       "name": "루덴의 눈",
@@ -1880,15 +1892,15 @@
     },
     "7014": {
       "name": "영원한 겨울",
-      "desc": "<mainText><stats>주문력 <ornnBonus>100</ornnBonus><br>체력 <ornnBonus>350</ornnBonus><br>마나 <ornnBonus>800</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><br><active>사용 시 -</active> <active>빙결:</active> 원뿔 범위 내의 적들에게 <magicDamage>100+주문력의 30%에 해당하는 마법 피해</magicDamage>를 입히고 1.5초 동안 65% <status>둔화</status>시킵니다. 범위 중앙의 적들은 <status>속박</status>됩니다. (재사용 대기시간 30초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 주문력 <attention>10</attention> <br></mainText><br>",
+      "desc": "<mainText><stats>주문력 <ornnBonus>90</ornnBonus><br>체력 <ornnBonus>350</ornnBonus><br>마나 <ornnBonus>800</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><br><active>사용 시 -</active> <active>빙결:</active> 원뿔 범위 내의 적들에게 <magicDamage>100+주문력의 30%에 해당하는 마법 피해</magicDamage>를 입히고 1초 동안 65% <status>둔화</status>시킵니다. 범위 중앙의 적들은 <status>속박</status>됩니다. (재사용 대기시간 30초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 주문력 <attention>10</attention> <br></mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>영원한 겨울</div><mainText><stats>주문력 <ornnBonus>100</ornnBonus><br>체력 <ornnBonus>350</ornnBonus><br>마나 <ornnBonus>800</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><br><active>사용 시 -</active> <active>빙결:</active> 원뿔 범위 내의 적들에게 <magicDamage>100+주문력의 30%에 해당하는 마법 피해</magicDamage>를 입히고 1.5초 동안 65% <status>둔화</status>시킵니다. 범위 중앙의 적들은 <status>속박</status>됩니다. (재사용 대기시간 30초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 주문력 <attention>10</attention> <br></mainText><br><div class='tooltip-gold'>2800 골드</div>"
+      "tooltip": "<div class='tooltip-title'>영원한 겨울</div><mainText><stats>주문력 <ornnBonus>90</ornnBonus><br>체력 <ornnBonus>350</ornnBonus><br>마나 <ornnBonus>800</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><br><active>사용 시 -</active> <active>빙결:</active> 원뿔 범위 내의 적들에게 <magicDamage>100+주문력의 30%에 해당하는 마법 피해</magicDamage>를 입히고 1초 동안 65% <status>둔화</status>시킵니다. 범위 중앙의 적들은 <status>속박</status>됩니다. (재사용 대기시간 30초)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 주문력 <attention>10</attention> <br></mainText><br><div class='tooltip-gold'>2800 골드</div>"
     },
     "7015": {
       "name": "무한한 허기",
-      "desc": "<mainText><stats>공격력 <ornnBonus>70</ornnBonus><br>체력 <ornnBonus>450</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus><br>모든 피해 흡혈 <ornnBonus>15%</ornnBonus></stats><br><br><active>사용 시 -</active> <active>갈망의 가르기:</active> 주변 적들에게 <physicalDamage>기본 공격력의 175%에 해당하는 물리 피해</physicalDamage>를 입힙니다. 적중한 챔피언 하나당 <healing>기본 공격력의 25%+잃은 체력의 10%</healing>만큼 회복합니다. (재사용 대기시간 15초, 스킬 가속에 따라 감소)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention></mainText><br>",
+      "desc": "<mainText><stats>공격력 <ornnBonus>70</ornnBonus><br>체력 <ornnBonus>450</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus><br>모든 피해 흡혈 <ornnBonus>12%</ornnBonus></stats><br><br><active>사용 시 -</active> <active>갈망의 가르기:</active> 주변 적들에게 <physicalDamage>기본 공격력의 175%에 해당하는 물리 피해</physicalDamage>를 입힙니다. 적중한 챔피언 하나당 <healing>기본 공격력의 20%+잃은 체력의 8%</healing>만큼 회복합니다. (재사용 대기시간 15초, 스킬 가속에 따라 감소)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>7</attention></mainText><br>",
       "gold": 3300,
-      "tooltip": "<div class='tooltip-title'>무한한 허기</div><mainText><stats>공격력 <ornnBonus>70</ornnBonus><br>체력 <ornnBonus>450</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus><br>모든 피해 흡혈 <ornnBonus>15%</ornnBonus></stats><br><br><active>사용 시 -</active> <active>갈망의 가르기:</active> 주변 적들에게 <physicalDamage>기본 공격력의 175%에 해당하는 물리 피해</physicalDamage>를 입힙니다. 적중한 챔피언 하나당 <healing>기본 공격력의 25%+잃은 체력의 10%</healing>만큼 회복합니다. (재사용 대기시간 15초, 스킬 가속에 따라 감소)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>5</attention></mainText><br><div class='tooltip-gold'>3300 골드</div>"
+      "tooltip": "<div class='tooltip-title'>무한한 허기</div><mainText><stats>공격력 <ornnBonus>70</ornnBonus><br>체력 <ornnBonus>450</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus><br>모든 피해 흡혈 <ornnBonus>12%</ornnBonus></stats><br><br><active>사용 시 -</active> <active>갈망의 가르기:</active> 주변 적들에게 <physicalDamage>기본 공격력의 175%에 해당하는 물리 피해</physicalDamage>를 입힙니다. 적중한 챔피언 하나당 <healing>기본 공격력의 20%+잃은 체력의 8%</healing>만큼 회복합니다. (재사용 대기시간 15초, 스킬 가속에 따라 감소)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 스킬 가속 <attention>7</attention></mainText><br><div class='tooltip-gold'>3300 골드</div>"
     },
     "7016": {
       "name": "몽상파쇄자",
@@ -1898,9 +1910,9 @@
     },
     "7017": {
       "name": "신성시해자",
-      "desc": "<mainText><stats>공격력 <ornnBonus>60</ornnBonus><br>체력 <ornnBonus>450</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><li><passive>주문 검:</passive> 스킬을 사용하고 나면 다음 기본 공격 시 <physicalDamage>대상 최대 체력의 12%(소유자가 원거리 챔피언인 경우 9%)에 해당하는 물리 피해</physicalDamage>(<OnHit>적중 시</OnHit> )를 추가로 입힙니다. (재사용 대기시간 1.5초) 대상이 챔피언일 경우 대상 최대 체력의 7.8%만큼 체력을 회복합니다. (소유자가 원거리 챔피언인 경우 3.6%)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 방어구 관통력 <attention>5%</attention> 및 마법 관통력 <attention>5%</attention><br><br><rules><passive>주문 검</passive> 효과는 유닛에게 최소 기본 공격력의 150%에 해당하는 피해를 입히고 몬스터에게는 최대 기본 공격력의 250%에 해당하는 피해를 입힙니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>공격력 <ornnBonus>60</ornnBonus><br>체력 <ornnBonus>450</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><li><passive>주문 검:</passive> 스킬을 사용하고 나면 다음 기본 공격 시 <physicalDamage>대상 최대 체력의 12%(소유자가 원거리 챔피언인 경우 9%)에 해당하는 물리 피해</physicalDamage>(<OnHit>적중 시</OnHit> )를 추가로 입힙니다. (재사용 대기시간 1.5초) 대상이 챔피언일 경우 대상 최대 체력의 6%만큼 체력을 회복합니다. (소유자가 원거리 챔피언인 경우 3%)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 방어구 관통력 <attention>5%</attention> 및 마법 관통력 <attention>5%</attention><br><br><rules><passive>주문 검</passive> 효과는 유닛에게 최소 기본 공격력의 150%에 해당하는 피해를 입히고 몬스터에게는 최대 기본 공격력의 250%에 해당하는 피해를 입힙니다.</rules></mainText><br>",
       "gold": 3300,
-      "tooltip": "<div class='tooltip-title'>신성시해자</div><mainText><stats>공격력 <ornnBonus>60</ornnBonus><br>체력 <ornnBonus>450</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><li><passive>주문 검:</passive> 스킬을 사용하고 나면 다음 기본 공격 시 <physicalDamage>대상 최대 체력의 12%(소유자가 원거리 챔피언인 경우 9%)에 해당하는 물리 피해</physicalDamage>(<OnHit>적중 시</OnHit> )를 추가로 입힙니다. (재사용 대기시간 1.5초) 대상이 챔피언일 경우 대상 최대 체력의 7.8%만큼 체력을 회복합니다. (소유자가 원거리 챔피언인 경우 3.6%)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 방어구 관통력 <attention>5%</attention> 및 마법 관통력 <attention>5%</attention><br><br><rules><passive>주문 검</passive> 효과는 유닛에게 최소 기본 공격력의 150%에 해당하는 피해를 입히고 몬스터에게는 최대 기본 공격력의 250%에 해당하는 피해를 입힙니다.</rules></mainText><br><div class='tooltip-gold'>3300 골드</div>"
+      "tooltip": "<div class='tooltip-title'>신성시해자</div><mainText><stats>공격력 <ornnBonus>60</ornnBonus><br>체력 <ornnBonus>450</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><li><passive>주문 검:</passive> 스킬을 사용하고 나면 다음 기본 공격 시 <physicalDamage>대상 최대 체력의 12%(소유자가 원거리 챔피언인 경우 9%)에 해당하는 물리 피해</physicalDamage>(<OnHit>적중 시</OnHit> )를 추가로 입힙니다. (재사용 대기시간 1.5초) 대상이 챔피언일 경우 대상 최대 체력의 6%만큼 체력을 회복합니다. (소유자가 원거리 챔피언인 경우 3%)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 방어구 관통력 <attention>5%</attention> 및 마법 관통력 <attention>5%</attention><br><br><rules><passive>주문 검</passive> 효과는 유닛에게 최소 기본 공격력의 150%에 해당하는 피해를 입히고 몬스터에게는 최대 기본 공격력의 250%에 해당하는 피해를 입힙니다.</rules></mainText><br><div class='tooltip-gold'>3300 골드</div>"
     },
     "7018": {
       "name": "무한한 삼위일체",
@@ -1910,9 +1922,9 @@
     },
     "7019": {
       "name": "황금 새벽의 유물함",
-      "desc": "<mainText><stats>체력 <ornnBonus>400</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus><br>방어력 <ornnBonus>40</ornnBonus><br>마법 저항력 <ornnBonus>40</ornnBonus></stats><br><br><active>사용 시 -</active> <active>헌신:</active> 주변 아군들에게 <shield>200~365(아군 레벨에 비례)의 피해를 흡수하는 보호막</shield>을 부여합니다. 보호막 피해 흡수량은 2.5초에 걸쳐 점차 감소합니다. (재사용 대기시간 90초) <br><li><passive>전념:</passive> 주변 아군들에게 <scaleArmor>3의 방어력</scaleArmor>과 <scaleMR>마법 저항력</scaleMR>을 부여합니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 <passive>전념</passive>으로 방어력 및 마법 저항력 <attention>2</attention> 증가<br><br><rules>레벨 비례 효과는 아군의 레벨에 따라 상승합니다.<br>20초 안에 <active>헌신</active> 보호막을 연속으로 사용하면 25%의 효과만 적용됩니다.</rules></mainText><br>",
+      "desc": "<mainText><stats>체력 <ornnBonus>400</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus><br>방어력 <ornnBonus>40</ornnBonus><br>마법 저항력 <ornnBonus>40</ornnBonus></stats><br><br><active>사용 시 -</active> <active>헌신:</active> 주변 아군들에게 <shield>180~330(아군 레벨에 비례)의 피해를 흡수하는 보호막</shield>을 부여합니다. 보호막 피해 흡수량은 2.5초에 걸쳐 점차 감소합니다. (재사용 대기시간 90초) <br><li><passive>전념:</passive> 주변 아군들에게 <scaleArmor>3의 방어력</scaleArmor>과 <scaleMR>마법 저항력</scaleMR>을 부여합니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 <passive>전념</passive>으로 방어력 및 마법 저항력 <attention>2</attention> 증가<br><br><rules>레벨 비례 효과는 아군의 레벨에 따라 상승합니다.<br>20초 안에 <active>헌신</active> 보호막을 연속으로 사용하면 25%의 효과만 적용됩니다.</rules></mainText><br>",
       "gold": 2500,
-      "tooltip": "<div class='tooltip-title'>황금 새벽의 유물함</div><mainText><stats>체력 <ornnBonus>400</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus><br>방어력 <ornnBonus>40</ornnBonus><br>마법 저항력 <ornnBonus>40</ornnBonus></stats><br><br><active>사용 시 -</active> <active>헌신:</active> 주변 아군들에게 <shield>200~365(아군 레벨에 비례)의 피해를 흡수하는 보호막</shield>을 부여합니다. 보호막 피해 흡수량은 2.5초에 걸쳐 점차 감소합니다. (재사용 대기시간 90초) <br><li><passive>전념:</passive> 주변 아군들에게 <scaleArmor>3의 방어력</scaleArmor>과 <scaleMR>마법 저항력</scaleMR>을 부여합니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 <passive>전념</passive>으로 방어력 및 마법 저항력 <attention>2</attention> 증가<br><br><rules>레벨 비례 효과는 아군의 레벨에 따라 상승합니다.<br>20초 안에 <active>헌신</active> 보호막을 연속으로 사용하면 25%의 효과만 적용됩니다.</rules></mainText><br><div class='tooltip-gold'>2500 골드</div>"
+      "tooltip": "<div class='tooltip-title'>황금 새벽의 유물함</div><mainText><stats>체력 <ornnBonus>400</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus><br>방어력 <ornnBonus>40</ornnBonus><br>마법 저항력 <ornnBonus>40</ornnBonus></stats><br><br><active>사용 시 -</active> <active>헌신:</active> 주변 아군들에게 <shield>180~330(아군 레벨에 비례)의 피해를 흡수하는 보호막</shield>을 부여합니다. 보호막 피해 흡수량은 2.5초에 걸쳐 점차 감소합니다. (재사용 대기시간 90초) <br><li><passive>전념:</passive> 주변 아군들에게 <scaleArmor>3의 방어력</scaleArmor>과 <scaleMR>마법 저항력</scaleMR>을 부여합니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 <passive>전념</passive>으로 방어력 및 마법 저항력 <attention>2</attention> 증가<br><br><rules>레벨 비례 효과는 아군의 레벨에 따라 상승합니다.<br>20초 안에 <active>헌신</active> 보호막을 연속으로 사용하면 25%의 효과만 적용됩니다.</rules></mainText><br><div class='tooltip-gold'>2500 골드</div>"
     },
     "7020": {
       "name": "슈렐리아의 진혼곡",
@@ -1922,9 +1934,9 @@
     },
     "7021": {
       "name": "성운 투척기",
-      "desc": "<mainText><stats>주문력 <ornnBonus>70</ornnBonus><br>체력 <ornnBonus>300</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus><br>기본 마나 재생 <ornnBonus>200%</ornnBonus></stats><br><li><passive>별빛 은총:</passive> 전투에서 챔피언에게 기본 공격을 하거나 스킬을 사용하면 주변에서 가장 많은 피해를 입은 아군의 <healing>체력을 70</healing> 회복시킵니다. (재사용 대기시간 2초) 챔피언과 전투에 돌입하고 매초가 지날 때마다 체력 회복과 보호막 효과가 6%씩 증가합니다. (최대 5회까지 중첩)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 <passive>별빛 은총</passive> 체력 회복량 증가 <attention>10</attention><br><br></mainText><br>",
+      "desc": "<mainText><stats>주문력 <ornnBonus>70</ornnBonus><br>체력 <ornnBonus>300</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus><br>기본 마나 재생 <ornnBonus>200%</ornnBonus></stats><br><li><passive>별빛 은총:</passive> 전투에서 챔피언에게 기본 공격을 하거나 스킬을 사용하면 주변에서 가장 많은 피해를 입은 아군의 <healing>체력을 60</healing> 회복시킵니다. (재사용 대기시간 2초) 챔피언과 전투에 돌입하고 매초가 지날 때마다 체력 회복과 보호막 효과가 5%씩 증가합니다. (최대 5회까지 중첩)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 <passive>별빛 은총</passive> 회복량이 <attention>8</attention> 증가합니다.<br><br></mainText><br>",
       "gold": 2500,
-      "tooltip": "<div class='tooltip-title'>성운 투척기</div><mainText><stats>주문력 <ornnBonus>70</ornnBonus><br>체력 <ornnBonus>300</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus><br>기본 마나 재생 <ornnBonus>200%</ornnBonus></stats><br><li><passive>별빛 은총:</passive> 전투에서 챔피언에게 기본 공격을 하거나 스킬을 사용하면 주변에서 가장 많은 피해를 입은 아군의 <healing>체력을 70</healing> 회복시킵니다. (재사용 대기시간 2초) 챔피언과 전투에 돌입하고 매초가 지날 때마다 체력 회복과 보호막 효과가 6%씩 증가합니다. (최대 5회까지 중첩)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 <passive>별빛 은총</passive> 체력 회복량 증가 <attention>10</attention><br><br></mainText><br><div class='tooltip-gold'>2500 골드</div>"
+      "tooltip": "<div class='tooltip-title'>성운 투척기</div><mainText><stats>주문력 <ornnBonus>70</ornnBonus><br>체력 <ornnBonus>300</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus><br>기본 마나 재생 <ornnBonus>200%</ornnBonus></stats><br><li><passive>별빛 은총:</passive> 전투에서 챔피언에게 기본 공격을 하거나 스킬을 사용하면 주변에서 가장 많은 피해를 입은 아군의 <healing>체력을 60</healing> 회복시킵니다. (재사용 대기시간 2초) 챔피언과 전투에 돌입하고 매초가 지날 때마다 체력 회복과 보호막 효과가 5%씩 증가합니다. (최대 5회까지 중첩)<br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 <passive>별빛 은총</passive> 회복량이 <attention>8</attention> 증가합니다.<br><br></mainText><br><div class='tooltip-gold'>2500 골드</div>"
     },
     "7022": {
       "name": "지휘관의 입지",
@@ -1940,9 +1952,9 @@
     },
     "7024": {
       "name": "중단",
-      "desc": "<mainText><stats>주문력 <ornnBonus>70</ornnBonus><br>체력 <ornnBonus>350</ornnBonus><br>마나 <ornnBonus>800</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><li><passive>신성한 보호:</passive> <keywordMajor>보호</keywordMajor>를 받아 챔피언으로부터 받는 피해가 75% 감소합니다. <keywordMajor>보호</keywordMajor> 효과는 챔피언에게 피해를 받은 후 1.5초 동안 지속됩니다. (재사용 대기시간 40초) <li><passive>신의 선물:</passive> <keywordMajor>보호</keywordMajor> 상태일 때와 보호 효과가 끝난 뒤 3초 동안 <scaleAP>10~40의 주문력</scaleAP>을 얻습니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 이동 속도가 <attention>1%</attention>, 주문력이 8 증가합니다.</mainText><br>",
+      "desc": "<mainText><stats>주문력 <ornnBonus>90</ornnBonus><br>체력 <ornnBonus>350</ornnBonus><br>마나 <ornnBonus>800</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><li><passive>신성한 보호:</passive> <keywordMajor>보호</keywordMajor>를 받아 챔피언으로부터 받는 피해가 75% 감소합니다. <keywordMajor>보호</keywordMajor> 효과는 챔피언에게 피해를 받은 후 1.5초 동안 지속됩니다. (재사용 대기시간 40초) <li><passive>신의 선물:</passive> <keywordMajor>보호</keywordMajor> 상태일 때와 보호 효과가 끝난 뒤 3초 동안 <scaleAP>10~40의 주문력</scaleAP>을 얻습니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 이동 속도가 <attention>1%</attention>, 주문력이 8 증가합니다.</mainText><br>",
       "gold": 2800,
-      "tooltip": "<div class='tooltip-title'>중단</div><mainText><stats>주문력 <ornnBonus>70</ornnBonus><br>체력 <ornnBonus>350</ornnBonus><br>마나 <ornnBonus>800</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><li><passive>신성한 보호:</passive> <keywordMajor>보호</keywordMajor>를 받아 챔피언으로부터 받는 피해가 75% 감소합니다. <keywordMajor>보호</keywordMajor> 효과는 챔피언에게 피해를 받은 후 1.5초 동안 지속됩니다. (재사용 대기시간 40초) <li><passive>신의 선물:</passive> <keywordMajor>보호</keywordMajor> 상태일 때와 보호 효과가 끝난 뒤 3초 동안 <scaleAP>10~40의 주문력</scaleAP>을 얻습니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 이동 속도가 <attention>1%</attention>, 주문력이 8 증가합니다.</mainText><br><div class='tooltip-gold'>2800 골드</div>"
+      "tooltip": "<div class='tooltip-title'>중단</div><mainText><stats>주문력 <ornnBonus>90</ornnBonus><br>체력 <ornnBonus>350</ornnBonus><br>마나 <ornnBonus>800</ornnBonus><br>스킬 가속 <ornnBonus>25</ornnBonus></stats><br><li><passive>신성한 보호:</passive> <keywordMajor>보호</keywordMajor>를 받아 챔피언으로부터 받는 피해가 75% 감소합니다. <keywordMajor>보호</keywordMajor> 효과는 챔피언에게 피해를 받은 후 1.5초 동안 지속됩니다. (재사용 대기시간 40초) <li><passive>신의 선물:</passive> <keywordMajor>보호</keywordMajor> 상태일 때와 보호 효과가 끝난 뒤 3초 동안 <scaleAP>10~40의 주문력</scaleAP>을 얻습니다. <br><br><rarityMythic>신화급 기본 지속 효과:</rarityMythic> 다른 모든 <rarityLegendary>전설급</rarityLegendary> 아이템에 이동 속도가 <attention>1%</attention>, 주문력이 8 증가합니다.</mainText><br><div class='tooltip-gold'>2800 골드</div>"
     },
     "7050": {
       "name": "갱플랭크 Placeholder",
@@ -1958,9 +1970,9 @@
     },
     "8020": {
       "name": "심연의 가면",
-      "desc": "<mainText><stats>체력 <attention>450</attention><br>마법 저항력 <attention>30</attention><br>스킬 가속 <attention>10</attention></stats><br><li><passive>파괴:</passive> 주변 적 챔피언들에게 <status>저주</status>를 내려 <scaleMR>마법 저항력을 5+추가 체력의 1.2%</scaleMR> (최대 25) 감소시킵니다. <status>저주</status>를 내린 적 하나당 <scaleMR>7의 마법 저항력</scaleMR>을 얻습니다.</mainText><br>",
+      "desc": "<mainText><stats>체력 <attention>450</attention><br>마법 저항력 <attention>35</attention><br>스킬 가속 <attention>10</attention></stats><br><li><passive>파괴:</passive> 주변 적 챔피언들에게 <status>저주</status>를 내려 <scaleMR>마법 저항력을 5+추가 체력의 1.2%</scaleMR> (최대 25) 감소시킵니다. <status>저주</status>를 내린 적 하나당 <scaleMR>9의 마법 저항력</scaleMR>을 얻습니다.</mainText><br>",
       "gold": 2700,
-      "tooltip": "<div class='tooltip-title'>심연의 가면</div><mainText><stats>체력 <attention>450</attention><br>마법 저항력 <attention>30</attention><br>스킬 가속 <attention>10</attention></stats><br><li><passive>파괴:</passive> 주변 적 챔피언들에게 <status>저주</status>를 내려 <scaleMR>마법 저항력을 5+추가 체력의 1.2%</scaleMR> (최대 25) 감소시킵니다. <status>저주</status>를 내린 적 하나당 <scaleMR>7의 마법 저항력</scaleMR>을 얻습니다.</mainText><br><div class='tooltip-gold'>2700 골드</div>"
+      "tooltip": "<div class='tooltip-title'>심연의 가면</div><mainText><stats>체력 <attention>450</attention><br>마법 저항력 <attention>35</attention><br>스킬 가속 <attention>10</attention></stats><br><li><passive>파괴:</passive> 주변 적 챔피언들에게 <status>저주</status>를 내려 <scaleMR>마법 저항력을 5+추가 체력의 1.2%</scaleMR> (최대 25) 감소시킵니다. <status>저주</status>를 내린 적 하나당 <scaleMR>9의 마법 저항력</scaleMR>을 얻습니다.</mainText><br><div class='tooltip-gold'>2700 골드</div>"
     }
   },
   "perks": {
@@ -2031,8 +2043,8 @@
     },
     "8010": {
       "name": "정복자",
-      "desc": "적 챔피언에게 기본 공격 또는 스킬로 피해를 입히면 5초 동안 정복자 중첩을 2만큼 얻어 중첩마다 2~4.5의 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>적응형 능력치</font></lol-uikit-tooltipped-keyword>를 얻습니다. 최대 12회까지 중첩됩니다. 원거리 챔피언은 기본 공격으로 중첩을 1만 획득할 수 있습니다.<br><br>최대로 중첩되면 챔피언에게 입힌 피해량의 9%만큼 체력을 회복합니다. (원거리 챔피언은 6%)",
-      "tooltip": "<div class='tooltip-title'>정복자</div>적 챔피언에게 기본 공격 또는 스킬로 피해를 입히면 5초 동안 정복자 중첩을 2만큼 얻어 중첩마다 2~4.5의 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>적응형 능력치</font></lol-uikit-tooltipped-keyword>를 얻습니다. 최대 12회까지 중첩됩니다. 원거리 챔피언은 기본 공격으로 중첩을 1만 획득할 수 있습니다.<br><br>최대로 중첩되면 챔피언에게 입힌 피해량의 9%만큼 체력을 회복합니다. (원거리 챔피언은 6%)"
+      "desc": "적 챔피언에게 기본 공격 또는 스킬로 피해를 입히면 5초 동안 정복자 중첩을 2만큼 얻어 중첩마다 2~4.5의 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>적응형 능력치</font></lol-uikit-tooltipped-keyword>를 얻습니다. 최대 12회까지 중첩됩니다. 원거리 챔피언은 기본 공격으로 중첩을 1만 획득할 수 있습니다.<br><br>최대로 중첩되면 챔피언에게 입힌 피해량의 8%만큼 체력을 회복합니다. (원거리 챔피언은 5%)",
+      "tooltip": "<div class='tooltip-title'>정복자</div>적 챔피언에게 기본 공격 또는 스킬로 피해를 입히면 5초 동안 정복자 중첩을 2만큼 얻어 중첩마다 2~4.5의 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>적응형 능력치</font></lol-uikit-tooltipped-keyword>를 얻습니다. 최대 12회까지 중첩됩니다. 원거리 챔피언은 기본 공격으로 중첩을 1만 획득할 수 있습니다.<br><br>최대로 중첩되면 챔피언에게 입힌 피해량의 8%만큼 체력을 회복합니다. (원거리 챔피언은 5%)"
     },
     "8014": {
       "name": "최후의 일격",
@@ -2131,8 +2143,8 @@
     },
     "8139": {
       "name": "피의 맛",
-      "desc": "적 챔피언에게 피해를 입히면 체력을 회복합니다.<br><br>회복량: 18 ~ 35 (+추가 공격력의 0.2, +주문력의 0.1) (레벨에 비례)<br><br>재사용 대기시간: 20초",
-      "tooltip": "<div class='tooltip-title'>피의 맛</div>적 챔피언에게 피해를 입히면 체력을 회복합니다.<br><br>회복량: 18 ~ 35 (+추가 공격력의 0.2, +주문력의 0.1) (레벨에 비례)<br><br>재사용 대기시간: 20초"
+      "desc": "적 챔피언에게 피해를 입히면 체력을 회복합니다.<br><br>회복량: 16 ~ 30 (+추가 공격력의 0.15, +주문력의 0.08) (레벨에 비례)<br><br>재사용 대기시간: 20초",
+      "tooltip": "<div class='tooltip-title'>피의 맛</div>적 챔피언에게 피해를 입히면 체력을 회복합니다.<br><br>회복량: 16 ~ 30 (+추가 공격력의 0.15, +주문력의 0.08) (레벨에 비례)<br><br>재사용 대기시간: 20초"
     },
     "8143": {
       "name": "돌발 일격",
@@ -2161,8 +2173,8 @@
     },
     "8214": {
       "name": "콩콩이 소환",
-      "desc": "적 챔피언을 기본 공격 또는 스킬로 공격하면 콩콩이를 보내 레벨에 따라 10~40(+<scaleAP>주문력의 0.1</scaleAP>)(+<scaleAD>추가 공격력의 0.15</scaleAD>)만큼 피해를 입힙니다.<br><br>아군에게 스킬로 강화 효과 또는 보호막을 적용하면 콩콩이를 보내 레벨에 따라 35~80(+<scaleAP>주문력의 0.25</scaleAP>)(+<scaleAD>추가 공격력의 0.4</scaleAD>)만큼 피해를 흡수하는 보호막을 씌웁니다.<br><br>콩콩이는 자신에게 돌아오기 전까지 다른 대상에게 보낼 수 없습니다.",
-      "tooltip": "<div class='tooltip-title'>콩콩이 소환</div>적 챔피언을 기본 공격 또는 스킬로 공격하면 콩콩이를 보내 레벨에 따라 10~40(+<scaleAP>주문력의 0.1</scaleAP>)(+<scaleAD>추가 공격력의 0.15</scaleAD>)만큼 피해를 입힙니다.<br><br>아군에게 스킬로 강화 효과 또는 보호막을 적용하면 콩콩이를 보내 레벨에 따라 35~80(+<scaleAP>주문력의 0.25</scaleAP>)(+<scaleAD>추가 공격력의 0.4</scaleAD>)만큼 피해를 흡수하는 보호막을 씌웁니다.<br><br>콩콩이는 자신에게 돌아오기 전까지 다른 대상에게 보낼 수 없습니다."
+      "desc": "적 챔피언을 기본 공격 또는 스킬로 공격하면 콩콩이를 보내 레벨에 따라 10~40(+<scaleAP>주문력의 0.1</scaleAP>)(+<scaleAD>추가 공격력의 0.15</scaleAD>)만큼 피해를 입힙니다.<br><br>아군에게 스킬로 강화 효과 또는 보호막을 적용하면 콩콩이를 보내 레벨에 따라 30~75(+<scaleAP>주문력의 0.22</scaleAP>)(+<scaleAD>추가 공격력의 0.35</scaleAD>)만큼 피해를 흡수하는 보호막을 씌웁니다.<br><br>콩콩이는 자신에게 돌아오기 전까지 다른 대상에게 보낼 수 없습니다.",
+      "tooltip": "<div class='tooltip-title'>콩콩이 소환</div>적 챔피언을 기본 공격 또는 스킬로 공격하면 콩콩이를 보내 레벨에 따라 10~40(+<scaleAP>주문력의 0.1</scaleAP>)(+<scaleAD>추가 공격력의 0.15</scaleAD>)만큼 피해를 입힙니다.<br><br>아군에게 스킬로 강화 효과 또는 보호막을 적용하면 콩콩이를 보내 레벨에 따라 30~75(+<scaleAP>주문력의 0.22</scaleAP>)(+<scaleAD>추가 공격력의 0.35</scaleAD>)만큼 피해를 흡수하는 보호막을 씌웁니다.<br><br>콩콩이는 자신에게 돌아오기 전까지 다른 대상에게 보낼 수 없습니다."
     },
     "8220": {
       "name": "대재앙",
@@ -2171,8 +2183,8 @@
     },
     "8224": {
       "name": "무효화 구체",
-      "desc": "마법 피해를 받아 체력이 30% 이하가 될 경우, 4초 동안 레벨에 비례해 40 ~ 120 (<scaleAP>+주문력의 0.1</scaleAP> 및 <scaleAD>+추가 공격력의 0.15</scaleAD>)의 마법 피해를 흡수하는 보호막이 생성됩니다.<br><br>재사용 대기시간: 60초",
-      "tooltip": "<div class='tooltip-title'>무효화 구체</div>마법 피해를 받아 체력이 30% 이하가 될 경우, 4초 동안 레벨에 비례해 40 ~ 120 (<scaleAP>+주문력의 0.1</scaleAP> 및 <scaleAD>+추가 공격력의 0.15</scaleAD>)의 마법 피해를 흡수하는 보호막이 생성됩니다.<br><br>재사용 대기시간: 60초"
+      "desc": "마법 피해를 받아 체력이 30% 이하가 될 경우, 4초 동안 레벨에 비례해 35 ~ 110 (<scaleAP>+주문력의 0.09</scaleAP> 및 <scaleAD>+추가 공격력의 0.14</scaleAD>)의 마법 피해를 흡수하는 보호막이 생성됩니다.<br><br>재사용 대기시간: 60초",
+      "tooltip": "<div class='tooltip-title'>무효화 구체</div>마법 피해를 받아 체력이 30% 이하가 될 경우, 4초 동안 레벨에 비례해 35 ~ 110 (<scaleAP>+주문력의 0.09</scaleAP> 및 <scaleAD>+추가 공격력의 0.14</scaleAD>)의 마법 피해를 흡수하는 보호막이 생성됩니다.<br><br>재사용 대기시간: 60초"
     },
     "8226": {
       "name": "마나순환 팔찌",
@@ -2296,13 +2308,8 @@
     },
     "8352": {
       "name": "시간 왜곡 물약",
-      "desc": "물약이나 비스킷을 사용하면 체력이나 마나 회복량의 50%를 즉시 회복합니다. 또한 물약이나 비스킷의 효과가 지속되는 동안 <speed>이동 속도가 5%</speed> 증가합니다.<br><br>",
-      "tooltip": "<div class='tooltip-title'>시간 왜곡 물약</div>물약이나 비스킷을 사용하면 체력이나 마나 회복량의 50%를 즉시 회복합니다. 또한 물약이나 비스킷의 효과가 지속되는 동안 <speed>이동 속도가 5%</speed> 증가합니다.<br><br>"
-    },
-    "8358": {
-      "name": "프로토타입: 만능의 돌",
-      "desc": "주기적으로 다른 무작위 핵심 룬을 1회 사용할 수 있습니다.<br><br>핵심 룬을 사용하고 5~3초가 지나야 다음 핵심 룬을 사용할 수 있습니다. (원거리 챔피언의 경우 9~7초)<br><br><rules><br>준비된 핵심 룬을 40초 동안 사용하지 않으면 적 챔피언과의 전투에서 벗어날 때 새로운 핵심 룬이 준비됩니다.<br>여진은 여진을 발동할 수 있는 기본 스킬을 배운 챔피언만 사용할 수 있습니다.<br>포식자는 이미 장화를 구매한 챔피언만 사용할 수 있습니다.<br></rules>",
-      "tooltip": "<div class='tooltip-title'>프로토타입: 만능의 돌</div>주기적으로 다른 무작위 핵심 룬을 1회 사용할 수 있습니다.<br><br>핵심 룬을 사용하고 5~3초가 지나야 다음 핵심 룬을 사용할 수 있습니다. (원거리 챔피언의 경우 9~7초)<br><br><rules><br>준비된 핵심 룬을 40초 동안 사용하지 않으면 적 챔피언과의 전투에서 벗어날 때 새로운 핵심 룬이 준비됩니다.<br>여진은 여진을 발동할 수 있는 기본 스킬을 배운 챔피언만 사용할 수 있습니다.<br>포식자는 이미 장화를 구매한 챔피언만 사용할 수 있습니다.<br></rules>"
+      "desc": "물약이나 비스킷을 사용하면 체력이나 마나 회복량의 30%를 즉시 회복합니다. 또한 물약이나 비스킷의 효과가 지속되는 동안 <speed>이동 속도가 4%</speed> 증가합니다.<br><br>",
+      "tooltip": "<div class='tooltip-title'>시간 왜곡 물약</div>물약이나 비스킷을 사용하면 체력이나 마나 회복량의 30%를 즉시 회복합니다. 또한 물약이나 비스킷의 효과가 지속되는 동안 <speed>이동 속도가 4%</speed> 증가합니다.<br><br>"
     },
     "8359": {
       "name": "도벽",
@@ -2316,8 +2323,8 @@
     },
     "8369": {
       "name": "선제공격",
-      "desc": "적 챔피언과 전투 시작 후 0.25초 내에 스킬이나 기본 공격으로 해당 적 챔피언에게 피해를 입히면 5골드를 획득하고 3초 동안 <b>선제공격</b> 효과가 발동됩니다. 효과 발동 시 적 챔피언에게 <truedamage>10%</truedamage>의 추가 <truedamage>피해</truedamage>를 입힙니다. 또한 입힌 추가 피해의 <gold>100%(원거리 챔피언은 70%)</gold>에 해당하는 <gold>골드</gold>를 획득합니다.<br><br>재사용 대기시간: <scaleLevel>25~15</scaleLevel>",
-      "tooltip": "<div class='tooltip-title'>선제공격</div>적 챔피언과 전투 시작 후 0.25초 내에 스킬이나 기본 공격으로 해당 적 챔피언에게 피해를 입히면 5골드를 획득하고 3초 동안 <b>선제공격</b> 효과가 발동됩니다. 효과 발동 시 적 챔피언에게 <truedamage>10%</truedamage>의 추가 <truedamage>피해</truedamage>를 입힙니다. 또한 입힌 추가 피해의 <gold>100%(원거리 챔피언은 70%)</gold>에 해당하는 <gold>골드</gold>를 획득합니다.<br><br>재사용 대기시간: <scaleLevel>25~15</scaleLevel>"
+      "desc": "적 챔피언과 전투 시작 후 0.25초 내에 스킬이나 기본 공격으로 해당 적 챔피언에게 피해를 입히면 5골드를 획득하고 3초 동안 <b>선제공격</b> 효과가 발동됩니다. 효과 발동 시 적 챔피언에게 <truedamage>10%</truedamage>의 추가 <truedamage>피해</truedamage>를 입힙니다. 또한 입힌 추가 피해의 <gold>100%(원거리 챔피언은 70%)</gold>에 해당하는 <gold>골드</gold>를 획득합니다.<br><br>재사용 대기시간: <scaleLevel>25~15</scaleLevel>초",
+      "tooltip": "<div class='tooltip-title'>선제공격</div>적 챔피언과 전투 시작 후 0.25초 내에 스킬이나 기본 공격으로 해당 적 챔피언에게 피해를 입히면 5골드를 획득하고 3초 동안 <b>선제공격</b> 효과가 발동됩니다. 효과 발동 시 적 챔피언에게 <truedamage>10%</truedamage>의 추가 <truedamage>피해</truedamage>를 입힙니다. 또한 입힌 추가 피해의 <gold>100%(원거리 챔피언은 70%)</gold>에 해당하는 <gold>골드</gold>를 획득합니다.<br><br>재사용 대기시간: <scaleLevel>25~15</scaleLevel>초"
     },
     "8401": {
       "name": "보호막 강타",
@@ -2346,8 +2353,8 @@
     },
     "8429": {
       "name": "사전 준비",
-      "desc": "12분 후 방어력 +9 및 마법 저항력 +9 증가와 동시에 방어력 및 마법 저항력 5% 증가",
-      "tooltip": "<div class='tooltip-title'>사전 준비</div>12분 후 방어력 +9 및 마법 저항력 +9 증가와 동시에 방어력 및 마법 저항력 5% 증가"
+      "desc": "12분 후 방어력 +9 및 마법 저항력 +9 증가와 동시에 방어력 및 마법 저항력 4% 증가",
+      "tooltip": "<div class='tooltip-title'>사전 준비</div>12분 후 방어력 +9 및 마법 저항력 +9 증가와 동시에 방어력 및 마법 저항력 4% 증가"
     },
     "8430": {
       "name": "강철 피부",
@@ -2361,8 +2368,8 @@
     },
     "8437": {
       "name": "착취의 손아귀",
-      "desc": "전투 중 4초마다 챔피언에 대한 기본 공격 시 다음 효과를 얻습니다.<li>자신 최대 체력의 4%에 해당하는 추가 마법 피해</li><li>자신 최대 체력의 2%에 해당하는 체력 회복</li><li>영구적으로 체력 5 증가</li><br><rules><i>원거리 챔피언:</i> 피해량, 회복량, 체력 영구 증가량이 40% 감소합니다.</rules><br>",
-      "tooltip": "<div class='tooltip-title'>착취의 손아귀</div>전투 중 4초마다 챔피언에 대한 기본 공격 시 다음 효과를 얻습니다.<li>자신 최대 체력의 4%에 해당하는 추가 마법 피해</li><li>자신 최대 체력의 2%에 해당하는 체력 회복</li><li>영구적으로 체력 5 증가</li><br><rules><i>원거리 챔피언:</i> 피해량, 회복량, 체력 영구 증가량이 40% 감소합니다.</rules><br>"
+      "desc": "전투 중 4초마다 챔피언에 대한 기본 공격 시 다음 효과를 얻습니다.<li>자신 최대 체력의 3.5%에 해당하는 추가 마법 피해</li><li>자신 최대 체력의 1.7%에 해당하는 체력 회복</li><li>영구적으로 체력 5 증가</li><br><rules><i>원거리 챔피언:</i> 피해량, 회복량, 체력 영구 증가량이 40% 감소합니다.</rules><br>",
+      "tooltip": "<div class='tooltip-title'>착취의 손아귀</div>전투 중 4초마다 챔피언에 대한 기본 공격 시 다음 효과를 얻습니다.<li>자신 최대 체력의 3.5%에 해당하는 추가 마법 피해</li><li>자신 최대 체력의 1.7%에 해당하는 체력 회복</li><li>영구적으로 체력 5 증가</li><br><rules><i>원거리 챔피언:</i> 피해량, 회복량, 체력 영구 증가량이 40% 감소합니다.</rules><br>"
     },
     "8439": {
       "name": "여진",
@@ -2396,13 +2403,13 @@
     },
     "8463": {
       "name": "생명의 샘",
-      "desc": "적 챔피언의 이동을 방해하면 4초 동안 표식을 남깁니다.<br><br>표식이 남겨진 적을 공격하는 아군 챔피언은 2초에 걸쳐 5 + 나의 최대 체력의 1%에 해당하는 체력을 회복합니다. ",
-      "tooltip": "<div class='tooltip-title'>생명의 샘</div>적 챔피언의 이동을 방해하면 4초 동안 표식을 남깁니다.<br><br>표식이 남겨진 적을 공격하는 아군 챔피언은 2초에 걸쳐 5 + 나의 최대 체력의 1%에 해당하는 체력을 회복합니다. "
+      "desc": "적 챔피언의 이동을 방해하면 4초 동안 표식을 남깁니다.<br><br>표식이 남겨진 적을 공격하는 아군 챔피언은 2초에 걸쳐 5 + 나의 최대 체력의 0.9%에 해당하는 체력을 회복합니다. ",
+      "tooltip": "<div class='tooltip-title'>생명의 샘</div>적 챔피언의 이동을 방해하면 4초 동안 표식을 남깁니다.<br><br>표식이 남겨진 적을 공격하는 아군 챔피언은 2초에 걸쳐 5 + 나의 최대 체력의 0.9%에 해당하는 체력을 회복합니다. "
     },
     "8465": {
       "name": "수호자",
-      "desc": "자신으로부터 350유닛 내에 있는 아군이나 자신이 스킬의 대상으로 삼은 아군을 2.5초 동안 <i>보호</i>합니다. <i>보호</i>하는 중 자신과 아군 중 한 명이 <i>보호</i>의 지속시간 동안 어느 정도 피해를 입으면 둘 모두에게 1.5초 동안 보호막이 생성됩니다.<br><br>재사용 대기시간: <scaleLevel>70~40</scaleLevel>초<br>보호막 흡수량: <scaleLevel>50~130</scaleLevel>+주문력의 <scaleAP>15%</scaleAP>+추가 체력의 <scalehealth>9%</scalehealth><br>최종 기준치: 감소 후 피해량 <scaleLevel>90~250</scaleLevel>",
-      "tooltip": "<div class='tooltip-title'>수호자</div>자신으로부터 350유닛 내에 있는 아군이나 자신이 스킬의 대상으로 삼은 아군을 2.5초 동안 <i>보호</i>합니다. <i>보호</i>하는 중 자신과 아군 중 한 명이 <i>보호</i>의 지속시간 동안 어느 정도 피해를 입으면 둘 모두에게 1.5초 동안 보호막이 생성됩니다.<br><br>재사용 대기시간: <scaleLevel>70~40</scaleLevel>초<br>보호막 흡수량: <scaleLevel>50~130</scaleLevel>+주문력의 <scaleAP>15%</scaleAP>+추가 체력의 <scalehealth>9%</scalehealth><br>최종 기준치: 감소 후 피해량 <scaleLevel>90~250</scaleLevel>"
+      "desc": "자신으로부터 350유닛 내에 있는 아군이나 자신이 스킬의 대상으로 삼은 아군을 2.5초 동안 <i>보호</i>합니다. <i>보호</i>하는 중 자신과 아군 중 한 명이 <i>보호</i>의 지속시간 동안 어느 정도 피해를 입으면 둘 모두에게 1.5초 동안 보호막이 생성됩니다.<br><br>재사용 대기시간: <scaleLevel>70~40</scaleLevel>초<br>보호막 흡수량: <scaleLevel>45~120</scaleLevel>+주문력의 <scaleAP>12.5%</scaleAP>+추가 체력의 <scalehealth>8%</scalehealth><br>최종 기준치: 감소 후 피해량 <scaleLevel>90~250</scaleLevel>",
+      "tooltip": "<div class='tooltip-title'>수호자</div>자신으로부터 350유닛 내에 있는 아군이나 자신이 스킬의 대상으로 삼은 아군을 2.5초 동안 <i>보호</i>합니다. <i>보호</i>하는 중 자신과 아군 중 한 명이 <i>보호</i>의 지속시간 동안 어느 정도 피해를 입으면 둘 모두에게 1.5초 동안 보호막이 생성됩니다.<br><br>재사용 대기시간: <scaleLevel>70~40</scaleLevel>초<br>보호막 흡수량: <scaleLevel>45~120</scaleLevel>+주문력의 <scaleAP>12.5%</scaleAP>+추가 체력의 <scalehealth>8%</scalehealth><br>최종 기준치: 감소 후 피해량 <scaleLevel>90~250</scaleLevel>"
     },
     "8472": {
       "name": "번데기",
@@ -2416,8 +2423,8 @@
     },
     "9101": {
       "name": "과다치유",
-      "desc": "자신에 대한 체력 회복 초과분이 보호막으로 전환됩니다. 보호막은 10<scaleHealth>(+최대 체력의 10%)</scaleHealth>에 해당하는 피해까지 흡수할 수 있습니다.<br><br>보호막 전환율은 자신 또는 아군으로부터의 체력 회복 초과분의 20~100%입니다.",
-      "tooltip": "<div class='tooltip-title'>과다치유</div>자신에 대한 체력 회복 초과분이 보호막으로 전환됩니다. 보호막은 10<scaleHealth>(+최대 체력의 10%)</scaleHealth>에 해당하는 피해까지 흡수할 수 있습니다.<br><br>보호막 전환율은 자신 또는 아군으로부터의 체력 회복 초과분의 20~100%입니다."
+      "desc": "자신에 대한 체력 회복 초과분이 보호막으로 전환됩니다. 보호막은 10<scaleHealth>(+최대 체력의 9%)</scaleHealth>에 해당하는 피해까지 흡수할 수 있습니다.<br><br>보호막 전환율은 자신 또는 아군으로부터의 체력 회복 초과분의 20~100%입니다.",
+      "tooltip": "<div class='tooltip-title'>과다치유</div>자신에 대한 체력 회복 초과분이 보호막으로 전환됩니다. 보호막은 10<scaleHealth>(+최대 체력의 9%)</scaleHealth>에 해당하는 피해까지 흡수할 수 있습니다.<br><br>보호막 전환율은 자신 또는 아군으로부터의 체력 회복 초과분의 20~100%입니다."
     },
     "9103": {
       "name": "전설: 핏빛 길",
@@ -2436,8 +2443,8 @@
     },
     "9111": {
       "name": "승전보",
-      "desc": "챔피언 처치 또는 어시스트 시 잃은 체력의 12%를 회복하며 추가로 20골드를 획득합니다. <br><br><hr><br><i>'가장 위험한 게임을 하는 자만이 진정 승리의 환희를 맛보았다고 말할 수 있다.' <br>—녹서스 검투사</i>",
-      "tooltip": "<div class='tooltip-title'>승전보</div>챔피언 처치 또는 어시스트 시 잃은 체력의 12%를 회복하며 추가로 20골드를 획득합니다. <br><br><hr><br><i>'가장 위험한 게임을 하는 자만이 진정 승리의 환희를 맛보았다고 말할 수 있다.' <br>—녹서스 검투사</i>"
+      "desc": "챔피언 처치 또는 어시스트 시 잃은 체력의 10%를 회복하며 추가로 20골드를 획득합니다. <br><br><hr><br><i>'가장 위험한 게임을 하는 자만이 진정 승리의 환희를 맛보았다고 말할 수 있다.' <br>—녹서스 검투사</i>",
+      "tooltip": "<div class='tooltip-title'>승전보</div>챔피언 처치 또는 어시스트 시 잃은 체력의 10%를 회복하며 추가로 20골드를 획득합니다. <br><br><hr><br><i>'가장 위험한 게임을 하는 자만이 진정 승리의 환희를 맛보았다고 말할 수 있다.' <br>—녹서스 검투사</i>"
     },
     "9923": {
       "name": "칼날비",
@@ -2475,8 +2482,8 @@
   "spells": {
     "SummonerBarrier": {
       "name": "방어막",
-      "desc": "2초 동안 방어막으로 감싸 피해를 115~455(챔피언 레벨에 따라 변동)만큼 흡수합니다.",
-      "tooltip": "<div class='tooltip-title'>방어막</div>2초 동안 방어막으로 감싸 피해를 115~455(챔피언 레벨에 따라 변동)만큼 흡수합니다."
+      "desc": "2초 동안 방어막으로 감싸 피해를 105~411(챔피언 레벨에 따라 변동)만큼 흡수합니다.",
+      "tooltip": "<div class='tooltip-title'>방어막</div>2초 동안 방어막으로 감싸 피해를 105~411(챔피언 레벨에 따라 변동)만큼 흡수합니다."
     },
     "SummonerBoost": {
       "name": "정화",
@@ -2505,8 +2512,8 @@
     },
     "SummonerHeal": {
       "name": "회복",
-      "desc": "자신과 대상 아군 챔피언의 체력을 90~345만큼 (챔피언 레벨에 따라 변동) 회복시키고 1초 동안 이동 속도가 30% 증가합니다. 최근 소환사 주문 회복의 영향을 받은 유닛의 경우 치유량이 절반만 적용됩니다.",
-      "tooltip": "<div class='tooltip-title'>회복</div>자신과 대상 아군 챔피언의 체력을 90~345만큼 (챔피언 레벨에 따라 변동) 회복시키고 1초 동안 이동 속도가 30% 증가합니다. 최근 소환사 주문 회복의 영향을 받은 유닛의 경우 치유량이 절반만 적용됩니다."
+      "desc": "자신과 대상 아군 챔피언의 체력을 80~318만큼 (챔피언 레벨에 따라 변동) 회복시키고 1초 동안 이동 속도가 30% 증가합니다. 최근 소환사 주문 회복의 영향을 받은 유닛의 경우 치유량이 절반만 적용됩니다.",
+      "tooltip": "<div class='tooltip-title'>회복</div>자신과 대상 아군 챔피언의 체력을 80~318만큼 (챔피언 레벨에 따라 변동) 회복시키고 1초 동안 이동 속도가 30% 증가합니다. 최근 소환사 주문 회복의 영향을 받은 유닛의 경우 치유량이 절반만 적용됩니다."
     },
     "SummonerMana": {
       "name": "총명",
@@ -2525,8 +2532,8 @@
     },
     "SummonerSmite": {
       "name": "강타",
-      "desc": "대상 에픽 및 대형/중형 몬스터 또는 미니언에게 450의 고정 피해를 입힙니다. 2회까지 충전됩니다. (충전 시간 90초)",
-      "tooltip": "<div class='tooltip-title'>강타</div>대상 에픽 및 대형/중형 몬스터 또는 미니언에게 450의 고정 피해를 입힙니다. 2회까지 충전됩니다. (충전 시간 90초)"
+      "desc": "대상 에픽 및 대형/중형 몬스터 또는 미니언에게 450의 고정 피해를 입힙니다. 몬스터에게 사용하면 체력도 90(+최대 체력의 10%)만큼 회복됩니다. 2회까지 충전됩니다. (충전 시간 90초)",
+      "tooltip": "<div class='tooltip-title'>강타</div>대상 에픽 및 대형/중형 몬스터 또는 미니언에게 450의 고정 피해를 입힙니다. 몬스터에게 사용하면 체력도 90(+최대 체력의 10%)만큼 회복됩니다. 2회까지 충전됩니다. (충전 시간 90초)"
     },
     "SummonerSnowURFSnowball_Mark": {
       "name": "표식",
@@ -8073,6 +8080,48 @@
         "tooltip": "아크샨이 챔피언을 조준하고 최대 ?초간 총을 과충전해 탄환을 ?개까지 저장합니다.<br /><br /><recast>재사용 시:</recast> 아크샨이 저장한 탄환을 발사합니다. 각 탄환은 처음으로 적중한 적이나 구조물에 최소 <physicalDamage>?의 물리 피해</physicalDamage>를 입힙니다. 피해량은 대상이 잃은 체력에 비례해 최대 <physicalDamage>?의 물리 피해</physicalDamage>를 입힙니다.",
         "image_url": "https://opgg-static.akamaized.net/images/lol/spell/AkshanR.png",
         "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0166/ability_0166_R1.webm"
+      }
+    },
+    "200": {
+      "P": {
+        "key": "BelvethP",
+        "name": "연보랏빛 죽음 ",
+        "description": "벨베스가 대형 몬스터 및 챔피언 처치에 관여한 후 공격 속도 영구 중첩을 얻습니다. 또한 스킬을 사용한 후 일시적인 추가 공격 속도를 얻습니다.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/passive/Belveth_Passive.Belveth.png",
+        "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0200/ability_0200_P1.webm",
+        "tooltip": "벨베스가 대형 몬스터 및 챔피언 처치에 관여한 후 공격 속도 영구 중첩을 얻습니다. 또한 스킬을 사용한 후 일시적인 추가 공격 속도를 얻습니다."
+      },
+      "Q": {
+        "key": "BelvethQ",
+        "name": "공허 쇄도",
+        "description": "벨베스가 선택한 방향으로 돌진해 경로상의 모든 적에게 피해를 입힙니다.",
+        "tooltip": "벨베스가 돌진하여 경로상에 있는 적들에게 <physicalDamage>?의 물리 피해</physicalDamage>를 입힙니다.<br /><br />재사용 대기시간은 방향마다 ?초씩 따로 적용되며 <attackSpeed>공격 속도</attackSpeed>에 비례해 감소합니다.<br />",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/BelvethQ.png",
+        "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0200/ability_0200_Q1.webm"
+      },
+      "W": {
+        "key": "BelvethW",
+        "name": "위와 아래",
+        "description": "벨베스가 지면에 꼬리를 내리쳐 적에게 피해를 입히며 공중으로 띄워 올리고 둔화시킵니다.",
+        "tooltip": "벨베스가 꼬리를 내리쳐 <magicDamage>?의 마법 피해</magicDamage>를 입히고 적을 ?초 동안 <status>공중으로</status> 띄워 올리며 ?초 동안 ?% <status>둔화</status>시킵니다. 챔피언을 맞히면 해당 방향의 <spellName>공허 쇄도</spellName> 재사용 대기시간이 초기화됩니다.",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/BelvethW.png",
+        "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0200/ability_0200_W1.webm"
+      },
+      "E": {
+        "key": "BelvethE",
+        "name": "여제의 소용돌이",
+        "description": "벨베스가 제자리에 가만히 서서 정신을 집중하며 가장 체력이 낮은 적을 노리고 생명력 흡수와 피해량 감소 효과를 부여하는 칼바람 소용돌이를 일으킵니다.",
+        "tooltip": "벨베스가 정신을 집중해 주변에 칼바람을 일으켜 ?초 동안 받는 피해량 감소 ?%, 생명력 흡수 효과를 ?만큼 얻으며 {{ f2.0 }}회 공격합니다. 공격 횟수는 벨베스의 <attackSpeed>공격 속도</attackSpeed>에 비례해 증가합니다. 각 공격은 체력이 가장 낮은 적에게 대상이 잃은 체력에 비례해 <physicalDamage>?</physicalDamage>~<physicalDamage>?의 물리 피해</physicalDamage>를 입힙니다.<br /><br />다른 스킬을 사용하거나 <recast>재사용</recast>하면 이 스킬을 일찍 종료합니다.<br />",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/BelvethE.png",
+        "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0200/ability_0200_E1.webm"
+      },
+      "R": {
+        "key": "R",
+        "name": "끝없는 연회",
+        "description": "벨베스가 공허 산호 잔해를 소모해 본모습으로 변신하며 최대 체력, 공격 사거리, 공격 속도, 비전투 시 이동 속도가 증가합니다. 공허 에픽 몬스터의 공허 산호 잔해를 소모하면 궁극기 지속시간이 늘어나며 공허 빨판상어를 소환할 힘이 생깁니다.",
+        "tooltip": "<spellPassive>기본 지속 효과:</spellPassive> 같은 대상을 두 번 공격할 때마다 무한히 중첩되는 <trueDamage>?의 고정 피해</trueDamage>를 추가로 입힙니다. 챔피언과 에픽 몬스터 처치에 관여하면 공허 산호 조각이 떨어집니다.<br /><br /><spellActive>사용 시:</spellActive> 공허 산호 소모 시 <keywordMajor>?개의 연보라</keywordMajor> 중첩이 쌓이고 ?초 동안 벨베스의 본모습이 드러납니다. 공허 에픽 몬스터가 남긴 공허 산호는 지속시간을 ?초까지 늘리며 근처에서 죽는 미니언을 공허 빨판상어로 만듭니다. 이 스킬을 사용하는 동안 주변 적을 <status>둔화</status>시킨 후 폭발을 일으켜 <trueDamage>?+잃은 체력의 ?%에 해당하는 고정 피해</trueDamage>를 입힙니다.<br /><br />본모습으로 변신한 벨베스는 <healing>최대 체력이 ?</healing>, 비전투 시 <speed>이동 속도가 ?</speed>, 공격 사거리가 ?, <attackSpeed>총 공격 속도가 ?%</attackSpeed> 증가하며 <spellName>공허 쇄도</spellName>로 벽을 통과할 수 있습니다.<br /><br /><br />",
+        "image_url": "https://opgg-static.akamaized.net/images/lol/spell/BelvethR.png",
+        "video_url": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0200/ability_0200_R1.webm"
       }
     },
     "201": {
