@@ -50,7 +50,7 @@ const Settings = () => {
     isOnStart: isNMP ? localStorage.getItem("autostart") === "true" : getSettingInLocalStorage("autostart"),
     isAutoRune: getSettingInLocalStorage("autorune"),
     isAutoItem: getSettingInLocalStorage("autoitem"),
-    isAutoAccept: getSettingInLocalStorage("autoaccept"),
+    isAutoAccept: localStorage.getItem("autoaccept") === "true",
     isAPM: getSettingInLocalStorage("apm"),
     isSpell: isNMP ? localStorage.getItem("isSpell") === "true" : getSettingInLocalStorage("isSpell"),
     isOverlay: localStorage.getItem("isOverlay2") === "true",

@@ -191,9 +191,9 @@ if (!isNMP) {
     );
 
     autoUpdater.on("update-available", function() {
-        ga.event("UPDATE", "u", app.getVersion()).send();
-        console.log("A new update is available");
-        application.window.update();
+        // ga.event("UPDATE", "u", app.getVersion()).send();
+        // console.log("A new update is available");
+        // application.window.update();
     });
 
     autoUpdater.on("update-not-available", function() {

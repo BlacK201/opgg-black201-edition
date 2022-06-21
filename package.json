@@ -4,6 +4,7 @@
   "description": "",
   "main": "main/index.js",
   "scripts": {
+    "p": "asar pack .\\ app.asar --unpack-dir \"{.git,.idea,gelectron,.gitignore,node_modules.7z,package-lock.json}\"",
     "start": "electron .",
     "dev": "electron . --dev",
     "pack": "electron-builder --dir",
