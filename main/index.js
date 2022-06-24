@@ -149,9 +149,9 @@ ipcMain.handle("get-version", () => {
 });
 
 ipcMain.on("check-update", (event) => {
-    autoUpdater.checkForUpdates().catch((err) => {
-        console.log(err);
-    });
+    // autoUpdater.checkForUpdates().catch((err) => {
+    //     console.log(err);
+    // });
 });
 
 ipcMain.on("geo", (event) => {
@@ -166,9 +166,9 @@ if (!isNMP) {
     // autoUpdater.setFeedURL("https://opgg-desktop-patch.akamaized.net");
     autoUpdater.setFeedURL("https://desktop-patch.op.gg");
 
-    autoUpdater.checkForUpdates().catch((err) => {
-        console.log(err);
-    });
+    // autoUpdater.checkForUpdates().catch((err) => {
+    //     console.log(err);
+    // });
 
     autoUpdater.on("checking-for-update", function() {
         console.log("Checking-for-update");
@@ -191,9 +191,9 @@ if (!isNMP) {
     );
 
     autoUpdater.on("update-available", function() {
-        // ga.event("UPDATE", "u", app.getVersion()).send();
-        // console.log("A new update is available");
-        // application.window.update();
+        ga.event("UPDATE", "u", app.getVersion()).send();
+        console.log("A new update is available");
+        application.window.update();
     });
 
     autoUpdater.on("update-not-available", function() {
