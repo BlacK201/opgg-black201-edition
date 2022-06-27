@@ -207,19 +207,19 @@ const App = () => {
                 {!isOverlay &&
                     <>
                         {(eu.includes(countryCode) && isOW)
-                            ? <OWAds/>
+                            ? <NoAds/>
                             : <>
                                 {(na.includes(countryCode) && isOW && percentage)
-                                    ? <OWAds/>
+                                    ? <NoAds/>
                                     : <>
                                         {(!isNMP && playwireAds.includes(localRegion))
-                                            ? <Ads/>
+                                            ? <NoAds/>
                                             : <>
                                                 {(adsenseAds.includes(localRegion))
-                                                    ? <OWAds/>
+                                                    ? <NoAds/>
                                                     : <>
                                                         {(nitropayAds.includes(localRegion) && adsense)
-                                                            ? <KrAds/>
+                                                            ? <NoAds/>
                                                             : <NoAds/>
                                                         }
                                                     </>
@@ -227,7 +227,7 @@ const App = () => {
                                             </>
                                         }
                                         {isNMP &&
-                                            <NMPAds/>
+                                            <NoAds/>
                                         }
                                     </>
                                 }
