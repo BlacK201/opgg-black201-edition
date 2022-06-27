@@ -164,13 +164,13 @@ const App = () => {
                         {!isOverlay &&
                             <>
                                 {(!isNMP && playwireAds.includes(localRegion))
-                                    ? <Ads/>
+                                    ? <NoAds/>
                                     : <>
                                         {(adsenseAds.includes(localRegion))
-                                            ? <GlobalAds/>
+                                            ? <NoAds/>
                                             : <>
                                                 {(nitropayAds.includes(localRegion) && adsense)
-                                                    ? <KrAds/>
+                                                    ? <NoAds/>
                                                     : <NoAds/>
                                                 }
                                             </>
@@ -178,12 +178,12 @@ const App = () => {
                                     </>
                                 }
                                 {isNMP &&
-                                    <NMPAds/>
+                                    <NoAds/>
                                 }
                             </>
                         }
                         </>
-                    : <OWAds/>
+                    : <NoAds/>
                 }
             </>
         );
