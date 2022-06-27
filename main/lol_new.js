@@ -186,12 +186,12 @@ class LoL {
                 this.app.window.show();
 
                 let summonerRankResponse = await this.callHttp2API("GET", `${lolConstants.LOL_RANKED_STATS}/${this.game.summoner.puuid}`).catch((e) => {
-                    console.log(e)
+                    console.log(`summonerRankResponse${e}`)
                     return null
                 });
                 // let summonerRankResponse = await this.callAPI("GET", "lol", `${lolConstants.LOL_RANKED_STATS}/${this.game.summoner.puuid}`)
                 //     .catch((_) => {return null});
-                console.log(`summonerRankResponse${summonerRankResponse}`)
+                // console.log(`summonerRankResponse${summonerRankResponse}`)
                 if (!summonerRankResponse) return;
                 sendGA4Event("login_lol", {
                     login_lol: true,
@@ -241,7 +241,7 @@ class LoL {
                     const json = JSON.parse(content)
                     let data = json.slice(2)[0].data;
                     let uri = json.slice(2)[0].uri;
-                    // console.log(uri);
+                    // console.log(`WS  ${uri}`);
 
                     switch (uri) {
                         case lolConstants.LOL_GAMEFLOW_SESSION:
@@ -254,6 +254,7 @@ class LoL {
                             break;
 
                         case "/lol-matchmaking/v1/ready-check":
+                            console.log(`WS  ${uri}`);
                             if (this.config.isAutoAcceptOn){
                                 this.acceptMatch();
                             }
@@ -268,7 +269,7 @@ class LoL {
             });
 
             this.ws.on("error", (err) => {
-                console.log(err);
+                console.log(`WS ON ERROR${err}`);
             });
 
             this.ws.on("close", () => {
@@ -444,7 +445,11 @@ class LoL {
             let response = {}
         
             req.on('end', () => {
-                response['data'] = JSON.parse(resData.join(""))
+                if (resData.length !== 0) {
+                    response['data'] = JSON.parse(resData.join(""))
+                } else {
+                    response['data'] = {}
+                }
                 client.close();
                 resolve(response)
             });
@@ -591,7 +596,7 @@ class LoL {
                         apiName = "data2";
                     }
                     let intervalEOG = setInterval(() => {
-                        this.callAPI("GET", "lol", lolConstants.LOL_EOG_STATS_BLOCK).then((data) => {
+                        this.callHttp2API("GET", "lol", lolConstants.LOL_EOG_STATS_BLOCK).then((data) => {
                             sendGA4Event("play_game_end", {
                                 queueId: this.game.queueId,
                                 gameId: data.data.gameId,
@@ -1117,7 +1122,7 @@ class LoL {
                 if (summoner) {
                     summoner = summoner.data;
                     let response = await this.callHttp2API("GET", `${lolConstants.LOL_RANKED_STATS}/${summoner.puuid}`).catch((e) => {
-                        console.log(e)
+                        console.log(`getMyPage${e}`)
                         return null
                     });
                     // let response = await this.callAPI("GET", "lol", `${lolConstants.LOL_RANKED_STATS}/${summoner.puuid}`).catch(() => {
