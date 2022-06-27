@@ -151,6 +151,7 @@ class LoL {
         }
 
         this.ipc();
+        this.app.window.show();
         this.detectGameProcess();
 
         this.callAPI("GET", "s3", `/combo_test.json?timestamp=${new Date().getTime()}`).then((data) => {
@@ -262,7 +263,6 @@ class LoL {
                     const json = JSON.parse(content)
                     let data = json.slice(2)[0].data;
                     let uri = json.slice(2)[0].uri;
-                    // console.log(`WS  ${uri}`);
 
                     switch (uri) {
                         case lolConstants.LOL_GAMEFLOW_SESSION:
@@ -276,8 +276,8 @@ class LoL {
                             break;
 
                         case "/lol-matchmaking/v1/ready-check":
-                            console.log(`WS  ${uri}`);
-                            if (this.config.isAutoAcceptOn){
+                            console.log(data)
+                            if (this.config.isAutoAcceptOn && data.timer >= 1){
                                 this.acceptMatch();
                             }
                             break;
