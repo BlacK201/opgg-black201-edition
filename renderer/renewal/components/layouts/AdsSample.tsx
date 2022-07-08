@@ -18,8 +18,6 @@ const AdsSample = () => {
         }
     }, []);
 
-    return (<></>)
-
     return (
         <>
             <div className={"side-ads"}>

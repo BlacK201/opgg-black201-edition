@@ -306,16 +306,16 @@ const Settings = () => {
                       <div className="popup-settings-main-row-desc">{t("settings.item-desc")}</div>
                   </div>
 
-                  <div className={"popup-settings-main-row"}>
-                      <div style={{display: "flex", alignItems: "center"}}>
-                          <div className={"popup-settings-main-row-title"}>{t("settings.autoaccept")}</div>
-                          <label className="switch">
-                              <input type="checkbox" checked={gameSettings.isAutoAccept} onChange={onChangeAutoAccept} />
-                              <span className="slider round"></span>
-                          </label>
-                      </div>
-                      <div className="popup-settings-main-row-desc" >{t("settings.autoaccept-desc")}</div>
-                  </div>
+                  {/*<div className={"popup-settings-main-row"}>*/}
+                  {/*    <div style={{display: "flex", alignItems: "center"}}>*/}
+                  {/*        <div className={"popup-settings-main-row-title"}>{t("settings.autoaccept")}</div>*/}
+                  {/*        <label className="switch">*/}
+                  {/*            <input type="checkbox" checked={gameSettings.isAutoAccept} onChange={onChangeAutoAccept} />*/}
+                  {/*            <span className="slider round"></span>*/}
+                  {/*        </label>*/}
+                  {/*    </div>*/}
+                  {/*    <div className="popup-settings-main-row-desc" >{t("settings.autoaccept-desc")}</div>*/}
+                  {/*</div>*/}
 
                 {!isNMP &&
                     <div className={"popup-settings-main-row"}>

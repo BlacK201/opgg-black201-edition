@@ -1,14 +1,15 @@
 import sendGA4Event from "../../../utils/ga4";
 import React, {useEffect, useState} from "react";
 import Adsense from "../../../components/Adsense";
+import AdsenseNMP from "../../../components/AdsenseNMP";
 
-const GlobalAds = () => {
+const NMPAds = () => {
   const [isClickable, setIsClickable] = useState(true);
 
   useEffect(() => {
     sendGA4Event("view_side_ad", {
       "menu_name": "full",
-      "region": "GLOBAL"
+      "region": "NMP"
     });
 
     let tmpTimeout = null;
@@ -23,7 +24,7 @@ const GlobalAds = () => {
       window.api.send("ignore-mouse", false);
       setIsClickable(true);
       tmpTimeout = setTimeout(() => {
-        webview?.loadURL("https://dtapp-player.op.gg/aniview.html");
+        webview?.loadURL("https://dtapp-player.op.gg/aniview_nmp.html");
         setIsClickable(false);
       }, 60 * 1000);
     }
@@ -55,7 +56,7 @@ const GlobalAds = () => {
           <section>
             <webview
               allowpopups={"true"}
-              src="https://dtapp-player.op.gg/aniview.html"
+              src={`https://dtapp-player.op.gg/aniview_nmp.html`}
               httpreferrer={'https://op.gg'}
               disablewebsecurity="false"
               style={{width: "400px" || '100vw', height: "225px" || '100vh'}}
@@ -68,7 +69,7 @@ const GlobalAds = () => {
           <div className={"two-side-ads"} style={{
             display: "flex"
           }}>
-            <Adsense
+           <AdsenseNMP
               url={""}
               referrer="https://www.op.gg"
               height="501px"
@@ -80,10 +81,10 @@ const GlobalAds = () => {
               height: "100%"
             }}
                  onMouseEnter={() => {
-                   window.api.send("ignore-mouse", true);
+                     window.api.send("ignore-mouse", true);
                  }}
                  onMouseLeave={() => {
-                   window.api.send("ignore-mouse", false);
+                     window.api.send("ignore-mouse", false);
                  }}
             >
               <div style={{
@@ -98,4 +99,4 @@ const GlobalAds = () => {
   )
 }
 
-export default GlobalAds;
+export default NMPAds;

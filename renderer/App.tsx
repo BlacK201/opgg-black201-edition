@@ -38,6 +38,7 @@ import IngameLCU from "./renewal/pages/ingameLCU";
 import GlobalAds from "./renewal/components/layouts/GlobalAds";
 import MemberPolicyModal from "./components/Modal/MemberPolicyModal";
 import NoticeModal from "./components/Modal/NoticeModal";
+import NMPAds from "./renewal/components/layouts/NMPAds";
 const {isNMP} = require("./utils/nmp");
 const {countryHasAds} = require("./utils/ads");
 const {countryHasAdsAdsense} = require("./utils/adsAdsense");
@@ -128,7 +129,9 @@ const App = () => {
                 <Side/>
                 <Settings/>
                 <MemberPolicyModal />
-                <NoticeModal />
+                {!isNMP &&
+                  <NoticeModal/>
+                }
                 {!isOverlay &&
                 <>
                     {(!isNMP && playwireAds.includes(localRegion))
@@ -144,6 +147,9 @@ const App = () => {
                               </>
                             }
                         </>
+                    }
+                    {isNMP &&
+                      <NoAds/>
                     }
                 </>
                 }

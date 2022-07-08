@@ -1,3 +1,3 @@
-let editionVersion = 'BlacK201 Edition v0.4.5 Alpha';
+let editionVersion = 'BlacK201 Edition v0.4.4 Beta';
 
 exports.editionVersion = editionVersion;

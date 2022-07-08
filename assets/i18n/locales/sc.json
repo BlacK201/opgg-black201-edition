@@ -607,9 +607,9 @@
     },
     "1056": {
       "name": "多兰之戒",
-      "desc": "<mainText><stats><attention>15</attention>法术强度<br><attention>70</attention>生命值</stats><br><li><passive>专注：</passive>攻击对小兵附带额外的<physicalDamage>5物理伤害</physicalDamage>。<li><passive>汲取：</passive>每秒回复<scaleMana>1法力</scaleMana>。在对一名敌人造成伤害时，会将这个数额提升至每秒<scaleMana>1.5法力</scaleMana>，持续10秒。如果你无法回复法力值，那么会回复45%此数额的生命值作为替代。</mainText><br>",
+      "desc": "<mainText><stats><attention>15</attention>法术强度<br><attention>70</attention>生命值</stats><br><li><passive>专注：</passive>攻击对小兵附带额外的<physicalDamage>5物理伤害</physicalDamage>。<li><passive>汲取：</passive>每秒回复<scaleMana>1法力</scaleMana>。在对一名敌方英雄造成伤害时，会将这个数额提升至每秒<scaleMana>1.5法力</scaleMana>，持续10秒。如果你无法回复法力值，那么会回复45%此数额的生命值作为替代。 </mainText><br>",
       "gold": 400,
-      "tooltip": "<div class='tooltip-title'>多兰之戒</div><mainText><stats><attention>15</attention>法术强度<br><attention>70</attention>生命值</stats><br><li><passive>专注：</passive>攻击对小兵附带额外的<physicalDamage>5物理伤害</physicalDamage>。<li><passive>汲取：</passive>每秒回复<scaleMana>1法力</scaleMana>。在对一名敌人造成伤害时，会将这个数额提升至每秒<scaleMana>1.5法力</scaleMana>，持续10秒。如果你无法回复法力值，那么会回复45%此数额的生命值作为替代。</mainText><br><div class='tooltip-gold'>400 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>多兰之戒</div><mainText><stats><attention>15</attention>法术强度<br><attention>70</attention>生命值</stats><br><li><passive>专注：</passive>攻击对小兵附带额外的<physicalDamage>5物理伤害</physicalDamage>。<li><passive>汲取：</passive>每秒回复<scaleMana>1法力</scaleMana>。在对一名敌方英雄造成伤害时，会将这个数额提升至每秒<scaleMana>1.5法力</scaleMana>，持续10秒。如果你无法回复法力值，那么会回复45%此数额的生命值作为替代。 </mainText><br><div class='tooltip-gold'>400 Gold</div>"
     },
     "1057": {
       "name": "负极斗篷",
@@ -985,9 +985,9 @@
     },
     "3053": {
       "name": "斯特拉克的挑战护手",
-      "desc": "<mainText><stats><attention>400</attention>生命值</stats><br><li><passive>抓人双爪：</passive>获得相当于40%基础攻击力的额外攻击力。<li><passive>救主灵刃：</passive>在受到将使你的生命值跌到30%以下的伤害时，提供持续3.75秒的<shield>相当于70%额外生命值的护盾值</shield>(60秒)。</mainText><br>",
+      "desc": "<mainText><stats><attention>400</attention>生命值</stats><br><li><passive>抓人双爪：</passive>获得相当于45%基础攻击力的额外攻击力。<li><passive>救主灵刃：</passive>在受到将使你的生命值跌到30%以下的伤害时，提供在3.75秒里持续衰减的<shield>相当于75%额外生命值的护盾值</shield>(60秒)。</mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>斯特拉克的挑战护手</div><mainText><stats><attention>400</attention>生命值</stats><br><li><passive>抓人双爪：</passive>获得相当于40%基础攻击力的额外攻击力。<li><passive>救主灵刃：</passive>在受到将使你的生命值跌到30%以下的伤害时，提供持续3.75秒的<shield>相当于70%额外生命值的护盾值</shield>(60秒)。</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>斯特拉克的挑战护手</div><mainText><stats><attention>400</attention>生命值</stats><br><li><passive>抓人双爪：</passive>获得相当于45%基础攻击力的额外攻击力。<li><passive>救主灵刃：</passive>在受到将使你的生命值跌到30%以下的伤害时，提供在3.75秒里持续衰减的<shield>相当于75%额外生命值的护盾值</shield>(60秒)。</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
     },
     "3057": {
       "name": "耀光",
@@ -1273,9 +1273,9 @@
     },
     "3152": {
       "name": "海克斯科技火箭腰带",
-      "desc": "<mainText><stats><attention>90</attention>法术强度<br><attention>10</attention>法术穿透<br><attention>250</attention>生命值<br><attention>15</attention>技能急速</stats><br><br><active>主动 - </active><active>超音速：</active>朝着目标方向冲刺，释放一道魔法弹圆弧，造成<magicDamage>(125+15%法术强度)魔法伤害</magicDamage>。随后，在朝着敌方英雄移动时提供<speed>30%移动速度</speed>，持续1.5秒(40秒冷却时间)。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得 <attention>5</attention>法术穿透。<br><br><rules>超音速的冲刺无法穿过地形。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>90</attention>法术强度<br><attention>6</attention>法术穿透<br><attention>250</attention>生命值<br><attention>15</attention>技能急速</stats><br><br><active>主动 - </active><active>超音速：</active>朝着目标方向冲刺，释放一道魔法弹圆弧，造成<magicDamage>(125+15%法术强度)魔法伤害</magicDamage>。随后，在朝着敌方英雄移动时提供<speed>30%移动速度</speed>，持续1.5秒(40秒冷却时间)。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得 <attention>5</attention>法术穿透。<br><br><rules>超音速的冲刺无法穿过地形。</rules></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>海克斯科技火箭腰带</div><mainText><stats><attention>90</attention>法术强度<br><attention>10</attention>法术穿透<br><attention>250</attention>生命值<br><attention>15</attention>技能急速</stats><br><br><active>主动 - </active><active>超音速：</active>朝着目标方向冲刺，释放一道魔法弹圆弧，造成<magicDamage>(125+15%法术强度)魔法伤害</magicDamage>。随后，在朝着敌方英雄移动时提供<speed>30%移动速度</speed>，持续1.5秒(40秒冷却时间)。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得 <attention>5</attention>法术穿透。<br><br><rules>超音速的冲刺无法穿过地形。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>海克斯科技火箭腰带</div><mainText><stats><attention>90</attention>法术强度<br><attention>6</attention>法术穿透<br><attention>250</attention>生命值<br><attention>15</attention>技能急速</stats><br><br><active>主动 - </active><active>超音速：</active>朝着目标方向冲刺，释放一道魔法弹圆弧，造成<magicDamage>(125+15%法术强度)魔法伤害</magicDamage>。随后，在朝着敌方英雄移动时提供<speed>30%移动速度</speed>，持续1.5秒(40秒冷却时间)。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得 <attention>5</attention>法术穿透。<br><br><rules>超音速的冲刺无法穿过地形。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "3153": {
       "name": "破败王者之刃",
@@ -1291,9 +1291,9 @@
     },
     "3156": {
       "name": "玛莫提乌斯之噬",
-      "desc": "<mainText><stats><attention>55</attention>攻击力<br><attention>50</attention>魔法抗性<br><attention>20</attention>技能急速</stats><br><li><passive>救主灵刃：</passive>在受到将使你的生命值跌到30%以下的魔法伤害时，提供<shield>(200 + 225%额外攻击力[远程携带者为75%护盾值])魔法伤害护盾</shield>，持续5秒(75秒冷却时间)。当<passive>救主灵刃</passive>触发时，获得<lifeSteal>10%全能吸血</lifeSteal>，持续到战斗结束为止。    </mainText><br>",
+      "desc": "<mainText><stats><attention>55</attention>攻击力<br><attention>50</attention>魔法抗性<br><attention>20</attention>技能急速</stats><br><li><passive>救主灵刃：</passive>在受到将使你的生命值跌到30%以下的魔法伤害时，提供<shield>(200 + 225%额外攻击力[远程携带者为75%护盾值])魔法伤害护盾</shield>，持续5秒(75秒冷却时间)。当<passive>救主灵刃</passive>触发时，获得<lifeSteal>8%全能吸血</lifeSteal>，持续到战斗结束为止。  </mainText><br>",
       "gold": 2900,
-      "tooltip": "<div class='tooltip-title'>玛莫提乌斯之噬</div><mainText><stats><attention>55</attention>攻击力<br><attention>50</attention>魔法抗性<br><attention>20</attention>技能急速</stats><br><li><passive>救主灵刃：</passive>在受到将使你的生命值跌到30%以下的魔法伤害时，提供<shield>(200 + 225%额外攻击力[远程携带者为75%护盾值])魔法伤害护盾</shield>，持续5秒(75秒冷却时间)。当<passive>救主灵刃</passive>触发时，获得<lifeSteal>10%全能吸血</lifeSteal>，持续到战斗结束为止。    </mainText><br><div class='tooltip-gold'>2900 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>玛莫提乌斯之噬</div><mainText><stats><attention>55</attention>攻击力<br><attention>50</attention>魔法抗性<br><attention>20</attention>技能急速</stats><br><li><passive>救主灵刃：</passive>在受到将使你的生命值跌到30%以下的魔法伤害时，提供<shield>(200 + 225%额外攻击力[远程携带者为75%护盾值])魔法伤害护盾</shield>，持续5秒(75秒冷却时间)。当<passive>救主灵刃</passive>触发时，获得<lifeSteal>8%全能吸血</lifeSteal>，持续到战斗结束为止。  </mainText><br><div class='tooltip-gold'>2900 Gold</div>"
     },
     "3157": {
       "name": "中娅沙漏",
@@ -1669,9 +1669,9 @@
     },
     "6333": {
       "name": "死亡之舞",
-      "desc": "<mainText><stats><attention>55</attention>攻击力<br><attention>45</attention>护甲<br><attention>15</attention>技能急速</stats><br><li><passive>无视痛苦：</passive>所受的30%(远程使用者为10%)物理伤害会以流血形式在3秒里持续扣除。<li><passive>蔑视：</passive>参与击杀英雄后会净化<passive>无视痛苦</passive>的剩余伤害，并在2秒里持续回复共计<healing>相当于140%额外攻击力的生命值</healing>。</mainText><br>",
+      "desc": "<mainText><stats><attention>55</attention>攻击力<br><attention>45</attention>护甲<br><attention>15</attention>技能急速</stats><br><li><passive>无视痛苦：</passive>所受的30%(远程使用者为10%)伤害会以流血形式在3秒里持续扣除。<li><passive>蔑视：</passive>参与击杀英雄后会净化<passive>无视痛苦</passive>的剩余伤害，并在2秒里持续回复共计<healing>相当于120%额外攻击力的生命值</healing>。</mainText><br>",
       "gold": 3300,
-      "tooltip": "<div class='tooltip-title'>死亡之舞</div><mainText><stats><attention>55</attention>攻击力<br><attention>45</attention>护甲<br><attention>15</attention>技能急速</stats><br><li><passive>无视痛苦：</passive>所受的30%(远程使用者为10%)物理伤害会以流血形式在3秒里持续扣除。<li><passive>蔑视：</passive>参与击杀英雄后会净化<passive>无视痛苦</passive>的剩余伤害，并在2秒里持续回复共计<healing>相当于140%额外攻击力的生命值</healing>。</mainText><br><div class='tooltip-gold'>3300 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>死亡之舞</div><mainText><stats><attention>55</attention>攻击力<br><attention>45</attention>护甲<br><attention>15</attention>技能急速</stats><br><li><passive>无视痛苦：</passive>所受的30%(远程使用者为10%)伤害会以流血形式在3秒里持续扣除。<li><passive>蔑视：</passive>参与击杀英雄后会净化<passive>无视痛苦</passive>的剩余伤害，并在2秒里持续回复共计<healing>相当于120%额外攻击力的生命值</healing>。</mainText><br><div class='tooltip-gold'>3300 Gold</div>"
     },
     "6609": {
       "name": "炼金朋克链锯剑",
@@ -1789,21 +1789,21 @@
     },
     "6691": {
       "name": "德拉克萨的暮刃",
-      "desc": "<mainText><stats><attention>60</attention>攻击力<br><attention>22</attention>穿甲<br><attention>20</attention>技能急速</stats><br><li><passive>夜行者：</passive>攻击一名敌方英雄时会附带额外的<physicalDamage>(近战为75 + 30%额外攻击力 / 远程为55 + 25%额外攻击力)物理伤害</physicalDamage>(15秒冷却时间)。如果装备持有者是近战，则这个攻击还会使目标<status>减速</status>99%，持续0.25秒。如果一名在过去3秒内曾被你造成过伤害的英雄阵亡，就会刷新这个冷却时间并获得持续1.5秒的<keywordStealth>隐形</keywordStealth>状态。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得<attention>5</attention>技能急速。<br></mainText><br>",
+      "desc": "<mainText><stats><attention>60</attention>攻击力<br><attention>18</attention>穿甲<br><attention>20</attention>技能急速</stats><br><li><passive>夜行者：</passive>攻击一名敌方英雄时会附带额外的<physicalDamage>(近战为75 + 30%额外攻击力 / 远程为55 + 25%额外攻击力)物理伤害</physicalDamage>(15秒冷却时间)。如果装备持有者是近战，则这个攻击还会使目标<status>减速</status>99%，持续0.25秒。如果一名在过去3秒内曾被你造成过伤害的英雄阵亡，就会刷新这个冷却时间并获得持续1.5秒的<keywordStealth>隐形</keywordStealth>状态。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得<attention>5</attention>技能急速。<br></mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>德拉克萨的暮刃</div><mainText><stats><attention>60</attention>攻击力<br><attention>22</attention>穿甲<br><attention>20</attention>技能急速</stats><br><li><passive>夜行者：</passive>攻击一名敌方英雄时会附带额外的<physicalDamage>(近战为75 + 30%额外攻击力 / 远程为55 + 25%额外攻击力)物理伤害</physicalDamage>(15秒冷却时间)。如果装备持有者是近战，则这个攻击还会使目标<status>减速</status>99%，持续0.25秒。如果一名在过去3秒内曾被你造成过伤害的英雄阵亡，就会刷新这个冷却时间并获得持续1.5秒的<keywordStealth>隐形</keywordStealth>状态。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得<attention>5</attention>技能急速。<br></mainText><br><div class='tooltip-gold'>3100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>德拉克萨的暮刃</div><mainText><stats><attention>60</attention>攻击力<br><attention>18</attention>穿甲<br><attention>20</attention>技能急速</stats><br><li><passive>夜行者：</passive>攻击一名敌方英雄时会附带额外的<physicalDamage>(近战为75 + 30%额外攻击力 / 远程为55 + 25%额外攻击力)物理伤害</physicalDamage>(15秒冷却时间)。如果装备持有者是近战，则这个攻击还会使目标<status>减速</status>99%，持续0.25秒。如果一名在过去3秒内曾被你造成过伤害的英雄阵亡，就会刷新这个冷却时间并获得持续1.5秒的<keywordStealth>隐形</keywordStealth>状态。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得<attention>5</attention>技能急速。<br></mainText><br><div class='tooltip-gold'>3100 Gold</div>"
     },
     "6692": {
       "name": "星蚀",
-      "desc": "<mainText><stats><attention>55</attention>攻击力<br><attention>22</attention>穿甲<br><attention>7%</attention>全能吸血</stats><br><br><li><passive>永升之月：</passive>在1.5秒内用2次独立的攻击或技能命中一名英雄时，会造成额外的<physicalDamage>{{ Item_Melee_Ranged_Split_C }}%最大生命值的物理伤害</physicalDamage>，并为你提供<speed>15%移动速度</speed>和<shield>(160 + 35%额外攻击力)护盾值(远程英雄为50%护盾值)</shield>，持续2秒。(8秒冷却时间，远程英雄为16秒冷却时间)。<br><br>{{ Item_Mythic_Passive }}<attention>4%</attention>护甲穿透</mainText><br>",
+      "desc": "<mainText><stats><attention>55</attention>攻击力<br><attention>18</attention>穿甲<br><attention>7%</attention>全能吸血</stats><br><br><li><passive>永升之月：</passive>在1.5秒内用2次独立的攻击或技能命中一名英雄时，会造成额外的<physicalDamage>{{ Item_Melee_Ranged_Split_C }}%最大生命值的物理伤害</physicalDamage>，并为你提供<speed>15%移动速度</speed>和<shield>(160 + 35%额外攻击力)护盾值(远程英雄为50%护盾值)</shield>，持续2秒。(8秒冷却时间，远程英雄为16秒冷却时间)。<br><br>{{ Item_Mythic_Passive }}<attention>4%</attention>护甲穿透</mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>星蚀</div><mainText><stats><attention>55</attention>攻击力<br><attention>22</attention>穿甲<br><attention>7%</attention>全能吸血</stats><br><br><li><passive>永升之月：</passive>在1.5秒内用2次独立的攻击或技能命中一名英雄时，会造成额外的<physicalDamage>{{ Item_Melee_Ranged_Split_C }}%最大生命值的物理伤害</physicalDamage>，并为你提供<speed>15%移动速度</speed>和<shield>(160 + 35%额外攻击力)护盾值(远程英雄为50%护盾值)</shield>，持续2秒。(8秒冷却时间，远程英雄为16秒冷却时间)。<br><br>{{ Item_Mythic_Passive }}<attention>4%</attention>护甲穿透</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>星蚀</div><mainText><stats><attention>55</attention>攻击力<br><attention>18</attention>穿甲<br><attention>7%</attention>全能吸血</stats><br><br><li><passive>永升之月：</passive>在1.5秒内用2次独立的攻击或技能命中一名英雄时，会造成额外的<physicalDamage>{{ Item_Melee_Ranged_Split_C }}%最大生命值的物理伤害</physicalDamage>，并为你提供<speed>15%移动速度</speed>和<shield>(160 + 35%额外攻击力)护盾值(远程英雄为50%护盾值)</shield>，持续2秒。(8秒冷却时间，远程英雄为16秒冷却时间)。<br><br>{{ Item_Mythic_Passive }}<attention>4%</attention>护甲穿透</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
     },
     "6693": {
       "name": "暗行者之爪",
-      "desc": "<mainText><stats><attention>60</attention>攻击力<br><attention>22</attention>穿甲<br><attention>20</attention>技能急速</stats><br><br><active>主动 - </active><active>沙之挥击：</active>冲刺并穿过目标敌方英雄，造成<physicalDamage>(75 + 30%额外攻击力)物理伤害</physicalDamage>。接下来的3秒里，你对目标造成的伤害提升15%(90秒冷却时间)。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得 <attention>5</attention>穿甲</mainText><br>",
+      "desc": "<mainText><stats><attention>60</attention>攻击力<br><attention>18</attention>穿甲<br><attention>20</attention>技能急速</stats><br><br><active>主动 - </active><active>沙之挥击：</active>冲刺并穿过目标敌方英雄，造成<physicalDamage>(75 + 30%额外攻击力)物理伤害</physicalDamage>。接下来的3秒里，你对目标造成的伤害提升15%(90秒冷却时间)。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得 <attention>5</attention>穿甲</mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>暗行者之爪</div><mainText><stats><attention>60</attention>攻击力<br><attention>22</attention>穿甲<br><attention>20</attention>技能急速</stats><br><br><active>主动 - </active><active>沙之挥击：</active>冲刺并穿过目标敌方英雄，造成<physicalDamage>(75 + 30%额外攻击力)物理伤害</physicalDamage>。接下来的3秒里，你对目标造成的伤害提升15%(90秒冷却时间)。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得 <attention>5</attention>穿甲</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>暗行者之爪</div><mainText><stats><attention>60</attention>攻击力<br><attention>18</attention>穿甲<br><attention>20</attention>技能急速</stats><br><br><active>主动 - </active><active>沙之挥击：</active>冲刺并穿过目标敌方英雄，造成<physicalDamage>(75 + 30%额外攻击力)物理伤害</physicalDamage>。接下来的3秒里，你对目标造成的伤害提升15%(90秒冷却时间)。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得 <attention>5</attention>穿甲</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
     },
     "6694": {
       "name": "赛瑞尔达的怨恨",
@@ -1813,33 +1813,33 @@
     },
     "6695": {
       "name": "巨蛇之牙",
-      "desc": "<mainText><stats><attention>55</attention>攻击力<br><attention>14</attention>穿甲</stats><br><li><passive>掠盾者：</passive>对一名敌方英雄造成伤害时，会使其获得的任何护盾降低(近战携带者为50% | 远程携带者为35%)，持续3秒。当你对一名未被掠盾者影响的敌人造成伤害时，会使其身上的所有护盾降低(近战携带者为50% | 远程携带者为35%)。<br><br><rules>额外伤害不会作用于带有仅格挡魔法伤害的护盾。<br>装备对近战携带者和远程携带者会有不同的性能。</rules></mainText><br>",
+      "desc": "<mainText><stats><attention>55</attention>攻击力<br><attention>12</attention>穿甲</stats><br><li><passive>掠盾者：</passive>对一名敌方英雄造成伤害时，会使其获得的任何护盾降低(近战携带者为50% | 远程携带者为35%)，持续3秒。当你对一名未被掠盾者影响的敌人造成伤害时，会使其身上的所有护盾降低(近战携带者为50% | 远程携带者为35%)。<br><br><rules>额外伤害不会作用于带有仅格挡魔法伤害的护盾。<br>装备对近战携带者和远程携带者会有不同的性能。</rules></mainText><br>",
       "gold": 2600,
-      "tooltip": "<div class='tooltip-title'>巨蛇之牙</div><mainText><stats><attention>55</attention>攻击力<br><attention>14</attention>穿甲</stats><br><li><passive>掠盾者：</passive>对一名敌方英雄造成伤害时，会使其获得的任何护盾降低(近战携带者为50% | 远程携带者为35%)，持续3秒。当你对一名未被掠盾者影响的敌人造成伤害时，会使其身上的所有护盾降低(近战携带者为50% | 远程携带者为35%)。<br><br><rules>额外伤害不会作用于带有仅格挡魔法伤害的护盾。<br>装备对近战携带者和远程携带者会有不同的性能。</rules></mainText><br><div class='tooltip-gold'>2600 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>巨蛇之牙</div><mainText><stats><attention>55</attention>攻击力<br><attention>12</attention>穿甲</stats><br><li><passive>掠盾者：</passive>对一名敌方英雄造成伤害时，会使其获得的任何护盾降低(近战携带者为50% | 远程携带者为35%)，持续3秒。当你对一名未被掠盾者影响的敌人造成伤害时，会使其身上的所有护盾降低(近战携带者为50% | 远程携带者为35%)。<br><br><rules>额外伤害不会作用于带有仅格挡魔法伤害的护盾。<br>装备对近战携带者和远程携带者会有不同的性能。</rules></mainText><br><div class='tooltip-gold'>2600 Gold</div>"
     },
     "6696": {
       "name": "公理圆弧",
-      "desc": "<mainText><stats><attention>55</attention>攻击力<br><attention>13</attention>穿甲<br><attention>25</attention>技能急速</stats><br><li><passive>涌动：</passive>在你对一名敌方英雄造成伤害后，如果该英雄在3秒内阵亡，则会返还你20%的终极技能总冷却时间。</mainText><br>",
+      "desc": "<mainText><stats><attention>55</attention>攻击力<br><attention>10</attention>穿甲<br><attention>25</attention>技能急速</stats><br><li><passive>涌动：</passive>在你对一名敌方英雄造成伤害后，如果该英雄在3秒内阵亡，则会返还你20%的终极技能总冷却时间。</mainText><br>",
       "gold": 3000,
-      "tooltip": "<div class='tooltip-title'>公理圆弧</div><mainText><stats><attention>55</attention>攻击力<br><attention>13</attention>穿甲<br><attention>25</attention>技能急速</stats><br><li><passive>涌动：</passive>在你对一名敌方英雄造成伤害后，如果该英雄在3秒内阵亡，则会返还你20%的终极技能总冷却时间。</mainText><br><div class='tooltip-gold'>3000 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>公理圆弧</div><mainText><stats><attention>55</attention>攻击力<br><attention>10</attention>穿甲<br><attention>25</attention>技能急速</stats><br><li><passive>涌动：</passive>在你对一名敌方英雄造成伤害后，如果该英雄在3秒内阵亡，则会返还你20%的终极技能总冷却时间。</mainText><br><div class='tooltip-gold'>3000 Gold</div>"
     },
     "7000": {
       "name": "沙雀之爪",
-      "desc": "<mainText><stats><ornnBonus>75</ornnBonus>攻击力<br><ornnBonus>32</ornnBonus>穿甲<br><ornnBonus>25</ornnBonus>技能急速</stats><br><br><active>主动 - </active><active>沙之挥击：</active>冲刺并穿过目标敌方英雄，造成<physicalDamage>(75 + 30%额外攻击力)物理伤害</physicalDamage>。接下来的3秒里，你对目标造成的伤害提升15%(90秒冷却时间)。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得 <attention>5</attention>穿甲</mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>75</ornnBonus>攻击力<br><ornnBonus>26</ornnBonus>穿甲<br><ornnBonus>25</ornnBonus>技能急速</stats><br><br><active>主动 - </active><active>沙之挥击：</active>冲刺并穿过目标敌方英雄，造成<physicalDamage>(75 + 30%额外攻击力)物理伤害</physicalDamage>。接下来的3秒里，你对目标造成的伤害提升15%(90秒冷却时间)。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得 <attention>5</attention>穿甲</mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>沙雀之爪</div><mainText><stats><ornnBonus>75</ornnBonus>攻击力<br><ornnBonus>32</ornnBonus>穿甲<br><ornnBonus>25</ornnBonus>技能急速</stats><br><br><active>主动 - </active><active>沙之挥击：</active>冲刺并穿过目标敌方英雄，造成<physicalDamage>(75 + 30%额外攻击力)物理伤害</physicalDamage>。接下来的3秒里，你对目标造成的伤害提升15%(90秒冷却时间)。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得 <attention>5</attention>穿甲</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>沙雀之爪</div><mainText><stats><ornnBonus>75</ornnBonus>攻击力<br><ornnBonus>26</ornnBonus>穿甲<br><ornnBonus>25</ornnBonus>技能急速</stats><br><br><active>主动 - </active><active>沙之挥击：</active>冲刺并穿过目标敌方英雄，造成<physicalDamage>(75 + 30%额外攻击力)物理伤害</physicalDamage>。接下来的3秒里，你对目标造成的伤害提升15%(90秒冷却时间)。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得 <attention>5</attention>穿甲</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
     },
     "7001": {
       "name": "朔望",
-      "desc": "<mainText><stats><ornnBonus>75</ornnBonus>攻击力<br><ornnBonus>32</ornnBonus>穿甲<br><ornnBonus>8%</ornnBonus>全能吸血</stats><br><br><li><passive>永升之月：</passive>在1.5秒内用2次独立的攻击或技能命中一名英雄时，会造成额外的<physicalDamage>{{ Item_Melee_Ranged_Split_C }}%最大生命值的物理伤害</physicalDamage>，并为你提供<speed>15%移动速度</speed>和<shield>(160 + 35%额外攻击力)护盾值(远程英雄为50%护盾值)</shield>，持续2秒。(8秒冷却时间，远程英雄为16秒冷却时间)。<br><br>{{ Item_Mythic_Passive }}<attention>4%</attention>护甲穿透</mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>75</ornnBonus>攻击力<br><ornnBonus>26</ornnBonus>穿甲<br><ornnBonus>8%</ornnBonus>全能吸血</stats><br><br><li><passive>永升之月：</passive>在1.5秒内用2次独立的攻击或技能命中一名英雄时，会造成额外的<physicalDamage>{{ Item_Melee_Ranged_Split_C }}%最大生命值的物理伤害</physicalDamage>，并为你提供<speed>15%移动速度</speed>和<shield>(160 + 35%额外攻击力)护盾值(远程英雄为50%护盾值)</shield>，持续2秒。(8秒冷却时间，远程英雄为16秒冷却时间)。<br><br>{{ Item_Mythic_Passive }}<attention>4%</attention>护甲穿透</mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>朔望</div><mainText><stats><ornnBonus>75</ornnBonus>攻击力<br><ornnBonus>32</ornnBonus>穿甲<br><ornnBonus>8%</ornnBonus>全能吸血</stats><br><br><li><passive>永升之月：</passive>在1.5秒内用2次独立的攻击或技能命中一名英雄时，会造成额外的<physicalDamage>{{ Item_Melee_Ranged_Split_C }}%最大生命值的物理伤害</physicalDamage>，并为你提供<speed>15%移动速度</speed>和<shield>(160 + 35%额外攻击力)护盾值(远程英雄为50%护盾值)</shield>，持续2秒。(8秒冷却时间，远程英雄为16秒冷却时间)。<br><br>{{ Item_Mythic_Passive }}<attention>4%</attention>护甲穿透</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>朔望</div><mainText><stats><ornnBonus>75</ornnBonus>攻击力<br><ornnBonus>26</ornnBonus>穿甲<br><ornnBonus>8%</ornnBonus>全能吸血</stats><br><br><li><passive>永升之月：</passive>在1.5秒内用2次独立的攻击或技能命中一名英雄时，会造成额外的<physicalDamage>{{ Item_Melee_Ranged_Split_C }}%最大生命值的物理伤害</physicalDamage>，并为你提供<speed>15%移动速度</speed>和<shield>(160 + 35%额外攻击力)护盾值(远程英雄为50%护盾值)</shield>，持续2秒。(8秒冷却时间，远程英雄为16秒冷却时间)。<br><br>{{ Item_Mythic_Passive }}<attention>4%</attention>护甲穿透</mainText><br><div class='tooltip-gold'>3100 Gold</div>"
     },
     "7002": {
       "name": "德拉克萨的暗影雕刻者",
-      "desc": "<mainText><stats><ornnBonus>75</ornnBonus>攻击力<br><ornnBonus>32</ornnBonus>穿甲<br><ornnBonus>25</ornnBonus>技能急速</stats><br><li><passive>夜行者：</passive>攻击一名敌方英雄时会附带额外的<physicalDamage>(近战为75 + 30%额外攻击力 / 远程为55 + 25%额外攻击力)物理伤害</physicalDamage>(15秒冷却时间)。如果装备持有者是近战，则这个攻击还会使目标<status>减速</status>99%，持续0.25秒。如果一名在过去3秒内曾被你造成过伤害的英雄阵亡，就会刷新这个冷却时间并获得持续1.5秒的<keywordStealth>隐形</keywordStealth>状态。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得<attention>5</attention>技能急速。<br></mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>75</ornnBonus>攻击力<br><ornnBonus>26</ornnBonus>穿甲<br><ornnBonus>25</ornnBonus>技能急速</stats><br><li><passive>夜行者：</passive>攻击一名敌方英雄时会附带额外的<physicalDamage>(近战为75 + 30%额外攻击力 / 远程为55 + 25%额外攻击力)物理伤害</physicalDamage>(15秒冷却时间)。如果装备持有者是近战，则这个攻击还会使目标<status>减速</status>99%，持续0.25秒。如果一名在过去3秒内曾被你造成过伤害的英雄阵亡，就会刷新这个冷却时间并获得持续1.5秒的<keywordStealth>隐形</keywordStealth>状态。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得<attention>5</attention>技能急速。<br></mainText><br>",
       "gold": 3100,
-      "tooltip": "<div class='tooltip-title'>德拉克萨的暗影雕刻者</div><mainText><stats><ornnBonus>75</ornnBonus>攻击力<br><ornnBonus>32</ornnBonus>穿甲<br><ornnBonus>25</ornnBonus>技能急速</stats><br><li><passive>夜行者：</passive>攻击一名敌方英雄时会附带额外的<physicalDamage>(近战为75 + 30%额外攻击力 / 远程为55 + 25%额外攻击力)物理伤害</physicalDamage>(15秒冷却时间)。如果装备持有者是近战，则这个攻击还会使目标<status>减速</status>99%，持续0.25秒。如果一名在过去3秒内曾被你造成过伤害的英雄阵亡，就会刷新这个冷却时间并获得持续1.5秒的<keywordStealth>隐形</keywordStealth>状态。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得<attention>5</attention>技能急速。<br></mainText><br><div class='tooltip-gold'>3100 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>德拉克萨的暗影雕刻者</div><mainText><stats><ornnBonus>75</ornnBonus>攻击力<br><ornnBonus>26</ornnBonus>穿甲<br><ornnBonus>25</ornnBonus>技能急速</stats><br><li><passive>夜行者：</passive>攻击一名敌方英雄时会附带额外的<physicalDamage>(近战为75 + 30%额外攻击力 / 远程为55 + 25%额外攻击力)物理伤害</physicalDamage>(15秒冷却时间)。如果装备持有者是近战，则这个攻击还会使目标<status>减速</status>99%，持续0.25秒。如果一名在过去3秒内曾被你造成过伤害的英雄阵亡，就会刷新这个冷却时间并获得持续1.5秒的<keywordStealth>隐形</keywordStealth>状态。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得<attention>5</attention>技能急速。<br></mainText><br><div class='tooltip-gold'>3100 Gold</div>"
     },
     "7003": {
       "name": "涡轮增压版海克斯实验品",
@@ -1891,9 +1891,9 @@
     },
     "7011": {
       "name": "升级版飞行包",
-      "desc": "<mainText><stats><ornnBonus>120</ornnBonus>法术强度<br><ornnBonus>15</ornnBonus>法术穿透<br><ornnBonus>350</ornnBonus>生命值<br><ornnBonus>20</ornnBonus>技能急速</stats><br><br><active>主动 - </active><active>超音速：</active>朝着目标方向冲刺，释放一道魔法弹圆弧，造成<magicDamage>(125+15%法术强度)魔法伤害</magicDamage>。随后，在朝着敌方英雄移动时提供<speed>30%移动速度</speed>，持续1.5秒(40秒冷却时间)。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得 <attention>5</attention>法术穿透。<br><br><rules>超音速的冲刺无法穿过地形。</rules></mainText><br>",
+      "desc": "<mainText><stats><ornnBonus>120</ornnBonus>法术强度<br><ornnBonus>10</ornnBonus>法术穿透<br><ornnBonus>350</ornnBonus>生命值<br><ornnBonus>20</ornnBonus>技能急速</stats><br><br><active>主动 - </active><active>超音速：</active>朝着目标方向冲刺，释放一道魔法弹圆弧，造成<magicDamage>(125+15%法术强度)魔法伤害</magicDamage>。随后，在朝着敌方英雄移动时提供<speed>30%移动速度</speed>，持续1.5秒(40秒冷却时间)。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得 <attention>5</attention>法术穿透。<br><br><rules>超音速的冲刺无法穿过地形。</rules></mainText><br>",
       "gold": 3200,
-      "tooltip": "<div class='tooltip-title'>升级版飞行包</div><mainText><stats><ornnBonus>120</ornnBonus>法术强度<br><ornnBonus>15</ornnBonus>法术穿透<br><ornnBonus>350</ornnBonus>生命值<br><ornnBonus>20</ornnBonus>技能急速</stats><br><br><active>主动 - </active><active>超音速：</active>朝着目标方向冲刺，释放一道魔法弹圆弧，造成<magicDamage>(125+15%法术强度)魔法伤害</magicDamage>。随后，在朝着敌方英雄移动时提供<speed>30%移动速度</speed>，持续1.5秒(40秒冷却时间)。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得 <attention>5</attention>法术穿透。<br><br><rules>超音速的冲刺无法穿过地形。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
+      "tooltip": "<div class='tooltip-title'>升级版飞行包</div><mainText><stats><ornnBonus>120</ornnBonus>法术强度<br><ornnBonus>10</ornnBonus>法术穿透<br><ornnBonus>350</ornnBonus>生命值<br><ornnBonus>20</ornnBonus>技能急速</stats><br><br><active>主动 - </active><active>超音速：</active>朝着目标方向冲刺，释放一道魔法弹圆弧，造成<magicDamage>(125+15%法术强度)魔法伤害</magicDamage>。随后，在朝着敌方英雄移动时提供<speed>30%移动速度</speed>，持续1.5秒(40秒冷却时间)。<br><br><rarityMythic>神话被动：</rarityMythic>你每装备一件<rarityLegendary>传说</rarityLegendary>装备，就会获得 <attention>5</attention>法术穿透。<br><br><rules>超音速的冲刺无法穿过地形。</rules></mainText><br><div class='tooltip-gold'>3200 Gold</div>"
     },
     "7012": {
       "name": "兰德里的挽歌",
@@ -9463,8 +9463,8 @@
     },
     "8124": {
       "name": "掠食者",
-      "desc": "为你的鞋子附魔上主动效果“<font color='#c60300'>掠食者</font>。”<br><br>获得移动速度提升，在追击敌方英雄时，会在1秒里持续增加至最大值45%。在达到最大值后，对英雄的伤害型攻击或技能会终止这个效果，并造成40~120(+<scaleAD>0.2</scaleAD>额外攻击力)(+<scaleAP>0.1</scaleAP>法术强度)的额外<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>自适应伤害</font></lol-uikit-tooltipped-keyword>。<br><br>冷却时间：90~60秒。",
-      "tooltip": "<div class='tooltip-title'>掠食者</div>为你的鞋子附魔上主动效果“<font color='#c60300'>掠食者</font>。”<br><br>获得移动速度提升，在追击敌方英雄时，会在1秒里持续增加至最大值45%。在达到最大值后，对英雄的伤害型攻击或技能会终止这个效果，并造成40~120(+<scaleAD>0.2</scaleAD>额外攻击力)(+<scaleAP>0.1</scaleAP>法术强度)的额外<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>自适应伤害</font></lol-uikit-tooltipped-keyword>。<br><br>冷却时间：90~60秒。"
+      "desc": "为你的鞋子附魔上主动效果“<font color='#c60300'>掠食者</font>。”<br><br>获得移动速度提升，在追击敌方英雄时，会在1秒里持续增加至最大值25-50%。在达到最大值后，对英雄的伤害型攻击或技能会终止这个效果，并造成20~180(+<scaleAD>0.25</scaleAD>额外攻击力)(+<scaleAP>0.15</scaleAP>法术强度)的额外<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>自适应伤害</font></lol-uikit-tooltipped-keyword>。<br><br>冷却时间：120~60秒。",
+      "tooltip": "<div class='tooltip-title'>掠食者</div>为你的鞋子附魔上主动效果“<font color='#c60300'>掠食者</font>。”<br><br>获得移动速度提升，在追击敌方英雄时，会在1秒里持续增加至最大值25-50%。在达到最大值后，对英雄的伤害型攻击或技能会终止这个效果，并造成20~180(+<scaleAD>0.25</scaleAD>额外攻击力)(+<scaleAP>0.15</scaleAP>法术强度)的额外<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>自适应伤害</font></lol-uikit-tooltipped-keyword>。<br><br>冷却时间：120~60秒。"
     },
     "8126": {
       "name": "恶意中伤",

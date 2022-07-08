@@ -153,6 +153,7 @@ class OverlayNewProvider extends BaseProvider {
                 height: 1440,
                 frame: false,
                 show: false,
+                // show: true,
                 resizable: true,
                 movable: false,
                 // fullscreen: true,
@@ -188,7 +189,7 @@ class OverlayNewProvider extends BaseProvider {
                 window.loadURL(startUrl, {
                     userAgent: "overlay"
                 });
-                // window.webContents.openDevTools();
+                window.webContents.openDevTools();
             } else {
                 window.loadFile(path.join(__dirname, '../assets/react/overlay/overlay.html'), {
                     query: {

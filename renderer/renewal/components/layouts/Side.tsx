@@ -361,7 +361,7 @@ const Side = () => {
         </ul>
         {/* Edit By BlacK201 */}
         <span className="side-version">
-          {isUpdateAvailable
+          {(isUpdateAvailable && !isNMP)
               ? <Tippy content={t("update-available")} maxWidth={"280px"}>
               <div style={{display: "flex", alignItems: "center", cursor: "pointer", textAlign: "center"}} onClick={() => {
                 window.api.send("check-update");
@@ -370,7 +370,25 @@ const Side = () => {
                 <p>V.{version}</p> <p>{editionVersion}</p>
               </div>
               </Tippy>
-            : <><p>V.{version}</p> <p>{editionVersion}</p></>
+            : <>
+              {isNMP
+                ? <><div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    padding: "1px 8px",
+                    borderRadius: "12px",
+                    fontWeight: "bold",
+                    fontSize: "11px",
+                    marginRight: "4px",
+                    color: "#fff",
+                    backgroundColor: "#5f32e6"
+                  }}
+                >PC방</div>{version}</>
+                : <><p>V.{version}</p> <p>{editionVersion}</p></>
+              }
+              </>
           }
         </span>
       </div>

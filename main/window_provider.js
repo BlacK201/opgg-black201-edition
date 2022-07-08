@@ -51,9 +51,15 @@ class WindowProvider extends BaseProvider {
                 resizable: false,
                 icon: path.join(assetsDirectory, "images/icon.png"),
                 show: false,
-                transparent: !isNMP,
+                // transparent: !isNMP,
+                transparent: true,
                 frame: false
             };
+
+            if (isNMP) {
+                options["x"] = 0;
+                options["y"] = 0;
+            }
 
             this.window = new BrowserWindow(options);
             this.window.hide();
@@ -114,7 +120,7 @@ class WindowProvider extends BaseProvider {
 
                     // 모니터 위치 불러오기
                     this.getLocalStorage("lastWindowPosition").then((savedBounds) => {
-                        if (savedBounds) {
+                        if (savedBounds && !isNMP) {
                             savedBounds = JSON.parse(savedBounds);
                             let isPositionInBound = false;
                             screen.getAllDisplays().forEach((monitor) => {

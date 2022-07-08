@@ -85,6 +85,7 @@ class LoL {
         }
         this.game = {
             summoner: null,
+            summonerRank: null,
             queueId: 0,
             mapId: "",
             championId: 0,
@@ -198,27 +199,13 @@ class LoL {
                 //     .catch((_) => {return null});
                 // console.log(`summonerRankResponse${summonerRankResponse}`)
                 if (!summonerRankResponse) return;
+                this.game.summonerRank = summonerRankResponse.data;
 
                 let installDir = await this.callAPI("GET", "lol", lolConstants.LOL_INSTALL_DIR)
                     .catch((_) => {return null;});
                 if (installDir) this.config.installDir = installDir.data;
 
-                // ipcMain.emit("lol-loaded");
-
-                sendGA4Event("login_lol", {
-                    // login_lol: true,
-                    // summoner_name: this.game.summoner.displayName,
-                    // summoner_rank: summonerRankResponse.data.highestRankedEntry.tier,
-                    // server: this.config.region.region,
-                    // summoner_level: this.game.summoner.summonerLevel,
-                    // number_of_monitors: screen.getAllDisplays().length,
-                    // screen_resolution: `${screen.getPrimaryDisplay().size.width}*${screen.getPrimaryDisplay().size.height}`,
-                    // setting_autoitem: this.config.isItemBuildOn,
-                    // setting_autorune: this.config.isRuneOn,
-                    // setting_isSpell: this.config.isSpellOn,
-                    // setting_isOverlay: this.config.isOverlayOn,
-                    // app_size: nodeStorage.getItem("scale")
-                }, {
+                sendGA4Event("login_lol", {}, {
                     login_lol: true,
                     summoner_name: this.game.summoner.displayName,
                     summoner_rank: summonerRankResponse.data.highestRankedEntry.tier,
@@ -263,6 +250,7 @@ class LoL {
                     const json = JSON.parse(content)
                     let data = json.slice(2)[0].data;
                     let uri = json.slice(2)[0].uri;
+                    // console.log(uri);
 
                     switch (uri) {
                         case lolConstants.LOL_GAMEFLOW_SESSION:
@@ -278,7 +266,7 @@ class LoL {
                         case "/lol-matchmaking/v1/ready-check":
                             console.log(data)
                             if (this.config.isAutoAcceptOn && data.timer >= 1){
-                                this.acceptMatch();
+                                // this.acceptMatch();
                             }
                             break;
 
@@ -291,7 +279,7 @@ class LoL {
             });
 
             this.ws.on("error", (err) => {
-                console.log(`WS ON ERROR${err}`);
+                console.log(err);
             });
 
             this.ws.on("close", () => {
@@ -579,7 +567,13 @@ class LoL {
                         this.broadcastIPC("lol-current-game-queue", -9998);
                     }
 
-                    if (!lolConstants.BOT_QUEUE_IDS.includes(this.game.queueId)) {
+                    if (!lolConstants.BOT_QUEUE_IDS.includes(this.game.queueId) && data.gameClient.serverIp !== "") {
+                        let goldSpent = 0;
+                        let predictCS = 0;
+                        let prevGold = 500;
+                        let prevCS = 0;
+                        let isFirst = true;
+                        let position = "M";
                         let ingameInterval = setInterval(async () => {
                             let liveClientData = await this.callAPI("GET", "liveclientdata", "/allgamedata").catch((_) => {
                                 return null;
@@ -600,6 +594,7 @@ class LoL {
                                     this.app.overlayWindow.sendToRenderer("lol-levelup-hide", false);
                                     clearInterval(gameStartInterval);
                                     this.liveClientDataInterval = setInterval(async () => {
+                                        // overlay - skill
                                         let liveClientData = await this.callAPI("GET", "liveclientdata", "/activeplayer").catch((_) => {
                                             return null;
                                         });
@@ -621,6 +616,82 @@ class LoL {
                                         }
                                         // this.app.overlayWindow.sendToRenderer("lol-levelup", liveClientData.data.level);
                                         this.app.overlayWindow.sendToRenderer("lol-levelup", total);
+
+                                        if (lolConstants.RIFT_QUEUE_IDS.includes(this.game.queueId)) {
+                                            this.app.overlayWindow.sendToRenderer("lol-diff-hide", false);
+
+                                            if (isFirst) {
+                                                isFirst = false;
+                                                let playerList = await this.callAPI("GET", "liveclientdata", "/playerlist").catch((_) => {
+                                                    return null;
+                                                });
+                                                if (!playerList) return;
+                                                position = _.find(playerList.data, {summonerName: liveClientData.data.summonerName})?.position;
+                                                this.app.overlayWindow.sendToRenderer("lol-diff", {
+                                                    gold: 500,
+                                                    cs: 0,
+                                                    summoner: this.game.summonerRank,
+                                                    time: 0,
+                                                    predictCS: 0,
+                                                    position: position
+                                                });
+                                            }
+
+                                            // overlay - diff
+                                            // 근거리 미니언 : 21골드
+                                            // 원거리 미니언 : 14골드
+                                            // 대포 미니언 : 60골드(미드 50골드) 90초당 + 3골드 최대 90골드
+                                            // 미니언 최초 생성 2분 5초 3웨이브마다, 15분 이후에 2웨이브마다, 25분 이후에는 매 웨이브
+                                            // 템 팔 때 오류 (템 되돌리기 시 골드에 오차가 생길 수 있음)
+                                            let gameStats = await this.callAPI("GET", "liveclientdata", "/gamestats").catch((_) => {
+                                                return null;
+                                            });
+                                            if (!gameStats) return;
+
+                                            if (liveClientData.data.currentGold - prevGold <= 100 && liveClientData.data.currentGold - prevGold >= 14) {
+                                                predictCS += parseInt((liveClientData.data.currentGold - prevGold) / 14);
+                                            }
+                                            if (liveClientData.data.currentGold - prevGold < 0) {
+                                                goldSpent += prevGold - liveClientData.data.currentGold;
+                                            }
+                                            // console.log(liveClientData.data.currentGold + goldSpent, goldSpent, liveClientData.data.currentGold - prevGold, liveClientData.data.currentGold, prevGold, predictCS, prevCS + predictCS);
+                                            if (parseInt(gameStats.data.gameTime) % 60 === 0) {
+                                                let activePlayerScore = await this.callAPI("GET", "liveclientdata", `/playerscores?summonerName=${encodeURI(liveClientData.data.summonerName)}`).catch((_) => {
+                                                    return null;
+                                                });
+                                                if (!activePlayerScore) return;
+
+                                                if (activePlayerScore.data.creepScore !== prevCS) {
+                                                    predictCS -= activePlayerScore.data.creepScore - prevCS;
+                                                    if (predictCS >= 10 || predictCS < 0) {
+                                                        predictCS = 0;
+                                                    }
+                                                }
+
+                                                // console.log(activePlayerScore.data, {
+                                                //     gold: liveClientData.data.currentGold + goldSpent,
+                                                //     cs: activePlayerScore.data.creepScore,
+                                                //     summoner: this.game.summonerRank,
+                                                //     time: parseInt(gameStats.data.gameTime),
+                                                //     predictCS: predictCS,
+                                                //     totalCS: predictCS + activePlayerScore.data.creepScore,
+                                                //     position: position
+                                                // });
+
+                                                this.app.overlayWindow.sendToRenderer("lol-diff", {
+                                                    gold: liveClientData.data.currentGold + goldSpent,
+                                                    cs: activePlayerScore.data.creepScore,
+                                                    summoner: this.game.summonerRank,
+                                                    time: parseInt(gameStats.data.gameTime),
+                                                    predictCS: predictCS,
+                                                    position: position
+                                                });
+                                                prevCS = activePlayerScore.data.creepScore;
+                                            }
+                                            prevGold = liveClientData.data.currentGold;
+                                        } else {
+                                            this.app.overlayWindow.sendToRenderer("lol-diff-hide", true);
+                                        }
                                     }, 1000);
                                 }
                             }, 1000);
@@ -629,7 +700,7 @@ class LoL {
 
                     // overlay
                     if (!isNMP && this.app.overlayWindow && process.platform === "win32" &&
-                        IOVhook && this.config.isOverlayOn && screen.getPrimaryDisplay().scaleFactor === 1) {
+                        IOVhook && this.config.isOverlayOn && screen.getPrimaryDisplay().scaleFactor === 1 && data.gameClient.serverIp !== "") {
                         let isInjected = false;
                         if (!isInjected) {
                             let tmpInterval = setInterval(() => {
@@ -759,19 +830,15 @@ class LoL {
         if (hasChange && !lolConstants.TFT_QUEUE_IDS.includes(this.game.queueId)) {
             if (!this.config.isFront) {
                 this.config.isFront = true;
-                this.app.window.show();
+                // TODO: 맨 첫 챔피언 픽일 때에는 "준비완료"를 누르면 앞으로 데스크톱앱 나오게 수정
+                // this.app.window.show();
+                this.app.window.showInactive();
             } else {
                 this.app.window.showInactive();
             }
             let selectedRegion = await this.app.window.getLocalStorage("selected-region") ?? "kr";
             let tierFilter = await this.app.window.getLocalStorage("tier-filter") ?? "platinum_plus";
             let versionFilter = await this.app.window.getLocalStorage("version-filter") ?? "";
-            // Edited By BlacK201
-            // 因为韩服数据不足
-            // 当模式为无限乱斗（900）时 使用北美服务器数据
-            if (this.game.queueId === 900) {
-                selectedRegion = "na";
-            }
             this.getChampionData("", this.game.championId, this.game.queueId, true, selectedRegion, tierFilter, -1, versionFilter);
         }
 
@@ -790,8 +857,14 @@ class LoL {
     }
 
     async getChampionData(position, championId = 0, queueId = 420,
-                    isLive = true, region = "kr", tier = "platinum_plus",
-                    targetChampion = -1, version = "") {
+                          isLive = true, region = "kr", tier = "platinum_plus",
+                          targetChampion = -1, version = "") {
+        // Edited By BlacK201
+        // 因为韩服数据不足
+        // 当模式为无限乱斗（900）时 使用北美服务器数据
+        if (queueId === 900) {
+            region = "na";
+        }
         this.game.perkPages = {
             "top": [],
             "jungle": [],
@@ -842,13 +915,13 @@ class LoL {
             });
 
             // if (summaries && (summaries.data.data.is_rip || summaries.data.data.positions.length === 0)) {
-                // this.broadcastIPC("champions", {
-                //     data: summaries.data.data,
-                //     queueId: 0,
-                //     tips: null,
-                //     lane: null
-                // });
-                // return null;
+            // this.broadcastIPC("champions", {
+            //     data: summaries.data.data,
+            //     queueId: 0,
+            //     tips: null,
+            //     lane: null
+            // });
+            // return null;
             // }
         }
 
@@ -1121,13 +1194,13 @@ class LoL {
     updatePerkPage(page) {
         this.callAPI("POST", "lol", lolConstants.LOL_PERK_PAGES, page).then((_) => {})
             .catch((err) => {
-            // if all rune pages are not available
-            this.callAPI("GET", "lol", lolConstants.LOL_PERK_PAGES).then((response) => {
-                this.callAPI("DELETE", "lol", lolConstants.LOL_PERK_PAGE.format(response.data[0].id))
-                    .then((_) => {this.updatePerkPage(page)})
-                    .catch((_) => {});
+                // if all rune pages are not available
+                this.callAPI("GET", "lol", lolConstants.LOL_PERK_PAGES).then((response) => {
+                    this.callAPI("DELETE", "lol", lolConstants.LOL_PERK_PAGE.format(response.data[0].id))
+                        .then((_) => {this.updatePerkPage(page)})
+                        .catch((_) => {});
+                });
             });
-        });
     };
 
     updateItemSet(itemSet) {
@@ -1136,24 +1209,24 @@ class LoL {
                 lolConstants.LOL_ITEM_SETS.format(this.game.summoner.summonerId))
                 .then((response) => {
 
-                let data = response.data;
+                    let data = response.data;
 
-                let newItemSets = {
-                    accountId: this.game.summoner.accountId,
-                    timestamp: Date.now(),
-                    itemSets: []
-                };
+                    let newItemSets = {
+                        accountId: this.game.summoner.accountId,
+                        timestamp: Date.now(),
+                        itemSets: []
+                    };
 
-                data.itemSets.forEach((d) => {
-                    if (d.title.indexOf("OP.GG") === -1 && d.title !== "" && d.associatedChampions.length > 0) {
-                        newItemSets.itemSets.push(d);
-                    }
+                    data.itemSets.forEach((d) => {
+                        if (d.title.indexOf("OP.GG") === -1 && d.title !== "" && d.associatedChampions.length > 0) {
+                            newItemSets.itemSets.push(d);
+                        }
+                    });
+                    newItemSets.itemSets.push(itemSet);
+
+                    this.callAPI("PUT", "lol",
+                        lolConstants.LOL_ITEM_SETS.format(this.game.summoner.summonerId), newItemSets);
                 });
-                newItemSets.itemSets.push(itemSet);
-
-                this.callAPI("PUT", "lol",
-                    lolConstants.LOL_ITEM_SETS.format(this.game.summoner.summonerId), newItemSets);
-            });
         }
     }
 
@@ -1175,7 +1248,7 @@ class LoL {
 
                 this.callAPI("PATCH", "lol", lolConstants.LOL_CHAMPSELECT_MY_SELECTION, selectionBody);
             }
-             catch (_) {}
+            catch (_) {}
         }
     }
 
@@ -1422,6 +1495,34 @@ class LoL {
 
         ipcMain.handle("mypage", async (event, arg) => {
             return await this.getMyPage(arg);
+        });
+
+        ipcMain.on("lol-champion-refresh", async (event, arg) => {
+            let championSelect = await this.callAPI("GET", "lol", lolConstants.LOL_CHAMPSELECT_SESSION).catch((_) => {return null;});
+            if (championSelect) {
+                let data = championSelect.data;
+                let localPlayerCellId = data.localPlayerCellId;
+                let me = _.find(data.myTeam, {cellId: localPlayerCellId});
+                let myPick =  _.find(data.actions.flat(), {
+                    type: "pick",
+                    actorCellId: localPlayerCellId
+                });
+
+                if (me) {
+                    if (me.championId !== 0) {
+                        this.game.championId = me.championId;
+                    } else if (me.championPickIntent !== 0) {
+                        this.game.championId = me.championPickIntent;
+                    } else if (myPick.championId !== 0) {
+                        this.game.championId = myPick.championId;
+                    }
+                }
+
+                let selectedRegion = await this.app.window.getLocalStorage("selected-region") ?? "kr";
+                let tierFilter = await this.app.window.getLocalStorage("tier-filter") ?? "platinum_plus";
+                let versionFilter = await this.app.window.getLocalStorage("version-filter") ?? "";
+                this.getChampionData("", this.game.championId, this.game.queueId, true, selectedRegion, tierFilter, -1, versionFilter);
+            }
         });
 
         ipcMain.handle("ingame-lcu", async () => {

@@ -173,6 +173,7 @@ const LiveOPChampions = () => {
             <div className="title-banner">
                 <div className="title">{t("op")}</div>
                 <div className="subtitle">{t("update-once")}</div>
+                <div className="desc">{t("op-masters-builds")}</div>
                 <div className="tabs-container" style={{width: "auto"}}>
                     <TabsMode
                         index={tabModeIndex}
@@ -212,8 +213,8 @@ const Tabs = ({ index, setIndex, content }: TabProps) => {
             {content.map((tab, i) => (
                 <div className={`recommendation-tab ${index === i ? "recommendation-tab-active" : ""}`}
                      onClick={() => setIndex(i)} key={i} >
-                    <img src={`${index === i ? `../../assets/images/icon-position-${tab.title}-wh.svg` : `../../assets/images/icon-position-${tab.title}.png`}`} alt={tab.title} />
-                    <span className={`recommendation-tab-title ${index === i ? "recommendation-tab-title-active" : ""}`}>{t(`lane.${tab.link}`)}</span>
+                    <img src={`${index === i ? `../../assets/images/icon-position-${tab.title}-wh.svg` : `../../assets/images/icon-position-${tab.title}.png`}`} alt={tab.title} style={{marginRight: 0}} />
+                    {/*<span className={`recommendation-tab-title ${index === i ? "recommendation-tab-title-active" : ""}`}>{t(`lane.${tab.link}`)}</span>*/}
                 </div>
             ))}
         </div>
@@ -338,7 +339,10 @@ const Table = ({ statistics, duoData, lane, mode }: TableProps) => {
                                 }
 
                                 return (
-                                    <div className="recommendation-table-column2" key={i2}>
+                                    <div className="recommendation-table-column2" key={i2} onClick={() => {
+                                        sendGA4Event("click_live_op_enthusiasts_build", {});
+                                        window.api.openExternal(`https://www.op.gg/leaderboards/champions/${d.championName}`);
+                                    }}>
                                         <div className="live-op-content">
                                            <Tippy content={
                                                 <div dangerouslySetInnerHTML={{
