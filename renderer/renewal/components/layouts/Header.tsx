@@ -321,6 +321,7 @@ function CheckCloseModal({modalIsOpen, setModalIsOpen}: CheckCloseModalProps) {
                             minWidth: "50px",
                             cursor: "pointer"
                         }} onClick={() => {
+                            sendGA4Event("app_quit", {});
                             window.api.send("window-quit");
                         }}>예</div>
                         <div style={{

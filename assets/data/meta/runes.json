@@ -19,7 +19,7 @@
       "key": "LethalTempo",
       "name": "치명적 속도",
       "short_desc": "적 챔피언 기본 공격 시 공격 속도 상승(최대 6회 중첩). 최대 중첩 시 공격 사거리 상승 및 최고 공격 속도 제한 해제",
-      "long_desc": "적 챔피언을 기본 공격하면 6초 동안 공격 속도가 [60%~90%] (근접) 또는 [18%~42%] (원거리) 상승합니다. 이 효과는 6회까지 중첩됩니다.<br><br>최대로 중첩되면 공격 속도가 2.5를 초과할 수 있으며 공격 사거리가 50 (근접) 또는 75 (원거리) 상승합니다.",
+      "long_desc": "적 챔피언을 기본 공격하면 6초 동안 공격 속도가 [60%~90%] (근접) 또는 [30%~54%] (원거리) 상승합니다. 이 효과는 6회까지 중첩됩니다.<br><br>최대로 중첩되면 공격 속도가 2.5를 초과할 수 있으며 공격 사거리가 50 (근접) 또는 75 (원거리) 상승합니다.",
       "image_url": "https://opgg-static.akamaized.net/images/lol/perk/8008.png"
     },
     {
@@ -129,7 +129,7 @@
       "key": "Predator",
       "name": "포식자",
       "short_desc": "장화에 사용 효과 추가. 사용 시 일시적으로 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>이동 속도</lol-uikit-tooltipped-keyword>가 대폭 증가하며 다음 공격 또는 스킬 사용 시 추가 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>적응형 피해</lol-uikit-tooltipped-keyword>",
-      "long_desc": "장화에 '<font color='#c60300'>포식자</font>' 사용 효과를 부여합니다.<br><br>적 챔피언을 쫓을 때 이동 속도가 1초 동안 45%까지 서서히 증가합니다. 이후 챔피언에게 공격 또는 스킬 사용 시 이 효과가 종료되며 40~120(+추가 공격력의 <scaleAD>0.2</scaleAD>)(+주문력의 <scaleAP>0.1</scaleAP>)의 추가 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>적응형 피해</font></lol-uikit-tooltipped-keyword>를 입힙니다.<br><br>재사용 대기시간: 90~60초",
+      "long_desc": "장화에 '<font color='#c60300'>포식자</font>' 사용 효과를 부여합니다.<br><br>적 챔피언을 쫓을 때 이동 속도가 1초 동안 25~50%까지 서서히 증가합니다. 이후 챔피언에게 공격 또는 스킬 사용 시 이 효과가 종료되며 20~180(+추가 공격력의 <scaleAD>0.25</scaleAD>)(+주문력의 <scaleAP>0.15</scaleAP>)의 추가 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>적응형 피해</font></lol-uikit-tooltipped-keyword>를 입힙니다.<br><br>재사용 대기시간: 120~60초",
       "image_url": "https://opgg-static.akamaized.net/images/lol/perk/8124.png"
     },
     {
@@ -695,6 +695,6 @@
     }
   ],
   "meta": {
-    "version": "12.11"
+    "version": "12.12"
   }
 }

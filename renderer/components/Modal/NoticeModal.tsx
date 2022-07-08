@@ -37,10 +37,14 @@ const customStyles = {
 const ErrorModal = () => {
     const {t} = useTranslation();
 
-    const [isOpen, setIsOpen] = useState(localStorage.getItem("new-notice") === null);
+    const [isOpen, setIsOpen] = useState(localStorage.getItem("new-notice2") === null);
+
+    if (localStorage.getItem("new-notice")) {
+        localStorage.removeItem("new-notice");
+    }
 
     const onRequestClose = () => {
-        localStorage.setItem("new-notice", "read");
+        localStorage.setItem("new-notice2", "read");
         setIsOpen(false);
     }
 

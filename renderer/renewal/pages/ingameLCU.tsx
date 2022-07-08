@@ -515,7 +515,7 @@ const LiveInGameTableBodyRow = ({teams, i, swapState, setSwapState}: any) => {
                                 ? <>
                                     <div className="live-ingame-area-tier-wrapper">
                                         <img loading={"lazy"}
-                                             src={`${teams.myTeamSummoner?.summoner?.league_stats[0].tier_info.tier_image_url},w_32`}/>
+                                             src={`${teams.myTeamSummoner?.summoner?.league_stats[0].tier_info.tier_image_url}`}/>
                                     </div>
                                     <div>{tierDivision[teams.myTeamSummoner?.summoner?.league_stats[0].tier_info.division]}</div>
                                 </>

@@ -603,6 +603,7 @@
 
         &-shard {
           img {
+            //border: 1px solid rgb(187, 152, 52);
             width: 16px;
             height: 16px;
           }
@@ -924,5 +925,25 @@
     img {
       margin-right: 4px;
     }
+  }
+}
+
+.btn-pro-build {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 16px;
+  height: 32px;
+  padding: 8px 12px;
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+
+  img {
+    margin-left: 4px;
   }
 }

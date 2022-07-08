@@ -393,6 +393,11 @@ const Champions = ({champion}: any) => {
   }
 
   const onClickPerkCategory = (categoryId: number) => () => {
+    if (categoryId === 0) {
+      sendGA4Event("click_champion_first_rune", {});
+    } else {
+      sendGA4Event("click_champion_second_rune", {});
+    }
     setPerkCategory(categoryId);
     setPerkPage(categoryId * 2);
     if (isAutoRune) {
@@ -406,6 +411,11 @@ const Champions = ({champion}: any) => {
   }
 
   const onClickPerkPage = (pageId: number) => () => {
+    if (pageId < 2) {
+      sendGA4Event(`click_champion_first_rune_set${pageId+1}`, {});
+    } else {
+      sendGA4Event(`click_champion_second_rune_set${pageId-1}`, {});
+    }
     setPerkPage(pageId);
     if (isAutoRune) {
       setCurrentPerkPage(pageId);
@@ -498,16 +508,17 @@ const Champions = ({champion}: any) => {
 
   const refresh = () => {
     customToastr.success(t("champion-refresh"));
-    if (isFromStatistics) {
-      window.api.invoke("get-champion-data", [tabContent[tabIndex].title, data?.summary.id, queueId, false, region, tierFilter, -1, versionFilter]).then((tmp) => {
-        if (tmp) {
-          dispatch(setChampionOverview(tmp));
-          setNewData(tmp);
-        }
-      });
-    } else {
-      window.api.send("update-champion-lane", [lane, data?.summary.id, queueId, !isFromStatistics, region, tierFilter, versionFilter]);
-    }
+    // if (isFromStatistics) {
+    //   window.api.invoke("get-champion-data", [tabContent[tabIndex].title, data?.summary.id, queueId, false, region, tierFilter, -1, versionFilter]).then((tmp) => {
+    //     if (tmp) {
+    //       dispatch(setChampionOverview(tmp));
+    //       setNewData(tmp);
+    //     }
+    //   });
+    // } else {
+    //   window.api.send("update-champion-lane", [lane, data?.summary.id, queueId, !isFromStatistics, region, tierFilter, versionFilter]);
+    // }
+    window.api.send("lol-champion-refresh");
   }
 
 
@@ -728,6 +739,12 @@ const Champions = ({champion}: any) => {
                 <div className="champion-title-build" onClick={onClickChampionName(metaData?.key, lane)}>Build
                   for {lane} <img
                     src={"../../assets/images/icon-link.svg"} style={{marginTop: "4px", marginLeft: "8px"}}/>
+                </div>
+                <div className={"btn-pro-build"} onClick={() => {
+                  sendGA4Event("click_champion_enthusiasts_build", {});
+                  window.api.openExternal(`https://www.op.gg/leaderboards/champions/${metaData?.key}`);
+                }}>
+                  {t(`champions.${data?.summary.id}`)} {t("master-builds")} <img src={"../../assets/images/icon-outlink.svg"} />
                 </div>
               </div>
 

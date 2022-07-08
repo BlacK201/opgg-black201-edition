@@ -118,6 +118,7 @@ function getParameterByName(name, url = window.location.href) {
 ipcMain.on("i18n-changed", (event, arg) => {
     nodeStorage.setItem("locale", arg);
     tray.buildTray(i18nResources[arg]);
+    application.overlayWindow.sendToRenderer("overlay-i18n", arg);
 });
 
 ipcMain.on("i18n", (event, arg) => {
