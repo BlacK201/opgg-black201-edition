@@ -1,0 +1,61 @@
+/*
+** ALL CREDIT GOES TO
+** Craig Buckler
+** http://www.sitepoint.com/css3-starwars-scrolling-text/
+**
+** Blame me for the music via embedded video bit
+*/
+
+/* the interesting 3D scrolling stuff */
+#titles {
+  position: absolute;
+  width: 800px;
+  height: 1770px;
+  bottom: 0;
+  /*left: 50%;*/
+  /*margin-left: -9em;*/
+  font-size: 350%;
+  text-align: justify;
+  overflow: hidden;
+  transform-origin: 50% 100%;
+  transform: perspective(700px) rotateX(25deg);
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+#titles p {
+  text-align: justify;
+  margin: 0.8em 0 50px;
+  line-height: 150%;
+}
+
+#titles p.center {
+  text-align: center;
+}
+
+#titles a {
+  color: #ff6;
+  text-decoration: underline;
+}
+
+#titlecontent > .title {
+  font-size: 90%;
+  text-align: center;
+}
+
+#titlecontent > .title h1 {
+  margin: 0 0 100px;
+  text-transform: uppercase;
+}
+
+#titlecontent {
+  position: absolute;
+  top: 100%;
+  animation: scroll 120s linear infinite;
+}
+
+@keyframes scroll {
+  0% { top: 100%; }
+  100% { top: -1180%; }
+}

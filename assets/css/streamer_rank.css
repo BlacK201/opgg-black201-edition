@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    display: flex;
+    width: 224px;
+    height: 95px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.left {
+    width: 68px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-profile {
+    width: 68px;
+    height: 68px;
+    border-radius: 12px;
+}
+
+.level {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 8px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #202d37;
+    margin-top: -10px;
+}
+
+.right {
+    width: 148px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.tier-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #282830;
+}
+
+.top {
+    display: flex;
+}
+
+.img-tier {
+    width: 32px;
+    height: 32px;
+}
+
+.tier-info {
+    margin-top: 2px;
+    margin-left: 8px;
+}
+
+.winrate {
+    font-size: 11px;
+}
+
+.lp {
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    padding: 0 4px;
+    background-color: #282830;
+    border-radius: 2px;
+    color: #98a0a7
+}

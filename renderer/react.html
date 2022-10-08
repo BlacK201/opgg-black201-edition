@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+<!--    <title>OP.GG</title>-->
+    <!--     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />-->
+    <script type="text/javascript">
+      !(function (e, t, n) {
+        function a() {
+          var e = t.getElementsByTagName("script")[0],
+            n = t.createElement("script");
+          (n.type = "text/javascript"),
+            (n.async = !0),
+            (n.src = "https://beacon-v2.helpscout.net"),
+            e.parentNode.insertBefore(n, e);
+        }
+        if (
+          ((e.Beacon = n =
+            function (t, n, a) {
+              e.Beacon.readyQueue.push({ method: t, options: n, data: a });
+            }),
+          (n.readyQueue = []),
+          "complete" === t.readyState)
+        )
+          return a();
+        e.attachEvent
+          ? e.attachEvent("onload", a)
+          : e.addEventListener("load", a, !1);
+      })(window, document, window.Beacon || function () {});
+    </script>
+    <script type="text/javascript">
+      // live
+      window.Beacon("init", "6f88c7d7-ce59-4b3d-b23f-e908029f7794");
+
+      // nmp
+      // window.Beacon("init", "37f560e8-2bc4-410e-8d8e-6afa4e452399");
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="sass/index.scss" />
+    <link
+      rel="stylesheet"
+      href="https://opgg-static.akamaized.net/css3/sprite.css?t=1607509503"
+    />
+  </head>
+  <body>
+    <main id="root"></main>
+    <script src="index.tsx"></script>
+  </body>
+</html>

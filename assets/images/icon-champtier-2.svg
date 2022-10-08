@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="18" viewBox="0 0 14 18">
+    <defs>
+        <path id="4en749apba" d="M0 9L0 0 14 0 14 9 14 18 0 18z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <g transform="translate(-154 -477) translate(116 189) translate(2 36) translate(0 1) translate(0 237) translate(36 14)">
+                                <mask id="ceopawbebb" fill="#fff">
+                                    <use xlink:href="#4en749apba"/>
+                                </mask>
+                                <path fill="#0AC58E" d="M1.56 0C1.56.897.863 1.624 0 1.624v11.643L4.446 18c.43-1.024 1.411-1.74 2.554-1.74 1.143 0 2.124.716 2.554 1.74L14 13.267V1.624c-.862 0-1.56-.727-1.56-1.624H1.56z" mask="url(#ceopawbebb)"/>
+                                <path stroke="#73FFD8" d="M-.492 10.672l4.97 4.928s1.05-1.074 2.679-1.074c1.627 0 2.62 1.074 2.62 1.074l4.838-4.928" mask="url(#ceopawbebb)"/>
+                                <path fill="#FFF" d="M4.718 11L4.718 7.623 5.554 6.787 7.501 6.787 7.743 6.545 7.743 4.862 7.49 4.62 6.511 4.62 6.258 4.862 6.258 5.687 4.74 5.687 4.74 4.378 5.697 3.41 8.293 3.41 9.272 4.389 9.272 7.249 8.436 8.085 6.489 8.085 6.247 8.327 6.247 9.724 9.261 9.724 9.261 11z" mask="url(#ceopawbebb)"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

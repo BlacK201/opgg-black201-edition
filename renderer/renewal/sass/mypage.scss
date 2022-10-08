@@ -1,0 +1,624 @@
+.mypage {
+  //display: flex;
+  //flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow-y: overlay;
+
+  &-top {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgba(34, 34, 38, 0) 39%, #222226);
+
+    &-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 320px;
+      background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg");
+      z-index: -1;
+      opacity: 0.3;
+    }
+
+    .mypage-update-btn {
+      position: absolute;
+      top: 35px;
+      left: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 87px;
+      height: 36px;
+      padding: 0 12px 0 8px;
+      font-size: 12px;
+      border-radius: 18px;
+      color: #fff;
+      backdrop-filter: blur(8px);
+      background-image: radial-gradient(circle at 50% 0, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 64%);
+      cursor: pointer;
+    }
+
+    .mypage-update-btn-done {
+      background-color: #5f32e6;
+    }
+
+    &__top {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 196px;
+    }
+
+    &__bottom {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 126px;
+      padding: 0 20px;
+
+      &-seasons {
+        display: flex;
+        height: 18px;
+
+        div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 18px;
+          border-radius: 2px;
+          backdrop-filter: blur(8px);
+          background-image: radial-gradient(circle at 50% 0, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 42%);
+          padding: 0 4px;
+          font-size: 11px;
+          color: #7b7a8e;
+          margin-right: 8px;
+        }
+      }
+
+      &-profile {
+        display: flex;
+        height: 108px;
+        padding-top: 16px;
+
+        &-img {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: fit-content;
+          margin-top: 14px;
+
+          img {
+            width: 100px;
+            height: 100px;
+            border-radius: 24px;
+          }
+
+          .profile-level {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2px 8px;
+            border-radius: 10px;
+            width: fit-content;
+            height: 20px;
+            background-color: #202d37;
+            color: #fff;
+            font-size: 12px;
+            margin: 0 auto;
+            margin-top: -12px;
+            z-index: 100;
+            position: relative;
+          }
+        }
+
+        &-info {
+          width: 280px;
+          padding: 12px 0 0 12px;
+
+          img {
+            cursor: pointer;
+          }
+
+          div:first-child {
+            font-size: 24px;
+            font-weight: bold;
+            padding-right: 20px;
+          }
+        }
+
+        &-rank {
+          width: 199px;
+          padding-top: 12px;
+          margin-right: 18px;
+          font-size: 12px;
+          color: #7b7a8e;
+
+          &-contents {
+            display: flex;
+            align-items: center;
+            margin-top: 12px;
+
+            img {
+              width: 40px;
+              height: 40px;
+            }
+
+            & > div {
+              margin-left: 8px;
+
+              &:last-child {
+                margin-left: auto;
+                text-align: right;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 32px;
+    padding: 0 20px;
+
+    &-section {
+      display: flex;
+      flex-direction: column;
+      width: 416px;
+      height: 189px;
+      padding: 12px 14px 4px 14px;
+      border-radius: 12px;
+      backdrop-filter: blur(8px);
+      background-image: radial-gradient(circle at 50% 0, rgba(50, 50, 60, 0.15), rgba(50, 50, 60, 0.25) 67%);
+
+      &__2 {
+        width: 308px;
+        padding: 12px 0 4px 0;
+      }
+      &__3 {
+        width: 304px;
+      }
+
+      .coming-soon {
+        margin: auto;
+        font-size: 14px;
+        color: #7b7a8e;
+        opacity: 0.5;
+        font-weight: bold;
+        word-break: keep-all;
+        text-align: center;
+      }
+    }
+  }
+
+  &-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    padding: 0 20px;
+    font-size: 12px;
+
+    &-left {
+      width: 288px;
+
+      &-container {
+        padding: 13px 11px;
+        width: 100%;
+        border-radius: 12px;
+        backdrop-filter: blur(8px);
+        background-image: radial-gradient(circle at 50% 0, rgba(50, 50, 60, 0.15), rgba(50, 50, 60, 0.25) 72%);
+        margin-bottom: 8px;
+
+        &-recent {
+          display: flex;
+          margin-bottom: 12px;
+          align-items: center;
+          font-size: 12px;
+          color: #949494;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+
+    &-right {
+      width: 740px;
+
+      &-list {
+        display: flex;
+        width: 100%;
+        height: 96px;
+        border-radius: 4px;
+        backdrop-filter: blur(8px);
+        background-image: radial-gradient(circle at 50% 0, rgba(50, 50, 60, 0.15), rgba(50, 50, 60, 0.25) 25%);
+        margin-bottom: 8px;
+        overflow: hidden;
+        color: #9e9eb1;
+
+        &-result {
+          width: 6px;
+          height: 100%;
+          background-color: #31313c;
+        }
+
+        &-result-lose {
+          background-color: #703c47;
+        }
+
+        &-result-win {
+          background-color: #2f436e;
+        }
+
+        .win {
+          font-weight: bold;
+          color: #5383e8;
+        }
+
+        .lose {
+          font-weight: bold;
+          color: #e84057;
+        }
+
+        .remake {
+          font-weight: bold;
+          color: #9e9eb1;
+        }
+
+        .level {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 20px;
+          height: 20px;
+          border-radius: 10px;
+          background-color: #202d37;
+          font-size: 11px;
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          color: #fff;
+        }
+
+        .blank {
+          width: 22px;
+          height: 22px;
+          border-radius: 4px;
+          backdrop-filter: blur(8px);
+          background-image: radial-gradient(circle at 50% 0, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 89%);
+          margin-right: 2px;
+        }
+
+        .tags {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 18px;
+          padding: 1px 8px;
+          border-radius: 15px;
+          background-color: #e84057;
+          color: #fff;
+          margin-right: 4px;
+        }
+
+        .ace {
+          background-color: #7d59ea;
+        }
+
+        .mvp {
+          background-color: #eb9c00;
+        }
+      }
+    }
+  }
+}
+
+.btn-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  backdrop-filter: blur(8px);
+  background-image: radial-gradient(circle at 50% 0, rgba(50, 50, 60, 0.15), rgba(50, 50, 60, 0.25) 25%);
+  height: 36px;
+  border-radius: 18px;
+  padding: 10px 16px;
+  font-size: 12px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.mypage-section-title {
+  font-size: 12px;
+  color: #fff;
+}
+
+.most-champions-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 109px;
+  margin-top: 28px;
+  padding: 0 8px;
+
+  .most-champions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 11px;
+    color: #7b7a8e;
+
+    &-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+      border: solid 2px #3c3c3c;
+      overflow: hidden;
+      width: 48px;
+      height: 48px;
+
+      img {
+        border-radius: 8px;
+        width: 54px;
+        height: 54px;
+      }
+    }
+
+    &__kda {
+      color: #949494;
+      margin-top: 4px;
+    }
+  }
+
+  .pager {
+    margin-top: 34px;
+    cursor: pointer;
+  }
+}
+
+.pager-dot-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  margin: 0 auto;
+
+  .pager-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    backdrop-filter: blur(8px);
+    background-image: radial-gradient(circle at 50% 0, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 89%);
+    margin: 0 auto;
+    cursor: pointer;
+
+    &-active {
+      background-color: #d8d8d8;
+      background-image: none;
+    }
+  }
+}
+
+.most-line-wrapper {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  color: #7b7a8e;
+  margin-bottom: 12px;
+
+  .most-lane-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    background-image: radial-gradient(circle at 50% 0, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 89%);
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .most-lane-champion-stats {
+    margin-left: 8px;
+    margin-right: 16px;
+
+    div:first-child {
+      color: #fff;
+      font-size: 12px;
+    }
+  }
+
+  .most-lane-champion-img-container {
+    display: flex;
+    //justify-content: space-between;
+    width: 196px;
+  }
+
+  .most-lane-champion-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: solid 2px #3c3c3c;
+    overflow: hidden;
+    width: 36px;
+    height: 36px;
+    margin-right: 4px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    img {
+      border-radius: 8px;
+      width: 42px;
+      height: 42px;
+    }
+  }
+}
+
+.analytics {
+  display: flex;
+  font-size: 12px;
+  margin: 0 auto;
+  margin-top: 9px;
+}
+
+.mypage-scroll-down-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: 36px;
+  padding: 10px 12px 10px 16px;
+  border-radius: 18px;
+  backdrop-filter: blur(8px);
+  background-image: radial-gradient(circle at 50% 0, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 38%);
+  font-size: 12px;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  margin: 0 auto;
+  bottom: 24px;
+}
+
+.chart-two {
+  margin: 32px 18px 0 18px !important;
+
+  .chart-inner {
+    position: absolute;
+    width: 50px;
+    top: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    text-align: center;
+
+    div:last-child {
+      font-size: 12px;
+      color: #9e9eb1;
+      margin-top: 2px;
+    }
+  }
+}
+
+.chart-wl {
+  margin-top: 0 !important;
+  margin-right: 24px !important;
+  margin-left: 0 !important;
+}
+
+$configs: (
+        chart-two: (
+                svgSize: 88px,
+                percentage: 50,
+                strokeWidth: 8px,
+                backgroundColor: #4f4f5a,
+                foregroundColor: #5f32e6,
+                labelColor: #fff,
+                labelFontSize: 18px,
+                duration: 3s,
+                animationDelay: 1s
+        )
+);
+
+
+/* ------- DO NOT EDIT BELOW --------- */
+$pi: 3.14;
+$labelData: '';
+@for $i from 0 to 101 {
+  $labelData: $labelData + $i + '%' + '\a';
+}
+
+@each $chart, $param in $configs {
+
+  $c: (map-get($param, svgSize) - map-get($param, strokeWidth)) * $pi;
+  $cOffSet: (map-get($param, percentage)*0.01)*$c;
+
+  .#{$chart} {
+    width: map-get($param, svgSize);
+    height: map-get($param, svgSize);
+    margin: 0;
+    position: relative;
+
+    &.animate {
+      svg .circle-foreground {
+        animation: offset map-get($param, duration) ease-in-out forwards;
+        animation-delay: map-get($param, animationDelay);
+      }
+      figcaption:after {
+        animation: #{$chart}-label map-get($param, duration) steps(map-get($param, percentage)) forwards;
+        animation-delay: map-get($param, animationDelay);
+      }
+    }
+
+    svg {
+      width: 100%;
+      height: 100%;
+      .circle-background {
+        r: (map-get($param, svgSize) - map-get($param, strokeWidth))*0.5;
+        cx: 50%;
+        cy: 50%;
+        fill: none;
+        stroke: map-get($param, backgroundColor);
+        stroke-width: 1px;
+      }
+      .circle-foreground {
+        @extend .circle-background;
+        stroke: map-get($param, foregroundColor);
+        stroke-dasharray: $cOffSet $c;
+        stroke-dashoffset: 0;
+        stroke-linecap: round;
+        transform-origin: 50% 50%;
+        transform: rotate(-90deg);
+        stroke-width: 8px;
+      }
+    }
+
+    figcaption {
+      display: inline-block;
+      width: 100%;
+      height: map-get($param, labelFontSize);
+      overflow: hidden;
+      text-align: center;
+      color: map-get($param, labelColor);
+      position: absolute;
+      top: calc(50% - #{map-get($param, labelFontSize)*0.5});
+      left: 0;
+      font-size: 0;
+      &:after {
+        display: inline-block;
+        content: $labelData;
+        white-space: pre;
+        font-size: map-get($param, labelFontSize);
+        line-height: map-get($param, labelFontSize);
+      }
+    }
+  }
+  @keyframes #{$chart}-label {
+    100% {
+      transform: translateY(map-get($param, labelFontSize) * (-(map-get($param, percentage))));
+    }
+  }
+}
+@keyframes offset {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+

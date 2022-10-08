@@ -1,0 +1,32 @@
+#lol-patch-notes-container {
+    display: flex;
+    justify-content: center;
+}
+
+.patch-notes {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 775px;
+    padding-bottom: 30px;
+}
+
+.patch-notes::-webkit-scrollbar {
+    display: none;
+}
+
+.patch-note-container {
+    margin-top: 30px;
+}
+
+.patch-version {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.patch-img > img {
+    margin-top: 10px;
+    height: 560px;
+}

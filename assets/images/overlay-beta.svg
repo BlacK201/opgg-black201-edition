@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="20" viewBox="0 0 46 20">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-523 -67) translate(523 67)">
+                <rect width="46" height="20" fill="#6377FF" rx="4"/>
+                <text fill="#FFF" font-family="Axiforma-Black, Axiforma" font-size="11" font-weight="800">
+                    <tspan x="8" y="14">BETA</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

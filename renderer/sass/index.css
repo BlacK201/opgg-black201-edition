@@ -1,0 +1,890 @@
+@charset "UTF-8";
+@import url(/Users/opgg/Desktop/무제 폴더/opgg-electron-app/assets/css/popup_apm.css);
+@import url(/Users/opgg/Desktop/무제 폴더/opgg-electron-app/assets/css/main.css);
+.feedback-modal__title {
+  text-align: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.feedback-modal__grade {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.feedback-modal__grade-item {
+  display: inline-block;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.feedback-modal__textarea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #282830;
+  border-radius: 8px;
+  height: 86px;
+}
+
+.feedback-modal__textarea textarea {
+  font-family: 'Roboto', sans-serif;
+  margin: 16px;
+  background-color: transparent;
+  border: 0;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 1.3;
+  resize: none;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.feedback-modal__textarea-div {
+  width: 1px;
+  height: 100%;
+  background-color: #31313c;
+}
+
+.feedback-modal__textarea-submit {
+  width: 78px;
+  height: 78px;
+  margin: 4px;
+  border-radius: 8px;
+  background-color: #7d59ea;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.feedback-modal__textarea-submit:disabled {
+  background-color: #31313c;
+  color: #7b7a8e;
+}
+
+.feedback-modal__close-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.mini body {
+  background: none;
+  background-color: #282830;
+}
+
+.mini body::-webkit-scrollbar {
+  display: none;
+}
+
+.mini .main {
+  width: 100%;
+  margin-left: 0;
+  background-color: #282830;
+}
+
+.mini .info-summoner-name {
+  max-width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.mini #lol-live {
+  padding-bottom: 70px;
+}
+
+.mini #lol-live-container {
+  margin-top: -79px;
+}
+
+.mini .mini-process-tab-wrapper {
+  position: fixed;
+  bottom: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  z-index: 9999;
+}
+
+.mini .mini-process-tab-container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
+  border-radius: 20px;
+}
+
+.mini .mini-process-tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 120px;
+  height: 40px;
+  background-color: #282830;
+  border: solid 1px #424254;
+  cursor: pointer;
+  margin-right: -1px;
+  font-size: 15px;
+  padding: 0 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.mini .mini-process-tab:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.mini .mini-process-tab:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.mini .mini-process-tab:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.mini .mini-process-tab-disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.mini .mini-process-tab-selected {
+  background-color: #7d59ea;
+}
+
+.mini .mini-process-tab:first-child {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.mini .mini-process-tab:last-child {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.mini .multisearch-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 12px;
+}
+
+.mini .multisearch-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 176px;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.mini .multisearch-card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 36px;
+}
+
+.mini .multisearch-lane-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 36px;
+  height: 36px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background-color: #31313c;
+}
+
+.mini .multisearch-lane-wrapper > img {
+  width: 20px;
+  height: 20px;
+}
+
+.mini .multisearch-card-header-contents-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(100% - 36px);
+  height: 36px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mini .ms-tiers {
+  margin-left: 7px;
+}
+
+.mini .multisearch-lane {
+  margin-left: auto;
+}
+
+.mini .ms-lane {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 17px;
+  font-size: 11px;
+}
+
+.mini .ms-lane-img > img {
+  width: 16px;
+  height: 16px;
+}
+
+.mini .ms-lane-stats {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 4px;
+}
+
+.mini .ms-lane-wl-ratio {
+  margin-left: 4px;
+  min-width: 51px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.mini .multisearch-card-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: calc(100% - 36px);
+  background-color: #31313c;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 12px;
+}
+
+.mini .ms-profile-container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mini .ms-profile-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mini .ms-profile-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mini .ms-profile-image-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 56px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mini .ms-profile-image-wrapper > img {
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+}
+
+.mini .ms-profile-level {
+  margin-top: -10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 20px;
+  border-radius: 10px;
+  padding: 0 9px;
+  background-color: #202d37;
+  font-size: 12px;
+}
+
+.mini .ms-profile-info-wrapper {
+  margin-left: 8px;
+}
+
+.mini .ms-profile-name {
+  width: 136px;
+  font-size: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.mini .ms-profile-tier {
+  font-size: 11px;
+  color: #7b7a8e;
+}
+
+.mini .ms-profile-stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mini .multisearch-stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.mini .ms-wl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 120px;
+  margin-left: 4px;
+  padding: 0;
+}
+
+.mini .lose {
+  color: #7b7a8e;
+  margin-right: 4px;
+}
+
+.mini .ms-wl-bar {
+  margin-left: 0;
+  margin-top: 4px;
+  width: 120px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #282830;
+}
+
+.mini .ms-w-rate {
+  margin-top: 4px;
+  width: 30%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #5383e8;
+}
+
+.mini .ms-wl-ratio {
+  font-size: 11px;
+  color: #5383e8;
+  margin-left: 4px;
+}
+
+.mini .ms-last-updated {
+  margin-top: 4px;
+  color: #7b7a8e;
+  font-size: 11px;
+}
+
+.mini .multisearch-promotion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  visibility: visible;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 0 auto;
+  margin-top: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mini .promotion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background-color: #282830;
+  font-size: 11px;
+  border: 1px solid #1c1c1f;
+}
+
+.mini .p-win {
+  background-color: #5383e8;
+  border: none;
+}
+
+.mini .p-lose {
+  background-color: #e84057;
+  border: none;
+}
+
+.mini .p-line {
+  width: 4px;
+  height: 1px;
+  background-color: #1c1c1f;
+}
+
+.mini .multisearch-recent-games {
+  width: 176px;
+  height: 0;
+  padding: 0;
+}
+
+.mini .ms-game {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.mini .ms-no-data {
+  margin-top: 0;
+  width: 176px;
+  height: 116px;
+}
+
+.mini .champion-container {
+  /* margin-top: 80px; */
+  margin-left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #282830;
+  padding: 0;
+}
+
+.mini .banner-champion-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.mini .banner-champion-content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.mini .champion-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 16px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+.mini .champion-lines {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 36px;
+}
+
+.mini .champion-lane {
+  border: none;
+}
+
+.mini .champion-lane:first-child {
+  border-top-right-radius: 0;
+}
+
+.mini .champion-lane:last-child {
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+}
+
+.mini .champion-overall-contents {
+  width: auto;
+  padding: 12px;
+  margin: 8px 12px;
+  background-color: #31313c;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
+}
+
+.mini .champion-overall-contents-left {
+  padding: 0;
+}
+
+.mini .champion-overall-contents-right {
+  width: auto;
+  padding: 0;
+}
+
+.mini .counter-wrapper {
+  width: 100%;
+}
+
+.mini .counter-win-rate {
+  margin-left: 12px;
+}
+
+.mini .champion-overall-skill-builds {
+  margin-top: 12px;
+}
+
+.mini .nav-right-arrow {
+  margin: 0;
+}
+
+.mini .champion-runes-tab {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mini .champion-runes-tab-statistics {
+  margin-left: 0;
+}
+
+.mini .champion-rune-row:first-child {
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.mini .champion-runes {
+  width: auto;
+  margin: 0 12px;
+  margin-bottom: 8px;
+}
+
+.mini .rune-stat-wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+.mini .rune-pick-rate {
+  margin-top: 4px;
+}
+
+.mini .champion-rune-detail {
+  padding: 0;
+}
+
+.mini .champion-rune-group {
+  min-width: 144px;
+  padding: 0 8px;
+}
+
+.mini .champion-runes-content {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mini .rune-stats-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 402px;
+  height: 36px;
+  margin: 8px 0;
+  border-radius: 2px;
+  background-color: #282830;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.mini .text-rate {
+  margin-left: 8px;
+  margin-right: 16px;
+}
+
+.mini .champion-container-right {
+  width: auto;
+  margin: 0 12px;
+}
+
+.mini .ingame-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: auto;
+  margin: 12px;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
+  background-color: #31313c;
+  margin-top: 92px;
+  font-size: 12px;
+}
+
+.mini .ingame-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 138px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px;
+}
+
+.mini .ingame-sep {
+  width: 100%;
+  height: 1px;
+  background-color: #282830;
+}
+
+.mini .ingame-profile-container {
+  width: 128px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mini .ingame-tier-column {
+  width: 60px;
+}
+
+.mini .ingame-profile-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 8px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mini .ingame-profile-row-reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.mini .ingame-profile-row:first-child {
+  margin-top: 0;
+}
+
+.mini .ingame-profile-img-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mini .ingame-profile-img-wrapper > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.mini .ingame-profile-tier {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 16px;
+  border: solid 1px #33383c;
+  border-radius: 8px;
+  padding: 1px 4px;
+  background-color: #7b858e;
+}
+
+.mini .ingame-profile-game-info {
+  margin-left: 8px;
+}
+
+.mini .ingame-profile-game-info-column > img {
+  width: 19px;
+  height: 19px;
+  margin-right: 2px;
+}
+
+.mini .ingame-win,
+.mini .ingame-lose {
+  width: 8px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #5383e8;
+  margin-right: 2px;
+}
+
+.mini .ingame-lose {
+  background-color: #e84057;
+}
+
+.mini .ingame-summoner-name {
+  width: auto;
+  max-width: 60px;
+  margin-bottom: 0;
+}
+
+.mini .ingame-wl {
+  color: #9e9eb1;
+  margin-left: 8px;
+}
+
+.mini .ingame-games {
+  color: #98a0a7;
+}
+
+.mini .ingame-kda {
+  color: #98a0a7;
+}
+
+.mini .ingame-mvp-left {
+  width: 16px;
+  height: 16px;
+  margin-left: 0;
+}
+
+.mini .ingame-mvp-left > img {
+  width: 16px;
+  height: 16px;
+}
+
+.mini .ingame-mvp-right {
+  width: 16px;
+  height: 16px;
+  margin-left: 25px;
+}
+
+.mini .ingame-mvp-right > img {
+  width: 16px;
+  height: 16px;
+}
+/*# sourceMappingURL=index.css.map */
