@@ -61,7 +61,7 @@ let callAPI = function(method, url, data=null) {
 };
 
 let saveRunes = (locale) => {
-    callAPI("GET", `https://lol-api-champion.op.gg/api/meta/runes?hl=${locale[0]}`).then((response) => {
+    callAPI("GET", `https://lol-api-champion.bk201.icu/api/meta/runes?hl=${locale[0]}`).then((response) => {
         fs.writeFile("./assets/data/meta/runes.json", JSON.stringify(response.data, null, 2), (err) => {
             console.log(err);
         });
@@ -71,7 +71,7 @@ let saveRunes = (locale) => {
 };
 
 let saveRunePages = (locale) => {
-    callAPI("GET", `https://lol-api-champion.op.gg/api/meta/rune-pages?hl=${locale[0]}`).then((response) => {
+    callAPI("GET", `https://lol-api-champion.bk201.icu/api/meta/rune-pages?hl=${locale[0]}`).then((response) => {
         fs.writeFile("./assets/data/meta/runePages.json", JSON.stringify(response.data, null, 2), (err) => {
             console.log(err);
         });
@@ -81,7 +81,7 @@ let saveRunePages = (locale) => {
 };
 
 let saveChampions = (locale) => {
-    callAPI("GET", `https://lol-api-champion.op.gg/api/meta/champions?hl=${locale[0]}`).then((response) => {
+    callAPI("GET", `https://lol-api-champion.bk201.icu/api/meta/champions?hl=${locale[0]}`).then((response) => {
         let fileName = "./assets/data/meta/champions.json";
         if (locale[1] !== "kr") {
             fileName = `./assets/data/meta/champions_${locale[1]}.json`;
@@ -95,7 +95,7 @@ let saveChampions = (locale) => {
 };
 
 let saveItems = (locale) => {
-    callAPI("GET", `https://lol-api-champion.op.gg/api/meta/items?hl=${locale[0]}`).then((response) => {
+    callAPI("GET", `https://lol-api-champion.bk201.icu/api/meta/items?hl=${locale[0]}`).then((response) => {
         fs.writeFile("./assets/data/meta/items.json", JSON.stringify(response.data, null, 2), (err) => {
             console.log(err);
         });
@@ -105,7 +105,7 @@ let saveItems = (locale) => {
 };
 
 let saveSpells = (locale) => {
-    callAPI("GET", `https://lol-api-champion.op.gg/api/meta/spells?hl=${locale[0]}`).then((response) => {
+    callAPI("GET", `https://lol-api-champion.bk201.icu/api/meta/spells?hl=${locale[0]}`).then((response) => {
         fs.writeFile("./assets/data/meta/spells.json", JSON.stringify(response.data, null, 2), (err) => {
             console.log(err);
         });

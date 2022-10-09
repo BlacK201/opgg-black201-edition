@@ -206,7 +206,7 @@ const Champions = ({champion}: any) => {
     let isMounted = true;
 
     if (isMounted) {
-      axios.get(`https://lol-api-champion.op.gg/api/${region}/champions/ranked/versions`).then((res) => {
+      axios.get(`https://lol-api-champion.bk201.icu/api/${region}/champions/ranked/versions`).then((res) => {
         if (res && isMounted) {
           setVersionDropboxContent([]);
           res.data.data.map((v: any, i: number) => {
