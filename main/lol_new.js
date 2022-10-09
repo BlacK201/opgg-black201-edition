@@ -456,7 +456,7 @@ class LoL {
             } else if (game === "data2") {
                 uri = "https://m9km92rbn4.execute-api.ap-northeast-2.amazonaws.com/";
             } else if (game === "lol-api-champion") {
-                uri = "https://lol-api-champion.op.gg";
+                uri = "https://lol-api-champion.bk201.icu";
             } else if (game === "lol-api-summoner") {
                 uri = "https://lol-api-summoner.op.gg"
             }

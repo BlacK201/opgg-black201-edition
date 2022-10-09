@@ -170,7 +170,7 @@ const ChampionStatistics = () => {
     }
 
     const loadData = useCallback(async () => {
-        let response = await axios.get(`https://lol-api-champion.op.gg/api/${region}/champions/ranked?tier=${tierFilter}&version=${versionFilter}`)
+        let response = await axios.get(`https://lol-api-champion.bk201.icu/api/${region}/champions/ranked?tier=${tierFilter}&version=${versionFilter}`)
             .catch((_) => {return null;});
         if (!response) return null;
         if (mounted.current) {
@@ -201,7 +201,7 @@ const ChampionStatistics = () => {
                 tier: tierFilter
             });
 
-            axios.get(`https://lol-api-champion.op.gg/api/${region}/champions/ranked/versions`).then((res) => {
+            axios.get(`https://lol-api-champion.bk201.icu/api/${region}/champions/ranked/versions`).then((res) => {
                 if (mounted.current) {
                     setVersionDropboxContent([]);
                     let hasVersion = false;
