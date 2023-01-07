@@ -50,7 +50,7 @@ const Settings = () => {
     isOnStart: isNMP ? localStorage.getItem("autostart") === "true" : getSettingInLocalStorage("autostart"),
     isAutoRune: getSettingInLocalStorage("autorune"),
     isAutoItem: getSettingInLocalStorage("autoitem"),
-    isAutoAccept: getSettingInLocalStorage("autoaccept"),
+    isAutoAccept: localStorage.getItem("autoaccept") === "true",
     isAPM: getSettingInLocalStorage("apm"),
     isSpell: isNMP ? localStorage.getItem("isSpell") === "true" : getSettingInLocalStorage("isSpell"),
     isOverlay: localStorage.getItem("isOverlay2") === "true",
@@ -74,7 +74,7 @@ const Settings = () => {
     } else if (ipcEventKey === "april") {
       dispatch(setApril(checked));
     } else if (ipcEventKey === "autoaccept") {
-        dispatch(setIsAutoAccept(checked));
+      dispatch(setIsAutoAccept(checked));
     }
     window.api.send(ipcEventKey, checked);
     localStorage.setItem(storageKey, String(e.target.checked));

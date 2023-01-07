@@ -137,7 +137,7 @@ class LoL {
                 })
             this.app.window.getLocalStorage("autoaccept")
                 .then((result) => {
-                    this.config.isAutoAcceptOn = !(result === "false" || result === false);
+                    this.config.isAutoAcceptOn = (result === "true" || result === true);
                 })
             this.app.window.getLocalStorage("isSpell")
                 .then((result) => {
@@ -234,6 +234,7 @@ class LoL {
                     setting_autoitem: this.config.isItemBuildOn,
                     setting_autorune: this.config.isRuneOn,
                     setting_isSpell: this.config.isSpellOn,
+                    setting_autoaccept: this.config.isAutoAcceptOn,
                     setting_isOverlay: this.config.isOverlayOn,
                     summoner_level: this.game.summoner.summonerLevel,
                     summoner_name: this.game.summoner.displayName,
@@ -416,7 +417,8 @@ class LoL {
     }
 
     async acceptMatch() {
-        await this.callAPI("POST", "lol", "/lol-lobby-team-builder/v1/ready-check/accept").catch((_) => {console.log(_)});
+        await this.callAPI("POST", "lol", "/lol-matchmaking/v1/ready-check/accept").catch((_) => {console.log(_)});
+        // await this.callAPI("POST", "lol", "/lol-lobby-team-builder/v1/ready-check/accept").catch((_) => {console.log(_)});
     }
 
     checkProcess() {
