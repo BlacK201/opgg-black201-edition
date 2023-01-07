@@ -157,6 +157,7 @@ class LoL {
         }
 
         this.ipc();
+        this.app.window.show();
         this.detectGameProcess();
 
         this.callAPI("GET", "s3", `/combo_test.json?timestamp=${new Date().getTime()}`).then((data) => {
