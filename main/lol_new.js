@@ -216,10 +216,16 @@ class LoL {
                 }
                 this.app.window.show();
 
-                let summonerRankResponse = await this.callAPI("GET", "lol", `${lolConstants.LOL_RANKED_STATS}/${this.game.summoner.puuid}`)
-                    .catch((_) => {return null});
-                if (!summonerRankResponse) return;
-                this.game.summonerRank = summonerRankResponse.data;
+                // TODO 修复切换为Websocket后产生的问题
+                // let summonerRankResponse = await this.callAPI("GET", "lol", `${lolConstants.LOL_RANKED_STATS}/${this.game.summoner.puuid}`).catch((e) => {
+                //     console.log(`summonerRankResponse${e}`)
+                //     return null
+                // });
+                // // let summonerRankResponse = await this.callAPI("GET", "lol", `${lolConstants.LOL_RANKED_STATS}/${this.game.summoner.puuid}`)
+                // //     .catch((_) => {return null});
+                // // console.log(`summonerRankResponse${summonerRankResponse}`)
+                // if (!summonerRankResponse) return;
+                // this.game.summonerRank = summonerRankResponse.data;
 
                 let installDir = await this.callAPI("GET", "lol", lolConstants.LOL_INSTALL_DIR)
                     .catch((_) => {return null;});
@@ -227,7 +233,9 @@ class LoL {
 
                 sendGA4Event("login_lol", {
                     server: this.config.region.region,
-                    summoner_rank: summonerRankResponse.data.highestRankedEntry.tier,
+                    // TODO 修复切换为Websocket后产生的问题
+                    // summoner_rank: summonerRankResponse.data.highestRankedEntry.tier,
+                    summoner_rank: null,
                     screen_resolution: `${screen.getPrimaryDisplay().size.width}*${screen.getPrimaryDisplay().size.height}`
                 }, {
                     login_lol: true,
@@ -380,6 +388,10 @@ class LoL {
                     fs.read(fd, buffer, 0, buffer.length, 0, (err, bytesRead, buffer) => {
                         let data = buffer.toString("utf8").split(":");
                         let httpsUrl = `https://riot:${data[3]}@127.0.0.1:${data[2]}`;
+
+                        // TODO 修复后删除无用的log输出
+                        console.log(httpsUrl)
+
                         axios.get(`${httpsUrl}/product-session/v1/sessions`).then((res) => {
                             if (res) {
                                 for (const [_, v] of Object.entries(res.data)) {
@@ -1283,14 +1295,16 @@ class LoL {
                     this.game.globalItemSets[primaryLane] = globalItemSet;
 
                     if (this.config.isSpellOn) {
-                        let updateResult = await this.callAPI("PATCH", "lol", lolConstants.LOL_CHAMPSELECT_MY_SELECTION, selectionBody).catch(() => { return null; });
+                        // TODO 这个更换召唤师技能的接口不知为何不会返回值 所以不能await -- By BlacK201
+                        let updateResult = this.callAPI("PATCH", "lol", lolConstants.LOL_CHAMPSELECT_MY_SELECTION, selectionBody).catch(() => { return null; });
                         if (!updateResult) {
                             // 스펠 설정 오류 알림
                         }
                     }
 
                     if (this.config.isRuneOn) {
-                        this.checkPerkPage(this.game.perkPages[primaryLane][0]);
+                        // TODO 这里为什么使用await来着 忘记了
+                        await this.checkPerkPage(this.game.perkPages[primaryLane][0]);
                     }
 
                     if (this.config.isItemBuildOn) {
@@ -1323,6 +1337,11 @@ class LoL {
     }
 
     checkPerkPage(newPage) {
+        // TODO 修复切换为Websocket后产生的问题
+        this.callAPI("DELETE", "lol", lolConstants.LOL_PERK_PAGES).then((response) => {return null;});
+        this.updatePerkPage(newPage);
+        return;
+        // Don't need check, let's DELETE THEM ALL! -- By BlacK201
         if (newPage) {
             this.callAPI("GET", "lol", lolConstants.LOL_PERK_PAGES).then((response) => {
                 let pageExists = false;
@@ -1359,6 +1378,8 @@ class LoL {
 
     updateItemSet(itemSet, globalItemSet) {
         if (this.game.summoner !== null) {
+            //  TODO 修复后删除无用的log输出
+            console.log("updateItemSet")
             this.callAPI("GET", "lol",
                 lolConstants.LOL_ITEM_SETS.format(this.game.summoner.summonerId))
                 .then((response) => {
@@ -1378,6 +1399,8 @@ class LoL {
                     });
                     newItemSets.itemSets.push(itemSet);
 
+                    //  TODO 修复后删除无用的log输出
+                    console.log(`\n\n${JSON.stringify(newItemSets)}\n\n`)
                     this.callAPI("PUT", "lol",
                         lolConstants.LOL_ITEM_SETS.format(this.game.summoner.summonerId), newItemSets);
                 });
@@ -1455,6 +1478,8 @@ class LoL {
                 if (summoner) {
                     summoner = summoner.data;
                     let response = await this.callAPI("GET", "lol", `${lolConstants.LOL_RANKED_STATS}/${summoner.puuid}`).catch(() => {
+                        //  TODO 修复后删除无用的log输出
+                        console.log(`getMyPage${e}`)
                         return null
                     });
                     if (response) {
