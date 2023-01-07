@@ -4,6 +4,32 @@
   "description": "",
   "main": "main/index.js",
   "author": "OP.GG",
+  "productName": "OP.GG",
+  "scripts": {
+    "p": "asar pack .\\ app.asar --unpack-dir \"{.git,.idea,gelectron,.gitignore,node_modules.7z,package-lock.json}\"",
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "win": "electron-builder --windows nsis:x64",
+    "react:dev": "parcel ./renderer/react.html --port 4000 --no-cache --out-dir ./assets/react",
+    "react:build": "rm -rf ./assets/react && cross-env NODE_ENV=production parcel build ./renderer/react.html --public-url . --no-source-maps --no-cache --out-dir ./assets/react  && mkdir ./assets/react/assets && cp -rf ./assets/images ./assets/react/assets/images",
+    "react:build-win": "rmdir /s /q assets\\react && cross-env NODE_ENV=production parcel build ./renderer/react.html --public-url . --no-source-maps --no-cache --out-dir ./assets/react  && xcopy assets\\images assets\\react\\assets\\images\\ /e /i /y /s",
+    "react:build-win-sourcemap": "rmdir /s /q assets\\react && cross-env NODE_ENV=production parcel build ./renderer/react.html --public-url . --no-cache --out-dir ./assets/react  && xcopy assets\\images assets\\react\\assets\\images\\ /e /i /y /s",
+    "react:build-nmp-sourcemap": "rmdir /s /q assets\\react && cross-env NODE_ENV=production VERSION_STRING=nmp parcel build ./renderer/react.html --no-minify --public-url . --no-cache --out-dir ./assets/react  && xcopy assets\\images assets\\react\\assets\\images\\ /e /i /y /s",
+    "react:electron": "cross-env NODE_ENV=development IS_REACT=true ELECTRON_START_URL=http://localhost:4000 electron ./main/index.js",
+    "react:electron-nmp": "cross-env NODE_ENV=development VERSION_STRING=nmp IS_REACT=true ELECTRON_START_URL=http://localhost:4000 electron ./main/index.js",
+    "react:dist": "cross-env NODE_ENV=production yarn react:build && electron-builder build -c.extraMetadata.main=./main/index.js",
+    "react:dist-win": "cross-env NODE_ENV=production npm run react:build-win-sourcemap && electron-builder build -c.extraMetadata.main=./main/index.js",
+    "react:dist-nmp": "cross-env NODE_ENV=production VERSION_STRING=nmp npm run react:build-nmp-sourcemap && electron-builder build -c.extraMetadata.main=./main/index.js",
+    "react:start": "concurrently 'cross-env BROWSER=none yarn react:dev' 'mkdir -p ./assets/react/assets && cp -rf ./assets/images/ ./assets/react/assets/images/' 'wait-on http://localhost:4000 && yarn react:electron'",
+    "react:start-win": "concurrently \"cross-env BROWSER=none npm run react:dev\" \"xcopy assets\\images assets\\react\\assets\\images\\ /e /i /y /s \" \"wait-on http://localhost:4000 && npm run react:electron\"",
+    "react:start-nmp": "concurrently \"cross-env BROWSER=none npm run react:dev\" \"xcopy assets\\images assets\\react\\assets\\images\\ /e /i /y /s \" \"wait-on http://localhost:4000 && npm run react:electron-nmp\"",
+    "react:start-win-prod": "cross-env BROWSER=none npm run react:build-win-sourcemap && xcopy assets\\images assets\\react\\assets\\images\\ /e /i /y /s && npm run react:electron-prod",
+    "react:electron-prod": "cross-env NODE_ENV=production IS_REACT=true electron ./main/index.js",
+    "wintest": "parcel ./renderer/react.html",
+    "build:rust": "electron-build-env neon build rust-process --release"
+  },
   "dependencies": {
     "@amplitude/node": "^1.5.4",
     "@emotion/react": "^11.4.1",
@@ -26,6 +52,7 @@
     "i18next": "^19.8.2",
     "lodash": "^4.17.20",
     "node-localstorage": "^2.1.6",
+    "node-sass": "npm:sass@^1.55.0",
     "os-locale": "^5.0.0",
     "react": "^17.0.2",
     "react-copy-to-clipboard": "^5.0.3",
@@ -62,5 +89,47 @@
   },
   "browserslist": [
     "last 2 Chrome versions"
-  ]
+  ],
+  "devDependencies": {
+    "electron": "^17.4.11",
+    "electron-builder": "^23.3.3",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.8.4"
+  },
+  "build": {
+    "files": [
+      "!**/opgg.pfx",
+      "!**/rust-process/native/src${/*}",
+      "!**/rust-process/native/target${/*}"
+    ],
+    "extraFiles": [
+      {
+        "from": "assets/i18n/locales",
+        "to": "./locales"
+      }
+    ],
+    "asarUnpack": [
+      "**node_modules/rust-process/**"
+    ],
+    "asar": true,
+    "productName": "OP.GG",
+    "appId": "desktop.op.gg",
+    "mac": {
+      "icon": "build/icon256.png",
+      "category": "desktop.op.gg"
+    },
+    "win": {
+      "requestedExecutionLevel": "highestAvailable",
+      "icon": "build/icon.ico",
+      "target": [
+        "nsis",
+        "zip"
+      ]
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": false
+    }
+  }
 }
