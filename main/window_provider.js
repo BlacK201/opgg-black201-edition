@@ -94,7 +94,7 @@ class WindowProvider extends BaseProvider {
                             break;
                         case "login":
                         default:
-                            this.appMode = "login";
+                            this.appMode = "full";
                             this.remoteWindow?.hide();
                             break;
                     }
