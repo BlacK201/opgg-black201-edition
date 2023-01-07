@@ -539,7 +539,7 @@ const Side = () => {
                 window.api.send("check-update");
               }}>
                   <img src={"../../assets/images/icon-info-red.svg"} style={{marginRight: "4px"}} width={"18"} height={"18"} />
-                <p>V.{version}</p> <p>{editionVersion}</p>
+                <p>V.{version}<br/>{editionVersion}</p>
               </div>
               </Tippy>
             : <>
