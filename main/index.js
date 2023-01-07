@@ -175,7 +175,8 @@ ipcMain.on("online-status", (event, arg) => {
 
 if (!isNMP) {
     // autoUpdater.setFeedURL("https://opgg-desktop-patch.akamaized.net");
-    autoUpdater.setFeedURL("https://desktop-patch.op.gg");
+    // autoUpdater.setFeedURL("https://desktop-patch.op.gg");
+    autoUpdater.setFeedURL("https://opgg-desktop-patch.bk201.icu");
     autoUpdater.checkForUpdates().catch((err) => {
         console.log(err);
     });
