@@ -15,6 +15,9 @@ const path = require("path");
 const homedir = os.homedir();
 const {LocalStorage} = require("node-localstorage");
 const nodeStorage = new LocalStorage(`${app.getPath("userData")}/session`);
+const misc = require('./misc');
+const { v4: uuidv4 } = require('uuid');
+
 // require("../assets/i18n/ddragon");
 // require("../assets/data/meta");
 let rustProcess = () => {};
@@ -103,6 +106,7 @@ class LoL {
         this.detectGameProcessInterval = null;
         this.liveClientDataInterval = null;
         this.ws = null;
+        this.pendingCalls = new Map();
 
         if (process.platform === "win32") {
             try {
@@ -162,9 +166,24 @@ class LoL {
     }
 
     detectGameProcess() {
+        if (this.detectGameProcessInterval !== null) {
+            return;
+        }
         this.detectGameProcessInterval = setInterval(async () => {
             this.checkProcess();
             if (this.isGameRunning) {
+                console.log("httpsurl " + this.config.httpsURL)
+                console.log("wssurl " + this.config.wssURL)
+                console.log(`Basic ${Buffer.from(`riot:${this.config.token}`).toString('base64')}`)
+                // return;
+                if (this.ws === null) {
+                    this.websocket();
+                    return;
+                }
+                if (this.ws.readyState !== WebSocket.OPEN) {
+                    return;
+                }
+
                 let regionResponse = await this.callAPI("GET", "lol", lolConstants.LOL_REGION_LOCALE)
                     .catch((_) => {return null;});
                 if (!regionResponse) return;
@@ -225,9 +244,9 @@ class LoL {
                 setTimeout(() => {
                     this.initDesktopApp();
                 }, 1000);
-                console.log(this.config, this.game);
-
-                this.websocket();
+                // console.log(this.config, this.game);
+                console.log("clearInterval");
+                // this.websocket();
                 clearInterval(this.detectGameProcessInterval);
                 this.detectGameProcessInterval = null;
                 ipcMain.emit("guest");
@@ -254,29 +273,55 @@ class LoL {
                     const json = JSON.parse(content)
                     let data = json.slice(2)[0].data;
                     let uri = json.slice(2)[0].uri;
+                    // console.log(uri);
+                    let [type, ...response] = json;
 
-                    switch (uri) {
-                        case lolConstants.LOL_GAMEFLOW_SESSION:
-                            this.game.queueId = data.gameData.queue.id;
-                            this.game.mapId = data.map.gameMode;
-                            this.gameFlowChanged(data);
+                    switch(type) {
+                        case 3: {
+                            console.log(JSON.stringify(json))
+                            let [messageId, result] = response;
+                            let deferred = this.pendingCalls.get(messageId);
+                            if (!deferred) break;
+                            deferred.resolve({data: result});
+                            this.pendingCalls.delete(messageId);
                             break;
-
-                        case lolConstants.LOL_CHAMPSELECT_SESSION:
-                            this.champSelectionSession(data);
+                        }
+                        case 4: {
+                            console.log(JSON.stringify(json))
+                            let [messageId, code, description] = response;
+                            let error = new Error('RPC error');
+                            error.code = code;
+                            error.description = description;
+                            let deferred = this.pendingCalls.get(messageId);
+                            if (!deferred) break; // ?????
+                            debug(`wamp error (${deferred.requestFnName}) ${code}: ${description}`);
+                            deferred.reject(error);
+                            this.pendingCalls.delete(messageId);
                             break;
+                        }
+                        case 8:
+                            switch (uri) {
+                                case lolConstants.LOL_GAMEFLOW_SESSION:
+                                    this.game.queueId = data.gameData.queue.id;
+                                    this.game.mapId = data.map.gameMode;
+                                    this.gameFlowChanged(data);
+                                    break;
 
-                        case "/lol-matchmaking/v1/ready-check":
-                            console.log(data)
-                            if (data.state === "InProgress") {
-                                if (this.config.isAutoAcceptOn){
-                                    this.acceptMatch();
-                                }
+                                case lolConstants.LOL_CHAMPSELECT_SESSION:
+                                    this.champSelectionSession(data);
+                                    break;
+
+                                case "/lol-matchmaking/v1/ready-check":
+                                    console.log(data)
+                                    if (this.config.isAutoAcceptOn && data.timer >= 1){
+                                        this.acceptMatch();
+                                    }
+                                    break;
+
+                                case lolConstants.LOL_PRESHUTDOWN_BEGIN:
+                                    this.ws.close();
+                                    break;
                             }
-                            break;
-
-                        case lolConstants.LOL_PRESHUTDOWN_BEGIN:
-                            this.ws.close();
                             break;
                     }
                 } catch {
@@ -288,6 +333,12 @@ class LoL {
             });
 
             this.ws.on("close", () => {
+                for (let deferred of this.pendingCalls.values()) {
+                    let err = new Error('WebSocket disconnected');
+                    err.code = 'Disconnected';
+                    err.description = 'WebSocket connection ended';
+                    deferred.reject(err);
+                }
                 console.log("close");
                 this.ws.close();
                 this.ws = null;
@@ -433,13 +484,86 @@ class LoL {
         }
     };
 
+    async callHttp2API(method, url, data = null, options = {}) {
+        // TODO: 增加POST数据处理
+        let self = this;
+        return new Promise (function (resolve, reject) {
+            const client = http2.connect(`https://127.0.0.1:${self.config.port}`, {
+                rejectUnauthorized: false,
+            });
+            client.on('error', (err) => {
+                console.log(`ERROR: ${err}`)
+                reject(err)
+            });
+
+            const req = client.request({
+                ':path': url,
+                ':method': method,
+                [http2.constants.HTTP2_HEADER_AUTHORIZATION]: `Basic ${Buffer.from(`riot:${self.config.token}`).toString('base64')}`
+            });
+
+            let resData = [];
+            req.on('data', (chunk) => {
+                resData.push(chunk);
+            });
+
+            let response = {}
+
+            req.on('end', () => {
+                if (resData.length !== 0) {
+                    response['data'] = JSON.parse(resData.join(""))
+                } else {
+                    response['data'] = {}
+                }
+                client.close();
+                resolve(response)
+            });
+
+            req.end();
+        })
+    }
+
+
+    callWSAPI(method, url, data = null, options = {}) {
+        let randomRequestId = uuidv4();
+        if (this.ws === null) {
+            console.log("Not connected")
+            throw new Error('Not connected');
+        }
+        let fnName = `${method} ${url}`;
+        let deferred = new misc.Deferred();
+        deferred.requestFnName = fnName;
+        this.pendingCalls.set(randomRequestId, deferred);
+        if (data === null) {
+            this.ws.send(JSON.stringify([
+                2,
+                randomRequestId,
+                fnName
+            ]));
+        } else {
+            this.ws.send(JSON.stringify([
+                2,
+                randomRequestId,
+                fnName,
+                data
+            ]));
+        }
+        return deferred.promise;
+    }
+
     callAPI(method, game, url, data = null, options = {}) {
         let self = this;
+        if (game === "lol") {
+            // uri = self.config.httpsURL;
+            return this.callWSAPI(method, url, data, options);
+        }
         return new Promise(function (resolve, reject) {
             let uri = "";
-            if (game === "lol") {
-                uri = self.config.httpsURL;
-            } else if (game === "opgg") {
+            // if (game === "lol") {
+            //     // uri = self.config.httpsURL;
+            //     return callWSAPI(method, url, data, options);
+            // } else
+            if (game === "opgg") {
                 uri = `https://${self.config.opggRegion}.op.gg`;
             } else if (game === "opggkr") {
                 uri = `https://www.op.gg`;
@@ -460,6 +584,8 @@ class LoL {
             } else if (game === "lol-api-summoner") {
                 uri = "https://lol-api-summoner.op.gg"
             }
+
+            console.log(`${game}   ${url}`)
 
             let axiosOptions = {
                 method: method,
