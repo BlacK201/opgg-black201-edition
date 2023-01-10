@@ -1,0 +1,132 @@
+.modal-notice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  &__header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    color: #7b7a8e;
+    font-size: 14px;
+
+    .close {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      top: 12px;
+      right: 16px;
+      cursor: pointer;
+
+      .esc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 28px;
+        height: 16px;
+        color: #7b7a8e;
+        font-size: 11px;
+        border-radius: 4px;
+        backdrop-filter: blur(8px);
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+
+      img {
+        width: 16px;
+        height: 16px;
+        margin-left: 4px;
+      }
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 454px;
+    height: 442px;
+    padding: 16px 0 24px 0;
+
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+      color: #fff;
+      text-align: center;
+
+      span {
+        color: #6e4fff;
+      }
+    }
+
+    .img-notice {
+      width: 500px;
+    }
+
+    .notice-content {
+      width: 100%;
+      font-size: 11px;
+      white-space: pre-line;
+      word-break: keep-all;
+
+      span {
+        color: #6e4fff;
+      }
+
+      dark {
+        color: #7b7a8e;
+      }
+
+      purple {
+        color: #6e4fff;
+        font-weight: bold;
+      }
+    }
+  }
+
+  &__page-left {
+    position: absolute;
+    top: 180px;
+    left: 16px;
+    cursor: pointer;
+
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  &__page-right {
+    position: absolute;
+    top: 180px;
+    right: 16px;
+    cursor: pointer;;
+
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  &__pagination {
+    position: absolute;
+    bottom: 24px;
+    display: flex;
+
+    .notice-pager-dot {
+      width: 8px;
+      height: 8px;
+      margin: 0 4px;
+      border-radius: 50%;
+      background-color: #515163;
+
+      &-active {
+        background-color: #fff;
+      }
+    }
+  }
+}

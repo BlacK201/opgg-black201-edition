@@ -1,0 +1,126 @@
+
+.profile-icon-image {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.profile-lane-image {
+  @extend .flex-center-center;
+  width: 28px;
+  height: 28px;
+  border-radius: 4px;
+  background-color: #282830;
+  margin-right: 8px;
+
+  img {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.multisearch-champion-image {
+  @extend .flex-center-center;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  background-color: #282830;
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.mini-multisearch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 12px;
+  margin-top: 47px;
+  font-size: 11px;
+
+  &-row {
+    display: flex;
+    width: 100%;
+    height: 132px;
+    padding: 12px;
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    background-image: radial-gradient(circle at 50% 0, rgba(50, 50, 60, 0.15), rgba(50, 50, 60, 0.25) 50%);
+    margin-bottom: 4px;
+  }
+
+  &-name {
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  &-tier {
+    color: #7b7a8e;
+    margin-top: 4px;
+  }
+
+  &-stats {
+    & > span:first-child {
+      color: #7b7a8e;
+    }
+
+    & > span:last-child {
+      color: #5383e8;
+    }
+  }
+
+  &-game-kda {
+    @extend .flex-center-center;
+    width: 54px;
+    height: 20px;
+    background-color: #5383e8;
+    border-radius: 2px;
+    margin-bottom: 2px;
+
+    &-win {
+      color: #5383e8;
+      background-color: #22263c;
+    }
+
+    &-lose {
+      background-color: #352326;
+      color: #e84057;
+    }
+
+    &-true {
+      color: #5383e8;
+      background-color: #22263c;
+    }
+
+    &-false {
+      background-color: #352326;
+      color: #e84057;
+    }
+
+    &-remake {
+      background-color: #292935;
+      color: #9e9eb1;
+    }
+  }
+
+  &-season {
+    @extend .flex-center-center;
+    width: fit-content;
+    height: 18px;
+    padding: 0 4px;
+    background-color: #5f32e6;
+    border-radius: 2px;
+  }
+
+  &-lane {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

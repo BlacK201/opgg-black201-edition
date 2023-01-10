@@ -1,0 +1,182 @@
+{
+  "name": "opgg-electron-app",
+  "version": "1.1.8",
+  "description": "",
+  "main": "main/index.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "dev2": "electron-webpack dev",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "publish": "cross-env AWS_ACCESS_KEY_ID=AKIAYBJREVDSMXWKGZYM AWS_SECRET_ACCESS_KEY=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 electron-builder -p always",
+    "win": "electron-builder --windows nsis:x64",
+    "react:dev": "parcel renderer/react.html --port 4000 --no-cache --out-dir ./assets/react",
+    "react:dev2": "parcel renderer/overlay/overlay.html --port 4001 --no-cache --out-dir ./assets/react/overlay",
+    "react:build": "rm -rf ./assets/react && cross-env NODE_ENV=production parcel build renderer/react.html --public-url . --no-source-maps --no-cache --out-dir ./assets/react  && mkdir ./assets/react/assets && cp -rf ./assets/images ./assets/react/assets/images",
+    "react:build-win": "rmdir /s /q assets\\react && cross-env NODE_ENV=production parcel build renderer/react.html --public-url . --no-source-maps --no-cache --out-dir ./assets/react  && xcopy assets\\images assets\\react\\assets\\images\\ /e /i /y /s",
+    "react:build-win-no-sourcemap": "rmdir /s /q assets\\react && cross-env NODE_ENV=production parcel build renderer/react.html --public-url . --no-source-maps --no-cache --out-dir ./assets/react",
+    "react:build-win-no-sourcemap-overlay": "rmdir /s /q assets\\react && cross-env NODE_ENV=production parcel build renderer/react.html --public-url . --no-source-maps --no-cache --out-dir ./assets/react && cross-env NODE_ENV=production parcel build renderer/overlay/overlay.html --public-url . --no-source-maps --no-cache --out-dir ./assets/react/overlay && xcopy assets\\images assets\\react\\assets\\images\\ /e /i /y /s",
+    "react:build-win-sourcemap": "rmdir /s /q assets\\react && cross-env NODE_ENV=production parcel build renderer/react.html --public-url . --no-cache --out-dir ./assets/react",
+    "react:build-win-sourcemap-overlay": "rmdir /s /q assets\\react && cross-env NODE_ENV=production parcel build renderer/react.html --public-url . --no-cache --out-dir ./assets/react && parcel build renderer/overlay/overlay.html --public-url . --no-cache --out-dir ./assets/react/overlay",
+    "react:build-nmp-sourcemap": "rmdir /s /q assets\\react && cross-env NODE_ENV=production VERSION_STRING=nmp parcel build renderer/react.html --public-url . --no-cache --out-dir ./assets/react  && xcopy assets\\images assets\\react\\assets\\images\\ /e /i /y /s",
+    "react:electron": "cross-env NODE_ENV=development IS_REACT=true ELECTRON_START_URL=http://localhost:4000 OVERLAY_START_URL=http://localhost:4001 electron main/index.js",
+    "react:electron-ow": "cross-env NODE_ENV=development IS_REACT=true ELECTRON_START_URL=http://localhost:4000 OVERLAY_START_URL=http://localhost:4001 ow-electron main/index.js --force-cmp",
+    "react:electron-nmp": "cross-env NODE_ENV=development VERSION_STRING=nmp IS_REACT=true ELECTRON_START_URL=http://localhost:4000 electron ./react.js",
+    "react:dist": "cross-env NODE_ENV=production yarn react:build && electron-builder build",
+    "react:dist-ow": "cross-env NODE_ENV=production yarn react:build && ow-electron-builder build --publish=never",
+    "react:dist-win": "cross-env NODE_ENV=production npm run react:build-win-sourcemap && electron-builder",
+    "react:dist-win-no": "cross-env NODE_ENV=production npm run react:build-win-no-sourcemap && electron-builder",
+    "react:dist-win-overlay": "cross-env NODE_ENV=production npm run react:build-win-no-sourcemap-overlay && electron-builder",
+    "react:dist-win-ow": "cross-env NODE_ENV=production npm run react:build-win-no-sourcemap-overlay && ow-electron-builder --publish=never",
+    "react:dist-nmp": "cross-env NODE_ENV=production VERSION_STRING=nmp npm run react:build-nmp-sourcemap && electron-builder build -c.extraMetadata.main=./react.js",
+    "react:publish": "cross-env NODE_ENV=production AWS_ACCESS_KEY_ID=AKIAYBJREVDSMXWKGZYM AWS_SECRET_ACCESS_KEY=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 yarn react:build && electron-builder build -p always",
+    "react:publish-ow": "cross-env NODE_ENV=production AWS_ACCESS_KEY_ID=AKIAYBJREVDSMXWKGZYM AWS_SECRET_ACCESS_KEY=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 yarn react:build && ow-electron-builder build -p always",
+    "react:publish2": "cross-env NODE_ENV=production AWS_ACCESS_KEY_ID=AKIAYBJREVDSB5P4KRH6 AWS_SECRET_ACCESS_KEY=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 npm run react:build && electron-builder build -c.extraMetadata.main=./react.js -p always",
+    "react:publish-win": "cross-env AWS_ACCESS_KEY_ID=AKIAYBJREVDSBOUN2WGG AWS_SECRET_ACCESS_KEY=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 NODE_ENV=production npm run react:build-win && electron-builder -p always",
+    "react:publish-win-overlay": "cross-env AWS_ACCESS_KEY_ID=AKIAYBJREVDSBOUN2WGG AWS_SECRET_ACCESS_KEY=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 NODE_ENV=production npm run react:build-win-no-sourcemap-overlay && electron-builder -p always",
+    "react:publish-win-ow": "cross-env AWS_ACCESS_KEY_ID=AKIAYBJREVDSBOUN2WGG AWS_SECRET_ACCESS_KEY=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 NODE_ENV=production npm run react:build-win-no-sourcemap-overlay && ow-electron-builder -p always",
+    "react:start": "concurrently 'cross-env BROWSER=none yarn react:dev' 'mkdir -p ./assets/react/assets && cp -rf ./assets/images/ ./assets/react/assets/images/' 'wait-on http://localhost:4000 && yarn react:electron'",
+    "react:start-ow": "concurrently 'cross-env BROWSER=none yarn react:dev' 'mkdir -p ./assets/react/assets && cp -rf ./assets/images/ ./assets/react/assets/images/' 'wait-on http://localhost:4000 && yarn react:electron-ow'",
+    "react:start-win": "concurrently \"cross-env BROWSER=none npm run react:dev\" \"cross-env BROWSER=none npm run react:dev2\" \"xcopy assets\\images assets\\react\\assets\\images\\ /e /i /y /s \" \"wait-on http://localhost:4000 && wait-on http://localhost:4001 && npm run react:electron\"",
+    "react:start-win-ow": "concurrently \"cross-env BROWSER=none npm run react:dev\" \"cross-env BROWSER=none npm run react:dev2\" \"xcopy assets\\images assets\\react\\assets\\images\\ /e /i /y /s \" \"wait-on http://localhost:4000 && wait-on http://localhost:4001 && npm run react:electron-ow\"",
+    "react:start-nmp": "concurrently \"cross-env BROWSER=none npm run react:dev\" \"xcopy assets\\images assets\\react\\assets\\images\\ /e /i /y /s \" \"wait-on http://localhost:4000 && npm run react:electron-nmp\"",
+    "react:start-win-prod": "cross-env BROWSER=none npm run react:build-win-sourcemap-overlay && xcopy assets\\images assets\\react\\assets\\images\\ /e /i /y /s && npm run react:electron-prod",
+    "react:electron-prod": "cross-env NODE_ENV=production IS_REACT=true electron ./main/index.js",
+    "wintest": "parcel renderer/react.html",
+    "build:rust": "electron-build-env neon build rust-process --release"
+  },
+  "author": "OP.GG",
+  "devDependencies": {
+    "@overwolf/ow-electron": "^19.1.8-1",
+    "@overwolf/ow-electron-builder": "^23.4.1",
+    "@types/crypto-js": "^4.1.1",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^16.9.9",
+    "@types/react-redux": "^7.1.11",
+    "concurrently": "^5.3.0",
+    "electron": "^19.0.12",
+    "electron-build-env": "^0.2.0",
+    "electron-builder": "^22.14.13",
+    "electron-notarize": "^1.2.2",
+    "electron-rebuild": "^2.3.5",
+    "neon-cli": "^0.9.1",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^4.0.5",
+    "wait-on": "^5.2.1",
+    "webpack": "^5.70.0"
+  },
+  "dependencies": {
+    "@amplitude/node": "^1.5.4",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@reduxjs/toolkit": "^1.5.0",
+    "@tippyjs/react": "^4.2.0",
+    "@types/lodash": "^4.14.168",
+    "@types/react-copy-to-clipboard": "^5.0.0",
+    "@types/react-modal": "^3.12.0",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/react-toastr": "^3.0.4",
+    "@types/redux-logger": "^3.0.8",
+    "@types/toastr": "^2.1.38",
+    "assets": "^3.0.1",
+    "axios": "^0.19.2",
+    "chrome-cookies-secure": "^2.0.0",
+    "cross-env": "^7.0.2",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "electron-updater": "^4.3.4",
+    "i18next": "^19.8.2",
+    "lodash": "^4.17.20",
+    "node-localstorage": "^2.1.6",
+    "os-locale": "^5.0.0",
+    "react": "^17.0.2",
+    "react-copy-to-clipboard": "^5.0.3",
+    "react-dom": "^17.0.2",
+    "react-ga": "^3.3.0",
+    "react-i18next": "^11.8.5",
+    "react-is": "^17.0.2",
+    "react-modal": "^3.12.1",
+    "react-outside-click-handler": "^1.3.0",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-toastr": "^3.0.0",
+    "recharts": "^2.1.4",
+    "redux-logger": "^3.0.6",
+    "sass": "^1.32.8",
+    "styled-components": "^5.3.0",
+    "tippy.js": "^6.2.7",
+    "toastr": "^2.1.4",
+    "universal-analytics": "^0.4.23",
+    "uuid": "^8.3.0",
+    "ws": "^8.5.0",
+    "yaml": "^1.10.0"
+  },
+  "protocol": {
+    "name": "OP.GG",
+    "schemes": [
+      "opgg"
+    ]
+  },
+  "build": {
+    "files": [
+      "!**/{.gitignore,opgg.pfx,README.md,opgg.bat,debug.log,dev-app-update.yml}",
+      "!**/rust-process/src${/*}",
+      "!**/rust-process/native${/*}",
+      "!**/rust-process/target${/*}",
+      "!**/gelectron${/*}",
+      "!**/{package-nmp.json,package-original.json,package-mac.json}",
+      "!**/main/mock${/*}",
+      "!**/build/owutility.dll"
+    ],
+    "extraFiles": [
+      {
+        "from": "assets/i18n/locales",
+        "to": "./locales"
+      }
+    ],
+    "asarUnpack": [
+      "**node_modules/rust-process/**"
+    ],
+    "asar": true,
+    "productName": "OP.GG",
+    "appId": "desktop.op.gg",
+    "publish": [
+      {
+        "provider": "s3",
+        "region": "ap-northeast-2",
+        "bucket": "desktop-app-update",
+        "path": "/",
+        "acl": "public-read"
+      }
+    ],
+    "dmg": {
+      "sign": false
+    },
+    "mac": {
+      "entitlements": "build/entitlements.mac.plist",
+      "entitlementsInherit": "build/entitlements.mac.plist",
+      "hardenedRuntime": true,
+      "gatekeeperAssess": false,
+      "icon": "build/icon.png",
+      "category": "desktop.op.gg"
+    },
+    "win": {
+      "icon": "build/icon.ico",
+      "target": [
+        "nsis"
+      ],
+      "certificateSubjectName": "OP.GG"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": false,
+      "include": "build/installer.nsh"
+    },
+    "afterSign": "build/notarize.js"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
+}

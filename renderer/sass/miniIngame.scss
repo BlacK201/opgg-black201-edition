@@ -1,0 +1,310 @@
+.mini-ingame {
+  height: 100%;
+  padding: 12px;
+  font-size: 12px;
+  overflow: hidden;
+
+  &-user {
+    display: flex;
+    width: 206px;
+    height: 104px;
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 12px 11px -8px rgba(0, 0, 0, 0.67);
+    background-image: radial-gradient(circle at 50% 0, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 71%);
+    z-index: 100;
+  }
+
+  &-table {
+    width: 456px;
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    background-image: radial-gradient(circle at 50% 0, rgba(50, 50, 60, 0.15), rgba(50, 50, 60, 0.25) 94%);
+
+    &-header {
+      &-row {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+
+        &__2 {
+          height: 32px;
+          backdrop-filter: blur(8px);
+          background-image: radial-gradient(circle at 50% 0, rgba(50, 50, 60, 0.15), rgba(50, 50, 60, 0.25) 14%);
+          color: #7b7a8e !important;
+        }
+      }
+      &-column {
+        display: flex;
+        align-items: center;
+        width: 144px;
+        height: 36px;
+
+        &__2 {
+          width: 62px;
+          justify-content: flex-start;
+
+          &:nth-child(4) {
+            justify-content: flex-end;
+          }
+        }
+        &__3 {
+          width: 44px;
+          justify-content: center;
+        }
+        &__eog {
+          width: 91px;
+        }
+        &__damage {
+          width: 71px;
+          justify-content: center;
+        }
+        &__rank {
+          width: 56px;
+          justify-content: center;
+        }
+        &__position {
+          width: 20px;
+        }
+      }
+    }
+
+    &-body {
+      &-row {
+        width: 100%;
+        height: 104px;
+        display: flex;
+        align-items: center;
+
+        &:first-child {
+          margin-top: 6px;
+        }
+        &:last-child {
+          margin-bottom: 6px;
+        }
+      }
+      &-column {
+        display: flex;
+        align-items: center;
+        width: 144px;
+        height: 100%;
+        padding: 6px 12px;
+
+        &__2 {
+          justify-content: center;
+          align-items: flex-start;
+          flex-direction: column;
+          width: 62px;
+          height: 104px;
+          padding: 0;
+        }
+
+        &__3 {
+          justify-content: center;
+          width: 44px;
+          padding: 0;
+        }
+
+        &__eog {
+          width: 91px;
+        }
+
+        &__damage {
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          width: 71px;
+          padding: 0;
+
+          &-right {
+            align-items: flex-end;
+          }
+
+          .eog-stats-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: fit-content;
+            height: 18px;
+            border-radius: 9px;
+            font-size: 11px;
+            color: #fff;
+            padding: 0 8px;
+          }
+          .opscore {
+            background-color: #758592;
+          }
+          .ace {
+            background-color: #7d59ea;
+            font-size: 12px;
+          }
+          .mvp {
+            background-color: #eb9c00;
+            font-size: 12px;
+          }
+        }
+
+        &__rank {
+          width: 56px;
+          justify-content: center;
+        }
+
+        &__position {
+          width: 20px;
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  &-tier {
+    font-weight: normal;
+    font-size: 11px;
+    color: #98a0a7;
+    &-ml {
+      margin-left: 14px;
+    }
+    &-mr {
+      margin-right: 14px;
+    }
+    &-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 19px;
+      margin-bottom: 5px;
+      &-nobg {
+        background-color: transparent;
+      }
+      img {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+
+  .mini-ingame-tier-div {
+    position: absolute;
+    display: flex;
+    top: 23px;
+    left: 19px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: solid 1px #33383c;
+    background-color: #7b858e;
+    padding: 1px 4px;
+
+    &-right {
+      left: initial;
+      right: 19px;
+    }
+  }
+
+  &-profile {
+
+    &-top {
+      position: relative;
+      display: flex;
+      margin: 4px 0;
+
+      .champion-image-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        overflow: hidden;
+        border-radius: 20px;
+        border: solid 2px #2d2d2d;
+
+        img {
+          &:first-child {
+            width: 44px;
+            height: 44px;
+            border-radius: 22px;
+          }
+        }
+      }
+
+      .spell-image-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 19px;
+        height: 40px;
+        border-radius: 2px;
+        overflow-y: hidden;
+
+        &-right {
+          margin-left: 0;
+          margin-right: 4px;
+        }
+        img {
+          width: 19px;
+          height: 19px;
+        }
+
+        .perks-image-wrapper {
+          width: 19px;
+          height: 19px;
+          border-radius: 50%;
+          background-color: #000;
+          overflow: hidden;
+        }
+      }
+    }
+
+    &-bottom {
+      display: flex;
+      flex-direction: column;
+      font-size: 11px;
+      color: #98a0a7;
+
+      &-right {
+        align-items: flex-end;
+      }
+
+      div > span {
+        //color: #ff7905;
+        //font-weight: bold;
+        //margin-left: 4px;
+      }
+
+      .game-played {
+        div > span {
+          color: #98a0a7;
+        }
+      }
+    }
+  }
+}
+
+.mini-ingame-team-area {
+  display: none;
+  position: absolute;
+  width: 228px;
+  height: 100%;
+  backdrop-filter: blur(8px);
+  z-index: -1;
+
+  &-active {
+    display: block;
+  }
+
+  &-red {
+    right: 0;
+    background-image: radial-gradient(circle at 50% 0, rgba(216, 34, 34, 0.15), rgba(56, 55, 9, 0.25) 91%);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+
+  &-blue {
+    background-image: radial-gradient(circle at 50% 0, rgba(19, 24, 194, 0.15) 0%, rgba(16, 68, 63, 0.25) 91%);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+}

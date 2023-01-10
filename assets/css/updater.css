@@ -1,0 +1,74 @@
+html {
+    height: 100%;
+    width: 100%;
+    -webkit-user-select: none;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #282830;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #31313c;
+    border-radius: 7px;
+    height: 7px;
+    box-shadow: inset 2px 2px 5px #31313c,
+    inset -2px -2px 5px #31313c;
+    margin-top: 20px;
+}
+
+.progress-inner {
+    width: 0;
+    height: inherit;
+    border-radius: 5px;
+    background-color: #7d59ea;
+    transition: width 0.2s ease-out 0s;
+    box-shadow: inset 2px 2px 5px #7d59ea,
+    inset -2px -2px 5px #7d59ea;
+}
+.label-updating {
+    margin-left: auto;
+    font-size: 12px;
+    margin-right: 28px;
+    margin-top: 10px;
+    color: #7b7a8e;
+}
+
+.buttons-wrapper {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    bottom: 14px;
+}
+
+.button-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #7d59ea;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 12px;
+}

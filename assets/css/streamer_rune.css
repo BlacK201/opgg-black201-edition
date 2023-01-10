@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+.main {
+    width: 116px;
+    height: 128px;
+    /* background-color: #000; */
+}
+
+.row {
+    display: flex;
+}
+
+img {
+    width: 24px;
+    height: 24px;
+}
